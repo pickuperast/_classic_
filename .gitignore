@@ -1,6 +1,13 @@
-*.i
-*.ii
-*.gpu
-*.ptx
-*.cubin
-*.fatbin
+/Cache/
+/Errors/
+/Logs/
+/Screenshots/
+/Utils/
+.flavor.info
+.curseclient
+BlizzardError.exe
+World of Warcraft Launcher.exe
+WoW.mfil
+WowClassic.exe
+GFSDK_Aftermath_Lib.x64.dll
+DBGHELP.DLL
