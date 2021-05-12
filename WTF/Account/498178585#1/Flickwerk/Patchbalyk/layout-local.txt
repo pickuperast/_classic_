@@ -1,0 +1,8 @@
+Version: 1
+Frame: FishingWatchFrame
+FrameLevel: 1
+Anchor: LEFT
+X: 12
+Y: 40
+W: 303
+H: 227

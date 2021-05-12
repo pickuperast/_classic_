@@ -1,0 +1,13 @@
+
+AtlasLootClassicDB = {
+	["profileKeys"] = {
+		["Еве - Пламегор"] = "Еве - Пламегор",
+	},
+	["global"] = {
+		["__addonrevision"] = 1050001,
+	},
+	["profiles"] = {
+		["Еве - Пламегор"] = {
+		},
+	},
+}

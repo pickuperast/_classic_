@@ -1,0 +1,40 @@
+VER 3 000000000000000C "3" "132112"
+/stopcasting
+/use Блесна
+/use Удочка
+END
+VER 3 000000000000000A "assist" "INV_MISC_QUESTIONMARK"
+/target Колёсяя
+END
+VER 3 0000000000000008 "CHECK" "INV_MISC_QUESTIONMARK"
+/readycheck
+END
+VER 3 0000000000000006 "D3" "132152"
+/run for b=0,4 do for s=1,16 do n=GetContainerItemLink(b,s);if n and (string.find(n,"Сырая каменношкурая треска") or string.find(n,"47-фунтовый морской окунь")) then PickupContainerItem(b,s);DeleteCursorItem();end;end;end;
+END
+VER 3 0000000000000009 "foll" "INV_MISC_QUESTIONMARK"
+/assist Народныйбанк
+/cast Порча
+END
+VER 3 0000000000000007 "O1" "INV_MISC_QUESTIONMARK"
+/use Моллюск-болтун
+/use Тяжелый ящик
+/use Продавленный ящик
+/use Послание в бутылке
+/use Запечатанный ящик
+END
+VER 3 000000000000000B "port" "132093"
+/4 куплю портал Дарнасс->Штормград
+END
+VER 3 0000000000000003 "SELL" "132102"
+/yell продам облик пирата/ниндзя на 1ч за 25 серебра
+END
+VER 3 000000000000000D "TAR" "INV_MISC_QUESTIONMARK"
+/target Аукционер Краснушка
+END
+VER 3 0000000000000002 "ДА" "132100"
+/4 куплю крафт инженера Экстремальные очки силы заклинаний
+END
+VER 3 0000000000000001 "вы" "132185"
+/2 ищу кузнеца
+END

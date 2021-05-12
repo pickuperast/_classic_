@@ -1,0 +1,22 @@
+VER 3 0000000000000004 "a-Q" "136220"
+/cancelaura облик медведя
+/cancelaura облик кошки
+END
+VER 3 0000000000000003 "e" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cancelaura облик кошки
+/cast облик медведя
+END
+VER 3 0000000000000002 "q" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cancelaura облик медведя
+/cast облик кошки
+END
+VER 3 0000000000000001 "|cffff0000DELETE" "132096"
+/use Моллюск-болтун
+/use Тяжелый ящик
+/use Продавленный ящик
+/use Послание в бутылке
+/use Запечатанный ящик
+/use 
+END

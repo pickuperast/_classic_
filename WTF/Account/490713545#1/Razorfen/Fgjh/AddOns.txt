@@ -1,0 +1,22 @@
+WeakAurasCompanion: enabled
+WeakAurasArchive: disabled
+Dejunk: enabled
+Guidelime: disabled
+Guidelime_Bustea's 1-60 leveling: disabled
+WhatsTraining: disabled
+WeaponSwingTimer: disabled
+Tukui: disabled
+Auctionator: disabled
+VendorPrice: disabled
+TitanClassic: disabled
+TitanClassicXP: disabled
+TitanClassicVolume: disabled
+TitanClassicRepair: disabled
+TitanClassicRegen: disabled
+TitanClassicPerformance: disabled
+TitanClassicLootType: disabled
+TitanClassicLocation: disabled
+TitanClassicBag: disabled
+TitanClassicAmmo: disabled
+TitanClassicGold: disabled
+TitanClassicClock: disabled

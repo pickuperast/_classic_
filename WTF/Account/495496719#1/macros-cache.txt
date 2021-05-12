@@ -1,0 +1,33 @@
+VER 3 0000000000000001 "3" "132112"
+/stopcasting
+/use Bright Baubles
+/use Strong Fishing Pole
+END
+VER 3 0000000000000002 "4" "INV_MISC_QUESTIONMARK"
+/use Großmaulmuschel
+/use Schwere Kiste
+/use Zerbeulte Kiste
+/use Flaschenpost
+/use Versiegelte Kiste
+/use Kleine verschlossene Truhe
+/use Big-mouth Clam
+/use Heavy Crate
+/use Послание в бутылке
+/use Моллюск-болтун
+/use Тяжелый ящик
+END
+VER 3 0000000000000003 "7" "136223"
+/quit
+END
+VER 3 0000000000000004 "AUK_1" "INV_MISC_QUESTIONMARK"
+/click TSMStartPostScanBtn
+END
+VER 3 0000000000000005 "AUK_2" "INV_MISC_QUESTIONMARK"
+/click TSMAuctioningBtn
+END
+VER 3 0000000000000006 "AUK_3" "INV_MISC_QUESTIONMARK"
+/click TSMMailOpenAllBtn
+END
+VER 3 0000000000000007 "log" "135768"
+/logout
+END

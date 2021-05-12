@@ -1,0 +1,31 @@
+
+AtlasLootClassicDB = {
+	["profileKeys"] = {
+		["Druiida - Patchwerk"] = "Druiida - Patchwerk",
+		["Madinych - Patchwerk"] = "Madinych - Patchwerk",
+	},
+	["global"] = {
+		["__addonrevision"] = 1050001,
+	},
+	["profiles"] = {
+		["Druiida - Patchwerk"] = {
+			["minimap"] = {
+				["minimapPos"] = 251.781824011486,
+			},
+		},
+		["Madinych - Patchwerk"] = {
+			["minimap"] = {
+				["minimapPos"] = 263.185696548353,
+			},
+			["GUI"] = {
+				["selected"] = {
+					nil, -- [1]
+					"Ragefire", -- [2]
+					nil, -- [3]
+					1, -- [4]
+					0, -- [5]
+				},
+			},
+		},
+	},
+}

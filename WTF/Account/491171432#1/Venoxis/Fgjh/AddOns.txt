@@ -1,0 +1,8 @@
+WeakAurasCompanion: enabled
+WeakAurasArchive: enabled
+Dejunk: enabled
+Guidelime: enabled
+Guidelime_Bustea's 1-60 leveling: enabled
+WhatsTraining: enabled
+WeaponSwingTimer: enabled
+Tukui: disabled

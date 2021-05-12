@@ -1,0 +1,40 @@
+VER 3 000000000000000A "3" "132112"
+/stopcasting
+/use Bright Baubles
+/use Fishing Pole
+END
+VER 3 0000000000000009 "33" "INV_MISC_QUESTIONMARK"
+#showtooltip Schlangenbiss
+/cast Automatischer Schuss
+/cast Schlangenbiss
+/petattack
+END
+VER 3 0000000000000001 "5" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Tier füttern
+/use Glitschhautmakrele
+END
+VER 3 0000000000000003 "auc" "132150"
+/target Auktionatorin Redmuse
+/target Auctioneer Redmuse
+END
+VER 3 0000000000000004 "LOO||GOUT" "135768"
+/cast Schattenhaftigkeit(Volk)
+/cast Shadowmeld
+/logout
+END
+VER 3 0000000000000002 "open" "132092"
+/use Zerbeulte Kiste
+/use Big-mouth Clam
+END
+VER 3 0000000000000007 "POST" "INV_MISC_QUESTIONMARK"
+/click TSMAuctioningBtn
+END
+VER 3 0000000000000008 "POSTAL" "135998"
+/click TSMMailOpenSalesBtn
+/click TSMMailOpenExpiresBtn
+/click TSMMailOpenAllBtn
+END
+VER 3 0000000000000006 "TSMMacro" "INV_Misc_Flower_01"
+/click TSMStartPostScanBtn
+END

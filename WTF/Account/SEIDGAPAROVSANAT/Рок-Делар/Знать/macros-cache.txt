@@ -1,0 +1,33 @@
+VER 3 0000000001000001 "1" "INV_MISC_QUESTIONMARK"
+#SHOWTOOLTIP
+/cast ЖЕРТВОПРИНОШЕНИЕ
+END
+VER 3 0000000001000002 "2" "INV_MISC_QUESTIONMARK"
+#SHOWTOOLTIP
+/cast СОБЛАЗНЕНИЕ
+END
+VER 3 0000000001000004 "2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/cast ожог тьмы
+END
+VER 3 0000000001000003 "22" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/cast стрела тьмы
+END
+VER 3 0000000001000005 "3" "INV_MISC_QUESTIONMARK"
+#showtooltip Проклятие агонии
+/cast Усиление проклятия
+/cast Проклятие агонии
+END
+VER 3 0000000001000007 "33" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/cast Лик смерти
+END
+VER 3 0000000001000006 "4" "INV_MISC_QUESTIONMARK"
+#showtooltip Проклятие изнеможения
+/cast Усиление проклятия
+/cast Проклятие изнеможения
+END

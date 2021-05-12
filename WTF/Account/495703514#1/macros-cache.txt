@@ -1,0 +1,26 @@
+VER 3 0000000000000001 "3" "132112"
+/stopcasting
+/use Bright Baubles
+/use Fishing Pole
+END
+VER 3 0000000000000002 "4" "INV_MISC_QUESTIONMARK"
+/use Großmaulmuschel
+/use Schwere Kiste
+/use Zerbeulte Kiste
+/use Flaschenpost
+/use Versiegelte Kiste
+/use Kleine verschlossene Truhe
+/use Big-mouth Clam
+/use Heavy Crate
+/use Послание в бутылке
+/use Моллюск-болтун
+/use Тяжелый ящик
+END
+VER 3 0000000000000003 "7" "136223"
+/quit
+END
+VER 3 0000000000000004 "log" "135768"
+/cast Freezing Trap
+/lie
+/logout
+END

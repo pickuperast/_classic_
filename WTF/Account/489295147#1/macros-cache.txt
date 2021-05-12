@@ -1,0 +1,44 @@
+VER 3 0000000000000008 "123" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [pet, nodead] Кормление питомца
+/use [pet, nodead] Блестящая рыбка
+END
+VER 3 0000000000000007 "a" "136087"
+/cast укус змеи
+END
+VER 3 0000000000000003 "bear" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cancelaura облик кошки
+/cast облик медведя
+END
+VER 3 0000000000000001 "CAT" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cancelaura облик медведя
+/cast облик кошки
+END
+VER 3 0000000000000004 "CAT2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cancelaura облик медведя
+/cast облик кошки
+END
+VER 3 0000000000000009 "FISH" "135859"
+/stopcasting
+/use Яркая побрякушка
+/use Удочка
+END
+VER 3 0000000000000002 "Human" "135877"
+/cancelform
+END
+VER 3 0000000000000006 "w" "132093"
+/w Програмиста Жена моя любимя возьми у него задание
+END
+VER 3 0000000000000005 "|cffff0000DEL" "INV_MISC_QUESTIONMARK"
+/use Моллюск-болтун
+/use Тяжелый ящик
+/use Продавленный ящик
+/use Послание в бутылке
+/use Запечатанный ящик
+END
+VER 3 000000000000000A "ф" "132127"
+/5 приму на АФК кач ОП 1г за ран
+END

@@ -1,0 +1,10 @@
+VER 3 0000000001000001 "1" "INV_MISC_QUESTIONMARK"
+#showtooltip удар ящера
+/cast Кровавое неистовство
+/cast удар ящера
+END
+VER 3 0000000001000002 "1" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast автоматическая стрельба
+/cast укус змеи 
+END

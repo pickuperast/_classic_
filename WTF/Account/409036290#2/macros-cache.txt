@@ -1,0 +1,8 @@
+VER 3 0000000000000003 "follow" "INV_MISC_QUESTIONMARK"
+/follow Знать
+END
+VER 3 0000000000000002 "hbCrashProt_0" "Spell_Holy_SealOfSacrifice"
+1:N
+END
+VER 3 0000000000000001 "hbCrashProt_1" "Spell_Holy_SealOfSacrifice"
+END

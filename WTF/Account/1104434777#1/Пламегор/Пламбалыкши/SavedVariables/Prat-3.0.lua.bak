@@ -1,0 +1,2078 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 5,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:58:58]|h|r Соединение со службой Blizzard разорвано.",
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["b"] = 0,
+					["serverTime"] = 1620763138,
+					["timestamp"] = 123362.528,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:24:23]|h|r Соединение со службой Blizzard разорвано.",
+					["r"] = 1,
+					["b"] = 0,
+					["g"] = 1,
+					["timestamp"] = 123362.528,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["serverTime"] = 1620768263,
+				}, -- [2]
+				{
+					["message"] = "0 д., 0 ч., 33 мин., 39 сек.",
+					["timestamp"] = 123362.528,
+				}, -- [3]
+				{
+					["message"] = "========== Конец истории сообщений ==========",
+					["timestamp"] = 123362.528,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:00:25]|h|r Соединение со службой Blizzard разорвано.",
+					["serverTime"] = 1620781224,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 134306.381,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [5]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 5,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:58:58]|h|r Соединение со службой Blizzard разорвано.",
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["b"] = 0,
+					["serverTime"] = 1620763138,
+					["timestamp"] = 123362.528,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:24:23]|h|r Соединение со службой Blizzard разорвано.",
+					["r"] = 1,
+					["b"] = 0,
+					["g"] = 1,
+					["timestamp"] = 123362.528,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["serverTime"] = 1620768263,
+				}, -- [2]
+				{
+					["message"] = "0 д., 0 ч., 33 мин., 39 сек.",
+					["timestamp"] = 123362.528,
+				}, -- [3]
+				{
+					["message"] = "========== Конец истории сообщений ==========",
+					["timestamp"] = 123362.528,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:00:25]|h|r Соединение со службой Blizzard разорвано.",
+					["serverTime"] = 1620781224,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 134306.381,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [5]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 5,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:58:58]|h|r Соединение со службой Blizzard разорвано.",
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["b"] = 0,
+					["serverTime"] = 1620763138,
+					["timestamp"] = 123362.528,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:24:23]|h|r Соединение со службой Blizzard разорвано.",
+					["r"] = 1,
+					["b"] = 0,
+					["g"] = 1,
+					["timestamp"] = 123362.528,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["serverTime"] = 1620768263,
+				}, -- [2]
+				{
+					["message"] = "0 д., 0 ч., 33 мин., 39 сек.",
+					["timestamp"] = 123362.528,
+				}, -- [3]
+				{
+					["message"] = "========== Конец истории сообщений ==========",
+					["timestamp"] = 123362.528,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:00:25]|h|r Соединение со службой Blizzard разорвано.",
+					["serverTime"] = 1620781224,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 134306.381,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [5]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 5,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:58:58]|h|r Соединение со службой Blizzard разорвано.",
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["b"] = 0,
+					["serverTime"] = 1620763138,
+					["timestamp"] = 123362.528,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:24:23]|h|r Соединение со службой Blizzard разорвано.",
+					["r"] = 1,
+					["b"] = 0,
+					["g"] = 1,
+					["timestamp"] = 123362.528,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["serverTime"] = 1620768263,
+				}, -- [2]
+				{
+					["message"] = "0 д., 0 ч., 33 мин., 39 сек.",
+					["timestamp"] = 123362.528,
+				}, -- [3]
+				{
+					["message"] = "========== Конец истории сообщений ==========",
+					["timestamp"] = 123362.528,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:00:25]|h|r Соединение со службой Blizzard разорвано.",
+					["serverTime"] = 1620781224,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 134306.381,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [5]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 5,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:58:58]|h|r Соединение со службой Blizzard разорвано.",
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["b"] = 0,
+					["serverTime"] = 1620763138,
+					["timestamp"] = 123362.528,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:24:23]|h|r Соединение со службой Blizzard разорвано.",
+					["r"] = 1,
+					["b"] = 0,
+					["g"] = 1,
+					["timestamp"] = 123362.528,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["serverTime"] = 1620768263,
+				}, -- [2]
+				{
+					["message"] = "0 д., 0 ч., 33 мин., 39 сек.",
+					["timestamp"] = 123362.528,
+				}, -- [3]
+				{
+					["message"] = "========== Конец истории сообщений ==========",
+					["timestamp"] = 123362.528,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:00:25]|h|r Соединение со службой Blizzard разорвано.",
+					["serverTime"] = 1620781224,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 134306.381,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [5]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 5,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:58:58]|h|r Соединение со службой Blizzard разорвано.",
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["b"] = 0,
+					["serverTime"] = 1620763138,
+					["timestamp"] = 123362.528,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:24:23]|h|r Соединение со службой Blizzard разорвано.",
+					["r"] = 1,
+					["b"] = 0,
+					["g"] = 1,
+					["timestamp"] = 123362.528,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["serverTime"] = 1620768263,
+				}, -- [2]
+				{
+					["message"] = "0 д., 0 ч., 33 мин., 39 сек.",
+					["timestamp"] = 123362.528,
+				}, -- [3]
+				{
+					["message"] = "========== Конец истории сообщений ==========",
+					["timestamp"] = 123362.528,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:00:25]|h|r Соединение со службой Blizzard разорвано.",
+					["serverTime"] = 1620781224,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 134306.381,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [5]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 5,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:58:58]|h|r Соединение со службой Blizzard разорвано.",
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["b"] = 0,
+					["serverTime"] = 1620763138,
+					["timestamp"] = 123362.528,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:24:23]|h|r Соединение со службой Blizzard разорвано.",
+					["r"] = 1,
+					["b"] = 0,
+					["g"] = 1,
+					["timestamp"] = 123362.528,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["serverTime"] = 1620768263,
+				}, -- [2]
+				{
+					["message"] = "0 д., 0 ч., 33 мин., 39 сек.",
+					["timestamp"] = 123362.528,
+				}, -- [3]
+				{
+					["message"] = "========== Конец истории сообщений ==========",
+					["timestamp"] = 123362.528,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:00:25]|h|r Соединение со службой Blizzard разорвано.",
+					["serverTime"] = 1620781224,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 134306.381,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [5]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 5,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:58:58]|h|r Соединение со службой Blizzard разорвано.",
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["b"] = 0,
+					["serverTime"] = 1620763138,
+					["timestamp"] = 123362.528,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:24:23]|h|r Соединение со службой Blizzard разорвано.",
+					["r"] = 1,
+					["b"] = 0,
+					["g"] = 1,
+					["timestamp"] = 123362.528,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["serverTime"] = 1620768263,
+				}, -- [2]
+				{
+					["message"] = "0 д., 0 ч., 33 мин., 39 сек.",
+					["timestamp"] = 123362.528,
+				}, -- [3]
+				{
+					["message"] = "========== Конец истории сообщений ==========",
+					["timestamp"] = 123362.528,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:00:25]|h|r Соединение со службой Blizzard разорвано.",
+					["serverTime"] = 1620781224,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 134306.381,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [5]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 43,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:57:40]|h|r Ваша добыча: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
+					["serverTime"] = 1620781060,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134141.5,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:57:42]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
+					["timestamp"] = 134143.406,
+					["serverTime"] = 1620781062,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:57:45]|h|r [СЕРВЕР] Завершение работы через 2:45",
+					["serverTime"] = 1620781065,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134146.196,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:57:46]|h|r [СЕРВЕР] Завершение работы через 2:45",
+					["serverTime"] = 1620781066,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134147.146,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:58:00]|h|r [СЕРВЕР] Завершение работы через 2:30",
+					["serverTime"] = 1620781080,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134161.246,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:58:01]|h|r [СЕРВЕР] Завершение работы через 2:30",
+					["serverTime"] = 1620781081,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134162.171,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:58:01]|h|r Ваша добыча: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
+					["serverTime"] = 1620781081,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134162.511,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:58:03]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
+					["timestamp"] = 134164.378,
+					["serverTime"] = 1620781083,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:58:11]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["serverTime"] = 1620781091,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134172.315,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:58:12]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 134173.861,
+					["serverTime"] = 1620781092,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:58:15]|h|r [СЕРВЕР] Завершение работы через 2:15",
+					["serverTime"] = 1620781095,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134176.224,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:58:16]|h|r [СЕРВЕР] Завершение работы через 2:15",
+					["serverTime"] = 1620781096,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134177.179,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:58:27]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["serverTime"] = 1620781107,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134188.239,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:58:28]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 134189.784,
+					["serverTime"] = 1620781108,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:58:30]|h|r [СЕРВЕР] Завершение работы через 2:00",
+					["serverTime"] = 1620781110,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134191.315,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:58:31]|h|r [СЕРВЕР] Завершение работы через 2:00",
+					["serverTime"] = 1620781111,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134192.165,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:58:45]|h|r [СЕРВЕР] Завершение работы через 1:45",
+					["serverTime"] = 1620781125,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134206.315,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:58:46]|h|r [СЕРВЕР] Завершение работы через 1:45",
+					["serverTime"] = 1620781126,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134207.215,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:58:54]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["serverTime"] = 1620781134,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134214.953,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:58:55]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 134216.544,
+					["serverTime"] = 1620781135,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:59:00]|h|r [СЕРВЕР] Завершение работы через 1:30",
+					["serverTime"] = 1620781140,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134221.369,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:59:01]|h|r [СЕРВЕР] Завершение работы через 1:30",
+					["serverTime"] = 1620781141,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134222.219,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:59:07]|h|r Ваша добыча: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
+					["serverTime"] = 1620781147,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134228.606,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:59:09]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
+					["timestamp"] = 134230.822,
+					["serverTime"] = 1620781149,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:59:14]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 134235.35,
+					["serverTime"] = 1620781154,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:59:15]|h|r [СЕРВЕР] Завершение работы через 1:15",
+					["serverTime"] = 1620781155,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134236.395,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:59:16]|h|r [СЕРВЕР] Завершение работы через 1:15",
+					["serverTime"] = 1620781156,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134237.213,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:59:19]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 134240.531,
+					["serverTime"] = 1620781159,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:59:30]|h|r [СЕРВЕР] Завершение работы через 1:00",
+					["serverTime"] = 1620781170,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134251.259,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:59:30]|h|r [СЕРВЕР] Завершение работы через 1:00",
+					["serverTime"] = 1620781170,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134251.395,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:59:30]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["serverTime"] = 1620781170,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134251.805,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:59:32]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 134253.386,
+					["serverTime"] = 1620781172,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:59:45]|h|r [СЕРВЕР] Завершение работы через 0:45",
+					["serverTime"] = 1620781185,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134266.271,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:59:45]|h|r [СЕРВЕР] Завершение работы через 0:45",
+					["serverTime"] = 1620781185,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134266.471,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:59:55]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["serverTime"] = 1620781195,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134276.617,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:59:57]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 134278.254,
+					["serverTime"] = 1620781197,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:00:00]|h|r [СЕРВЕР] Завершение работы через 0:30",
+					["serverTime"] = 1620781200,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134281.275,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:00:00]|h|r [СЕРВЕР] Завершение работы через 0:30",
+					["serverTime"] = 1620781200,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134281.475,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:00:15]|h|r [СЕРВЕР] Завершение работы через 0:15",
+					["serverTime"] = 1620781214,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134296.275,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:00:15]|h|r [СЕРВЕР] Завершение работы через 0:15",
+					["serverTime"] = 1620781214,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134296.525,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:00:22]|h|r Ваша добыча: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
+					["serverTime"] = 1620781221,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134303.878,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:00:25]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
+					["timestamp"] = 134306.154,
+					["serverTime"] = 1620781224,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:00:25]|h|r Соединение со службой Blizzard разорвано.",
+					["serverTime"] = 1620781224,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 134306.381,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:49:03]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["serverTime"] = 1620780543,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 133624.27,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:49:04]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 133625.906,
+					["serverTime"] = 1620780544,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:49:28]|h|r Ваша добыча: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
+					["serverTime"] = 1620780568,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 133649.065,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:49:30]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
+					["timestamp"] = 133651.131,
+					["serverTime"] = 1620780570,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:49:30]|h|r [СЕРВЕР] Завершение работы через 11:00",
+					["serverTime"] = 1620780570,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 133651.131,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:49:30]|h|r [СЕРВЕР] Завершение работы через 11:00",
+					["serverTime"] = 1620780570,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 133651.731,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:49:44]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["serverTime"] = 1620780584,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 133665.174,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:49:45]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 133666.72,
+					["serverTime"] = 1620780585,
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:50:12]|h|r Ваша добыча: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
+					["serverTime"] = 1620780612,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 133693.386,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:50:14]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
+					["timestamp"] = 133695.622,
+					["serverTime"] = 1620780614,
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:50:28]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["serverTime"] = 1620780628,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 133709.333,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:50:29]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 133710.605,
+					["serverTime"] = 1620780629,
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:50:30]|h|r [СЕРВЕР] Завершение работы через 10:00",
+					["serverTime"] = 1620780630,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 133711.332,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:50:30]|h|r [СЕРВЕР] Завершение работы через 10:00",
+					["serverTime"] = 1620780630,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 133711.788,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:50:34]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 133715.201,
+					["serverTime"] = 1620780634,
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:50:58]|h|r Ваша добыча: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
+					["serverTime"] = 1620780658,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 133738.97,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:50:59]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
+					["timestamp"] = 133740.833,
+					["serverTime"] = 1620780659,
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:51:15]|h|r Ваша добыча: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
+					["serverTime"] = 1620780675,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 133756.221,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:51:17]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
+					["timestamp"] = 133758.221,
+					["serverTime"] = 1620780677,
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:51:27]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["serverTime"] = 1620780687,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 133767.935,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:51:28]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 133769.481,
+					["serverTime"] = 1620780688,
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:51:30]|h|r [СЕРВЕР] Завершение работы через 9:00",
+					["serverTime"] = 1620780690,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 133771.435,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:51:30]|h|r [СЕРВЕР] Завершение работы через 9:00",
+					["serverTime"] = 1620780690,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 133771.862,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:51:35]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["serverTime"] = 1620780695,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 133776.306,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:51:36]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 133777.817,
+					["serverTime"] = 1620780696,
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:52:00]|h|r Ваша добыча: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
+					["serverTime"] = 1620780720,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 133800.944,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:52:02]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
+					["timestamp"] = 133803.052,
+					["serverTime"] = 1620780722,
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:52:15]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 133816.616,
+					["serverTime"] = 1620780735,
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:52:25]|h|r Ваша добыча: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
+					["serverTime"] = 1620780745,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 133826.744,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:52:27]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
+					["timestamp"] = 133828.895,
+					["serverTime"] = 1620780747,
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:52:30]|h|r [СЕРВЕР] Завершение работы через 8:00",
+					["serverTime"] = 1620780750,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 133831.558,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:52:30]|h|r [СЕРВЕР] Завершение работы через 8:00",
+					["serverTime"] = 1620780750,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 133831.908,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:52:39]|h|r Ваша добыча: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
+					["serverTime"] = 1620780759,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 133840.773,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:52:42]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
+					["timestamp"] = 133843.056,
+					["serverTime"] = 1620780762,
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:53:06]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["serverTime"] = 1620780786,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 133866.95,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:53:07]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 133868.496,
+					["serverTime"] = 1620780787,
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:53:23]|h|r Ваша добыча: |cffffffff|Hitem:6358::::::::10:::::::|h[Масляный черноротик]|h|r.",
+					["serverTime"] = 1620780803,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 133884.914,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:53:25]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 133886.876,
+					["serverTime"] = 1620780805,
+				}, -- [81]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:53:30]|h|r [СЕРВЕР] Завершение работы через 7:00",
+					["serverTime"] = 1620780810,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 133891.689,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:53:31]|h|r [СЕРВЕР] Завершение работы через 7:00",
+					["serverTime"] = 1620780811,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 133891.939,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:53:38]|h|r Ваша добыча: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
+					["serverTime"] = 1620780818,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 133899.084,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:53:40]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
+					["timestamp"] = 133901.266,
+					["serverTime"] = 1620780820,
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:53:44]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 133905.49,
+					["serverTime"] = 1620780824,
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:53:55]|h|r Ваша добыча: |cffffffff|Hitem:6358::::::::10:::::::|h[Масляный черноротик]|h|r.",
+					["serverTime"] = 1620780835,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 133916.799,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:53:57]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 133918.58,
+					["serverTime"] = 1620780837,
+				}, -- [88]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:54:21]|h|r Ваша добыча: |cffffffff|Hitem:6358::::::::10:::::::|h[Масляный черноротик]|h|r.",
+					["serverTime"] = 1620780861,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 133942.085,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:54:22]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 133943.514,
+					["serverTime"] = 1620780862,
+				}, -- [90]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:54:27]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 133948.491,
+					["serverTime"] = 1620780867,
+				}, -- [91]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:54:30]|h|r [СЕРВЕР] Завершение работы через 6:00",
+					["serverTime"] = 1620780870,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 133951.809,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [92]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:54:31]|h|r [СЕРВЕР] Завершение работы через 6:00",
+					["serverTime"] = 1620780871,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 133951.991,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [93]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:54:39]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["serverTime"] = 1620780879,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 133960.705,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [94]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:54:40]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 133961.841,
+					["serverTime"] = 1620780880,
+				}, -- [95]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:54:50]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["serverTime"] = 1620780890,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 133971.149,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [96]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:54:51]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 133972.74,
+					["serverTime"] = 1620780891,
+				}, -- [97]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:55:09]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["serverTime"] = 1620780909,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 133990.78,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [98]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:55:10]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 133991.825,
+					["serverTime"] = 1620780910,
+				}, -- [99]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:55:30]|h|r [СЕРВЕР] Завершение работы через 5:00",
+					["serverTime"] = 1620780930,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134011.911,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [100]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:55:31]|h|r [СЕРВЕР] Завершение работы через 5:00",
+					["serverTime"] = 1620780931,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134012.061,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [101]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:55:40]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 134021.85,
+					["serverTime"] = 1620780940,
+				}, -- [102]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:55:46]|h|r [СЕРВЕР] Завершение работы через 4:45",
+					["serverTime"] = 1620780946,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134026.968,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [103]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:55:46]|h|r [СЕРВЕР] Завершение работы через 4:45",
+					["serverTime"] = 1620780946,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134027.068,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [104]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:56:01]|h|r [СЕРВЕР] Завершение работы через 4:30",
+					["serverTime"] = 1620780961,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134041.968,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [105]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:56:01]|h|r [СЕРВЕР] Завершение работы через 4:30",
+					["serverTime"] = 1620780961,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134042.068,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [106]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:56:06]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["serverTime"] = 1620780966,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134047.56,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [107]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:56:07]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 134048.651,
+					["serverTime"] = 1620780967,
+				}, -- [108]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:56:12]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 134053.716,
+					["serverTime"] = 1620780972,
+				}, -- [109]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:56:16]|h|r [СЕРВЕР] Завершение работы через 4:15",
+					["serverTime"] = 1620780976,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134057.001,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [110]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:56:16]|h|r [СЕРВЕР] Завершение работы через 4:15",
+					["serverTime"] = 1620780976,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134057.101,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [111]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:56:23]|h|r Ваша добыча: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
+					["serverTime"] = 1620780983,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134064.507,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [112]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:56:25]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
+					["timestamp"] = 134066.622,
+					["serverTime"] = 1620780985,
+				}, -- [113]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:56:31]|h|r [СЕРВЕР] Завершение работы через 4:00",
+					["serverTime"] = 1620780991,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134072.027,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [114]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:56:31]|h|r [СЕРВЕР] Завершение работы через 4:00",
+					["serverTime"] = 1620780991,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134072.073,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [115]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:56:32]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 134073.755,
+					["serverTime"] = 1620780992,
+				}, -- [116]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:56:46]|h|r [СЕРВЕР] Завершение работы через 3:45",
+					["serverTime"] = 1620781006,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134087.081,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [117]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:56:46]|h|r [СЕРВЕР] Завершение работы через 3:45",
+					["serverTime"] = 1620781006,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134087.131,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [118]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:56:50]|h|r Ваша добыча: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
+					["serverTime"] = 1620781010,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134091.12,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [119]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:56:52]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
+					["timestamp"] = 134092.978,
+					["serverTime"] = 1620781012,
+				}, -- [120]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:57:01]|h|r [СЕРВЕР] Завершение работы через 3:30",
+					["serverTime"] = 1620781021,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134102.109,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [121]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:57:01]|h|r [СЕРВЕР] Завершение работы через 3:30",
+					["serverTime"] = 1620781021,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134102.109,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [122]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:57:16]|h|r [СЕРВЕР] Завершение работы через 3:15",
+					["serverTime"] = 1620781036,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134117.11,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [123]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:57:16]|h|r [СЕРВЕР] Завершение работы через 3:15",
+					["serverTime"] = 1620781036,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134117.156,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [124]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:57:16]|h|r Ваша добыча: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
+					["serverTime"] = 1620781036,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134117.246,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [125]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:57:18]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
+					["timestamp"] = 134119.252,
+					["serverTime"] = 1620781038,
+				}, -- [126]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:57:30]|h|r [СЕРВЕР] Завершение работы через 3:00",
+					["serverTime"] = 1620781050,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134131.152,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [127]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:57:31]|h|r [СЕРВЕР] Завершение работы через 3:00",
+					["serverTime"] = 1620781051,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 134132.152,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [128]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

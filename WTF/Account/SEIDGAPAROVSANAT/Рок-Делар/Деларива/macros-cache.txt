@@ -1,0 +1,16 @@
+VER 3 0000000001000001 "1" "INV_MISC_QUESTIONMARK"
+#showtooltip Удар щитом
+/stopcasting
+/equip [stance:1/2] Солдатский щит со знаком ловкости
+/equip [stance:1/2] Тесак Мясника
+/cast [stance:1/2] Удар щитом
+/cast [stance:3] Зуботычина
+END
+VER 3 0000000001000003 "123" "132104"
+/4 дд в кладбище
+END
+VER 3 0000000001000002 "123" "132149"
+#showtooltip
+/cast Рывок
+/cast Оборонительная стойка
+END

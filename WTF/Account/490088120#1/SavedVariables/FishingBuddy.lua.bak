@@ -1,0 +1,159 @@
+
+FishingBuddy_Info = {
+	["FishTotals"] = {
+		[1446001] = 18074,
+		[1414000] = 25,
+		[1414001] = 25,
+		[1440000] = 19230,
+		[1440001] = 19230,
+		[1446000] = 18074,
+	},
+	["HiddenFishies"] = {
+	},
+	["FishingSkill"] = {
+		[1414001] = 0,
+		[1440001] = 0,
+		[1446001] = 0,
+	},
+	["DataFish"] = 0,
+	["FishingHoles"] = {
+		[1414001] = {
+			[6361] = 16,
+			[6359] = 2,
+			[6354] = 1,
+			[6358] = 6,
+		},
+		[1440001] = {
+			[6358] = 4847,
+			[6360] = 2,
+			[6354] = 97,
+			[6352] = 86,
+			[6361] = 12219,
+			[6307] = 91,
+			[6359] = 1888,
+		},
+		[1446001] = {
+			[13875] = 59,
+			[6362] = 1835,
+			[13422] = 2175,
+			[13754] = 2559,
+			[13756] = 1134,
+			[13878] = 18,
+			[13877] = 26,
+			[13874] = 35,
+			[4603] = 7412,
+			[6359] = 1796,
+			[13876] = 46,
+			[7973] = 979,
+		},
+	},
+	["Version"] = 19500,
+	["KnownZones"] = {
+		[1440] = "The Zoram Strand",
+		[1414] = "The Zoram Strand",
+		[1446] = "Southbreak Shore",
+	},
+	["SubZones"] = {
+		[1446001] = "Southbreak Shore",
+		[1414000] = 1,
+		[1414001] = "The Zoram Strand",
+		[1440000] = 1,
+		[1440001] = "The Zoram Strand",
+		[1446000] = 1,
+	},
+	["ImppDBLoaded"] = 0,
+	["Fishies"] = {
+		[13754] = {
+			["enUS"] = "Raw Glossy Mightfish",
+			["quality"] = 1,
+			["texture"] = 134301,
+		},
+		[6358] = {
+			["enUS"] = "Oily Blackmouth",
+			["texture"] = 134302,
+			["quality"] = 1,
+		},
+		[6362] = {
+			["enUS"] = "Raw Rockscale Cod",
+			["texture"] = 133890,
+			["quality"] = 1,
+		},
+		[4603] = {
+			["enUS"] = "Raw Spotted Yellowtail",
+			["texture"] = 133887,
+			["quality"] = 1,
+		},
+		[13422] = {
+			["enUS"] = "Stonescale Eel",
+			["quality"] = 1,
+			["texture"] = 133897,
+		},
+		[13756] = {
+			["enUS"] = "Raw Summer Bass",
+			["quality"] = 1,
+			["texture"] = 133889,
+		},
+		[6359] = {
+			["enUS"] = "Firefin Snapper",
+			["texture"] = 134299,
+			["quality"] = 1,
+		},
+		[13874] = {
+			["enUS"] = "Heavy Crate",
+			["quality"] = 1,
+			["texture"] = 132763,
+		},
+		[6360] = {
+			["color"] = "ff1eff00",
+			["enUS"] = "Steelscale Crushfish",
+			["quality"] = 2,
+			["texture"] = 133890,
+		},
+		[13875] = {
+			["enUS"] = "Ironbound Locked Chest",
+			["quality"] = 1,
+			["texture"] = 132594,
+		},
+		[13878] = {
+			["enUS"] = "53 Pound Grouper",
+			["quality"] = 1,
+			["texture"] = 133892,
+		},
+		[13877] = {
+			["enUS"] = "47 Pound Grouper",
+			["quality"] = 1,
+			["texture"] = 133892,
+		},
+		[13876] = {
+			["enUS"] = "40 Pound Grouper",
+			["quality"] = 1,
+			["texture"] = 133892,
+		},
+		[6361] = {
+			["enUS"] = "Raw Rainbow Fin Albacore",
+			["texture"] = 133911,
+			["quality"] = 1,
+		},
+		[7973] = {
+			["enUS"] = "Big-mouth Clam",
+			["quality"] = 1,
+			["texture"] = 134433,
+		},
+		[6352] = {
+			["enUS"] = "Waterlogged Crate",
+			["texture"] = 132766,
+			["quality"] = 1,
+		},
+		[6307] = {
+			["enUS"] = "Message in a Bottle",
+			["quality"] = 1,
+			["texture"] = 132799,
+		},
+		[6354] = {
+			["enUS"] = "Small Locked Chest",
+			["texture"] = 132596,
+			["quality"] = 1,
+		},
+	},
+	["FishInfo2"] = 0,
+}

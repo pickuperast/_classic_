@@ -1,0 +1,20 @@
+Tukui: disabled
+Auctionator: disabled
+Guidelime: disabled
+Guidelime_Bustea's 1-60 leveling: disabled
+VendorPrice: disabled
+TitanClassic: disabled
+WeakAurasArchive: disabled
+WeaponSwingTimer: disabled
+WhatsTraining: disabled
+TitanClassicXP: disabled
+TitanClassicVolume: disabled
+TitanClassicRepair: disabled
+TitanClassicRegen: disabled
+TitanClassicPerformance: disabled
+TitanClassicLootType: disabled
+TitanClassicLocation: disabled
+TitanClassicBag: disabled
+TitanClassicAmmo: disabled
+TitanClassicGold: disabled
+TitanClassicClock: disabled

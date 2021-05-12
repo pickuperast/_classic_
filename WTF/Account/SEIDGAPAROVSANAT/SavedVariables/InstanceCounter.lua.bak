@@ -1,0 +1,9 @@
+
+InstanceCounterDB = {
+	["PlayerLogoutLocation"] = {
+	},
+	["DelayedResetList"] = {
+	},
+	["List"] = {
+	},
+}

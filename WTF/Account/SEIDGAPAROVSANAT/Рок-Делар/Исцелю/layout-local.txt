@@ -1,0 +1,8 @@
+Version: 1
+Frame: AGTMain
+FrameLevel: 1
+Anchor: BOTTOM
+X: -297
+Y: 111
+W: 260
+H: 105

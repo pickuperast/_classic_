@@ -1,0 +1,16 @@
+
+AtlasLootClassicDB = {
+	["profileKeys"] = {
+		["Друида - Рок-Делар"] = "Друида - Рок-Делар",
+	},
+	["global"] = {
+		["__addonrevision"] = 1050001,
+	},
+	["profiles"] = {
+		["Друида - Рок-Делар"] = {
+			["minimap"] = {
+				["minimapPos"] = 179.510292432817,
+			},
+		},
+	},
+}

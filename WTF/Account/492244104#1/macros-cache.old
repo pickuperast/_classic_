@@ -1,0 +1,57 @@
+VER 3 0000000000000005 "1" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/targetlasttarget
+/cast Auto Shot
+END
+VER 3 0000000000000006 "2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Raptor Strike
+/startattack
+END
+VER 3 0000000000000001 "3" "INV_MISC_QUESTIONMARK"
+#showtooltip Serpent sting
+/cast Auto Shot
+/cast Serpent Sting
+END
+VER 3 0000000000000004 "a2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/targetlasttarget
+/cast Raptor Strike
+/startattack
+END
+VER 3 000000000000000B "AUK_1" "INV_MISC_QUESTIONMARK"
+/click TSMStartPostScanBtn
+END
+VER 3 000000000000000D "AUK_2" "INV_MISC_QUESTIONMARK"
+/click TSMAuctioningBtn
+END
+VER 3 000000000000000E "AUK_3" "INV_MISC_QUESTIONMARK"
+/click TSMMailOpenSalesBtn
+/click TSMMailOpenExpiresBtn
+/click TSMMailOpenAllBtn
+END
+VER 3 000000000000000C "AUK_6" "INV_MISC_QUESTIONMARK"
+/target Auctioneer Stampi
+END
+VER 3 0000000000000009 "F_3" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/use Bright Baubles
+/use Fishing Pole
+END
+VER 3 000000000000000A "F_4" "INV_MISC_QUESTIONMARK"
+/use Heavy Crate
+/use Big-mouth Clam
+END
+VER 3 0000000000000003 "FEED" "INV_MISC_QUESTIONMARK"
+/cast Feed Pet
+/use Strider Meat
+END
+VER 3 0000000000000007 "log" "135768"
+/logout
+END
+VER 3 0000000000000002 "played" "INV_MISC_QUESTIONMARK"
+/played
+END
+VER 3 0000000000000008 "q" "136223"
+/quit
+END

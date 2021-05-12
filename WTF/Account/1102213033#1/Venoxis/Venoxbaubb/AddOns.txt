@@ -1,0 +1,14 @@
+Auc-Advanced: disabled
+AutomaticGoblinTherapist: disabled
+ClickLinks: disabled
+Enchantrix: disabled
+Enchantrix-Barker: disabled
+FishingBuddy: enabled
+Informant: disabled
+Leatrix_Plus: disabled
+SlideBar: disabled
+StoryTeller: disabled
+!Swatter: disabled
+Stubby: disabled
+Prat-3.0_Libraries: enabled
+Prat-3.0: enabled

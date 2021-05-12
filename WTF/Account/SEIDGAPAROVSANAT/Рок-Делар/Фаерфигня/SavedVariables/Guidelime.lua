@@ -1,0 +1,53 @@
+
+GuidelimeDataChar = {
+	["mainFrameHeight"] = 400,
+	["showUnavailableSteps"] = true,
+	["guideSkip"] = {
+		["Bustea's Horde Leveling guide 1-6 Freezy3 Undead Starter"] = {
+			true, -- [1]
+			true, -- [2]
+			[6] = true,
+			[17] = true,
+			[28] = true,
+			[18] = true,
+			[29] = true,
+			[14] = true,
+			[9] = true,
+			[26] = true,
+		},
+		["Bustea's Horde Leveling guide START WITH THIS as Undead"] = {
+			true, -- [1]
+			true, -- [2]
+		},
+		["Bustea's Horde Leveling guide 6-12 Freezy3 Undead Starter"] = {
+			true, -- [1]
+		},
+	},
+	["arrowY"] = -20,
+	["arrowRelative"] = "TOP",
+	["mainFrameX"] = 0.000108662716229446,
+	["mainFrameLocked"] = false,
+	["mainFrameWidth"] = 350,
+	["arrowLocked"] = false,
+	["editorFrameY"] = 0,
+	["showCompletedSteps"] = false,
+	["editorFrameX"] = 0,
+	["arrowSize"] = 64,
+	["mainFrameAlpha"] = 0.5,
+	["currentGuide"] = "Bustea's Horde Leveling guide 6-12 Freezy3 Undead Starter",
+	["version"] = "1.040",
+	["arrowX"] = 0,
+	["mainFrameFontSize"] = 14,
+	["mainFrameShowing"] = false,
+	["editorFrameRelative"] = "CENTER",
+	["guideSize"] = {
+		["Bustea's Horde Leveling guide 1-6 Freezy3 Undead Starter"] = 37,
+		["Bustea's Horde Leveling guide START WITH THIS as Undead"] = 6,
+		["Bustea's Horde Leveling guide 6-12 Freezy3 Undead Starter"] = 58,
+	},
+	["showArrow"] = true,
+	["mainFrameShowScrollBar"] = true,
+	["mainFrameY"] = 0,
+	["mainFrameRelative"] = "RIGHT",
+	["arrowAlpha"] = 0.8,
+}

@@ -1,0 +1,15 @@
+Version: 1
+Frame: ScriptErrorsFrame
+FrameLevel: 0
+Anchor: CENTER
+X: 128
+Y: 13
+W: 384
+H: 260
+Frame: AtlasLoot_GUI-Frame
+FrameLevel: 1
+Anchor: RIGHT
+X: 0
+Y: -7
+W: 920
+H: 600

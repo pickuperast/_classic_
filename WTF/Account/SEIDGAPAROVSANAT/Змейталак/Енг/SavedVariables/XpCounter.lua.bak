@@ -1,0 +1,3 @@
+
+XpCounter_Config = {
+}

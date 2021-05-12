@@ -1,0 +1,15 @@
+Version: 1
+Frame: CensusButtonFrame
+FrameLevel: 1
+Anchor: TOPRIGHT
+X: -154
+Y: -43
+W: 32
+H: 32
+Frame: WorldMapFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 0
+W: 1024
+H: 768

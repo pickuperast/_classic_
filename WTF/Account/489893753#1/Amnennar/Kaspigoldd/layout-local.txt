@@ -1,0 +1,15 @@
+Version: 1
+Frame: FishingWatchFrame
+FrameLevel: 1
+Anchor: LEFT
+X: 43
+Y: 29
+W: 144
+H: 45
+Frame: WorldMapFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 0
+W: 1024
+H: 768

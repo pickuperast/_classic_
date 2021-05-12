@@ -1,0 +1,15 @@
+Version: 1
+Frame: CensusButtonFrame
+FrameLevel: 1
+Anchor: TOPRIGHT
+X: 0
+Y: -93
+W: 32
+H: 32
+Frame: CensusPlusClassic
+FrameLevel: 1
+Anchor: TOP
+X: 153
+Y: -70
+W: 759
+H: 512

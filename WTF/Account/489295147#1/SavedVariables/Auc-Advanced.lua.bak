@@ -1,0 +1,54 @@
+
+AucAdvancedConfig = {
+	["users.Рок-Делар.Знать"] = "Default",
+	["profile.Default"] = {
+		["stat"] = {
+			["sales"] = {
+				["upgraded32"] = true,
+				["ignoredsigs"] = {
+				},
+			},
+		},
+		["util"] = {
+			["automagic"] = {
+				["ammailguix"] = 160,
+				["SavedMailButtons"] = {
+				},
+			},
+			["ahwindowcontrol"] = {
+				["ahframeanchors"] = "LEFT:LEFT:0.0:99.2",
+			},
+		},
+	},
+	["version"] = 1,
+}
+AucAdvancedData = {
+	["UtilSearchUiData"] = {
+		["Global"] = {
+			["configator.left"] = 355.506378173828,
+			["configator.top"] = 676.666625976563,
+		},
+		["Current"] = {
+			["snatch.itemsList"] = {
+			},
+		},
+		["Version"] = 1,
+		["SavedSearches"] = {
+		},
+	},
+	["Stats"] = {
+	},
+}
+AucAdvancedServers = {
+	["Version"] = 1,
+	["KnownServerKeys"] = {
+		["РокДелар"] = 1588590800,
+	},
+	["KnownRealms"] = {
+		["РокДелар"] = "РокДелар",
+	},
+	["Timestamp"] = 1588582772,
+	["ExpandedNames"] = {
+		["РокДелар"] = "Рок-Делар",
+	},
+}

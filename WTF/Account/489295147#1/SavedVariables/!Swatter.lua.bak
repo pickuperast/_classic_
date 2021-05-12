@@ -1,0 +1,18 @@
+
+SwatterData = {
+	["enabled"] = true,
+	["warning"] = true,
+	["combat"] = false,
+	["errors"] = {
+		{
+			["message"] = "Interface\\AddOns\\Blizzard_InspectUI\\Localization.lua:3: attempt to index global 'SpecializationSpecName' (a nil value)",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.5.1\n  AtlasLootClassicData, vv1.5.1\n  AtlasLootClassicDungeonsAndRaids, vv1.5.1\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  BeanCounter, v8.2.6434 (SwimmingSeadragon)\n  CensusPlusClassic, vv0.8.4\n  ClassicCastbars, vv1.3.5\n  ClassicCastbarsOptions, v\n  DBMCore, v1.13.44\n  DBMDefaultSkin, v\n  DBMStatusBarTimers, v\n  Details, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  Enchantrix, v8.2.6428 (SwimmingSeadragon)\n  EnchantrixBarker, v8.2.6469 (SwimmingSeadragon)\n  Guidelime, v1.040\n  GuidelimeBusteas160leveling, v1.9.2-Release\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  MageDamage, v0.1\n  MaxCam, vv2.4.2\n  Questie, v5.10.2\n  Scrap, v8.3.2\n  ScrapMerchant, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  ThreatClassic2, v2.18\n  VendorPrice, v1.3.5\n  WeakAuras, v2.17.4\n  BlizRuntimeLib_ruRU v1.13.4.11304 <none>\n  (ck=51a)\n",
+			["locals"] = "(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index global 'SpecializationSpecName' (a nil value)\"\n",
+			["timestamp"] = "2020-05-04 20:43:42",
+			["context"] = "Global",
+			["stack"] = "Interface\\AddOns\\Blizzard_InspectUI\\Localization.lua:3: in main chunk\n[C]: in function `LoadAddOn'\nInterface\\FrameXML\\UIParent.lua:353: in function `UIParentLoadAddOn'\nInterface\\FrameXML\\UIParent.lua:388: in function <Interface\\FrameXML\\UIParent.lua:387>\n[C]: in function `InspectFrame_LoadUI'\nInterface\\FrameXML\\UIParent.lua:635: in function `InspectUnit'\nInterface\\FrameXML\\UnitPopup.lua:1691: in function `func'\nInterface\\FrameXML\\UIDropDownMenu.lua:958: in function `UIDropDownMenuButton_OnClick'\n[string \"*:OnClick\"]:1: in function <[string \"*:OnClick\"]:1>\n",
+		}, -- [1]
+	},
+	["autoshow"] = true,
+}

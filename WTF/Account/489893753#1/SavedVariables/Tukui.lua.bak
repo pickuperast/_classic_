@@ -1,0 +1,1285 @@
+
+TukuiData = {
+	["Amnennar"] = {
+		["Kaspigoldd"] = {
+			["Texts"] = {
+				["Friends"] = {
+					true, -- [1]
+					3, -- [2]
+				},
+				["Guild"] = {
+					true, -- [1]
+					1, -- [2]
+				},
+				["Gold"] = {
+					true, -- [1]
+					6, -- [2]
+				},
+				["Durability"] = {
+					true, -- [1]
+					2, -- [2]
+				},
+				["Coords"] = {
+					true, -- [1]
+					7, -- [2]
+				},
+				["Micro Menu"] = {
+					true, -- [1]
+					5, -- [2]
+				},
+				["System"] = {
+					true, -- [1]
+					4, -- [2]
+				},
+			},
+			["Move"] = {
+			},
+			["InstallDone"] = true,
+			["HideBar2"] = true,
+			["HideBar5"] = true,
+			["HideBar3"] = true,
+			["Chat"] = {
+				["Frame1"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					34, -- [3]
+					50, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame5"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame6"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame8"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame10"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame9"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame7"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame3"] = {
+					"TOPLEFT", -- [1]
+					"TOPLEFT", -- [2]
+					0, -- [3]
+					0, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame2"] = {
+					"TOPLEFT", -- [1]
+					"TOPLEFT", -- [2]
+					0, -- [3]
+					0, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame4"] = {
+					"BOTTOMRIGHT", -- [1]
+					"BOTTOMRIGHT", -- [2]
+					-34, -- [3]
+					50, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+			},
+		},
+	},
+	["Змейталак"] = {
+		["Апрне"] = {
+			["Chat"] = {
+				["Frame1"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					34, -- [3]
+					50, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame5"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame6"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame8"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame4"] = {
+					"BOTTOMRIGHT", -- [1]
+					"BOTTOMRIGHT", -- [2]
+					-34, -- [3]
+					50, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame9"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame7"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame3"] = {
+					"TOPLEFT", -- [1]
+					"TOPLEFT", -- [2]
+					0, -- [3]
+					0, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame2"] = {
+					"TOPLEFT", -- [1]
+					"TOPLEFT", -- [2]
+					0, -- [3]
+					0, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame10"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+			},
+			["Move"] = {
+			},
+			["InstallDone"] = true,
+			["HideBar5"] = true,
+			["HideBar2"] = true,
+			["HideBar3"] = true,
+			["Texts"] = {
+				["Friends"] = {
+					true, -- [1]
+					3, -- [2]
+				},
+				["Guild"] = {
+					true, -- [1]
+					1, -- [2]
+				},
+				["Gold"] = {
+					true, -- [1]
+					6, -- [2]
+				},
+				["Durability"] = {
+					true, -- [1]
+					2, -- [2]
+				},
+				["Coords"] = {
+					true, -- [1]
+					7, -- [2]
+				},
+				["Micro Menu"] = {
+					true, -- [1]
+					5, -- [2]
+				},
+				["System"] = {
+					true, -- [1]
+					4, -- [2]
+				},
+			},
+		},
+		["Кае"] = {
+			["Move"] = {
+			},
+			["InstallDone"] = true,
+			["HideBar5"] = true,
+			["Chat"] = {
+				["Frame1"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					34, -- [3]
+					50, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame5"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame6"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame8"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame4"] = {
+					"BOTTOMRIGHT", -- [1]
+					"BOTTOMRIGHT", -- [2]
+					-34, -- [3]
+					50, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame9"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame7"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame3"] = {
+					"TOPLEFT", -- [1]
+					"TOPLEFT", -- [2]
+					0, -- [3]
+					0, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame2"] = {
+					"TOPLEFT", -- [1]
+					"TOPLEFT", -- [2]
+					0, -- [3]
+					0, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame10"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+			},
+			["Texts"] = {
+				["Friends"] = {
+					true, -- [1]
+					3, -- [2]
+				},
+				["Guild"] = {
+					true, -- [1]
+					1, -- [2]
+				},
+				["Gold"] = {
+					true, -- [1]
+					6, -- [2]
+				},
+				["Durability"] = {
+					true, -- [1]
+					2, -- [2]
+				},
+				["Coords"] = {
+					true, -- [1]
+					7, -- [2]
+				},
+				["Micro Menu"] = {
+					true, -- [1]
+					5, -- [2]
+				},
+				["System"] = {
+					true, -- [1]
+					4, -- [2]
+				},
+			},
+		},
+	},
+	["Patchwerk"] = {
+		["Kaspigold"] = {
+			["Move"] = {
+			},
+			["InstallDone"] = true,
+			["HideBar5"] = true,
+			["Texts"] = {
+				["Friends"] = {
+					true, -- [1]
+					3, -- [2]
+				},
+				["Guild"] = {
+					true, -- [1]
+					1, -- [2]
+				},
+				["Gold"] = {
+					true, -- [1]
+					6, -- [2]
+				},
+				["Durability"] = {
+					true, -- [1]
+					2, -- [2]
+				},
+				["Coords"] = {
+					true, -- [1]
+					7, -- [2]
+				},
+				["Micro Menu"] = {
+					true, -- [1]
+					5, -- [2]
+				},
+				["System"] = {
+					true, -- [1]
+					4, -- [2]
+				},
+			},
+			["Chat"] = {
+				["Frame1"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					34, -- [3]
+					50, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame5"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame6"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame8"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame10"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame9"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame7"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame3"] = {
+					"TOPLEFT", -- [1]
+					"TOPLEFT", -- [2]
+					0, -- [3]
+					0, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame2"] = {
+					"RIGHT", -- [1]
+					"RIGHT", -- [2]
+					-30.970724105835, -- [3]
+					-214.998657226562, -- [4]
+					379.029632568359, -- [5]
+					120, -- [6]
+				},
+				["Frame4"] = {
+					"BOTTOMRIGHT", -- [1]
+					"BOTTOMRIGHT", -- [2]
+					-34, -- [3]
+					50, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+			},
+		},
+		["Kaspigoldd"] = {
+			["Chat"] = {
+				["Frame1"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					34, -- [3]
+					50, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame5"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame6"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame8"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame4"] = {
+					"BOTTOMRIGHT", -- [1]
+					"BOTTOMRIGHT", -- [2]
+					-34, -- [3]
+					50, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame9"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame7"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame3"] = {
+					"TOPLEFT", -- [1]
+					"TOPLEFT", -- [2]
+					0, -- [3]
+					0, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame2"] = {
+					"TOPLEFT", -- [1]
+					"TOPLEFT", -- [2]
+					0, -- [3]
+					0, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame10"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+			},
+			["WorldMapPosition"] = {
+				"TOP", -- [1]
+				"UIParent", -- [2]
+				"TOP", -- [3]
+				-157.957824707031, -- [4]
+				-86.8306579589844, -- [5]
+			},
+			["Move"] = {
+			},
+			["InstallDone"] = true,
+			["HideBar5"] = true,
+			["HideBar2"] = true,
+			["HideBar3"] = true,
+			["Texts"] = {
+				["Friends"] = {
+					true, -- [1]
+					3, -- [2]
+				},
+				["Guild"] = {
+					true, -- [1]
+					1, -- [2]
+				},
+				["Gold"] = {
+					true, -- [1]
+					6, -- [2]
+				},
+				["Durability"] = {
+					true, -- [1]
+					2, -- [2]
+				},
+				["Coords"] = {
+					true, -- [1]
+					7, -- [2]
+				},
+				["Micro Menu"] = {
+					true, -- [1]
+					5, -- [2]
+				},
+				["System"] = {
+					true, -- [1]
+					4, -- [2]
+				},
+			},
+		},
+		["Ijhu"] = {
+			["Move"] = {
+			},
+			["InstallDone"] = true,
+			["HideBar5"] = true,
+			["Texts"] = {
+				["Friends"] = {
+					true, -- [1]
+					3, -- [2]
+				},
+				["Guild"] = {
+					true, -- [1]
+					1, -- [2]
+				},
+				["Gold"] = {
+					true, -- [1]
+					6, -- [2]
+				},
+				["Durability"] = {
+					true, -- [1]
+					2, -- [2]
+				},
+				["Coords"] = {
+					true, -- [1]
+					7, -- [2]
+				},
+				["Micro Menu"] = {
+					true, -- [1]
+					5, -- [2]
+				},
+				["System"] = {
+					true, -- [1]
+					4, -- [2]
+				},
+			},
+			["Chat"] = {
+				["Frame1"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					34, -- [3]
+					50, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame5"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame6"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame8"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame10"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame9"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame7"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame3"] = {
+					"TOPLEFT", -- [1]
+					"TOPLEFT", -- [2]
+					0, -- [3]
+					0, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame2"] = {
+					"TOPLEFT", -- [1]
+					"TOPLEFT", -- [2]
+					0, -- [3]
+					0, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame4"] = {
+					"BOTTOMRIGHT", -- [1]
+					"BOTTOMRIGHT", -- [2]
+					-34, -- [3]
+					50, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+			},
+		},
+		["Halykbank"] = {
+			["Chat"] = {
+				["Frame1"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					34, -- [3]
+					50, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame5"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame6"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame8"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame4"] = {
+					"BOTTOMRIGHT", -- [1]
+					"BOTTOMRIGHT", -- [2]
+					-34, -- [3]
+					50, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame9"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame7"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame3"] = {
+					"TOPLEFT", -- [1]
+					"TOPLEFT", -- [2]
+					0, -- [3]
+					0, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame2"] = {
+					"TOPLEFT", -- [1]
+					"TOPLEFT", -- [2]
+					0, -- [3]
+					0, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame10"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+			},
+			["Move"] = {
+			},
+			["InstallDone"] = true,
+			["HideBar5"] = true,
+			["HideBar2"] = true,
+			["HideBar3"] = true,
+			["Texts"] = {
+				["Friends"] = {
+					true, -- [1]
+					3, -- [2]
+				},
+				["Guild"] = {
+					true, -- [1]
+					1, -- [2]
+				},
+				["Gold"] = {
+					true, -- [1]
+					6, -- [2]
+				},
+				["Durability"] = {
+					true, -- [1]
+					2, -- [2]
+				},
+				["Coords"] = {
+					true, -- [1]
+					7, -- [2]
+				},
+				["Micro Menu"] = {
+					true, -- [1]
+					5, -- [2]
+				},
+				["System"] = {
+					true, -- [1]
+					4, -- [2]
+				},
+			},
+		},
+	},
+}
+TukuiSettings = {
+}
+TukuiGold = {
+	["Amnennar"] = {
+		["Kaspigoldd"] = 2622,
+	},
+	["Змейталак"] = {
+		["Апрне"] = 1174,
+		["Кае"] = 90120,
+	},
+	["Patchwerk"] = {
+		["Kaspigold"] = 0,
+		["Kaspigoldd"] = 12860,
+		["Ijhu"] = 19194,
+		["Halykbank"] = 5272249,
+	},
+}
+TukuiSettingsPerCharacter = {
+	["Amnennar"] = {
+		["Kaspigoldd"] = {
+			["General"] = {
+				["MinimapScale"] = 200,
+			},
+			["ActionBars"] = {
+				["Macro"] = true,
+				["HotKey"] = true,
+			},
+		},
+	},
+	["Змейталак"] = {
+		["Апрне"] = {
+			["General"] = {
+				["MinimapScale"] = 200,
+			},
+			["ActionBars"] = {
+				["Macro"] = true,
+				["HotKey"] = true,
+			},
+		},
+		["Кае"] = {
+		},
+	},
+	["Patchwerk"] = {
+		["Kaspigold"] = {
+		},
+		["Kaspigoldd"] = {
+			["General"] = {
+				["MinimapScale"] = 200,
+			},
+			["ActionBars"] = {
+				["Macro"] = true,
+				["HotKey"] = true,
+			},
+		},
+		["Ijhu"] = {
+		},
+		["Halykbank"] = {
+		},
+	},
+}
+LibClassicMobHealth10DB = {
+	["pc"] = {
+		[-1] = {
+			["Голирос"] = 890,
+		},
+	},
+	["revision"] = 1,
+	["pet"] = {
+	},
+	["npc"] = {
+		{
+			["Mottled Boar"] = 42,
+			["Молодой щетинистый вепрь"] = 42,
+			["Scheckiger Eber"] = 42,
+			["Fischschwarm"] = 42,
+			["Молодой ночной саблезуб"] = 42,
+		}, -- [1]
+		{
+			["Облезлый ночной саблезуб"] = 55,
+			["Mottled Boar"] = 55,
+			["Молодой щетинистый вепрь"] = 55,
+			["Scheckiger Eber"] = 55,
+			["Грелль"] = 55,
+			["Щетинистый вепрь"] = 55,
+		}, -- [2]
+		{
+			["Щетинистый вепрь"] = 71,
+			["Греллид"] = 71,
+			["Грелль"] = 71,
+			["Teufelspirscher"] = 71,
+			["Scorpid Worker"] = 71,
+			["Übler Familiar"] = 69,
+			["Felstalker"] = 71,
+			["Чащобный тенетник"] = 71,
+			["Skorpidarbeiter"] = 71,
+			["Vile Familiar"] = 69,
+		}, -- [3]
+		{
+			["Teufelspirscher"] = 86,
+			["Felstalker"] = 86,
+			["Übler Familiar"] = 83,
+			["Греллид"] = 86,
+			["Чащобный тенетник"] = 86,
+			["Sarkoth"] = 86,
+			["Vile Familiar"] = 83,
+		}, -- [4]
+		{
+			["Yarrog Schattenbann"] = 98,
+			["Древесник"] = 102,
+			["Ночной саблезуб"] = 102,
+			["Ведмедь из племени Кривой Сосны"] = 102,
+			["Сумеречный грелль"] = 98,
+			["Rasselnder Skorpid"] = 102,
+			["Болотыш"] = 48,
+			["Clattering Scorpid"] = 102,
+			["Zwergbrandungskriecher"] = 102,
+			["Kul Tiras Sailor"] = 102,
+			["Сова"] = 102,
+			["Yarrog Baneshadow"] = 98,
+			["Гнусный грелль"] = 98,
+			["Садовник из племени Кривой Сосны"] = 102,
+			["Чащобный тенетник"] = 102,
+			["Pygmy Surf Crawler"] = 102,
+			["Matrose von Kul Tiras"] = 102,
+		}, -- [5]
+		{
+			["Воин из племени Кривой Сосны"] = 120,
+			["Zwangsarbeiter der Kolkar"] = 120,
+			["Matrose von Kul Tiras"] = 120,
+			["Ночной саблезуб"] = 120,
+			["Makrura Clacker"] = 120,
+			["Древесник"] = 120,
+			["Сова"] = 120,
+			["Makruraklacker"] = 120,
+			["Душитель из племени Кривой Сосны"] = 120,
+			["Blutkrallenschwanzpeitscher"] = 120,
+			["Marinesoldat von Kul Tiras"] = 120,
+			["Садовник из племени Кривой Сосны"] = 120,
+			["Сумеречный грелль"] = 115,
+			["Dire Mottled Boar"] = 120,
+			["Темный грелль"] = 120,
+			["Stacheleber der Grimmhauer"] = 120,
+			["Kul Tiras Marine"] = 120,
+			["Kul Tiras Sailor"] = 120,
+			["Zwergbrandungskriecher"] = 120,
+			["Makrura Shellhide"] = 120,
+			["Bloodtalon Taillasher"] = 120,
+			["Clattering Scorpid"] = 120,
+			["Kolkar Drudge"] = 120,
+			["Razormane Quilboar"] = 120,
+			["Гнусный грелль"] = 115,
+			["Чащобный тенетник"] = 120,
+			["Pygmy Surf Crawler"] = 120,
+			["Scheckiger Terroreber"] = 120,
+		}, -- [6]
+		{
+			["Злобный грелль"] = 137,
+			["Воин из племени Кривой Сосны"] = 137,
+			["Harpyie der Staubschwingen"] = 137,
+			["Gepanzerter Skorpid"] = 137,
+			["Zwangsarbeiter der Kolkar"] = 137,
+			["Kolkar Outrunner"] = 131,
+			["Makrura Clacker"] = 137,
+			["Plünderin der Staubschwingen"] = 137,
+			["Durotar Tiger"] = 137,
+			["Flachlandpuma"] = 137,
+			["Kul Tiras Marine"] = 137,
+			["Blutkrallenschwanzpeitscher"] = 137,
+			["Marinesoldat von Kul Tiras"] = 137,
+			["Kundschafter der Kolkar"] = 131,
+			["Präriepirscher"] = 137,
+			["Razormane Scout"] = 137,
+			["Durotar-Tiger"] = 137,
+			["Stacheleber der Grimmhauer"] = 137,
+			["Makruramuschelhaut"] = 137,
+			["Dustwind Pillager"] = 137,
+			["Erwachsener Ebenenschreiter"] = 137,
+			["Bloodtalon Taillasher"] = 137,
+			["Razormane Quilboar"] = 137,
+			["Wolf der Grimmhauer"] = 137,
+			["Kolkar Drudge"] = 137,
+			["Späher der Grimmhauer"] = 137,
+			["Душитель из племени Кривой Сосны"] = 137,
+			["Dustwind Harpy"] = 137,
+			["Dire Mottled Boar"] = 137,
+			["Scheckiger Terroreber"] = 137,
+		}, -- [7]
+		{
+			["Voodootroll"] = 148,
+			["Лорд Меленас"] = 148,
+			["Harpyie der Staubschwingen"] = 156,
+			["Alter Ebenenschreiter"] = 156,
+			["Kolkar Outrunner"] = 148,
+			["Снежный леопард"] = 156,
+			["Durotar Tiger"] = 156,
+			["Гарпия из стаи Кровавого Пера"] = 156,
+			["Hexed Troll"] = 148,
+			["Flachlandpuma"] = 156,
+			["Старый ночной саблезуб"] = 156,
+			["Blutkrallenschwanzpeitscher"] = 156,
+			["Verhexter Troll"] = 148,
+			["Kundschafter der Kolkar"] = 148,
+			["Präriepirscher"] = 156,
+			["Plünderin der Staubschwingen"] = 156,
+			["Dustwind Harpy"] = 156,
+			["Kralliger Sturzflieger"] = 156,
+			["Späher der Grimmhauer"] = 156,
+			["Durotar-Tiger"] = 156,
+			["Dustwind Pillager"] = 156,
+			["Bloodtalon Taillasher"] = 156,
+			["Razormane Scout"] = 156,
+			["Voodoo Troll"] = 148,
+			["Wolf der Grimmhauer"] = 156,
+			["Lieutenant Benedict"] = 156,
+			["Alter scheckiger Eber"] = 156,
+			["Древесник-топтун"] = 156,
+			["Staubläufer der Grimmhauer"] = 148,
+			["Razormane Dustrunner"] = 148,
+		}, -- [8]
+		{
+			["Flachlandstreuner"] = 176,
+			["Voodootroll"] = 166,
+			["Фурия из стаи Кровавого Пера"] = 176,
+			["Elder Mottled Boar"] = 176,
+			["Болотный древесник"] = 176,
+			["Гарпия из стаи Кровавого Пера"] = 176,
+			["Hexed Troll"] = 166,
+			["Ведьма ветров из стаи Кровавого Пера"] = 176,
+			["Blutkrallensensenschlund"] = 176,
+			["Makruraältester"] = 176,
+			["Verhexter Troll"] = 166,
+			["Fanatiker der Burning Blade"] = 166,
+			["Siechstachelskorpid"] = 176,
+			["Wilde der Staubschwingen"] = 176,
+			["Staubläufer der Grimmhauer"] = 166,
+			["Kralliger Sturzflieger"] = 176,
+			["Старый ночной саблезуб"] = 176,
+			["Makrura Snapclaw"] = 176,
+			["Alter scheckiger Eber"] = 176,
+			["Кольдунья из стаи Кровавого Пера"] = 160,
+			["Präriewolfalpha"] = 176,
+			["Voodoo Troll"] = 166,
+			["Schlachtwache der Grimmhauer"] = 176,
+			["Schaudermagenkrokilisk"] = 176,
+			["Razormane Battleguard"] = 176,
+			["Сова-охотник"] = 176,
+			["Чащобный паук-балдахинник"] = 176,
+			["Razormane Dustrunner"] = 166,
+		}, -- [9]
+		{
+			["Sturmhexe der Staubschwingen"] = 186,
+			["Präriewolfalpha"] = 198,
+			["Ведьма ветров из стаи Кровавого Пера"] = 198,
+			["Zalazane"] = 186,
+			["Болотный древесник"] = 198,
+			["Blutkrallensensenschlund"] = 198,
+			["Fanatiker der Burning Blade"] = 186,
+			["Leerwandlerdiener"] = 158,
+			["Der Kratzer"] = 198,
+			["Siechstachelskorpid"] = 198,
+			["Schaudermagenkrokilisk"] = 198,
+			["Lehrling der Burning Blade"] = 178,
+			["Wassersucher der Grimmhauer"] = 198,
+			["Haudrauf der Burning Blade"] = 198,
+			["Razormane Battleguard"] = 198,
+			["Wilde der Staubschwingen"] = 198,
+			["Schlachtwache der Grimmhauer"] = 198,
+			["Dornenwirker der Grimmhauer"] = 186,
+		}, -- [10]
+		{
+			["Sturmhexe der Staubschwingen"] = 208,
+			["Schaudermagenkrokilisk"] = 222,
+			["Savannenjägerin"] = 222,
+			["Großer Ebenenschreiter"] = 222,
+			["Jäger der Grimmhauer"] = 222,
+			["Lehrling der Burning Blade"] = 199,
+			["Wassersucher der Grimmhauer"] = 222,
+			["Akolyt der Burning Blade"] = 199,
+			["Leerwandlerdiener"] = 178,
+			["Dornenwirker der Grimmhauer"] = 208,
+		}, -- [11]
+		{
+			["Akolyt der Burning Blade"] = 219,
+			["Zänker der Kolkar"] = 247,
+			["Verteidiger der Grimmhauer"] = 247,
+			["Savannenjägerin"] = 247,
+			["Großer Ebenenschreiter"] = 247,
+			["Bluthornschmetterschwanz"] = 198,
+			["Flüchtiger Ebenenschreiter"] = 247,
+			["Wichteldiener"] = 79,
+			["Geomant der Grimmhauer"] = 219,
+			["Savannenhochmähne"] = 247,
+			["Jäger der Grimmhauer"] = 247,
+			["Brigant der Südmeerfreibeuter"] = 247,
+			["Fizzle Dunkelsturm"] = 219,
+		}, -- [12]
+		{
+			["Kanonier der Südmeerfreibeuter"] = 273,
+			["Zänker der Kolkar"] = 273,
+			["Verteidiger der Grimmhauer"] = 273,
+			["Mystiker der Grimmhauer"] = 253,
+			["Черномшец злосмрадный"] = 273,
+			["Peon der Venture Co."] = 273,
+			["Brigant der Südmeerfreibeuter"] = 273,
+			["Bluthornkreischer"] = 273,
+			["Geomant der Grimmhauer"] = 241,
+			["Zhevra-Läufer"] = 273,
+			["Tazan"] = 273,
+			["Sturmruferin der Kolkar"] = 253,
+			["Flüchtiger Ebenenschreiter"] = 273,
+		}, -- [13]
+		{
+			["Kanonier der Südmeerfreibeuter"] = 300,
+			["Gazz'uz"] = 342,
+			["Grobian der Grimmtotem"] = 300,
+			["Mystiker der Grimmhauer"] = 276,
+			["Kluftmoosjungtier"] = 300,
+			["Sturmruferin der Kolkar"] = 276,
+			["Blutstürmer der Kolkar"] = 235,
+			["Söldner der Grimmtotem"] = 300,
+			["Zwangsarbeiter der Venture Co."] = 300,
+			["Bluthornkreischer"] = 300,
+			["Savannenstreuner"] = 300,
+			["Zhevra-Läufer"] = 300,
+			["Peon der Venture Co."] = 300,
+			["Harpyie der Hexenschwingen"] = 300,
+			["Leerwandlerdiener"] = 240,
+		}, -- [14]
+		{
+			["Marinesoldat von Theramore"] = 328,
+			["Fleischreißerhyäne"] = 328,
+			["Zauberhexer der Grimmtotem"] = 285,
+			["Söldner der Grimmtotem"] = 328,
+			["Bluthornkreischer"] = 328,
+			["Savannenstreuner"] = 328,
+			["Rathorian"] = 328,
+			["Harpyie der Hexenschwingen"] = 328,
+			["Grobian der Grimmtotem"] = 328,
+			["Alte Mystikerin Grimmschnauze"] = 903,
+			["Schläger der Grimmtotem"] = 328,
+			["Blutstürmer der Kolkar"] = 256,
+			["Söldner der Venture Co."] = 328,
+			["Savannenpatriarch"] = 328,
+			["Wildfeder der Hexenschwingen"] = 328,
+			["Zwangsarbeiter der Venture Co."] = 328,
+			["Marodeur der Kolkar"] = 328,
+			["Brachlandgiraffe"] = 328,
+			["Rudelläufer der Kolkar"] = 328,
+			["Kreenig Grantelschnauze"] = 328,
+		}, -- [15]
+		{
+			["Bewahrerin von Theramore"] = 325,
+			["Marinesoldat von Theramore"] = 356,
+			["Fleischreißerhyäne"] = 356,
+			["Vollstrecker der Venture Co."] = 356,
+			["Schläger der Grimmtotem"] = 356,
+			["Baron Küstenschipper"] = 356,
+			["Söldner der Venture Co."] = 356,
+			["Echeyakee"] = 356,
+			["Vorarbeiter Glibby"] = 356,
+			["Störrischer Ebenenschreiter"] = 356,
+			["Zauberhexer der Grimmtotem"] = 307,
+			["Bluthornsensenklaue"] = 356,
+			["Savannenpatriarch"] = 356,
+			["Kluftmooskrabbler"] = 356,
+			["Töterin der Hexenschwingen"] = 356,
+			["Brachlandgiraffe"] = 356,
+			["Tüftler Sniggles"] = 356,
+			["Wildfeder der Hexenschwingen"] = 356,
+		}, -- [16]
+		{
+			["Kluftmoosgiftspucker"] = 290,
+			["Bewahrerin von Theramore"] = 350,
+			["Windruferin der Hexenschwingen"] = 350,
+			["Vollstrecker der Venture Co."] = 386,
+			["Störrischer Ebenenschreiter"] = 386,
+			["Jäger der Borstennacken"] = 386,
+			["Töterin der Hexenschwingen"] = 386,
+			["Kluftmooskrabbler"] = 386,
+			["Vorarbeiter der Venture Co."] = 386,
+			["Zhevra-Stürmer"] = 386,
+			["Bluthornsensenklaue"] = 386,
+		}, -- [17]
+		{
+			["Kluftmoosgiftspucker"] = 313,
+			["Bluthornsensenklaue"] = 417,
+			["Vorsteher Lugwizzle"] = 417,
+			["Windruferin der Hexenschwingen"] = 377,
+			["Holzarbeiter der Venture Co."] = 417,
+			["Schleimschalenmakrura"] = 417,
+			["Tobender Klippenstürmer"] = 417,
+			["Jäger der Borstennacken"] = 417,
+			["Verog der Derwisch"] = 417,
+			["Zhevra-Stürmer"] = 417,
+			["Vorarbeiter der Venture Co."] = 417,
+			["Sturmschnauze"] = 417,
+			["Grundig Finsterwolke"] = 417,
+		}, -- [18]
+		{
+			["Roder der Venture Co."] = 379,
+			["Donnerfalkenjungtier"] = 323,
+			["Maschinenführer der Venture Co."] = 449,
+			["Kanonier Hecksler"] = 449,
+			["Kompakter Ernteschnitter"] = 494,
+			["Holzarbeiter der Venture Co."] = 449,
+			["Hezrul Blutmal"] = 449,
+			["Kluftmoosnetzweber"] = 449,
+			["Kanonier Knoch"] = 449,
+			["Ingenieur Whirleygig"] = 449,
+		}, -- [19]
+		{
+			["Roder der Venture Co."] = 405,
+			["Captain Hellstieg"] = 484,
+			["Kluftmoosnetzweber"] = 484,
+			["Maschinenführer der Venture Co."] = 484,
+		}, -- [20]
+		{
+			["Besseleth"] = 1563,
+			["Donnerkopf"] = 531,
+		}, -- [21]
+		{
+			["Kluftmoosmatriarchin"] = 573,
+		}, -- [22]
+		{
+			["XT:9"] = 617,
+		}, -- [23]
+		[-1] = {
+			["Krieger der Schlammflossen"] = 1536,
+		},
+	},
+}
+LibClassicMobHealth10Opt = {
+	["prune"] = 1000,
+	["save"] = true,
+}

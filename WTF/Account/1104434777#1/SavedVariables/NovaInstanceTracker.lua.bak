@@ -1,0 +1,62 @@
+
+NITdatabase = {
+	["profileKeys"] = {
+		["Пламбалыкши - Пламегор"] = "Default",
+	},
+	["global"] = {
+		["lastVersionMsg"] = 1620755372,
+		["resetCharData"] = false,
+		["Пламегор"] = {
+			["trades"] = {
+			},
+			["myChars"] = {
+				["Пламбалыкши"] = {
+					["fishingSkill"] = 0,
+					["cookingSkill"] = 0,
+					["profSkill1"] = 0,
+					["firstaidSkillMax"] = 0,
+					["profSkill2"] = 0,
+					["savedInstances"] = {
+					},
+					["totalPetPoints"] = 0,
+					["maxXP"] = 7600,
+					["gender"] = "Neutral",
+					["prof1"] = "none",
+					["restedXP"] = 294,
+					["totalBagSlots"] = 28,
+					["freeBagSlots"] = 3,
+					["hasPet"] = false,
+					["guild"] = "No guild",
+					["raceEnglish"] = "NightElf",
+					["ammo"] = 0,
+					["profSkillMax2"] = 0,
+					["race"] = "Ночная эльфийка",
+					["time"] = 1620781196,
+					["petLevel"] = 0,
+					["currentXP"] = 775,
+					["gold"] = 298,
+					["spentPetPoints"] = 0,
+					["realm"] = "Пламегор",
+					["ammoType"] = 2512,
+					["fishingSkillMax"] = 0,
+					["raceLocalized"] = "Ночная эльфийка",
+					["cookingSkillMax"] = 0,
+					["firstaidSkill"] = 0,
+					["classEnglish"] = "HUNTER",
+					["durabilityAverage"] = 50.2645502645503,
+					["guildRankName"] = "No guild rank",
+					["profSkillMax1"] = 0,
+					["resting"] = false,
+					["isPetDead"] = false,
+					["prof2"] = "none",
+					["cooldowns"] = {
+					},
+					["level"] = 10,
+					["classLocalized"] = "Охотница",
+				},
+			},
+			["instances"] = {
+			},
+		},
+	},
+}

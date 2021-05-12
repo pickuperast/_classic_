@@ -1,0 +1,145 @@
+
+FishingBuddy_Info = {
+	["FishTotals"] = {
+		[1446002] = 68520,
+		[1446000] = 123797,
+		[1446001] = 55277,
+	},
+	["HiddenFishies"] = {
+	},
+	["FishingSkill"] = {
+		[1446001] = 0,
+		[1446002] = 0,
+	},
+	["DataFish"] = 0,
+	["FishingHoles"] = {
+		[1446001] = {
+			[13755] = 3683,
+			[6362] = 5566,
+			[13879] = 13,
+			[13877] = 73,
+			[13874] = 114,
+			[13422] = 6651,
+			[13754] = 7487,
+			[13756] = 18,
+			[13878] = 43,
+			[13880] = 4,
+			[13875] = 174,
+			[4603] = 22191,
+			[6359] = 5647,
+			[13876] = 118,
+			[7973] = 3495,
+		},
+		[1446002] = {
+			[13755] = 2745,
+			[6362] = 6994,
+			[13879] = 14,
+			[13875] = 185,
+			[13754] = 10122,
+			[13756] = 1143,
+			[13422] = 8594,
+			[7973] = 3800,
+			[7974] = 1,
+			[13878] = 40,
+			[13880] = 3,
+			[13874] = 139,
+			[4603] = 27549,
+			[6359] = 6931,
+			[13876] = 167,
+			[13877] = 93,
+		},
+	},
+	["Version"] = 19500,
+	["KnownZones"] = {
+		[1446] = "Southbreak Shore",
+	},
+	["SubZones"] = {
+		[1446002] = "Southbreak Shore",
+		[1446000] = 2,
+		[1446001] = "Land's End Beach",
+	},
+	["ImppDBLoaded"] = 0,
+	["Fishies"] = {
+		[13755] = {
+			["enUS"] = "Winter Squid",
+			["quality"] = 1,
+			["texture"] = 133899,
+		},
+		[6362] = {
+			["enUS"] = "Raw Rockscale Cod",
+			["quality"] = 1,
+			["texture"] = 133890,
+		},
+		[13879] = {
+			["enUS"] = "59 Pound Grouper",
+			["texture"] = 133892,
+			["quality"] = 1,
+		},
+		[13877] = {
+			["enUS"] = "47 Pound Grouper",
+			["quality"] = 1,
+			["texture"] = 133892,
+		},
+		[7973] = {
+			["enUS"] = "Big-mouth Clam",
+			["quality"] = 1,
+			["texture"] = 134433,
+		},
+		[13876] = {
+			["enUS"] = "40 Pound Grouper",
+			["quality"] = 1,
+			["texture"] = 133892,
+		},
+		[13422] = {
+			["enUS"] = "Stonescale Eel",
+			["quality"] = 1,
+			["texture"] = 133897,
+		},
+		[13874] = {
+			["enUS"] = "Heavy Crate",
+			["quality"] = 1,
+			["texture"] = 132763,
+		},
+		[13756] = {
+			["enUS"] = "Raw Summer Bass",
+			["texture"] = 133889,
+			["quality"] = 1,
+		},
+		[13878] = {
+			["enUS"] = "53 Pound Grouper",
+			["quality"] = 1,
+			["texture"] = 133892,
+		},
+		[13880] = {
+			["enUS"] = "68 Pound Grouper",
+			["quality"] = 1,
+			["texture"] = 133892,
+		},
+		[13875] = {
+			["enUS"] = "Ironbound Locked Chest",
+			["quality"] = 1,
+			["texture"] = 132594,
+		},
+		[4603] = {
+			["enUS"] = "Raw Spotted Yellowtail",
+			["quality"] = 1,
+			["texture"] = 133887,
+		},
+		[6359] = {
+			["enUS"] = "Firefin Snapper",
+			["quality"] = 1,
+			["texture"] = 134299,
+		},
+		[13754] = {
+			["enUS"] = "Raw Glossy Mightfish",
+			["quality"] = 1,
+			["texture"] = 134301,
+		},
+		[7974] = {
+			["enUS"] = "Zesty Clam Meat",
+			["texture"] = 134007,
+			["quality"] = 1,
+		},
+	},
+	["FishInfo2"] = 0,
+}

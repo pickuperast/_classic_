@@ -1,0 +1,38 @@
+VER 3 0000000000000001 "3" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/use Яркая побрякушка
+/use Удочка
+END
+VER 3 0000000000000002 "4" "INV_MISC_QUESTIONMARK"
+/use Schwere Kiste
+/use Zerbeulte Kiste
+/use Flaschenpost
+/use Versiegelte Kiste
+/use Kleine verschlossene Truhe
+/use Big-mouth Clam
+/use Heavy Crate
+/use Послание в бутылке
+/use Моллюск-болтун
+/use Тяжелый ящик
+/use Запечатанный ящик
+END
+VER 3 0000000000000006 "7" "136223"
+/quit
+END
+VER 3 0000000000000007 "auk1" "INV_MISC_QUESTIONMARK"
+/click TSMStartPostScanBtn
+END
+VER 3 0000000000000005 "auk2" "INV_MISC_QUESTIONMARK"
+/click TSMAuctioningBtn
+END
+VER 3 0000000000000004 "auk3" "INV_MISC_QUESTIONMARK"
+/click TSMMailOpenSalesBtn
+/click TSMMailOpenExpiresBtn
+/click TSMMailOpenAllBtn
+END
+VER 3 0000000000000008 "auk6" "INV_MISC_QUESTIONMARK"
+/target Аукционер Штампи
+END
+VER 3 0000000000000003 "log" "135768"
+/logout
+END

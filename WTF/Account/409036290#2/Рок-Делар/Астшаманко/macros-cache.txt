@@ -1,0 +1,30 @@
+VER 3 0000000001000002 "Земной шок" "INV_MISC_QUESTIONMARK"
+/cast Земной шок
+/нет
+END
+VER 3 0000000001000006 "Ледяной шок" "INV_MISC_QUESTIONMARK"
+/cast Ледяной шок
+/к СТАЯТЬ!
+END
+VER 3 0000000001000003 "Огненный шок" "INV_MISC_QUESTIONMARK"
+/cast Огненный шок
+/плевок
+END
+VER 3 0000000001000004 "Тремор" "INV_MISC_QUESTIONMARK"
+/cast Тотем трепета
+/к ЕРЖАН ВСТАВАЙ!
+END
+VER 3 0000000001000005 "атака" "INV_MISC_QUESTIONMARK"
+/атака
+/атакацели
+END
+VER 3 0000000001000001 "км" "INV_MISC_QUESTIONMARK"
+/км
+END
+VER 3 0000000001000008 "паровоз" "INV_MISC_QUESTIONMARK"
+/паровоз
+END
+VER 3 0000000001000007 "цель" "INV_MISC_QUESTIONMARK"
+/ц посол малкин
+/script SetRaidTarget("target", 8);
+END

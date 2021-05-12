@@ -1,0 +1,24 @@
+VER 3 0000000001000001 "123" "132108"
+/4 ищем паровоза в КТК нас 3, цены в пм
+END
+VER 3 0000000001000006 "cr_food" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast сотворение пищи
+END
+VER 3 0000000001000005 "cr_wat" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast сотворение воды
+END
+VER 3 0000000001000002 "dd" "132111"
+/assist Стебанус
+/follow Стебанус
+/cast Ледяная стрела
+/use 
+END
+VER 3 0000000001000004 "FOLLOW" "132200"
+/follow Таймень
+END
+VER 3 0000000001000003 "food" "132093"
+/use Сотворенная ключевая вода
+/use Сотворенный ржаной хлеб
+END

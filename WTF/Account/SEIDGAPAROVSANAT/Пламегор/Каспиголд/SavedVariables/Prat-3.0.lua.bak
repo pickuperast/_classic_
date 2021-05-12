@@ -1,0 +1,1724 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["scrollback"] = {
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 139,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:58:44]|h|r Мира Тирнгаарде говорит: Кому свежего хлебушка!",
+					["b"] = 0.623529434204102,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 73729.979,
+					["serverTime"] = 1620658724,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:58:54]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Викхар-Пламегор:6:CHANNEL:2|h|cffc69b6dВикхар|r|h|cffd8d8d8]|r: |cff0070dd|Hitem:13055:1900:::::::45:::::::|h[Костеглод]|h|r продам",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 73729.979,
+					["serverTime"] = 1620658734,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:58:55]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Хаммерхэнд:7:CHANNEL:2|h|cfff48cbaХаммерхэнд|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t зачарю чего-нибудь, вознаграждение приветствуется...  |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t рыцарь, +55 к хпс, и др., реги ваши |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 73729.979,
+					["serverTime"] = 1620658735,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:58:57]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Радагас:9:CHANNEL:2|h|cffff7c0aРадагас|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t Сейчас сбов в МК  ГДКП(Голдбид) Нужны 1 хил и 1 ДД 38\\40. Дискорд |cff149bfd|Hurl:https://discord.gg/Sh9a4GX4eg|h[https://discord.gg/Sh9a4GX4eg]|h|r   с РЛ Муру! |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 73729.979,
+					["serverTime"] = 1620658737,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:59:01]|h|r Вы получаете предмет: |cffffffff|Hitem:2770::::::::1:::::::|h[Медная руда]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 73729.979,
+					["serverTime"] = 1620658741,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:59:01]|h|r Вы получаете предмет: |cffffffff|Hitem:2770::::::::1:::::::|h[Медная руда]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 73729.979,
+					["serverTime"] = 1620658741,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:59:02]|h|r Вы получаете предмет: |cffffffff|Hitem:2770::::::::1:::::::|h[Медная руда]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 73729.979,
+					["serverTime"] = 1620658742,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:59:02]|h|r Вы получаете предмет: |cffffffff|Hitem:2770::::::::1:::::::|h[Медная руда]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 73729.979,
+					["serverTime"] = 1620658742,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:59:02]|h|r Вы получаете предмет: |cffffffff|Hitem:2770::::::::1:::::::|h[Медная руда]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 73729.979,
+					["serverTime"] = 1620658742,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:59:03]|h|r Вы получаете предмет: |cffffffff|Hitem:2770::::::::1:::::::|h[Медная руда]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 73729.979,
+					["serverTime"] = 1620658743,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:59:03]|h|r Вы получаете предмет: |cffffffff|Hitem:2770::::::::1:::::::|h[Медная руда]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 73729.979,
+					["serverTime"] = 1620658743,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:59:03]|h|r Вы получаете предмет: |cffffffff|Hitem:2836::::::::1:::::::|h[Необработанный камень]|h|rx4.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 73729.979,
+					["serverTime"] = 1620658743,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:59:04]|h|r Вы получаете предмет: |cff9d9d9d|Hitem:1769::::::::1:::1::::|h[Холщовые наплечные щитки]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 73729.979,
+					["serverTime"] = 1620658744,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:59:04]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Минейра:23:CHANNEL:2|h|cff8787edМинейра|r|h|cffd8d8d8]|r: В |cffffffff<|r|cff00ff00ЗулГуруб|r|cffffffff>|r нужен ОТ, Хилл и ДД (маунт анролл или 1 идол ГБ)",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 73729.979,
+					["serverTime"] = 1620658744,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:59:04]|h|r Вы получаете предмет: |cffffffff|Hitem:2771::::::::1:::::::|h[Оловянная руда]|h|rx7.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 73729.979,
+					["serverTime"] = 1620658744,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:59:05]|h|r Вы получаете предмет: |cffffffff|Hitem:5187::::::::1:::1::::|h[Молот Рак'Зора]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 73729.979,
+					["serverTime"] = 1620658745,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:59:05]|h|r Вы получаете предмет: |cffffffff|Hitem:5187::::::::1:::1::::|h[Молот Рак'Зора]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 73729.979,
+					["serverTime"] = 1620658745,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:59:05]|h|r Вы получаете предмет: |cffffffff|Hitem:16072::::::::1:::14::::|h[Поваренная книга умельца]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 73729.979,
+					["serverTime"] = 1620658745,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:59:06]|h|r Вы получаете предмет: |cffffffff|Hitem:16072::::::::1:::14::::|h[Поваренная книга умельца]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 73729.979,
+					["serverTime"] = 1620658746,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:59:06]|h|r Вы получаете предмет: |cffffffff|Hitem:10559::::::::1:::::::|h[Мифриловая труба]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 73729.979,
+					["serverTime"] = 1620658746,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:59:06]|h|r Вы получаете предмет: |cffffffff|Hitem:10559::::::::1:::::::|h[Мифриловая труба]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 73729.979,
+					["serverTime"] = 1620658746,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:59:07]|h|r Вы получаете предмет: |cffffffff|Hitem:10559::::::::1:::::::|h[Мифриловая труба]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 73729.979,
+					["serverTime"] = 1620658747,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:59:08]|h|r Вы получаете предмет: |cff1eff00|Hitem:1206::::::::1:::::::|h[Моховой агат]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 73729.979,
+					["serverTime"] = 1620658748,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:59:08]|h|r Вы получаете предмет: |cff1eff00|Hitem:1705::::::::1:::::::|h[Малый лунный камень]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 73729.979,
+					["serverTime"] = 1620658748,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:59:08]|h|r Вы получаете предмет: |cff1eff00|Hitem:1206::::::::1:::::::|h[Моховой агат]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 73729.979,
+					["serverTime"] = 1620658748,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:59:09]|h|r Вы получаете предмет: |cff1eff00|Hitem:1206::::::::1:::::::|h[Моховой агат]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 73729.979,
+					["serverTime"] = 1620658749,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:59:09]|h|r Вы получаете предмет: |cff1eff00|Hitem:1210::::::::1:::::::|h[Камень теней]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 73729.979,
+					["serverTime"] = 1620658749,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:59:10]|h|r Вы получаете предмет: |cff1eff00|Hitem:1206::::::::1:::::::|h[Моховой агат]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 73729.979,
+					["serverTime"] = 1620658750,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:59:10]|h|r Вы получаете предмет: |cff1eff00|Hitem:1705::::::::1:::::::|h[Малый лунный камень]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 73729.979,
+					["serverTime"] = 1620658750,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:59:13]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Лёффеблонд:47:CHANNEL:2|h|cffffffffЛёффеблонд|r|h|cffd8d8d8]|r: Наложение чар: Ваши/мои реги + чаевые",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 73729.979,
+					["serverTime"] = 1620658753,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:59:19]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Кибердайни:54:CHANNEL:2|h|cff3fc6eaКибердайни|r|h|cffd8d8d8]|r: продам |cff1eff00|Hitem:13468::::::::59:::::::|h[Черный лотос]|h|r |cff1eff00|Hitem:12363::::::::59:::::::|h[Чародейный кристалл]|h|r",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 73729.979,
+					["serverTime"] = 1620658759,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:59:27]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Пакаван-Пламегор:63:CHANNEL:2|h|cff3fc6eaПакаван|r|h|cffd8d8d8]|r: Нид ТАНК ХИЛ НА СОПРОВОЖДЕНИЕ",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 73729.979,
+					["serverTime"] = 1620658767,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:59:44]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Мишабекес:81:CHANNEL:2|h|cffc69b6dМишабекес|r|h|cffd8d8d8]|r: |cffa335ee|Hitem:16799::::::::60:::::::|h[Наручники чародея]|h|r продам",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 73729.979,
+					["serverTime"] = 1620658784,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						20, -- [4]
+						["n"] = 4,
+					},
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:59:50]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Мишабекес-Пламегор:89:CHANNEL:2|h|cffc69b6dМишабекес|r|h|cffd8d8d8]|r: |cffa335ee|Hitem:16851::::::::60:::::::|h[Пояс истребителя великанов]|h|r продам",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 73729.979,
+					["serverTime"] = 1620658790,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						20, -- [4]
+						["n"] = 4,
+					},
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:59:54]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Мишабекес-Пламегор:93:CHANNEL:2|h|cffc69b6dМишабекес|r|h|cffd8d8d8]|r: |cffa335ee|Hitem:16806::::::::60:::::::|h[Пояс Сердца Скверны]|h|rпродам",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 73729.979,
+					["serverTime"] = 1620658794,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						20, -- [4]
+						["n"] = 4,
+					},
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:00:27]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Лёффеблонд-Пламегор:137:CHANNEL:2|h|cffffffffЛёффеблонд|r|h|cffd8d8d8]|r: |cffa335ee|Hitem:18562::::::::60:::::::|h[Элементиевая руда]|h|r продам",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 73729.979,
+					["serverTime"] = 1620658827,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:00:31]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Кибердайни-Пламегор:144:CHANNEL:2|h|cff3fc6eaКибердайни|r|h|cffd8d8d8]|r: продам |cff1eff00|Hitem:12363::::::::59:::::::|h[Чародейный кристалл]|h|r |cff1eff00|Hitem:13468::::::::59:::::::|h[Черный лотос]|h|r",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 73729.979,
+					["serverTime"] = 1620658831,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:00:34]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Арнишвайн:146:CHANNEL:2|h|cff3fc6eaАрнишвайн|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t Афк Кач |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|tЗул'гуруб|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t 1 ран 15г (100-130к ехп, 200-240 репы) 50-59 лвл (раны по 9-10 мину)(есть сум)",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 73729.979,
+					["serverTime"] = 1620658834,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:00:35]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Скорцезе:147:CHANNEL:2|h|cffaad372Скорцезе|r|h|cffd8d8d8]|r: АФК Буст Тюрьма, 10 голд - 5 ранов! фри лут",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 73729.979,
+					["serverTime"] = 1620658835,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:00:49]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Зубнойтехник:160:CHANNEL:2|h|cff3fc6eaЗубнойтехник|r|h|cffd8d8d8]|r: +++Вода, еда, порталы +++",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 73729.979,
+					["serverTime"] = 1620658849,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						26, -- [4]
+						["n"] = 4,
+					},
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:01:13]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Скорцезе-Пламегор:176:CHANNEL:2|h|cffaad372Скорцезе|r|h|cffd8d8d8]|r: Тюрьма БУСТ 5 ранов - 10 г, внимание 10 Г-5 ранов ТЮРЬМА",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 73729.979,
+					["serverTime"] = 1620658873,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+				}, -- [41]
+				{
+					["message"] = "0 д., 17 ч., 9 мин., 36 сек.",
+					["timestamp"] = 73729.979,
+				}, -- [42]
+				{
+					["message"] = "========== Конец истории сообщений ==========",
+					["timestamp"] = 73729.979,
+				}, -- [43]
+				{
+					["message"] = "Enchantrix v8.2.6506-0 загружен",
+					["r"] = 0.8,
+					["extraData"] = {
+						["n"] = 2,
+					},
+					["timestamp"] = 73717.933,
+					["g"] = 0.8,
+					["b"] = 0.2,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:10:42]|h|r |cFF00FFB0WeaponSwingTimer: |rСпасибо за установку версии WeaponSwingTimer 4.1.0 LeftHandedGlove! Используйте |cFFFFC300/wst|r для получения дополнительных опций.",
+					["timestamp"] = 73717.933,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:10:49]|h|r Fishing Buddy v0.7.3 Beta 5 loaded",
+					["timestamp"] = 73729.222,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:10:49]|h|r Informant v8.2.6508 загружен",
+					["r"] = 0.25,
+					["serverTime"] = 1620720649,
+					["timestamp"] = 73729.979,
+					["g"] = 0.55,
+					["b"] = 1,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:10:49]|h|r Auctioneer loaded (version 8.2.6471)",
+					["r"] = 0.3,
+					["serverTime"] = 1620720649,
+					["timestamp"] = 73729.979,
+					["g"] = 0.9,
+					["b"] = 0.8,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:10:50]|h|r Автоматическое распыление неактивно",
+					["r"] = 1,
+					["serverTime"] = 1620720650,
+					["timestamp"] = 73730.941,
+					["g"] = 0.5,
+					["b"] = 0.25,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:10:54]|h|r HealBot |cff20ff201.13.7.1|r загружен. For help use: |cffffff00 /hb h|r",
+					["r"] = 0.7,
+					["serverTime"] = 1620720654,
+					["timestamp"] = 73735.43,
+					["g"] = 0.7,
+					["b"] = 1,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:04]|h|r Auctioneer: |cffddeeffScanData|r loaded.",
+					["r"] = 0.3,
+					["serverTime"] = 1620720664,
+					["timestamp"] = 73745.574,
+					["g"] = 0.9,
+					["b"] = 0.8,
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:05]|h|r |cff33ff99TradeSkillMaster|r: Продано [Необработанный камень]x1 для |cff00ff0072|r|cffeda55fc|r Имбочка",
+					["timestamp"] = 73746.742,
+					["serverTime"] = 1620720665,
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:06]|h|r |cff33ff99TradeSkillMaster|r: Продано [Необработанный камень]x1 для |cff00ff0072|r|cffeda55fc|r Имбочка",
+					["timestamp"] = 73747.015,
+					["serverTime"] = 1620720666,
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:06]|h|r |cff33ff99TradeSkillMaster|r: Продано [Необработанный камень]x1 для |cff00ff0072|r|cffeda55fc|r Имбочка",
+					["timestamp"] = 73747.333,
+					["serverTime"] = 1620720666,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:06]|h|r |cff33ff99TradeSkillMaster|r: Продано [Необработанный камень]x1 для |cff00ff0072|r|cffeda55fc|r Имбочка",
+					["timestamp"] = 73747.56,
+					["serverTime"] = 1620720666,
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:06]|h|r |cff33ff99TradeSkillMaster|r: Продано [Оловянная руда]x2 для |cff00ff0011|r|cffc7c7cfs|r |cff00ff0018|r|cffeda55fc|r Ультраслабый",
+					["timestamp"] = 73747.787,
+					["serverTime"] = 1620720666,
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:07]|h|r |cff33ff99TradeSkillMaster|r: Продано [Медная руда]x9 для |cff00ff0042|r|cffc7c7cfs|r |cff00ff0058|r|cffeda55fc|r Ультраслабый",
+					["timestamp"] = 73748.06,
+					["serverTime"] = 1620720667,
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:07]|h|r |cff33ff99TradeSkillMaster|r: Total Gold Collected: 56|cffc7c7cfs|r 68|cffeda55fc|r",
+					["timestamp"] = 73748.06,
+					["serverTime"] = 1620720667,
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:08]|h|r Вы получаете предмет: |cffffffff|Hitem:10559::::::::1:::::::|h[Мифриловая труба]|h|r.",
+					["serverTime"] = 1620720668,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73749.378,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:08]|h|r |cff33ff99TradeSkillMaster|r: Аукционный дом Альянса отправил вам сообщение: Аукцион не состоялся: Мифриловая труба",
+					["timestamp"] = 73749.378,
+					["serverTime"] = 1620720668,
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:08]|h|r Вы получаете предмет: |cffffffff|Hitem:10559::::::::1:::::::|h[Мифриловая труба]|h|r.",
+					["serverTime"] = 1620720668,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73749.787,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:08]|h|r |cff33ff99TradeSkillMaster|r: Аукционный дом Альянса отправил вам сообщение: Аукцион не состоялся: Мифриловая труба",
+					["timestamp"] = 73749.787,
+					["serverTime"] = 1620720668,
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:09]|h|r Вы получаете предмет: |cffffffff|Hitem:10559::::::::1:::::::|h[Мифриловая труба]|h|r.",
+					["serverTime"] = 1620720669,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73750.105,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:09]|h|r |cff33ff99TradeSkillMaster|r: Аукционный дом Альянса отправил вам сообщение: Аукцион не состоялся: Мифриловая труба",
+					["timestamp"] = 73750.105,
+					["serverTime"] = 1620720669,
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:09]|h|r Вы получаете предмет: |cffffffff|Hitem:10559::::::::1:::::::|h[Мифриловая труба]|h|r.",
+					["serverTime"] = 1620720669,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73750.469,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:09]|h|r |cff33ff99TradeSkillMaster|r: Аукционный дом Альянса отправил вам сообщение: Аукцион не состоялся: Мифриловая труба",
+					["timestamp"] = 73750.469,
+					["serverTime"] = 1620720669,
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:09]|h|r Вы получаете предмет: |cffffffff|Hitem:10559::::::::1:::::::|h[Мифриловая труба]|h|r.",
+					["serverTime"] = 1620720669,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73750.833,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:09]|h|r |cff33ff99TradeSkillMaster|r: Аукционный дом Альянса отправил вам сообщение: Аукцион не состоялся: Мифриловая труба",
+					["timestamp"] = 73750.833,
+					["serverTime"] = 1620720669,
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:10]|h|r Вы получаете предмет: |cffffffff|Hitem:10559::::::::1:::::::|h[Мифриловая труба]|h|r.",
+					["serverTime"] = 1620720670,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73751.151,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:10]|h|r |cff33ff99TradeSkillMaster|r: Аукционный дом Альянса отправил вам сообщение: Аукцион не состоялся: Мифриловая труба",
+					["timestamp"] = 73751.151,
+					["serverTime"] = 1620720670,
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:10]|h|r Вы получаете предмет: |cffffffff|Hitem:10559::::::::1:::::::|h[Мифриловая труба]|h|r.",
+					["serverTime"] = 1620720670,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73751.56,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:10]|h|r |cff33ff99TradeSkillMaster|r: Аукционный дом Альянса отправил вам сообщение: Аукцион не состоялся: Мифриловая труба",
+					["timestamp"] = 73751.56,
+					["serverTime"] = 1620720670,
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:11]|h|r Вы получаете предмет: |cff9d9d9d|Hitem:1769::::::::1:::1::::|h[Холщовые наплечные щитки]|h|r.",
+					["serverTime"] = 1620720671,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73751.969,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:11]|h|r |cff33ff99TradeSkillMaster|r: Аукционный дом Альянса отправил вам сообщение: Аукцион не состоялся: Холщовые наплечные щитки",
+					["timestamp"] = 73751.969,
+					["serverTime"] = 1620720671,
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:11]|h|r Вы получаете предмет: |cffffffff|Hitem:16072::::::::1:::14::::|h[Поваренная книга умельца]|h|r.",
+					["serverTime"] = 1620720671,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73752.424,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:11]|h|r |cff33ff99TradeSkillMaster|r: Аукционный дом Альянса отправил вам сообщение: Аукцион не состоялся: Поваренная книга умельца",
+					["timestamp"] = 73752.424,
+					["serverTime"] = 1620720671,
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:11]|h|r Вы получаете предмет: |cffffffff|Hitem:5187::::::::1:::1::::|h[Молот Рак'Зора]|h|r.",
+					["serverTime"] = 1620720671,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73752.833,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:11]|h|r |cff33ff99TradeSkillMaster|r: Аукционный дом Альянса отправил вам сообщение: Аукцион не состоялся: Молот Рак'Зора",
+					["timestamp"] = 73752.833,
+					["serverTime"] = 1620720671,
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:12]|h|r Вы получаете предмет: |cffffffff|Hitem:16072::::::::1:::14::::|h[Поваренная книга умельца]|h|r.",
+					["serverTime"] = 1620720672,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73753.151,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:12]|h|r |cff33ff99TradeSkillMaster|r: Аукционный дом Альянса отправил вам сообщение: Аукцион не состоялся: Поваренная книга умельца",
+					["timestamp"] = 73753.151,
+					["serverTime"] = 1620720672,
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:12]|h|r Вы получаете предмет: |cffffffff|Hitem:5187::::::::1:::1::::|h[Молот Рак'Зора]|h|r.",
+					["serverTime"] = 1620720672,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73753.515,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [81]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:12]|h|r |cff33ff99TradeSkillMaster|r: Аукционный дом Альянса отправил вам сообщение: Аукцион не состоялся: Молот Рак'Зора",
+					["timestamp"] = 73753.515,
+					["serverTime"] = 1620720672,
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:12]|h|r Вы получаете предмет: |cffffffff|Hitem:10559::::::::1:::::::|h[Мифриловая труба]|h|r.",
+					["serverTime"] = 1620720672,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73753.833,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:12]|h|r |cff33ff99TradeSkillMaster|r: Аукционный дом Альянса отправил вам сообщение: Аукцион не состоялся: Мифриловая труба",
+					["timestamp"] = 73753.833,
+					["serverTime"] = 1620720672,
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:13]|h|r Вы получаете предмет: |cffffffff|Hitem:5635::::::::1:::::::|h[Острый коготь]|h|r.",
+					["serverTime"] = 1620720673,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73754.242,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:13]|h|r |cff33ff99TradeSkillMaster|r: Аукционный дом Альянса отправил вам сообщение: Аукцион не состоялся: Острый коготь",
+					["timestamp"] = 73754.242,
+					["serverTime"] = 1620720673,
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:13]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Штащ:15:CHANNEL:2|h|cffff7c0aШтащ|r|h|cffd8d8d8]|r: Услуги Энчанта, Кожевничества, почти все рецепты, ваши реги плюс плата за работу",
+					["serverTime"] = 1620720673,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73754.333,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:15]|h|r Вы получаете предмет: |cffffffff|Hitem:2770::::::::1:::::::|h[Медная руда]|h|r.",
+					["serverTime"] = 1620720675,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73756.06,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [88]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:15]|h|r |cff33ff99TradeSkillMaster|r: Аукционный дом Альянса отправил вам сообщение: Аукцион отменен: Медная руда",
+					["timestamp"] = 73756.06,
+					["serverTime"] = 1620720675,
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:15]|h|r Вы получаете предмет: |cffffffff|Hitem:2770::::::::1:::::::|h[Медная руда]|h|r.",
+					["serverTime"] = 1620720675,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73756.424,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [90]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:15]|h|r |cff33ff99TradeSkillMaster|r: Аукционный дом Альянса отправил вам сообщение: Аукцион отменен: Медная руда",
+					["timestamp"] = 73756.424,
+					["serverTime"] = 1620720675,
+				}, -- [91]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:16]|h|r Вы получаете предмет: |cffffffff|Hitem:2770::::::::1:::::::|h[Медная руда]|h|r.",
+					["serverTime"] = 1620720676,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73756.924,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [92]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:16]|h|r |cff33ff99TradeSkillMaster|r: Аукционный дом Альянса отправил вам сообщение: Аукцион отменен: Медная руда",
+					["timestamp"] = 73756.924,
+					["serverTime"] = 1620720676,
+				}, -- [93]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:16]|h|r Вы получаете предмет: |cffffffff|Hitem:2770::::::::1:::::::|h[Медная руда]|h|r.",
+					["serverTime"] = 1620720676,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73757.242,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [94]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:16]|h|r |cff33ff99TradeSkillMaster|r: Аукционный дом Альянса отправил вам сообщение: Аукцион отменен: Медная руда",
+					["timestamp"] = 73757.242,
+					["serverTime"] = 1620720676,
+				}, -- [95]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:16]|h|r Вы получаете предмет: |cffffffff|Hitem:2770::::::::1:::::::|h[Медная руда]|h|r.",
+					["serverTime"] = 1620720676,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73757.651,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [96]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:16]|h|r |cff33ff99TradeSkillMaster|r: Аукционный дом Альянса отправил вам сообщение: Аукцион отменен: Медная руда",
+					["timestamp"] = 73757.651,
+					["serverTime"] = 1620720676,
+				}, -- [97]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:17]|h|r Вы получаете предмет: |cffffffff|Hitem:2771::::::::1:::::::|h[Оловянная руда]|h|r.",
+					["serverTime"] = 1620720677,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73758.015,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [98]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:17]|h|r |cff33ff99TradeSkillMaster|r: Аукционный дом Альянса отправил вам сообщение: Аукцион отменен: Оловянная руда",
+					["timestamp"] = 73758.015,
+					["serverTime"] = 1620720677,
+				}, -- [99]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:17]|h|r Вы получаете предмет: |cffffffff|Hitem:2771::::::::1:::::::|h[Оловянная руда]|h|r.",
+					["serverTime"] = 1620720677,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73758.333,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [100]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:17]|h|r |cff33ff99TradeSkillMaster|r: Аукционный дом Альянса отправил вам сообщение: Аукцион отменен: Оловянная руда",
+					["timestamp"] = 73758.333,
+					["serverTime"] = 1620720677,
+				}, -- [101]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:17]|h|r Вы получаете предмет: |cffffffff|Hitem:2771::::::::1:::::::|h[Оловянная руда]|h|r.",
+					["serverTime"] = 1620720677,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73758.696,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [102]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:17]|h|r |cff33ff99TradeSkillMaster|r: Аукционный дом Альянса отправил вам сообщение: Аукцион отменен: Оловянная руда",
+					["timestamp"] = 73758.696,
+					["serverTime"] = 1620720677,
+				}, -- [103]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:18]|h|r Вы получаете предмет: |cffffffff|Hitem:2771::::::::1:::::::|h[Оловянная руда]|h|r.",
+					["serverTime"] = 1620720678,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73759.015,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [104]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:18]|h|r |cff33ff99TradeSkillMaster|r: Аукционный дом Альянса отправил вам сообщение: Аукцион отменен: Оловянная руда",
+					["timestamp"] = 73759.015,
+					["serverTime"] = 1620720678,
+				}, -- [105]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:18]|h|r Вы получаете предмет: |cffffffff|Hitem:2771::::::::1:::::::|h[Оловянная руда]|h|r.",
+					["serverTime"] = 1620720678,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73759.378,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [106]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:18]|h|r |cff33ff99TradeSkillMaster|r: Аукционный дом Альянса отправил вам сообщение: Аукцион отменен: Оловянная руда",
+					["timestamp"] = 73759.378,
+					["serverTime"] = 1620720678,
+				}, -- [107]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:19]|h|r Вы получаете предмет: |cffffffff|Hitem:2592::::::::1:::::::|h[Шерсть]|h|rx20.",
+					["serverTime"] = 1620720679,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73760.742,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [108]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:20]|h|r Вы получаете предмет: |cffffffff|Hitem:2455::::::::1:::::::|h[Слабое зелье маны]|h|r.",
+					["serverTime"] = 1620720680,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73761.105,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [109]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:20]|h|r Вы получаете предмет: |cff1eff00|Hitem:9873::::::189:1492028288:1:::1::::|h[Щит отступника со знаком силы]|h|r.",
+					["serverTime"] = 1620720680,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73761.515,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [110]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:20]|h|r Вы получаете предмет: |cff1eff00|Hitem:5001::::::::1:::1::::|h[Кольцо Сердца]|h|r.",
+					["serverTime"] = 1620720680,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73761.878,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [111]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:21]|h|r Вы получаете предмет: |cff1eff00|Hitem:7462::::::1197:1143943808:1:::1::::|h[Рыцарский ремень со знаком медведя]|h|r.",
+					["serverTime"] = 1620720681,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73762.378,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [112]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:21]|h|r Вы получаете предмет: |cffffffff|Hitem:3382::::::::1:::::::|h[Слабое зелье тролльей крови]|h|r.",
+					["serverTime"] = 1620720681,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73762.742,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [113]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:22]|h|r Вы получаете предмет: |cffffffff|Hitem:1711::::::::1:::::::|h[Свиток выносливости II]|h|r.",
+					["serverTime"] = 1620720682,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73763.06,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [114]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:22]|h|r Вы получаете предмет: |cff1eff00|Hitem:15122::::::114:1880353152:1:::1::::|h[Прочные наручи с печатью выносливости]|h|r.",
+					["serverTime"] = 1620720682,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73763.424,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [115]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:22]|h|r Вы получаете предмет: |cff1eff00|Hitem:6580::::::1191:1573795712:1:::1::::|h[Мундир поборника со знаком медведя]|h|r.",
+					["serverTime"] = 1620720682,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73763.787,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [116]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:23]|h|r Вы получаете предмет: |cffffffff|Hitem:6588::::::::1:::1::::|h[Наплеч разведки]|h|r.",
+					["serverTime"] = 1620720683,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73764.196,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [117]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:23]|h|r Вы получаете предмет: |cffffffff|Hitem:4338::::::::1:::::::|h[Магическая ткань]|h|rx20.",
+					["serverTime"] = 1620720683,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73764.605,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [118]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:24]|h|r Вы получаете предмет: |cffffffff|Hitem:4338::::::::1:::::::|h[Магическая ткань]|h|rx14.",
+					["serverTime"] = 1620720684,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73765.015,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [119]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:24]|h|r |cff33ff99TradeSkillMaster|r: Оод отправил вам сообщение: Шерсть (20)",
+					["timestamp"] = 73765.015,
+					["serverTime"] = 1620720684,
+				}, -- [120]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:24]|h|r Вы получаете предмет: |cff1eff00|Hitem:4706::::::::1:::1::::|h[Отблескивающий чешуйчатый плащ]|h|r.",
+					["serverTime"] = 1620720684,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73765.469,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [121]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:24]|h|r Вы получаете предмет: |cff1eff00|Hitem:4410::::::::1:::1::::|h[Чертеж: теневые очки]|h|r.",
+					["serverTime"] = 1620720684,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73765.878,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [122]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:25]|h|r Вы получаете предмет: |cff1eff00|Hitem:6419::::::::1:::1::::|h[Украшенные символами полуперчатки]|h|r.",
+					["serverTime"] = 1620720685,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73766.242,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [123]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:25]|h|r Вы получаете предмет: |cff1eff00|Hitem:7441::::::1036:467543936:1:::1::::|h[Шапка часового со знаком кита]|h|r.",
+					["serverTime"] = 1620720685,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73766.605,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [124]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:26]|h|r Вы получаете предмет: |cff1eff00|Hitem:7472::::::1030:1901429760:1:::1::::|h[Королевские сапоги со знаком кита]|h|r.",
+					["serverTime"] = 1620720686,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73767.015,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [125]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:26]|h|r Вы получаете предмет: |cff1eff00|Hitem:9890::::::1608:877406592:1:::1::::|h[Накидка охотника с печатью защиты]|h|r.",
+					["serverTime"] = 1620720686,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73767.469,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [126]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:26]|h|r Вы получаете предмет: |cff1eff00|Hitem:9864::::::1195:627883264:1:::1::::|h[Сапоги отступника со знаком медведя]|h|r.",
+					["serverTime"] = 1620720686,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73767.833,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [127]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:27]|h|r Вы получаете предмет: |cff1eff00|Hitem:10331::::::::1:::1::::|h[Алые рукавицы]|h|r.",
+					["serverTime"] = 1620720687,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73768.196,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [128]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:27]|h|r Вы получаете предмет: |cff1eff00|Hitem:1990::::::693:1393877632:1:::1::::|h[Сбалансированная кувалда со знаком тигра]|h|r.",
+					["serverTime"] = 1620720687,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73768.56,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [129]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:28]|h|r Вы получаете предмет: |cff1eff00|Hitem:10329::::::::1:::1::::|h[Алый пояс]|h|r.",
+					["serverTime"] = 1620720688,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73768.924,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [130]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:28]|h|r Вы получаете предмет: |cffffffff|Hitem:929::::::::1:::::::|h[Лечебное зелье]|h|rx5.",
+					["serverTime"] = 1620720688,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73769.287,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [131]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:28]|h|r Вы получаете предмет: |cffffffff|Hitem:929::::::::1:::::::|h[Лечебное зелье]|h|rx2.",
+					["serverTime"] = 1620720688,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73769.651,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [132]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:28]|h|r |cff33ff99TradeSkillMaster|r: Оод отправил вам сообщение: Отблескивающий чешуйчатый плащ",
+					["timestamp"] = 73769.651,
+					["serverTime"] = 1620720688,
+				}, -- [133]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:29]|h|r Вы получаете предмет: |cffffffff|Hitem:4424::::::::1:::::::|h[Свиток духа III]|h|rx2.",
+					["serverTime"] = 1620720689,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73770.105,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [134]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:29]|h|r Вы получаете предмет: |cffffffff|Hitem:4421::::::::1:::::::|h[Охранный свиток III]|h|rx2.",
+					["serverTime"] = 1620720689,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73770.469,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [135]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:33]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Спатиал:52:CHANNEL:2|h|cffc69b6dСпатиал|r|h|cffd8d8d8]|r: Сделаю за реги + мелкий ценник или продам дешевле аука",
+					["serverTime"] = 1620720693,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73774.196,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
+				}, -- [136]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:33]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Спатиал:53:CHANNEL:2|h|cffc69b6dСпатиал|r|h|cffd8d8d8]|r: |cffffffff|Hitem:13510::::::::60:::::::|h[Настой титанов]|h|r 75г",
+					["serverTime"] = 1620720693,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73774.196,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
+				}, -- [137]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:33]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Спатиал:54:CHANNEL:2|h|cffc69b6dСпатиал|r|h|cffd8d8d8]|r: |cffffffff|Hitem:13511::::::::60:::::::|h[Настой Концентрированной мудрости]|h|r 75г",
+					["serverTime"] = 1620720693,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73774.196,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
+				}, -- [138]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:33]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Спатиал-Пламегор:55:CHANNEL:2|h|cffc69b6dСпатиал|r|h|cffd8d8d8]|r: Продам |cffa335ee|Hitem:22385::::::::60:::::::|h[Поножи титанов]|h|r за 650г",
+					["serverTime"] = 1620720693,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 73774.196,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
+				}, -- [139]
+			},
+			["maxElements"] = 4096,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

@@ -1,0 +1,8 @@
+Version: 1
+Frame: AtlasLoot_GUI-Frame
+FrameLevel: 1
+Anchor: TOPRIGHT
+X: -1
+Y: -3
+W: 920
+H: 600

@@ -1,0 +1,15 @@
+Version: 1
+Frame: CensusButtonFrame
+FrameLevel: 1
+Anchor: RIGHT
+X: -12
+Y: 156
+W: 32
+H: 32
+Frame: AtlasLoot_GUI-Frame
+FrameLevel: 1
+Anchor: RIGHT
+X: 0
+Y: -12
+W: 920
+H: 600

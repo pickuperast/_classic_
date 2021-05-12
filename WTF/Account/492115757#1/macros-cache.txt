@@ -1,0 +1,52 @@
+VER 3 0000000000000002 "3" "132112"
+/stopcasting
+/use Яркая побрякушка
+/use Удочка
+END
+VER 3 0000000000000003 "4" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Arcane Shot
+/cast Auto Shot
+END
+VER 3 0000000000000005 "4" "135769"
+/use Großmaulmuschel
+/use Schwere Kiste
+/use Zerbeulte Kiste
+/use Flaschenpost
+/use Kleine verschlossene Truhe
+/use Big-mouth Clam
+/use Послание в бутылке
+/use Моллюск-болтун
+/use Тяжелый ящик
+/use Запечатанный ящик
+END
+VER 3 0000000000000004 "5" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Feed Pet
+/use Tough Jerky
+END
+VER 3 0000000000000001 "adf" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast auto shot
+/cast Serpent Sting
+END
+VER 3 000000000000000A "log" "135768"
+/logout
+END
+VER 3 0000000000000006 "OPEN" "136106"
+/click TSMMailOpenSalesBtn
+/click TSMMailOpenExpiresBtn
+/click TSMMailOpenAllBtn
+END
+VER 3 0000000000000007 "POST" "136107"
+/click TSMAuctioningBtn
+END
+VER 3 000000000000000B "QUIT" "136222"
+/quit
+END
+VER 3 0000000000000008 "SCAN" "136129"
+/click TSMStartPostScanBtn
+END
+VER 3 0000000000000009 "tar" "136090"
+/target Аукционер Штампи
+END

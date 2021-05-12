@@ -1,0 +1,16 @@
+Auc-Filter-Basic: disabled
+Auc-Advanced: disabled
+Dejunk: enabled
+BeanCounter: disabled
+ClickLinks: disabled
+Enchantrix: disabled
+Enchantrix-Barker: disabled
+Informant: disabled
+Leatrix_Plus: disabled
+Stubby: disabled
+!Swatter: disabled
+StoryTeller: disabled
+SlideBar: disabled
+Prat-3.0_Libraries: enabled
+Prat-3.0: enabled
+AutomaticGoblinTherapist: disabled

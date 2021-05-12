@@ -1,0 +1,40 @@
+
+GuidelimeDataChar = {
+	["mainFrameHeight"] = 279,
+	["showUnavailableSteps"] = true,
+	["guideSkip"] = {
+		["MarkyMark 1-5 Teldrassil"] = {
+		},
+		["Sage Guide 1-11 Teldrassil"] = {
+			[30] = true,
+			[119] = true,
+			[193] = true,
+		},
+	},
+	["arrowY"] = -24.5157279968262,
+	["arrowRelative"] = "TOP",
+	["mainFrameX"] = -53.2564582824707,
+	["mainFrameLocked"] = false,
+	["mainFrameWidth"] = 256,
+	["arrowLocked"] = false,
+	["editorFrameY"] = 0,
+	["showCompletedSteps"] = false,
+	["arrowAlpha"] = 0.8,
+	["arrowSize"] = 64,
+	["mainFrameAlpha"] = 0.629999995231628,
+	["currentGuide"] = "Sage Guide 1-11 Teldrassil",
+	["mainFrameY"] = -1.88506293296814,
+	["arrowX"] = -0.501656591892242,
+	["mainFrameFontSize"] = 9,
+	["mainFrameShowScrollBar"] = true,
+	["showArrow"] = true,
+	["editorFrameRelative"] = "CENTER",
+	["version"] = "1.040",
+	["mainFrameShowing"] = false,
+	["guideSize"] = {
+		["MarkyMark 1-5 Teldrassil"] = 35,
+		["Sage Guide 1-11 Teldrassil"] = 422,
+	},
+	["mainFrameRelative"] = "RIGHT",
+	["editorFrameX"] = 0,
+}

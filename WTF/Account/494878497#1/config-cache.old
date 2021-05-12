@@ -1,0 +1,4 @@
+SET interactOnLeftClick "1"
+SET flaggedTutorials "v"
+SET actionedAdventureJournalEntries "v"
+SET cameraDistanceMaxZoomFactor "1"

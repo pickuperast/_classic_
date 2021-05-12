@@ -1,0 +1,11 @@
+Tukui: disabled
+AtlasLootClassic_Data: disabled
+AtlasLootClassic: disabled
+AtlasLootClassic_PvP: disabled
+AtlasLootClassic_Factions: disabled
+AtlasLootClassic_DungeonsAndRaids: disabled
+AtlasLootClassic_Crafting: disabled
+AtlasLootClassic_Collections: disabled
+AtlasLootClassic_Options: disabled
+FishingBuddy: enabled
+Auctionator: disabled

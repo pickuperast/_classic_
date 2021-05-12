@@ -1,0 +1,63 @@
+
+## Title: Guidelime_JoanaGuideHorde1-60
+## Author: Dreamcast1991
+## Version: 0.32 beta
+## Interface: 11302
+## Dependencies: Guidelime
+## Notes: Joana's World Guide by Dreamcast1991
+
+Druid_Horde_12-20.lua
+Druid_Tauren_1-12.lua
+Horde_12-20.lua
+Horde_20-26.lua
+Horde_26-30.lua
+Horde_30-36.lua
+Horde_36-40.lua
+Horde_40-46.lua
+Horde_46-50.lua
+Horde_50-55.lua
+Horde_55-60.lua
+Hunter_Horde_12-20.lua
+Hunter_Horde_20-26.lua
+Hunter_Horde_26-30.lua
+Hunter_Horde_30-36.lua
+Hunter_Horde_36-40.lua
+Hunter_Horde_40-46.lua
+Hunter_Horde_46-50.lua
+Hunter_Horde_50-55.lua
+Hunter_Horde_55-60.lua
+Hunter_OrcTroll_1-12.lua
+Hunter_Tauren_1-12.lua
+Mage_OrcTroll_1-12.lua
+Mage_Undead_1-15.lua
+Priest_OrcTroll_1-12.lua
+Priest_Undead_1-15.lua
+Rogue_Horde_12-20.lua
+Rogue_OrcTroll_1-12.lua
+Rogue_Undead_1-15.lua
+Shaman_Horde_12-20.lua
+Shaman_OrcTroll_1-12.lua
+Shaman_Tauren_1-12.lua
+Warlock_Horde_12-20.lua
+Warlock_Horde_20-26.lua
+Warlock_Horde_26-30.lua
+Warlock_Horde_30-36.lua
+Warlock_Horde_36-40.lua
+Warlock_Horde_40-46.lua
+Warlock_Horde_46-50.lua
+Warlock_Horde_50-55.lua
+Warlock_Horde_55-60.lua
+Warlock_OrcTroll_1-12.lua
+Warlock_Undead_1-15.lua
+Warrior_Horde_12-20.lua
+Warrior_Horde_20-26.lua
+Warrior_Horde_26-30.lua
+Warrior_Horde_30-36.lua
+Warrior_Horde_36-40.lua
+Warrior_Horde_40-46.lua
+Warrior_Horde_46-50.lua
+Warrior_Horde_50-55.lua
+Warrior_Horde_55-60.lua
+Warrior_OrcTroll_1-12.lua
+Warrior_Tauren_1-12.lua
+Warrior_Undead_1-15.lua

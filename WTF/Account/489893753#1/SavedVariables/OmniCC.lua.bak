@@ -1,0 +1,60 @@
+
+OmniCCDB = {
+	["global"] = {
+		["addonVersion"] = "8.3.5",
+		["dbVersion"] = 5,
+	},
+	["profileKeys"] = {
+		["Halykbank - Patchwerk"] = "Standard",
+		["Kaspigold - Patchwerk"] = "Standard",
+		["Kaspigoldd - Patchwerk"] = "Standard",
+		["Ijhu - Patchwerk"] = "Standard",
+		["Kaspigoldd - Amnennar"] = "Default",
+		["Апрне - Змейталак"] = "По умолчанию",
+	},
+	["profiles"] = {
+		["Standard"] = {
+			["themes"] = {
+				["Standard"] = {
+					["textStyles"] = {
+						["seconds"] = {
+						},
+						["soon"] = {
+						},
+						["minutes"] = {
+						},
+					},
+				},
+			},
+		},
+		["Default"] = {
+			["themes"] = {
+				["Default"] = {
+					["textStyles"] = {
+						["soon"] = {
+						},
+						["seconds"] = {
+						},
+						["minutes"] = {
+						},
+					},
+				},
+			},
+		},
+		["По умолчанию"] = {
+			["themes"] = {
+				["По умолчанию"] = {
+					["textStyles"] = {
+						["soon"] = {
+						},
+						["minutes"] = {
+						},
+						["seconds"] = {
+						},
+					},
+				},
+			},
+		},
+	},
+}
+OmniCC4Config = nil

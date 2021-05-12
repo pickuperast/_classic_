@@ -1,0 +1,16 @@
+
+AtlasLootClassicDB = {
+	["profileKeys"] = {
+		["Auho - Lucifron"] = "Auho - Lucifron",
+		["Elvenunion - Venoxis"] = "Elvenunion - Venoxis",
+	},
+	["global"] = {
+		["__addonrevision"] = 1050001,
+	},
+	["profiles"] = {
+		["Auho - Lucifron"] = {
+		},
+		["Elvenunion - Venoxis"] = {
+		},
+	},
+}

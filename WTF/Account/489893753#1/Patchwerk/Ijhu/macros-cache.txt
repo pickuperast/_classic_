@@ -1,0 +1,3 @@
+VER 3 0000000001000001 "asd" "INV_MISC_QUESTIONMARK"
+/invite babyzgxgg
+END

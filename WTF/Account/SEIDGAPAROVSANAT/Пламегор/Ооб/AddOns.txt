@@ -1,0 +1,4 @@
+AutomaticGoblinTherapist: disabled
+StoryTeller: disabled
+Details: enabled
+Guidelime: enabled

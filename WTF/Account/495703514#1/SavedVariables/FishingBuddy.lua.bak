@@ -1,0 +1,113 @@
+
+FishingBuddy_Info = {
+	["FishTotals"] = {
+		[1446000] = 13214,
+		[1446001] = 13214,
+	},
+	["HiddenFishies"] = {
+	},
+	["FishingSkill"] = {
+		[1446001] = 0,
+	},
+	["DataFish"] = 0,
+	["FishingHoles"] = {
+		[1446001] = {
+			[13755] = 970,
+			[6362] = 1312,
+			[13879] = 1,
+			[13877] = 16,
+			[13422] = 1419,
+			[7973] = 941,
+			[13876] = 33,
+			[13878] = 13,
+			[13880] = 3,
+			[13874] = 31,
+			[4603] = 5372,
+			[6359] = 1387,
+			[13875] = 40,
+			[13754] = 1676,
+		},
+	},
+	["Version"] = 19500,
+	["KnownZones"] = {
+		[1446] = "Land's End Beach",
+	},
+	["SubZones"] = {
+		[1446000] = 1,
+		[1446001] = "Land's End Beach",
+	},
+	["ImppDBLoaded"] = 0,
+	["Fishies"] = {
+		[13755] = {
+			["enUS"] = "Winter Squid",
+			["quality"] = 1,
+			["texture"] = 133899,
+		},
+		[6362] = {
+			["enUS"] = "Raw Rockscale Cod",
+			["quality"] = 1,
+			["texture"] = 133890,
+		},
+		[13879] = {
+			["enUS"] = "59 Pound Grouper",
+			["texture"] = 133892,
+			["quality"] = 1,
+		},
+		[13877] = {
+			["enUS"] = "47 Pound Grouper",
+			["quality"] = 1,
+			["texture"] = 133892,
+		},
+		[13422] = {
+			["enUS"] = "Stonescale Eel",
+			["quality"] = 1,
+			["texture"] = 133897,
+		},
+		[7973] = {
+			["enUS"] = "Big-mouth Clam",
+			["quality"] = 1,
+			["texture"] = 134433,
+		},
+		[13876] = {
+			["enUS"] = "40 Pound Grouper",
+			["quality"] = 1,
+			["texture"] = 133892,
+		},
+		[13878] = {
+			["enUS"] = "53 Pound Grouper",
+			["quality"] = 1,
+			["texture"] = 133892,
+		},
+		[13880] = {
+			["enUS"] = "68 Pound Grouper",
+			["quality"] = 1,
+			["texture"] = 133892,
+		},
+		[13874] = {
+			["enUS"] = "Heavy Crate",
+			["quality"] = 1,
+			["texture"] = 132763,
+		},
+		[4603] = {
+			["enUS"] = "Raw Spotted Yellowtail",
+			["quality"] = 1,
+			["texture"] = 133887,
+		},
+		[6359] = {
+			["enUS"] = "Firefin Snapper",
+			["quality"] = 1,
+			["texture"] = 134299,
+		},
+		[13875] = {
+			["enUS"] = "Ironbound Locked Chest",
+			["quality"] = 1,
+			["texture"] = 132594,
+		},
+		[13754] = {
+			["enUS"] = "Raw Glossy Mightfish",
+			["quality"] = 1,
+			["texture"] = 134301,
+		},
+	},
+	["FishInfo2"] = 0,
+}

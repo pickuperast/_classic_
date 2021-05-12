@@ -1,0 +1,3 @@
+
+EllipsisDB = nil
+EllipsisVersion = nil

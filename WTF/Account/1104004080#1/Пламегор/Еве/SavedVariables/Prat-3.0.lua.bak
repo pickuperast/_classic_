@@ -1,0 +1,2274 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 4,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:51:45]|h|r Соединение со службой Blizzard разорвано.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620204705,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [1]
+				{
+					["message"] = "0 д., 0 ч., 2 мин., 7 сек.",
+					["timestamp"] = 92737.017,
+				}, -- [2]
+				{
+					["message"] = "========== Конец истории сообщений ==========",
+					["timestamp"] = 92737.017,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:51:25]|h|r Соединение со службой Blizzard разорвано.",
+					["serverTime"] = 1620208284,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 96191.824,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [4]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 4,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:51:45]|h|r Соединение со службой Blizzard разорвано.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620204705,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [1]
+				{
+					["message"] = "0 д., 0 ч., 2 мин., 7 сек.",
+					["timestamp"] = 92737.017,
+				}, -- [2]
+				{
+					["message"] = "========== Конец истории сообщений ==========",
+					["timestamp"] = 92737.017,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:51:25]|h|r Соединение со службой Blizzard разорвано.",
+					["serverTime"] = 1620208284,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 96191.824,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [4]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 4,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:51:45]|h|r Соединение со службой Blizzard разорвано.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620204705,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [1]
+				{
+					["message"] = "0 д., 0 ч., 2 мин., 7 сек.",
+					["timestamp"] = 92737.017,
+				}, -- [2]
+				{
+					["message"] = "========== Конец истории сообщений ==========",
+					["timestamp"] = 92737.017,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:51:25]|h|r Соединение со службой Blizzard разорвано.",
+					["serverTime"] = 1620208284,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 96191.824,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [4]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 4,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:51:45]|h|r Соединение со службой Blizzard разорвано.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620204705,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [1]
+				{
+					["message"] = "0 д., 0 ч., 2 мин., 7 сек.",
+					["timestamp"] = 92737.017,
+				}, -- [2]
+				{
+					["message"] = "========== Конец истории сообщений ==========",
+					["timestamp"] = 92737.017,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:51:25]|h|r Соединение со службой Blizzard разорвано.",
+					["serverTime"] = 1620208284,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 96191.824,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [4]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 4,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:51:45]|h|r Соединение со службой Blizzard разорвано.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620204705,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [1]
+				{
+					["message"] = "0 д., 0 ч., 2 мин., 7 сек.",
+					["timestamp"] = 92737.017,
+				}, -- [2]
+				{
+					["message"] = "========== Конец истории сообщений ==========",
+					["timestamp"] = 92737.017,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:51:25]|h|r Соединение со службой Blizzard разорвано.",
+					["serverTime"] = 1620208284,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 96191.824,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [4]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 4,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:51:45]|h|r Соединение со службой Blizzard разорвано.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620204705,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [1]
+				{
+					["message"] = "0 д., 0 ч., 2 мин., 7 сек.",
+					["timestamp"] = 92737.017,
+				}, -- [2]
+				{
+					["message"] = "========== Конец истории сообщений ==========",
+					["timestamp"] = 92737.017,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:51:25]|h|r Соединение со службой Blizzard разорвано.",
+					["serverTime"] = 1620208284,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 96191.824,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [4]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 4,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:51:45]|h|r Соединение со службой Blizzard разорвано.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620204705,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [1]
+				{
+					["message"] = "0 д., 0 ч., 2 мин., 7 сек.",
+					["timestamp"] = 92737.017,
+				}, -- [2]
+				{
+					["message"] = "========== Конец истории сообщений ==========",
+					["timestamp"] = 92737.017,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:51:25]|h|r Соединение со службой Blizzard разорвано.",
+					["serverTime"] = 1620208284,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 96191.824,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [4]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 4,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:51:45]|h|r Соединение со службой Blizzard разорвано.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620204705,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [1]
+				{
+					["message"] = "0 д., 0 ч., 2 мин., 7 сек.",
+					["timestamp"] = 92737.017,
+				}, -- [2]
+				{
+					["message"] = "========== Конец истории сообщений ==========",
+					["timestamp"] = 92737.017,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:51:25]|h|r Соединение со службой Blizzard разорвано.",
+					["serverTime"] = 1620208284,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 96191.824,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [4]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 125,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:09:07]|h|r |Hchannel:channel:1|h[1] |h Смена канала: |Hchannel:CHANNEL:1|h[1. Общий: Темные берега]|h.",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620202147,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:09:07]|h|r |Hchannel:channel:3|h[3] |h Смена канала: |Hchannel:CHANNEL:3|h[3. Оборона: Темные берега]|h.",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620202147,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:09:24]|h|r |cffd8d8d8[|r|Hplayer:Стелхет:3|h|cffa5a5a5Стелхет|r|h|cffd8d8d8]|r предлагает вам присоединиться к гильдии \"Дети Мясника\".",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620202164,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						7, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:09:27]|h|r [W From] |cffd8d8d8[|r|Hplayer:Стелхет:4:WHISPER:СТЕЛХЕТ|h|cfffff468Стелхет|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t БАНДА КРОВОЖАДНЫХ ШРЕКОДАВОВ ИЩЕТ В СВОИ РЯДЫ БЕЗЖАЛОСТНЫХ МЯСОРУБОВ, ГОТОВЫХ БЕЗ ПРИГЛАШЕНИЯ ВОРВАТЬСЯ В ЧЕРНЫЙ ПОРТЛА И",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620202167,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:09:27]|h|r [W From] |cffd8d8d8[|r|Hplayer:Стелхет:5:WHISPER:СТЕЛХЕТ|h|cfffff468Стелхет|r|h|cffd8d8d8]|r: ПРОДОЛЖИТЬ КРОВОПРОЛИТИЕ НА ТВС! |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t В наших планах охватить WPVP и Рейдовый контенты! ВРЫВАЙСЯ!",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620202167,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:10:31]|h|r |Hchannel:channel:1|h[1] |h Смена канала: |Hchannel:CHANNEL:1|h[1. Общий: Тельдрассил]|h.",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620202231,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:10:31]|h|r |Hchannel:channel:3|h[3] |h Смена канала: |Hchannel:CHANNEL:3|h[3. Оборона: Тельдрассил]|h.",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620202231,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:58]|h|r |Hchannel:channel:1|h[1] |h Смена канала: |Hchannel:CHANNEL:1|h[1. Общий: Дарнасс]|h.",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620202318,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:58]|h|r |Hchannel:channel:3|h[3] |h Смена канала: |Hchannel:CHANNEL:3|h[3. Оборона: Дарнасс]|h.",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620202318,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:12:06]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Эклипси:10:CHANNEL:2|h|cffaad372Эклипси|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_4:0|t |cffffffff<|r|cff00ff00Зулгуруб|r|cffffffff>|r|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_4:0|t  1 Хил  ЛАСТ СЛОТ(1 гб + 1 идол ГБ) , второй идол РОЛЛ , МС прио ролл НОВОЕ КД ! 19/20",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620202326,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:12:09]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Геларт:11:CHANNEL:2|h|cff3fc6eaГеларт|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00АФК МАРОДОН 340+- мобов || 30-49 || Фри Лут || 25г/ран || Суммон || От 5ти ранов|r|cffffffff>|r - 2 МЕСТА",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620202329,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						11, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:12:15]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Хакет:12:CHANNEL:2|h|cffc69b6dХакет|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|tСегодня|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|tАн'Кираж 40+Логово Крыла Тьмы|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|tСбор в 15:00 по МСК|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|tЗапись в дискорде|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|t |cff149bfd|Hurl:https://discord.gg/gSngc7C|h[https://discord.gg/gSngc7C]|h|r  |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|tСофт-резерв|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|t",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620202335,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						11, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:12:21]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Микрошп:13:CHANNEL:2|h|cffffffffМикрошп|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00АФК МАРОДОН 180-200- мобов|r|cffffffff>|r|cffffffff<|r|cff00ff0030-49|r|cffffffff>|r|cffffffff<|r|cff00ff00Фри Лут|r|cffffffff>|r|cffffffff<|r|cff00ff0013г/ран|r|cffffffff>|r|cffffffff<|r|cff00ff00Сум есть|r|cffffffff>|r|| От 5ти ранов -",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620202341,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						11, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:12:29]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Типонизкий:15:CHANNEL:2|h|cff3fc6eaТипонизкий|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|tАФК КаЧ Стратхольм 49-59 лвл |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_4:0|t1 РаН 20 г|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_4:0|t 27-33 к Опыта Кэшбек 3г+ Есть сум ! (от 5 ранов)|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t 2/3",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620202349,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						11, -- [3]
+						20, -- [4]
+						["n"] = 4,
+					},
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:12:35]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Палкрикун:16:CHANNEL:2|h|cfff48cbaПалкрикун|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_7:0|t||||АФК МАО|||||TInterface\\TargetingFrame\\UI-RaidTargetingIcon_7:0|t(оруж+собор=1ран) 50г/5ранов 20-39лвл СУМОН есть+++лутВАШ биг пул 35-45% опыта ран 2/4",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620202355,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						11, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:13:11]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Аёчем:26:CHANNEL:2|h|cfffff468Аёчем|r|h|cffd8d8d8]|r: продам чант +100хп на шапку/штаны",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620202391,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						11, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:13:12]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Яруичи:27:CHANNEL:2|h|cffaad372Яруичи|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t Сбор в Логово Ониксии , Сумки и голова гб , НИД все |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620202392,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						11, -- [3]
+						26, -- [4]
+						["n"] = 4,
+					},
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:14:33]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Фрутела:43:CHANNEL:2|h|cffaad372Фрутела|r|h|cffd8d8d8]|r: куплю портал в стальб",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620202473,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						11, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:15:23]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Аггау:48:CHANNEL:2|h|cfffff468Аггау|r|h|cffd8d8d8]|r: Ищу алхимика, который может сварить |cffffffff|Hitem:3389::::::::22:::::::|h[Эликсир защиты]|h|r",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620202523,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						11, -- [3]
+						30, -- [4]
+						["n"] = 4,
+					},
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:15:30]|h|r |Hchannel:channel:1|h[1] |h Смена канала: |Hchannel:CHANNEL:1|h[1. Общий: Тельдрассил]|h.",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620202530,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:15:30]|h|r |Hchannel:channel:2|h[2] |h Вы покинули канал |Hchannel:CHANNEL:2|h[2. Торговля: Город]|h.",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620202530,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						11, -- [3]
+						32, -- [4]
+						["n"] = 4,
+					},
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:15:30]|h|r |Hchannel:channel:3|h[3] |h Смена канала: |Hchannel:CHANNEL:3|h[3. Оборона: Тельдрассил]|h.",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620202530,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:25:24]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Блепблоп:53:CHANNEL:1|h|cffff7c0aБлепблоп|r|h|cffd8d8d8]|r: Есть кто на Дубохмура?",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620203124,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						1, -- [3]
+						34, -- [4]
+						["n"] = 4,
+					},
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:29:55]|h|r Вы создаете: |cffffffff|Hitem:3382::::::::19:::::::|h[Слабое зелье тролльей крови]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620203395,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						36, -- [3]
+						37, -- [4]
+						["n"] = 4,
+					},
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:29:55]|h|r |3-6(Алхимия) повышается до 56.",
+					["b"] = 1,
+					["r"] = 0.333333343267441,
+					["g"] = 0.333333343267441,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620203395,
+					["extraData"] = {
+						27, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:29:58]|h|r Вы создаете: |cffffffff|Hitem:3382::::::::19:::::::|h[Слабое зелье тролльей крови]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620203398,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						36, -- [3]
+						37, -- [4]
+						["n"] = 4,
+					},
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:29:58]|h|r |3-6(Алхимия) повышается до 57.",
+					["b"] = 1,
+					["r"] = 0.333333343267441,
+					["g"] = 0.333333343267441,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620203398,
+					["extraData"] = {
+						27, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:30:02]|h|r Вы создаете: |cffffffff|Hitem:3382::::::::19:::::::|h[Слабое зелье тролльей крови]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620203402,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						36, -- [3]
+						37, -- [4]
+						["n"] = 4,
+					},
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:30:02]|h|r |3-6(Алхимия) повышается до 58.",
+					["b"] = 1,
+					["r"] = 0.333333343267441,
+					["g"] = 0.333333343267441,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620203402,
+					["extraData"] = {
+						27, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:30:05]|h|r Вы создаете: |cffffffff|Hitem:3382::::::::19:::::::|h[Слабое зелье тролльей крови]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620203405,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						36, -- [3]
+						37, -- [4]
+						["n"] = 4,
+					},
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:30:06]|h|r |3-6(Алхимия) повышается до 59.",
+					["b"] = 1,
+					["r"] = 0.333333343267441,
+					["g"] = 0.333333343267441,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620203406,
+					["extraData"] = {
+						27, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:30:07]|h|r Вы предложили |3-2(|cffff7c0aОод|r) обмен.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620203407,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						7, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:33:45]|h|r |Hplayer:Нгазаргаму:0:TEXT_EMOTE:|h|cffffffffНгазаргаму|r|h благодарит |3-3(Оод).",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620203625,
+					["extraData"] = {
+						12, -- [1]
+						false, -- [2]
+						40, -- [3]
+						41, -- [4]
+						["n"] = 4,
+					},
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:37:09]|h|r |Hplayer:Нгазаргаму:0:TEXT_EMOTE:|h|cffffffffНгазаргаму|r|h благодарит |3-3(Подпечень).",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620203829,
+					["extraData"] = {
+						12, -- [1]
+						false, -- [2]
+						40, -- [3]
+						41, -- [4]
+						["n"] = 4,
+					},
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:38:05]|h|r Воин из племени Кривой Сосны в панике пытается бежать!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620203885,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						42, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:38:07]|h|r Воин из племени Кривой Сосны в панике пытается бежать!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620203887,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						42, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:38:10]|h|r Ведмедь из племени Кривой Сосны в панике пытается бежать!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620203890,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						42, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:38:49]|h|r Воин из племени Кривой Сосны в панике пытается бежать!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620203929,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						42, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:39:28]|h|r Садовник из племени Кривой Сосны в панике пытается бежать!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620203968,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						42, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:39:43]|h|r |3-6(Защита) повышается до 81.",
+					["b"] = 1,
+					["r"] = 0.333333343267441,
+					["g"] = 0.333333343267441,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620203983,
+					["extraData"] = {
+						27, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:39:46]|h|r Воин из племени Кривой Сосны в панике пытается бежать!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620203986,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						42, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:39:47]|h|r Воин из племени Кривой Сосны в панике пытается бежать!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620203987,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						42, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:39:48]|h|r Ведмедь из племени Кривой Сосны в панике пытается бежать!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620203988,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						42, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:39:57]|h|r Садовник из племени Кривой Сосны в панике пытается бежать!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620203997,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						42, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:41:26]|h|r Садовник из племени Кривой Сосны в панике пытается бежать!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620204086,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						42, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:41:51]|h|r Ведмедь из племени Кривой Сосны в панике пытается бежать!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620204111,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						42, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:41:51]|h|r Ведмедь из племени Кривой Сосны в панике пытается бежать!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620204111,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						42, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:41:57]|h|r Садовник из племени Кривой Сосны в панике пытается бежать!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620204117,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						42, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:41:57]|h|r Садовник из племени Кривой Сосны в панике пытается бежать!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620204117,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						42, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:41:57]|h|r Садовник из племени Кривой Сосны в панике пытается бежать!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620204117,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						42, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:41:58]|h|r Воин из племени Кривой Сосны в панике пытается бежать!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620204118,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						42, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:42:17]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Блепблоп-Пламегор:84:CHANNEL:1|h|cffff7c0aБлепблоп|r|h|cffd8d8d8]|r: Кто-нибудь хочет местного элитника вальнуть?",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620204137,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						1, -- [3]
+						34, -- [4]
+						["n"] = 4,
+					},
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:42:36]|h|r Ведмедь из племени Кривой Сосны в панике пытается бежать!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620204156,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						42, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:42:36]|h|r Садовник из племени Кривой Сосны в панике пытается бежать!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620204156,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						42, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:42:39]|h|r Садовник из племени Кривой Сосны в панике пытается бежать!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620204159,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						42, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:42:48]|h|r Воин из племени Кривой Сосны в панике пытается бежать!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620204168,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						42, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:42:51]|h|r Садовник из племени Кривой Сосны в панике пытается бежать!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620204171,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						42, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:42:52]|h|r Ведмедь из племени Кривой Сосны в панике пытается бежать!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620204172,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						42, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:43:34]|h|r Ведмедь из племени Кривой Сосны в панике пытается бежать!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620204214,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						42, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:43:40]|h|r Садовник из племени Кривой Сосны в панике пытается бежать!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620204220,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						42, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:43:56]|h|r Садовник из племени Кривой Сосны в панике пытается бежать!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620204236,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						42, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:45:07]|h|r Деналан говорит: А теперь поместим эту драгоценную землю в мой ящик для рассады",
+					["b"] = 0.623529434204102,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620204307,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						44, -- [3]
+						45, -- [4]
+						["n"] = 4,
+					},
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:45:16]|h|r Деналан говорит: Спасибо еще раз, Оод. Эта редкая почва очень пригодится мне для экспериментов.",
+					["b"] = 0.623529434204102,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620204316,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						44, -- [3]
+						45, -- [4]
+						["n"] = 4,
+					},
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:45:26]|h|r Деналан говорит: А теперь поместим эту драгоценную землю в мой ящик для рассады",
+					["b"] = 0.623529434204102,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620204326,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						44, -- [3]
+						45, -- [4]
+						["n"] = 4,
+					},
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:45:34]|h|r Деналан говорит: Спасибо еще раз, Нгазаргаму. Эта редкая почва очень пригодится мне для экспериментов.",
+					["b"] = 0.623529434204102,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620204334,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						44, -- [3]
+						45, -- [4]
+						["n"] = 4,
+					},
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:50:04]|h|r Вы перешли в режим \"Отсутствует\".",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620204604,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						7, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:51:45]|h|r Соединение со службой Blizzard разорвано.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620204705,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [67]
+				{
+					["message"] = "0 д., 0 ч., 2 мин., 7 сек.",
+					["timestamp"] = 92737.017,
+				}, -- [68]
+				{
+					["message"] = "========== Конец истории сообщений ==========",
+					["timestamp"] = 92737.017,
+				}, -- [69]
+				{
+					["message"] = "Enchantrix v8.2.6506-0 загружен",
+					["r"] = 0.8,
+					["extraData"] = {
+						["n"] = 2,
+					},
+					["timestamp"] = 92728.92,
+					["g"] = 0.8,
+					["b"] = 0.2,
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:53:48]|h|r |cFF00FFB0WeaponSwingTimer: |rСпасибо за установку версии WeaponSwingTimer 4.1.0 LeftHandedGlove! Используйте |cFFFFC300/wst|r для получения дополнительных опций.",
+					["timestamp"] = 92728.92,
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:53:51]|h|r Fishing Buddy v0.7.3 Beta 5 loaded",
+					["timestamp"] = 92737.017,
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:53:52]|h|r Informant v8.2.6508 загружен",
+					["r"] = 0.25,
+					["serverTime"] = 1620204832,
+					["timestamp"] = 92737.017,
+					["g"] = 0.55,
+					["b"] = 1,
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:53:52]|h|r |cffffd839TSM|r: TSM в настоящее время не имеет данных о ценах БД аукциона для вашего игрового мира. Мы рекомендуем вам загрузить настольное приложение TSM с |cff79a2ffhttps://tradeskillmaster.com|r для автоматического обновления данных вашей БД аукциона (и автоматического резервного копирования настроек TSM).",
+					["timestamp"] = 92737.017,
+					["serverTime"] = 1620204832,
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:53:52]|h|r Auctioneer loaded (version 8.2.6471)",
+					["r"] = 0.3,
+					["serverTime"] = 1620204832,
+					["timestamp"] = 92737.017,
+					["g"] = 0.9,
+					["b"] = 0.8,
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:53:52]|h|r Автоматическое распыление неактивно",
+					["r"] = 1,
+					["serverTime"] = 1620204832,
+					["timestamp"] = 92738.633,
+					["g"] = 0.5,
+					["b"] = 0.25,
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:54:07]|h|r Вы вернулись.",
+					["serverTime"] = 1620204847,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 92753.556,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:56:54]|h|r |3-6(Защита) повышается до 82.",
+					["serverTime"] = 1620205014,
+					["r"] = 0.333333343267441,
+					["extraData"] = {
+						27, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 92920.477,
+					["g"] = 0.333333343267441,
+					["b"] = 1,
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:57:09]|h|r |3-6(Защита) повышается до 83.",
+					["serverTime"] = 1620205029,
+					["r"] = 0.333333343267441,
+					["extraData"] = {
+						27, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 92935.439,
+					["g"] = 0.333333343267441,
+					["b"] = 1,
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:01:02]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Фуёль:4:CHANNEL:1|h|cfffff468Фуёль|r|h|cffd8d8d8]|r: |Hquestie:483:Player-4474-0323B583|h|cFFC0C0C0[|r|cFFC0C0C0[9] Реликвии Пробуждения|r|cFFC0C0C0]|r|h есть кто?",
+					["serverTime"] = 1620205262,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 93168.619,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:01:43]|h|r |3-6(Защита) повышается до 84.",
+					["serverTime"] = 1620205303,
+					["r"] = 0.333333343267441,
+					["extraData"] = {
+						27, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 93209.399,
+					["g"] = 0.333333343267441,
+					["b"] = 1,
+				}, -- [81]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:01:47]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Кромогексал-Пламегор:6:CHANNEL:1|h|cffffffffКромогексал|r|h|cffd8d8d8]|r: есть",
+					["serverTime"] = 1620205307,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						5, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 93212.999,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:06:42]|h|r |3-6(Травничество) повышается до 79.",
+					["serverTime"] = 1620205602,
+					["r"] = 0.333333343267441,
+					["extraData"] = {
+						27, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 93508.604,
+					["g"] = 0.333333343267441,
+					["b"] = 1,
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:06:43]|h|r Ваша добыча: |cffffffff|Hitem:785::::::::19:::::::|h[Магороза]|h|rx3.",
+					["serverTime"] = 1620205603,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 93508.922,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:06:43]|h|r Ваша добыча: |cffffffff|Hitem:2452::::::::19:::::::|h[Скорополох]|h|r.",
+					["serverTime"] = 1620205603,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 93509.149,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:15:13]|h|r |3-6(Травничество) повышается до 80.",
+					["serverTime"] = 1620206113,
+					["r"] = 0.333333343267441,
+					["extraData"] = {
+						27, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 94019.42,
+					["g"] = 0.333333343267441,
+					["b"] = 1,
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:15:14]|h|r Ваша добыча: |cffffffff|Hitem:785::::::::19:::::::|h[Магороза]|h|rx3.",
+					["serverTime"] = 1620206114,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 94019.92,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:16:37]|h|r Воин из племени Кривой Сосны в панике пытается бежать!",
+					["serverTime"] = 1620206197,
+					["r"] = 1,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 94103.9,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [88]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:16:39]|h|r Воин из племени Кривой Сосны в панике пытается бежать!",
+					["serverTime"] = 1620206199,
+					["r"] = 1,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 94105.55,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:17:15]|h|r Воин из племени Кривой Сосны в панике пытается бежать!",
+					["serverTime"] = 1620206235,
+					["r"] = 1,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 94141.175,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [90]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:17:34]|h|r Воин из племени Кривой Сосны в панике пытается бежать!",
+					["serverTime"] = 1620206254,
+					["r"] = 1,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 94160.625,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [91]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:20:40]|h|r Сумеречный грелль в панике пытается бежать!",
+					["serverTime"] = 1620206440,
+					["r"] = 1,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 94346.613,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [92]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:20:43]|h|r Сумеречный грелль в панике пытается бежать!",
+					["serverTime"] = 1620206443,
+					["r"] = 1,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 94349.442,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [93]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:20:52]|h|r Сумеречный грелль в панике пытается бежать!",
+					["serverTime"] = 1620206452,
+					["r"] = 1,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 94357.992,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [94]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:20:55]|h|r Сумеречный грелль в панике пытается бежать!",
+					["serverTime"] = 1620206455,
+					["r"] = 1,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 94361.192,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [95]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:21:09]|h|r Гнусный грелль в панике пытается бежать!",
+					["serverTime"] = 1620206469,
+					["r"] = 1,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 94375.806,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [96]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:21:24]|h|r Сумеречный грелль в панике пытается бежать!",
+					["serverTime"] = 1620206484,
+					["r"] = 1,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 94389.966,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [97]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:21:26]|h|r |3-6(Защита) повышается до 85.",
+					["serverTime"] = 1620206486,
+					["r"] = 0.333333343267441,
+					["extraData"] = {
+						27, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 94392.216,
+					["g"] = 0.333333343267441,
+					["b"] = 1,
+				}, -- [98]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:21:27]|h|r Сумеречный грелль в панике пытается бежать!",
+					["serverTime"] = 1620206487,
+					["r"] = 1,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 94393.616,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [99]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:21:50]|h|r Сумеречный грелль в панике пытается бежать!",
+					["serverTime"] = 1620206510,
+					["r"] = 1,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 94416.316,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [100]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:27:13]|h|r Воин из племени Кривой Сосны в панике пытается бежать!",
+					["serverTime"] = 1620206833,
+					["r"] = 1,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 94739.413,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [101]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:27:23]|h|r Воин из племени Кривой Сосны в панике пытается бежать!",
+					["serverTime"] = 1620206843,
+					["r"] = 1,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 94749.163,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [102]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:27:26]|h|r Шаман из племени Кривой Сосны в панике пытается бежать!",
+					["serverTime"] = 1620206846,
+					["r"] = 1,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 94752.363,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [103]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:28:15]|h|r |3-6(Травничество) повышается до 81.",
+					["serverTime"] = 1620206895,
+					["r"] = 0.333333343267441,
+					["extraData"] = {
+						27, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 94801.327,
+					["g"] = 0.333333343267441,
+					["b"] = 1,
+				}, -- [104]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:28:16]|h|r Ваша добыча: |cffffffff|Hitem:2449::::::::19:::::::|h[Землекорень]|h|rx3.",
+					["serverTime"] = 1620206896,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 94802.077,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [105]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:29:29]|h|r |3-6(Травничество) повышается до 82.",
+					["serverTime"] = 1620206969,
+					["r"] = 0.333333343267441,
+					["extraData"] = {
+						27, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 94875.395,
+					["g"] = 0.333333343267441,
+					["b"] = 1,
+				}, -- [106]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:29:29]|h|r Ваша добыча: |cffffffff|Hitem:785::::::::19:::::::|h[Магороза]|h|rx2.",
+					["serverTime"] = 1620206969,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 94875.645,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [107]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:29:53]|h|r Душитель из племени Кривой Сосны в панике пытается бежать!",
+					["serverTime"] = 1620206993,
+					["r"] = 1,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 94899.395,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [108]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:29:54]|h|r Душитель из племени Кривой Сосны в панике пытается бежать!",
+					["serverTime"] = 1620206994,
+					["r"] = 1,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 94900.595,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [109]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:29:59]|h|r Душитель из племени Кривой Сосны в панике пытается бежать!",
+					["serverTime"] = 1620206999,
+					["r"] = 1,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 94905.445,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [110]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:30:15]|h|r Душитель из племени Кривой Сосны в панике пытается бежать!",
+					["serverTime"] = 1620207015,
+					["r"] = 1,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 94921.647,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [111]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:31:02]|h|r Душитель из племени Кривой Сосны в панике пытается бежать!",
+					["serverTime"] = 1620207062,
+					["r"] = 1,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 94968.309,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [112]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:31:05]|h|r Душитель из племени Кривой Сосны в панике пытается бежать!",
+					["serverTime"] = 1620207065,
+					["r"] = 1,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 94971.543,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [113]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:31:10]|h|r Душитель из племени Кривой Сосны в панике пытается бежать!",
+					["serverTime"] = 1620207070,
+					["r"] = 1,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 94976.293,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [114]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:31:24]|h|r Агал в панике пытается бежать!",
+					["serverTime"] = 1620207084,
+					["r"] = 1,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 94990.193,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [115]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:31:27]|h|r Душитель из племени Кривой Сосны в панике пытается бежать!",
+					["serverTime"] = 1620207087,
+					["r"] = 1,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 94993.443,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [116]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:33:01]|h|r |3-6(Защита) повышается до 86.",
+					["serverTime"] = 1620207181,
+					["r"] = 0.333333343267441,
+					["extraData"] = {
+						27, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 95087.008,
+					["g"] = 0.333333343267441,
+					["b"] = 1,
+				}, -- [117]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:35:05]|h|r |3-6(Защита) повышается до 87.",
+					["serverTime"] = 1620207305,
+					["r"] = 0.333333343267441,
+					["extraData"] = {
+						27, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 95211.529,
+					["g"] = 0.333333343267441,
+					["b"] = 1,
+				}, -- [118]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:39:41]|h|r |3-6(Защита) повышается до 88.",
+					["serverTime"] = 1620207581,
+					["r"] = 0.333333343267441,
+					["extraData"] = {
+						27, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 95487.131,
+					["g"] = 0.333333343267441,
+					["b"] = 1,
+				}, -- [119]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:42:07]|h|r |3-6(Травничество) повышается до 83.",
+					["serverTime"] = 1620207727,
+					["r"] = 0.333333343267441,
+					["extraData"] = {
+						27, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 95633.035,
+					["g"] = 0.333333343267441,
+					["b"] = 1,
+				}, -- [120]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:42:07]|h|r Ваша добыча: |cffffffff|Hitem:785::::::::19:::::::|h[Магороза]|h|r.",
+					["serverTime"] = 1620207727,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 95633.885,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [121]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:46:21]|h|r Зенн Грязное Копыто говорит: Ква! Нет!!! Этого не может… ква… быть! Обманули меня… ква… мерзкие ква-ри! Ква!",
+					["serverTime"] = 1620207981,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 95887.315,
+					["g"] = 1,
+					["b"] = 0.623529434204102,
+				}, -- [122]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:50:28]|h|r Вы перешли в режим \"Отсутствует\".",
+					["serverTime"] = 1620208228,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 96134.565,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [123]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:50:43]|h|r Вы вернулись.",
+					["serverTime"] = 1620208242,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 96149.015,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [124]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:51:25]|h|r Соединение со службой Blizzard разорвано.",
+					["serverTime"] = 1620208284,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 96191.824,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [125]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

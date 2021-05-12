@@ -1,0 +1,14 @@
+TitanClassic: disabled
+Auctionator: disabled
+BagBrother: disabled
+Bagnon: enabled
+WeaponSwingTimer: disabled
+Scrap_Merchant: disabled
+Scrap_Config: disabled
+LibClassicDurations: disabled
+Guidelime_Sage: disabled
+Guidelime_JoanaGuideHorde1-60: disabled
+Guidelime_Bustea's 1-60 leveling: disabled
+Bagnon_VoidStorage: disabled
+Bagnon_GuildBank: disabled
+Bagnon_Config: disabled

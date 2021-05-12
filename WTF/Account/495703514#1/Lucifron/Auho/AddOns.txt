@@ -1,0 +1,15 @@
+AtlasLootClassic_Options: disabled
+AtlasLootClassic_Collections: disabled
+AtlasLootClassic_Crafting: disabled
+AtlasLootClassic_DungeonsAndRaids: disabled
+AtlasLootClassic_Factions: disabled
+AtlasLootClassic_PvP: disabled
+AtlasLootClassic: disabled
+AtlasLootClassic_Data: disabled
+BagBrother: disabled
+Bagnon: disabled
+Guidelime: disabled
+LibClassicDurations: disabled
+Scrap: disabled
+WeaponSwingTimer: disabled
+WhatsTraining: disabled

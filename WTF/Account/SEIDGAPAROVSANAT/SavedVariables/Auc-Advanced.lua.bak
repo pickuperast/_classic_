@@ -1,0 +1,75 @@
+
+AucAdvancedConfig = {
+	["users.Рок-Делар.Знать"] = "Default",
+	["profile.Default"] = {
+		["core"] = {
+			["matcher"] = {
+				["matcherlist"] = {
+					"BeanCount", -- [1]
+					"Undercut", -- [2]
+				},
+			},
+		},
+		["util"] = {
+			["automagic"] = {
+				["ammailguix"] = 160,
+				["ammailguiy"] = 99.8,
+				["autoSellList"] = {
+					[7971] = "Черная жемчужина",
+				},
+				["SavedMailButtons"] = {
+				},
+			},
+			["ahwindowcontrol"] = {
+				["ahframeanchors"] = "TOP:TOP:-173.6:-42.0",
+			},
+		},
+		["stat"] = {
+			["sales"] = {
+				["upgraded32"] = true,
+				["ignoredsigs"] = {
+				},
+			},
+		},
+	},
+	["version"] = 1,
+}
+AucAdvancedData = {
+	["UtilSearchUiData"] = {
+		["Global"] = {
+			["configator.left"] = -9.56533813476563,
+			["configator.top"] = 667.826110839844,
+		},
+		["Current"] = {
+			["columnsortcurSort"] = 11,
+			["general.maxbuy"] = 9999999999,
+			["snatch.columnsortcurDir"] = 1,
+			["snatch.itemsList"] = {
+			},
+			["columnsortcurDir"] = -1,
+			["vendor.timeleft"] = 2,
+			["general.maxbid"] = 9999999999,
+			["snatch.columnsortcurSort"] = 1,
+		},
+		["Version"] = 1,
+		["SavedSearches"] = {
+		},
+	},
+	["Stats"] = {
+	},
+}
+AucAdvancedServers = {
+	["Version"] = 1,
+	["KnownServerKeys"] = {
+		["РокДелар"] = 1620260614,
+		["Пламегор"] = 1620795775,
+	},
+	["KnownRealms"] = {
+		["РокДелар"] = "РокДелар",
+		["Пламегор"] = "Пламегор",
+	},
+	["Timestamp"] = 1588582772,
+	["ExpandedNames"] = {
+		["РокДелар"] = "Рок-Делар",
+	},
+}

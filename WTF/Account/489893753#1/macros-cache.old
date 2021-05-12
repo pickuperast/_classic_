@@ -1,0 +1,52 @@
+VER 3 0000000000000006 "3" "132112"
+/stopcasting
+/use Bright Baubles
+/use Strong Fishing Pole
+END
+VER 3 0000000000000001 "3" "INV_MISC_QUESTIONMARK"
+#showtooltip schlangenbiss
+/cast automatischer schuss
+/cast Berserker
+/cast schlangenbiss
+END
+VER 3 0000000000000002 "4" "INV_MISC_QUESTIONMARK"
+#showtooltip Arkaner Schuss
+/cast automatischer schuss
+/cast Arkaner Schuss
+END
+VER 3 0000000000000005 "5" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Tier füttern
+/use Roher Regenbogenflossenthunfisch
+END
+VER 3 0000000000000007 "AUC" "136129"
+/target Auctioneer Stampi
+END
+VER 3 000000000000000B "EXPIRES" "132153"
+/click TSMMailOpenSalesBtn
+/click TSMMailOpenExpiresBtn
+/click TSMMailOpenAllBtn
+END
+VER 3 0000000000000004 "LOGOUT" "132097"
+/logout
+END
+VER 3 0000000000000003 "open" "136222"
+/use Großmaulmuschel
+/use Schwere Kiste
+/use Zerbeulte Kiste
+/use Flaschenpost
+/use Versiegelte Kiste
+/use Kleine verschlossene Truhe
+/use Durchnässte Kiste
+/use Big-mouth Clam
+/use Heavy Crate
+END
+VER 3 000000000000000A "POST" "136146"
+/click TSMAuctioningBtn
+END
+VER 3 0000000000000009 "SCAN" "136215"
+/click TSMStartPostScanBtn
+END
+VER 3 0000000000000008 "АУК" "136129"
+/target Аукционер Краснушка
+END
