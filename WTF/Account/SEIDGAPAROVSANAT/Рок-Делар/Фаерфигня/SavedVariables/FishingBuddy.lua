@@ -6,8 +6,8 @@ FishingBuddy_Player = {
 	},
 	["Settings"] = {
 		["OutfitManager"] = "OutfitDisplayFrame",
-		["TotalTimeFishing"] = 1,
 		["SpecialBobbers"] = -1,
+		["TotalTimeFishing"] = 1,
 	},
 	["WasWearing"] = {
 	},

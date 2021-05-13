@@ -1,3 +1,6 @@
+VER 3 000000000000000E "123" "INV_MISC_QUESTIONMARK"
+/p стойте там
+END
 VER 3 000000000000000C "3" "132112"
 /stopcasting
 /use Блесна

@@ -10,13 +10,13 @@ InformantConfig = {
 		["show-zero-merchants"] = false,
 		["show-vendor-sell"] = false,
 		["show-vendor"] = false,
-		["show-ilevel"] = false,
 		["show-quest"] = false,
+		["show-ilevel"] = false,
 		["configator.top"] = 558.9130859375,
 	},
 	["position"] = {
-		["y"] = 426.668304443359,
-		["x"] = 758.521545410156,
+		["y"] = 426.668884277344,
+		["x"] = 758.522705078125,
 	},
 }
 InformantLocalUpdates = {

@@ -14,13 +14,13 @@ Prat3CharDB = {
 			},
 			["ChatFrame6EditBox"] = {
 			},
-			["ChatFrame1EditBox"] = {
-			},
-			["ChatFrame3EditBox"] = {
+			["ChatFrame9EditBox"] = {
 			},
 			["ChatFrame2EditBox"] = {
 			},
-			["ChatFrame9EditBox"] = {
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
 			},
 		},
 	},
@@ -29,7 +29,7 @@ Prat3HighCPUPerCharDB = {
 	["scrollback"] = {
 		["ChatFrame5"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 7,
+			["headIndex"] = 0,
 			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -41,74 +41,6 @@ Prat3HighCPUPerCharDB = {
 			["IsEmpty"] = nil --[[ skipped inline function ]],
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:58:53]|h|r You have been disconnected from Blizzard services.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 133335.821,
-					["serverTime"] = 1620763133,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-				}, -- [1]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:24:19]|h|r You have been disconnected from Blizzard services.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 133335.821,
-					["serverTime"] = 1620768258,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-				}, -- [2]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:27:12]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620768431,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 133335.821,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [3]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:31:52]|h|r You have been disconnected from Blizzard services.",
-					["r"] = 1,
-					["b"] = 0,
-					["g"] = 1,
-					["timestamp"] = 133335.821,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["serverTime"] = 1620768712,
-				}, -- [4]
-				{
-					["message"] = "0 days, 3 hours, 12 minutes, 23 seconds",
-					["timestamp"] = 133335.821,
-				}, -- [5]
-				{
-					["message"] = "========== End of Scrollback ==========",
-					["timestamp"] = 133335.821,
-				}, -- [6]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:00:24]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620781224,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 134305.268,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [7]
 			},
 			["maxElements"] = 128,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
@@ -119,7 +51,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame4"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 7,
+			["headIndex"] = 0,
 			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -131,74 +63,6 @@ Prat3HighCPUPerCharDB = {
 			["IsEmpty"] = nil --[[ skipped inline function ]],
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:58:53]|h|r You have been disconnected from Blizzard services.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 133335.821,
-					["serverTime"] = 1620763133,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-				}, -- [1]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:24:19]|h|r You have been disconnected from Blizzard services.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 133335.821,
-					["serverTime"] = 1620768258,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-				}, -- [2]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:27:12]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620768431,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 133335.821,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [3]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:31:52]|h|r You have been disconnected from Blizzard services.",
-					["r"] = 1,
-					["b"] = 0,
-					["g"] = 1,
-					["timestamp"] = 133335.821,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["serverTime"] = 1620768712,
-				}, -- [4]
-				{
-					["message"] = "0 days, 3 hours, 12 minutes, 23 seconds",
-					["timestamp"] = 133335.821,
-				}, -- [5]
-				{
-					["message"] = "========== End of Scrollback ==========",
-					["timestamp"] = 133335.821,
-				}, -- [6]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:00:24]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620781224,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 134305.268,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [7]
 			},
 			["maxElements"] = 128,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
@@ -209,7 +73,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame3"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 7,
+			["headIndex"] = 0,
 			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -221,74 +85,6 @@ Prat3HighCPUPerCharDB = {
 			["IsEmpty"] = nil --[[ skipped inline function ]],
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:58:53]|h|r You have been disconnected from Blizzard services.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 133335.821,
-					["serverTime"] = 1620763133,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-				}, -- [1]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:24:19]|h|r You have been disconnected from Blizzard services.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 133335.821,
-					["serverTime"] = 1620768258,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-				}, -- [2]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:27:12]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620768431,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 133335.821,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [3]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:31:52]|h|r You have been disconnected from Blizzard services.",
-					["r"] = 1,
-					["b"] = 0,
-					["g"] = 1,
-					["timestamp"] = 133335.821,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["serverTime"] = 1620768712,
-				}, -- [4]
-				{
-					["message"] = "0 days, 3 hours, 12 minutes, 23 seconds",
-					["timestamp"] = 133335.821,
-				}, -- [5]
-				{
-					["message"] = "========== End of Scrollback ==========",
-					["timestamp"] = 133335.821,
-				}, -- [6]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:00:24]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620781224,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 134305.268,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [7]
 			},
 			["maxElements"] = 128,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
@@ -299,7 +95,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame7"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 7,
+			["headIndex"] = 0,
 			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -311,74 +107,6 @@ Prat3HighCPUPerCharDB = {
 			["IsEmpty"] = nil --[[ skipped inline function ]],
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:58:53]|h|r You have been disconnected from Blizzard services.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 133335.821,
-					["serverTime"] = 1620763133,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-				}, -- [1]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:24:19]|h|r You have been disconnected from Blizzard services.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 133335.821,
-					["serverTime"] = 1620768258,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-				}, -- [2]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:27:12]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620768431,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 133335.821,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [3]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:31:52]|h|r You have been disconnected from Blizzard services.",
-					["r"] = 1,
-					["b"] = 0,
-					["g"] = 1,
-					["timestamp"] = 133335.821,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["serverTime"] = 1620768712,
-				}, -- [4]
-				{
-					["message"] = "0 days, 3 hours, 12 minutes, 23 seconds",
-					["timestamp"] = 133335.821,
-				}, -- [5]
-				{
-					["message"] = "========== End of Scrollback ==========",
-					["timestamp"] = 133335.821,
-				}, -- [6]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:00:24]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620781224,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 134305.268,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [7]
 			},
 			["maxElements"] = 128,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
@@ -389,7 +117,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame6"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 7,
+			["headIndex"] = 0,
 			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -401,74 +129,6 @@ Prat3HighCPUPerCharDB = {
 			["IsEmpty"] = nil --[[ skipped inline function ]],
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:58:53]|h|r You have been disconnected from Blizzard services.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 133335.821,
-					["serverTime"] = 1620763133,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-				}, -- [1]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:24:19]|h|r You have been disconnected from Blizzard services.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 133335.821,
-					["serverTime"] = 1620768258,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-				}, -- [2]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:27:12]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620768431,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 133335.821,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [3]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:31:52]|h|r You have been disconnected from Blizzard services.",
-					["r"] = 1,
-					["b"] = 0,
-					["g"] = 1,
-					["timestamp"] = 133335.821,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["serverTime"] = 1620768712,
-				}, -- [4]
-				{
-					["message"] = "0 days, 3 hours, 12 minutes, 23 seconds",
-					["timestamp"] = 133335.821,
-				}, -- [5]
-				{
-					["message"] = "========== End of Scrollback ==========",
-					["timestamp"] = 133335.821,
-				}, -- [6]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:00:24]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620781224,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 134305.268,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [7]
 			},
 			["maxElements"] = 128,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
@@ -479,7 +139,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame8"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 7,
+			["headIndex"] = 0,
 			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -491,74 +151,6 @@ Prat3HighCPUPerCharDB = {
 			["IsEmpty"] = nil --[[ skipped inline function ]],
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:58:53]|h|r You have been disconnected from Blizzard services.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 133335.821,
-					["serverTime"] = 1620763133,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-				}, -- [1]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:24:19]|h|r You have been disconnected from Blizzard services.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 133335.821,
-					["serverTime"] = 1620768258,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-				}, -- [2]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:27:12]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620768431,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 133335.821,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [3]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:31:52]|h|r You have been disconnected from Blizzard services.",
-					["r"] = 1,
-					["b"] = 0,
-					["g"] = 1,
-					["timestamp"] = 133335.821,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["serverTime"] = 1620768712,
-				}, -- [4]
-				{
-					["message"] = "0 days, 3 hours, 12 minutes, 23 seconds",
-					["timestamp"] = 133335.821,
-				}, -- [5]
-				{
-					["message"] = "========== End of Scrollback ==========",
-					["timestamp"] = 133335.821,
-				}, -- [6]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:00:24]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620781224,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 134305.268,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [7]
 			},
 			["maxElements"] = 128,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
@@ -569,7 +161,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame10"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 7,
+			["headIndex"] = 0,
 			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -581,74 +173,6 @@ Prat3HighCPUPerCharDB = {
 			["IsEmpty"] = nil --[[ skipped inline function ]],
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:58:53]|h|r You have been disconnected from Blizzard services.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 133335.821,
-					["serverTime"] = 1620763133,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-				}, -- [1]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:24:19]|h|r You have been disconnected from Blizzard services.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 133335.821,
-					["serverTime"] = 1620768258,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-				}, -- [2]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:27:12]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620768431,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 133335.821,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [3]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:31:52]|h|r You have been disconnected from Blizzard services.",
-					["r"] = 1,
-					["b"] = 0,
-					["g"] = 1,
-					["timestamp"] = 133335.821,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["serverTime"] = 1620768712,
-				}, -- [4]
-				{
-					["message"] = "0 days, 3 hours, 12 minutes, 23 seconds",
-					["timestamp"] = 133335.821,
-				}, -- [5]
-				{
-					["message"] = "========== End of Scrollback ==========",
-					["timestamp"] = 133335.821,
-				}, -- [6]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:00:24]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620781224,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 134305.268,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [7]
 			},
 			["maxElements"] = 128,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
@@ -659,7 +183,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame9"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 7,
+			["headIndex"] = 0,
 			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -671,74 +195,6 @@ Prat3HighCPUPerCharDB = {
 			["IsEmpty"] = nil --[[ skipped inline function ]],
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:58:53]|h|r You have been disconnected from Blizzard services.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 133335.821,
-					["serverTime"] = 1620763133,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-				}, -- [1]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:24:19]|h|r You have been disconnected from Blizzard services.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 133335.821,
-					["serverTime"] = 1620768258,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-				}, -- [2]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:27:12]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620768431,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 133335.821,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [3]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:31:52]|h|r You have been disconnected from Blizzard services.",
-					["r"] = 1,
-					["b"] = 0,
-					["g"] = 1,
-					["timestamp"] = 133335.821,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["serverTime"] = 1620768712,
-				}, -- [4]
-				{
-					["message"] = "0 days, 3 hours, 12 minutes, 23 seconds",
-					["timestamp"] = 133335.821,
-				}, -- [5]
-				{
-					["message"] = "========== End of Scrollback ==========",
-					["timestamp"] = 133335.821,
-				}, -- [6]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:00:24]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620781224,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 134305.268,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [7]
 			},
 			["maxElements"] = 128,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
@@ -749,7 +205,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame1"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 85,
+			["headIndex"] = 64,
 			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -762,7 +218,9 @@ Prat3HighCPUPerCharDB = {
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:46:47]|h|r You lie down.",
+					["message"] = "|cff979797|Hpratcopy|h[05:59:47]|h|r You lie down.",
+					["serverTime"] = 1620777586,
+					["r"] = 1,
 					["extraData"] = {
 						12, -- [1]
 						false, -- [2]
@@ -770,19 +228,16 @@ Prat3HighCPUPerCharDB = {
 						2, -- [4]
 						["n"] = 4,
 					},
-					["b"] = 0.250980406999588,
-					["serverTime"] = 1620694007,
-					["timestamp"] = 133335.821,
+					["timestamp"] = 216668.363,
 					["g"] = 0.501960813999176,
-					["r"] = 1,
+					["b"] = 0.250980406999588,
 				}, -- [1]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[07:04:57]|h|r You lie down.",
-					["b"] = 0.250980406999588,
+					["message"] = "|cff979797|Hpratcopy|h[06:19:30]|h|r You lie down.",
 					["r"] = 1,
+					["b"] = 0.250980406999588,
 					["g"] = 0.501960813999176,
-					["timestamp"] = 133335.821,
-					["serverTime"] = 1620695097,
+					["timestamp"] = 216668.363,
 					["extraData"] = {
 						12, -- [1]
 						false, -- [2]
@@ -790,11 +245,10 @@ Prat3HighCPUPerCharDB = {
 						2, -- [4]
 						["n"] = 4,
 					},
+					["serverTime"] = 1620778770,
 				}, -- [2]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[07:27:01]|h|r You lie down.",
-					["serverTime"] = 1620696421,
-					["r"] = 1,
+					["message"] = "|cff979797|Hpratcopy|h[06:41:49]|h|r You lie down.",
 					["extraData"] = {
 						12, -- [1]
 						false, -- [2]
@@ -802,27 +256,26 @@ Prat3HighCPUPerCharDB = {
 						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 133335.821,
-					["g"] = 0.501960813999176,
 					["b"] = 0.250980406999588,
+					["serverTime"] = 1620780109,
+					["timestamp"] = 216668.363,
+					["g"] = 0.501960813999176,
+					["r"] = 1,
 				}, -- [3]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[07:46:16]|h|r You lie down.",
+					["message"] = "|cff979797|Hpratcopy|h[07:00:24]|h|r You have been disconnected from Blizzard services.",
+					["b"] = 0,
 					["r"] = 1,
-					["b"] = 0.250980406999588,
-					["g"] = 0.501960813999176,
-					["timestamp"] = 133335.821,
+					["g"] = 1,
+					["timestamp"] = 216668.363,
+					["serverTime"] = 1620781224,
 					["extraData"] = {
-						12, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
+						1, -- [1]
+						["n"] = 1,
 					},
-					["serverTime"] = 1620697576,
 				}, -- [4]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[08:04:56]|h|r You lie down.",
+					["message"] = "|cff979797|Hpratcopy|h[23:16:41]|h|r You lie down.",
 					["extraData"] = {
 						12, -- [1]
 						false, -- [2]
@@ -831,18 +284,18 @@ Prat3HighCPUPerCharDB = {
 						["n"] = 4,
 					},
 					["b"] = 0.250980406999588,
-					["serverTime"] = 1620698696,
-					["timestamp"] = 133335.821,
+					["serverTime"] = 1620839801,
+					["timestamp"] = 216668.363,
 					["g"] = 0.501960813999176,
 					["r"] = 1,
 				}, -- [5]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[08:23:24]|h|r You lie down.",
+					["message"] = "|cff979797|Hpratcopy|h[23:43:30]|h|r You lie down.",
 					["b"] = 0.250980406999588,
 					["r"] = 1,
 					["g"] = 0.501960813999176,
-					["timestamp"] = 133335.821,
-					["serverTime"] = 1620699804,
+					["timestamp"] = 216668.363,
+					["serverTime"] = 1620841409,
 					["extraData"] = {
 						12, -- [1]
 						false, -- [2]
@@ -852,8 +305,8 @@ Prat3HighCPUPerCharDB = {
 					},
 				}, -- [6]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[08:46:29]|h|r You lie down.",
-					["serverTime"] = 1620701189,
+					["message"] = "|cff979797|Hpratcopy|h[00:02:57]|h|r You lie down.",
+					["serverTime"] = 1620842576,
 					["r"] = 1,
 					["extraData"] = {
 						12, -- [1]
@@ -862,16 +315,16 @@ Prat3HighCPUPerCharDB = {
 						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 133335.821,
+					["timestamp"] = 216668.363,
 					["g"] = 0.501960813999176,
 					["b"] = 0.250980406999588,
 				}, -- [7]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[09:01:26]|h|r You lie down.",
+					["message"] = "|cff979797|Hpratcopy|h[00:21:21]|h|r You lie down.",
 					["r"] = 1,
 					["b"] = 0.250980406999588,
 					["g"] = 0.501960813999176,
-					["timestamp"] = 133335.821,
+					["timestamp"] = 216668.363,
 					["extraData"] = {
 						12, -- [1]
 						false, -- [2]
@@ -879,10 +332,10 @@ Prat3HighCPUPerCharDB = {
 						2, -- [4]
 						["n"] = 4,
 					},
-					["serverTime"] = 1620702086,
+					["serverTime"] = 1620843680,
 				}, -- [8]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[09:21:25]|h|r You lie down.",
+					["message"] = "|cff979797|Hpratcopy|h[00:37:26]|h|r You lie down.",
 					["extraData"] = {
 						12, -- [1]
 						false, -- [2]
@@ -891,18 +344,18 @@ Prat3HighCPUPerCharDB = {
 						["n"] = 4,
 					},
 					["b"] = 0.250980406999588,
-					["serverTime"] = 1620703285,
-					["timestamp"] = 133335.821,
+					["serverTime"] = 1620844646,
+					["timestamp"] = 216668.363,
 					["g"] = 0.501960813999176,
 					["r"] = 1,
 				}, -- [9]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[09:43:08]|h|r You lie down.",
+					["message"] = "|cff979797|Hpratcopy|h[00:55:30]|h|r You lie down.",
 					["b"] = 0.250980406999588,
 					["r"] = 1,
 					["g"] = 0.501960813999176,
-					["timestamp"] = 133335.821,
-					["serverTime"] = 1620704588,
+					["timestamp"] = 216668.363,
+					["serverTime"] = 1620845730,
 					["extraData"] = {
 						12, -- [1]
 						false, -- [2]
@@ -912,8 +365,8 @@ Prat3HighCPUPerCharDB = {
 					},
 				}, -- [10]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[01:02:03]|h|r You lie down.",
-					["serverTime"] = 1620759723,
+					["message"] = "|cff979797|Hpratcopy|h[01:14:10]|h|r You lie down.",
+					["serverTime"] = 1620846849,
 					["r"] = 1,
 					["extraData"] = {
 						12, -- [1]
@@ -922,16 +375,16 @@ Prat3HighCPUPerCharDB = {
 						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 133335.821,
+					["timestamp"] = 216668.363,
 					["g"] = 0.501960813999176,
 					["b"] = 0.250980406999588,
 				}, -- [11]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[01:17:32]|h|r You lie down.",
+					["message"] = "|cff979797|Hpratcopy|h[01:32:54]|h|r You lie down.",
 					["r"] = 1,
 					["b"] = 0.250980406999588,
 					["g"] = 0.501960813999176,
-					["timestamp"] = 133335.821,
+					["timestamp"] = 216668.363,
 					["extraData"] = {
 						12, -- [1]
 						false, -- [2]
@@ -939,10 +392,10 @@ Prat3HighCPUPerCharDB = {
 						2, -- [4]
 						["n"] = 4,
 					},
-					["serverTime"] = 1620760652,
+					["serverTime"] = 1620847973,
 				}, -- [12]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[01:38:20]|h|r You lie down.",
+					["message"] = "|cff979797|Hpratcopy|h[01:53:15]|h|r You lie down.",
 					["extraData"] = {
 						12, -- [1]
 						false, -- [2]
@@ -951,26 +404,29 @@ Prat3HighCPUPerCharDB = {
 						["n"] = 4,
 					},
 					["b"] = 0.250980406999588,
-					["serverTime"] = 1620761900,
-					["timestamp"] = 133335.821,
+					["serverTime"] = 1620849195,
+					["timestamp"] = 216668.363,
 					["g"] = 0.501960813999176,
 					["r"] = 1,
 				}, -- [13]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[01:58:53]|h|r You have been disconnected from Blizzard services.",
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[02:09:06]|h|r You lie down.",
+					["b"] = 0.250980406999588,
 					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 133335.821,
-					["serverTime"] = 1620763133,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 216668.363,
+					["serverTime"] = 1620850145,
 					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
+						12, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
 					},
 				}, -- [14]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:00:59]|h|r You lie down.",
-					["serverTime"] = 1620763258,
+					["message"] = "|cff979797|Hpratcopy|h[02:27:13]|h|r You lie down.",
+					["serverTime"] = 1620851232,
 					["r"] = 1,
 					["extraData"] = {
 						12, -- [1]
@@ -979,16 +435,16 @@ Prat3HighCPUPerCharDB = {
 						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 133335.821,
+					["timestamp"] = 216668.363,
 					["g"] = 0.501960813999176,
 					["b"] = 0.250980406999588,
 				}, -- [15]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:01:40]|h|r You lie down.",
+					["message"] = "|cff979797|Hpratcopy|h[02:49:47]|h|r You lie down.",
 					["r"] = 1,
 					["b"] = 0.250980406999588,
 					["g"] = 0.501960813999176,
-					["timestamp"] = 133335.821,
+					["timestamp"] = 216668.363,
 					["extraData"] = {
 						12, -- [1]
 						false, -- [2]
@@ -996,10 +452,10 @@ Prat3HighCPUPerCharDB = {
 						2, -- [4]
 						["n"] = 4,
 					},
-					["serverTime"] = 1620763300,
+					["serverTime"] = 1620852586,
 				}, -- [16]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:19:21]|h|r You lie down.",
+					["message"] = "|cff979797|Hpratcopy|h[03:05:56]|h|r You lie down.",
 					["extraData"] = {
 						12, -- [1]
 						false, -- [2]
@@ -1008,18 +464,18 @@ Prat3HighCPUPerCharDB = {
 						["n"] = 4,
 					},
 					["b"] = 0.250980406999588,
-					["serverTime"] = 1620764361,
-					["timestamp"] = 133335.821,
+					["serverTime"] = 1620853555,
+					["timestamp"] = 216668.363,
 					["g"] = 0.501960813999176,
 					["r"] = 1,
 				}, -- [17]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:39:58]|h|r You lie down.",
+					["message"] = "|cff979797|Hpratcopy|h[03:28:21]|h|r You lie down.",
 					["b"] = 0.250980406999588,
 					["r"] = 1,
 					["g"] = 0.501960813999176,
-					["timestamp"] = 133335.821,
-					["serverTime"] = 1620765598,
+					["timestamp"] = 216668.363,
+					["serverTime"] = 1620854900,
 					["extraData"] = {
 						12, -- [1]
 						false, -- [2]
@@ -1029,8 +485,8 @@ Prat3HighCPUPerCharDB = {
 					},
 				}, -- [18]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:44:05]|h|r You lie down.",
-					["serverTime"] = 1620765845,
+					["message"] = "|cff979797|Hpratcopy|h[03:49:34]|h|r You lie down.",
+					["serverTime"] = 1620856174,
 					["r"] = 1,
 					["extraData"] = {
 						12, -- [1]
@@ -1039,16 +495,16 @@ Prat3HighCPUPerCharDB = {
 						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 133335.821,
+					["timestamp"] = 216668.363,
 					["g"] = 0.501960813999176,
 					["b"] = 0.250980406999588,
 				}, -- [19]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:02:39]|h|r You lie down.",
+					["message"] = "|cff979797|Hpratcopy|h[04:05:01]|h|r You lie down.",
 					["r"] = 1,
 					["b"] = 0.250980406999588,
 					["g"] = 0.501960813999176,
-					["timestamp"] = 133335.821,
+					["timestamp"] = 216668.363,
 					["extraData"] = {
 						12, -- [1]
 						false, -- [2]
@@ -1056,10 +512,10 @@ Prat3HighCPUPerCharDB = {
 						2, -- [4]
 						["n"] = 4,
 					},
-					["serverTime"] = 1620766959,
+					["serverTime"] = 1620857101,
 				}, -- [20]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:20:51]|h|r You lie down.",
+					["message"] = "|cff979797|Hpratcopy|h[04:21:16]|h|r You lie down.",
 					["extraData"] = {
 						12, -- [1]
 						false, -- [2]
@@ -1068,49 +524,58 @@ Prat3HighCPUPerCharDB = {
 						["n"] = 4,
 					},
 					["b"] = 0.250980406999588,
-					["serverTime"] = 1620768051,
-					["timestamp"] = 133335.821,
+					["serverTime"] = 1620858076,
+					["timestamp"] = 216668.363,
 					["g"] = 0.501960813999176,
 					["r"] = 1,
 				}, -- [21]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:24:19]|h|r You have been disconnected from Blizzard services.",
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[04:41:05]|h|r You lie down.",
+					["b"] = 0.250980406999588,
 					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 133335.821,
-					["serverTime"] = 1620768258,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 216668.363,
+					["serverTime"] = 1620859264,
 					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
+						12, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
 					},
 				}, -- [22]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:27:12]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620768431,
+					["message"] = "|cff979797|Hpratcopy|h[04:56:49]|h|r You lie down.",
+					["serverTime"] = 1620860208,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
+						12, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
 					},
-					["timestamp"] = 133335.821,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 216668.363,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
 				}, -- [23]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:31:52]|h|r You have been disconnected from Blizzard services.",
+					["message"] = "|cff979797|Hpratcopy|h[05:12:04]|h|r You lie down.",
 					["r"] = 1,
-					["b"] = 0,
-					["g"] = 1,
-					["timestamp"] = 133335.821,
+					["b"] = 0.250980406999588,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 216668.363,
 					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
+						12, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
 					},
-					["serverTime"] = 1620768712,
+					["serverTime"] = 1620861123,
 				}, -- [24]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:37:32]|h|r You lie down.",
+					["message"] = "|cff979797|Hpratcopy|h[05:28:08]|h|r You lie down.",
 					["extraData"] = {
 						12, -- [1]
 						false, -- [2]
@@ -1119,18 +584,18 @@ Prat3HighCPUPerCharDB = {
 						["n"] = 4,
 					},
 					["b"] = 0.250980406999588,
-					["serverTime"] = 1620769052,
-					["timestamp"] = 133335.821,
+					["serverTime"] = 1620862087,
+					["timestamp"] = 216668.363,
 					["g"] = 0.501960813999176,
 					["r"] = 1,
 				}, -- [25]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[04:00:52]|h|r You lie down.",
+					["message"] = "|cff979797|Hpratcopy|h[05:50:19]|h|r You lie down.",
 					["b"] = 0.250980406999588,
 					["r"] = 1,
 					["g"] = 0.501960813999176,
-					["timestamp"] = 133335.821,
-					["serverTime"] = 1620770451,
+					["timestamp"] = 216668.363,
+					["serverTime"] = 1620863418,
 					["extraData"] = {
 						12, -- [1]
 						false, -- [2]
@@ -1140,387 +605,205 @@ Prat3HighCPUPerCharDB = {
 					},
 				}, -- [26]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[04:21:59]|h|r You lie down.",
-					["serverTime"] = 1620771719,
-					["r"] = 1,
-					["extraData"] = {
-						12, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 133335.821,
-					["g"] = 0.501960813999176,
-					["b"] = 0.250980406999588,
+					["message"] = "0 days, 0 hours, 2 minutes, 49 seconds",
+					["timestamp"] = 216668.363,
 				}, -- [27]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[04:39:48]|h|r You lie down.",
-					["r"] = 1,
-					["b"] = 0.250980406999588,
-					["g"] = 0.501960813999176,
-					["timestamp"] = 133335.821,
-					["extraData"] = {
-						12, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["serverTime"] = 1620772787,
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 216668.363,
 				}, -- [28]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[05:00:05]|h|r You lie down.",
-					["extraData"] = {
-						12, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["b"] = 0.250980406999588,
-					["serverTime"] = 1620774005,
-					["timestamp"] = 133335.821,
-					["g"] = 0.501960813999176,
-					["r"] = 1,
+					["message"] = "|cff979797|Hpratcopy|h[05:53:07]|h|r Fishing Buddy v0.7.3 Beta 5 loaded",
+					["timestamp"] = 216667.683,
 				}, -- [29]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[05:17:37]|h|r You lie down.",
-					["b"] = 0.250980406999588,
-					["r"] = 1,
-					["g"] = 0.501960813999176,
-					["timestamp"] = 133335.821,
-					["serverTime"] = 1620775057,
-					["extraData"] = {
-						12, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [30]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[05:40:49]|h|r You lie down.",
-					["serverTime"] = 1620776449,
-					["r"] = 1,
-					["extraData"] = {
-						12, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 133335.821,
-					["g"] = 0.501960813999176,
-					["b"] = 0.250980406999588,
-				}, -- [31]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[05:59:47]|h|r You lie down.",
-					["r"] = 1,
-					["b"] = 0.250980406999588,
-					["g"] = 0.501960813999176,
-					["timestamp"] = 133335.821,
-					["extraData"] = {
-						12, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["serverTime"] = 1620777586,
-				}, -- [32]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:19:30]|h|r You lie down.",
-					["extraData"] = {
-						12, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["b"] = 0.250980406999588,
-					["serverTime"] = 1620778770,
-					["timestamp"] = 133335.821,
-					["g"] = 0.501960813999176,
-					["r"] = 1,
-				}, -- [33]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:41:49]|h|r You lie down.",
-					["b"] = 0.250980406999588,
-					["r"] = 1,
-					["g"] = 0.501960813999176,
-					["timestamp"] = 133335.821,
-					["serverTime"] = 1620780109,
-					["extraData"] = {
-						12, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [34]
-				{
-					["message"] = "0 days, 0 hours, 2 minutes, 26 seconds",
-					["timestamp"] = 133335.821,
-				}, -- [35]
-				{
-					["message"] = "========== End of Scrollback ==========",
-					["timestamp"] = 133335.821,
-				}, -- [36]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:44:14]|h|r Fishing Buddy v0.7.3 Beta 5 loaded",
-					["timestamp"] = 133335.187,
-				}, -- [37]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:44:20]|h|r HealBot |cff20ff201.13.7.1|r loaded. For help use: |cffffff00 /hb h|r",
+					["message"] = "|cff979797|Hpratcopy|h[05:53:13]|h|r HealBot |cff20ff201.13.7.1|r loaded. For help use: |cffffff00 /hb h|r",
 					["r"] = 0.7,
-					["serverTime"] = 1620780260,
-					["timestamp"] = 133341.697,
+					["serverTime"] = 1620863593,
+					["timestamp"] = 216674.137,
 					["g"] = 0.7,
 					["b"] = 1,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:53:40]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 216701.053,
+					["serverTime"] = 1620863619,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:54:10]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 216731.069,
+					["serverTime"] = 1620863649,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:54:22]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 216743.807,
+					["serverTime"] = 1620863661,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:54:45]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 216766.203,
+					["serverTime"] = 1620863685,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:54:55]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 216776.209,
+					["serverTime"] = 1620863695,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:55:25]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 216806.228,
+					["serverTime"] = 1620863725,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:55:55]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 216836.237,
+					["serverTime"] = 1620863755,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:56:12]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
+					["timestamp"] = 216853.069,
+					["serverTime"] = 1620863772,
 				}, -- [38]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:44:47]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 133368.461,
-					["serverTime"] = 1620780287,
+					["message"] = "|cff979797|Hpratcopy|h[05:56:26]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:13754::::::::20:::::::|h[Raw Glossy Mightfish]|h|r.",
+					["timestamp"] = 216867.212,
+					["serverTime"] = 1620863785,
 				}, -- [39]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:45:05]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 133386.242,
-					["serverTime"] = 1620780304,
+					["message"] = "|cff979797|Hpratcopy|h[05:56:55]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 216896.604,
+					["serverTime"] = 1620863814,
 				}, -- [40]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:45:32]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 133413.799,
-					["serverTime"] = 1620780331,
+					["message"] = "|cff979797|Hpratcopy|h[05:57:15]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
+					["timestamp"] = 216916.126,
+					["serverTime"] = 1620863834,
 				}, -- [41]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:46:02]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 133443.545,
-					["serverTime"] = 1620780361,
+					["message"] = "|cff979797|Hpratcopy|h[05:57:28]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
+					["timestamp"] = 216929.84,
+					["serverTime"] = 1620863847,
 				}, -- [42]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:46:32]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 133473.613,
-					["serverTime"] = 1620780391,
+					["message"] = "|cff979797|Hpratcopy|h[05:57:38]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
+					["timestamp"] = 216939.155,
+					["serverTime"] = 1620863857,
 				}, -- [43]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:47:02]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 133503.716,
-					["serverTime"] = 1620780422,
+					["message"] = "|cff979797|Hpratcopy|h[05:58:03]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
+					["timestamp"] = 216964.207,
+					["serverTime"] = 1620863882,
 				}, -- [44]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:47:22]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 133523.132,
-					["serverTime"] = 1620780442,
+					["message"] = "|cff979797|Hpratcopy|h[05:58:24]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
+					["timestamp"] = 216985.242,
+					["serverTime"] = 1620863903,
 				}, -- [45]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:47:39]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 133540.78,
-					["serverTime"] = 1620780459,
+					["message"] = "|cff979797|Hpratcopy|h[05:58:33]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
+					["timestamp"] = 216994.556,
+					["serverTime"] = 1620863912,
 				}, -- [46]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:47:54]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 133555.815,
-					["serverTime"] = 1620780474,
+					["message"] = "|cff979797|Hpratcopy|h[05:59:01]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
+					["timestamp"] = 217022.064,
+					["serverTime"] = 1620863940,
 				}, -- [47]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:48:04]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 133565.863,
-					["serverTime"] = 1620780483,
+					["message"] = "|cff979797|Hpratcopy|h[05:59:14]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 217035.252,
+					["serverTime"] = 1620863953,
 				}, -- [48]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:48:22]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 133583.698,
-					["serverTime"] = 1620780501,
+					["message"] = "|cff979797|Hpratcopy|h[05:59:44]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 217065.22,
+					["serverTime"] = 1620863983,
 				}, -- [49]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:48:52]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 133613.338,
-					["serverTime"] = 1620780531,
+					["message"] = "|cff979797|Hpratcopy|h[06:00:02]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
+					["timestamp"] = 217083.004,
+					["serverTime"] = 1620864001,
 				}, -- [50]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:49:22]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 133643.363,
-					["serverTime"] = 1620780561,
+					["message"] = "|cff979797|Hpratcopy|h[06:00:31]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 217112.704,
+					["serverTime"] = 1620864030,
 				}, -- [51]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:49:33]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 133654.761,
-					["serverTime"] = 1620780572,
+					["message"] = "|cff979797|Hpratcopy|h[06:01:01]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 217142.692,
+					["serverTime"] = 1620864060,
 				}, -- [52]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:49:52]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 133673.28,
-					["serverTime"] = 1620780592,
+					["message"] = "|cff979797|Hpratcopy|h[06:01:19]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
+					["timestamp"] = 217160.24,
+					["serverTime"] = 1620864078,
 				}, -- [53]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:50:22]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 133703.344,
-					["serverTime"] = 1620780622,
+					["message"] = "|cff979797|Hpratcopy|h[06:01:31]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
+					["timestamp"] = 217172.77,
+					["serverTime"] = 1620864090,
 				}, -- [54]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:50:35]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 133716.801,
-					["serverTime"] = 1620780635,
+					["message"] = "|cff979797|Hpratcopy|h[06:02:01]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 217202.361,
+					["serverTime"] = 1620864120,
 				}, -- [55]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:50:50]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 133731.374,
-					["serverTime"] = 1620780650,
+					["message"] = "|cff979797|Hpratcopy|h[06:02:29]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
+					["timestamp"] = 217230.525,
+					["serverTime"] = 1620864148,
 				}, -- [56]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:51:20]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 133761.471,
-					["serverTime"] = 1620780680,
+					["message"] = "|cff979797|Hpratcopy|h[06:02:55]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
+					["timestamp"] = 217255.958,
+					["serverTime"] = 1620864174,
 				}, -- [57]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:51:50]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 133791.519,
-					["serverTime"] = 1620780710,
+					["message"] = "|cff979797|Hpratcopy|h[06:03:19]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:13754::::::::20:::::::|h[Raw Glossy Mightfish]|h|r.",
+					["timestamp"] = 217280.614,
+					["serverTime"] = 1620864198,
 				}, -- [58]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:52:00]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 133801.493,
-					["serverTime"] = 1620780720,
+					["message"] = "|cff979797|Hpratcopy|h[06:03:49]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 217309.998,
+					["serverTime"] = 1620864229,
 				}, -- [59]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:52:27]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 133828.046,
-					["serverTime"] = 1620780747,
+					["message"] = "|cff979797|Hpratcopy|h[06:04:07]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
+					["timestamp"] = 217328.718,
+					["serverTime"] = 1620864247,
 				}, -- [60]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:52:39]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 133840.823,
-					["serverTime"] = 1620780758,
+					["message"] = "|cff979797|Hpratcopy|h[06:04:36]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
+					["timestamp"] = 217356.996,
+					["serverTime"] = 1620864276,
 				}, -- [61]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:53:03]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 133864.553,
-					["serverTime"] = 1620780782,
+					["message"] = "|cff979797|Hpratcopy|h[06:04:56]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
+					["timestamp"] = 217377.147,
+					["serverTime"] = 1620864296,
 				}, -- [62]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:53:33]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 133894.019,
-					["serverTime"] = 1620780812,
+					["message"] = "|cff979797|Hpratcopy|h[06:05:15]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
+					["timestamp"] = 217396.136,
+					["serverTime"] = 1620864315,
 				}, -- [63]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:53:58]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 133919.087,
-					["serverTime"] = 1620780837,
-				}, -- [64]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:54:26]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 133947.791,
-					["serverTime"] = 1620780866,
-				}, -- [65]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:54:38]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 133959.827,
-					["serverTime"] = 1620780878,
-				}, -- [66]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:55:08]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 133989.896,
-					["serverTime"] = 1620780908,
-				}, -- [67]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:55:33]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 134014.35,
-					["serverTime"] = 1620780933,
-				}, -- [68]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:55:51]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 134032.264,
-					["serverTime"] = 1620780951,
-				}, -- [69]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:56:04]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 134045.187,
-					["serverTime"] = 1620780964,
-				}, -- [70]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:56:16]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 134057.185,
-					["serverTime"] = 1620780976,
-				}, -- [71]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:56:25]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 134066.586,
-					["serverTime"] = 1620780985,
-				}, -- [72]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:56:45]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 134086.098,
-					["serverTime"] = 1620781005,
-				}, -- [73]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:56:55]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 134096.857,
-					["serverTime"] = 1620781015,
-				}, -- [74]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:57:20]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 134121.874,
-					["serverTime"] = 1620781040,
-				}, -- [75]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:57:50]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 134151.375,
-					["serverTime"] = 1620781070,
-				}, -- [76]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:58:09]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 134170.773,
-					["serverTime"] = 1620781089,
-				}, -- [77]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:58:33]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 134194.017,
-					["serverTime"] = 1620781113,
-				}, -- [78]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:58:52]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 134213.014,
-					["serverTime"] = 1620781132,
-				}, -- [79]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:59:07]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 134228.47,
-					["serverTime"] = 1620781147,
-				}, -- [80]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:59:34]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 134255.2,
-					["serverTime"] = 1620781174,
-				}, -- [81]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:59:48]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 134269.285,
-					["serverTime"] = 1620781188,
-				}, -- [82]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:00:03]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 134284.809,
-					["serverTime"] = 1620781203,
-				}, -- [83]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:00:13]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 134294.633,
-					["serverTime"] = 1620781213,
-				}, -- [84]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:00:24]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620781224,
+					["message"] = "|cff979797|Hpratcopy|h[06:05:33]|h|r You lie down.",
+					["serverTime"] = 1620864333,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
+						12, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
 					},
-					["timestamp"] = 134305.268,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [85]
+					["timestamp"] = 217414.451,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [64]
 			},
 			["maxElements"] = 128,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],

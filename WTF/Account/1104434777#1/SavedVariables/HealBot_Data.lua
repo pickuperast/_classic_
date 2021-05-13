@@ -22700,6 +22700,17 @@ HealBot_Globals = {
 	["MacroSuppressSound"] = 1,
 	["ttalpha"] = 0.799999952316284,
 	["HideOptions"] = false,
+	["Debug01"] = false,
+	["MinimapIcon"] = {
+		["minimapPos"] = 222.383914163959,
+		["radius"] = 80,
+		["hide"] = false,
+	},
+	["CustomBuffIDMethod"] = {
+	},
+	["HealBot_PermPrivateTanks"] = {
+	},
+	["HealBot_ButtonPosition"] = 300,
 	["OverrideEffects"] = {
 		["FLUIDFREQ"] = 9,
 		["USE"] = 1,
@@ -22710,17 +22721,6 @@ HealBot_Globals = {
 		["OMAX"] = 0.95,
 		["FGDIMMING"] = 2.5,
 	},
-	["MinimapIcon"] = {
-		["minimapPos"] = 222.383914163959,
-		["radius"] = 80,
-		["hide"] = false,
-	},
-	["HealBot_ButtonPosition"] = 300,
-	["HealBot_PermPrivateTanks"] = {
-	},
-	["CustomBuffIDMethod"] = {
-	},
-	["Debug01"] = false,
 	["CureCustomDefaultCastBy"] = 1,
 	["TestBars"] = {
 		["HEALERS"] = 3,

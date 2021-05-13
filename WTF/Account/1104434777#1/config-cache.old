@@ -1,3 +1,4 @@
+SET interactOnLeftClick "1"
 SET instantQuestText "1"
 SET flaggedTutorials "v##&"
 SET actionedAdventureJournalEntries "v"

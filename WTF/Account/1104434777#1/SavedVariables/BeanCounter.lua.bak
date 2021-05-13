@@ -30,20 +30,20 @@ BeanCounterDB = {
 	},
 }
 BeanCounterDBSettings = {
-	["configator.left"] = 90.4346923828125,
+	["configator.left"] = 90.4346389770508,
 	["Пламегор"] = {
 		["Пламбалыкши"] = {
 			["tasks.sortArray"] = 1620854129,
 			["version"] = 3.04,
 			["faction"] = "Alliance",
 			["tasks.compactDB"] = 1620854129,
-			["wealth"] = 298,
+			["wealth"] = 40831,
 			["tasks.prunePostedDB"] = 1620854129,
 			["mailbox"] = {
 			},
 		},
 	},
-	["configator.top"] = 558.913208007813,
+	["configator.top"] = 558.913391113281,
 	["util.beancounter.ButtonuseDateCheck"] = false,
 }
 BeanCounterDBNames = {

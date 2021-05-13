@@ -5,7 +5,7 @@ FishingBuddy_Player = {
 		["hide"] = false,
 	},
 	["Settings"] = {
-		["TotalTimeFishing"] = 217546.239,
+		["TotalTimeFishing"] = 250053.232,
 		["SpecialBobbers"] = -1,
 	},
 	["WasWearing"] = {
@@ -18,11 +18,11 @@ FishingBuddy_Player = {
 		["grp_x"] = -12.2518920898438,
 		["solo_scale"] = 1,
 		["raid_point"] = "RIGHT",
-		["raid_x"] = -12.2518920898438,
+		["raid_scale"] = 1,
 		["grp_scale"] = 1,
 		["grp_y"] = -27.8260955810547,
 		["raid_y"] = -27.8260955810547,
-		["raid_scale"] = 1,
+		["raid_x"] = -12.2518920898438,
 	},
 	["Version"] = 19500,
 }

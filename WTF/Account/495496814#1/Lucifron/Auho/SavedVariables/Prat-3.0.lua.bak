@@ -14,13 +14,13 @@ Prat3CharDB = {
 			},
 			["ChatFrame6EditBox"] = {
 			},
-			["ChatFrame9EditBox"] = {
-			},
-			["ChatFrame2EditBox"] = {
+			["ChatFrame1EditBox"] = {
 			},
 			["ChatFrame3EditBox"] = {
 			},
-			["ChatFrame1EditBox"] = {
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
 			},
 		},
 	},
@@ -205,7 +205,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame1"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 2,
+			["headIndex"] = 4,
 			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -218,17 +218,37 @@ Prat3HighCPUPerCharDB = {
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:32:45]|h|r Fishing Buddy v0.7.3 Beta 5 loaded",
-					["timestamp"] = 35446.372,
+					["message"] = "|cff979797|Hpratcopy|h[00:36:23]|h|r Fishing Buddy v0.7.3 Beta 5 loaded",
+					["timestamp"] = 111264.409,
 				}, -- [1]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:32:51]|h|r HealBot |cff20ff201.13.7.1|r loaded. For help use: |cffffff00 /hb h|r",
+					["message"] = "|cff979797|Hpratcopy|h[00:36:29]|h|r HealBot |cff20ff201.13.7.1|r loaded. For help use: |cffffff00 /hb h|r",
 					["r"] = 0.7,
-					["serverTime"] = 1620682371,
-					["timestamp"] = 35451.92,
+					["serverTime"] = 1620758188,
+					["timestamp"] = 111270.467,
 					["g"] = 0.7,
 					["b"] = 1,
 				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[00:37:20]|h|r |cff33ff99TradeSkillMaster|r: Sending 1,800|cffffd70ag|r 00|cffc7c7cfs|r 00|cffeda55fc|r to Luciaksha",
+					["timestamp"] = 111321.575,
+					["serverTime"] = 1620758240,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[00:37:27]|h|r You lie down.",
+					["serverTime"] = 1620758247,
+					["r"] = 1,
+					["extraData"] = {
+						12, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 111328.211,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [4]
 			},
 			["maxElements"] = 128,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],

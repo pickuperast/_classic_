@@ -1,51 +1,81 @@
+VER 3 000000000100000B "BASH" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stand
+/dismount
+/cancelform [noform:1]
+/cast [noform:1] Облик лютого медведя
+/startattack
+/cast Оглушить
+END
 VER 3 0000000001000004 "Cancelform" "INV_MISC_QUESTIONMARK"
 #showtooltip Целительное прикосновение
+/stand
+/dismount
 /cancelform
 /cast Целительное прикосновение
 END
 VER 3 0000000001000003 "Cancelform2" "INV_MISC_QUESTIONMARK"
 #showtooltip Омоложение
+/stand
+/dismount
 /cancelform
 /cast Омоложение
 END
 VER 3 0000000001000005 "Cancelform3" "INV_MISC_QUESTIONMARK"
 #showtooltip Восстановление
+/stand
+/dismount
 /cancelform
 /cast Восстановление
 END
 VER 3 0000000001000006 "Cancelform4" "INV_MISC_QUESTIONMARK"
 #showtooltip
+/stand
+/dismount
 /cancelform
 /cast Волшебный огонь
 END
 VER 3 0000000001000007 "Cancelform5" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cancelform
+/stand
+/dismount
+/cancelform [noform:5]
 /cast [mod:alt] or [button:2] Спячка; Гнев деревьев
 END
 VER 3 0000000001000008 "Cancelform5" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cancelform
-/cast Облик медведя
+/stand
+/dismount
+/cancelform [noform:1]
+/cast !Облик лютого медведя
 END
 VER 3 0000000001000002 "Dash" "INV_MISC_QUESTIONMARK"
 #showtooltip Порыв
+/stand
+/dismount
 /cancelform [noform:3]
 /cast [noform:3] Облик кошки
 /cast !Порыв
 END
 VER 3 000000000100000A "form77" "INV_MISC_QUESTIONMARK"
 #showtooltip
+/stand
+/dismount
 /cancelform
-/cast Облик кошки
+/cancelform [noform:3]
+/cast [noform:3] Облик кошки
 END
 VER 3 0000000001000001 "invis" "INV_MISC_QUESTIONMARK"
 #showtooltip
+/stand
+/dismount
 /cast Облик кошки
 /cast Крадущийся зверь
 END
 VER 3 0000000001000009 "Travel" "INV_MISC_QUESTIONMARK"
 #showtooltip
+/stand
+/dismount
 /cancelform [swimming,noform:2][outdoors,noform:2/4]
 /cast [swimming] Водный облик;[outdoors] Походный облик; Облик кошки
 END

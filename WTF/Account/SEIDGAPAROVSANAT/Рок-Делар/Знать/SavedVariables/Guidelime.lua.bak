@@ -4,14 +4,14 @@ GuidelimeDataChar = {
 	["showUnavailableSteps"] = true,
 	["guideSkip"] = {
 		["Bustea's Horde Leveling guide 1-6 Valley of Trials_Orc"] = {
-			[28] = true,
-			[17] = true,
-			[15] = true,
-			[25] = true,
-			[5] = true,
-			[4] = true,
-			[16] = true,
 			[24] = true,
+			[17] = true,
+			[28] = true,
+			[25] = true,
+			[16] = true,
+			[4] = true,
+			[5] = true,
+			[15] = true,
 		},
 		["Bustea's Horde Leveling guide 41-45 Bustea's Horde Guide"] = {
 			[3] = true,
@@ -180,26 +180,26 @@ GuidelimeDataChar = {
 			[98] = true,
 			[100] = true,
 			[101] = true,
-			[72] = true,
+			[157] = true,
 			[150] = true,
 			[145] = true,
 			[105] = true,
 			[141] = true,
 			[123] = true,
 			[8] = true,
-			[91] = true,
-			[32] = true,
+			[140] = true,
+			[70] = true,
 			[28] = true,
 			[112] = true,
 			[113] = true,
-			[70] = true,
-			[140] = true,
+			[32] = true,
+			[91] = true,
 			[116] = true,
 			[117] = true,
 			[118] = true,
 			[119] = true,
 			[120] = true,
-			[157] = true,
+			[72] = true,
 		},
 		["Bustea's Horde Leveling guide 6-12 Durotar_Orc"] = {
 			[31] = true,
@@ -225,68 +225,24 @@ GuidelimeDataChar = {
 			[26] = true,
 			[87] = true,
 			[52] = true,
-			[51] = true,
+			[91] = true,
 			[88] = true,
 			[39] = true,
-			[73] = true,
 			[37] = true,
+			[73] = true,
 			[10] = true,
 			[53] = true,
 			[61] = true,
 			[19] = true,
 			[90] = true,
-			[91] = true,
+			[51] = true,
 		},
-		["Bustea's Horde Leveling guide 31-36 Bustea's Horde Guide"] = {
-			nil, -- [1]
-			true, -- [2]
-			true, -- [3]
-			true, -- [4]
-			true, -- [5]
-			true, -- [6]
-			true, -- [7]
-			true, -- [8]
-			true, -- [9]
-			true, -- [10]
-			true, -- [11]
-			true, -- [12]
-			nil, -- [13]
-			true, -- [14]
-			true, -- [15]
-			true, -- [16]
-			true, -- [17]
-			true, -- [18]
-			true, -- [19]
-			true, -- [20]
-			true, -- [21]
-			true, -- [22]
-			true, -- [23]
-			true, -- [24]
-			true, -- [25]
-			nil, -- [26]
-			true, -- [27]
-			true, -- [28]
-			true, -- [29]
-			true, -- [30]
-			true, -- [31]
-			[61] = true,
-			[62] = true,
-			[35] = true,
-			[36] = true,
-			[37] = true,
-			[38] = true,
-			[76] = true,
-			[41] = true,
-			[43] = true,
-			[46] = true,
-			[47] = true,
-			[48] = true,
-			[49] = true,
-			[73] = true,
-			[75] = true,
-			[68] = true,
-			[72] = true,
-			[74] = true,
+		["Class Quests- by Shikushiku 20-20 Warlock Class Quest"] = {
+			[8] = true,
+			[19] = true,
+			[17] = true,
+		},
+		["Class Quests- by Shikushiku 20-20 Undead Warlock Class Quest"] = {
 		},
 		["Bustea's Horde Leveling guide 21-31 Bustea's Horde Guide"] = {
 			nil, -- [1]
@@ -354,21 +310,65 @@ GuidelimeDataChar = {
 			[71] = true,
 			[52] = true,
 			[104] = true,
-			[131] = true,
+			[136] = true,
 			[73] = true,
-			[95] = true,
+			[129] = true,
 			[99] = true,
 			[103] = true,
 			[74] = true,
-			[129] = true,
-			[136] = true,
+			[95] = true,
+			[131] = true,
 		},
-		["Class Quests- by Shikushiku 20-20 Undead Warlock Class Quest"] = {
-		},
-		["Class Quests- by Shikushiku 20-20 Warlock Class Quest"] = {
-			[8] = true,
-			[19] = true,
-			[17] = true,
+		["Bustea's Horde Leveling guide 31-36 Bustea's Horde Guide"] = {
+			nil, -- [1]
+			true, -- [2]
+			true, -- [3]
+			true, -- [4]
+			true, -- [5]
+			true, -- [6]
+			true, -- [7]
+			true, -- [8]
+			true, -- [9]
+			true, -- [10]
+			true, -- [11]
+			true, -- [12]
+			nil, -- [13]
+			true, -- [14]
+			true, -- [15]
+			true, -- [16]
+			true, -- [17]
+			true, -- [18]
+			true, -- [19]
+			true, -- [20]
+			true, -- [21]
+			true, -- [22]
+			true, -- [23]
+			true, -- [24]
+			true, -- [25]
+			nil, -- [26]
+			true, -- [27]
+			true, -- [28]
+			true, -- [29]
+			true, -- [30]
+			true, -- [31]
+			[61] = true,
+			[62] = true,
+			[35] = true,
+			[36] = true,
+			[37] = true,
+			[38] = true,
+			[76] = true,
+			[41] = true,
+			[43] = true,
+			[46] = true,
+			[47] = true,
+			[48] = true,
+			[49] = true,
+			[73] = true,
+			[75] = true,
+			[74] = true,
+			[72] = true,
+			[68] = true,
 		},
 	},
 	["arrowY"] = -20.0000247955322,
@@ -379,29 +379,29 @@ GuidelimeDataChar = {
 	["arrowLocked"] = false,
 	["editorFrameY"] = 0,
 	["showCompletedSteps"] = false,
-	["arrowAlpha"] = 0.8,
+	["editorFrameX"] = 0,
 	["arrowSize"] = 64,
 	["mainFrameAlpha"] = 0.5,
 	["currentGuide"] = "Bustea's Horde Leveling guide 41-45 Bustea's Horde Guide",
-	["mainFrameFontSize"] = 14,
-	["arrowX"] = 0,
-	["mainFrameY"] = -15.2008819580078,
-	["mainFrameShowScrollBar"] = true,
-	["showArrow"] = true,
 	["version"] = "1.040",
+	["arrowX"] = 0,
+	["mainFrameFontSize"] = 14,
+	["mainFrameShowing"] = false,
+	["editorFrameRelative"] = "CENTER",
 	["guideSize"] = {
 		["Bustea's Horde Leveling guide 1-6 Valley of Trials_Orc"] = 77,
 		["Bustea's Horde Leveling guide 41-45 Bustea's Horde Guide"] = 94,
 		["Bustea's Horde Leveling guide 36-41 Bustea's Horde Guide"] = 149,
 		["Bustea's Horde Leveling guide 12-21 Bustea's Horde/Troll+Orc Guide"] = 161,
 		["Bustea's Horde Leveling guide 6-12 Durotar_Orc"] = 167,
-		["Bustea's Horde Leveling guide 31-36 Bustea's Horde Guide"] = 122,
-		["Bustea's Horde Leveling guide 21-31 Bustea's Horde Guide"] = 170,
-		["Class Quests- by Shikushiku 20-20 Undead Warlock Class Quest"] = 15,
 		["Class Quests- by Shikushiku 20-20 Warlock Class Quest"] = 50,
+		["Class Quests- by Shikushiku 20-20 Undead Warlock Class Quest"] = 15,
+		["Bustea's Horde Leveling guide 21-31 Bustea's Horde Guide"] = 170,
+		["Bustea's Horde Leveling guide 31-36 Bustea's Horde Guide"] = 122,
 	},
-	["mainFrameShowing"] = false,
-	["editorFrameRelative"] = "CENTER",
+	["showArrow"] = true,
+	["mainFrameShowScrollBar"] = true,
+	["mainFrameY"] = -15.2008819580078,
 	["mainFrameRelative"] = "RIGHT",
-	["editorFrameX"] = 0,
+	["arrowAlpha"] = 0.8,
 }

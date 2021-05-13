@@ -46,21 +46,13 @@ Prat3HighCPUPerCharDB = {
 					["r"] = 1,
 					["b"] = 0,
 					["g"] = 1,
-					["timestamp"] = 123541.318,
+					["timestamp"] = 196179.381,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
 					["serverTime"] = 1620763143,
 				}, -- [1]
-				{
-					["message"] = "0 days, 2 hours, 1 minutes, 57 seconds",
-					["timestamp"] = 123541.318,
-				}, -- [2]
-				{
-					["message"] = "========== End of Scrollback ==========",
-					["timestamp"] = 123541.318,
-				}, -- [3]
 				{
 					["message"] = "|cff979797|Hpratcopy|h[07:00:30]|h|r You have been disconnected from Blizzard services.",
 					["serverTime"] = 1620781229,
@@ -69,9 +61,17 @@ Prat3HighCPUPerCharDB = {
 						1, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 134311.541,
+					["timestamp"] = 196179.381,
 					["g"] = 1,
 					["b"] = 0,
+				}, -- [2]
+				{
+					["message"] = "0 days, 17 hours, 11 minutes, 9 seconds",
+					["timestamp"] = 196179.381,
+				}, -- [3]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 196179.381,
 				}, -- [4]
 			},
 			["maxElements"] = 128,
@@ -100,21 +100,13 @@ Prat3HighCPUPerCharDB = {
 					["r"] = 1,
 					["b"] = 0,
 					["g"] = 1,
-					["timestamp"] = 123541.318,
+					["timestamp"] = 196179.381,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
 					["serverTime"] = 1620763143,
 				}, -- [1]
-				{
-					["message"] = "0 days, 2 hours, 1 minutes, 57 seconds",
-					["timestamp"] = 123541.318,
-				}, -- [2]
-				{
-					["message"] = "========== End of Scrollback ==========",
-					["timestamp"] = 123541.318,
-				}, -- [3]
 				{
 					["message"] = "|cff979797|Hpratcopy|h[07:00:30]|h|r You have been disconnected from Blizzard services.",
 					["serverTime"] = 1620781229,
@@ -123,9 +115,17 @@ Prat3HighCPUPerCharDB = {
 						1, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 134311.541,
+					["timestamp"] = 196179.381,
 					["g"] = 1,
 					["b"] = 0,
+				}, -- [2]
+				{
+					["message"] = "0 days, 17 hours, 11 minutes, 9 seconds",
+					["timestamp"] = 196179.381,
+				}, -- [3]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 196179.381,
 				}, -- [4]
 			},
 			["maxElements"] = 128,
@@ -154,21 +154,13 @@ Prat3HighCPUPerCharDB = {
 					["r"] = 1,
 					["b"] = 0,
 					["g"] = 1,
-					["timestamp"] = 123541.318,
+					["timestamp"] = 196179.381,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
 					["serverTime"] = 1620763143,
 				}, -- [1]
-				{
-					["message"] = "0 days, 2 hours, 1 minutes, 57 seconds",
-					["timestamp"] = 123541.318,
-				}, -- [2]
-				{
-					["message"] = "========== End of Scrollback ==========",
-					["timestamp"] = 123541.318,
-				}, -- [3]
 				{
 					["message"] = "|cff979797|Hpratcopy|h[07:00:30]|h|r You have been disconnected from Blizzard services.",
 					["serverTime"] = 1620781229,
@@ -177,9 +169,17 @@ Prat3HighCPUPerCharDB = {
 						1, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 134311.541,
+					["timestamp"] = 196179.381,
 					["g"] = 1,
 					["b"] = 0,
+				}, -- [2]
+				{
+					["message"] = "0 days, 17 hours, 11 minutes, 9 seconds",
+					["timestamp"] = 196179.381,
+				}, -- [3]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 196179.381,
 				}, -- [4]
 			},
 			["maxElements"] = 128,
@@ -208,21 +208,13 @@ Prat3HighCPUPerCharDB = {
 					["r"] = 1,
 					["b"] = 0,
 					["g"] = 1,
-					["timestamp"] = 123541.318,
+					["timestamp"] = 196179.381,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
 					["serverTime"] = 1620763143,
 				}, -- [1]
-				{
-					["message"] = "0 days, 2 hours, 1 minutes, 57 seconds",
-					["timestamp"] = 123541.318,
-				}, -- [2]
-				{
-					["message"] = "========== End of Scrollback ==========",
-					["timestamp"] = 123541.318,
-				}, -- [3]
 				{
 					["message"] = "|cff979797|Hpratcopy|h[07:00:30]|h|r You have been disconnected from Blizzard services.",
 					["serverTime"] = 1620781229,
@@ -231,9 +223,17 @@ Prat3HighCPUPerCharDB = {
 						1, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 134311.541,
+					["timestamp"] = 196179.381,
 					["g"] = 1,
 					["b"] = 0,
+				}, -- [2]
+				{
+					["message"] = "0 days, 17 hours, 11 minutes, 9 seconds",
+					["timestamp"] = 196179.381,
+				}, -- [3]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 196179.381,
 				}, -- [4]
 			},
 			["maxElements"] = 128,
@@ -262,21 +262,13 @@ Prat3HighCPUPerCharDB = {
 					["r"] = 1,
 					["b"] = 0,
 					["g"] = 1,
-					["timestamp"] = 123541.318,
+					["timestamp"] = 196179.381,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
 					["serverTime"] = 1620763143,
 				}, -- [1]
-				{
-					["message"] = "0 days, 2 hours, 1 minutes, 57 seconds",
-					["timestamp"] = 123541.318,
-				}, -- [2]
-				{
-					["message"] = "========== End of Scrollback ==========",
-					["timestamp"] = 123541.318,
-				}, -- [3]
 				{
 					["message"] = "|cff979797|Hpratcopy|h[07:00:30]|h|r You have been disconnected from Blizzard services.",
 					["serverTime"] = 1620781229,
@@ -285,9 +277,17 @@ Prat3HighCPUPerCharDB = {
 						1, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 134311.541,
+					["timestamp"] = 196179.381,
 					["g"] = 1,
 					["b"] = 0,
+				}, -- [2]
+				{
+					["message"] = "0 days, 17 hours, 11 minutes, 9 seconds",
+					["timestamp"] = 196179.381,
+				}, -- [3]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 196179.381,
 				}, -- [4]
 			},
 			["maxElements"] = 128,
@@ -316,21 +316,13 @@ Prat3HighCPUPerCharDB = {
 					["r"] = 1,
 					["b"] = 0,
 					["g"] = 1,
-					["timestamp"] = 123541.318,
+					["timestamp"] = 196179.381,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
 					["serverTime"] = 1620763143,
 				}, -- [1]
-				{
-					["message"] = "0 days, 2 hours, 1 minutes, 57 seconds",
-					["timestamp"] = 123541.318,
-				}, -- [2]
-				{
-					["message"] = "========== End of Scrollback ==========",
-					["timestamp"] = 123541.318,
-				}, -- [3]
 				{
 					["message"] = "|cff979797|Hpratcopy|h[07:00:30]|h|r You have been disconnected from Blizzard services.",
 					["serverTime"] = 1620781229,
@@ -339,9 +331,17 @@ Prat3HighCPUPerCharDB = {
 						1, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 134311.541,
+					["timestamp"] = 196179.381,
 					["g"] = 1,
 					["b"] = 0,
+				}, -- [2]
+				{
+					["message"] = "0 days, 17 hours, 11 minutes, 9 seconds",
+					["timestamp"] = 196179.381,
+				}, -- [3]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 196179.381,
 				}, -- [4]
 			},
 			["maxElements"] = 128,
@@ -370,21 +370,13 @@ Prat3HighCPUPerCharDB = {
 					["r"] = 1,
 					["b"] = 0,
 					["g"] = 1,
-					["timestamp"] = 123541.318,
+					["timestamp"] = 196179.381,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
 					["serverTime"] = 1620763143,
 				}, -- [1]
-				{
-					["message"] = "0 days, 2 hours, 1 minutes, 57 seconds",
-					["timestamp"] = 123541.318,
-				}, -- [2]
-				{
-					["message"] = "========== End of Scrollback ==========",
-					["timestamp"] = 123541.318,
-				}, -- [3]
 				{
 					["message"] = "|cff979797|Hpratcopy|h[07:00:30]|h|r You have been disconnected from Blizzard services.",
 					["serverTime"] = 1620781229,
@@ -393,9 +385,17 @@ Prat3HighCPUPerCharDB = {
 						1, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 134311.541,
+					["timestamp"] = 196179.381,
 					["g"] = 1,
 					["b"] = 0,
+				}, -- [2]
+				{
+					["message"] = "0 days, 17 hours, 11 minutes, 9 seconds",
+					["timestamp"] = 196179.381,
+				}, -- [3]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 196179.381,
 				}, -- [4]
 			},
 			["maxElements"] = 128,
@@ -424,21 +424,13 @@ Prat3HighCPUPerCharDB = {
 					["r"] = 1,
 					["b"] = 0,
 					["g"] = 1,
-					["timestamp"] = 123541.318,
+					["timestamp"] = 196179.381,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
 					["serverTime"] = 1620763143,
 				}, -- [1]
-				{
-					["message"] = "0 days, 2 hours, 1 minutes, 57 seconds",
-					["timestamp"] = 123541.318,
-				}, -- [2]
-				{
-					["message"] = "========== End of Scrollback ==========",
-					["timestamp"] = 123541.318,
-				}, -- [3]
 				{
 					["message"] = "|cff979797|Hpratcopy|h[07:00:30]|h|r You have been disconnected from Blizzard services.",
 					["serverTime"] = 1620781229,
@@ -447,9 +439,17 @@ Prat3HighCPUPerCharDB = {
 						1, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 134311.541,
+					["timestamp"] = 196179.381,
 					["g"] = 1,
 					["b"] = 0,
+				}, -- [2]
+				{
+					["message"] = "0 days, 17 hours, 11 minutes, 9 seconds",
+					["timestamp"] = 196179.381,
+				}, -- [3]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 196179.381,
 				}, -- [4]
 			},
 			["maxElements"] = 128,
@@ -461,7 +461,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame1"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 6,
+			["headIndex"] = 21,
 			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -474,1529 +474,1362 @@ Prat3HighCPUPerCharDB = {
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
 				{
-					["message"] = "|cff979797|Hpratcopy|h[07:00:04]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["timestamp"] = 134284.988,
-					["serverTime"] = 1620781203,
+					["message"] = "|cff979797|Hpratcopy|h[01:20:56]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["timestamp"] = 200337.877,
+					["serverTime"] = 1620847256,
 				}, -- [1]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[07:00:15]|h|r [SERVER] Shutdown in 0:15",
-					["serverTime"] = 1620781214,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						40, -- [3]
-						41, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 134296.488,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [2]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:00:15]|h|r [SERVER] Shutdown in 0:15",
-					["serverTime"] = 1620781214,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						40, -- [3]
-						41, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 134296.888,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [3]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:00:24]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["serverTime"] = 1620781223,
+					["message"] = "|cff979797|Hpratcopy|h[01:21:06]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["serverTime"] = 1620847266,
 					["r"] = 0,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
-						8, -- [3]
-						9, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 134305.18,
+					["timestamp"] = 200347.083,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:21:07]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["timestamp"] = 200348.755,
+					["serverTime"] = 1620847267,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:21:20]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["serverTime"] = 1620847280,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 200361.818,
 					["g"] = 0.666666686534882,
 					["b"] = 0,
 				}, -- [4]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[07:00:26]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["timestamp"] = 134307.225,
-					["serverTime"] = 1620781225,
+					["message"] = "|cff979797|Hpratcopy|h[01:21:22]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["timestamp"] = 200363.781,
+					["serverTime"] = 1620847282,
 				}, -- [5]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[07:00:30]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620781229,
-					["r"] = 1,
+					["message"] = "|cff979797|Hpratcopy|h[01:21:34]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["serverTime"] = 1620847294,
+					["r"] = 0,
 					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
 					},
-					["timestamp"] = 134311.541,
-					["g"] = 1,
+					["timestamp"] = 200375.115,
+					["g"] = 0.666666686534882,
 					["b"] = 0,
 				}, -- [6]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:49:15]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["serverTime"] = 1620780555,
-					["r"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[01:21:36]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Ariakh:572:CHANNEL:1|h|cfffff468Ariakh|r|h|cffd8d8d8]|r: LFG hdw lvl 22 schurke",
+					["serverTime"] = 1620847296,
+					["r"] = 1,
 					["extraData"] = {
-						28, -- [1]
+						67, -- [1]
 						false, -- [2]
-						8, -- [3]
-						9, -- [4]
+						3, -- [3]
+						89, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 133636.533,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
+					["timestamp"] = 200377.004,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
 				}, -- [7]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:49:17]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["timestamp"] = 133638.669,
-					["serverTime"] = 1620780557,
+					["message"] = "|cff979797|Hpratcopy|h[01:21:36]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["timestamp"] = 200377.14,
+					["serverTime"] = 1620847296,
 				}, -- [8]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:49:28]|h|r You receive loot: |cffffffff|Hitem:6358::::::::20:::::::|h[Oily Blackmouth]|h|r.",
-					["serverTime"] = 1620780568,
+					["message"] = "|cff979797|Hpratcopy|h[01:21:43]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["serverTime"] = 1620847303,
 					["r"] = 0,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
-						8, -- [3]
-						9, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 133649.32,
+					["timestamp"] = 200384.476,
 					["g"] = 0.666666686534882,
 					["b"] = 0,
 				}, -- [9]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:49:30]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 133651.207,
-					["serverTime"] = 1620780570,
+					["message"] = "|cff979797|Hpratcopy|h[01:21:45]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["timestamp"] = 200386.114,
+					["serverTime"] = 1620847305,
 				}, -- [10]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:49:30]|h|r [SERVER] Shutdown in 11:00",
-					["serverTime"] = 1620780570,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						40, -- [3]
-						41, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 133651.207,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [11]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:49:30]|h|r [SERVER] Shutdown in 11:00",
-					["serverTime"] = 1620780570,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						40, -- [3]
-						41, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 133651.207,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [12]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:49:47]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["serverTime"] = 1620780586,
+					["message"] = "|cff979797|Hpratcopy|h[01:21:52]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["serverTime"] = 1620847311,
 					["r"] = 0,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
-						8, -- [3]
-						9, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 133668.697,
+					["timestamp"] = 200393.671,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:21:55]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["timestamp"] = 200396.244,
+					["serverTime"] = 1620847314,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:22:14]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["serverTime"] = 1620847333,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 200415.276,
 					["g"] = 0.666666686534882,
 					["b"] = 0,
 				}, -- [13]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:49:49]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["timestamp"] = 133670.619,
-					["serverTime"] = 1620780588,
+					["message"] = "|cff979797|Hpratcopy|h[01:22:15]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["timestamp"] = 200416.867,
+					["serverTime"] = 1620847334,
 				}, -- [14]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:50:00]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["serverTime"] = 1620780599,
+					["message"] = "|cff979797|Hpratcopy|h[01:22:27]|h|r You receive loot: |cffffffff|Hitem:6358::::::::20:::::::|h[Oily Blackmouth]|h|r.",
+					["serverTime"] = 1620847346,
 					["r"] = 0,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
-						8, -- [3]
-						9, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 133681.261,
+					["timestamp"] = 200428.911,
 					["g"] = 0.666666686534882,
 					["b"] = 0,
 				}, -- [15]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:50:02]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["timestamp"] = 133683.17,
-					["serverTime"] = 1620780601,
+					["message"] = "|cff979797|Hpratcopy|h[01:22:29]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 200430.499,
+					["serverTime"] = 1620847348,
 				}, -- [16]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:50:24]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
-					["serverTime"] = 1620780623,
+					["message"] = "|cff979797|Hpratcopy|h[01:22:47]|h|r You receive loot: |cffffffff|Hitem:6358::::::::20:::::::|h[Oily Blackmouth]|h|r.",
+					["serverTime"] = 1620847366,
 					["r"] = 0,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
-						8, -- [3]
-						9, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 133705.398,
+					["timestamp"] = 200448.165,
 					["g"] = 0.666666686534882,
 					["b"] = 0,
 				}, -- [17]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:50:26]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
-					["timestamp"] = 133707.444,
-					["serverTime"] = 1620780625,
+					["message"] = "|cff979797|Hpratcopy|h[01:22:48]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 200449.852,
+					["serverTime"] = 1620847367,
 				}, -- [18]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:50:30]|h|r [SERVER] Shutdown in 10:00",
-					["serverTime"] = 1620780629,
-					["r"] = 1,
+					["message"] = "|cff979797|Hpratcopy|h[01:22:58]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["serverTime"] = 1620847377,
+					["r"] = 0,
 					["extraData"] = {
-						1, -- [1]
+						28, -- [1]
 						false, -- [2]
-						40, -- [3]
-						41, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 133711.302,
-					["g"] = 1,
+					["timestamp"] = 200459.823,
+					["g"] = 0.666666686534882,
 					["b"] = 0,
 				}, -- [19]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:50:30]|h|r [SERVER] Shutdown in 10:00",
-					["serverTime"] = 1620780629,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						40, -- [3]
-						41, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 133711.402,
-					["g"] = 1,
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[01:23:01]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["timestamp"] = 200462.192,
+					["serverTime"] = 1620847380,
 				}, -- [20]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:50:50]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
-					["serverTime"] = 1620780649,
-					["r"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[01:23:04]|h|r You lie down.",
+					["serverTime"] = 1620847383,
+					["r"] = 1,
 					["extraData"] = {
-						28, -- [1]
+						12, -- [1]
 						false, -- [2]
-						8, -- [3]
-						9, -- [4]
+						91, -- [3]
+						92, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 133731.02,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
+					["timestamp"] = 200465.338,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
 				}, -- [21]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:50:52]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
-					["timestamp"] = 133732.939,
-					["serverTime"] = 1620780651,
+					["message"] = "|cff979797|Hpratcopy|h[01:05:30]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["serverTime"] = 1620846329,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199411.877,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
 				}, -- [22]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:51:07]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["serverTime"] = 1620780667,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						8, -- [3]
-						9, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 133748.381,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[01:05:32]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["timestamp"] = 199413.832,
+					["serverTime"] = 1620846331,
 				}, -- [23]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:51:09]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["timestamp"] = 133750.335,
-					["serverTime"] = 1620780669,
-				}, -- [24]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:51:20]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
-					["serverTime"] = 1620780680,
+					["message"] = "|cff979797|Hpratcopy|h[01:05:58]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["serverTime"] = 1620846357,
 					["r"] = 0,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
-						8, -- [3]
-						9, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 133761.208,
+					["timestamp"] = 199439.415,
 					["g"] = 0.666666686534882,
 					["b"] = 0,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:06:00]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["timestamp"] = 199441.821,
+					["serverTime"] = 1620846359,
 				}, -- [25]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:51:22]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
-					["timestamp"] = 133763.282,
-					["serverTime"] = 1620780682,
+					["message"] = "|cff979797|Hpratcopy|h[01:06:15]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["serverTime"] = 1620846374,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199456.36,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
 				}, -- [26]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:51:30]|h|r [SERVER] Shutdown in 9:00",
-					["serverTime"] = 1620780690,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						40, -- [3]
-						41, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 133771.432,
-					["g"] = 1,
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[01:06:17]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["timestamp"] = 199458.022,
+					["serverTime"] = 1620846376,
 				}, -- [27]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:51:30]|h|r [SERVER] Shutdown in 9:00",
-					["serverTime"] = 1620780690,
-					["r"] = 1,
+					["message"] = "|cff979797|Hpratcopy|h[01:06:27]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["serverTime"] = 1620846386,
+					["r"] = 0,
 					["extraData"] = {
-						1, -- [1]
+						28, -- [1]
 						false, -- [2]
-						40, -- [3]
-						41, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 133771.432,
-					["g"] = 1,
+					["timestamp"] = 199468.16,
+					["g"] = 0.666666686534882,
 					["b"] = 0,
 				}, -- [28]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:51:36]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
-					["serverTime"] = 1620780696,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						8, -- [3]
-						9, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 133777.231,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[01:06:29]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["timestamp"] = 199470.114,
+					["serverTime"] = 1620846388,
 				}, -- [29]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:51:38]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
-					["timestamp"] = 133779.474,
-					["serverTime"] = 1620780698,
+					["message"] = "|cff979797|Hpratcopy|h[01:06:51]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["serverTime"] = 1620846411,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199492.501,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
 				}, -- [30]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:51:45]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["serverTime"] = 1620780705,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						8, -- [3]
-						9, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 133786.448,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[01:06:53]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["timestamp"] = 199494.867,
+					["serverTime"] = 1620846413,
 				}, -- [31]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:51:47]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["timestamp"] = 133788.714,
-					["serverTime"] = 1620780707,
+					["message"] = "|cff979797|Hpratcopy|h[01:07:19]|h|r You receive loot: |cffffffff|Hitem:6358::::::::20:::::::|h[Oily Blackmouth]|h|r.",
+					["serverTime"] = 1620846439,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199520.358,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
 				}, -- [32]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:52:10]|h|r You receive loot: |cffffffff|Hitem:6358::::::::20:::::::|h[Oily Blackmouth]|h|r.",
-					["serverTime"] = 1620780730,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						8, -- [3]
-						9, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 133811.606,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[01:07:21]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 199522.024,
+					["serverTime"] = 1620846441,
 				}, -- [33]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:52:12]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 133813.245,
-					["serverTime"] = 1620780732,
+					["message"] = "|cff979797|Hpratcopy|h[01:07:37]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["serverTime"] = 1620846457,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199538.156,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
 				}, -- [34]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:52:30]|h|r [SERVER] Shutdown in 8:00",
-					["serverTime"] = 1620780750,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						40, -- [3]
-						41, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 133831.508,
-					["g"] = 1,
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[01:07:39]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["timestamp"] = 199540.201,
+					["serverTime"] = 1620846459,
 				}, -- [35]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:52:30]|h|r [SERVER] Shutdown in 8:00",
-					["serverTime"] = 1620780750,
+					["message"] = "|cff979797|Hpratcopy|h[01:07:56]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Mcstabbystab:508:CHANNEL:1|h|cfffff468Mcstabbystab|r|h|cffd8d8d8]|r: lfm BSF",
+					["serverTime"] = 1620846476,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
+						67, -- [1]
 						false, -- [2]
-						40, -- [3]
-						41, -- [4]
+						3, -- [3]
+						77, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 133831.558,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 199557.336,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
 				}, -- [36]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:52:42]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 133843.286,
-					["serverTime"] = 1620780762,
+					["message"] = "|cff979797|Hpratcopy|h[01:08:03]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["serverTime"] = 1620846483,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199564.376,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
 				}, -- [37]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:52:50]|h|r You receive loot: |cffffffff|Hitem:6358::::::::20:::::::|h[Oily Blackmouth]|h|r.",
-					["serverTime"] = 1620780770,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						8, -- [3]
-						9, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 133851.832,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[01:08:05]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["timestamp"] = 199566.557,
+					["serverTime"] = 1620846485,
 				}, -- [38]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:52:52]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 133853.423,
-					["serverTime"] = 1620780772,
+					["message"] = "|cff979797|Hpratcopy|h[01:08:26]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["serverTime"] = 1620846505,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199587.62,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
 				}, -- [39]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:53:00]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["serverTime"] = 1620780780,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						8, -- [3]
-						9, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 133861.906,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[01:08:28]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["timestamp"] = 199589.6,
+					["serverTime"] = 1620846507,
 				}, -- [40]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:53:03]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["timestamp"] = 133864.02,
-					["serverTime"] = 1620780783,
+					["message"] = "|cff979797|Hpratcopy|h[01:08:30]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Palker-Venoxis:511:CHANNEL:1|h|cffff7c0aPalker|r|h|cffd8d8d8]|r: lfm hdw tank heal",
+					["serverTime"] = 1620846509,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
+						73, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199591.55,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
 				}, -- [41]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:53:23]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["serverTime"] = 1620780803,
+					["message"] = "|cff979797|Hpratcopy|h[01:08:34]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Mcstabbystab-Venoxis:512:CHANNEL:1|h|cfffff468Mcstabbystab|r|h|cffd8d8d8]|r: lfm tank heal bsf",
+					["serverTime"] = 1620846513,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
+						77, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199595.75,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:08:49]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["serverTime"] = 1620846528,
 					["r"] = 0,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
-						8, -- [3]
-						9, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 133884.87,
+					["timestamp"] = 199610.032,
 					["g"] = 0.666666686534882,
 					["b"] = 0,
-				}, -- [42]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:53:25]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["timestamp"] = 133886.695,
-					["serverTime"] = 1620780805,
 				}, -- [43]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:53:30]|h|r [SERVER] Shutdown in 7:00",
-					["serverTime"] = 1620780810,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						40, -- [3]
-						41, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 133891.545,
-					["g"] = 1,
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[01:08:50]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["timestamp"] = 199611.896,
+					["serverTime"] = 1620846529,
 				}, -- [44]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:53:30]|h|r [SERVER] Shutdown in 7:00",
-					["serverTime"] = 1620780810,
-					["r"] = 1,
+					["message"] = "|cff979797|Hpratcopy|h[01:09:14]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["serverTime"] = 1620846553,
+					["r"] = 0,
 					["extraData"] = {
-						1, -- [1]
+						28, -- [1]
 						false, -- [2]
-						40, -- [3]
-						41, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 133891.695,
-					["g"] = 1,
+					["timestamp"] = 199635.852,
+					["g"] = 0.666666686534882,
 					["b"] = 0,
 				}, -- [45]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:53:46]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["serverTime"] = 1620780826,
+					["message"] = "|cff979797|Hpratcopy|h[01:09:16]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["timestamp"] = 199637.789,
+					["serverTime"] = 1620846555,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:09:34]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["serverTime"] = 1620846573,
 					["r"] = 0,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
-						8, -- [3]
-						9, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 133907.118,
+					["timestamp"] = 199655.518,
 					["g"] = 0.666666686534882,
 					["b"] = 0,
-				}, -- [46]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:53:47]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["timestamp"] = 133908.527,
-					["serverTime"] = 1620780827,
 				}, -- [47]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:54:17]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 133938.117,
-					["serverTime"] = 1620780856,
+					["message"] = "|cff979797|Hpratcopy|h[01:09:36]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["timestamp"] = 199657.228,
+					["serverTime"] = 1620846575,
 				}, -- [48]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:54:30]|h|r [SERVER] Shutdown in 6:00",
-					["serverTime"] = 1620780869,
-					["r"] = 1,
+					["message"] = "|cff979797|Hpratcopy|h[01:09:52]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["serverTime"] = 1620846592,
+					["r"] = 0,
 					["extraData"] = {
-						1, -- [1]
+						28, -- [1]
 						false, -- [2]
-						40, -- [3]
-						41, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 133951.617,
-					["g"] = 1,
+					["timestamp"] = 199673.264,
+					["g"] = 0.666666686534882,
 					["b"] = 0,
 				}, -- [49]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:54:30]|h|r [SERVER] Shutdown in 6:00",
-					["serverTime"] = 1620780869,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						40, -- [3]
-						41, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 133951.817,
-					["g"] = 1,
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[01:09:54]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["timestamp"] = 199675.479,
+					["serverTime"] = 1620846594,
 				}, -- [50]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:54:42]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["serverTime"] = 1620780881,
+					["message"] = "|cff979797|Hpratcopy|h[01:10:17]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["serverTime"] = 1620846617,
 					["r"] = 0,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
-						8, -- [3]
-						9, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 133963.045,
+					["timestamp"] = 199698.863,
 					["g"] = 0.666666686534882,
 					["b"] = 0,
 				}, -- [51]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:54:44]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["timestamp"] = 133965.226,
-					["serverTime"] = 1620780883,
+					["message"] = "|cff979797|Hpratcopy|h[01:10:20]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["timestamp"] = 199700.954,
+					["serverTime"] = 1620846620,
 				}, -- [52]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:54:53]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["serverTime"] = 1620780892,
-					["r"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[01:10:39]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Mcstabbystab-Venoxis:518:CHANNEL:1|h|cfffff468Mcstabbystab|r|h|cffd8d8d8]|r: tank + heal bsf",
+					["serverTime"] = 1620846639,
+					["r"] = 1,
 					["extraData"] = {
-						28, -- [1]
+						67, -- [1]
 						false, -- [2]
-						8, -- [3]
-						9, -- [4]
+						3, -- [3]
+						77, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 133973.965,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
+					["timestamp"] = 199720.552,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
 				}, -- [53]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:54:55]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["timestamp"] = 133976.154,
-					["serverTime"] = 1620780894,
-				}, -- [54]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:55:06]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
-					["serverTime"] = 1620780905,
+					["message"] = "|cff979797|Hpratcopy|h[01:10:46]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["serverTime"] = 1620846646,
 					["r"] = 0,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
-						8, -- [3]
-						9, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 133987.096,
+					["timestamp"] = 199727.093,
 					["g"] = 0.666666686534882,
 					["b"] = 0,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:10:48]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["timestamp"] = 199729.313,
+					["serverTime"] = 1620846648,
 				}, -- [55]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:55:08]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
-					["timestamp"] = 133989.49,
-					["serverTime"] = 1620780907,
+					["message"] = "|cff979797|Hpratcopy|h[01:10:55]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Palker-Venoxis:520:CHANNEL:1|h|cffff7c0aPalker|r|h|cffd8d8d8]|r: lfm hdw tank heal dd",
+					["serverTime"] = 1620846655,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
+						73, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199736.913,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
 				}, -- [56]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:55:21]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["serverTime"] = 1620780920,
+					["message"] = "|cff979797|Hpratcopy|h[01:11:03]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["serverTime"] = 1620846663,
 					["r"] = 0,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
-						8, -- [3]
-						9, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 134002.884,
+					["timestamp"] = 199744.864,
 					["g"] = 0.666666686534882,
 					["b"] = 0,
 				}, -- [57]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:55:23]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["timestamp"] = 134004.853,
-					["serverTime"] = 1620780922,
+					["message"] = "|cff979797|Hpratcopy|h[01:11:06]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["timestamp"] = 199747.136,
+					["serverTime"] = 1620846666,
 				}, -- [58]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:55:30]|h|r [SERVER] Shutdown in 5:00",
-					["serverTime"] = 1620780929,
+					["message"] = "|cff979797|Hpratcopy|h[01:11:07]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Daela:522:CHANNEL:1|h|cffffffffDaela|r|h|cffd8d8d8]|r: LFM Tank für HDW",
+					["serverTime"] = 1620846667,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
+						67, -- [1]
 						false, -- [2]
-						40, -- [3]
-						41, -- [4]
+						3, -- [3]
+						79, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 134011.653,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 199748.831,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
 				}, -- [59]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:55:30]|h|r [SERVER] Shutdown in 5:00",
-					["serverTime"] = 1620780929,
-					["r"] = 1,
+					["message"] = "|cff979797|Hpratcopy|h[01:11:17]|h|r You receive loot: |cffffffff|Hitem:6358::::::::20:::::::|h[Oily Blackmouth]|h|r.",
+					["serverTime"] = 1620846676,
+					["r"] = 0,
 					["extraData"] = {
-						1, -- [1]
+						28, -- [1]
 						false, -- [2]
-						40, -- [3]
-						41, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 134011.903,
-					["g"] = 1,
+					["timestamp"] = 199758.515,
+					["g"] = 0.666666686534882,
 					["b"] = 0,
 				}, -- [60]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:55:39]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
-					["serverTime"] = 1620780939,
+					["message"] = "|cff979797|Hpratcopy|h[01:11:19]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 199760.263,
+					["serverTime"] = 1620846678,
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:11:35]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["serverTime"] = 1620846694,
 					["r"] = 0,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
-						8, -- [3]
-						9, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 134020.85,
+					["timestamp"] = 199776.14,
 					["g"] = 0.666666686534882,
 					["b"] = 0,
-				}, -- [61]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:55:42]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
-					["timestamp"] = 134023.056,
-					["serverTime"] = 1620780942,
 				}, -- [62]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:55:45]|h|r [SERVER] Shutdown in 4:45",
-					["serverTime"] = 1620780945,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						40, -- [3]
-						41, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 134026.678,
-					["g"] = 1,
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[01:11:37]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["timestamp"] = 199777.935,
+					["serverTime"] = 1620846696,
 				}, -- [63]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:55:46]|h|r [SERVER] Shutdown in 4:45",
-					["serverTime"] = 1620780946,
-					["r"] = 1,
+					["message"] = "|cff979797|Hpratcopy|h[01:11:43]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["serverTime"] = 1620846702,
+					["r"] = 0,
 					["extraData"] = {
-						1, -- [1]
+						28, -- [1]
 						false, -- [2]
-						40, -- [3]
-						41, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 134026.928,
-					["g"] = 1,
+					["timestamp"] = 199784.248,
+					["g"] = 0.666666686534882,
 					["b"] = 0,
 				}, -- [64]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:55:52]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["serverTime"] = 1620780952,
+					["message"] = "|cff979797|Hpratcopy|h[01:11:45]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["timestamp"] = 199786.458,
+					["serverTime"] = 1620846704,
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:11:52]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["serverTime"] = 1620846711,
 					["r"] = 0,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
-						8, -- [3]
-						9, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 134033.124,
+					["timestamp"] = 199793.877,
 					["g"] = 0.666666686534882,
 					["b"] = 0,
-				}, -- [65]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:55:53]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["timestamp"] = 134034.788,
-					["serverTime"] = 1620780953,
 				}, -- [66]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:56:00]|h|r [SERVER] Shutdown in 4:30",
-					["serverTime"] = 1620780960,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						40, -- [3]
-						41, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 134041.688,
-					["g"] = 1,
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[01:11:54]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["timestamp"] = 199795.786,
+					["serverTime"] = 1620846713,
 				}, -- [67]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:56:01]|h|r [SERVER] Shutdown in 4:30",
-					["serverTime"] = 1620780961,
+					["message"] = "|cff979797|Hpratcopy|h[01:11:57]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Cunctator:527:CHANNEL:1|h|cffaad372Cunctator|r|h|cffd8d8d8]|r: LFM |Hquestie:846:Player-4477-0327444B|h|cFFFF1A1A[|r|cFFFF1A1A[26] Ganns Rache|r|cFFFF1A1A]|r|h|Hquestie:857:Player-4477-0327444B|h|cFFFF1A1A[|r|cFFFF1A1A[30] Die Träne der Monde|r|cFFFF1A1A]|r|h",
+					["serverTime"] = 1620846716,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
+						67, -- [1]
 						false, -- [2]
-						40, -- [3]
-						41, -- [4]
+						3, -- [3]
+						81, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 134041.988,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 199798.407,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
 				}, -- [68]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:56:15]|h|r [SERVER] Shutdown in 4:15",
-					["serverTime"] = 1620780975,
-					["r"] = 1,
+					["message"] = "|cff979797|Hpratcopy|h[01:12:06]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["serverTime"] = 1620846725,
+					["r"] = 0,
 					["extraData"] = {
-						1, -- [1]
+						28, -- [1]
 						false, -- [2]
-						40, -- [3]
-						41, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 134056.688,
-					["g"] = 1,
+					["timestamp"] = 199807.903,
+					["g"] = 0.666666686534882,
 					["b"] = 0,
 				}, -- [69]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:56:16]|h|r [SERVER] Shutdown in 4:15",
-					["serverTime"] = 1620780976,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						40, -- [3]
-						41, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 134056.988,
-					["g"] = 1,
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[01:12:08]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["timestamp"] = 199809.585,
+					["serverTime"] = 1620846727,
 				}, -- [70]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:56:18]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
-					["serverTime"] = 1620780978,
+					["message"] = "|cff979797|Hpratcopy|h[01:12:27]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["serverTime"] = 1620846746,
 					["r"] = 0,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
-						8, -- [3]
-						9, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 134059.435,
+					["timestamp"] = 199828.702,
 					["g"] = 0.666666686534882,
 					["b"] = 0,
 				}, -- [71]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:56:20]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
-					["timestamp"] = 134061.435,
-					["serverTime"] = 1620780980,
+					["message"] = "|cff979797|Hpratcopy|h[01:12:30]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["timestamp"] = 199831.022,
+					["serverTime"] = 1620846749,
 				}, -- [72]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:56:26]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["serverTime"] = 1620780986,
+					["message"] = "|cff979797|Hpratcopy|h[01:12:39]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Cunctator-Venoxis:531:CHANNEL:1|h|cffaad372Cunctator|r|h|cffd8d8d8]|r: LFM |Hquestie:857:Player-4477-0327444B|h|cFFFF1A1A[|r|cFFFF1A1A[30] Die Träne der Monde|r|cFFFF1A1A]|r|h|Hquestie:846:Player-4477-0327444B|h|cFFFF1A1A[|r|cFFFF1A1A[26] Ganns Rache|r|cFFFF1A1A]|r|h",
+					["serverTime"] = 1620846758,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
+						81, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199840.622,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:12:50]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["serverTime"] = 1620846769,
 					["r"] = 0,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
-						8, -- [3]
-						9, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 134067.493,
+					["timestamp"] = 199851.612,
 					["g"] = 0.666666686534882,
 					["b"] = 0,
-				}, -- [73]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:56:28]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["timestamp"] = 134069.114,
-					["serverTime"] = 1620780988,
 				}, -- [74]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:56:30]|h|r [SERVER] Shutdown in 4:00",
-					["serverTime"] = 1620780990,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						40, -- [3]
-						41, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 134071.703,
-					["g"] = 1,
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[01:12:53]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["timestamp"] = 199854.18,
+					["serverTime"] = 1620846772,
 				}, -- [75]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:56:31]|h|r [SERVER] Shutdown in 4:00",
-					["serverTime"] = 1620780991,
-					["r"] = 1,
+					["message"] = "|cff979797|Hpratcopy|h[01:13:00]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["serverTime"] = 1620846779,
+					["r"] = 0,
 					["extraData"] = {
-						1, -- [1]
+						28, -- [1]
 						false, -- [2]
-						40, -- [3]
-						41, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 134072.053,
-					["g"] = 1,
+					["timestamp"] = 199861.321,
+					["g"] = 0.666666686534882,
 					["b"] = 0,
 				}, -- [76]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:56:34]|h|r You receive loot: |cffffffff|Hitem:6358::::::::20:::::::|h[Oily Blackmouth]|h|r.",
-					["serverTime"] = 1620780994,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						8, -- [3]
-						9, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 134075.235,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[01:13:02]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["timestamp"] = 199863.474,
+					["serverTime"] = 1620846781,
 				}, -- [77]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:56:35]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 134076.781,
-					["serverTime"] = 1620780995,
-				}, -- [78]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:56:44]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
-					["serverTime"] = 1620781004,
+					["message"] = "|cff979797|Hpratcopy|h[01:13:16]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["serverTime"] = 1620846795,
 					["r"] = 0,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
-						8, -- [3]
-						9, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 134085.099,
+					["timestamp"] = 199877.405,
 					["g"] = 0.666666686534882,
 					["b"] = 0,
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:13:18]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["timestamp"] = 199879.668,
+					["serverTime"] = 1620846797,
 				}, -- [79]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:56:45]|h|r [SERVER] Shutdown in 3:45",
-					["serverTime"] = 1620781005,
+					["message"] = "|cff979797|Hpratcopy|h[01:13:31]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Palker-Venoxis:536:CHANNEL:1|h|cffff7c0aPalker|r|h|cffd8d8d8]|r: lfm hdw tank",
+					["serverTime"] = 1620846810,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
+						67, -- [1]
 						false, -- [2]
-						40, -- [3]
-						41, -- [4]
+						3, -- [3]
+						73, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 134086.716,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 199892.168,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
 				}, -- [80]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:56:46]|h|r [SERVER] Shutdown in 3:45",
-					["serverTime"] = 1620781006,
-					["r"] = 1,
+					["message"] = "|cff979797|Hpratcopy|h[01:13:39]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["serverTime"] = 1620846818,
+					["r"] = 0,
 					["extraData"] = {
-						1, -- [1]
+						28, -- [1]
 						false, -- [2]
-						40, -- [3]
-						41, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 134087.047,
-					["g"] = 1,
+					["timestamp"] = 199900.557,
+					["g"] = 0.666666686534882,
 					["b"] = 0,
 				}, -- [81]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:56:46]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
-					["timestamp"] = 134087.297,
-					["serverTime"] = 1620781006,
+					["message"] = "|cff979797|Hpratcopy|h[01:13:41]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["timestamp"] = 199902.759,
+					["serverTime"] = 1620846820,
 				}, -- [82]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:57:00]|h|r [SERVER] Shutdown in 3:30",
-					["serverTime"] = 1620781020,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						40, -- [3]
-						41, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 134101.697,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [83]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:57:01]|h|r [SERVER] Shutdown in 3:30",
-					["serverTime"] = 1620781021,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						40, -- [3]
-						41, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 134102.097,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [84]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:57:03]|h|r You receive loot: |cffffffff|Hitem:6358::::::::20:::::::|h[Oily Blackmouth]|h|r.",
-					["serverTime"] = 1620781023,
+					["message"] = "|cff979797|Hpratcopy|h[01:13:56]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["serverTime"] = 1620846835,
 					["r"] = 0,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
-						8, -- [3]
-						9, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 134104.494,
+					["timestamp"] = 199917.548,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:13:58]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["timestamp"] = 199919.76,
+					["serverTime"] = 1620846837,
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:14:11]|h|r You receive loot: |cffffffff|Hitem:6358::::::::20:::::::|h[Oily Blackmouth]|h|r.",
+					["serverTime"] = 1620846850,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199932.208,
 					["g"] = 0.666666686534882,
 					["b"] = 0,
 				}, -- [85]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:57:05]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 134106.333,
-					["serverTime"] = 1620781025,
+					["message"] = "|cff979797|Hpratcopy|h[01:14:12]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 199933.526,
+					["serverTime"] = 1620846851,
 				}, -- [86]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:57:15]|h|r [SERVER] Shutdown in 3:15",
-					["serverTime"] = 1620781035,
+					["message"] = "|cff979797|Hpratcopy|h[01:14:28]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Benâfflock:541:CHANNEL:1|h|cff8787edBenâfflock|r|h|cffd8d8d8]|r: ob deine Mama noch n paar brauchbare Titten hat hab ich gefragt!",
+					["serverTime"] = 1620846867,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
+						67, -- [1]
 						false, -- [2]
-						40, -- [3]
-						41, -- [4]
+						3, -- [3]
+						83, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 134116.715,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 199949.693,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
 				}, -- [87]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:57:16]|h|r [SERVER] Shutdown in 3:15",
-					["serverTime"] = 1620781036,
+					["message"] = "|cff979797|Hpratcopy|h[01:14:38]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Benâfflock-Venoxis:542:CHANNEL:1|h|cff8787edBenâfflock|r|h|cffd8d8d8]|r: sry fc :D",
+					["serverTime"] = 1620846877,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
+						67, -- [1]
 						false, -- [2]
-						40, -- [3]
-						41, -- [4]
+						3, -- [3]
+						83, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 134117.115,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 199959.647,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
 				}, -- [88]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:57:26]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["serverTime"] = 1620781046,
+					["message"] = "|cff979797|Hpratcopy|h[01:14:39]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["serverTime"] = 1620846878,
 					["r"] = 0,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
-						8, -- [3]
-						9, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 134127.758,
+					["timestamp"] = 199960.556,
 					["g"] = 0.666666686534882,
 					["b"] = 0,
 				}, -- [89]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:57:28]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["timestamp"] = 134129.758,
-					["serverTime"] = 1620781048,
+					["message"] = "|cff979797|Hpratcopy|h[01:14:41]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["timestamp"] = 199962.382,
+					["serverTime"] = 1620846880,
 				}, -- [90]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:57:30]|h|r [SERVER] Shutdown in 3:00",
-					["serverTime"] = 1620781050,
+					["message"] = "|cff979797|Hpratcopy|h[01:14:47]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Sledo:544:CHANNEL:1|h|cffaad372Sledo|r|h|cffd8d8d8]|r: oO",
+					["serverTime"] = 1620846886,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
+						67, -- [1]
 						false, -- [2]
-						40, -- [3]
-						41, -- [4]
+						3, -- [3]
+						85, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 134131.167,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 199968.277,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
 				}, -- [91]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:57:30]|h|r [SERVER] Shutdown in 3:00",
-					["serverTime"] = 1620781050,
-					["r"] = 1,
+					["message"] = "|cff979797|Hpratcopy|h[01:14:47]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["serverTime"] = 1620846886,
+					["r"] = 0,
 					["extraData"] = {
-						1, -- [1]
+						28, -- [1]
 						false, -- [2]
-						40, -- [3]
-						41, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 134131.758,
-					["g"] = 1,
+					["timestamp"] = 199968.322,
+					["g"] = 0.666666686534882,
 					["b"] = 0,
 				}, -- [92]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:57:42]|h|r You receive loot: |cffffffff|Hitem:6358::::::::20:::::::|h[Oily Blackmouth]|h|r.",
-					["serverTime"] = 1620781062,
+					["message"] = "|cff979797|Hpratcopy|h[01:14:49]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["timestamp"] = 199970.459,
+					["serverTime"] = 1620846888,
+				}, -- [93]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:15:01]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["serverTime"] = 1620846900,
 					["r"] = 0,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
-						8, -- [3]
-						9, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 134143.179,
+					["timestamp"] = 199982.663,
 					["g"] = 0.666666686534882,
 					["b"] = 0,
-				}, -- [93]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:57:43]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 134144.776,
-					["serverTime"] = 1620781063,
 				}, -- [94]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:57:45]|h|r [SERVER] Shutdown in 2:45",
-					["serverTime"] = 1620781065,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						40, -- [3]
-						41, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 134146.185,
-					["g"] = 1,
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[01:15:04]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["timestamp"] = 199985.044,
+					["serverTime"] = 1620846903,
 				}, -- [95]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:57:45]|h|r [SERVER] Shutdown in 2:45",
-					["serverTime"] = 1620781065,
-					["r"] = 1,
+					["message"] = "|cff979797|Hpratcopy|h[01:15:25]|h|r You receive loot: |cffffffff|Hitem:6358::::::::20:::::::|h[Oily Blackmouth]|h|r.",
+					["serverTime"] = 1620846924,
+					["r"] = 0,
 					["extraData"] = {
-						1, -- [1]
+						28, -- [1]
 						false, -- [2]
-						40, -- [3]
-						41, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 134146.776,
-					["g"] = 1,
+					["timestamp"] = 200006.266,
+					["g"] = 0.666666686534882,
 					["b"] = 0,
 				}, -- [96]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:57:53]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["serverTime"] = 1620781073,
+					["message"] = "|cff979797|Hpratcopy|h[01:15:26]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 200007.657,
+					["serverTime"] = 1620846925,
+				}, -- [97]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:16:05]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 200046.375,
+					["serverTime"] = 1620846964,
+				}, -- [98]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:16:30]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["serverTime"] = 1620846989,
 					["r"] = 0,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
-						8, -- [3]
-						9, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 134154.747,
+					["timestamp"] = 200071.794,
 					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [97]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:57:55]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["timestamp"] = 134156.747,
-					["serverTime"] = 1620781075,
-				}, -- [98]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:58:00]|h|r [SERVER] Shutdown in 2:30",
-					["serverTime"] = 1620781080,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						40, -- [3]
-						41, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 134161.202,
-					["g"] = 1,
 					["b"] = 0,
 				}, -- [99]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:58:00]|h|r [SERVER] Shutdown in 2:30",
-					["serverTime"] = 1620781080,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						40, -- [3]
-						41, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 134161.747,
-					["g"] = 1,
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[01:16:32]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["timestamp"] = 200073.69,
+					["serverTime"] = 1620846991,
 				}, -- [100]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:58:15]|h|r [SERVER] Shutdown in 2:15",
-					["serverTime"] = 1620781095,
-					["r"] = 1,
+					["message"] = "|cff979797|Hpratcopy|h[01:16:52]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["serverTime"] = 1620847011,
+					["r"] = 0,
 					["extraData"] = {
-						1, -- [1]
+						28, -- [1]
 						false, -- [2]
-						40, -- [3]
-						41, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 134176.192,
-					["g"] = 1,
+					["timestamp"] = 200093.379,
+					["g"] = 0.666666686534882,
 					["b"] = 0,
 				}, -- [101]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:58:15]|h|r [SERVER] Shutdown in 2:15",
-					["serverTime"] = 1620781095,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						40, -- [3]
-						41, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 134176.792,
-					["g"] = 1,
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[01:16:54]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["timestamp"] = 200095.191,
+					["serverTime"] = 1620847013,
 				}, -- [102]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:58:25]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 134186.433,
-					["serverTime"] = 1620781105,
+					["message"] = "|cff979797|Hpratcopy|h[01:17:20]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["serverTime"] = 1620847039,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 200121.092,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
 				}, -- [103]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:58:30]|h|r [SERVER] Shutdown in 2:00",
-					["serverTime"] = 1620781110,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						40, -- [3]
-						41, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 134191.273,
-					["g"] = 1,
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[01:17:22]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["timestamp"] = 200123.105,
+					["serverTime"] = 1620847041,
 				}, -- [104]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:58:30]|h|r [SERVER] Shutdown in 2:00",
-					["serverTime"] = 1620781110,
-					["r"] = 1,
+					["message"] = "|cff979797|Hpratcopy|h[01:17:43]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["serverTime"] = 1620847062,
+					["r"] = 0,
 					["extraData"] = {
-						1, -- [1]
+						28, -- [1]
 						false, -- [2]
-						40, -- [3]
-						41, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 134191.823,
-					["g"] = 1,
+					["timestamp"] = 200144.733,
+					["g"] = 0.666666686534882,
 					["b"] = 0,
 				}, -- [105]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:58:39]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["serverTime"] = 1620781118,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						8, -- [3]
-						9, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 134200.623,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[01:17:45]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["timestamp"] = 200146.688,
+					["serverTime"] = 1620847064,
 				}, -- [106]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:58:41]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["timestamp"] = 134202.895,
-					["serverTime"] = 1620781120,
-				}, -- [107]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:58:45]|h|r [SERVER] Shutdown in 1:45",
-					["serverTime"] = 1620781124,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						40, -- [3]
-						41, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 134206.325,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [108]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:58:45]|h|r [SERVER] Shutdown in 1:45",
-					["serverTime"] = 1620781124,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						40, -- [3]
-						41, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 134206.825,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [109]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:58:56]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
-					["serverTime"] = 1620781135,
+					["message"] = "|cff979797|Hpratcopy|h[01:17:52]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["serverTime"] = 1620847071,
 					["r"] = 0,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
-						8, -- [3]
-						9, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 134217.423,
+					["timestamp"] = 200153.567,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [107]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:17:54]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["timestamp"] = 200155.567,
+					["serverTime"] = 1620847073,
+				}, -- [108]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:18:06]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Tankycoco:556:CHANNEL:1|h|cffc69b6dTankycoco|r|h|cffd8d8d8]|r: lfm KRal",
+					["serverTime"] = 1620847085,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
+						87, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 200167.656,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
+				}, -- [109]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:18:13]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["serverTime"] = 1620847092,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 200174.639,
 					["g"] = 0.666666686534882,
 					["b"] = 0,
 				}, -- [110]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:58:58]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
-					["timestamp"] = 134219.514,
-					["serverTime"] = 1620781137,
+					["message"] = "|cff979797|Hpratcopy|h[01:18:15]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["timestamp"] = 200176.684,
+					["serverTime"] = 1620847094,
 				}, -- [111]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:59:00]|h|r [SERVER] Shutdown in 1:30",
-					["serverTime"] = 1620781139,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						40, -- [3]
-						41, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 134221.349,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [112]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:59:00]|h|r [SERVER] Shutdown in 1:30",
-					["serverTime"] = 1620781139,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						40, -- [3]
-						41, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 134221.849,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [113]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:59:15]|h|r [SERVER] Shutdown in 1:15",
-					["serverTime"] = 1620781154,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						40, -- [3]
-						41, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 134236.399,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [114]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:59:15]|h|r [SERVER] Shutdown in 1:15",
-					["serverTime"] = 1620781154,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						40, -- [3]
-						41, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 134236.849,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [115]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:59:21]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["serverTime"] = 1620781160,
+					["message"] = "|cff979797|Hpratcopy|h[01:18:25]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["serverTime"] = 1620847104,
 					["r"] = 0,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
-						8, -- [3]
-						9, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 134242.124,
+					["timestamp"] = 200186.766,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [112]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:18:27]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["timestamp"] = 200188.811,
+					["serverTime"] = 1620847106,
+				}, -- [113]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:18:42]|h|r You receive loot: |cffffffff|Hitem:6358::::::::20:::::::|h[Oily Blackmouth]|h|r.",
+					["serverTime"] = 1620847121,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 200203.171,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [114]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:18:43]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 200204.747,
+					["serverTime"] = 1620847122,
+				}, -- [115]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:18:54]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["serverTime"] = 1620847133,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 200215.78,
 					["g"] = 0.666666686534882,
 					["b"] = 0,
 				}, -- [116]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:59:23]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["timestamp"] = 134244.124,
-					["serverTime"] = 1620781162,
+					["message"] = "|cff979797|Hpratcopy|h[01:18:57]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["timestamp"] = 200217.962,
+					["serverTime"] = 1620847136,
 				}, -- [117]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:59:30]|h|r [SERVER] Shutdown in 1:00",
-					["serverTime"] = 1620781169,
-					["r"] = 1,
+					["message"] = "|cff979797|Hpratcopy|h[01:19:18]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["serverTime"] = 1620847157,
+					["r"] = 0,
 					["extraData"] = {
-						1, -- [1]
+						28, -- [1]
 						false, -- [2]
-						40, -- [3]
-						41, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 134251.396,
-					["g"] = 1,
+					["timestamp"] = 200239.053,
+					["g"] = 0.666666686534882,
 					["b"] = 0,
 				}, -- [118]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:59:30]|h|r [SERVER] Shutdown in 1:00",
-					["serverTime"] = 1620781169,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						40, -- [3]
-						41, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 134251.846,
-					["g"] = 1,
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[01:19:19]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["timestamp"] = 200240.644,
+					["serverTime"] = 1620847158,
 				}, -- [119]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:59:33]|h|r You receive loot: |cffffffff|Hitem:6358::::::::20:::::::|h[Oily Blackmouth]|h|r.",
-					["serverTime"] = 1620781172,
+					["message"] = "|cff979797|Hpratcopy|h[01:19:20]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Palker-Venoxis:562:CHANNEL:1|h|cffff7c0aPalker|r|h|cffd8d8d8]|r: lfm tank hdw",
+					["serverTime"] = 1620847159,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
+						73, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 200241.462,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
+				}, -- [120]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:19:38]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["serverTime"] = 1620847177,
 					["r"] = 0,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
-						8, -- [3]
-						9, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 134254.737,
+					["timestamp"] = 200259.841,
 					["g"] = 0.666666686534882,
 					["b"] = 0,
-				}, -- [120]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:59:35]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 134256.272,
-					["serverTime"] = 1620781174,
 				}, -- [121]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:59:45]|h|r [SERVER] Shutdown in 0:45",
-					["serverTime"] = 1620781184,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						40, -- [3]
-						41, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 134266.448,
-					["g"] = 1,
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[01:19:40]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["timestamp"] = 200261.705,
+					["serverTime"] = 1620847179,
 				}, -- [122]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:59:45]|h|r [SERVER] Shutdown in 0:45",
-					["serverTime"] = 1620781184,
-					["r"] = 1,
+					["message"] = "|cff979797|Hpratcopy|h[01:20:05]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["serverTime"] = 1620847204,
+					["r"] = 0,
 					["extraData"] = {
-						1, -- [1]
+						28, -- [1]
 						false, -- [2]
-						40, -- [3]
-						41, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 134266.848,
-					["g"] = 1,
+					["timestamp"] = 200286.892,
+					["g"] = 0.666666686534882,
 					["b"] = 0,
 				}, -- [123]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:59:48]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
-					["serverTime"] = 1620781187,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						8, -- [3]
-						9, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 134269.096,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[01:20:07]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["timestamp"] = 200288.846,
+					["serverTime"] = 1620847206,
 				}, -- [124]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:59:50]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
-					["timestamp"] = 134271.189,
-					["serverTime"] = 1620781189,
-				}, -- [125]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:00:00]|h|r [SERVER] Shutdown in 0:30",
-					["serverTime"] = 1620781199,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						40, -- [3]
-						41, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 134281.489,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [126]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:00:00]|h|r [SERVER] Shutdown in 0:30",
-					["serverTime"] = 1620781199,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						40, -- [3]
-						41, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 134281.889,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [127]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:00:01]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["serverTime"] = 1620781200,
+					["message"] = "|cff979797|Hpratcopy|h[01:20:26]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["serverTime"] = 1620847226,
 					["r"] = 0,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
-						8, -- [3]
-						9, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 134282.724,
+					["timestamp"] = 200307.317,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [125]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:20:27]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Tankycoco-Venoxis:567:CHANNEL:1|h|cffc69b6dTankycoco|r|h|cffd8d8d8]|r: +1 Heal für Kral dann GO",
+					["serverTime"] = 1620847227,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
+						87, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 200308.566,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
+				}, -- [126]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:20:29]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["timestamp"] = 200309.929,
+					["serverTime"] = 1620847229,
+				}, -- [127]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:20:55]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["serverTime"] = 1620847255,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 200336.014,
 					["g"] = 0.666666686534882,
 					["b"] = 0,
 				}, -- [128]

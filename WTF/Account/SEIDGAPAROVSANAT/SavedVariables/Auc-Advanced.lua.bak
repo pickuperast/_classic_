@@ -10,7 +10,19 @@ AucAdvancedConfig = {
 				},
 			},
 		},
+		["match"] = {
+			["undercut"] = {
+				["usevalue"] = true,
+			},
+			["undermarket"] = {
+				["undercut"] = 0,
+			},
+		},
 		["util"] = {
+			["appraiser"] = {
+				["columnsortcurDir"] = -1,
+				["columnsortcurSort"] = 6,
+			},
 			["automagic"] = {
 				["ammailguix"] = 160,
 				["ammailguiy"] = 99.8,
@@ -21,9 +33,10 @@ AucAdvancedConfig = {
 				},
 			},
 			["ahwindowcontrol"] = {
-				["ahframeanchors"] = "TOP:TOP:-173.6:-42.0",
+				["ahframeanchors"] = "LEFT:LEFT:0.9:40.2",
 			},
 		},
+		["configator.left"] = 396.0185546875,
 		["stat"] = {
 			["sales"] = {
 				["upgraded32"] = true,
@@ -31,13 +44,14 @@ AucAdvancedConfig = {
 				},
 			},
 		},
+		["configator.top"] = 558.9130859375,
 	},
 	["version"] = 1,
 }
 AucAdvancedData = {
 	["UtilSearchUiData"] = {
 		["Global"] = {
-			["configator.left"] = -9.56533813476563,
+			["configator.left"] = 0,
 			["configator.top"] = 667.826110839844,
 		},
 		["Current"] = {
@@ -61,8 +75,8 @@ AucAdvancedData = {
 AucAdvancedServers = {
 	["Version"] = 1,
 	["KnownServerKeys"] = {
-		["РокДелар"] = 1620260614,
-		["Пламегор"] = 1620795775,
+		["РокДелар"] = 1620830169,
+		["Пламегор"] = 1620838067,
 	},
 	["KnownRealms"] = {
 		["РокДелар"] = "РокДелар",

@@ -14,13 +14,13 @@ Prat3CharDB = {
 			},
 			["ChatFrame6EditBox"] = {
 			},
-			["ChatFrame9EditBox"] = {
-			},
-			["ChatFrame2EditBox"] = {
+			["ChatFrame1EditBox"] = {
 			},
 			["ChatFrame3EditBox"] = {
 			},
-			["ChatFrame1EditBox"] = {
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
 			},
 		},
 	},
@@ -29,7 +29,7 @@ Prat3HighCPUPerCharDB = {
 	["scrollback"] = {
 		["ChatFrame1"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 228,
+			["headIndex"] = 89,
 			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -42,231 +42,390 @@ Prat3HighCPUPerCharDB = {
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
 				{
+					["message"] = "|cff979797|Hpratcopy|h[14:55:22]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Старфалл:11212:CHANNEL:4|h|cffaad372Старфалл|r|h|cffd8d8d8]|r: ЗФ нид танк ,хилл в пм",
+					["b"] = 0.372549027204514,
+					["r"] = 0.364705890417099,
+					["g"] = 0.356862753629684,
+					["timestamp"] = 180138.998,
+					["serverTime"] = 1620809722,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:55:32]|h|r |Hchannel:channel:1|h[1] |h Вы покинули канал |Hchannel:CHANNEL:1|h[1. Общий: Подгород]|h.",
+					["b"] = 0.909803986549378,
+					["r"] = 0.764705955982208,
+					["g"] = 0.901960849761963,
+					["timestamp"] = 180138.998,
+					["serverTime"] = 1620809732,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:55:32]|h|r |Hchannel:channel:2|h[2] |h Вы покинули канал |Hchannel:CHANNEL:2|h[2. Торговля: Город]|h.",
+					["b"] = 0.474509835243225,
+					["r"] = 0.909803986549378,
+					["g"] = 0.619607865810394,
+					["timestamp"] = 180138.998,
+					["serverTime"] = 1620809732,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:55:32]|h|r |Hchannel:channel:3|h[3] |h Вы покинули канал |Hchannel:CHANNEL:3|h[3. Оборона: Подгород]|h.",
+					["b"] = 0.474509835243225,
+					["r"] = 0.909803986549378,
+					["g"] = 0.894117712974548,
+					["timestamp"] = 180138.998,
+					["serverTime"] = 1620809732,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+				}, -- [4]
+				{
+					["message"] = "0 д., 4 ч., 48 мин., 45 сек.",
+					["timestamp"] = 180138.998,
+				}, -- [5]
+				{
+					["message"] = "========== Конец истории сообщений ==========",
+					["timestamp"] = 180138.998,
+				}, -- [6]
+				{
 					["message"] = "Enchantrix v8.2.6506-0 загружен",
 					["r"] = 0.8,
 					["extraData"] = {
 						["n"] = 2,
 					},
-					["timestamp"] = 27246.003,
+					["timestamp"] = 180129.949,
 					["g"] = 0.8,
 					["b"] = 0.2,
-				}, -- [1]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:25]|h|r |cFF00FFB0WeaponSwingTimer: |rСпасибо за установку версии WeaponSwingTimer 4.1.0 LeftHandedGlove! Используйте |cFFFFC300/wst|r для получения дополнительных опций.",
-					["timestamp"] = 27246.003,
-				}, -- [2]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:28]|h|r Informant v8.2.6508 загружен",
-					["r"] = 0.25,
-					["serverTime"] = 1620139348,
-					["timestamp"] = 27254.614,
-					["g"] = 0.55,
-					["b"] = 1,
-				}, -- [3]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:29]|h|r Auctioneer loaded (version 8.2.6471)",
-					["r"] = 0.3,
-					["serverTime"] = 1620139349,
-					["timestamp"] = 27254.614,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [4]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:31]|h|r Fishing Buddy v0.7.3 Beta 5 loaded",
-					["timestamp"] = 27256.46,
-					["serverTime"] = 1620139351,
-				}, -- [5]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:31]|h|r Автоматическое распыление неактивно",
-					["r"] = 1,
-					["serverTime"] = 1620139351,
-					["timestamp"] = 27256.46,
-					["g"] = 0.5,
-					["b"] = 0.25,
-				}, -- [6]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:34]|h|r |cffffd839TSM|r: Продано [Инкрустированный мифриловый цилиндр]x1 для |cff4ff72047|r|cffc7c7cfs|r |cff4ff72050|r|cffeda55fc|r Эльбион",
-					["timestamp"] = 27260.556,
-					["serverTime"] = 1620139354,
 				}, -- [7]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:34]|h|r |cffffd839TSM|r: Продано [Инкрустированный мифриловый цилиндр]x1 для |cff4ff72047|r|cffc7c7cfs|r |cff4ff72050|r|cffeda55fc|r Эльбион",
-					["timestamp"] = 27260.847,
-					["serverTime"] = 1620139354,
+					["message"] = "|cff979797|Hpratcopy|h[19:44:14]|h|r |cFF00FFB0WeaponSwingTimer: |rСпасибо за установку версии WeaponSwingTimer 4.1.0 LeftHandedGlove! Используйте |cFFFFC300/wst|r для получения дополнительных опций.",
+					["timestamp"] = 180129.949,
 				}, -- [8]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:35]|h|r |cffffd839TSM|r: Продано [Инкрустированный мифриловый цилиндр]x1 для |cff4ff72047|r|cffc7c7cfs|r |cff4ff72050|r|cffeda55fc|r Эльбион",
-					["timestamp"] = 27261.142,
-					["serverTime"] = 1620139355,
+					["message"] = "|cff979797|Hpratcopy|h[19:44:18]|h|r Fishing Buddy v0.7.3 Beta 5 loaded",
+					["timestamp"] = 180138.145,
 				}, -- [9]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:35]|h|r |cffffd839TSM|r: Продано [Черная жемчужина]x1 для |cff4ff72038|r|cffc7c7cfs|r |cff4ff72094|r|cffeda55fc|r Вестерленд",
-					["timestamp"] = 27261.383,
-					["serverTime"] = 1620139355,
+					["message"] = "|cff979797|Hpratcopy|h[19:44:18]|h|r Informant v8.2.6508 загружен",
+					["r"] = 0.25,
+					["serverTime"] = 1620827057,
+					["timestamp"] = 180138.998,
+					["g"] = 0.55,
+					["b"] = 1,
 				}, -- [10]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:35]|h|r |cffffd839TSM|r: Продано [Масло каменного угря]x5 для |cff4ff7206|r|cffffd70ag|r |cff4ff72055|r|cffc7c7cfs|r |cff4ff72027|r|cffeda55fc|r Кегоки",
-					["timestamp"] = 27261.652,
-					["serverTime"] = 1620139355,
+					["message"] = "|cff979797|Hpratcopy|h[19:44:18]|h|r Auctioneer loaded (version 8.2.6471)",
+					["r"] = 0.3,
+					["serverTime"] = 1620827057,
+					["timestamp"] = 180138.998,
+					["g"] = 0.9,
+					["b"] = 0.8,
 				}, -- [11]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:35]|h|r |cffffd839TSM|r: Продано [Огнеперый снеппер]x3 для |cff4ff72046|r|cffc7c7cfs|r |cff4ff72086|r|cffeda55fc|r Дифлакс",
-					["timestamp"] = 27261.879,
-					["serverTime"] = 1620139355,
+					["message"] = "|cff979797|Hpratcopy|h[19:44:20]|h|r Автоматическое распыление неактивно",
+					["r"] = 1,
+					["serverTime"] = 1620827059,
+					["timestamp"] = 180141.039,
+					["g"] = 0.5,
+					["b"] = 0.25,
 				}, -- [12]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:36]|h|r |cffffd839TSM|r: Продано [Огнеперый снеппер]x3 для |cff4ff72046|r|cffc7c7cfs|r |cff4ff72086|r|cffeda55fc|r Дифлакс",
-					["timestamp"] = 27262.106,
-					["serverTime"] = 1620139356,
+					["message"] = "|cff979797|Hpratcopy|h[19:44:24]|h|r HealBot |cff20ff201.13.7.1|r загружен. For help use: |cffffff00 /hb h|r",
+					["r"] = 0.7,
+					["serverTime"] = 1620827063,
+					["timestamp"] = 180145.594,
+					["g"] = 0.7,
+					["b"] = 1,
 				}, -- [13]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:36]|h|r |cffffd839TSM|r: Продано [Огнеперый снеппер]x3 для |cff4ff72046|r|cffc7c7cfs|r |cff4ff72086|r|cffeda55fc|r Дифлакс",
-					["timestamp"] = 27262.334,
-					["serverTime"] = 1620139356,
+					["message"] = "|cff979797|Hpratcopy|h[19:44:33]|h|r Auctioneer: |cffddeeffScanData|r loaded.",
+					["r"] = 0.3,
+					["serverTime"] = 1620827072,
+					["timestamp"] = 180154.048,
+					["g"] = 0.9,
+					["b"] = 0.8,
 				}, -- [14]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:36]|h|r |cffffd839TSM|r: Продано [Огнеперый снеппер]x3 для |cff4ff72046|r|cffc7c7cfs|r |cff4ff72086|r|cffeda55fc|r Дифлакс",
-					["timestamp"] = 27262.606,
-					["serverTime"] = 1620139356,
+					["message"] = "|cff979797|Hpratcopy|h[19:44:39]|h|r Auctioneer закончил сканировать |cffddeeff27|r аукционов из |cffddeeff 0.9сек.|r",
+					["r"] = 0.3,
+					["serverTime"] = 1620827078,
+					["timestamp"] = 180160.151,
+					["g"] = 0.9,
+					["b"] = 0.8,
 				}, -- [15]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:36]|h|r |cffffd839TSM|r: Продано [Огнеперый снеппер]x3 для |cff4ff72046|r|cffc7c7cfs|r |cff4ff72086|r|cffeda55fc|r Дифлакс",
-					["timestamp"] = 27262.834,
-					["serverTime"] = 1620139356,
+					["message"] = "|cff979797|Hpratcopy|h[19:44:39]|h|r   |cffddeeff472|r предметов в БД при запуске(|cffddeeff0|r соответствует запросу); |cffddeeff452|r конец в",
+					["r"] = 0.3,
+					["serverTime"] = 1620827078,
+					["timestamp"] = 180160.151,
+					["g"] = 0.9,
+					["b"] = 0.8,
 				}, -- [16]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:37]|h|r |cffffd839TSM|r: Продано [Огнеперый снеппер]x3 для |cff4ff72046|r|cffc7c7cfs|r |cff4ff72086|r|cffeda55fc|r Дифлакс",
-					["timestamp"] = 27263.061,
-					["serverTime"] = 1620139357,
+					["message"] = "|cff979797|Hpratcopy|h[19:44:39]|h|r   |cffddeeff27|r новые предметы",
+					["r"] = 0.3,
+					["serverTime"] = 1620827078,
+					["timestamp"] = 180160.151,
+					["g"] = 0.9,
+					["b"] = 0.8,
 				}, -- [17]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:37]|h|r |cffffd839TSM|r: Продано [Огнеперый снеппер]x3 для |cff4ff72046|r|cffc7c7cfs|r |cff4ff72086|r|cffeda55fc|r Дифлакс",
-					["timestamp"] = 27263.288,
-					["serverTime"] = 1620139357,
+					["message"] = "|cff979797|Hpratcopy|h[19:44:39]|h|r   |cffddeeff47|r вещи удалены (из которых, |cffddeeff47|r были просрочены)",
+					["r"] = 0.3,
+					["serverTime"] = 1620827078,
+					["timestamp"] = 180160.151,
+					["g"] = 0.9,
+					["b"] = 0.8,
 				}, -- [18]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:37]|h|r |cffffd839TSM|r: Продано [Огнеперый снеппер]x3 для |cff4ff72046|r|cffc7c7cfs|r |cff4ff72086|r|cffeda55fc|r Дифлакс",
-					["timestamp"] = 27263.516,
-					["serverTime"] = 1620139357,
+					["message"] = "|cff979797|Hpratcopy|h[19:44:56]|h|r  8 auctions created for |cffffffff|Hitem:13422::::::::38:::::::|h[Каменный угорь]|h|r|cff00ddddx20|r   11g 30s 80c  за пачку.",
+					["r"] = 1,
+					["serverTime"] = 1620827095,
+					["timestamp"] = 180177.742,
+					["g"] = 1,
+					["b"] = 0,
 				}, -- [19]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:37]|h|r |cffffd839TSM|r: Продано [Огнеперый снеппер]x3 для |cff4ff72046|r|cffc7c7cfs|r |cff4ff72086|r|cffeda55fc|r Дифлакс",
-					["timestamp"] = 27263.743,
-					["serverTime"] = 1620139357,
+					["message"] = "|cff979797|Hpratcopy|h[19:45:13]|h|r  13 auctions created for |cffffffff|Hitem:6359::::::::38:::::::|h[Огнеперый снеппер]|h|r|cff00ddddx20|r   1g 49s 80c  за пачку.",
+					["r"] = 1,
+					["serverTime"] = 1620827112,
+					["timestamp"] = 180194.423,
+					["g"] = 1,
+					["b"] = 0,
 				}, -- [20]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:38]|h|r |cffffd839TSM|r: Продано [Огнеперый снеппер]x3 для |cff4ff72046|r|cffc7c7cfs|r |cff4ff72086|r|cffeda55fc|r Дифлакс",
-					["timestamp"] = 27263.97,
-					["serverTime"] = 1620139358,
+					["message"] = "|cff979797|Hpratcopy|h[19:45:16]|h|r Auctioneer завершил сканирование |cffddeeff50|r аукционов из |cffddeeff 17сек.|r прежде чем был остановлен",
+					["r"] = 0.3,
+					["serverTime"] = 1620827115,
+					["timestamp"] = 180196.923,
+					["g"] = 0.9,
+					["b"] = 0.8,
 				}, -- [21]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:38]|h|r |cffffd839TSM|r: Продано [Огнеперый снеппер]x3 для |cff4ff72046|r|cffc7c7cfs|r |cff4ff72086|r|cffeda55fc|r Дифлакс",
-					["timestamp"] = 27264.197,
-					["serverTime"] = 1620139358,
+					["message"] = "|cff979797|Hpratcopy|h[19:45:16]|h|r   |cffddeeff452|r предметов в БД при запуске(|cffddeeff0|r соответствует запросу); |cffddeeff502|r конец в",
+					["r"] = 0.3,
+					["serverTime"] = 1620827115,
+					["timestamp"] = 180196.923,
+					["g"] = 0.9,
+					["b"] = 0.8,
 				}, -- [22]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:38]|h|r |cffffd839TSM|r: Продано [Огнеперый снеппер]x3 для |cff4ff72046|r|cffc7c7cfs|r |cff4ff72086|r|cffeda55fc|r Дифлакс",
-					["timestamp"] = 27264.425,
-					["serverTime"] = 1620139358,
+					["message"] = "|cff979797|Hpratcopy|h[19:45:16]|h|r   |cffddeeff50|r новые предметы",
+					["r"] = 0.3,
+					["serverTime"] = 1620827115,
+					["timestamp"] = 180196.923,
+					["g"] = 0.9,
+					["b"] = 0.8,
 				}, -- [23]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:38]|h|r |cffffd839TSM|r: Продано [Огнеперый снеппер]x3 для |cff4ff72046|r|cffc7c7cfs|r |cff4ff72086|r|cffeda55fc|r Дифлакс",
-					["timestamp"] = 27264.652,
-					["serverTime"] = 1620139358,
+					["message"] = "|cff979797|Hpratcopy|h[19:45:16]|h|r Auctioneer закончил сканировать |cffddeeff12|r аукционов из |cffddeeff 0.9сек.|r",
+					["r"] = 0.3,
+					["serverTime"] = 1620827115,
+					["timestamp"] = 180197.56,
+					["g"] = 0.9,
+					["b"] = 0.8,
 				}, -- [24]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:38]|h|r |cffffd839TSM|r: Продано [Огнеперый снеппер]x3 для |cff4ff72046|r|cffc7c7cfs|r |cff4ff72086|r|cffeda55fc|r Дифлакс",
-					["timestamp"] = 27264.884,
-					["serverTime"] = 1620139358,
+					["message"] = "|cff979797|Hpratcopy|h[19:45:16]|h|r   |cffddeeff502|r предметов в БД при запуске(|cffddeeff0|r соответствует запросу); |cffddeeff514|r конец в",
+					["r"] = 0.3,
+					["serverTime"] = 1620827115,
+					["timestamp"] = 180197.56,
+					["g"] = 0.9,
+					["b"] = 0.8,
 				}, -- [25]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:39]|h|r |cffffd839TSM|r: Продано [Огнеперый снеппер]x3 для |cff4ff72046|r|cffc7c7cfs|r |cff4ff72086|r|cffeda55fc|r Дифлакс",
-					["timestamp"] = 27265.112,
-					["serverTime"] = 1620139359,
+					["message"] = "|cff979797|Hpratcopy|h[19:45:16]|h|r   |cffddeeff12|r новые предметы",
+					["r"] = 0.3,
+					["serverTime"] = 1620827115,
+					["timestamp"] = 180197.56,
+					["g"] = 0.9,
+					["b"] = 0.8,
 				}, -- [26]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:39]|h|r |cffffd839TSM|r: Продано [Огнеперый снеппер]x3 для |cff4ff72046|r|cffc7c7cfs|r |cff4ff72086|r|cffeda55fc|r Дифлакс",
-					["timestamp"] = 27265.339,
-					["serverTime"] = 1620139359,
+					["message"] = "|cff979797|Hpratcopy|h[19:45:27]|h|r  5 auctions created for |cffffffff|Hitem:13423::::::::38:::::::|h[Масло каменного угря]|h|r|cff00ddddx5|r   5g 49s 95c  за пачку.",
+					["r"] = 1,
+					["serverTime"] = 1620827126,
+					["timestamp"] = 180208.151,
+					["g"] = 1,
+					["b"] = 0,
 				}, -- [27]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:39]|h|r |cffffd839TSM|r: Продано [Огнеперый снеппер]x3 для |cff4ff72046|r|cffc7c7cfs|r |cff4ff72086|r|cffeda55fc|r Дифлакс",
-					["timestamp"] = 27265.566,
-					["serverTime"] = 1620139359,
+					["message"] = "|cff979797|Hpratcopy|h[19:45:31]|h|r  Аукцион объявлен: |cffffffff|Hitem:13423::::::::38:::::::|h[Масло каменного угря]|h|r|cff00ddddx3|r   3g 29s 97c",
+					["r"] = 1,
+					["serverTime"] = 1620827130,
+					["timestamp"] = 180212.378,
+					["g"] = 1,
+					["b"] = 0,
 				}, -- [28]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:39]|h|r |cffffd839TSM|r: Продано [Огнеперый снеппер]x3 для |cff4ff72046|r|cffc7c7cfs|r |cff4ff72086|r|cffeda55fc|r Дифлакс",
-					["timestamp"] = 27265.794,
-					["serverTime"] = 1620139359,
+					["message"] = "|cff979797|Hpratcopy|h[19:45:34]|h|r Auctioneer закончил сканировать |cffddeeff22|r аукционов из |cffddeeff 0.8сек.|r",
+					["r"] = 0.3,
+					["serverTime"] = 1620827133,
+					["timestamp"] = 180215.332,
+					["g"] = 0.9,
+					["b"] = 0.8,
 				}, -- [29]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:40]|h|r |cffffd839TSM|r: Продано [Огнеперый снеппер]x3 для |cff4ff72046|r|cffc7c7cfs|r |cff4ff72086|r|cffeda55fc|r Дифлакс",
-					["timestamp"] = 27266.021,
-					["serverTime"] = 1620139360,
+					["message"] = "|cff979797|Hpratcopy|h[19:45:34]|h|r   |cffddeeff514|r предметов в БД при запуске(|cffddeeff0|r соответствует запросу); |cffddeeff536|r конец в",
+					["r"] = 0.3,
+					["serverTime"] = 1620827133,
+					["timestamp"] = 180215.332,
+					["g"] = 0.9,
+					["b"] = 0.8,
 				}, -- [30]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:40]|h|r |cffffd839TSM|r: Продано [Огнеперый снеппер]x3 для |cff4ff72046|r|cffc7c7cfs|r |cff4ff72086|r|cffeda55fc|r Дифлакс",
-					["timestamp"] = 27266.248,
-					["serverTime"] = 1620139360,
+					["message"] = "|cff979797|Hpratcopy|h[19:45:34]|h|r   |cffddeeff22|r новые предметы",
+					["r"] = 0.3,
+					["serverTime"] = 1620827133,
+					["timestamp"] = 180215.332,
+					["g"] = 0.9,
+					["b"] = 0.8,
 				}, -- [31]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:40]|h|r |cffffd839TSM|r: Продано [Огнеперый снеппер]x3 для |cff4ff72046|r|cffc7c7cfs|r |cff4ff72086|r|cffeda55fc|r Дифлакс",
-					["timestamp"] = 27266.567,
-					["serverTime"] = 1620139360,
+					["message"] = "|cff979797|Hpratcopy|h[19:45:34]|h|r  Аукцион объявлен: |cffffffff|Hitem:13445::::::::38:::::::|h[Мощный эликсир защиты]|h|r|cff00ddddx2|r   7g 99s 82c",
+					["r"] = 1,
+					["serverTime"] = 1620827133,
+					["timestamp"] = 180215.742,
+					["g"] = 1,
+					["b"] = 0,
 				}, -- [32]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:40]|h|r |cffffd839TSM|r: Продано [Огнеперый снеппер]x3 для |cff4ff72046|r|cffc7c7cfs|r |cff4ff72086|r|cffeda55fc|r Дифлакс",
-					["timestamp"] = 27266.794,
-					["serverTime"] = 1620139360,
+					["message"] = "|cff979797|Hpratcopy|h[19:45:42]|h|r  3 auctions created for |cffffffff|Hitem:4338::::::::38:::::::|h[Магическая ткань]|h|r|cff00ddddx20|r   1g 74s 80c  за пачку.",
+					["r"] = 1,
+					["serverTime"] = 1620827141,
+					["timestamp"] = 180223.151,
+					["g"] = 1,
+					["b"] = 0,
 				}, -- [33]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:41]|h|r |cffffd839TSM|r: Продано [Огнеперый снеппер]x3 для |cff4ff72046|r|cffc7c7cfs|r |cff4ff72086|r|cffeda55fc|r Дифлакс",
-					["timestamp"] = 27267.067,
-					["serverTime"] = 1620139361,
+					["message"] = "|cff979797|Hpratcopy|h[19:45:46]|h|r  Аукцион объявлен: |cffffffff|Hitem:4338::::::::38:::::::|h[Магическая ткань]|h|r|cff00ddddx8|r   69s 92c",
+					["r"] = 1,
+					["serverTime"] = 1620827145,
+					["timestamp"] = 180227.014,
+					["g"] = 1,
+					["b"] = 0,
 				}, -- [34]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:41]|h|r |cffffd839TSM|r: Продано [Огнеперый снеппер]x3 для |cff4ff72046|r|cffc7c7cfs|r |cff4ff72086|r|cffeda55fc|r Дифлакс",
-					["timestamp"] = 27267.294,
-					["serverTime"] = 1620139361,
+					["message"] = "|cff979797|Hpratcopy|h[19:45:49]|h|r Auctioneer завершил сканирование |cffddeeff50|r аукционов из |cffddeeff 13сек.|r прежде чем был остановлен",
+					["r"] = 0.3,
+					["serverTime"] = 1620827148,
+					["timestamp"] = 180230.514,
+					["g"] = 0.9,
+					["b"] = 0.8,
 				}, -- [35]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:41]|h|r |cffffd839TSM|r: Продано [Огнеперый снеппер]x3 для |cff4ff72046|r|cffc7c7cfs|r |cff4ff72086|r|cffeda55fc|r Дифлакс",
-					["timestamp"] = 27267.567,
-					["serverTime"] = 1620139361,
+					["message"] = "|cff979797|Hpratcopy|h[19:45:49]|h|r   |cffddeeff536|r предметов в БД при запуске(|cffddeeff30|r соответствует запросу); |cffddeeff566|r конец в",
+					["r"] = 0.3,
+					["serverTime"] = 1620827148,
+					["timestamp"] = 180230.514,
+					["g"] = 0.9,
+					["b"] = 0.8,
 				}, -- [36]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:41]|h|r |cffffd839TSM|r: Продано [Огнеперый снеппер]x3 для |cff4ff72046|r|cffc7c7cfs|r |cff4ff72086|r|cffeda55fc|r Дифлакс",
-					["timestamp"] = 27267.794,
-					["serverTime"] = 1620139361,
+					["message"] = "|cff979797|Hpratcopy|h[19:45:49]|h|r   |cffddeeff3|r предметы без изменений",
+					["r"] = 0.3,
+					["serverTime"] = 1620827148,
+					["timestamp"] = 180230.514,
+					["g"] = 0.9,
+					["b"] = 0.8,
 				}, -- [37]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:42]|h|r |cffffd839TSM|r: Продано [Огнеперый снеппер]x3 для |cff4ff72046|r|cffc7c7cfs|r |cff4ff72086|r|cffeda55fc|r Дифлакс",
-					["timestamp"] = 27268.021,
-					["serverTime"] = 1620139362,
+					["message"] = "|cff979797|Hpratcopy|h[19:45:49]|h|r   |cffddeeff17|r обновленные предметы",
+					["r"] = 0.3,
+					["serverTime"] = 1620827148,
+					["timestamp"] = 180230.514,
+					["g"] = 0.9,
+					["b"] = 0.8,
 				}, -- [38]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:42]|h|r |cffffd839TSM|r: Продано [Огнеперый снеппер]x3 для |cff4ff72046|r|cffc7c7cfs|r |cff4ff72086|r|cffeda55fc|r Дифлакс",
-					["timestamp"] = 27268.248,
-					["serverTime"] = 1620139362,
+					["message"] = "|cff979797|Hpratcopy|h[19:45:49]|h|r   |cffddeeff30|r новые предметы",
+					["r"] = 0.3,
+					["serverTime"] = 1620827148,
+					["timestamp"] = 180230.514,
+					["g"] = 0.9,
+					["b"] = 0.8,
 				}, -- [39]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:42]|h|r |cffffd839TSM|r: Продано [Огнеперый снеппер]x3 для |cff4ff72046|r|cffc7c7cfs|r |cff4ff72086|r|cffeda55fc|r Дифлакс",
-					["timestamp"] = 27268.476,
-					["serverTime"] = 1620139362,
+					["message"] = "|cff979797|Hpratcopy|h[19:45:49]|h|r   (Незавершенное сканирование пропущены 10|r предметы)",
+					["r"] = 0.3,
+					["serverTime"] = 1620827148,
+					["timestamp"] = 180230.514,
+					["g"] = 0.9,
+					["b"] = 0.8,
 				}, -- [40]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:42]|h|r |cffffd839TSM|r: Продано [Огнеперый снеппер]x3 для |cff4ff72046|r|cffc7c7cfs|r |cff4ff72086|r|cffeda55fc|r Дифлакс",
-					["timestamp"] = 27268.794,
-					["serverTime"] = 1620139362,
+					["message"] = "|cff979797|Hpratcopy|h[19:45:50]|h|r Auctioneer закончил сканировать |cffddeeff0|r аукционов из |cffddeeff 0.9сек.|r",
+					["r"] = 0.3,
+					["serverTime"] = 1620827149,
+					["timestamp"] = 180231.151,
+					["g"] = 0.9,
+					["b"] = 0.8,
 				}, -- [41]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:42]|h|r |cffffd839TSM|r: Всего собрано золота: 22|cffffd70ag|r 50|cffc7c7cfs|r 82|cffeda55fc|r",
-					["timestamp"] = 27268.794,
-					["serverTime"] = 1620139362,
+					["message"] = "|cff979797|Hpratcopy|h[19:45:50]|h|r   |cffddeeff566|r предметов в БД при запуске(|cffddeeff0|r соответствует запросу); |cffddeeff566|r конец в",
+					["r"] = 0.3,
+					["serverTime"] = 1620827149,
+					["timestamp"] = 180231.151,
+					["g"] = 0.9,
+					["b"] = 0.8,
 				}, -- [42]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:43]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Битлджуз:28:CHANNEL:4|h|cffc69b6dБитлджуз|r|h|cffd8d8d8]|r: Данумля-РокДелар эпики не лут ? )",
-					["serverTime"] = 1620139363,
+					["message"] = "|cff979797|Hpratcopy|h[19:45:58]|h|r Auctioneer закончил сканировать |cffddeeff1|r аукционов из |cffddeeff 0.9сек.|r",
+					["r"] = 0.3,
+					["serverTime"] = 1620827157,
+					["timestamp"] = 180239.06,
+					["g"] = 0.9,
+					["b"] = 0.8,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:45:58]|h|r   |cffddeeff566|r предметов в БД при запуске(|cffddeeff0|r соответствует запросу); |cffddeeff567|r конец в",
+					["r"] = 0.3,
+					["serverTime"] = 1620827157,
+					["timestamp"] = 180239.06,
+					["g"] = 0.9,
+					["b"] = 0.8,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:45:58]|h|r   |cffddeeff1|r новые предметы",
+					["r"] = 0.3,
+					["serverTime"] = 1620827157,
+					["timestamp"] = 180239.06,
+					["g"] = 0.9,
+					["b"] = 0.8,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:46:01]|h|r  Аукцион объявлен: |cff1eff00|Hitem:7610::::::::38:::1::::|h[Сфера зари]|h|r   1g 99s 99c",
+					["r"] = 1,
+					["serverTime"] = 1620827160,
+					["timestamp"] = 180241.969,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:46:04]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Монохром:1248:CHANNEL:4|h|cff0070ddМонохром|r|h|cffd8d8d8]|r: куплю ДМ",
+					["serverTime"] = 1620827163,
 					["r"] = 0.364705890417099,
 					["extraData"] = {
 						70, -- [1]
@@ -275,96 +434,85 @@ Prat3HighCPUPerCharDB = {
 						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 27269.612,
+					["timestamp"] = 180245.378,
 					["g"] = 0.356862753629684,
 					["b"] = 0.372549027204514,
-				}, -- [43]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:45]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Мифриловая обшивка",
-					["timestamp"] = 27271.203,
-					["serverTime"] = 1620139365,
-				}, -- [44]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:45]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Мифриловая обшивка",
-					["timestamp"] = 27271.885,
-					["serverTime"] = 1620139365,
-				}, -- [45]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:46]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Мифриловая обшивка",
-					["timestamp"] = 27272.158,
-					["serverTime"] = 1620139366,
-				}, -- [46]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:46]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Мифриловая обшивка",
-					["timestamp"] = 27272.476,
-					["serverTime"] = 1620139366,
 				}, -- [47]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:46]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Мифриловая обшивка",
-					["timestamp"] = 27272.748,
-					["serverTime"] = 1620139366,
-				}, -- [48]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:47]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Каменный угорь (10)",
-					["timestamp"] = 27273.067,
-					["serverTime"] = 1620139367,
-				}, -- [49]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:47]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Каменный угорь (10)",
-					["timestamp"] = 27273.43,
-					["serverTime"] = 1620139367,
-				}, -- [50]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:47]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Каменный угорь (10)",
-					["timestamp"] = 27273.748,
-					["serverTime"] = 1620139367,
-				}, -- [51]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:48]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Каменный угорь (10)",
-					["timestamp"] = 27274.248,
-					["serverTime"] = 1620139368,
-				}, -- [52]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:48]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Каменный угорь (10)",
-					["timestamp"] = 27274.567,
-					["serverTime"] = 1620139368,
-				}, -- [53]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:49]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Каменный угорь (10)",
-					["timestamp"] = 27274.93,
-					["serverTime"] = 1620139369,
-				}, -- [54]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:49]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Каменный угорь (10)",
-					["timestamp"] = 27275.203,
-					["serverTime"] = 1620139369,
-				}, -- [55]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:49]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Каменный угорь (10)",
-					["timestamp"] = 27275.521,
-					["serverTime"] = 1620139369,
-				}, -- [56]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:49]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Каменный угорь (10)",
-					["timestamp"] = 27275.794,
-					["serverTime"] = 1620139369,
-				}, -- [57]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:50]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Каменный угорь (10)",
-					["timestamp"] = 27276.112,
-					["serverTime"] = 1620139370,
-				}, -- [58]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:42:57]|h|r Auctioneer: |cffddeeffScanData|r loaded.",
+					["message"] = "|cff979797|Hpratcopy|h[19:46:05]|h|r Auctioneer закончил сканировать |cffddeeff3|r аукционов из |cffddeeff 0.9сек.|r",
 					["r"] = 0.3,
-					["serverTime"] = 1620139377,
-					["timestamp"] = 27282.93,
+					["serverTime"] = 1620827164,
+					["timestamp"] = 180246.514,
 					["g"] = 0.9,
 					["b"] = 0.8,
-				}, -- [59]
+				}, -- [48]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:08]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Админтвича:44:CHANNEL:4|h|cff3fc6eaАдминтвича|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t |cffffffff<|r|cff00ff00Голдбид Накс|r|cffffffff>|r Среда 05.05 (основной день) четверг 06.05 (резервный).  Диск: |cff149bfd|Hurl:https://discord.gg/at66P84d|h[https://discord.gg/at66P84d]|h|r  |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t",
-					["serverTime"] = 1620139388,
+					["message"] = "|cff979797|Hpratcopy|h[19:46:05]|h|r   |cffddeeff567|r предметов в БД при запуске(|cffddeeff3|r соответствует запросу); |cffddeeff567|r конец в",
+					["r"] = 0.3,
+					["serverTime"] = 1620827164,
+					["timestamp"] = 180246.514,
+					["g"] = 0.9,
+					["b"] = 0.8,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:46:05]|h|r   |cffddeeff3|r новые предметы",
+					["r"] = 0.3,
+					["serverTime"] = 1620827164,
+					["timestamp"] = 180246.514,
+					["g"] = 0.9,
+					["b"] = 0.8,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:46:05]|h|r   |cffddeeff3|r предметы удалены",
+					["r"] = 0.3,
+					["serverTime"] = 1620827164,
+					["timestamp"] = 180246.514,
+					["g"] = 0.9,
+					["b"] = 0.8,
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:46:09]|h|r  5 auctions created for |cffffffff|Hitem:10505::::::::38:::::::|h[Твердое взрывчатое вещество]|h|r|cff00ddddx2|r   97s 76c  за пачку.",
+					["r"] = 1,
+					["serverTime"] = 1620827168,
+					["timestamp"] = 180250.014,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:46:12]|h|r Auctioneer закончил сканировать |cffddeeff27|r аукционов из |cffddeeff 0.9сек.|r",
+					["r"] = 0.3,
+					["serverTime"] = 1620827171,
+					["timestamp"] = 180253.423,
+					["g"] = 0.9,
+					["b"] = 0.8,
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:46:12]|h|r   |cffddeeff567|r предметов в БД при запуске(|cffddeeff0|r соответствует запросу); |cffddeeff594|r конец в",
+					["r"] = 0.3,
+					["serverTime"] = 1620827171,
+					["timestamp"] = 180253.423,
+					["g"] = 0.9,
+					["b"] = 0.8,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:46:12]|h|r   |cffddeeff27|r новые предметы",
+					["r"] = 0.3,
+					["serverTime"] = 1620827171,
+					["timestamp"] = 180253.423,
+					["g"] = 0.9,
+					["b"] = 0.8,
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:46:16]|h|r  5 auctions created for |cff1eff00|Hitem:7971::::::::38:::::::|h[Черная жемчужина]|h|r   65s 99c",
+					["r"] = 1,
+					["serverTime"] = 1620827175,
+					["timestamp"] = 180257.469,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:46:17]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Мидасвизард-РокДелар:1259:CHANNEL:4|h|cff3fc6eaМидасвизард|r|h|cffd8d8d8]|r: пойду в ГЧГ",
+					["serverTime"] = 1620827176,
 					["r"] = 0.364705890417099,
 					["extraData"] = {
 						70, -- [1]
@@ -373,486 +521,77 @@ Prat3HighCPUPerCharDB = {
 						4, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 27294.346,
+					["timestamp"] = 180258.696,
 					["g"] = 0.356862753629684,
 					["b"] = 0.372549027204514,
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:46:20]|h|r Auctioneer закончил сканировать |cffddeeff8|r аукционов из |cffddeeff 0.9сек.|r",
+					["r"] = 0.3,
+					["serverTime"] = 1620827179,
+					["timestamp"] = 180260.969,
+					["g"] = 0.9,
+					["b"] = 0.8,
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:46:20]|h|r   |cffddeeff594|r предметов в БД при запуске(|cffddeeff0|r соответствует запросу); |cffddeeff602|r конец в",
+					["r"] = 0.3,
+					["serverTime"] = 1620827179,
+					["timestamp"] = 180260.969,
+					["g"] = 0.9,
+					["b"] = 0.8,
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:46:20]|h|r   |cffddeeff8|r новые предметы",
+					["r"] = 0.3,
+					["serverTime"] = 1620827179,
+					["timestamp"] = 180260.969,
+					["g"] = 0.9,
+					["b"] = 0.8,
 				}, -- [60]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:10]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Будзон:45:CHANNEL:4|h|cffc69b6dБудзон|r|h|cffd8d8d8]|r: лут ваш, кроме эпиков)что не понятного то?)",
-					["serverTime"] = 1620139390,
-					["r"] = 0.364705890417099,
-					["extraData"] = {
-						70, -- [1]
-						false, -- [2]
-						1, -- [3]
-						6, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 27296.391,
-					["g"] = 0.356862753629684,
-					["b"] = 0.372549027204514,
-				}, -- [61]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:30]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Кахан:46:CHANNEL:4|h|cffaad372Кахан|r|h|cffd8d8d8]|r: хочет он эпиков, что не понятного то?",
-					["serverTime"] = 1620139410,
-					["r"] = 0.364705890417099,
-					["extraData"] = {
-						70, -- [1]
-						false, -- [2]
-						1, -- [3]
-						8, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 27316.391,
-					["g"] = 0.356862753629684,
-					["b"] = 0.372549027204514,
-				}, -- [62]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:31]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Снобу:47:CHANNEL:4|h|cffaad372Снобу|r|h|cffd8d8d8]|r: ,faybnt byne 'njve dfhe",
-					["serverTime"] = 1620139411,
-					["r"] = 0.364705890417099,
-					["extraData"] = {
-						70, -- [1]
-						false, -- [2]
-						1, -- [3]
-						10, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 27316.937,
-					["g"] = 0.356862753629684,
-					["b"] = 0.372549027204514,
-				}, -- [63]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:32]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Сисуна:48:CHANNEL:4|h|cff3fc6eaСисуна|r|h|cffd8d8d8]|r: в собор  хил!!",
-					["serverTime"] = 1620139412,
-					["r"] = 0.364705890417099,
-					["extraData"] = {
-						70, -- [1]
-						false, -- [2]
-						1, -- [3]
-						12, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 27317.937,
-					["g"] = 0.356862753629684,
-					["b"] = 0.372549027204514,
-				}, -- [64]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:36]|h|r |cffffd839TSM|r: Продано [Золотая жемчужина]x1 для |cff4ff72038|r|cffffd70ag|r |cff4ff72095|r|cffc7c7cfs|r |cff4ff72000|r|cffeda55fc|r Афл",
-					["timestamp"] = 27322.154,
-					["serverTime"] = 1620139416,
-				}, -- [65]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:36]|h|r |cffffd839TSM|r: Всего собрано золота: 39|cffffd70ag|r 00|cffc7c7cfs|r 00|cffeda55fc|r",
-					["timestamp"] = 27322.154,
-					["serverTime"] = 1620139416,
-				}, -- [66]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:37]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Снобу-РокДелар:49:CHANNEL:4|h|cffaad372Снобу|r|h|cffd8d8d8]|r: бафните инту этому вару",
-					["serverTime"] = 1620139417,
-					["r"] = 0.364705890417099,
-					["extraData"] = {
-						70, -- [1]
-						false, -- [2]
-						1, -- [3]
-						10, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 27323.654,
-					["g"] = 0.356862753629684,
-					["b"] = 0.372549027204514,
-				}, -- [67]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:38]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Мощный эликсир защиты",
-					["timestamp"] = 27324.745,
-					["serverTime"] = 1620139418,
-				}, -- [68]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:39]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Мощный эликсир защиты",
-					["timestamp"] = 27325.018,
-					["serverTime"] = 1620139419,
-				}, -- [69]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:39]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Мощный эликсир защиты",
-					["timestamp"] = 27325.336,
-					["serverTime"] = 1620139419,
-				}, -- [70]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:39]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Масло каменного угря (5)",
-					["timestamp"] = 27325.7,
-					["serverTime"] = 1620139419,
-				}, -- [71]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:40]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Мощный эликсир защиты",
-					["timestamp"] = 27326.018,
-					["serverTime"] = 1620139420,
-				}, -- [72]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:40]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Масло каменного угря (5)",
-					["timestamp"] = 27326.336,
-					["serverTime"] = 1620139420,
-				}, -- [73]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:40]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Масло каменного угря (5)",
-					["timestamp"] = 27326.7,
-					["serverTime"] = 1620139420,
-				}, -- [74]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:41]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Масло каменного угря (5)",
-					["timestamp"] = 27326.927,
-					["serverTime"] = 1620139421,
-				}, -- [75]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:41]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Масло каменного угря (5)",
-					["timestamp"] = 27327.245,
-					["serverTime"] = 1620139421,
-				}, -- [76]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:41]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Масло каменного угря (5)",
-					["timestamp"] = 27327.518,
-					["serverTime"] = 1620139421,
-				}, -- [77]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:41]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Масло каменного угря (5)",
-					["timestamp"] = 27327.836,
-					["serverTime"] = 1620139421,
-				}, -- [78]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:42]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Зелье защиты от огня",
-					["timestamp"] = 27328.154,
-					["serverTime"] = 1620139422,
-				}, -- [79]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:42]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Зелье защиты от огня",
-					["timestamp"] = 27328.427,
-					["serverTime"] = 1620139422,
-				}, -- [80]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:42]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Зелье защиты от огня",
-					["timestamp"] = 27328.7,
-					["serverTime"] = 1620139422,
-				}, -- [81]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:43]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Зелье защиты от огня",
-					["timestamp"] = 27329.018,
-					["serverTime"] = 1620139423,
-				}, -- [82]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:43]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Зелье защиты от огня",
-					["timestamp"] = 27329.291,
-					["serverTime"] = 1620139423,
-				}, -- [83]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:43]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Каменный угорь (5)",
-					["timestamp"] = 27329.518,
-					["serverTime"] = 1620139423,
-				}, -- [84]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:43]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Магическая ткань",
-					["timestamp"] = 27329.836,
-					["serverTime"] = 1620139423,
-				}, -- [85]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:44]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Магическая ткань",
-					["timestamp"] = 27330.154,
-					["serverTime"] = 1620139424,
-				}, -- [86]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:44]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Магическая ткань",
-					["timestamp"] = 27330.472,
-					["serverTime"] = 1620139424,
-				}, -- [87]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:44]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Магическая ткань",
-					["timestamp"] = 27330.745,
-					["serverTime"] = 1620139424,
-				}, -- [88]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:45]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Хулигайко:71:CHANNEL:2|h|cfffff468Хулигайко|r|h|cffd8d8d8]|r: Битлджуз В скобки заключаются слова и предложения, вставляемые в предложение с целью пояснения или дополнения высказываемой мысли",
-					["serverTime"] = 1620139425,
-					["r"] = 0.909803986549378,
-					["extraData"] = {
-						68, -- [1]
-						false, -- [2]
-						14, -- [3]
-						15, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 27330.972,
-					["g"] = 0.619607865810394,
-					["b"] = 0.474509835243225,
-				}, -- [89]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:45]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Магическая ткань",
-					["timestamp"] = 27331.018,
-					["serverTime"] = 1620139425,
-				}, -- [90]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:46]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Сфера зари",
-					["timestamp"] = 27331.927,
-					["serverTime"] = 1620139426,
-				}, -- [91]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:46]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Магическая ткань",
-					["timestamp"] = 27332.2,
-					["serverTime"] = 1620139426,
-				}, -- [92]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:46]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Магическая ткань",
-					["timestamp"] = 27332.472,
-					["serverTime"] = 1620139426,
-				}, -- [93]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:46]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Магическая ткань",
-					["timestamp"] = 27332.745,
-					["serverTime"] = 1620139426,
-				}, -- [94]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:47]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Магическая ткань",
-					["timestamp"] = 27333.063,
-					["serverTime"] = 1620139427,
-				}, -- [95]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:47]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Магороза",
-					["timestamp"] = 27333.382,
-					["serverTime"] = 1620139427,
-				}, -- [96]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:47]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Магороза",
-					["timestamp"] = 27333.654,
-					["serverTime"] = 1620139427,
-				}, -- [97]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:48]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Магороза",
-					["timestamp"] = 27333.972,
-					["serverTime"] = 1620139428,
-				}, -- [98]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:48]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Магороза",
-					["timestamp"] = 27334.291,
-					["serverTime"] = 1620139428,
-				}, -- [99]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:48]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Магороза",
-					["timestamp"] = 27334.609,
-					["serverTime"] = 1620139428,
-				}, -- [100]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:48]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Магороза",
-					["timestamp"] = 27334.882,
-					["serverTime"] = 1620139428,
-				}, -- [101]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:49]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Магороза",
-					["timestamp"] = 27335.154,
-					["serverTime"] = 1620139429,
-				}, -- [102]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:49]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Магороза",
-					["timestamp"] = 27335.472,
-					["serverTime"] = 1620139429,
-				}, -- [103]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:49]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Магороза",
-					["timestamp"] = 27335.791,
-					["serverTime"] = 1620139429,
-				}, -- [104]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:50]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Магороза",
-					["timestamp"] = 27336.109,
-					["serverTime"] = 1620139430,
-				}, -- [105]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:50]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Инкрустированный мифриловый цилиндр",
-					["timestamp"] = 27336.472,
-					["serverTime"] = 1620139430,
-				}, -- [106]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:50]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Магороза",
-					["timestamp"] = 27336.791,
-					["serverTime"] = 1620139430,
-				}, -- [107]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:51]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Магороза",
-					["timestamp"] = 27337.109,
-					["serverTime"] = 1620139431,
-				}, -- [108]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:51]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Черная жемчужина",
-					["timestamp"] = 27337.472,
-					["serverTime"] = 1620139431,
-				}, -- [109]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:51]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Хулигайко-РокДелар:93:CHANNEL:2|h|cfffff468Хулигайко|r|h|cffd8d8d8]|r: а также для каких-либо добавочных замечаний",
-					["serverTime"] = 1620139431,
-					["r"] = 0.909803986549378,
-					["extraData"] = {
-						68, -- [1]
-						false, -- [2]
-						14, -- [3]
-						15, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 27337.654,
-					["g"] = 0.619607865810394,
-					["b"] = 0.474509835243225,
-				}, -- [110]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:51]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Черная жемчужина",
-					["timestamp"] = 27337.745,
-					["serverTime"] = 1620139431,
-				}, -- [111]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:52]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Черная жемчужина",
-					["timestamp"] = 27338.063,
-					["serverTime"] = 1620139432,
-				}, -- [112]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:52]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Черная жемчужина",
-					["timestamp"] = 27338.382,
-					["serverTime"] = 1620139432,
-				}, -- [113]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:52]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Мифриловая обшивка",
-					["timestamp"] = 27338.7,
-					["serverTime"] = 1620139432,
-				}, -- [114]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:53]|h|r |cffffd839TSM|r: Аукционный дом Орды отправил вам сообщение: Аукцион не состоялся: Мифриловая обшивка",
-					["timestamp"] = 27339.018,
-					["serverTime"] = 1620139433,
-				}, -- [115]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:43:58]|h|r |cffffd839TSM|r: Знать отправил вам сообщение: Землекорень (2)",
-					["timestamp"] = 27344.245,
-					["serverTime"] = 1620139438,
-				}, -- [116]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:44:14]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Данумля:112:CHANNEL:4|h|cff3fc6eaДанумля|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t АФК КАЧ МАРАДОН 12|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|t ран, 160+мобов, (20-30к опыта) ЛУТ ВАШ (эпики мои) |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t",
-					["serverTime"] = 1620139454,
-					["r"] = 0.364705890417099,
-					["extraData"] = {
-						70, -- [1]
-						false, -- [2]
-						1, -- [3]
-						17, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 27360.114,
-					["g"] = 0.356862753629684,
-					["b"] = 0.372549027204514,
-				}, -- [117]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:44:16]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Данумля-РокДелар:113:CHANNEL:4|h|cff3fc6eaДанумля|r|h|cffd8d8d8]|r: ЛАСТ СЛОТ!",
-					["serverTime"] = 1620139456,
-					["r"] = 0.364705890417099,
-					["extraData"] = {
-						70, -- [1]
-						false, -- [2]
-						1, -- [3]
-						17, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 27362.887,
-					["g"] = 0.356862753629684,
-					["b"] = 0.372549027204514,
-				}, -- [118]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:44:19]|h|r Auctioneer закончил сканировать |cffddeeff39|r аукционов из |cffddeeff 0.8сек.|r",
-					["r"] = 0.3,
-					["serverTime"] = 1620139459,
-					["timestamp"] = 27365.523,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [119]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:44:19]|h|r   |cffddeeff64|r предметов в БД при запуске(|cffddeeff0|r соответствует запросу); |cffddeeff39|r конец в",
-					["r"] = 0.3,
-					["serverTime"] = 1620139459,
-					["timestamp"] = 27365.523,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [120]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:44:19]|h|r   |cffddeeff39|r новые предметы",
-					["r"] = 0.3,
-					["serverTime"] = 1620139459,
-					["timestamp"] = 27365.523,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [121]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:44:19]|h|r   |cffddeeff22|r вещи удалены (из которых, |cffddeeff22|r были просрочены)",
-					["r"] = 0.3,
-					["serverTime"] = 1620139459,
-					["timestamp"] = 27365.523,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [122]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:44:19]|h|r   |cffddeeff42|r отфильтрованные вещи удалены",
-					["r"] = 0.3,
-					["serverTime"] = 1620139459,
-					["timestamp"] = 27365.523,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [123]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:44:26]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Дедтралла:115:CHANNEL:4|h|cffc69b6dДедтралла|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Creative Gold Bid|r|cffffffff>|r AQ40 + BWL с 20:00 в воскресенье, MC с 20:00 в пятницу. |cff149bfd|Hurl:https://discord.gg/bBhRVy9Jkg|h[https://discord.gg/bBhRVy9Jkg]|h|r",
-					["serverTime"] = 1620139466,
-					["r"] = 0.364705890417099,
-					["extraData"] = {
-						70, -- [1]
-						false, -- [2]
-						1, -- [3]
-						19, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 27372.296,
-					["g"] = 0.356862753629684,
-					["b"] = 0.372549027204514,
-				}, -- [124]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:44:26]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Хулигайко-РокДелар:116:CHANNEL:4|h|cfffff468Хулигайко|r|h|cffd8d8d8]|r: Google",
-					["serverTime"] = 1620139466,
-					["r"] = 0.364705890417099,
-					["extraData"] = {
-						70, -- [1]
-						false, -- [2]
-						1, -- [3]
-						21, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 27372.569,
-					["g"] = 0.356862753629684,
-					["b"] = 0.372549027204514,
-				}, -- [125]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:44:49]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Травиата:149:CHANNEL:4|h|cffff7c0aТравиата|r|h|cffd8d8d8]|r: куплю ДМ бафы",
-					["serverTime"] = 1620139489,
-					["r"] = 0.364705890417099,
-					["extraData"] = {
-						70, -- [1]
-						false, -- [2]
-						1, -- [3]
-						23, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 27395.159,
-					["g"] = 0.356862753629684,
-					["b"] = 0.372549027204514,
-				}, -- [126]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:44:52]|h|r  50 auctions created for |cffffffff|Hitem:6359::::::::38:::::::|h[Огнеперый снеппер]|h|r|cff00ddddx3|r   47s 79c  за пачку.",
+					["message"] = "|cff979797|Hpratcopy|h[19:46:21]|h|r  Аукцион объявлен: |cffffffff|Hitem:6049::::::::38:::::::|h[Зелье защиты от огня]|h|r|cff00ddddx5|r   4g 99s 85c",
 					["r"] = 1,
-					["serverTime"] = 1620139492,
-					["timestamp"] = 27398.478,
+					["serverTime"] = 1620827180,
+					["timestamp"] = 180262.378,
 					["g"] = 1,
 					["b"] = 0,
-				}, -- [127]
+				}, -- [61]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:44:55]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Битлджуз-РокДелар:168:CHANNEL:4|h|cffc69b6dБитлджуз|r|h|cffd8d8d8]|r: уууу вам надо завязывать с вариком ) если вы так агритесь",
-					["serverTime"] = 1620139495,
+					["message"] = "|cff979797|Hpratcopy|h[19:46:24]|h|r  Аукцион объявлен: |cffffffff|Hitem:6049::::::::38:::::::|h[Зелье защиты от огня]|h|r|cff00ddddx2|r   1g 99s 94c",
+					["r"] = 1,
+					["serverTime"] = 1620827183,
+					["timestamp"] = 180264.969,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:46:27]|h|r Auctioneer закончил сканировать |cffddeeff0|r аукционов из |cffddeeff 0.9сек.|r",
+					["r"] = 0.3,
+					["serverTime"] = 1620827186,
+					["timestamp"] = 180268.514,
+					["g"] = 0.9,
+					["b"] = 0.8,
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:46:27]|h|r   |cffddeeff602|r предметов в БД при запуске(|cffddeeff0|r соответствует запросу); |cffddeeff602|r конец в",
+					["r"] = 0.3,
+					["serverTime"] = 1620827186,
+					["timestamp"] = 180268.514,
+					["g"] = 0.9,
+					["b"] = 0.8,
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:46:36]|h|r  Аукцион объявлен: |cffffffff|Hitem:9060::::::::38:::::::|h[Инкрустированный мифриловый цилиндр]|h|r   8g 99s 99c",
+					["r"] = 1,
+					["serverTime"] = 1620827195,
+					["timestamp"] = 180277.151,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:46:36]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Монохром-РокДелар:1263:CHANNEL:4|h|cff0070ddМонохром|r|h|cffd8d8d8]|r: сколько стоит?",
+					["serverTime"] = 1620827195,
 					["r"] = 0.364705890417099,
 					["extraData"] = {
 						70, -- [1]
@@ -861,922 +600,208 @@ Prat3HighCPUPerCharDB = {
 						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 27401.75,
+					["timestamp"] = 180277.514,
 					["g"] = 0.356862753629684,
 					["b"] = 0.372549027204514,
-				}, -- [128]
+				}, -- [66]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:44:57]|h|r Auctioneer закончил сканировать |cffddeeff30|r аукционов из |cffddeeff 0.8сек.|r",
+					["message"] = "|cff979797|Hpratcopy|h[19:46:40]|h|r Auctioneer закончил сканировать |cffddeeff0|r аукционов из |cffddeeff 1сек.|r",
 					["r"] = 0.3,
-					["serverTime"] = 1620139497,
-					["timestamp"] = 27402.932,
+					["serverTime"] = 1620827199,
+					["timestamp"] = 180281.469,
 					["g"] = 0.9,
 					["b"] = 0.8,
-				}, -- [129]
+				}, -- [67]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:44:57]|h|r   |cffddeeff39|r предметов в БД при запуске(|cffddeeff0|r соответствует запросу); |cffddeeff69|r конец в",
+					["message"] = "|cff979797|Hpratcopy|h[19:46:40]|h|r   |cffddeeff602|r предметов в БД при запуске(|cffddeeff0|r соответствует запросу); |cffddeeff602|r конец в",
 					["r"] = 0.3,
-					["serverTime"] = 1620139497,
-					["timestamp"] = 27402.932,
+					["serverTime"] = 1620827199,
+					["timestamp"] = 180281.469,
 					["g"] = 0.9,
 					["b"] = 0.8,
-				}, -- [130]
+				}, -- [68]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:44:57]|h|r   |cffddeeff24|r новые предметы",
+					["message"] = "|cff979797|Hpratcopy|h[19:46:48]|h|r  Аукцион объявлен: |cff0070dd|Hitem:13043::::::::38:::1::::|h[Клинок титанов]|h|r   29g 99s 99c",
+					["r"] = 1,
+					["serverTime"] = 1620827207,
+					["timestamp"] = 180289.014,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:46:52]|h|r Auctioneer закончил сканировать |cffddeeff9|r аукционов из |cffddeeff 1сек.|r",
 					["r"] = 0.3,
-					["serverTime"] = 1620139497,
-					["timestamp"] = 27402.932,
+					["serverTime"] = 1620827211,
+					["timestamp"] = 180292.969,
 					["g"] = 0.9,
 					["b"] = 0.8,
-				}, -- [131]
+				}, -- [70]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:44:57]|h|r   |cffddeeff6|r отфильтрованные вещи",
+					["message"] = "|cff979797|Hpratcopy|h[19:46:52]|h|r   |cffddeeff602|r предметов в БД при запуске(|cffddeeff0|r соответствует запросу); |cffddeeff611|r конец в",
 					["r"] = 0.3,
-					["serverTime"] = 1620139497,
-					["timestamp"] = 27402.932,
+					["serverTime"] = 1620827211,
+					["timestamp"] = 180292.969,
 					["g"] = 0.9,
 					["b"] = 0.8,
-				}, -- [132]
+				}, -- [71]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:45:02]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Кроввь:169:CHANNEL:4|h|cffc69b6dКроввь|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t Гильдия \"Коготь и клык\" для усиления состава проводит набор по всем классам. Накс 15/15 2 статика. Подробности в пм. |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t",
-					["serverTime"] = 1620139502,
+					["message"] = "|cff979797|Hpratcopy|h[19:46:52]|h|r   |cffddeeff9|r новые предметы",
+					["r"] = 0.3,
+					["serverTime"] = 1620827211,
+					["timestamp"] = 180292.969,
+					["g"] = 0.9,
+					["b"] = 0.8,
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:46:54]|h|r  Аукцион объявлен: |cffffffff|Hitem:4422::::::::38:::::::|h[Свиток выносливости III]|h|r   11s 52c",
+					["r"] = 1,
+					["serverTime"] = 1620827213,
+					["timestamp"] = 180295.378,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:46:57]|h|r Auctioneer закончил сканировать |cffddeeff13|r аукционов из |cffddeeff 1сек.|r",
+					["r"] = 0.3,
+					["serverTime"] = 1620827216,
+					["timestamp"] = 180298.105,
+					["g"] = 0.9,
+					["b"] = 0.8,
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:46:57]|h|r   |cffddeeff611|r предметов в БД при запуске(|cffddeeff0|r соответствует запросу); |cffddeeff624|r конец в",
+					["r"] = 0.3,
+					["serverTime"] = 1620827216,
+					["timestamp"] = 180298.105,
+					["g"] = 0.9,
+					["b"] = 0.8,
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:46:57]|h|r   |cffddeeff13|r новые предметы",
+					["r"] = 0.3,
+					["serverTime"] = 1620827216,
+					["timestamp"] = 180298.105,
+					["g"] = 0.9,
+					["b"] = 0.8,
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:46:58]|h|r  Аукцион объявлен: |cffffffff|Hitem:4421::::::::38:::::::|h[Охранный свиток III]|h|r   85s 88c",
+					["r"] = 1,
+					["serverTime"] = 1620827217,
+					["timestamp"] = 180299.651,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:47:03]|h|r Auctioneer закончил сканировать |cffddeeff9|r аукционов из |cffddeeff 0.9сек.|r",
+					["r"] = 0.3,
+					["serverTime"] = 1620827222,
+					["timestamp"] = 180304.741,
+					["g"] = 0.9,
+					["b"] = 0.8,
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:47:03]|h|r   |cffddeeff624|r предметов в БД при запуске(|cffddeeff0|r соответствует запросу); |cffddeeff633|r конец в",
+					["r"] = 0.3,
+					["serverTime"] = 1620827222,
+					["timestamp"] = 180304.741,
+					["g"] = 0.9,
+					["b"] = 0.8,
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:47:03]|h|r   |cffddeeff9|r новые предметы",
+					["r"] = 0.3,
+					["serverTime"] = 1620827222,
+					["timestamp"] = 180304.741,
+					["g"] = 0.9,
+					["b"] = 0.8,
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:47:05]|h|r  Аукцион объявлен: |cffffffff|Hitem:8836::::::::38:::::::|h[Слезы Артаса]|h|r   17s 39c",
+					["r"] = 1,
+					["serverTime"] = 1620827224,
+					["timestamp"] = 180305.969,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [81]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:47:29]|h|r Auctioneer закончил сканировать |cffddeeff16|r аукционов из |cffddeeff 1сек.|r",
+					["r"] = 0.3,
+					["serverTime"] = 1620827248,
+					["timestamp"] = 180330.56,
+					["g"] = 0.9,
+					["b"] = 0.8,
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:47:29]|h|r   |cffddeeff633|r предметов в БД при запуске(|cffddeeff4|r соответствует запросу); |cffddeeff645|r конец в",
+					["r"] = 0.3,
+					["serverTime"] = 1620827248,
+					["timestamp"] = 180330.56,
+					["g"] = 0.9,
+					["b"] = 0.8,
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:47:29]|h|r   |cffddeeff3|r обновленные предметы",
+					["r"] = 0.3,
+					["serverTime"] = 1620827248,
+					["timestamp"] = 180330.56,
+					["g"] = 0.9,
+					["b"] = 0.8,
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:47:29]|h|r   |cffddeeff13|r новые предметы",
+					["r"] = 0.3,
+					["serverTime"] = 1620827248,
+					["timestamp"] = 180330.56,
+					["g"] = 0.9,
+					["b"] = 0.8,
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:47:29]|h|r   |cffddeeff1|r предметы удалены",
+					["r"] = 0.3,
+					["serverTime"] = 1620827248,
+					["timestamp"] = 180330.56,
+					["g"] = 0.9,
+					["b"] = 0.8,
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:47:31]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Сисуна:1268:CHANNEL:4|h|cff3fc6eaСисуна|r|h|cffd8d8d8]|r: кому порт за пару голд?))))",
+					["serverTime"] = 1620827250,
 					["r"] = 0.364705890417099,
 					["extraData"] = {
 						70, -- [1]
 						false, -- [2]
 						1, -- [3]
-						25, -- [4]
+						6, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 27408.25,
+					["timestamp"] = 180331.969,
 					["g"] = 0.356862753629684,
 					["b"] = 0.372549027204514,
-				}, -- [133]
+				}, -- [87]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:45:32]|h|r  20 auctions created for |cffffffff|Hitem:13422::::::::38:::::::|h[Каменный угорь]|h|r|cff00ddddx10|r   23g 39s 80c  за пачку.",
+					["message"] = "|cff979797|Hpratcopy|h[19:47:34]|h|r  7 auctions created for |cffffffff|Hitem:10561::::::::38:::::::|h[Мифриловая обшивка]|h|r   95s 99c",
 					["r"] = 1,
-					["serverTime"] = 1620139532,
-					["timestamp"] = 27438.705,
+					["serverTime"] = 1620827253,
+					["timestamp"] = 180335.241,
 					["g"] = 1,
 					["b"] = 0,
-				}, -- [134]
+				}, -- [88]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:45:59]|h|r Auctioneer завершил сканирование |cffddeeff50|r аукционов из |cffddeeff 23сек.|r прежде чем был остановлен",
-					["r"] = 0.3,
-					["serverTime"] = 1620139559,
-					["timestamp"] = 27465.387,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [135]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:45:59]|h|r   |cffddeeff69|r предметов в БД при запуске(|cffddeeff0|r соответствует запросу); |cffddeeff119|r конец в",
-					["r"] = 0.3,
-					["serverTime"] = 1620139559,
-					["timestamp"] = 27465.387,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [136]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:45:59]|h|r   |cffddeeff50|r новые предметы",
-					["r"] = 0.3,
-					["serverTime"] = 1620139559,
-					["timestamp"] = 27465.387,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [137]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:46:00]|h|r Auctioneer закончил сканировать |cffddeeff48|r аукционов из |cffddeeff 0.9сек.|r",
-					["r"] = 0.3,
-					["serverTime"] = 1620139560,
-					["timestamp"] = 27466.023,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [138]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:46:00]|h|r   |cffddeeff119|r предметов в БД при запуске(|cffddeeff0|r соответствует запросу); |cffddeeff167|r конец в",
-					["r"] = 0.3,
-					["serverTime"] = 1620139560,
-					["timestamp"] = 27466.023,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [139]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:46:00]|h|r   |cffddeeff48|r новые предметы",
-					["r"] = 0.3,
-					["serverTime"] = 1620139560,
-					["timestamp"] = 27466.023,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [140]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:46:04]|h|r  Аукцион объявлен: |cffffffff|Hitem:8170::::::::38:::::::|h[Грубая кожа]|h|r|cff00ddddx7|r   1g 40s 63c",
-					["r"] = 1,
-					["serverTime"] = 1620139564,
-					["timestamp"] = 27470.159,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [141]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:46:09]|h|r Auctioneer закончил сканировать |cffddeeff0|r аукционов из |cffddeeff 0.9сек.|r",
-					["r"] = 0.3,
-					["serverTime"] = 1620139569,
-					["timestamp"] = 27475.159,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [142]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:46:09]|h|r   |cffddeeff167|r предметов в БД при запуске(|cffddeeff0|r соответствует запросу); |cffddeeff167|r конец в",
-					["r"] = 0.3,
-					["serverTime"] = 1620139569,
-					["timestamp"] = 27475.159,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [143]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:46:18]|h|r  Аукцион объявлен: |cff1eff00|Hitem:7610::::::::38:::1::::|h[Сфера зари]|h|r   59s 99c",
-					["r"] = 1,
-					["serverTime"] = 1620139578,
-					["timestamp"] = 27484.568,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [144]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:46:23]|h|r Auctioneer закончил сканировать |cffddeeff10|r аукционов из |cffddeeff 0.8сек.|r",
-					["r"] = 0.3,
-					["serverTime"] = 1620139583,
-					["timestamp"] = 27489.796,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [145]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:46:23]|h|r   |cffddeeff167|r предметов в БД при запуске(|cffddeeff0|r соответствует запросу); |cffddeeff177|r конец в",
-					["r"] = 0.3,
-					["serverTime"] = 1620139583,
-					["timestamp"] = 27489.796,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [146]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:46:23]|h|r   |cffddeeff10|r новые предметы",
-					["r"] = 0.3,
-					["serverTime"] = 1620139583,
-					["timestamp"] = 27489.796,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [147]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:46:31]|h|r  5 auctions created for |cff1eff00|Hitem:7971::::::::38:::::::|h[Черная жемчужина]|h|r   22s 99c",
-					["r"] = 1,
-					["serverTime"] = 1620139591,
-					["timestamp"] = 27497.068,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [148]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:46:34]|h|r Auctioneer закончил сканировать |cffddeeff16|r аукционов из |cffddeeff 0.9сек.|r",
-					["r"] = 0.3,
-					["serverTime"] = 1620139594,
-					["timestamp"] = 27500.205,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [149]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:46:34]|h|r   |cffddeeff177|r предметов в БД при запуске(|cffddeeff0|r соответствует запросу); |cffddeeff193|r конец в",
-					["r"] = 0.3,
-					["serverTime"] = 1620139594,
-					["timestamp"] = 27500.205,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [150]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:46:34]|h|r   |cffddeeff16|r новые предметы",
-					["r"] = 0.3,
-					["serverTime"] = 1620139594,
-					["timestamp"] = 27500.205,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [151]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:46:35]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Асстрея:199:CHANNEL:4|h|cffffffffАсстрея|r|h|cffd8d8d8]|r: похилю брд",
-					["serverTime"] = 1620139595,
+					["message"] = "|cff979797|Hpratcopy|h[19:48:14]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Данумля:1276:CHANNEL:4|h|cff3fc6eaДанумля|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t АФК КАЧ МАРАДОН 12|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|t(12 мин ран), 165+мобов, (20-30к опыта) ЛУТ ВАШ  (эпики мои) |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t",
+					["serverTime"] = 1620827293,
 					["r"] = 0.364705890417099,
 					["extraData"] = {
 						70, -- [1]
 						false, -- [2]
 						1, -- [3]
-						27, -- [4]
+						8, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 27501.705,
+					["timestamp"] = 180375.257,
 					["g"] = 0.356862753629684,
 					["b"] = 0.372549027204514,
-				}, -- [152]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:46:44]|h|r  5 auctions created for |cffffffff|Hitem:13423::::::::38:::::::|h[Масло каменного угря]|h|r|cff00ddddx5|r   6g 84s 90c  за пачку.",
-					["r"] = 1,
-					["serverTime"] = 1620139604,
-					["timestamp"] = 27510.341,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [153]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:46:47]|h|r Auctioneer закончил сканировать |cffddeeff11|r аукционов из |cffddeeff 0.8сек.|r",
-					["r"] = 0.3,
-					["serverTime"] = 1620139607,
-					["timestamp"] = 27513.387,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [154]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:46:47]|h|r   |cffddeeff193|r предметов в БД при запуске(|cffddeeff0|r соответствует запросу); |cffddeeff204|r конец в",
-					["r"] = 0.3,
-					["serverTime"] = 1620139607,
-					["timestamp"] = 27513.387,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [155]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:46:47]|h|r   |cffddeeff11|r новые предметы",
-					["r"] = 0.3,
-					["serverTime"] = 1620139607,
-					["timestamp"] = 27513.387,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [156]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:46:47]|h|r  2 auctions created for |cffffffff|Hitem:6049::::::::38:::::::|h[Зелье защиты от огня]|h|r|cff00ddddx2|r   3g 67s 96c  за пачку.",
-					["r"] = 1,
-					["serverTime"] = 1620139607,
-					["timestamp"] = 27513.75,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [157]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:46:53]|h|r  Аукцион объявлен: |cffffffff|Hitem:4304::::::::38:::::::|h[Плотная кожа]|h|r|cff00ddddx20|r   1g 00s 80c",
-					["r"] = 1,
-					["serverTime"] = 1620139613,
-					["timestamp"] = 27519.068,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [158]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:46:56]|h|r Auctioneer завершил сканирование |cffddeeff50|r аукционов из |cffddeeff 5сек.|r прежде чем был остановлен",
-					["r"] = 0.3,
-					["serverTime"] = 1620139616,
-					["timestamp"] = 27521.932,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [159]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:46:56]|h|r   |cffddeeff204|r предметов в БД при запуске(|cffddeeff0|r соответствует запросу); |cffddeeff254|r конец в",
-					["r"] = 0.3,
-					["serverTime"] = 1620139616,
-					["timestamp"] = 27521.932,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [160]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:46:56]|h|r   |cffddeeff50|r новые предметы",
-					["r"] = 0.3,
-					["serverTime"] = 1620139616,
-					["timestamp"] = 27521.932,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [161]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:46:56]|h|r Auctioneer закончил сканировать |cffddeeff38|r аукционов из |cffddeeff 0.9сек.|r",
-					["r"] = 0.3,
-					["serverTime"] = 1620139616,
-					["timestamp"] = 27522.568,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [162]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:46:56]|h|r   |cffddeeff254|r предметов в БД при запуске(|cffddeeff0|r соответствует запросу); |cffddeeff292|r конец в",
-					["r"] = 0.3,
-					["serverTime"] = 1620139616,
-					["timestamp"] = 27522.568,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [163]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:46:56]|h|r   |cffddeeff38|r новые предметы",
-					["r"] = 0.3,
-					["serverTime"] = 1620139616,
-					["timestamp"] = 27522.568,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [164]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:46:58]|h|r  Аукцион объявлен: |cffffffff|Hitem:7067::::::::38:::::::|h[Первородная земля]|h|r   2g 14s 99c",
-					["r"] = 1,
-					["serverTime"] = 1620139618,
-					["timestamp"] = 27524.068,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [165]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:47:01]|h|r Auctioneer закончил сканировать |cffddeeff6|r аукционов из |cffddeeff 0.9сек.|r",
-					["r"] = 0.3,
-					["serverTime"] = 1620139621,
-					["timestamp"] = 27527.887,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [166]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:47:01]|h|r   |cffddeeff292|r предметов в БД при запуске(|cffddeeff0|r соответствует запросу); |cffddeeff298|r конец в",
-					["r"] = 0.3,
-					["serverTime"] = 1620139621,
-					["timestamp"] = 27527.887,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [167]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:47:01]|h|r   |cffddeeff6|r новые предметы",
-					["r"] = 0.3,
-					["serverTime"] = 1620139621,
-					["timestamp"] = 27527.887,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [168]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:47:03]|h|r  Аукцион объявлен: |cff1eff00|Hitem:3864::::::::38:::::::|h[Цитрин]|h|r   94s 10c",
-					["r"] = 1,
-					["serverTime"] = 1620139623,
-					["timestamp"] = 27529.114,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [169]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:47:05]|h|r Auctioneer закончил сканировать |cffddeeff20|r аукционов из |cffddeeff 0.8сек.|r",
-					["r"] = 0.3,
-					["serverTime"] = 1620139625,
-					["timestamp"] = 27531.296,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [170]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:47:05]|h|r   |cffddeeff298|r предметов в БД при запуске(|cffddeeff0|r соответствует запросу); |cffddeeff318|r конец в",
-					["r"] = 0.3,
-					["serverTime"] = 1620139625,
-					["timestamp"] = 27531.296,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [171]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:47:05]|h|r   |cffddeeff20|r новые предметы",
-					["r"] = 0.3,
-					["serverTime"] = 1620139625,
-					["timestamp"] = 27531.296,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [172]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:47:08]|h|r  7 auctions created for |cffffffff|Hitem:10561::::::::38:::::::|h[Мифриловая обшивка]|h|r   2g 45s 01c",
-					["r"] = 1,
-					["serverTime"] = 1620139628,
-					["timestamp"] = 27534.705,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [173]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:47:11]|h|r Auctioneer закончил сканировать |cffddeeff12|r аукционов из |cffddeeff 0.8сек.|r",
-					["r"] = 0.3,
-					["serverTime"] = 1620139631,
-					["timestamp"] = 27537.25,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [174]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:47:11]|h|r   |cffddeeff318|r предметов в БД при запуске(|cffddeeff0|r соответствует запросу); |cffddeeff330|r конец в",
-					["r"] = 0.3,
-					["serverTime"] = 1620139631,
-					["timestamp"] = 27537.25,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [175]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:47:11]|h|r   |cffddeeff12|r новые предметы",
-					["r"] = 0.3,
-					["serverTime"] = 1620139631,
-					["timestamp"] = 27537.25,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [176]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:47:14]|h|r  10 auctions created for |cffffffff|Hitem:10505::::::::38:::::::|h[Твердое взрывчатое вещество]|h|r   43s 69c",
-					["r"] = 1,
-					["serverTime"] = 1620139634,
-					["timestamp"] = 27539.932,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [177]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:47:15]|h|r Auctioneer закончил сканировать |cffddeeff33|r аукционов из |cffddeeff 0.8сек.|r",
-					["r"] = 0.3,
-					["serverTime"] = 1620139635,
-					["timestamp"] = 27541.75,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [178]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:47:15]|h|r   |cffddeeff330|r предметов в БД при запуске(|cffddeeff0|r соответствует запросу); |cffddeeff363|r конец в",
-					["r"] = 0.3,
-					["serverTime"] = 1620139635,
-					["timestamp"] = 27541.75,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [179]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:47:15]|h|r   |cffddeeff3|r новые предметы",
-					["r"] = 0.3,
-					["serverTime"] = 1620139635,
-					["timestamp"] = 27541.75,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [180]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:47:15]|h|r   |cffddeeff30|r отфильтрованные вещи",
-					["r"] = 0.3,
-					["serverTime"] = 1620139635,
-					["timestamp"] = 27541.75,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [181]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:47:16]|h|r  Аукцион объявлен: |cffffffff|Hitem:4234::::::::38:::::::|h[Толстая кожа]|h|r|cff00ddddx3|r   41s 88c",
-					["r"] = 1,
-					["serverTime"] = 1620139636,
-					["timestamp"] = 27542.205,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [182]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:47:24]|h|r Auctioneer закончил сканировать |cffddeeff22|r аукционов из |cffddeeff 0.9сек.|r",
-					["r"] = 0.3,
-					["serverTime"] = 1620139644,
-					["timestamp"] = 27550.114,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [183]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:47:24]|h|r   |cffddeeff363|r предметов в БД при запуске(|cffddeeff0|r соответствует запросу); |cffddeeff385|r конец в",
-					["r"] = 0.3,
-					["serverTime"] = 1620139644,
-					["timestamp"] = 27550.114,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [184]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:47:24]|h|r   |cffddeeff22|r новые предметы",
-					["r"] = 0.3,
-					["serverTime"] = 1620139644,
-					["timestamp"] = 27550.114,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [185]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:47:26]|h|r  Аукцион объявлен: |cffffffff|Hitem:785::::::::38:::::::|h[Магороза]|h|r|cff00ddddx19|r   16s 53c",
-					["r"] = 1,
-					["serverTime"] = 1620139646,
-					["timestamp"] = 27552.75,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [186]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:47:28]|h|r Auctioneer закончил сканировать |cffddeeff6|r аукционов из |cffddeeff 0.8сек.|r",
-					["r"] = 0.3,
-					["serverTime"] = 1620139648,
-					["timestamp"] = 27554.523,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [187]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:47:28]|h|r   |cffddeeff385|r предметов в БД при запуске(|cffddeeff0|r соответствует запросу); |cffddeeff391|r конец в",
-					["r"] = 0.3,
-					["serverTime"] = 1620139648,
-					["timestamp"] = 27554.523,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [188]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:47:28]|h|r   |cffddeeff6|r новые предметы",
-					["r"] = 0.3,
-					["serverTime"] = 1620139648,
-					["timestamp"] = 27554.523,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [189]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:47:28]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Афл-РокДелар:229:CHANNEL:4|h|cff8787edАфл|r|h|cffd8d8d8]|r: Бафы будут ?*",
-					["serverTime"] = 1620139648,
-					["r"] = 0.364705890417099,
-					["extraData"] = {
-						70, -- [1]
-						false, -- [2]
-						1, -- [3]
-						29, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 27554.75,
-					["g"] = 0.356862753629684,
-					["b"] = 0.372549027204514,
-				}, -- [190]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:47:29]|h|r  Аукцион объявлен: |cffffffff|Hitem:2453::::::::38:::::::|h[Синячник]|h|r|cff00ddddx15|r   74s 25c",
-					["r"] = 1,
-					["serverTime"] = 1620139649,
-					["timestamp"] = 27555.614,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [191]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:47:32]|h|r Auctioneer закончил сканировать |cffddeeff43|r аукционов из |cffddeeff 0.9сек.|r",
-					["r"] = 0.3,
-					["serverTime"] = 1620139652,
-					["timestamp"] = 27558.705,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [192]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:47:32]|h|r   |cffddeeff391|r предметов в БД при запуске(|cffddeeff0|r соответствует запросу); |cffddeeff434|r конец в",
-					["r"] = 0.3,
-					["serverTime"] = 1620139652,
-					["timestamp"] = 27558.705,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [193]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:47:32]|h|r   |cffddeeff43|r новые предметы",
-					["r"] = 0.3,
-					["serverTime"] = 1620139652,
-					["timestamp"] = 27558.705,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [194]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:47:33]|h|r  Аукцион объявлен: |cffffffff|Hitem:6371::::::::38:::::::|h[Зажигательное масло]|h|r|cff00ddddx2|r   1g 37s 76c",
-					["r"] = 1,
-					["serverTime"] = 1620139653,
-					["timestamp"] = 27559.477,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [195]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:47:38]|h|r Auctioneer закончил сканировать |cffddeeff2|r аукционов из |cffddeeff 0.8сек.|r",
-					["r"] = 0.3,
-					["serverTime"] = 1620139658,
-					["timestamp"] = 27564.568,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [196]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:47:38]|h|r   |cffddeeff434|r предметов в БД при запуске(|cffddeeff0|r соответствует запросу); |cffddeeff436|r конец в",
-					["r"] = 0.3,
-					["serverTime"] = 1620139658,
-					["timestamp"] = 27564.568,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [197]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:47:38]|h|r   |cffddeeff2|r новые предметы",
-					["r"] = 0.3,
-					["serverTime"] = 1620139658,
-					["timestamp"] = 27564.568,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [198]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:47:50]|h|r  Аукцион объявлен: |cff0070dd|Hitem:13043::::::::38:::1::::|h[Клинок титанов]|h|r   29g 99s 99c",
-					["r"] = 1,
-					["serverTime"] = 1620139670,
-					["timestamp"] = 27576.159,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [199]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:47:55]|h|r Auctioneer закончил сканировать |cffddeeff0|r аукционов из |cffddeeff 0.9сек.|r",
-					["r"] = 0.3,
-					["serverTime"] = 1620139675,
-					["timestamp"] = 27581.296,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [200]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:47:55]|h|r   |cffddeeff436|r предметов в БД при запуске(|cffddeeff0|r соответствует запросу); |cffddeeff436|r конец в",
-					["r"] = 0.3,
-					["serverTime"] = 1620139675,
-					["timestamp"] = 27581.296,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [201]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:48:04]|h|r  Аукцион объявлен: |cffffffff|Hitem:9060::::::::38:::::::|h[Инкрустированный мифриловый цилиндр]|h|r   5g 99s 99c",
-					["r"] = 1,
-					["serverTime"] = 1620139684,
-					["timestamp"] = 27590.432,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [202]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:48:36]|h|r Auctioneer закончил сканировать |cffddeeff16|r аукционов из |cffddeeff 0.8сек.|r",
-					["r"] = 0.3,
-					["serverTime"] = 1620139716,
-					["timestamp"] = 27622.146,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [203]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:48:36]|h|r   |cffddeeff436|r предметов в БД при запуске(|cffddeeff0|r соответствует запросу); |cffddeeff452|r конец в",
-					["r"] = 0.3,
-					["serverTime"] = 1620139716,
-					["timestamp"] = 27622.146,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [204]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:48:36]|h|r   |cffddeeff16|r новые предметы",
-					["r"] = 0.3,
-					["serverTime"] = 1620139716,
-					["timestamp"] = 27622.146,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [205]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:48:37]|h|r  Аукцион объявлен: |cffffffff|Hitem:10286::::::::38:::::::|h[Сердце дикой природы]|h|r|cff00ddddx4|r   43s 76c",
-					["r"] = 1,
-					["serverTime"] = 1620139717,
-					["timestamp"] = 27623.373,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [206]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:48:40]|h|r Auctioneer закончил сканировать |cffddeeff13|r аукционов из |cffddeeff 0.9сек.|r",
-					["r"] = 0.3,
-					["serverTime"] = 1620139720,
-					["timestamp"] = 27626.51,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [207]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:48:40]|h|r   |cffddeeff452|r предметов в БД при запуске(|cffddeeff11|r соответствует запросу); |cffddeeff454|r конец в",
-					["r"] = 0.3,
-					["serverTime"] = 1620139720,
-					["timestamp"] = 27626.51,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [208]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:48:40]|h|r   |cffddeeff11|r предметы без изменений",
-					["r"] = 0.3,
-					["serverTime"] = 1620139720,
-					["timestamp"] = 27626.51,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [209]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:48:40]|h|r   |cffddeeff2|r новые предметы",
-					["r"] = 0.3,
-					["serverTime"] = 1620139720,
-					["timestamp"] = 27626.51,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [210]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:48:47]|h|r  Аукцион объявлен: |cffffffff|Hitem:6049::::::::38:::::::|h[Зелье защиты от огня]|h|r|cff00ddddx3|r   5g 51s 94c",
-					["r"] = 1,
-					["serverTime"] = 1620139727,
-					["timestamp"] = 27633.101,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [211]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:48:55]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Сисуна-РокДелар:238:CHANNEL:4|h|cff3fc6eaСисуна|r|h|cffd8d8d8]|r: в собор  хил!! или шп",
-					["serverTime"] = 1620139735,
-					["r"] = 0.364705890417099,
-					["extraData"] = {
-						70, -- [1]
-						false, -- [2]
-						1, -- [3]
-						12, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 27641.237,
-					["g"] = 0.356862753629684,
-					["b"] = 0.372549027204514,
-				}, -- [212]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:49:00]|h|r  2 auctions created for |cffffffff|Hitem:13445::::::::38:::::::|h[Мощный эликсир защиты]|h|r|cff00ddddx2|r   6g 63s 94c  за пачку.",
-					["r"] = 1,
-					["serverTime"] = 1620139740,
-					["timestamp"] = 27646.419,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [213]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:49:04]|h|r Auctioneer завершил сканирование |cffddeeff50|r аукционов из |cffddeeff 12сек.|r прежде чем был остановлен",
-					["r"] = 0.3,
-					["serverTime"] = 1620139744,
-					["timestamp"] = 27650.01,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [214]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:49:04]|h|r   |cffddeeff454|r предметов в БД при запуске(|cffddeeff0|r соответствует запросу); |cffddeeff504|r конец в",
-					["r"] = 0.3,
-					["serverTime"] = 1620139744,
-					["timestamp"] = 27650.01,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [215]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:49:04]|h|r   |cffddeeff50|r новые предметы",
-					["r"] = 0.3,
-					["serverTime"] = 1620139744,
-					["timestamp"] = 27650.01,
-					["g"] = 0.9,
-					["b"] = 0.8,
-				}, -- [216]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:49:20]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Шлуня:242:CHANNEL:4|h|cffaad372Шлуня|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tв 21 00 буду соберать АК40 на червя и ктуна всё по ролу джунгобар анрол|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t",
-					["serverTime"] = 1620139760,
-					["r"] = 0.364705890417099,
-					["extraData"] = {
-						70, -- [1]
-						false, -- [2]
-						1, -- [3]
-						31, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 27665.919,
-					["g"] = 0.356862753629684,
-					["b"] = 0.372549027204514,
-				}, -- [217]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:49:26]|h|r [W To] |cffd8d8d8[|r|Hplayer:Ждубафы:243:WHISPER:ЖДУБАФЫ|h|cffd84e4e60|r:|cff3fc6eaЖдубафы|r|h|cffd8d8d8]|r: есть слот?",
-					["serverTime"] = 1620139766,
-					["r"] = 1,
-					["extraData"] = {
-						10, -- [1]
-						false, -- [2]
-						33, -- [3]
-						34, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 27672.555,
-					["g"] = 0.501960813999176,
-					["b"] = 1,
-				}, -- [218]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:49:28]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Тайкас:244:CHANNEL:4|h|cffaad372Тайкас|r|h|cffd8d8d8]|r: сходил на почту,позвонил близам,они скзаали 2 месяца",
-					["serverTime"] = 1620139768,
-					["r"] = 0.364705890417099,
-					["extraData"] = {
-						70, -- [1]
-						false, -- [2]
-						1, -- [3]
-						35, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 27674.237,
-					["g"] = 0.356862753629684,
-					["b"] = 0.372549027204514,
-				}, -- [219]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:49:31]|h|r Ваш лот |cffffffff|Hitem:7067::::::::38:::::::|h[Первородная земля]|h|r был продан за |cffffffff2|r|cffffd70ag|r |cffffffff14|r|cffc7c7cfs|r |cffffffff99|r|cffeda55fc|r!",
-					["serverTime"] = 1620139771,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						37, -- [3]
-						38, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 27677.873,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [220]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:49:33]|h|r [W From] |cffd8d8d8[|r|Hplayer:Ждубафы-РокДелар:246:WHISPER:ЖДУБАФЫ-РОКДЕЛАР|h|cffd84e4e60|r:|cff3fc6eaЖдубафы|r|h|cffd8d8d8]|r: пока фул",
-					["serverTime"] = 1620139773,
-					["r"] = 1,
-					["extraData"] = {
-						0, -- [1]
-						false, -- [2]
-						39, -- [3]
-						40, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 27679.737,
-					["g"] = 0.501960813999176,
-					["b"] = 1,
-				}, -- [221]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:49:44]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Трольварлорд:247:CHANNEL:4|h|cffc69b6dТрольварлорд|r|h|cffd8d8d8]|r: суупер",
-					["serverTime"] = 1620139784,
-					["r"] = 0.364705890417099,
-					["extraData"] = {
-						70, -- [1]
-						false, -- [2]
-						1, -- [3]
-						41, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 27690.873,
-					["g"] = 0.356862753629684,
-					["b"] = 0.372549027204514,
-				}, -- [222]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:49:58]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Славчо-РокДелар:248:CHANNEL:4|h|cff3fc6eaСлавчо|r|h|cffd8d8d8]|r: на почту россии?",
-					["serverTime"] = 1620139798,
-					["r"] = 0.364705890417099,
-					["extraData"] = {
-						70, -- [1]
-						false, -- [2]
-						1, -- [3]
-						43, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 27704.737,
-					["g"] = 0.356862753629684,
-					["b"] = 0.372549027204514,
-				}, -- [223]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:50:03]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Тайкас-РокДелар:249:CHANNEL:4|h|cffaad372Тайкас|r|h|cffd8d8d8]|r: да",
-					["serverTime"] = 1620139803,
-					["r"] = 0.364705890417099,
-					["extraData"] = {
-						70, -- [1]
-						false, -- [2]
-						1, -- [3]
-						35, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 27709.191,
-					["g"] = 0.356862753629684,
-					["b"] = 0.372549027204514,
-				}, -- [224]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:50:14]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Тайкас-РокДелар:250:CHANNEL:4|h|cffaad372Тайкас|r|h|cffd8d8d8]|r: ну + еше 2 месяца попочте будет идти",
-					["serverTime"] = 1620139814,
-					["r"] = 0.364705890417099,
-					["extraData"] = {
-						70, -- [1]
-						false, -- [2]
-						1, -- [3]
-						35, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 27720.737,
-					["g"] = 0.356862753629684,
-					["b"] = 0.372549027204514,
-				}, -- [225]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:50:19]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Тайкас-РокДелар:251:CHANNEL:4|h|cffaad372Тайкас|r|h|cffd8d8d8]|r: такто к августу ждит е",
-					["serverTime"] = 1620139819,
-					["r"] = 0.364705890417099,
-					["extraData"] = {
-						70, -- [1]
-						false, -- [2]
-						1, -- [3]
-						35, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 27725.691,
-					["g"] = 0.356862753629684,
-					["b"] = 0.372549027204514,
-				}, -- [226]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:50:56]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Асстрея-РокДелар:252:CHANNEL:4|h|cffffffffАсстрея|r|h|cffd8d8d8]|r: остались те кто ходит в брд?",
-					["serverTime"] = 1620139856,
-					["r"] = 0.364705890417099,
-					["extraData"] = {
-						70, -- [1]
-						false, -- [2]
-						1, -- [3]
-						27, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 27762.248,
-					["g"] = 0.356862753629684,
-					["b"] = 0.372549027204514,
-				}, -- [227]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[20:51:02]|h|r |Hchannel:channel:1|h[1] |h Вы покинули канал |Hchannel:CHANNEL:1|h[1. Общий: Подгород]|h.",
-					["serverTime"] = 1620139862,
-					["r"] = 0.764705955982208,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 27768.082,
-					["g"] = 0.901960849761963,
-					["b"] = 0.909803986549378,
-				}, -- [228]
+				}, -- [89]
 			},
 			["maxElements"] = 4096,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],

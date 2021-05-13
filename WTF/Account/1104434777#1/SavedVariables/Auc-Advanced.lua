@@ -10,8 +10,8 @@ AucAdvancedConfig = {
 		},
 		["util"] = {
 			["automagic"] = {
-				["ammailguix"] = 160,
-				["ammailguiy"] = 99.9,
+				["ammailguix"] = 159.9,
+				["ammailguiy"] = 99.8,
 				["SavedMailButtons"] = {
 				},
 			},
@@ -30,8 +30,8 @@ AucAdvancedData = {
 			},
 		},
 		["Global"] = {
-			["configator.left"] = -9.56540393829346,
-			["configator.top"] = 583.913208007813,
+			["configator.left"] = -9.56520462036133,
+			["configator.top"] = 583.913146972656,
 		},
 		["SavedSearches"] = {
 		},
@@ -41,7 +41,7 @@ AucAdvancedServers = {
 	["Version"] = 1,
 	["Timestamp"] = 1620754277,
 	["KnownServerKeys"] = {
-		["Пламегор"] = 1620792787,
+		["Пламегор"] = 1620880018,
 	},
 	["KnownRealms"] = {
 		["Пламегор"] = "Пламегор",

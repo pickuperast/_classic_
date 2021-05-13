@@ -37,7 +37,7 @@ BeanCounterDBSettings = {
 			["version"] = 3.04,
 			["faction"] = "Alliance",
 			["tasks.compactDB"] = 1620854129,
-			["wealth"] = 40831,
+			["wealth"] = 50441,
 			["tasks.prunePostedDB"] = 1620854129,
 			["mailbox"] = {
 			},

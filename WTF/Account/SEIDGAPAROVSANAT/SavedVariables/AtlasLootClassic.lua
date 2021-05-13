@@ -113,9 +113,6 @@ AtlasLootClassicDB = {
 			},
 		},
 		["Оод - Пламегор"] = {
-			["minimap"] = {
-				["minimapPos"] = 197.096204445109,
-			},
 			["GUI"] = {
 				["point"] = {
 					nil, -- [1]
@@ -127,10 +124,13 @@ AtlasLootClassicDB = {
 				["selected"] = {
 					"AtlasLootClassic_Crafting", -- [1]
 					"Alchemy", -- [2]
-					9, -- [3]
+					5, -- [3]
 					1, -- [4]
 					0, -- [5]
 				},
+			},
+			["minimap"] = {
+				["minimapPos"] = 197.096204445109,
 			},
 		},
 		["Деларива - Рок-Делар"] = {

@@ -6,7 +6,7 @@ FishingBuddy_Player = {
 	},
 	["Settings"] = {
 		["SpecialBobbers"] = -1,
-		["TotalTimeFishing"] = 604027.692,
+		["TotalTimeFishing"] = 604524.798,
 	},
 	["WasWearing"] = {
 	},

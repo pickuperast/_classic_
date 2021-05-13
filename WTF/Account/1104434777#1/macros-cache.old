@@ -3,6 +3,11 @@ VER 3 0000000000000001 "3" "132112"
 /use Блесна
 /use Удочка
 END
+VER 3 0000000000000004 "4" "INV_MISC_QUESTIONMARK"
+/use Послание в бутылке
+/use Моллюск-болтун
+/use Тяжелый ящик
+END
 VER 3 0000000000000003 "6" "INV_MISC_QUESTIONMARK"
 /lie
 /logout

@@ -8,8 +8,8 @@ W: 920
 H: 600
 Frame: HealBot_Options
 FrameLevel: 1
-Anchor: RIGHT
-X: 115
-Y: 18
+Anchor: BOTTOMLEFT
+X: 114
+Y: 74
 W: 860
 H: 750

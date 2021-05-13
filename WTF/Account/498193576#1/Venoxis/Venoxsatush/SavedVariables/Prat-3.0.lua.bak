@@ -14,13 +14,13 @@ Prat3CharDB = {
 			},
 			["ChatFrame6EditBox"] = {
 			},
-			["ChatFrame9EditBox"] = {
-			},
-			["ChatFrame2EditBox"] = {
+			["ChatFrame1EditBox"] = {
 			},
 			["ChatFrame3EditBox"] = {
 			},
-			["ChatFrame1EditBox"] = {
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
 			},
 		},
 	},
@@ -205,7 +205,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame1"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 89,
+			["headIndex"] = 71,
 			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -218,14 +218,27 @@ Prat3HighCPUPerCharDB = {
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:08]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Coarse Blasting Powder (2)",
-					["timestamp"] = 111309.679,
-					["serverTime"] = 1620758227,
+					["message"] = "|cff979797|Hpratcopy|h[00:37:02]|h|r You receive item: |cffffffff|Hitem:1478::::::::1:::::::|h[Scroll of Protection II]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758221,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
 				}, -- [1]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:09]|h|r You receive item: |cffffffff|Hitem:4364::::::::1:::::::|h[Coarse Blasting Powder]|h|rx2.",
-					["serverTime"] = 1620758228,
+					["message"] = "|cff979797|Hpratcopy|h[00:37:02]|h|r You receive item: |cffffffff|Hitem:4404::::::::1:::::::|h[Silver Contact]|h|rx2.",
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758221,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
@@ -233,19 +246,29 @@ Prat3HighCPUPerCharDB = {
 						5, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111309.979,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
 				}, -- [2]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:09]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Coarse Blasting Powder (2)",
-					["timestamp"] = 111309.979,
-					["serverTime"] = 1620758228,
+					["message"] = "|cff979797|Hpratcopy|h[00:37:02]|h|r You receive item: |cffffffff|Hitem:4404::::::::1:::::::|h[Silver Contact]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758221,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
 				}, -- [3]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:09]|h|r You receive item: |cffffffff|Hitem:4363::::::::1:::::::|h[Copper Modulator]|h|rx2.",
-					["serverTime"] = 1620758228,
+					["message"] = "|cff979797|Hpratcopy|h[00:37:03]|h|r You receive item: |cffffffff|Hitem:4359::::::::1:::::::|h[Handful of Copper Bolts]|h|rx2.",
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758222,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
@@ -253,19 +276,29 @@ Prat3HighCPUPerCharDB = {
 						5, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111310.329,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
 				}, -- [4]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:09]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Copper Modulator (2)",
-					["timestamp"] = 111310.329,
-					["serverTime"] = 1620758228,
+					["message"] = "|cff979797|Hpratcopy|h[00:37:03]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758222,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
 				}, -- [5]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:09]|h|r You receive item: |cffffffff|Hitem:3012::::::::1:::::::|h[Scroll of Agility]|h|rx2.",
-					["serverTime"] = 1620758228,
+					["message"] = "|cff979797|Hpratcopy|h[00:37:03]|h|r You receive item: |cffffffff|Hitem:1478::::::::1:::::::|h[Scroll of Protection II]|h|rx2.",
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758222,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
@@ -273,19 +306,29 @@ Prat3HighCPUPerCharDB = {
 						5, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111310.679,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
 				}, -- [6]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:09]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Scroll of Agility (2)",
-					["timestamp"] = 111310.679,
-					["serverTime"] = 1620758228,
+					["message"] = "|cff979797|Hpratcopy|h[00:37:04]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758223,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
 				}, -- [7]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:10]|h|r You receive item: |cffffffff|Hitem:13755::::::::1:::::::|h[Winter Squid]|h|rx20.",
-					["serverTime"] = 1620758229,
+					["message"] = "|cff979797|Hpratcopy|h[00:37:04]|h|r You receive item: |cffffffff|Hitem:4404::::::::1:::::::|h[Silver Contact]|h|rx2.",
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758223,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
@@ -293,19 +336,29 @@ Prat3HighCPUPerCharDB = {
 						5, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111311.079,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
 				}, -- [8]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:10]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Winter Squid (20)",
-					["timestamp"] = 111311.079,
-					["serverTime"] = 1620758229,
+					["message"] = "|cff979797|Hpratcopy|h[00:37:04]|h|r You receive item: |cffffffff|Hitem:4404::::::::1:::::::|h[Silver Contact]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758223,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
 				}, -- [9]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:10]|h|r You receive item: |cffffffff|Hitem:4364::::::::1:::::::|h[Coarse Blasting Powder]|h|rx2.",
-					["serverTime"] = 1620758229,
+					["message"] = "|cff979797|Hpratcopy|h[00:37:04]|h|r You receive item: |cffffffff|Hitem:4404::::::::1:::::::|h[Silver Contact]|h|rx2.",
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758223,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
@@ -313,19 +366,29 @@ Prat3HighCPUPerCharDB = {
 						5, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111311.429,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
 				}, -- [10]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:10]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Coarse Blasting Powder (2)",
-					["timestamp"] = 111311.429,
-					["serverTime"] = 1620758229,
+					["message"] = "|cff979797|Hpratcopy|h[00:37:05]|h|r You receive item: |cffffffff|Hitem:1478::::::::1:::::::|h[Scroll of Protection II]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758224,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
 				}, -- [11]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:10]|h|r You receive item: |cffffffff|Hitem:4364::::::::1:::::::|h[Coarse Blasting Powder]|h|rx2.",
-					["serverTime"] = 1620758229,
+					["message"] = "|cff979797|Hpratcopy|h[00:37:05]|h|r You receive item: |cffffffff|Hitem:4404::::::::1:::::::|h[Silver Contact]|h|rx2.",
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758224,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
@@ -333,19 +396,29 @@ Prat3HighCPUPerCharDB = {
 						5, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111311.729,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
 				}, -- [12]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:10]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Coarse Blasting Powder (2)",
-					["timestamp"] = 111311.729,
-					["serverTime"] = 1620758229,
+					["message"] = "|cff979797|Hpratcopy|h[00:37:06]|h|r You receive item: |cffffffff|Hitem:4363::::::::1:::::::|h[Copper Modulator]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758225,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
 				}, -- [13]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:11]|h|r You receive item: |cffffffff|Hitem:4364::::::::1:::::::|h[Coarse Blasting Powder]|h|rx2.",
-					["serverTime"] = 1620758230,
+					["message"] = "|cff979797|Hpratcopy|h[00:37:06]|h|r You receive item: |cffffffff|Hitem:954::::::::1:::::::|h[Scroll of Strength]|h|rx2.",
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758225,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
@@ -353,19 +426,29 @@ Prat3HighCPUPerCharDB = {
 						5, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111312.079,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
 				}, -- [14]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:11]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Coarse Blasting Powder (2)",
-					["timestamp"] = 111312.079,
-					["serverTime"] = 1620758230,
+					["message"] = "|cff979797|Hpratcopy|h[00:37:06]|h|r You receive item: |cffffffff|Hitem:4364::::::::1:::::::|h[Coarse Blasting Powder]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758225,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
 				}, -- [15]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:11]|h|r You receive item: |cffffffff|Hitem:4364::::::::1:::::::|h[Coarse Blasting Powder]|h|rx2.",
-					["serverTime"] = 1620758230,
+					["message"] = "|cff979797|Hpratcopy|h[00:37:07]|h|r You receive item: |cffffffff|Hitem:13755::::::::1:::::::|h[Winter Squid]|h|rx20.",
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758226,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
@@ -373,19 +456,29 @@ Prat3HighCPUPerCharDB = {
 						5, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111312.429,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
 				}, -- [16]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:11]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Coarse Blasting Powder (2)",
-					["timestamp"] = 111312.429,
-					["serverTime"] = 1620758230,
+					["message"] = "|cff979797|Hpratcopy|h[00:37:07]|h|r You receive item: |cffffffff|Hitem:13755::::::::1:::::::|h[Winter Squid]|h|rx20.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758226,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
 				}, -- [17]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:11]|h|r You receive item: |cffffffff|Hitem:4364::::::::1:::::::|h[Coarse Blasting Powder]|h|rx2.",
-					["serverTime"] = 1620758230,
+					["message"] = "|cff979797|Hpratcopy|h[00:37:08]|h|r You receive item: |cffffffff|Hitem:3012::::::::1:::::::|h[Scroll of Agility]|h|rx2.",
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758227,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
@@ -393,19 +486,29 @@ Prat3HighCPUPerCharDB = {
 						5, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111312.729,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
 				}, -- [18]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:11]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Coarse Blasting Powder (2)",
-					["timestamp"] = 111312.729,
-					["serverTime"] = 1620758230,
+					["message"] = "|cff979797|Hpratcopy|h[00:37:08]|h|r You receive item: |cffffffff|Hitem:4363::::::::1:::::::|h[Copper Modulator]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758227,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
 				}, -- [19]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:12]|h|r You receive item: |cffffffff|Hitem:13755::::::::1:::::::|h[Winter Squid]|h|rx20.",
-					["serverTime"] = 1620758231,
+					["message"] = "|cff979797|Hpratcopy|h[00:37:08]|h|r You receive item: |cffffffff|Hitem:4364::::::::1:::::::|h[Coarse Blasting Powder]|h|rx2.",
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758227,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
@@ -413,19 +516,29 @@ Prat3HighCPUPerCharDB = {
 						5, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111313.029,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
 				}, -- [20]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:12]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Winter Squid (20)",
-					["timestamp"] = 111313.029,
-					["serverTime"] = 1620758231,
+					["message"] = "|cff979797|Hpratcopy|h[00:37:09]|h|r You receive item: |cffffffff|Hitem:4364::::::::1:::::::|h[Coarse Blasting Powder]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758228,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
 				}, -- [21]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:12]|h|r You receive item: |cffffffff|Hitem:4364::::::::1:::::::|h[Coarse Blasting Powder]|h|rx2.",
-					["serverTime"] = 1620758231,
+					["message"] = "|cff979797|Hpratcopy|h[00:37:09]|h|r You receive item: |cffffffff|Hitem:4363::::::::1:::::::|h[Copper Modulator]|h|rx2.",
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758228,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
@@ -433,19 +546,29 @@ Prat3HighCPUPerCharDB = {
 						5, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111313.379,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
 				}, -- [22]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:12]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Coarse Blasting Powder (2)",
-					["timestamp"] = 111313.379,
-					["serverTime"] = 1620758231,
+					["message"] = "|cff979797|Hpratcopy|h[00:37:09]|h|r You receive item: |cffffffff|Hitem:3012::::::::1:::::::|h[Scroll of Agility]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758228,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
 				}, -- [23]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:12]|h|r You receive item: |cffffffff|Hitem:13755::::::::1:::::::|h[Winter Squid]|h|rx20.",
-					["serverTime"] = 1620758231,
+					["message"] = "|cff979797|Hpratcopy|h[00:37:10]|h|r You receive item: |cffffffff|Hitem:13755::::::::1:::::::|h[Winter Squid]|h|rx20.",
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758229,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
@@ -453,19 +576,29 @@ Prat3HighCPUPerCharDB = {
 						5, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111313.729,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
 				}, -- [24]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:12]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Winter Squid (20)",
-					["timestamp"] = 111313.729,
-					["serverTime"] = 1620758231,
+					["message"] = "|cff979797|Hpratcopy|h[00:37:10]|h|r You receive item: |cffffffff|Hitem:4364::::::::1:::::::|h[Coarse Blasting Powder]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758229,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
 				}, -- [25]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:13]|h|r You receive item: |cffffffff|Hitem:954::::::::1:::::::|h[Scroll of Strength]|h|rx2.",
-					["serverTime"] = 1620758232,
+					["message"] = "|cff979797|Hpratcopy|h[00:37:10]|h|r You receive item: |cffffffff|Hitem:4364::::::::1:::::::|h[Coarse Blasting Powder]|h|rx2.",
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758229,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
@@ -473,19 +606,29 @@ Prat3HighCPUPerCharDB = {
 						5, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111314.429,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
 				}, -- [26]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:13]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Scroll of Strength (2)",
-					["timestamp"] = 111314.429,
-					["serverTime"] = 1620758232,
+					["message"] = "|cff979797|Hpratcopy|h[00:37:11]|h|r You receive item: |cffffffff|Hitem:4364::::::::1:::::::|h[Coarse Blasting Powder]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758230,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
 				}, -- [27]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:13]|h|r You receive item: |cffffffff|Hitem:4364::::::::1:::::::|h[Coarse Blasting Powder]|h|rx2.",
-					["serverTime"] = 1620758232,
+					["message"] = "|cff979797|Hpratcopy|h[00:37:11]|h|r You receive item: |cffffffff|Hitem:4364::::::::1:::::::|h[Coarse Blasting Powder]|h|rx2.",
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758230,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
@@ -493,19 +636,29 @@ Prat3HighCPUPerCharDB = {
 						5, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111314.779,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
 				}, -- [28]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:13]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Coarse Blasting Powder (2)",
-					["timestamp"] = 111314.779,
-					["serverTime"] = 1620758232,
+					["message"] = "|cff979797|Hpratcopy|h[00:37:11]|h|r You receive item: |cffffffff|Hitem:4364::::::::1:::::::|h[Coarse Blasting Powder]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758230,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
 				}, -- [29]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:14]|h|r You receive item: |cffffffff|Hitem:13755::::::::1:::::::|h[Winter Squid]|h|rx20.",
-					["serverTime"] = 1620758233,
+					["message"] = "|cff979797|Hpratcopy|h[00:37:12]|h|r You receive item: |cffffffff|Hitem:13755::::::::1:::::::|h[Winter Squid]|h|rx20.",
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758231,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
@@ -513,19 +666,29 @@ Prat3HighCPUPerCharDB = {
 						5, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111315.129,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
 				}, -- [30]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:14]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Winter Squid (20)",
-					["timestamp"] = 111315.129,
-					["serverTime"] = 1620758233,
+					["message"] = "|cff979797|Hpratcopy|h[00:37:12]|h|r You receive item: |cffffffff|Hitem:4364::::::::1:::::::|h[Coarse Blasting Powder]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758231,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
 				}, -- [31]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:14]|h|r You receive item: |cffffffff|Hitem:1181::::::::1:::::::|h[Scroll of Spirit]|h|rx2.",
-					["serverTime"] = 1620758233,
+					["message"] = "|cff979797|Hpratcopy|h[00:37:12]|h|r You receive item: |cffffffff|Hitem:13755::::::::1:::::::|h[Winter Squid]|h|rx20.",
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758231,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
@@ -533,19 +696,29 @@ Prat3HighCPUPerCharDB = {
 						5, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111315.479,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
 				}, -- [32]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:14]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Scroll of Spirit (2)",
-					["timestamp"] = 111315.479,
-					["serverTime"] = 1620758233,
+					["message"] = "|cff979797|Hpratcopy|h[00:37:13]|h|r You receive item: |cffffffff|Hitem:954::::::::1:::::::|h[Scroll of Strength]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758232,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
 				}, -- [33]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:14]|h|r You receive item: |cffffffff|Hitem:1181::::::::1:::::::|h[Scroll of Spirit]|h|rx2.",
-					["serverTime"] = 1620758233,
+					["message"] = "|cff979797|Hpratcopy|h[00:37:13]|h|r You receive item: |cffffffff|Hitem:4364::::::::1:::::::|h[Coarse Blasting Powder]|h|rx2.",
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758232,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
@@ -553,19 +726,29 @@ Prat3HighCPUPerCharDB = {
 						5, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111315.829,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
 				}, -- [34]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:14]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Scroll of Spirit (2)",
-					["timestamp"] = 111315.829,
+					["message"] = "|cff979797|Hpratcopy|h[00:37:14]|h|r You receive item: |cffffffff|Hitem:13755::::::::1:::::::|h[Winter Squid]|h|rx20.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
 					["serverTime"] = 1620758233,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
 				}, -- [35]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:15]|h|r You receive item: |cffffffff|Hitem:1181::::::::1:::::::|h[Scroll of Spirit]|h|rx2.",
-					["serverTime"] = 1620758234,
+					["message"] = "|cff979797|Hpratcopy|h[00:37:14]|h|r You receive item: |cffffffff|Hitem:1181::::::::1:::::::|h[Scroll of Spirit]|h|rx2.",
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758233,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
@@ -573,19 +756,14 @@ Prat3HighCPUPerCharDB = {
 						5, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111316.179,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
 				}, -- [36]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:15]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Scroll of Spirit (2)",
-					["timestamp"] = 111316.179,
-					["serverTime"] = 1620758234,
-				}, -- [37]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:15]|h|r You receive item: |cffffffff|Hitem:4375::::::::1:::::::|h[Whirring Bronze Gizmo]|h|rx2.",
-					["serverTime"] = 1620758234,
+					["message"] = "|cff979797|Hpratcopy|h[00:37:14]|h|r You receive item: |cffffffff|Hitem:1181::::::::1:::::::|h[Scroll of Spirit]|h|rx2.",
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758233,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
@@ -593,19 +771,44 @@ Prat3HighCPUPerCharDB = {
 						5, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111316.679,
-					["g"] = 0.666666686534882,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[00:37:15]|h|r You receive item: |cffffffff|Hitem:1181::::::::1:::::::|h[Scroll of Spirit]|h|rx2.",
 					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758234,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
 				}, -- [38]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:15]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Whirring Bronze Gizmo (2)",
-					["timestamp"] = 111316.679,
+					["message"] = "|cff979797|Hpratcopy|h[00:37:15]|h|r You receive item: |cffffffff|Hitem:4375::::::::1:::::::|h[Whirring Bronze Gizmo]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
 					["serverTime"] = 1620758234,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
 				}, -- [39]
 				{
 					["message"] = "|cff979797|Hpratcopy|h[00:37:16]|h|r You receive item: |cffffffff|Hitem:1181::::::::1:::::::|h[Scroll of Spirit]|h|rx2.",
-					["serverTime"] = 1620758235,
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758235,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
@@ -613,19 +816,29 @@ Prat3HighCPUPerCharDB = {
 						5, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111317.029,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
 				}, -- [40]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:16]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Scroll of Spirit (2)",
-					["timestamp"] = 111317.029,
+					["message"] = "|cff979797|Hpratcopy|h[00:37:16]|h|r You receive item: |cffffffff|Hitem:1181::::::::1:::::::|h[Scroll of Spirit]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
 					["serverTime"] = 1620758235,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
 				}, -- [41]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:16]|h|r You receive item: |cffffffff|Hitem:1181::::::::1:::::::|h[Scroll of Spirit]|h|rx2.",
-					["serverTime"] = 1620758235,
+					["message"] = "|cff979797|Hpratcopy|h[00:37:16]|h|r You receive item: |cffffffff|Hitem:4375::::::::1:::::::|h[Whirring Bronze Gizmo]|h|r.",
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758235,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
@@ -633,59 +846,29 @@ Prat3HighCPUPerCharDB = {
 						5, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111317.379,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
 				}, -- [42]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:16]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Scroll of Spirit (2)",
-					["timestamp"] = 111317.379,
-					["serverTime"] = 1620758235,
+					["message"] = "|cff979797|Hpratcopy|h[00:37:17]|h|r You receive item: |cffffffff|Hitem:1181::::::::1:::::::|h[Scroll of Spirit]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758236,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
 				}, -- [43]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:16]|h|r You receive item: |cffffffff|Hitem:4375::::::::1:::::::|h[Whirring Bronze Gizmo]|h|r.",
-					["serverTime"] = 1620758235,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 111317.679,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [44]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:16]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Whirring Bronze Gizmo",
-					["timestamp"] = 111317.679,
-					["serverTime"] = 1620758235,
-				}, -- [45]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:17]|h|r You receive item: |cffffffff|Hitem:1181::::::::1:::::::|h[Scroll of Spirit]|h|r.",
-					["serverTime"] = 1620758236,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 111318.029,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [46]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:17]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Scroll of Spirit",
-					["timestamp"] = 111318.029,
-					["serverTime"] = 1620758236,
-				}, -- [47]
-				{
 					["message"] = "|cff979797|Hpratcopy|h[00:37:35]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Treex:64:CHANNEL:2|h|cffff7c0aTreex|r|h|cffd8d8d8]|r: Tank lfg BFD",
-					["serverTime"] = 1620758254,
+					["b"] = 0.752941250801086,
 					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758254,
 					["extraData"] = {
 						68, -- [1]
 						false, -- [2]
@@ -693,14 +876,14 @@ Prat3HighCPUPerCharDB = {
 						6, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111336.279,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [48]
+				}, -- [44]
 				{
 					["message"] = "|cff979797|Hpratcopy|h[00:37:42]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Eleonova-Venoxis:68:CHANNEL:2|h|cffffffffEleonova|r|h|cffd8d8d8]|r: Verzauberer mit allen Rezepten sucht Arbeit",
-					["serverTime"] = 1620758261,
+					["b"] = 0.752941250801086,
 					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758261,
 					["extraData"] = {
 						68, -- [1]
 						false, -- [2]
@@ -708,14 +891,14 @@ Prat3HighCPUPerCharDB = {
 						8, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111343.579,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [49]
+				}, -- [45]
 				{
 					["message"] = "|cff979797|Hpratcopy|h[00:37:42]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Eleonova-Venoxis:69:CHANNEL:2|h|cffffffffEleonova|r|h|cffd8d8d8]|r: /w oder einfach an der Kiste vor dem OG AH traden",
-					["serverTime"] = 1620758261,
+					["b"] = 0.752941250801086,
 					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758261,
 					["extraData"] = {
 						68, -- [1]
 						false, -- [2]
@@ -723,29 +906,14 @@ Prat3HighCPUPerCharDB = {
 						8, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111343.579,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [50]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:43]|h|r |cff33ff99TradeSkillMaster|r: Sold [Oily Blackmouth]x20 for |cff00ff005|r|cffffd70ag|r |cff00ff0012|r|cffc7c7cfs|r |cff00ff0081|r|cffeda55fc|r to Totemix",
-					["timestamp"] = 111344.303,
-					["serverTime"] = 1620758262,
-				}, -- [51]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:43]|h|r |cff33ff99TradeSkillMaster|r: Sold [Oily Blackmouth]x20 for |cff00ff005|r|cffffd70ag|r |cff00ff0012|r|cffc7c7cfs|r |cff00ff0081|r|cffeda55fc|r to Totemix",
-					["timestamp"] = 111344.53,
-					["serverTime"] = 1620758262,
-				}, -- [52]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:43]|h|r |cff33ff99TradeSkillMaster|r: Total Gold Collected: 10|cffffd70ag|r 25|cffc7c7cfs|r 70|cffeda55fc|r",
-					["timestamp"] = 111344.53,
-					["serverTime"] = 1620758262,
-				}, -- [53]
+				}, -- [46]
 				{
 					["message"] = "|cff979797|Hpratcopy|h[00:37:49]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mowjow:72:CHANNEL:2|h|cffc69b6dMowjow|r|h|cffd8d8d8]|r: geht heute noch ein mc gdkp?",
-					["serverTime"] = 1620758268,
+					["b"] = 0.752941250801086,
 					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758268,
 					["extraData"] = {
 						68, -- [1]
 						false, -- [2]
@@ -753,14 +921,14 @@ Prat3HighCPUPerCharDB = {
 						10, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111350.879,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [54]
+				}, -- [47]
 				{
 					["message"] = "|cff979797|Hpratcopy|h[00:37:52]|h|r You receive item: |cffffffff|Hitem:3013::::::::1:::::::|h[Scroll of Protection]|h|rx2.",
-					["serverTime"] = 1620758271,
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758271,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
@@ -768,19 +936,14 @@ Prat3HighCPUPerCharDB = {
 						5, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111353.639,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [55]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:52]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Scroll of Protection (2)",
-					["timestamp"] = 111353.639,
-					["serverTime"] = 1620758271,
-				}, -- [56]
+				}, -- [48]
 				{
 					["message"] = "|cff979797|Hpratcopy|h[00:37:53]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
-					["serverTime"] = 1620758272,
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758272,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
@@ -788,19 +951,14 @@ Prat3HighCPUPerCharDB = {
 						5, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111353.97,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [57]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:53]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Firefin Snapper (20)",
-					["timestamp"] = 111353.97,
-					["serverTime"] = 1620758272,
-				}, -- [58]
+				}, -- [49]
 				{
 					["message"] = "|cff979797|Hpratcopy|h[00:37:53]|h|r You receive item: |cffffffff|Hitem:3013::::::::1:::::::|h[Scroll of Protection]|h|rx2.",
-					["serverTime"] = 1620758272,
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758272,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
@@ -808,19 +966,14 @@ Prat3HighCPUPerCharDB = {
 						5, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111354.32,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [59]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:53]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Scroll of Protection (2)",
-					["timestamp"] = 111354.32,
-					["serverTime"] = 1620758272,
-				}, -- [60]
+				}, -- [50]
 				{
 					["message"] = "|cff979797|Hpratcopy|h[00:37:53]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
-					["serverTime"] = 1620758272,
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758272,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
@@ -828,19 +981,14 @@ Prat3HighCPUPerCharDB = {
 						5, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111354.67,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [61]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:53]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Firefin Snapper (20)",
-					["timestamp"] = 111354.67,
-					["serverTime"] = 1620758272,
-				}, -- [62]
+				}, -- [51]
 				{
 					["message"] = "|cff979797|Hpratcopy|h[00:37:54]|h|r You receive item: |cffffffff|Hitem:3013::::::::1:::::::|h[Scroll of Protection]|h|rx2.",
-					["serverTime"] = 1620758273,
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758273,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
@@ -848,19 +996,14 @@ Prat3HighCPUPerCharDB = {
 						5, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111355.07,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [63]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:54]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Scroll of Protection (2)",
-					["timestamp"] = 111355.07,
-					["serverTime"] = 1620758273,
-				}, -- [64]
+				}, -- [52]
 				{
 					["message"] = "|cff979797|Hpratcopy|h[00:37:54]|h|r You receive item: |cffffffff|Hitem:3013::::::::1:::::::|h[Scroll of Protection]|h|rx2.",
-					["serverTime"] = 1620758273,
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758273,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
@@ -868,19 +1011,14 @@ Prat3HighCPUPerCharDB = {
 						5, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111355.47,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [65]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:54]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Scroll of Protection (2)",
-					["timestamp"] = 111355.47,
-					["serverTime"] = 1620758273,
-				}, -- [66]
+				}, -- [53]
 				{
 					["message"] = "|cff979797|Hpratcopy|h[00:37:54]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
-					["serverTime"] = 1620758273,
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758273,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
@@ -888,19 +1026,14 @@ Prat3HighCPUPerCharDB = {
 						5, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111355.82,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [67]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:54]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Firefin Snapper (20)",
-					["timestamp"] = 111355.82,
-					["serverTime"] = 1620758273,
-				}, -- [68]
+				}, -- [54]
 				{
 					["message"] = "|cff979797|Hpratcopy|h[00:37:55]|h|r You receive item: |cffffffff|Hitem:955::::::::1:::::::|h[Scroll of Intellect]|h|rx2.",
-					["serverTime"] = 1620758274,
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758274,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
@@ -908,19 +1041,14 @@ Prat3HighCPUPerCharDB = {
 						5, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111356.17,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [69]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:55]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Scroll of Intellect (2)",
-					["timestamp"] = 111356.17,
-					["serverTime"] = 1620758274,
-				}, -- [70]
+				}, -- [55]
 				{
 					["message"] = "|cff979797|Hpratcopy|h[00:37:55]|h|r You receive item: |cffffffff|Hitem:955::::::::1:::::::|h[Scroll of Intellect]|h|rx2.",
-					["serverTime"] = 1620758274,
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758274,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
@@ -928,19 +1056,14 @@ Prat3HighCPUPerCharDB = {
 						5, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111356.52,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [71]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:55]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Scroll of Intellect (2)",
-					["timestamp"] = 111356.52,
-					["serverTime"] = 1620758274,
-				}, -- [72]
+				}, -- [56]
 				{
 					["message"] = "|cff979797|Hpratcopy|h[00:37:56]|h|r You receive item: |cffffffff|Hitem:955::::::::1:::::::|h[Scroll of Intellect]|h|rx2.",
-					["serverTime"] = 1620758275,
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758275,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
@@ -948,19 +1071,14 @@ Prat3HighCPUPerCharDB = {
 						5, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111356.92,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [73]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:56]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Scroll of Intellect (2)",
-					["timestamp"] = 111356.92,
-					["serverTime"] = 1620758275,
-				}, -- [74]
+				}, -- [57]
 				{
 					["message"] = "|cff979797|Hpratcopy|h[00:37:56]|h|r You receive item: |cffffffff|Hitem:4404::::::::1:::::::|h[Silver Contact]|h|rx2.",
-					["serverTime"] = 1620758275,
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758275,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
@@ -968,19 +1086,14 @@ Prat3HighCPUPerCharDB = {
 						5, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111357.27,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [75]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:56]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Silver Contact (2)",
-					["timestamp"] = 111357.27,
-					["serverTime"] = 1620758275,
-				}, -- [76]
+				}, -- [58]
 				{
 					["message"] = "|cff979797|Hpratcopy|h[00:37:56]|h|r You receive item: |cffffffff|Hitem:4404::::::::1:::::::|h[Silver Contact]|h|rx2.",
-					["serverTime"] = 1620758275,
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758275,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
@@ -988,19 +1101,14 @@ Prat3HighCPUPerCharDB = {
 						5, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111357.57,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [77]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:56]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Silver Contact (2)",
-					["timestamp"] = 111357.57,
-					["serverTime"] = 1620758275,
-				}, -- [78]
+				}, -- [59]
 				{
 					["message"] = "|cff979797|Hpratcopy|h[00:37:57]|h|r You receive item: |cffffffff|Hitem:4404::::::::1:::::::|h[Silver Contact]|h|rx2.",
-					["serverTime"] = 1620758276,
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758276,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
@@ -1008,19 +1116,14 @@ Prat3HighCPUPerCharDB = {
 						5, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111357.92,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [79]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:57]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Silver Contact (2)",
-					["timestamp"] = 111357.92,
-					["serverTime"] = 1620758276,
-				}, -- [80]
+				}, -- [60]
 				{
 					["message"] = "|cff979797|Hpratcopy|h[00:37:57]|h|r You receive item: |cffffffff|Hitem:1478::::::::1:::::::|h[Scroll of Protection II]|h|rx2.",
-					["serverTime"] = 1620758276,
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758276,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
@@ -1028,19 +1131,14 @@ Prat3HighCPUPerCharDB = {
 						5, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111358.27,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [81]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:57]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Scroll of Protection II (2)",
-					["timestamp"] = 111358.27,
-					["serverTime"] = 1620758276,
-				}, -- [82]
+				}, -- [61]
 				{
 					["message"] = "|cff979797|Hpratcopy|h[00:37:57]|h|r You receive item: |cffffffff|Hitem:13755::::::::1:::::::|h[Winter Squid]|h|rx20.",
-					["serverTime"] = 1620758276,
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758276,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
@@ -1048,19 +1146,14 @@ Prat3HighCPUPerCharDB = {
 						5, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111358.67,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [83]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:57]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Winter Squid (20)",
-					["timestamp"] = 111358.67,
-					["serverTime"] = 1620758276,
-				}, -- [84]
+				}, -- [62]
 				{
 					["message"] = "|cff979797|Hpratcopy|h[00:37:58]|h|r You receive item: |cffffffff|Hitem:4359::::::::1:::::::|h[Handful of Copper Bolts]|h|rx2.",
-					["serverTime"] = 1620758277,
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758277,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
@@ -1068,19 +1161,14 @@ Prat3HighCPUPerCharDB = {
 						5, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111359.07,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [85]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:58]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Handful of Copper Bolts (2)",
-					["timestamp"] = 111359.07,
-					["serverTime"] = 1620758277,
-				}, -- [86]
+				}, -- [63]
 				{
 					["message"] = "|cff979797|Hpratcopy|h[00:38:22]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Sasko:100:CHANNEL:2|h|cff0070ddSasko|r|h|cffd8d8d8]|r: LFM tank, heal und dd für kloster wk",
-					["serverTime"] = 1620758301,
+					["b"] = 0.752941250801086,
 					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758301,
 					["extraData"] = {
 						68, -- [1]
 						false, -- [2]
@@ -1088,14 +1176,14 @@ Prat3HighCPUPerCharDB = {
 						12, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111383.87,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [87]
+				}, -- [64]
 				{
 					["message"] = "|cff979797|Hpratcopy|h[00:38:37]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Luvash:105:CHANNEL:2|h|cfffff468Luvash|r|h|cffd8d8d8]|r: LFM Uldaman Tank/Heal",
-					["serverTime"] = 1620758316,
+					["b"] = 0.752941250801086,
 					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758316,
 					["extraData"] = {
 						68, -- [1]
 						false, -- [2]
@@ -1103,14 +1191,14 @@ Prat3HighCPUPerCharDB = {
 						14, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111398.87,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [88]
+				}, -- [65]
 				{
 					["message"] = "|cff979797|Hpratcopy|h[00:38:41]|h|r You lie down.",
-					["serverTime"] = 1620758320,
+					["b"] = 0.250980406999588,
 					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 116460.954,
+					["serverTime"] = 1620758320,
 					["extraData"] = {
 						12, -- [1]
 						false, -- [2]
@@ -1118,405 +1206,42 @@ Prat3HighCPUPerCharDB = {
 						17, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 111402.839,
+				}, -- [66]
+				{
+					["message"] = "0 days, 1 hours, 24 minutes, 20 seconds",
+					["timestamp"] = 116460.954,
+				}, -- [67]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 116460.954,
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:03:00]|h|r Fishing Buddy v0.7.3 Beta 5 loaded",
+					["timestamp"] = 116460.399,
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:03:05]|h|r HealBot |cff20ff201.13.7.1|r loaded. For help use: |cffffff00 /hb h|r",
+					["r"] = 0.7,
+					["serverTime"] = 1620763385,
+					["timestamp"] = 116466.501,
+					["g"] = 0.7,
+					["b"] = 1,
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:03:08]|h|r You lie down.",
+					["serverTime"] = 1620763388,
+					["r"] = 1,
+					["extraData"] = {
+						12, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 116469.566,
 					["g"] = 0.501960813999176,
 					["b"] = 0.250980406999588,
-				}, -- [89]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:02]|h|r You receive item: |cffffffff|Hitem:1478::::::::1:::::::|h[Scroll of Protection II]|h|rx2.",
-					["serverTime"] = 1620758221,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 111303.133,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [90]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:02]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Scroll of Protection II (2)",
-					["timestamp"] = 111303.133,
-					["serverTime"] = 1620758221,
-				}, -- [91]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:02]|h|r You receive item: |cffffffff|Hitem:4404::::::::1:::::::|h[Silver Contact]|h|rx2.",
-					["serverTime"] = 1620758221,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 111303.379,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [92]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:02]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Silver Contact (2)",
-					["timestamp"] = 111303.379,
-					["serverTime"] = 1620758221,
-				}, -- [93]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:02]|h|r You receive item: |cffffffff|Hitem:4404::::::::1:::::::|h[Silver Contact]|h|rx2.",
-					["serverTime"] = 1620758221,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 111303.679,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [94]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:02]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Silver Contact (2)",
-					["timestamp"] = 111303.679,
-					["serverTime"] = 1620758221,
-				}, -- [95]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:03]|h|r You receive item: |cffffffff|Hitem:4359::::::::1:::::::|h[Handful of Copper Bolts]|h|rx2.",
-					["serverTime"] = 1620758222,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 111303.929,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [96]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:03]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Handful of Copper Bolts (2)",
-					["timestamp"] = 111303.929,
-					["serverTime"] = 1620758222,
-				}, -- [97]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:03]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
-					["serverTime"] = 1620758222,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 111304.279,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [98]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:03]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Firefin Snapper (20)",
-					["timestamp"] = 111304.279,
-					["serverTime"] = 1620758222,
-				}, -- [99]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:03]|h|r You receive item: |cffffffff|Hitem:1478::::::::1:::::::|h[Scroll of Protection II]|h|rx2.",
-					["serverTime"] = 1620758222,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 111304.579,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [100]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:03]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Scroll of Protection II (2)",
-					["timestamp"] = 111304.579,
-					["serverTime"] = 1620758222,
-				}, -- [101]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:04]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
-					["serverTime"] = 1620758223,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 111304.929,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [102]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:04]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Firefin Snapper (20)",
-					["timestamp"] = 111304.929,
-					["serverTime"] = 1620758223,
-				}, -- [103]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:04]|h|r You receive item: |cffffffff|Hitem:4404::::::::1:::::::|h[Silver Contact]|h|rx2.",
-					["serverTime"] = 1620758223,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 111305.229,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [104]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:04]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Silver Contact (2)",
-					["timestamp"] = 111305.229,
-					["serverTime"] = 1620758223,
-				}, -- [105]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:04]|h|r You receive item: |cffffffff|Hitem:4404::::::::1:::::::|h[Silver Contact]|h|rx2.",
-					["serverTime"] = 1620758223,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 111305.529,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [106]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:04]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Silver Contact (2)",
-					["timestamp"] = 111305.529,
-					["serverTime"] = 1620758223,
-				}, -- [107]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:04]|h|r You receive item: |cffffffff|Hitem:4404::::::::1:::::::|h[Silver Contact]|h|rx2.",
-					["serverTime"] = 1620758223,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 111305.829,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [108]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:04]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Silver Contact (2)",
-					["timestamp"] = 111305.829,
-					["serverTime"] = 1620758223,
-				}, -- [109]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:05]|h|r You receive item: |cffffffff|Hitem:1478::::::::1:::::::|h[Scroll of Protection II]|h|rx2.",
-					["serverTime"] = 1620758224,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 111306.129,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [110]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:05]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Scroll of Protection II (2)",
-					["timestamp"] = 111306.129,
-					["serverTime"] = 1620758224,
-				}, -- [111]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:05]|h|r You receive item: |cffffffff|Hitem:4404::::::::1:::::::|h[Silver Contact]|h|rx2.",
-					["serverTime"] = 1620758224,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 111306.479,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [112]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:05]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Silver Contact (2)",
-					["timestamp"] = 111306.479,
-					["serverTime"] = 1620758224,
-				}, -- [113]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:06]|h|r You receive item: |cffffffff|Hitem:4363::::::::1:::::::|h[Copper Modulator]|h|rx2.",
-					["serverTime"] = 1620758225,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 111307.129,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [114]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:06]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Copper Modulator (2)",
-					["timestamp"] = 111307.129,
-					["serverTime"] = 1620758225,
-				}, -- [115]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:06]|h|r You receive item: |cffffffff|Hitem:954::::::::1:::::::|h[Scroll of Strength]|h|rx2.",
-					["serverTime"] = 1620758225,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 111307.529,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [116]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:06]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Scroll of Strength (2)",
-					["timestamp"] = 111307.529,
-					["serverTime"] = 1620758225,
-				}, -- [117]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:06]|h|r You receive item: |cffffffff|Hitem:4364::::::::1:::::::|h[Coarse Blasting Powder]|h|rx2.",
-					["serverTime"] = 1620758225,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 111307.829,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [118]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:06]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Coarse Blasting Powder (2)",
-					["timestamp"] = 111307.829,
-					["serverTime"] = 1620758225,
-				}, -- [119]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:07]|h|r You receive item: |cffffffff|Hitem:13755::::::::1:::::::|h[Winter Squid]|h|rx20.",
-					["serverTime"] = 1620758226,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 111308.229,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [120]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:07]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Winter Squid (20)",
-					["timestamp"] = 111308.229,
-					["serverTime"] = 1620758226,
-				}, -- [121]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:07]|h|r You receive item: |cffffffff|Hitem:13755::::::::1:::::::|h[Winter Squid]|h|rx20.",
-					["serverTime"] = 1620758226,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 111308.629,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [122]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:07]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Winter Squid (20)",
-					["timestamp"] = 111308.629,
-					["serverTime"] = 1620758226,
-				}, -- [123]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:08]|h|r You receive item: |cffffffff|Hitem:3012::::::::1:::::::|h[Scroll of Agility]|h|rx2.",
-					["serverTime"] = 1620758227,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 111308.979,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [124]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:08]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Scroll of Agility (2)",
-					["timestamp"] = 111308.979,
-					["serverTime"] = 1620758227,
-				}, -- [125]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:08]|h|r You receive item: |cffffffff|Hitem:4363::::::::1:::::::|h[Copper Modulator]|h|rx2.",
-					["serverTime"] = 1620758227,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 111309.329,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [126]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:08]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Copper Modulator (2)",
-					["timestamp"] = 111309.329,
-					["serverTime"] = 1620758227,
-				}, -- [127]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:08]|h|r You receive item: |cffffffff|Hitem:4364::::::::1:::::::|h[Coarse Blasting Powder]|h|rx2.",
-					["serverTime"] = 1620758227,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 111309.679,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [128]
+				}, -- [71]
 			},
 			["maxElements"] = 128,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],

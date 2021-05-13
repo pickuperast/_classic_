@@ -7,8 +7,2123 @@ _detalhes_database = {
 		["tabelas"] = {
 			{
 				{
-					["combatId"] = 1,
 					["tipo"] = 2,
+					["combatId"] = 8,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.003132,
+							["damage_from"] = {
+								["Светлолапый бегун"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["total"] = 0.003132,
+							["last_event"] = 0,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.003132,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1620839780,
+							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
+							["nome"] = "Пламбалыкши",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["custom"] = 0,
+							["last_dps"] = 0.000783,
+							["colocacao"] = 1,
+							["tipo"] = 1,
+							["damage_taken"] = 244.003132,
+							["start_time"] = 1620839780,
+							["serial"] = "Player-4474-0328DC33",
+							["classe"] = "HUNTER",
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.005503,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Пламбалыкши"] = 244,
+							},
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["damage_taken"] = 0.005503,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 244.005503,
+							["delay"] = 0,
+							["fight_component"] = true,
+							["total"] = 244.005503,
+							["monster"] = true,
+							["on_hold"] = false,
+							["nome"] = "Светлолапый бегун",
+							["spells"] = {
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 54,
+										["targets"] = {
+											["Пламбалыкши"] = 244,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 244,
+										["n_min"] = 42,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 244,
+										["c_max"] = 0,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["last_event"] = 1620839780,
+							["last_dps"] = 0,
+							["end_time"] = 1620839780,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1620839776,
+							["serial"] = "Creature-0-4480-1-114-3823-00001C0D0D",
+							["dps_started"] = false,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 8,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 8,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 8,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["nome"] = "Пламбалыкши",
+							["grupo"] = true,
+							["pets"] = {
+							},
+							["last_event"] = 1620839780,
+							["classe"] = "HUNTER",
+							["tipo"] = 4,
+							["buff_uptime"] = 0,
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Выслеживание животных"] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = "Выслеживание животных",
+										["uptime"] = 0,
+										["targets"] = {
+										},
+										["appliedamt"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["serial"] = "Player-4474-0328DC33",
+							["buff_uptime_targets"] = {
+							},
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 8,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Пламбалыкши"] = true,
+				},
+				["tempo_start"] = 1620839776,
+				["last_events_tables"] = {
+					{
+						{
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								54, -- [3]
+								1620839776.322, -- [4]
+								199, -- [5]
+								"Светлолапый бегун", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [1]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								49, -- [3]
+								1620839776.322, -- [4]
+								199, -- [5]
+								"Светлолапый бегун", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [2]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								42, -- [3]
+								1620839778.322, -- [4]
+								96, -- [5]
+								"Светлолапый бегун", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [3]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								47, -- [3]
+								1620839778.322, -- [4]
+								96, -- [5]
+								"Светлолапый бегун", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [4]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								52, -- [3]
+								1620839780.322, -- [4]
+								7, -- [5]
+								"Светлолапый бегун", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								45, -- [10]
+							}, -- [5]
+							{
+								3, -- [1]
+								0, -- [2]
+								0, -- [3]
+								0, -- [4]
+								0, -- [5]
+								"Пламбалыкши", -- [6]
+							}, -- [6]
+						}, -- [1]
+						1620839780.322, -- [2]
+						"Пламбалыкши", -- [3]
+						"HUNTER", -- [4]
+						199, -- [5]
+						"0m 4s", -- [6]
+						["dead"] = true,
+						["dead_at"] = 4,
+					}, -- [1]
+				},
+				["alternate_power"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["playing_solo"] = true,
+				["totals"] = {
+					243.991156, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 1,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["totals_grupo"] = {
+					0, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 1,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = false,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "23:16:20",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Светлолапый бегун",
+				["TotalElapsedCombatTime"] = 192861.593,
+				["CombatEndedAt"] = 192861.593,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Пламбалыкши"] = 0.003132,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 192861.593,
+				["combat_id"] = 8,
+				["data_inicio"] = "23:16:16",
+				["overall_added"] = true,
+				["frags"] = {
+				},
+				["TimeData"] = {
+				},
+				["combat_counter"] = 40,
+				["CombatSkillCache"] = {
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 192857.593,
+				["contra"] = "Светлолапый бегун",
+				["spells_cast_timeline"] = {
+				},
+			}, -- [1]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 7,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.001125,
+							["damage_from"] = {
+								["Седой колючешерстный медведь"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["total"] = 0.001125,
+							["last_event"] = 0,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.001125,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1620839587,
+							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
+							["nome"] = "Пламбалыкши",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["custom"] = 0,
+							["last_dps"] = 0.00014011707560078,
+							["colocacao"] = 1,
+							["tipo"] = 1,
+							["damage_taken"] = 216.001125,
+							["start_time"] = 1620839587,
+							["serial"] = "Player-4474-0328DC33",
+							["classe"] = "HUNTER",
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.008454,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Пламбалыкши"] = 216,
+							},
+							["pets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 216.008454,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["total"] = 216.008454,
+							["end_time"] = 1620839587,
+							["damage_taken"] = 0.008454,
+							["nome"] = "Седой колючешерстный медведь",
+							["spells"] = {
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 59,
+										["g_amt"] = 0,
+										["n_max"] = 44,
+										["targets"] = {
+											["Пламбалыкши"] = 216,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 157,
+										["n_min"] = 37,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 216,
+										["c_max"] = 59,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 59,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["tipo"] = 1,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1620839587,
+							["on_hold"] = false,
+							["start_time"] = 1620839579,
+							["serial"] = "Creature-0-4480-1-100-2165-00001C01F0",
+							["monster"] = true,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 7,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["nome"] = "Пламбалыкши",
+							["grupo"] = true,
+							["pets"] = {
+							},
+							["classe"] = "HUNTER",
+							["tipo"] = 4,
+							["serial"] = "Player-4474-0328DC33",
+							["last_event"] = 0,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Пламбалыкши"] = true,
+				},
+				["CombatStartedAt"] = 192854.73,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+					{
+						{
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								38, -- [3]
+								1620839579.947, -- [4]
+								199, -- [5]
+								"Седой колючешерстный медведь", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [1]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								37, -- [3]
+								1620839581.947, -- [4]
+								161, -- [5]
+								"Седой колючешерстный медведь", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [2]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								38, -- [3]
+								1620839583.897, -- [4]
+								124, -- [5]
+								"Седой колючешерстный медведь", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [3]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								59, -- [3]
+								1620839585.947, -- [4]
+								86, -- [5]
+								"Седой колючешерстный медведь", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [4]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								44, -- [3]
+								1620839587.976, -- [4]
+								27, -- [5]
+								"Седой колючешерстный медведь", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								17, -- [10]
+							}, -- [5]
+							{
+								3, -- [1]
+								0, -- [2]
+								0, -- [3]
+								0, -- [4]
+								0, -- [5]
+								"Пламбалыкши", -- [6]
+							}, -- [6]
+						}, -- [1]
+						1620839587.976, -- [2]
+						"Пламбалыкши", -- [3]
+						"HUNTER", -- [4]
+						199, -- [5]
+						"0m 8s", -- [6]
+						["dead"] = true,
+						["dead_at"] = 8.02900000000955,
+					}, -- [1]
+				},
+				["alternate_power"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["playing_solo"] = true,
+				["totals"] = {
+					216, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 1,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["totals_grupo"] = {
+					0, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 1,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = false,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "23:13:08",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Седой колючешерстный медведь",
+				["TotalElapsedCombatTime"] = 192669.247,
+				["CombatEndedAt"] = 192669.247,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Пламбалыкши"] = 0.001125,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 192669.247,
+				["combat_id"] = 7,
+				["data_inicio"] = "23:13:00",
+				["tempo_start"] = 1620839579,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Седой колючешерстный медведь",
+				["combat_counter"] = 39,
+				["CombatSkillCache"] = {
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 192661.218,
+				["TimeData"] = {
+				},
+				["frags"] = {
+				},
+			}, -- [2]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 6,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.0035,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Пламбалыкши"] = 105,
+							},
+							["pets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 105.0035,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["total"] = 105.0035,
+							["end_time"] = 1620839536,
+							["damage_taken"] = 0.0035,
+							["nome"] = "Лунопард",
+							["spells"] = {
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 27,
+										["g_amt"] = 0,
+										["n_max"] = 24,
+										["targets"] = {
+											["Пламбалыкши"] = 105,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 78,
+										["n_min"] = 16,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 105,
+										["c_max"] = 27,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 27,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["tipo"] = 1,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1620839534,
+							["on_hold"] = false,
+							["start_time"] = 1620839528,
+							["serial"] = "Creature-0-4480-1-100-2069-00001C05C6",
+							["monster"] = true,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.00176,
+							["damage_from"] = {
+								["Лунопард"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["total"] = 0.00176,
+							["last_event"] = 0,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.00176,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1620839536,
+							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
+							["nome"] = "Пламбалыкши",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["custom"] = 0,
+							["last_dps"] = 0.000341349883631508,
+							["colocacao"] = 1,
+							["tipo"] = 1,
+							["damage_taken"] = 105.00176,
+							["start_time"] = 1620839536,
+							["serial"] = "Player-4474-0328DC33",
+							["classe"] = "HUNTER",
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 6,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 6,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 6,
+					["_ActorTable"] = {
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 6,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Пламбалыкши"] = true,
+				},
+				["CombatStartedAt"] = 192660.018,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["playing_solo"] = true,
+				["totals"] = {
+					105, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["totals_grupo"] = {
+					0, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = false,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "23:12:16",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Лунопард",
+				["TotalElapsedCombatTime"] = 192617.624,
+				["CombatEndedAt"] = 192617.624,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Пламбалыкши"] = 0.00176,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 192617.624,
+				["combat_id"] = 6,
+				["data_inicio"] = "23:12:09",
+				["tempo_start"] = 1620839528,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Лунопард",
+				["combat_counter"] = 38,
+				["CombatSkillCache"] = {
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 192610.418,
+				["TimeData"] = {
+				},
+				["frags"] = {
+				},
+			}, -- [3]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 5,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.005062,
+							["damage_from"] = {
+								["Землепроходец из племени Чернолесья"] = true,
+								["Заклинатель ветра из племени Чернолесья"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["total"] = 0.005062,
+							["last_event"] = 0,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.005062,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1620839412,
+							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
+							["nome"] = "Пламбалыкши",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["custom"] = 0,
+							["last_dps"] = 0.000381692052481121,
+							["colocacao"] = 1,
+							["tipo"] = 1,
+							["damage_taken"] = 56.005062,
+							["start_time"] = 1620839412,
+							["serial"] = "Player-4474-0328DC33",
+							["classe"] = "HUNTER",
+						}, -- [1]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.004615,
+							["damage_from"] = {
+								["Землепроходец из племени Чернолесья"] = true,
+							},
+							["targets"] = {
+								["Пламбалыкши"] = 15,
+								["Землепроходец из племени Чернолесья"] = 2,
+							},
+							["pets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 17.004615,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["total"] = 17.004615,
+							["end_time"] = 1620839412,
+							["damage_taken"] = 2.004615,
+							["nome"] = "Землепроходец из племени Чернолесья",
+							["spells"] = {
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 15,
+										["targets"] = {
+											["Пламбалыкши"] = 15,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 15,
+										["n_min"] = 15,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 15,
+										["c_max"] = 0,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									["Взмах"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2,
+										["targets"] = {
+											["Землепроходец из племени Чернолесья"] = 2,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2,
+										["n_min"] = 2,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 2,
+										["c_max"] = 0,
+										["id"] = "Взмах",
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
+										["a_dmg"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["tipo"] = 1,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1620839407,
+							["on_hold"] = false,
+							["start_time"] = 1620839400,
+							["serial"] = "Creature-0-4480-1-100-2167-00001C0BBF",
+							["monster"] = true,
+						}, -- [2]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.005042,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Пламбалыкши"] = 41,
+							},
+							["pets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 41.005042,
+							["delay"] = 1620839401,
+							["dps_started"] = false,
+							["total"] = 41.005042,
+							["end_time"] = 1620839412,
+							["damage_taken"] = 0.005042,
+							["nome"] = "Заклинатель ветра из племени Чернолесья",
+							["spells"] = {
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 22,
+										["targets"] = {
+											["Пламбалыкши"] = 41,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 41,
+										["n_min"] = 19,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 41,
+										["c_max"] = 0,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["tipo"] = 1,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1620839401,
+							["on_hold"] = false,
+							["start_time"] = 1620839409,
+							["serial"] = "Creature-0-4480-1-100-2324-00001C08B5",
+							["monster"] = true,
+						}, -- [3]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 5,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 5,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 5,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 2632,
+							["last_event"] = 0,
+							["nome"] = "Землепроходец из племени Чернолесья",
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["spell_cast"] = {
+								["Взмах"] = 1,
+							},
+							["tipo"] = 4,
+							["monster"] = true,
+							["serial"] = "Creature-0-4480-1-100-2167-00001C0BBF",
+							["fight_component"] = true,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 5,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Пламбалыкши"] = true,
+				},
+				["CombatStartedAt"] = 192604.645,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["playing_solo"] = true,
+				["totals"] = {
+					57.991466, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["totals_grupo"] = {
+					0, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = false,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "23:10:12",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Заклинатель ветра из племени Чернолесья",
+				["TotalElapsedCombatTime"] = 192493.777,
+				["CombatEndedAt"] = 192493.777,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Пламбалыкши"] = 0.005062,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 192493.777,
+				["combat_id"] = 5,
+				["data_inicio"] = "23:09:59",
+				["tempo_start"] = 1620839399,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Заклинатель ветра из племени Чернолесья",
+				["combat_counter"] = 37,
+				["CombatSkillCache"] = {
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 192480.515,
+				["TimeData"] = {
+				},
+				["frags"] = {
+				},
+			}, -- [4]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 4,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.001072,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Пламбалыкши"] = 20,
+							},
+							["pets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 20.001072,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["total"] = 20.001072,
+							["end_time"] = 1620839290,
+							["damage_taken"] = 0.001072,
+							["nome"] = "Заклинатель ветра из племени Чернолесья",
+							["spells"] = {
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 20,
+										["targets"] = {
+											["Пламбалыкши"] = 20,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 20,
+										["n_min"] = 20,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 20,
+										["c_max"] = 0,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["tipo"] = 1,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1620839289,
+							["on_hold"] = false,
+							["start_time"] = 1620839289,
+							["serial"] = "Creature-0-4480-1-100-2324-00001C08EA",
+							["monster"] = true,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.004538,
+							["damage_from"] = {
+								["Заклинатель ветра из племени Чернолесья"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["total"] = 0.004538,
+							["last_event"] = 0,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.004538,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1620839290,
+							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
+							["nome"] = "Пламбалыкши",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["custom"] = 0,
+							["last_dps"] = 0.0333676470591663,
+							["colocacao"] = 1,
+							["tipo"] = 1,
+							["damage_taken"] = 20.004538,
+							["start_time"] = 1620839290,
+							["serial"] = "Player-4474-0328DC33",
+							["classe"] = "HUNTER",
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 4,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 4,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 4,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["nome"] = "Пламбалыкши",
+							["grupo"] = true,
+							["pets"] = {
+							},
+							["last_event"] = 1620839289,
+							["classe"] = "HUNTER",
+							["tipo"] = 4,
+							["buff_uptime"] = 0,
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Выслеживание гуманоидов"] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = "Выслеживание гуманоидов",
+										["uptime"] = 0,
+										["targets"] = {
+										},
+										["appliedamt"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["serial"] = "Player-4474-0328DC33",
+							["buff_uptime_targets"] = {
+							},
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 4,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Пламбалыкши"] = true,
+				},
+				["CombatStartedAt"] = 192479.287,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+					{
+						{
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								20, -- [3]
+								1620839290.163, -- [4]
+								16, -- [5]
+								"Заклинатель ветра из племени Чернолесья", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								4, -- [10]
+							}, -- [1]
+							{
+								3, -- [1]
+								0, -- [2]
+								0, -- [3]
+								0, -- [4]
+								0, -- [5]
+								"Пламбалыкши", -- [6]
+							}, -- [2]
+						}, -- [1]
+						1620839290.572, -- [2]
+						"Пламбалыкши", -- [3]
+						"HUNTER", -- [4]
+						199, -- [5]
+						"0m 0s", -- [6]
+						["dead"] = true,
+						["dead_at"] = 0.408999999985099,
+					}, -- [1]
+				},
+				["alternate_power"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["playing_solo"] = true,
+				["totals"] = {
+					20, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 1,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["totals_grupo"] = {
+					0, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 1,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = false,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "23:08:10",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Заклинатель ветра из племени Чернолесья",
+				["TotalElapsedCombatTime"] = 192371.843,
+				["CombatEndedAt"] = 192371.843,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Пламбалыкши"] = 0.004538,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 192371.843,
+				["combat_id"] = 4,
+				["data_inicio"] = "23:08:10",
+				["tempo_start"] = 1620839289,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Заклинатель ветра из племени Чернолесья",
+				["combat_counter"] = 36,
+				["CombatSkillCache"] = {
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 192371.434,
+				["TimeData"] = {
+				},
+				["frags"] = {
+				},
+			}, -- [5]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.001725,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Пламбалыкши"] = 154,
+							},
+							["pets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 154.001725,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["total"] = 154.001725,
+							["end_time"] = 1620839288,
+							["damage_taken"] = 0.001725,
+							["nome"] = "Лунопард",
+							["spells"] = {
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 29,
+										["g_amt"] = 0,
+										["n_max"] = 22,
+										["targets"] = {
+											["Пламбалыкши"] = 154,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 125,
+										["n_min"] = 13,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 154,
+										["c_max"] = 29,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 29,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 7,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["tipo"] = 1,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1620839287,
+							["on_hold"] = false,
+							["start_time"] = 1620839274,
+							["serial"] = "Creature-0-4480-1-100-2069-00001C03E0",
+							["monster"] = true,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.002056,
+							["damage_from"] = {
+								["Лунопард"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["total"] = 0.002056,
+							["last_event"] = 0,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.002056,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1620839288,
+							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
+							["nome"] = "Пламбалыкши",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["custom"] = 0,
+							["last_dps"] = 0.000167208848405957,
+							["colocacao"] = 1,
+							["tipo"] = 1,
+							["damage_taken"] = 154.002056,
+							["start_time"] = 1620839288,
+							["serial"] = "Player-4474-0328DC33",
+							["classe"] = "HUNTER",
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Пламбалыкши"] = true,
+				},
+				["CombatStartedAt"] = 192370.206,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["playing_solo"] = true,
+				["totals"] = {
+					154, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["totals_grupo"] = {
+					0, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = false,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "23:08:08",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Лунопард",
+				["TotalElapsedCombatTime"] = 192369.752,
+				["CombatEndedAt"] = 192369.752,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Пламбалыкши"] = 0.002056,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 192369.752,
+				["combat_id"] = 3,
+				["data_inicio"] = "23:07:55",
+				["tempo_start"] = 1620839274,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Лунопард",
+				["combat_counter"] = 35,
+				["CombatSkillCache"] = {
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 192356.456,
+				["TimeData"] = {
+				},
+				["frags"] = {
+				},
+			}, -- [6]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.001033,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Пламбалыкши"] = 103,
+							},
+							["pets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 103.001033,
+							["delay"] = 1620839239,
+							["dps_started"] = false,
+							["total"] = 103.001033,
+							["end_time"] = 1620839252,
+							["damage_taken"] = 0.001033,
+							["nome"] = "Крепкозуб Темного берега",
+							["spells"] = {
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 41,
+										["g_amt"] = 0,
+										["n_max"] = 26,
+										["targets"] = {
+											["Пламбалыкши"] = 103,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 62,
+										["n_min"] = 17,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 103,
+										["c_max"] = 41,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 41,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									["Пронзенная броня"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = "Пронзенная броня",
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_amt"] = 0,
+										["a_dmg"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["tipo"] = 1,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1620839239,
+							["on_hold"] = false,
+							["start_time"] = 1620839245,
+							["serial"] = "Creature-0-4480-1-100-2185-00001BF1C0",
+							["monster"] = true,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.008174,
+							["damage_from"] = {
+								["Крепкозуб Темного берега"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["total"] = 0.008174,
+							["last_event"] = 0,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.008174,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1620839252,
+							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
+							["nome"] = "Пламбалыкши",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["custom"] = 0,
+							["last_dps"] = 0.00137285858246605,
+							["colocacao"] = 1,
+							["tipo"] = 1,
+							["damage_taken"] = 103.008174,
+							["start_time"] = 1620839252,
+							["serial"] = "Player-4474-0328DC33",
+							["classe"] = "HUNTER",
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 68168,
+							["last_event"] = 0,
+							["nome"] = "Крепкозуб Темного берега",
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["spell_cast"] = {
+								["Пронзенная броня"] = 1,
+							},
+							["tipo"] = 4,
+							["monster"] = true,
+							["serial"] = "Creature-0-4480-1-100-2185-00001BF1C0",
+							["fight_component"] = true,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Пламбалыкши"] = true,
+				},
+				["CombatStartedAt"] = 192355.253,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["playing_solo"] = true,
+				["totals"] = {
+					103, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["totals_grupo"] = {
+					0, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = false,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "23:07:33",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Крепкозуб Темного берега",
+				["TotalElapsedCombatTime"] = 192334.153,
+				["CombatEndedAt"] = 192334.153,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Пламбалыкши"] = 0.008174,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 192334.153,
+				["combat_id"] = 2,
+				["data_inicio"] = "23:07:14",
+				["tempo_start"] = 1620839233,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Крепкозуб Темного берега",
+				["combat_counter"] = 34,
+				["CombatSkillCache"] = {
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 192315.236,
+				["TimeData"] = {
+				},
+				["frags"] = {
+				},
+			}, -- [7]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -18,40 +2133,39 @@ _detalhes_database = {
 							},
 							["targets"] = {
 							},
-							["friendlyfire"] = {
-							},
 							["pets"] = {
 							},
-							["colocacao"] = 1,
+							["classe"] = "HUNTER",
+							["tipo"] = 1,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.001792,
-							["on_hold"] = false,
+							["serial"] = "Player-4474-0328DC33",
 							["dps_started"] = false,
 							["total"] = 0.001792,
-							["classe"] = "HUNTER",
-							["serial"] = "Player-4474-0328DC33",
+							["friendlyfire"] = {
+							},
+							["damage_taken"] = 107.001792,
 							["nome"] = "Пламбалыкши",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["end_time"] = 1620793502,
+							["colocacao"] = 1,
 							["last_dps"] = 0.000119826145102075,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 107.001792,
+							["last_event"] = 0,
+							["on_hold"] = false,
 							["start_time"] = 1620793502,
 							["delay"] = 0,
-							["last_event"] = 0,
+							["end_time"] = 1620793502,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.008668,
-							["monster"] = true,
 							["damage_from"] = {
 							},
 							["targets"] = {
@@ -59,19 +2173,20 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["fight_component"] = true,
-							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["on_hold"] = false,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 107.008668,
-							["on_hold"] = false,
-							["dps_started"] = false,
-							["total"] = 107.008668,
-							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-4480-1-100-2185-00049B2AA6",
+							["fight_component"] = true,
+							["total"] = 107.008668,
+							["monster"] = true,
+							["friendlyfire"] = {
+							},
 							["nome"] = "Крепкозуб Темного берега",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									["!Melee"] = {
 										["c_amt"] = 0,
@@ -94,13 +2209,13 @@ _detalhes_database = {
 										["spellschool"] = 1,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 5,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 0,
 									},
 									["Пронзенная броня"] = {
 										["c_amt"] = 0,
@@ -123,49 +2238,49 @@ _detalhes_database = {
 										["MISS"] = 1,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["tipo"] = 1,
 							["end_time"] = 1620793502,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
+							["last_event"] = 1620793500,
 							["damage_taken"] = 0.008668,
 							["start_time"] = 1620793487,
 							["delay"] = 0,
-							["last_event"] = 1620793500,
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1,
 					["tipo"] = 3,
+					["combatId"] = 1,
 					["_ActorTable"] = {
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1,
 					["tipo"] = 7,
+					["combatId"] = 1,
 					["_ActorTable"] = {
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1,
 					["tipo"] = 9,
+					["combatId"] = 1,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 68168,
-							["nome"] = "Крепкозуб Темного берега",
 							["tipo"] = 4,
+							["nome"] = "Крепкозуб Темного берега",
 							["pets"] = {
 							},
 							["fight_component"] = true,
@@ -180,23 +2295,20 @@ _detalhes_database = {
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1,
 					["tipo"] = 2,
+					["combatId"] = 1,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
 				["raid_roster"] = {
 					["Пламбалыкши"] = true,
 				},
-				["last_events_tables"] = {
-				},
+				["CombatStartedAt"] = 192313.553,
 				["overall_added"] = true,
-				["cleu_timeline"] = {
+				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["tempo_start"] = 1620793487,
-				["enemy"] = "Крепкозуб Темного берега",
 				["combat_counter"] = 32,
 				["playing_solo"] = true,
 				["totals"] = {
@@ -212,10 +2324,10 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
@@ -224,16 +2336,51 @@ _detalhes_database = {
 				},
 				["player_last_events"] = {
 				},
-				["cleu_events"] = {
-					["n"] = 1,
+				["frags_need_refresh"] = false,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "10:25:02",
+				["cleu_timeline"] = {
 				},
+				["enemy"] = "Крепкозуб Темного берега",
+				["TotalElapsedCombatTime"] = 146583.802,
 				["CombatEndedAt"] = 146583.802,
 				["aura_timeline"] = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "10:24:47",
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Пламбалыкши"] = 0.001792,
+						}, -- [1]
+					},
+				},
 				["end_time"] = 146583.802,
+				["combat_id"] = 1,
+				["spells_cast_timeline"] = {
+				},
+				["tempo_start"] = 1620793487,
+				["frags"] = {
+				},
+				["contra"] = "Крепкозуб Темного берега",
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
 				["totals_grupo"] = {
 					0, -- [1]
 					0, -- [2]
@@ -247,49 +2394,19 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 				},
-				["combat_id"] = 1,
-				["TotalElapsedCombatTime"] = 146583.802,
-				["frags_need_refresh"] = false,
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Пламбалыкши"] = 0.001792,
-						}, -- [1]
-					},
-				},
-				["frags"] = {
-				},
-				["data_fim"] = "10:25:02",
-				["instance_type"] = "none",
-				["CombatSkillCache"] = {
-				},
-				["spells_cast_timeline"] = {
-				},
 				["start_time"] = 146568.847,
-				["contra"] = "Крепкозуб Темного берега",
 				["TimeData"] = {
 				},
-			}, -- [1]
+				["data_inicio"] = "10:24:47",
+			}, -- [8]
 		},
 	},
 	["last_version"] = "v1.13.6.216",
@@ -447,7 +2564,7 @@ _detalhes_database = {
 			},
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["font_size"] = 10,
+			["y"] = 3.8146972656250e-05,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -457,10 +2574,6 @@ _detalhes_database = {
 			},
 			["main_frame_strata"] = "LOW",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["use_spark"] = true,
-			["y"] = 3.8146972656250e-05,
-			["x"] = 6.1035156250e-05,
-			["font_face"] = "Friz Quadrata TT",
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -472,6 +2585,10 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
+			["font_size"] = 10,
+			["x"] = 6.1035156250e-05,
+			["font_face"] = "Friz Quadrata TT",
+			["use_spark"] = true,
 			["author"] = "Details! Team",
 			["point"] = "CENTER",
 			["row_height"] = 20,
@@ -485,15 +2602,15 @@ _detalhes_database = {
 		["channel"] = "SELF",
 		["reverse"] = false,
 	},
-	["last_day"] = "12",
+	["last_day"] = "13",
 	["benchmark_db"] = {
 		["frame"] = {
 		},
 	},
 	["character_data"] = {
-		["logons"] = 10,
+		["logons"] = 22,
 	},
-	["combat_id"] = 1,
+	["combat_id"] = 8,
 	["savedStyles"] = {
 	},
 	["local_instances_config"] = {
@@ -518,7 +2635,7 @@ _detalhes_database = {
 					["y"] = -194.173751831055,
 					["x"] = -181.600982666016,
 					["w"] = 310.000122070313,
-					["h"] = 158.000091552734,
+					["h"] = 158.000076293945,
 				},
 				["solo"] = {
 					["y"] = 2,
@@ -542,46 +2659,44 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["flag_original"] = 68168,
-					["totalabsorbed"] = 0.010412,
-					["on_hold"] = false,
+					["totalabsorbed"] = 0.011445,
 					["damage_from"] = {
 					},
 					["targets"] = {
-						["Пламбалыкши"] = 107,
+						["Пламбалыкши"] = 210,
 					},
 					["pets"] = {
 					},
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["monster"] = true,
+					["on_hold"] = false,
+					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
-					["total_without_pet"] = 107.010412,
-					["last_event"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1620793502,
-					["friendlyfire"] = {
-					},
-					["friendlyfire_total"] = 0,
+					["total_without_pet"] = 210.011445,
+					["serial"] = "Creature-0-4480-1-100-2185-00049B2AA6",
+					["fight_component"] = true,
+					["total"] = 210.011445,
+					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
 					["nome"] = "Крепкозуб Темного берега",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							["!Melee"] = {
-								["c_amt"] = 0,
+								["c_amt"] = 1,
 								["b_amt"] = 0,
-								["c_dmg"] = 0,
+								["c_dmg"] = 41,
 								["g_amt"] = 0,
 								["n_max"] = 31,
 								["targets"] = {
-									["Пламбалыкши"] = 107,
+									["Пламбалыкши"] = 210,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 107,
+								["n_dmg"] = 169,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 5,
-								["total"] = 107,
-								["c_max"] = 0,
+								["counter"] = 9,
+								["total"] = 210,
+								["c_max"] = 41,
 								["id"] = "!Melee",
 								["r_dmg"] = 0,
 								["a_dmg"] = 0,
@@ -590,9 +2705,9 @@ _detalhes_database = {
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 5,
-								["r_amt"] = 0,
+								["n_amt"] = 8,
 								["c_min"] = 0,
+								["r_amt"] = 0,
 							},
 							["Пронзенная броня"] = {
 								["c_amt"] = 0,
@@ -615,31 +2730,38 @@ _detalhes_database = {
 								["MISS"] = 1,
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["successful_casted"] = 1,
+								["c_min"] = 0,
+								["successful_casted"] = 2,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
+								["a_amt"] = 0,
 								["r_amt"] = 0,
-								["c_min"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["monster"] = true,
-					["total"] = 107.010412,
-					["serial"] = "Creature-0-4480-1-100-2185-00049B2AA6",
+					["last_event"] = 0,
+					["damage_taken"] = 0.011445,
+					["end_time"] = 1620793502,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 0.010412,
-					["start_time"] = 1620793484,
+					["friendlyfire"] = {
+					},
+					["start_time"] = 1620793477,
 					["delay"] = 0,
-					["last_dps"] = 0,
+					["dps_started"] = false,
 				}, -- [1]
 				{
 					["flag_original"] = 1297,
-					["totalabsorbed"] = 0.003599,
+					["totalabsorbed"] = 0.029446,
 					["damage_from"] = {
+						["Лунопард"] = true,
+						["Заклинатель ветра из племени Чернолесья"] = true,
+						["Светлолапый бегун"] = true,
 						["Крепкозуб Темного берега"] = true,
+						["Землепроходец из племени Чернолесья"] = true,
+						["Седой колючешерстный медведь"] = true,
 					},
 					["targets"] = {
 					},
@@ -649,29 +2771,389 @@ _detalhes_database = {
 					["classe"] = "HUNTER",
 					["raid_targets"] = {
 					},
-					["total_without_pet"] = 0.003599,
-					["last_event"] = 0,
+					["total_without_pet"] = 0.029446,
+					["friendlyfire_total"] = 0,
 					["dps_started"] = false,
 					["end_time"] = 1620793502,
-					["friendlyfire_total"] = 0,
-					["friendlyfire"] = {
-					},
+					["serial"] = "Player-4474-0328DC33",
+					["total"] = 0.029446,
 					["nome"] = "Пламбалыкши",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 2,
 					},
 					["grupo"] = true,
-					["total"] = 0.003599,
-					["serial"] = "Player-4474-0328DC33",
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
 					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 107.003599,
+					["damage_taken"] = 1005.029446,
 					["start_time"] = 1620793499,
 					["delay"] = 0,
 					["last_dps"] = 0,
 				}, -- [2]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 0.010522,
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Пламбалыкши"] = 259,
+					},
+					["pets"] = {
+					},
+					["dps_started"] = false,
+					["damage_taken"] = 0.010522,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 259.010522,
+					["delay"] = 0,
+					["monster"] = true,
+					["end_time"] = 1620839288,
+					["friendlyfire_total"] = 0,
+					["on_hold"] = false,
+					["nome"] = "Лунопард",
+					["spells"] = {
+						["_ActorTable"] = {
+							["!Melee"] = {
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["c_dmg"] = 56,
+								["g_amt"] = 0,
+								["n_max"] = 24,
+								["targets"] = {
+									["Пламбалыкши"] = 259,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 203,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 13,
+								["total"] = 259,
+								["c_max"] = 29,
+								["id"] = "!Melee",
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 11,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["tipo"] = 1,
+					["friendlyfire"] = {
+					},
+					["total"] = 259.010522,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["last_dps"] = 0,
+					["start_time"] = 1620839263,
+					["serial"] = "Creature-0-4480-1-100-2069-00001C03E0",
+					["fight_component"] = true,
+				}, -- [3]
+				{
+					["flag_original"] = 2632,
+					["totalabsorbed"] = 0.008762,
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Пламбалыкши"] = 61,
+					},
+					["pets"] = {
+					},
+					["dps_started"] = false,
+					["damage_taken"] = 0.008762,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 61.008762,
+					["delay"] = 0,
+					["monster"] = true,
+					["end_time"] = 1620839290,
+					["friendlyfire_total"] = 0,
+					["on_hold"] = false,
+					["nome"] = "Заклинатель ветра из племени Чернолесья",
+					["spells"] = {
+						["_ActorTable"] = {
+							["!Melee"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 22,
+								["targets"] = {
+									["Пламбалыкши"] = 61,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 61,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 3,
+								["total"] = 61,
+								["c_max"] = 0,
+								["id"] = "!Melee",
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 3,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["tipo"] = 1,
+					["friendlyfire"] = {
+					},
+					["total"] = 61.008762,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["last_dps"] = 0,
+					["start_time"] = 1620839283,
+					["serial"] = "Creature-0-4480-1-100-2324-00001C08EA",
+					["fight_component"] = true,
+				}, -- [4]
+				{
+					["flag_original"] = 2632,
+					["totalabsorbed"] = 0.006097,
+					["damage_from"] = {
+						["Землепроходец из племени Чернолесья"] = true,
+					},
+					["targets"] = {
+						["Пламбалыкши"] = 15,
+						["Землепроходец из племени Чернолесья"] = 2,
+					},
+					["pets"] = {
+					},
+					["dps_started"] = false,
+					["damage_taken"] = 2.006097,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 17.006097,
+					["delay"] = 0,
+					["monster"] = true,
+					["end_time"] = 1620839412,
+					["friendlyfire_total"] = 0,
+					["on_hold"] = false,
+					["nome"] = "Землепроходец из племени Чернолесья",
+					["spells"] = {
+						["_ActorTable"] = {
+							["!Melee"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 15,
+								["targets"] = {
+									["Пламбалыкши"] = 15,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 15,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 15,
+								["c_max"] = 0,
+								["id"] = "!Melee",
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 1,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							["Взмах"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 2,
+								["targets"] = {
+									["Землепроходец из племени Чернолесья"] = 2,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 2,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 2,
+								["c_max"] = 0,
+								["id"] = "Взмах",
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["b_dmg"] = 0,
+								["n_amt"] = 1,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["tipo"] = 1,
+					["friendlyfire"] = {
+					},
+					["total"] = 17.006097,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["last_dps"] = 0,
+					["start_time"] = 1620839397,
+					["serial"] = "Creature-0-4480-1-100-2167-00001C0BBF",
+					["fight_component"] = true,
+				}, -- [5]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 0.014662,
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Пламбалыкши"] = 216,
+					},
+					["pets"] = {
+					},
+					["dps_started"] = false,
+					["damage_taken"] = 0.014662,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 216.014662,
+					["delay"] = 0,
+					["monster"] = true,
+					["end_time"] = 1620839588,
+					["friendlyfire_total"] = 0,
+					["on_hold"] = false,
+					["nome"] = "Седой колючешерстный медведь",
+					["spells"] = {
+						["_ActorTable"] = {
+							["!Melee"] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 59,
+								["g_amt"] = 0,
+								["n_max"] = 44,
+								["targets"] = {
+									["Пламбалыкши"] = 216,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 157,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 5,
+								["total"] = 216,
+								["c_max"] = 59,
+								["id"] = "!Melee",
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 4,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["tipo"] = 1,
+					["friendlyfire"] = {
+					},
+					["total"] = 216.014662,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["last_dps"] = 0,
+					["start_time"] = 1620839577,
+					["serial"] = "Creature-0-4480-1-100-2165-00001C01F0",
+					["fight_component"] = true,
+				}, -- [6]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 0.011169,
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Пламбалыкши"] = 244,
+					},
+					["pets"] = {
+					},
+					["dps_started"] = false,
+					["damage_taken"] = 0.011169,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 244.011169,
+					["delay"] = 0,
+					["monster"] = true,
+					["end_time"] = 1620839780,
+					["friendlyfire_total"] = 0,
+					["on_hold"] = false,
+					["nome"] = "Светлолапый бегун",
+					["spells"] = {
+						["_ActorTable"] = {
+							["!Melee"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 54,
+								["targets"] = {
+									["Пламбалыкши"] = 244,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 244,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 5,
+								["total"] = 244,
+								["c_max"] = 0,
+								["id"] = "!Melee",
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 5,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["tipo"] = 1,
+					["friendlyfire"] = {
+					},
+					["total"] = 244.011169,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["last_dps"] = 0,
+					["start_time"] = 1620839773,
+					["serial"] = "Creature-0-4480-1-114-3823-00001C0D0D",
+					["fight_component"] = true,
+				}, -- [7]
 			},
 		}, -- [1]
 		{
@@ -694,7 +3176,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["spell_cast"] = {
-						["Пронзенная броня"] = 1,
+						["Пронзенная броня"] = 2,
 					},
 					["flag_original"] = 68168,
 					["last_event"] = 0,
@@ -702,6 +3184,60 @@ _detalhes_database = {
 					["serial"] = "Creature-0-4480-1-100-2185-00049B2AA6",
 					["classe"] = "UNKNOW",
 				}, -- [1]
+				{
+					["flag_original"] = 1297,
+					["nome"] = "Пламбалыкши",
+					["grupo"] = true,
+					["pets"] = {
+					},
+					["classe"] = "HUNTER",
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["buff_uptime"] = 0,
+					["buff_uptime_spells"] = {
+						["_ActorTable"] = {
+							["Выслеживание гуманоидов"] = {
+								["counter"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 0,
+								["id"] = "Выслеживание гуманоидов",
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							["Выслеживание животных"] = {
+								["counter"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 0,
+								["id"] = "Выслеживание животных",
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+						},
+						["tipo"] = 9,
+					},
+					["serial"] = "Player-4474-0328DC33",
+					["buff_uptime_targets"] = {
+					},
+				}, -- [2]
+				{
+					["monster"] = true,
+					["last_event"] = 0,
+					["nome"] = "Землепроходец из племени Чернолесья",
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["flag_original"] = 2632,
+					["tipo"] = 4,
+					["fight_component"] = true,
+					["serial"] = "Creature-0-4480-1-100-2167-00001C0BBF",
+					["spell_cast"] = {
+						["Взмах"] = 1,
+					},
+				}, -- [3]
 			},
 		}, -- [4]
 		{
@@ -716,9 +3252,11 @@ _detalhes_database = {
 		},
 		["alternate_power"] = {
 		},
+		["spells_cast_timeline"] = {
+		},
 		["combat_counter"] = 31,
 		["totals"] = {
-			107.01046, -- [1]
+			1007.067251, -- [1]
 			0, -- [2]
 			{
 				0, -- [1]
@@ -730,10 +3268,10 @@ _detalhes_database = {
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["debuff_uptime"] = 0,
 				["cooldowns_defensive"] = 0,
-				["interrupt"] = 0,
 				["dispell"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
 				["cc_break"] = 0,
 				["dead"] = 0,
 			}, -- [4]
@@ -742,28 +3280,18 @@ _detalhes_database = {
 		},
 		["player_last_events"] = {
 		},
-		["spells_cast_timeline"] = {
-		},
 		["frags_need_refresh"] = false,
 		["aura_timeline"] = {
 		},
 		["__call"] = {
 		},
 		["data_inicio"] = "10:24:47",
-		["end_time"] = 146583.802,
+		["end_time"] = 192861.593,
 		["cleu_events"] = {
 			["n"] = 1,
 		},
-		["segments_added"] = {
-			{
-				["elapsed"] = 14.9549999999872,
-				["type"] = 0,
-				["name"] = "Крепкозуб Темного берега",
-				["clock"] = "10:24:47",
-			}, -- [1]
-		},
 		["totals_grupo"] = {
-			0.001792, -- [1]
+			0.027639, -- [1]
 			0, -- [2]
 			{
 				0, -- [1]
@@ -775,41 +3303,93 @@ _detalhes_database = {
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["debuff_uptime"] = 0,
 				["cooldowns_defensive"] = 0,
-				["interrupt"] = 0,
 				["dispell"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
 				["cc_break"] = 0,
 				["dead"] = 0,
 			}, -- [4]
 		},
+		["overall_refreshed"] = true,
 		["frags"] = {
 		},
-		["data_fim"] = "10:25:02",
-		["overall_enemy_name"] = "Крепкозуб Темного берега",
+		["hasSaved"] = true,
+		["segments_added"] = {
+			{
+				["elapsed"] = 4,
+				["type"] = 0,
+				["name"] = "Светлолапый бегун",
+				["clock"] = "23:16:16",
+			}, -- [1]
+			{
+				["elapsed"] = 8.02900000000955,
+				["type"] = 0,
+				["name"] = "Седой колючешерстный медведь",
+				["clock"] = "23:13:00",
+			}, -- [2]
+			{
+				["elapsed"] = 7.20600000000559,
+				["type"] = 0,
+				["name"] = "Лунопард",
+				["clock"] = "23:12:09",
+			}, -- [3]
+			{
+				["elapsed"] = 13.2619999999879,
+				["type"] = 0,
+				["name"] = "Заклинатель ветра из племени Чернолесья",
+				["clock"] = "23:09:59",
+			}, -- [4]
+			{
+				["elapsed"] = 0.408999999985099,
+				["type"] = 0,
+				["name"] = "Заклинатель ветра из племени Чернолесья",
+				["clock"] = "23:08:10",
+			}, -- [5]
+			{
+				["elapsed"] = 13.2960000000021,
+				["type"] = 0,
+				["name"] = "Лунопард",
+				["clock"] = "23:07:55",
+			}, -- [6]
+			{
+				["elapsed"] = 18.9169999999867,
+				["type"] = 0,
+				["name"] = "Крепкозуб Темного берега",
+				["clock"] = "23:07:14",
+			}, -- [7]
+			{
+				["elapsed"] = 14.9549999999872,
+				["type"] = 0,
+				["name"] = "Крепкозуб Темного берега",
+				["clock"] = "10:24:47",
+			}, -- [8]
+		},
+		["data_fim"] = "23:16:20",
+		["overall_enemy_name"] = "-- x -- x --",
 		["CombatSkillCache"] = {
-		},
-		["cleu_timeline"] = {
-		},
-		["start_time"] = 146568.847,
-		["TimeData"] = {
 		},
 		["PhaseData"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 			}, -- [1]
+			["damage_section"] = {
+			},
 			["heal_section"] = {
 			},
 			["heal"] = {
 			},
-			["damage_section"] = {
-			},
 			["damage"] = {
 			},
 		},
+		["start_time"] = 192781.519,
+		["TimeData"] = {
+		},
+		["cleu_timeline"] = {
+		},
 	},
-	["combat_counter"] = 32,
+	["combat_counter"] = 51,
 	["announce_firsthit"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",

@@ -1,7 +1,13 @@
 
 _detalhes_global = {
 	["npcid_pool"] = {
+		[12903] = "Стражник заставы Расщепленного Дерева",
+		[2324] = "Заклинатель ветра из племени Чернолесья",
 		[2185] = "Крепкозуб Темного берега",
+		[2165] = "Седой колючешерстный медведь",
+		[3823] = "Светлолапый бегун",
+		[2167] = "Землепроходец из племени Чернолесья",
+		[2069] = "Лунопард",
 	},
 	["death_recap"] = {
 		["show_segments"] = false,
@@ -10,6 +16,8 @@ _detalhes_global = {
 		["relevance_time"] = 7,
 	},
 	["spell_pool"] = {
+		["Выслеживание животных"] = 3,
+		["Выслеживание гуманоидов"] = 3,
 	},
 	["encounter_spell_pool"] = {
 	},
@@ -324,8 +332,8 @@ _detalhes_global = {
 				["line_height"] = 17,
 				["tooltip_max_targets"] = 2,
 				["icon_size"] = {
-					["W"] = 13,
-					["H"] = 13,
+					["W"] = 17,
+					["H"] = 17,
 				},
 				["tooltip_max_pets"] = 2,
 				["anchor_relative"] = "top",
@@ -343,7 +351,7 @@ _detalhes_global = {
 					0.196, -- [1]
 					0.196, -- [2]
 					0.196, -- [3]
-					0.8697, -- [4]
+					0.8, -- [4]
 				},
 				["submenu_wallpaper"] = true,
 				["fontsize_title"] = 10,
@@ -468,7 +476,7 @@ _detalhes_global = {
 							["y"] = -194.173751831055,
 							["x"] = -181.600982666016,
 							["w"] = 310.000122070313,
-							["h"] = 158.000091552734,
+							["h"] = 158.000076293945,
 						},
 						["solo"] = {
 							["y"] = 2,
@@ -493,7 +501,7 @@ _detalhes_global = {
 						1, -- [4]
 					},
 					["toolbar_icon_file"] = "Interface\\AddOns\\Details\\images\\toolbar_icons",
-					["micro_displays_locked"] = true,
+					["skin_custom"] = "",
 					["tooltip"] = {
 						["n_abilities"] = 3,
 						["n_enemies"] = 3,
@@ -693,7 +701,10 @@ _detalhes_global = {
 						},
 						["left"] = "DETAILS_STATUSBAR_PLUGIN_PSEGMENT",
 					},
-					["switch_tank_in_combat"] = false,
+					["instance_button_anchor"] = {
+						-27, -- [1]
+						1, -- [2]
+					},
 					["bg_alpha"] = 0.183960914611816,
 					["__locked"] = false,
 					["menu_alpha"] = {
@@ -703,7 +714,7 @@ _detalhes_global = {
 						["ignorebars"] = false,
 						["onleave"] = 1,
 					},
-					["skin_custom"] = "",
+					["switch_tank_in_combat"] = false,
 					["__was_opened"] = true,
 					["strata"] = "LOW",
 					["clickthrough_incombatonly"] = true,
@@ -724,8 +735,8 @@ _detalhes_global = {
 					},
 					["libwindow"] = {
 						["y"] = 60.7392578125,
-						["x"] = -181.600997924805,
-						["point"] = "BOTTOM",
+						["x"] = 108.616348266602,
+						["point"] = "BOTTOMLEFT",
 						["scale"] = 1,
 					},
 					["statusbar_info"] = {
@@ -744,19 +755,12 @@ _detalhes_global = {
 					},
 					["bars_sort_direction"] = 1,
 					["show_sidebars"] = false,
-					["instance_button_anchor"] = {
-						-27, -- [1]
-						1, -- [2]
-					},
-					["switch_damager_in_combat"] = false,
-					["grab_on_top"] = false,
-					["version"] = 3,
-					["auto_current"] = true,
-					["clickthrough_rows"] = false,
 					["menu_anchor_down"] = {
 						16, -- [1]
 						-3, -- [2]
 					},
+					["switch_damager_in_combat"] = false,
+					["grab_on_top"] = false,
 					["row_info"] = {
 						["textR_outline"] = false,
 						["spec_file"] = "Interface\\AddOns\\Details\\images\\spec_icons_normal",
@@ -855,13 +859,17 @@ _detalhes_global = {
 						["textR_separator"] = "NONE",
 						["texture_custom_file"] = "Interface\\",
 					},
+					["auto_current"] = true,
+					["version"] = 3,
+					["clickthrough_rows"] = false,
+					["bars_inverted"] = false,
 					["hide_in_combat"] = false,
 					["posicao"] = {
 						["normal"] = {
 							["y"] = -194.173751831055,
 							["x"] = -181.600982666016,
 							["w"] = 310.000122070313,
-							["h"] = 158.000091552734,
+							["h"] = 158.000076293945,
 						},
 						["solo"] = {
 							["y"] = 2,
@@ -870,11 +878,11 @@ _detalhes_global = {
 							["h"] = 200,
 						},
 					},
-					["bars_inverted"] = false,
 					["auto_hide_menu"] = {
 						["left"] = false,
 						["right"] = false,
 					},
+					["micro_displays_locked"] = true,
 					["wallpaper"] = {
 						["enabled"] = false,
 						["texcoord"] = {
@@ -1439,8 +1447,8 @@ _detalhes_global = {
 	},
 	["tutorial"] = {
 		["unlock_button"] = 0,
-		["main_help_button"] = 10,
-		["logons"] = 10,
+		["main_help_button"] = 22,
+		["logons"] = 22,
 		["version_announce"] = 0,
 		["bookmark_tutorial"] = false,
 		["ctrl_click_close_tutorial"] = false,

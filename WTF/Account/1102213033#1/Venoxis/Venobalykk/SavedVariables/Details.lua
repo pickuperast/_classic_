@@ -23,18 +23,17 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1618506766,
+							["total"] = 0.004074,
 							["last_event"] = 0,
-							["friendlyfire_total"] = 0,
+							["classe"] = "HUNTER",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004074,
 							["delay"] = 0,
 							["dps_started"] = false,
-							["total"] = 0.004074,
+							["end_time"] = 1618506766,
+							["damage_taken"] = 1871.004074,
 							["on_hold"] = false,
-							["friendlyfire"] = {
-							},
 							["nome"] = "Venobalykk",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -46,10 +45,11 @@ _detalhes_database = {
 							["last_dps"] = 0.000626769230769231,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["damage_taken"] = 1835.004074,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1618506766,
 							["serial"] = "Player-4477-0303F15F",
-							["classe"] = "HUNTER",
+							["friendlyfire_total"] = 0,
 						}, -- [1]
 						{
 							["flag_original"] = 66888,
@@ -68,7 +68,7 @@ _detalhes_database = {
 							},
 							["total_without_pet"] = 136.007213,
 							["classe"] = "UNGROUPPLAYER",
-							["dps_started"] = true,
+							["fight_component"] = true,
 							["total"] = 136.007213,
 							["delay"] = 1618506775,
 							["nome"] = "Fräse",
@@ -145,7 +145,7 @@ _detalhes_database = {
 							["on_hold"] = true,
 							["start_time"] = 1618506760,
 							["serial"] = "Player-4477-02FB963B",
-							["fight_component"] = true,
+							["dps_started"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -186,7 +186,7 @@ _detalhes_database = {
 				},
 				["playing_solo"] = true,
 				["totals"] = {
-					135.910542999999, -- [1]
+					135.899753999999, -- [1]
 					0, -- [2]
 					{
 						-0.00849100000000025, -- [1]
@@ -499,6 +499,16 @@ _detalhes_database = {
 							-1, -- [10]
 						}, -- [24]
 						{
+							true, -- [1]
+							"Falling", -- [2]
+							36, -- [3]
+							1620839161.698, -- [4]
+							457, -- [5]
+							"Environment (Falling)", -- [6]
+							nil, -- [7]
+							3, -- [8]
+							false, -- [9]
+							-1, -- [10]
 						}, -- [25]
 						{
 						}, -- [26]
@@ -514,7 +524,7 @@ _detalhes_database = {
 						}, -- [31]
 						{
 						}, -- [32]
-						["n"] = 25,
+						["n"] = 26,
 					},
 				},
 				["frags_need_refresh"] = false,
@@ -531,6 +541,9 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
+				["data_inicio"] = "20:12:40",
+				["end_time"] = 293976.676,
+				["combat_id"] = 17,
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -550,12 +563,9 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
-				["end_time"] = 293976.676,
-				["combat_id"] = 17,
-				["data_inicio"] = "20:12:40",
 				["TimeData"] = {
 				},
-				["frags"] = {
+				["spells_cast_timeline"] = {
 				},
 				["overall_added"] = true,
 				["combat_counter"] = 450,
@@ -584,7 +594,7 @@ _detalhes_database = {
 				},
 				["start_time"] = 293970.176,
 				["contra"] = "Fräse",
-				["spells_cast_timeline"] = {
+				["frags"] = {
 				},
 			}, -- [1]
 			{
@@ -603,18 +613,17 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 0.007497,
+							["end_time"] = 1618506728,
 							["last_event"] = 0,
-							["friendlyfire_total"] = 0,
+							["classe"] = "HUNTER",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.007497,
 							["delay"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1618506728,
+							["total"] = 0.007497,
+							["damage_taken"] = 150.007497,
 							["on_hold"] = false,
-							["friendlyfire"] = {
-							},
 							["nome"] = "Venobalykk",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -626,10 +635,11 @@ _detalhes_database = {
 							["last_dps"] = 0.000620047969563375,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["damage_taken"] = 150.007497,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1618506728,
 							["serial"] = "Player-4477-0303F15F",
-							["classe"] = "HUNTER",
+							["friendlyfire_total"] = 0,
 						}, -- [1]
 						{
 							["flag_original"] = 69960,
@@ -643,14 +653,14 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["classe"] = "PET",
-							["tipo"] = 1,
 							["friendlyfire_total"] = 0,
+							["tipo"] = 1,
+							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 84.008598,
 							["delay"] = 0,
-							["dps_started"] = false,
+							["fight_component"] = true,
 							["total"] = 84.008598,
 							["end_time"] = 1618506728,
 							["ownerName"] = "Fräse",
@@ -698,7 +708,7 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["start_time"] = 1618506716,
 							["serial"] = "Pet-0-4457-1-31-1996-0F0041C460",
-							["fight_component"] = true,
+							["dps_started"] = false,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -803,7 +813,8 @@ _detalhes_database = {
 				["tempo_start"] = 1618506716,
 				["TimeData"] = {
 				},
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["Reported"] = 1,
 				},
 				["combat_counter"] = 449,
 				["player_last_events"] = {
@@ -908,8 +919,7 @@ _detalhes_database = {
 				},
 				["start_time"] = 293925.722,
 				["contra"] = "Reported",
-				["frags"] = {
-					["Reported"] = 1,
+				["spells_cast_timeline"] = {
 				},
 			}, -- [2]
 			{
@@ -928,18 +938,17 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 0.003956,
+							["end_time"] = 1618506681,
 							["last_event"] = 0,
-							["friendlyfire_total"] = 0,
+							["classe"] = "HUNTER",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.003956,
 							["delay"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1618506681,
+							["total"] = 0.003956,
+							["damage_taken"] = 282.003956,
 							["on_hold"] = false,
-							["friendlyfire"] = {
-							},
 							["nome"] = "Venobalykk",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -951,10 +960,11 @@ _detalhes_database = {
 							["last_dps"] = 0.000576424304239111,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["damage_taken"] = 282.003956,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1618506681,
 							["serial"] = "Player-4477-0303F15F",
-							["classe"] = "HUNTER",
+							["friendlyfire_total"] = 0,
 						}, -- [1]
 						{
 							["flag_original"] = 66888,
@@ -974,10 +984,11 @@ _detalhes_database = {
 							},
 							["total_without_pet"] = 259.002492,
 							["classe"] = "UNGROUPPLAYER",
-							["dps_started"] = false,
+							["fight_component"] = true,
 							["total"] = 282.002492,
 							["delay"] = 1618506697,
-							["damage_taken"] = 0.002492,
+							["friendlyfire"] = {
+							},
 							["nome"] = "Fräse",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -1000,8 +1011,8 @@ _detalhes_database = {
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
@@ -1030,8 +1041,8 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
@@ -1099,16 +1110,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 0.002492,
 							["end_time"] = 1618506716,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1618506691,
 							["serial"] = "Player-4477-02FB963B",
-							["fight_component"] = true,
+							["dps_started"] = false,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -1130,18 +1140,18 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 66888,
-							["tipo"] = 4,
+							["last_event"] = 0,
 							["nome"] = "Fräse",
 							["enemy"] = true,
 							["pets"] = {
 							},
 							["classe"] = "UNGROUPPLAYER",
-							["last_event"] = 0,
-							["fight_component"] = true,
-							["serial"] = "Player-4477-02FB963B",
+							["tipo"] = 4,
 							["spell_cast"] = {
 								["Auto Shot"] = 1,
 							},
+							["serial"] = "Player-4477-02FB963B",
+							["fight_component"] = true,
 						}, -- [1]
 					},
 				}, -- [4]
@@ -1228,7 +1238,7 @@ _detalhes_database = {
 				["tempo_start"] = 1618506674,
 				["TimeData"] = {
 				},
-				["spells_cast_timeline"] = {
+				["frags"] = {
 				},
 				["combat_counter"] = 448,
 				["player_last_events"] = {
@@ -1373,7 +1383,7 @@ _detalhes_database = {
 				},
 				["start_time"] = 293884.495,
 				["contra"] = "Fräse",
-				["frags"] = {
+				["spells_cast_timeline"] = {
 				},
 			}, -- [3]
 			{
@@ -1391,18 +1401,17 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 0.002913,
+							["end_time"] = 1618506639,
 							["last_event"] = 0,
-							["friendlyfire_total"] = 0,
+							["classe"] = "HUNTER",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.002913,
 							["delay"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1618506639,
+							["total"] = 0.002913,
+							["damage_taken"] = 266.002913,
 							["on_hold"] = false,
-							["friendlyfire"] = {
-							},
 							["nome"] = "Venobalykk",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -1414,10 +1423,11 @@ _detalhes_database = {
 							["last_dps"] = 0.000475203915170928,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["damage_taken"] = 266.002913,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1618506639,
 							["serial"] = "Player-4477-0303F15F",
-							["classe"] = "HUNTER",
+							["friendlyfire_total"] = 0,
 						}, -- [1]
 						{
 							["flag_original"] = 66888,
@@ -1435,9 +1445,9 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 266.001219,
-							["dps_started"] = false,
 							["fight_component"] = true,
-							["total"] = 266.001219,
+							["dps_started"] = false,
+							["end_time"] = 1618506674,
 							["delay"] = 1618506645,
 							["friendlyfire_total"] = 0,
 							["nome"] = "Fräse",
@@ -1542,7 +1552,7 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["start_time"] = 1618506661,
 							["serial"] = "Player-4477-02FB963B",
-							["end_time"] = 1618506674,
+							["total"] = 266.001219,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -1647,7 +1657,7 @@ _detalhes_database = {
 				["tempo_start"] = 1618506633,
 				["TimeData"] = {
 				},
-				["spells_cast_timeline"] = {
+				["frags"] = {
 				},
 				["combat_counter"] = 447,
 				["player_last_events"] = {
@@ -1782,7 +1792,7 @@ _detalhes_database = {
 				},
 				["start_time"] = 293842.788,
 				["contra"] = "Fräse",
-				["frags"] = {
+				["spells_cast_timeline"] = {
 				},
 			}, -- [4]
 			{
@@ -1800,18 +1810,17 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 0.004814,
+							["end_time"] = 1618505802,
 							["last_event"] = 0,
-							["friendlyfire_total"] = 0,
+							["classe"] = "HUNTER",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004814,
 							["delay"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1618505802,
+							["total"] = 0.004814,
+							["damage_taken"] = 273.004814,
 							["on_hold"] = false,
-							["friendlyfire"] = {
-							},
 							["nome"] = "Venobalykk",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -1823,10 +1832,11 @@ _detalhes_database = {
 							["last_dps"] = 0.00199833955999576,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["damage_taken"] = 273.004814,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1618505802,
 							["serial"] = "Player-4477-0303F15F",
-							["classe"] = "HUNTER",
+							["friendlyfire_total"] = 0,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -1838,16 +1848,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["fight_component"] = true,
-							["total"] = 273.002911,
-							["friendlyfire_total"] = 0,
+							["monster"] = true,
+							["end_time"] = 1618505802,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 273.002911,
 							["delay"] = 0,
-							["monster"] = true,
-							["end_time"] = 1618505802,
 							["dps_started"] = false,
+							["total"] = 273.002911,
+							["fight_component"] = true,
 							["damage_taken"] = 0.002911,
 							["nome"] = "Southsea Swashbuckler",
 							["spells"] = {
@@ -1900,8 +1910,8 @@ _detalhes_database = {
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
@@ -1920,7 +1930,7 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["start_time"] = 1618505800,
 							["serial"] = "Creature-0-4457-1-31-7858-00007850A5",
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -2087,6 +2097,9 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
+				["data_inicio"] = "19:56:40",
+				["end_time"] = 293012.708,
+				["combat_id"] = 13,
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -2106,9 +2119,6 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
-				["end_time"] = 293012.708,
-				["combat_id"] = 13,
-				["data_inicio"] = "19:56:40",
 				["tempo_start"] = 1618505800,
 				["spells_cast_timeline"] = {
 				},
@@ -2140,18 +2150,17 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 0.001621,
+							["end_time"] = 1618504653,
 							["last_event"] = 0,
-							["friendlyfire_total"] = 0,
+							["classe"] = "HUNTER",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.001621,
 							["delay"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1618504653,
+							["total"] = 0.001621,
+							["damage_taken"] = 1141.001621,
 							["on_hold"] = false,
-							["friendlyfire"] = {
-							},
 							["nome"] = "Venobalykk",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -2163,10 +2172,11 @@ _detalhes_database = {
 							["last_dps"] = 0.00396332518351848,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["damage_taken"] = 1141.001621,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1618504653,
 							["serial"] = "Player-4477-0303F15F",
-							["classe"] = "HUNTER",
+							["friendlyfire_total"] = 0,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -2178,16 +2188,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["friendlyfire_total"] = 0,
-							["fight_component"] = true,
 							["classe"] = "UNKNOW",
+							["dps_started"] = false,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 571.007098,
 							["delay"] = 0,
-							["dps_started"] = false,
-							["total"] = 571.007098,
+							["monster"] = true,
 							["end_time"] = 1618504653,
+							["total"] = 571.007098,
 							["damage_taken"] = 0.007098,
 							["nome"] = "Coast Strider",
 							["spells"] = {
@@ -2233,7 +2243,7 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["start_time"] = 1618504652,
 							["serial"] = "Creature-0-4457-1-31-5466-0000F6402F",
-							["monster"] = true,
+							["fight_component"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -2422,6 +2432,9 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
+				["data_inicio"] = "19:37:32",
+				["end_time"] = 291862.891,
+				["combat_id"] = 12,
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -2441,9 +2454,6 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
-				["end_time"] = 291862.891,
-				["combat_id"] = 12,
-				["data_inicio"] = "19:37:32",
 				["tempo_start"] = 1618504652,
 				["spells_cast_timeline"] = {
 				},
@@ -2612,18 +2622,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["classe"] = "HUNTER",
-							["tipo"] = 1,
 							["friendlyfire_total"] = 0,
+							["tipo"] = 1,
+							["classe"] = "HUNTER",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.007744,
 							["serial"] = "Player-4477-0303F15F",
 							["dps_started"] = false,
-							["total"] = 0.007744,
+							["end_time"] = 1618483839,
+							["on_hold"] = false,
 							["friendlyfire"] = {
 							},
-							["damage_taken"] = 472.007744,
 							["nome"] = "Venobalykk",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -2635,10 +2645,10 @@ _detalhes_database = {
 							["last_dps"] = 0.000968,
 							["custom"] = 0,
 							["last_event"] = 0,
-							["on_hold"] = false,
+							["damage_taken"] = 472.007744,
 							["start_time"] = 1618483839,
 							["delay"] = 0,
-							["end_time"] = 1618483839,
+							["total"] = 0.007744,
 						}, -- [1]
 						{
 							["flag_original"] = 66888,
@@ -2656,11 +2666,11 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 445.00899,
-							["fight_component"] = true,
 							["dps_started"] = false,
+							["fight_component"] = true,
 							["total"] = 445.00899,
 							["serial"] = "Player-4477-02FB23AC",
-							["on_hold"] = false,
+							["damage_taken"] = 0.00899,
 							["nome"] = "Xzech",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -2713,11 +2723,11 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 5,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["c_min"] = 0,
+										["m_amt"] = 0,
 										["r_amt"] = 0,
 									},
 									["!Autoshot"] = {
@@ -2799,23 +2809,23 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["c_min"] = 0,
+										["m_amt"] = 0,
 										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["end_time"] = 1618483839,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1618483838,
-							["damage_taken"] = 0.00899,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1618483831,
 							["delay"] = 0,
 							["classe"] = "UNGROUPPLAYER",
@@ -2835,11 +2845,11 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 27.005353,
-							["fight_component"] = true,
 							["dps_started"] = false,
+							["fight_component"] = true,
 							["total"] = 27.005353,
 							["serial"] = "Pet-0-4457-1-31-1996-010041C733",
-							["on_hold"] = false,
+							["damage_taken"] = 0.005353,
 							["nome"] = "Reported",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -2875,13 +2885,13 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["end_time"] = 1618483839,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1618483831,
-							["damage_taken"] = 0.005353,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1618483831,
 							["delay"] = 0,
 							["classe"] = "PET",
@@ -2977,18 +2987,18 @@ _detalhes_database = {
 						}, -- [1]
 						{
 							["flag_original"] = 66888,
-							["fight_component"] = true,
-							["nome"] = "Xzech",
-							["enemy"] = true,
-							["pets"] = {
-							},
 							["spell_cast"] = {
 								["Auto Shot"] = 5,
 								["Serpent Sting"] = 3,
 								["Arcane Shot"] = 1,
 							},
-							["tipo"] = 4,
+							["nome"] = "Xzech",
+							["enemy"] = true,
+							["pets"] = {
+							},
+							["fight_component"] = true,
 							["last_event"] = 0,
+							["tipo"] = 4,
 							["serial"] = "Player-4477-02FB23AC",
 							["classe"] = "UNGROUPPLAYER",
 						}, -- [2]
@@ -3248,10 +3258,10 @@ _detalhes_database = {
 				},
 				["end_time"] = 271049.09,
 				["combat_id"] = 11,
-				["spells_cast_timeline"] = {
+				["frags"] = {
 				},
 				["contra"] = "Xzech",
-				["frags"] = {
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 443,
 				["data_inicio"] = "13:50:31",
@@ -3298,18 +3308,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["classe"] = "HUNTER",
-							["tipo"] = 1,
 							["friendlyfire_total"] = 0,
+							["tipo"] = 1,
+							["classe"] = "HUNTER",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.002819,
 							["serial"] = "Player-4477-0303F15F",
 							["dps_started"] = false,
-							["total"] = 0.002819,
+							["end_time"] = 1618376768,
+							["on_hold"] = false,
 							["friendlyfire"] = {
 							},
-							["damage_taken"] = 474.002819,
 							["nome"] = "Venobalykk",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -3321,10 +3331,10 @@ _detalhes_database = {
 							["last_dps"] = 0.000316421596138232,
 							["custom"] = 0,
 							["last_event"] = 0,
-							["on_hold"] = false,
+							["damage_taken"] = 474.002819,
 							["start_time"] = 1618376768,
 							["delay"] = 0,
-							["end_time"] = 1618376768,
+							["total"] = 0.002819,
 						}, -- [1]
 						{
 							["flag_original"] = 66888,
@@ -3342,11 +3352,11 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 474.004768,
-							["fight_component"] = true,
 							["dps_started"] = false,
+							["fight_component"] = true,
 							["total"] = 474.004768,
 							["serial"] = "Player-4477-02FB963B",
-							["on_hold"] = false,
+							["damage_taken"] = 0.004768,
 							["nome"] = "Fräse",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -3370,11 +3380,11 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 5,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["c_min"] = 0,
+										["m_amt"] = 0,
 										["r_amt"] = 0,
 									},
 									["!Autoshot"] = {
@@ -3467,13 +3477,13 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["end_time"] = 1618376768,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1618376768,
-							["damage_taken"] = 0.004768,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1618376760,
 							["delay"] = 0,
 							["classe"] = "UNGROUPPLAYER",
@@ -3498,17 +3508,17 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 66888,
-							["fight_component"] = true,
+							["pets"] = {
+							},
 							["nome"] = "Fräse",
 							["enemy"] = true,
 							["spell_cast"] = {
 								["Auto Shot"] = 5,
 								["Serpent Sting"] = 2,
 							},
-							["pets"] = {
-							},
-							["tipo"] = 4,
+							["fight_component"] = true,
 							["last_event"] = 0,
+							["tipo"] = 4,
 							["serial"] = "Player-4477-02FB963B",
 							["classe"] = "UNGROUPPLAYER",
 						}, -- [1]
@@ -3792,10 +3802,10 @@ _detalhes_database = {
 				["data_inicio"] = "08:06:00",
 				["end_time"] = 163979.013,
 				["combat_id"] = 10,
-				["spells_cast_timeline"] = {
+				["frags"] = {
 				},
 				["contra"] = "Fräse",
-				["frags"] = {
+				["spells_cast_timeline"] = {
 				},
 				["tempo_start"] = 1618376760,
 				["cleu_events"] = {
@@ -3844,17 +3854,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["friendlyfire_total"] = 0,
-							["tipo"] = 1,
 							["classe"] = "HUNTER",
+							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.007603,
 							["serial"] = "Player-4477-0303F15F",
 							["dps_started"] = false,
-							["end_time"] = 1618292576,
+							["total"] = 0.007603,
+							["friendlyfire"] = {
+							},
 							["damage_taken"] = 465.007603,
-							["on_hold"] = false,
 							["nome"] = "Venobalykk",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -3866,11 +3877,10 @@ _detalhes_database = {
 							["last_dps"] = 0.000987146195792689,
 							["custom"] = 0,
 							["last_event"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1618292576,
 							["delay"] = 0,
-							["total"] = 0.007603,
+							["end_time"] = 1618292576,
 						}, -- [1]
 						{
 							["flag_original"] = 1352,
@@ -3890,11 +3900,11 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 532.006616,
-							["end_time"] = 1618376760,
-							["dps_started"] = false,
 							["total"] = 778.006616,
+							["fight_component"] = true,
+							["end_time"] = 1618376760,
 							["serial"] = "Player-4477-02FB963B",
-							["on_hold"] = false,
+							["damage_taken"] = 0.006616,
 							["nome"] = "Fräse",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -3918,11 +3928,11 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 3,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["m_amt"] = 0,
+										["c_min"] = 0,
 										["r_amt"] = 0,
 									},
 									["Multi-Shot"] = {
@@ -3946,11 +3956,11 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["c_min"] = 129,
+										["m_amt"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["m_amt"] = 0,
+										["c_min"] = 129,
 										["r_amt"] = 0,
 									},
 									["!Autoshot"] = {
@@ -4004,26 +4014,26 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["m_amt"] = 0,
+										["c_min"] = 0,
 										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
+							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
 							["friendlyfire"] = {
 							},
 							["custom"] = 0,
 							["last_event"] = 1618292591,
-							["damage_taken"] = 0.006616,
+							["last_dps"] = 0,
 							["start_time"] = 1618376737,
 							["delay"] = 1618292591,
-							["fight_component"] = true,
+							["dps_started"] = false,
 						}, -- [2]
 						{
 							["flag_original"] = 69960,
@@ -4036,16 +4046,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["dps_started"] = false,
+							["fight_component"] = true,
 							["tipo"] = 1,
 							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 246.002711,
 							["serial"] = "Pet-0-4479-1-46-1996-040041C460",
-							["fight_component"] = true,
-							["total"] = 246.002711,
-							["on_hold"] = false,
+							["dps_started"] = false,
+							["end_time"] = 1618376760,
+							["damage_taken"] = 0.002711,
 							["ownerName"] = "Fräse",
 							["nome"] = "Reported <Fräse>",
 							["spells"] = {
@@ -4083,16 +4093,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
+							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
 							["friendlyfire"] = {
 							},
 							["custom"] = 0,
 							["last_event"] = 1618292591,
-							["damage_taken"] = 0.002711,
+							["last_dps"] = 0,
 							["start_time"] = 1618376737,
 							["delay"] = 1618292591,
-							["end_time"] = 1618376760,
+							["total"] = 246.002711,
 						}, -- [3]
 					},
 				}, -- [1]
@@ -4174,18 +4184,18 @@ _detalhes_database = {
 						}, -- [1]
 						{
 							["flag_original"] = 1352,
-							["pets"] = {
-							},
+							["fight_component"] = true,
 							["nome"] = "Fräse",
 							["enemy"] = true,
+							["pets"] = {
+							},
 							["spell_cast"] = {
 								["Auto Shot"] = 3,
 								["Multi-Shot"] = 1,
 								["Serpent Sting"] = 1,
 							},
-							["fight_component"] = true,
-							["last_event"] = 0,
 							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Player-4477-02FB963B",
 							["classe"] = "UNGROUPPLAYER",
 						}, -- [2]
@@ -4414,10 +4424,10 @@ _detalhes_database = {
 				},
 				["end_time"] = 79788.596,
 				["combat_id"] = 9,
-				["frags"] = {
+				["spells_cast_timeline"] = {
 				},
 				["contra"] = "Reported",
-				["spells_cast_timeline"] = {
+				["frags"] = {
 				},
 				["tempo_start"] = 1618292569,
 				["cleu_events"] = {
@@ -4448,18 +4458,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 0.004272,
+							["end_time"] = 1618199627,
 							["last_event"] = 0,
-							["friendlyfire_total"] = 0,
+							["classe"] = "HUNTER",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004272,
 							["delay"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1618199627,
+							["total"] = 0.004272,
+							["on_hold"] = false,
 							["friendlyfire"] = {
 							},
-							["damage_taken"] = 1615.004272,
 							["nome"] = "Venobalykk",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4471,10 +4481,10 @@ _detalhes_database = {
 							["last_dps"] = 0.000776727272727273,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
+							["damage_taken"] = 1615.004272,
 							["start_time"] = 1618199627,
 							["serial"] = "Player-4477-0303F15F",
-							["classe"] = "HUNTER",
+							["friendlyfire_total"] = 0,
 						}, -- [1]
 						{
 							["flag_original"] = 66888,
@@ -4492,11 +4502,11 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1588.005554,
-							["total"] = 1588.005554,
-							["dps_started"] = false,
 							["end_time"] = 1618292569,
+							["fight_component"] = true,
+							["total"] = 1588.005554,
 							["delay"] = 1618229579,
-							["last_dps"] = 0,
+							["damage_taken"] = 0.005554,
 							["nome"] = "Galadroniouz",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4561,16 +4571,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["last_dps"] = 0,
 							["friendlyfire_total"] = 0,
 							["friendlyfire"] = {
 							},
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 0.005554,
+							["on_hold"] = false,
 							["start_time"] = 1618292561,
 							["serial"] = "Player-4477-02FA3BE1",
-							["fight_component"] = true,
+							["dps_started"] = false,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -4781,7 +4791,7 @@ _detalhes_database = {
 				},
 				["TimeData"] = {
 				},
-				["frags"] = {
+				["spells_cast_timeline"] = {
 				},
 				["overall_added"] = true,
 				["combat_counter"] = 389,
@@ -4810,7 +4820,7 @@ _detalhes_database = {
 				},
 				["start_time"] = 122827.496,
 				["contra"] = "Galadroniouz",
-				["spells_cast_timeline"] = {
+				["frags"] = {
 				},
 			}, -- [10]
 			{
@@ -4828,18 +4838,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1617851496,
+							["total"] = 0.006415,
 							["last_event"] = 0,
-							["classe"] = "HUNTER",
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.006415,
 							["delay"] = 0,
 							["dps_started"] = false,
-							["total"] = 0.006415,
+							["end_time"] = 1617851496,
+							["on_hold"] = false,
 							["friendlyfire"] = {
 							},
-							["damage_taken"] = 489.006415,
 							["nome"] = "Venobalykk",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4851,10 +4861,10 @@ _detalhes_database = {
 							["last_dps"] = 0.000841421825812039,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
+							["damage_taken"] = 489.006415,
 							["start_time"] = 1617851496,
 							["serial"] = "Player-4477-0303F15F",
-							["friendlyfire_total"] = 0,
+							["classe"] = "HUNTER",
 						}, -- [1]
 						{
 							["flag_original"] = 66888,
@@ -4873,10 +4883,10 @@ _detalhes_database = {
 							},
 							["total_without_pet"] = 489.006913,
 							["classe"] = "UNGROUPPLAYER",
-							["fight_component"] = true,
+							["dps_started"] = false,
 							["total"] = 489.006913,
 							["delay"] = 0,
-							["on_hold"] = false,
+							["damage_taken"] = 0.006913,
 							["nome"] = "Galadroniouz",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4912,16 +4922,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["end_time"] = 1617851496,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 0.006913,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1617851488,
 							["serial"] = "Player-4477-02FA3BE1",
-							["dps_started"] = false,
+							["fight_component"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -4947,8 +4957,8 @@ _detalhes_database = {
 							["grupo"] = true,
 							["pets"] = {
 							},
-							["classe"] = "HUNTER",
 							["last_event"] = 1617851495,
+							["classe"] = "HUNTER",
 							["tipo"] = 4,
 							["buff_uptime"] = 0,
 							["buff_uptime_spells"] = {
@@ -5139,7 +5149,7 @@ _detalhes_database = {
 				["data_inicio"] = "06:11:29",
 				["TimeData"] = {
 				},
-				["spells_cast_timeline"] = {
+				["frags"] = {
 				},
 				["tempo_start"] = 1617851488,
 				["player_last_events"] = {
@@ -5151,7 +5161,7 @@ _detalhes_database = {
 				},
 				["start_time"] = 154018.83,
 				["contra"] = "Galadroniouz",
-				["frags"] = {
+				["spells_cast_timeline"] = {
 				},
 			}, -- [11]
 			{
@@ -5169,18 +5179,17 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1617759103,
+							["total"] = 0.006284,
 							["last_event"] = 0,
-							["classe"] = "HUNTER",
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.006284,
 							["delay"] = 0,
 							["dps_started"] = false,
-							["total"] = 0.006284,
+							["end_time"] = 1617759103,
+							["damage_taken"] = 489.006284,
 							["on_hold"] = false,
-							["friendlyfire"] = {
-							},
 							["nome"] = "Venobalykk",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -5192,10 +5201,11 @@ _detalhes_database = {
 							["last_dps"] = 0.000714090909090673,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["damage_taken"] = 489.006284,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1617759103,
 							["serial"] = "Player-4477-0303F15F",
-							["friendlyfire_total"] = 0,
+							["classe"] = "HUNTER",
 						}, -- [1]
 						{
 							["flag_original"] = 66888,
@@ -5214,11 +5224,11 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 997.005614,
-							["dps_started"] = false,
 							["fight_component"] = true,
-							["end_time"] = 1617851488,
+							["dps_started"] = false,
+							["total"] = 997.005614,
 							["delay"] = 1617759113,
-							["on_hold"] = false,
+							["damage_taken"] = 0.005614,
 							["nome"] = "Fräse",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -5243,8 +5253,8 @@ _detalhes_database = {
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 2,
 										["b_dmg"] = 0,
 										["n_amt"] = 3,
@@ -5270,8 +5280,8 @@ _detalhes_database = {
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 5,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
@@ -5331,8 +5341,8 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 96,
 										["m_amt"] = 0,
+										["c_min"] = 96,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 9,
@@ -5372,16 +5382,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
+							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
 							["friendlyfire"] = {
 							},
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 0.005614,
+							["last_dps"] = 0,
 							["start_time"] = 1617851468,
 							["serial"] = "Player-4477-02FB963B",
-							["total"] = 997.005614,
+							["end_time"] = 1617851488,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -5403,20 +5413,20 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 66888,
-							["last_event"] = 0,
+							["tipo"] = 4,
 							["nome"] = "Fräse",
 							["enemy"] = true,
-							["pets"] = {
-							},
-							["classe"] = "UNGROUPPLAYER",
-							["tipo"] = 4,
 							["spell_cast"] = {
 								["Auto Shot"] = 5,
 								["Arcane Shot"] = 2,
 								["Serpent Sting"] = 1,
 							},
-							["serial"] = "Player-4477-02FB963B",
+							["classe"] = "UNGROUPPLAYER",
+							["last_event"] = 0,
 							["fight_component"] = true,
+							["serial"] = "Player-4477-02FB963B",
+							["pets"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 1297,
@@ -5424,8 +5434,8 @@ _detalhes_database = {
 							["grupo"] = true,
 							["pets"] = {
 							},
-							["classe"] = "HUNTER",
 							["last_event"] = 1617759103,
+							["classe"] = "HUNTER",
 							["tipo"] = 4,
 							["buff_uptime"] = 0,
 							["buff_uptime_spells"] = {
@@ -5688,7 +5698,7 @@ _detalhes_database = {
 				},
 				["TimeData"] = {
 				},
-				["spells_cast_timeline"] = {
+				["frags"] = {
 				},
 				["tempo_start"] = 1617759094,
 				["player_last_events"] = {
@@ -5700,7 +5710,7 @@ _detalhes_database = {
 				},
 				["start_time"] = 61625.521,
 				["contra"] = "Fräse",
-				["frags"] = {
+				["spells_cast_timeline"] = {
 				},
 			}, -- [12]
 			{
@@ -5719,18 +5729,17 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1617579780,
+							["total"] = 0.003253,
 							["last_event"] = 0,
-							["classe"] = "HUNTER",
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.003253,
 							["delay"] = 0,
 							["dps_started"] = false,
-							["total"] = 0.003253,
+							["end_time"] = 1617579780,
+							["damage_taken"] = 357.003253,
 							["on_hold"] = false,
-							["friendlyfire"] = {
-							},
 							["nome"] = "Venobalykk",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -5742,10 +5751,11 @@ _detalhes_database = {
 							["last_dps"] = 0.00039430303030303,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["damage_taken"] = 357.003253,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1617579780,
 							["serial"] = "Player-4477-0303F15F",
-							["friendlyfire_total"] = 0,
+							["classe"] = "HUNTER",
 						}, -- [1]
 						{
 							["flag_original"] = 66888,
@@ -5764,11 +5774,11 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 452.00754,
-							["dps_started"] = false,
 							["fight_component"] = true,
-							["end_time"] = 1617759094,
+							["dps_started"] = false,
+							["total"] = 452.00754,
 							["delay"] = 1617579788,
-							["damage_taken"] = 0.00754,
+							["last_dps"] = 0,
 							["nome"] = "Fräse",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -5792,8 +5802,8 @@ _detalhes_database = {
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 2,
 										["b_dmg"] = 0,
 										["n_amt"] = 2,
@@ -5819,8 +5829,8 @@ _detalhes_database = {
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 5,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
@@ -5850,8 +5860,8 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 96,
 										["m_amt"] = 0,
+										["c_min"] = 96,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 4,
@@ -5920,16 +5930,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 0.00754,
 							["friendlyfire_total"] = 0,
 							["friendlyfire"] = {
 							},
 							["custom"] = 0,
 							["tipo"] = 1,
-							["last_dps"] = 0,
+							["on_hold"] = false,
 							["start_time"] = 1617759077,
 							["serial"] = "Player-4477-02FB963B",
-							["total"] = 452.00754,
+							["end_time"] = 1617759094,
 						}, -- [2]
 						{
 							["flag_original"] = 4424,
@@ -5948,7 +5958,7 @@ _detalhes_database = {
 							},
 							["total_without_pet"] = 268.007395,
 							["classe"] = "PET",
-							["fight_component"] = true,
+							["dps_started"] = false,
 							["end_time"] = 1617759094,
 							["delay"] = 1617579786,
 							["total"] = 268.007395,
@@ -5978,8 +5988,8 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 46,
 										["m_amt"] = 0,
+										["c_min"] = 46,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 5,
@@ -5998,7 +6008,7 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["start_time"] = 1617759079,
 							["serial"] = "Pet-0-4460-1-29-1996-050041C460",
-							["dps_started"] = false,
+							["fight_component"] = true,
 						}, -- [3]
 					},
 				}, -- [1]
@@ -6020,20 +6030,20 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 66888,
-							["last_event"] = 0,
+							["tipo"] = 4,
 							["nome"] = "Fräse",
 							["enemy"] = true,
-							["pets"] = {
-							},
-							["classe"] = "UNGROUPPLAYER",
-							["tipo"] = 4,
 							["spell_cast"] = {
 								["Auto Shot"] = 5,
 								["Arcane Shot"] = 2,
 								["Serpent Sting"] = 1,
 							},
-							["serial"] = "Player-4477-02FB963B",
+							["classe"] = "UNGROUPPLAYER",
+							["last_event"] = 0,
 							["fight_component"] = true,
+							["serial"] = "Player-4477-02FB963B",
+							["pets"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 1297,
@@ -6041,8 +6051,8 @@ _detalhes_database = {
 							["grupo"] = true,
 							["pets"] = {
 							},
-							["classe"] = "HUNTER",
 							["last_event"] = 1617579780,
+							["classe"] = "HUNTER",
 							["tipo"] = 4,
 							["buff_uptime"] = 0,
 							["buff_uptime_spells"] = {
@@ -6305,7 +6315,7 @@ _detalhes_database = {
 				},
 				["TimeData"] = {
 				},
-				["spells_cast_timeline"] = {
+				["frags"] = {
 				},
 				["tempo_start"] = 1617579772,
 				["player_last_events"] = {
@@ -6317,7 +6327,7 @@ _detalhes_database = {
 				},
 				["start_time"] = 646972.126,
 				["contra"] = "Fräse",
-				["frags"] = {
+				["spells_cast_timeline"] = {
 				},
 			}, -- [13]
 			{
@@ -6336,17 +6346,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["classe"] = "HUNTER",
-							["tipo"] = 1,
 							["friendlyfire_total"] = 0,
+							["tipo"] = 1,
+							["classe"] = "HUNTER",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004303,
 							["serial"] = "Player-4477-0303F15F",
 							["dps_started"] = false,
-							["total"] = 0.004303,
+							["end_time"] = 1617499473,
+							["friendlyfire"] = {
+							},
 							["damage_taken"] = 576.004303,
-							["on_hold"] = false,
 							["nome"] = "Venobalykk",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -6358,11 +6369,10 @@ _detalhes_database = {
 							["last_dps"] = 0.000830374372842903,
 							["custom"] = 0,
 							["last_event"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1617499473,
 							["delay"] = 0,
-							["end_time"] = 1617499473,
+							["total"] = 0.004303,
 						}, -- [1]
 						{
 							["flag_original"] = 66888,
@@ -6380,12 +6390,11 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 546.007668,
-							["end_time"] = 1617579772,
-							["fight_component"] = true,
 							["total"] = 546.007668,
+							["fight_component"] = true,
+							["end_time"] = 1617579772,
 							["serial"] = "Player-4477-02FB963B",
-							["friendlyfire"] = {
-							},
+							["last_dps"] = 0,
 							["nome"] = "Fräse",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -6410,11 +6419,11 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["c_min"] = 0,
+										["m_amt"] = 0,
 										["r_amt"] = 0,
 									},
 									["Auto Shot"] = {
@@ -6437,11 +6446,11 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 3,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["c_min"] = 0,
+										["m_amt"] = 0,
 										["r_amt"] = 0,
 									},
 									["!Autoshot"] = {
@@ -6523,22 +6532,23 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["c_min"] = 0,
+										["m_amt"] = 0,
 										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 0.007668,
+							["friendlyfire"] = {
+							},
 							["dps_started"] = false,
 							["on_hold"] = false,
 							["custom"] = 0,
 							["last_event"] = 1617579771,
-							["last_dps"] = 0,
+							["damage_taken"] = 0.007668,
 							["start_time"] = 1617499468,
 							["delay"] = 0,
 							["friendlyfire_total"] = 0,
@@ -6558,12 +6568,11 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 30.006233,
-							["fight_component"] = true,
 							["dps_started"] = false,
+							["fight_component"] = true,
 							["total"] = 30.006233,
 							["serial"] = "Pet-0-4460-1-29-1996-030041C460",
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Reported",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -6599,12 +6608,13 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 0.006233,
+							["friendlyfire"] = {
+							},
 							["end_time"] = 1617499473,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1617499472,
-							["on_hold"] = false,
+							["damage_taken"] = 0.006233,
 							["start_time"] = 1617499472,
 							["delay"] = 0,
 							["classe"] = "PET",
@@ -6689,7 +6699,8 @@ _detalhes_database = {
 						}, -- [1]
 						{
 							["flag_original"] = 66888,
-							["fight_component"] = true,
+							["pets"] = {
+							},
 							["nome"] = "Fräse",
 							["enemy"] = true,
 							["spell_cast"] = {
@@ -6697,10 +6708,9 @@ _detalhes_database = {
 								["Serpent Sting"] = 1,
 								["Arcane Shot"] = 1,
 							},
-							["pets"] = {
-							},
-							["tipo"] = 4,
+							["fight_component"] = true,
 							["last_event"] = 0,
+							["tipo"] = 4,
 							["serial"] = "Player-4477-02FB963B",
 							["classe"] = "UNGROUPPLAYER",
 						}, -- [2]
@@ -6977,10 +6987,10 @@ _detalhes_database = {
 				},
 				["end_time"] = 566672.889,
 				["combat_id"] = 4,
-				["spells_cast_timeline"] = {
+				["frags"] = {
 				},
 				["contra"] = "Fräse",
-				["frags"] = {
+				["spells_cast_timeline"] = {
 				},
 				["overall_added"] = true,
 				["totals_grupo"] = {
@@ -7029,18 +7039,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["friendlyfire_total"] = 0,
-							["tipo"] = 1,
 							["classe"] = "HUNTER",
+							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.003759,
 							["serial"] = "Player-4477-0303F15F",
 							["dps_started"] = false,
-							["end_time"] = 1617012576,
+							["total"] = 0.003759,
+							["on_hold"] = false,
 							["friendlyfire"] = {
 							},
-							["damage_taken"] = 463.003759,
 							["nome"] = "Venobalykk",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7052,10 +7062,10 @@ _detalhes_database = {
 							["last_dps"] = 0.000578307692307692,
 							["custom"] = 0,
 							["last_event"] = 0,
-							["on_hold"] = false,
+							["damage_taken"] = 463.003759,
 							["start_time"] = 1617012576,
 							["delay"] = 0,
-							["total"] = 0.003759,
+							["end_time"] = 1617012576,
 						}, -- [1]
 						{
 							["flag_original"] = 69960,
@@ -7072,11 +7082,11 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 109.006569,
-							["dps_started"] = false,
 							["fight_component"] = true,
+							["dps_started"] = false,
 							["total"] = 109.006569,
 							["serial"] = "Pet-0-4459-0-56-1996-020041C8FD",
-							["on_hold"] = false,
+							["damage_taken"] = 0.006569,
 							["nome"] = "Reported",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7112,13 +7122,13 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["end_time"] = 1617012576,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1617012575,
-							["damage_taken"] = 0.006569,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1617012569,
 							["delay"] = 0,
 							["classe"] = "PET",
@@ -7139,11 +7149,11 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 337.002594,
-							["dps_started"] = false,
 							["fight_component"] = true,
+							["dps_started"] = false,
 							["total"] = 337.002594,
 							["serial"] = "Player-4477-02FBBE8E",
-							["on_hold"] = false,
+							["damage_taken"] = 0.002594,
 							["nome"] = "Pfeilschelle",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7196,11 +7206,11 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 3,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["m_amt"] = 0,
+										["c_min"] = 0,
 										["r_amt"] = 0,
 									},
 									["!Autoshot"] = {
@@ -7253,11 +7263,11 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["m_amt"] = 0,
+										["c_min"] = 0,
 										["r_amt"] = 0,
 									},
 									["Arcane Shot"] = {
@@ -7281,23 +7291,23 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["m_amt"] = 0,
+										["c_min"] = 0,
 										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["end_time"] = 1617012576,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1617012576,
-							["damage_taken"] = 0.002594,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1617012572,
 							["delay"] = 0,
 							["classe"] = "UNGROUPPLAYER",
@@ -7322,19 +7332,19 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1352,
-							["pets"] = {
-							},
+							["fight_component"] = true,
 							["nome"] = "Pfeilschelle",
 							["enemy"] = true,
+							["pets"] = {
+							},
 							["spell_cast"] = {
 								["Auto Shot"] = 3,
 								["Serpent Sting"] = 1,
 								["Multi-Shot"] = 1,
 								["Arcane Shot"] = 1,
 							},
-							["fight_component"] = true,
-							["last_event"] = 0,
 							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Player-4477-02FBBE8E",
 							["classe"] = "UNGROUPPLAYER",
 						}, -- [1]
@@ -7347,7 +7357,7 @@ _detalhes_database = {
 							["buff_uptime_targets"] = {
 							},
 							["tipo"] = 4,
-							["classe"] = "HUNTER",
+							["last_event"] = 1617012576,
 							["buff_uptime"] = 0,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -7366,7 +7376,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-4477-0303F15F",
-							["last_event"] = 1617012576,
+							["classe"] = "HUNTER",
 						}, -- [2]
 					},
 				}, -- [4]
@@ -7629,10 +7639,10 @@ _detalhes_database = {
 				},
 				["end_time"] = 79777.861,
 				["combat_id"] = 3,
-				["frags"] = {
+				["spells_cast_timeline"] = {
 				},
 				["contra"] = "Reported",
-				["spells_cast_timeline"] = {
+				["frags"] = {
 				},
 				["tempo_start"] = 1617012569,
 				["cleu_events"] = {
@@ -7741,18 +7751,17 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1616248830,
+							["total"] = 79.006765,
 							["last_event"] = 1616248830,
-							["classe"] = "HUNTER",
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 79.006765,
 							["serial"] = "Player-4477-0303F15F",
 							["dps_started"] = false,
-							["total"] = 79.006765,
+							["end_time"] = 1616248830,
+							["on_hold"] = false,
 							["damage_taken"] = 629.006765,
-							["friendlyfire"] = {
-							},
 							["nome"] = "Venobalykk",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7793,10 +7802,11 @@ _detalhes_database = {
 							["last_dps"] = 4.63165464884784,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1616248824,
 							["delay"] = 0,
-							["friendlyfire_total"] = 0,
+							["classe"] = "HUNTER",
 						}, -- [1]
 						{
 							["flag_original"] = 4424,
@@ -7814,9 +7824,9 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 294.00704,
-							["fight_component"] = true,
 							["dps_started"] = false,
-							["end_time"] = 1617012569,
+							["fight_component"] = true,
+							["total"] = 294.00704,
 							["serial"] = "Pet-0-4458-0-31-1996-1B0041C8FD",
 							["classe"] = "PET",
 							["nome"] = "Reported",
@@ -7863,7 +7873,7 @@ _detalhes_database = {
 							["damage_taken"] = 79.00704,
 							["start_time"] = 1616248813,
 							["delay"] = 0,
-							["total"] = 294.00704,
+							["end_time"] = 1617012569,
 						}, -- [2]
 						{
 							["flag_original"] = 1352,
@@ -7881,9 +7891,9 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 335.007584,
-							["fight_component"] = true,
 							["dps_started"] = false,
-							["end_time"] = 1616248830,
+							["fight_component"] = true,
+							["total"] = 335.007584,
 							["serial"] = "Player-4477-02FBBE8E",
 							["classe"] = "UNGROUPPLAYER",
 							["nome"] = "Pfeilschelle",
@@ -7910,11 +7920,11 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["c_min"] = 0,
+										["m_amt"] = 0,
 										["r_amt"] = 0,
 									},
 									["Auto Shot"] = {
@@ -7937,11 +7947,11 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 2,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["c_min"] = 0,
+										["m_amt"] = 0,
 										["r_amt"] = 0,
 									},
 									["!Autoshot"] = {
@@ -7994,11 +8004,11 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["c_min"] = 0,
+										["m_amt"] = 0,
 										["r_amt"] = 0,
 									},
 									["Serpent Sting"] = {
@@ -8022,11 +8032,11 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["c_min"] = 0,
+										["m_amt"] = 0,
 										["r_amt"] = 0,
 									},
 								},
@@ -8041,7 +8051,7 @@ _detalhes_database = {
 							["damage_taken"] = 0.007584,
 							["start_time"] = 1616248828,
 							["delay"] = 0,
-							["total"] = 335.007584,
+							["end_time"] = 1616248830,
 						}, -- [3]
 					},
 				}, -- [1]
@@ -8123,19 +8133,19 @@ _detalhes_database = {
 						}, -- [1]
 						{
 							["flag_original"] = 1352,
-							["fight_component"] = true,
-							["nome"] = "Pfeilschelle",
-							["enemy"] = true,
-							["pets"] = {
-							},
 							["spell_cast"] = {
 								["Auto Shot"] = 2,
 								["Arcane Shot"] = 1,
 								["Multi-Shot"] = 1,
 								["Serpent Sting"] = 1,
 							},
-							["tipo"] = 4,
+							["nome"] = "Pfeilschelle",
+							["enemy"] = true,
+							["pets"] = {
+							},
+							["fight_component"] = true,
 							["last_event"] = 0,
+							["tipo"] = 4,
 							["serial"] = "Player-4477-02FBBE8E",
 							["classe"] = "UNGROUPPLAYER",
 						}, -- [2]
@@ -8436,10 +8446,10 @@ _detalhes_database = {
 				},
 				["end_time"] = 109983.468,
 				["combat_id"] = 2,
-				["spells_cast_timeline"] = {
+				["frags"] = {
 				},
 				["contra"] = "Reported",
-				["frags"] = {
+				["spells_cast_timeline"] = {
 				},
 				["tempo_start"] = 1616248813,
 				["cleu_events"] = {
@@ -8549,18 +8559,17 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["last_event"] = 0,
-							["total"] = 0.002761,
-							["friendlyfire_total"] = 0,
+							["end_time"] = 1616224045,
+							["classe"] = "HUNTER",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.002761,
 							["detalhes"] = "Pfeilschelle",
 							["delay"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1616224045,
+							["total"] = 0.002761,
+							["last_dps"] = 0.000748035762666168,
 							["on_hold"] = false,
-							["friendlyfire"] = {
-							},
 							["nome"] = "Venobalykk",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -8572,10 +8581,11 @@ _detalhes_database = {
 							["damage_taken"] = 535.002761,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["last_dps"] = 0.000748035762666168,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1616224045,
 							["serial"] = "Player-4477-0303F15F",
-							["classe"] = "HUNTER",
+							["friendlyfire_total"] = 0,
 						}, -- [1]
 						{
 							["flag_original"] = 66888,
@@ -8594,10 +8604,11 @@ _detalhes_database = {
 							},
 							["total_without_pet"] = 465.00287,
 							["classe"] = "UNGROUPPLAYER",
-							["dps_started"] = false,
+							["fight_component"] = true,
 							["total"] = 465.00287,
 							["delay"] = 0,
-							["damage_taken"] = 0.00287,
+							["friendlyfire"] = {
+							},
 							["nome"] = "Pfeilschelle",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -8678,8 +8689,8 @@ _detalhes_database = {
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
@@ -8706,8 +8717,8 @@ _detalhes_database = {
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
@@ -8734,8 +8745,8 @@ _detalhes_database = {
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
@@ -8774,16 +8785,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 0.00287,
 							["end_time"] = 1616224045,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1616224043,
 							["serial"] = "Player-4477-02FBBE8E",
-							["fight_component"] = true,
+							["dps_started"] = false,
 						}, -- [2]
 						{
 							["flag_original"] = 4424,
@@ -8801,10 +8811,11 @@ _detalhes_database = {
 							},
 							["total_without_pet"] = 56.002709,
 							["classe"] = "PET",
-							["dps_started"] = false,
+							["fight_component"] = true,
 							["total"] = 56.002709,
 							["delay"] = 0,
-							["damage_taken"] = 0.002709,
+							["friendlyfire"] = {
+							},
 							["nome"] = "Reported",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -8840,16 +8851,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 0.002709,
 							["end_time"] = 1616248813,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1616224044,
 							["serial"] = "Pet-0-4458-0-31-1996-0F0041C8FD",
-							["fight_component"] = true,
+							["dps_started"] = false,
 						}, -- [3]
 					},
 				}, -- [1]
@@ -8871,7 +8881,7 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 66888,
-							["tipo"] = 4,
+							["last_event"] = 0,
 							["nome"] = "Pfeilschelle",
 							["enemy"] = true,
 							["spell_cast"] = {
@@ -8880,11 +8890,11 @@ _detalhes_database = {
 								["Arcane Shot"] = 1,
 							},
 							["classe"] = "UNGROUPPLAYER",
-							["last_event"] = 0,
-							["fight_component"] = true,
-							["serial"] = "Player-4477-02FBBE8E",
+							["tipo"] = 4,
 							["pets"] = {
 							},
+							["serial"] = "Player-4477-02FBBE8E",
+							["fight_component"] = true,
 						}, -- [1]
 						{
 							["flag_original"] = 1297,
@@ -8892,8 +8902,8 @@ _detalhes_database = {
 							["grupo"] = true,
 							["pets"] = {
 							},
-							["last_event"] = 1616224045,
 							["classe"] = "HUNTER",
+							["last_event"] = 1616224045,
 							["tipo"] = 4,
 							["buff_uptime"] = 0,
 							["buff_uptime_spells"] = {
@@ -9134,7 +9144,7 @@ _detalhes_database = {
 				["data_inicio"] = "13:07:23",
 				["TimeData"] = {
 				},
-				["frags"] = {
+				["spells_cast_timeline"] = {
 				},
 				["tempo_start"] = 1616224043,
 				["combat_counter"] = 14,
@@ -9231,7 +9241,7 @@ _detalhes_database = {
 				},
 				["start_time"] = 25968.45,
 				["contra"] = "Pfeilschelle",
-				["spells_cast_timeline"] = {
+				["frags"] = {
 				},
 			}, -- [17]
 		},
@@ -9317,7 +9327,12 @@ _detalhes_database = {
 			["point"] = "CENTER",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["author"] = "Details! Team",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -9325,14 +9340,8 @@ _detalhes_database = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["main_frame_strata"] = "LOW",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["y"] = -3.05175781250e-05,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -9344,16 +9353,16 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
 			},
+			["font_size"] = 10,
 			["x"] = 3.05175781250e-05,
 			["font_face"] = "Friz Quadrata TT",
+			["y"] = -3.05175781250e-05,
 			["use_spark"] = true,
-			["font_size"] = 10,
-			["main_frame_strata"] = "LOW",
+			["author"] = "Details! Team",
 			["main_frame_locked"] = false,
 			["arrow_anchor_y"] = 0,
 		},
 	},
-	["last_day"] = "12",
 	["cached_talents"] = {
 		["Player-4477-0303F15F"] = {
 			{
@@ -9777,6 +9786,7 @@ _detalhes_database = {
 		["channel"] = "SELF",
 		["reverse"] = false,
 	},
+	["last_day"] = "13",
 	["benchmark_db"] = {
 		["frame"] = {
 		},
@@ -9789,7 +9799,7 @@ _detalhes_database = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["combat_counter"] = 713,
+	["combat_counter"] = 739,
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -9818,9 +9828,9 @@ _detalhes_database = {
 					["total_without_pet"] = 1137.022037,
 					["friendlyfire_total"] = 0,
 					["fight_component"] = true,
-					["total"] = 1137.022037,
+					["end_time"] = 1616224046,
 					["delay"] = 0,
-					["damage_taken"] = 0.022037,
+					["on_hold"] = false,
 					["nome"] = "Pfeilschelle",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -9844,8 +9854,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 2,
 								["b_dmg"] = 0,
 								["n_amt"] = 3,
@@ -9872,8 +9882,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 3,
 								["b_dmg"] = 0,
 								["n_amt"] = 3,
@@ -9899,8 +9909,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 6,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
@@ -9927,8 +9937,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 3,
 								["b_dmg"] = 0,
 								["n_amt"] = 3,
@@ -9955,8 +9965,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 5,
@@ -9983,8 +9993,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 1,
@@ -9994,16 +10004,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
+					["damage_taken"] = 0.022037,
 					["dps_started"] = false,
 					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1616224035,
 					["serial"] = "Player-4477-02FBBE8E",
-					["end_time"] = 1616224046,
+					["total"] = 1137.022037,
 				}, -- [1]
 				{
 					["flag_original"] = 1297,
@@ -10057,11 +10067,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 3,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
 							},
 						},
@@ -10096,10 +10106,10 @@ _detalhes_database = {
 					},
 					["total_without_pet"] = 536.048442,
 					["friendlyfire_total"] = 0,
-					["dps_started"] = false,
+					["fight_component"] = true,
 					["end_time"] = 1616224046,
 					["delay"] = 0,
-					["damage_taken"] = 79.048442,
+					["last_dps"] = 0,
 					["nome"] = "Reported",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -10136,16 +10146,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["on_hold"] = false,
+					["damage_taken"] = 79.048442,
 					["total"] = 536.048442,
 					["friendlyfire"] = {
 					},
 					["custom"] = 0,
 					["last_event"] = 0,
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["start_time"] = 1616223999,
 					["serial"] = "Pet-0-4458-0-31-1996-0F0041C8FD",
-					["fight_component"] = true,
+					["dps_started"] = false,
 				}, -- [3]
 				{
 					["flag_original"] = 66888,
@@ -10165,11 +10175,12 @@ _detalhes_database = {
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 2520.051943,
-					["total"] = 2713.051943,
-					["dps_started"] = false,
 					["end_time"] = 1617499473,
+					["fight_component"] = true,
+					["total"] = 2713.051943,
 					["serial"] = "Player-4477-02FB963B",
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["nome"] = "Fräse",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -10195,11 +10206,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 5,
 								["b_dmg"] = 0,
 								["n_amt"] = 5,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
 							},
 							["Auto Shot"] = {
@@ -10222,11 +10233,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 22,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
 							},
 							["Multi-Shot"] = {
@@ -10251,11 +10262,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["b_dmg"] = 0,
 								["n_amt"] = 1,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
 							},
 							["!Autoshot"] = {
@@ -10310,26 +10321,25 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 6,
 								["b_dmg"] = 0,
 								["n_amt"] = 16,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["damage_taken"] = 0.051943,
+					["on_hold"] = false,
 					["classe"] = "UNGROUPPLAYER",
 					["last_dps"] = 0,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["friendlyfire"] = {
-					},
+					["damage_taken"] = 0.051943,
 					["start_time"] = 1617499402,
 					["delay"] = 0,
-					["fight_component"] = true,
+					["dps_started"] = false,
 				}, -- [4]
 				{
 					["flag_original"] = 66888,
@@ -10347,11 +10357,11 @@ _detalhes_database = {
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 845.018687,
-					["dps_started"] = false,
 					["fight_component"] = true,
+					["dps_started"] = false,
 					["end_time"] = 1617851496,
 					["delay"] = 0,
-					["damage_taken"] = 0.018687,
+					["last_dps"] = 0,
 					["nome"] = "Galadroniouz",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -10375,8 +10385,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 5,
@@ -10403,8 +10413,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
@@ -10414,13 +10424,13 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["on_hold"] = false,
+					["damage_taken"] = 0.018687,
 					["total"] = 845.018687,
 					["friendlyfire"] = {
 					},
 					["custom"] = 0,
 					["last_event"] = 0,
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["start_time"] = 1617851480,
 					["serial"] = "Player-4477-02FA3BE1",
 					["classe"] = "UNGROUPPLAYER",
@@ -10438,16 +10448,17 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["friendlyfire_total"] = 0,
-					["last_event"] = 0,
 					["classe"] = "PET",
+					["last_event"] = 0,
+					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 193.016636,
 					["serial"] = "Pet-0-4479-1-46-1996-040041C460",
-					["dps_started"] = false,
+					["fight_component"] = true,
 					["total"] = 193.016636,
-					["damage_taken"] = 430.016636,
+					["friendlyfire"] = {
+					},
 					["ownerName"] = "Fräse",
 					["nome"] = "Reported <Fräse>",
 					["spells"] = {
@@ -10474,26 +10485,25 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 6,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["on_hold"] = false,
+					["damage_taken"] = 430.016636,
 					["end_time"] = 1618292577,
 					["last_dps"] = 0,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["start_time"] = 1618292555,
 					["delay"] = 0,
-					["fight_component"] = true,
+					["dps_started"] = false,
 				}, -- [6]
 				{
 					["flag_original"] = 66888,
@@ -10511,12 +10521,11 @@ _detalhes_database = {
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 445.017277,
-					["end_time"] = 1618483839,
-					["fight_component"] = true,
 					["total"] = 445.017277,
+					["dps_started"] = false,
+					["end_time"] = 1618483839,
 					["serial"] = "Player-4477-02FB23AC",
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["nome"] = "Xzech",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -10541,11 +10550,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["b_dmg"] = 0,
 								["n_amt"] = 1,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
 							},
 							["Auto Shot"] = {
@@ -10568,11 +10577,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 5,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
 							},
 							["Multi-Shot"] = {
@@ -10596,11 +10605,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
 							},
 							["!Autoshot"] = {
@@ -10624,11 +10633,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 4,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
 							},
 							["Serpent Sting"] = {
@@ -10652,25 +10661,26 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 3,
 								["b_dmg"] = 0,
 								["n_amt"] = 2,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["damage_taken"] = 0.017277,
+					["friendlyfire"] = {
+					},
 					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.017277,
 					["start_time"] = 1618483828,
 					["delay"] = 0,
-					["dps_started"] = false,
+					["fight_component"] = true,
 				}, -- [7]
 				{
 					["flag_original"] = 68168,
@@ -10682,17 +10692,17 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 0.012723,
+					["monster"] = true,
+					["last_dps"] = 0,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 571.012723,
 					["delay"] = 0,
-					["monster"] = true,
+					["fight_component"] = true,
 					["end_time"] = 1618504653,
 					["friendlyfire_total"] = 0,
-					["on_hold"] = false,
+					["damage_taken"] = 0.012723,
 					["nome"] = "Coast Strider",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -10716,8 +10726,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 1,
@@ -10733,10 +10743,10 @@ _detalhes_database = {
 					["total"] = 571.012723,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["start_time"] = 1618504649,
 					["serial"] = "Creature-0-4457-1-31-5466-0000F6402F",
-					["fight_component"] = true,
+					["dps_started"] = false,
 				}, -- [8]
 				{
 					["flag_original"] = 68168,
@@ -10749,18 +10759,18 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["fight_component"] = true,
-					["last_dps"] = 0,
+					["dps_started"] = false,
+					["damage_taken"] = 0.013036,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 613.013036,
 					["delay"] = 0,
-					["dps_started"] = false,
+					["monster"] = true,
 					["total"] = 613.013036,
 					["friendlyfire"] = {
 					},
-					["on_hold"] = false,
+					["last_dps"] = 0,
 					["nome"] = "Southsea Swashbuckler",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -10785,8 +10795,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 3,
@@ -10812,8 +10822,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 1,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
@@ -10828,10 +10838,10 @@ _detalhes_database = {
 					["end_time"] = 1618505803,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 0.013036,
+					["on_hold"] = false,
 					["start_time"] = 1618505788,
 					["serial"] = "Creature-0-4457-1-31-7858-00007850A5",
-					["monster"] = true,
+					["fight_component"] = true,
 				}, -- [9]
 			},
 		}, -- [1]
@@ -10850,14 +10860,14 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["fight_component"] = true,
-					["last_event"] = 0,
+					["classe"] = "UNGROUPPLAYER",
 					["nome"] = "Pfeilschelle",
 					["enemy"] = true,
 					["pets"] = {
 					},
 					["flag_original"] = 66888,
-					["classe"] = "UNGROUPPLAYER",
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Player-4477-02FBBE8E",
 					["spell_cast"] = {
 						["Auto Shot"] = 6,
@@ -10945,36 +10955,36 @@ _detalhes_database = {
 				}, -- [2]
 				{
 					["flag_original"] = 66888,
-					["tipo"] = 4,
+					["classe"] = "UNGROUPPLAYER",
 					["nome"] = "Fräse",
 					["enemy"] = true,
+					["pets"] = {
+					},
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["fight_component"] = true,
+					["serial"] = "Player-4477-02FB963B",
 					["spell_cast"] = {
 						["Auto Shot"] = 22,
 						["Arcane Shot"] = 5,
 						["Multi-Shot"] = 1,
 						["Serpent Sting"] = 6,
 					},
-					["last_event"] = 0,
-					["classe"] = "UNGROUPPLAYER",
-					["pets"] = {
-					},
-					["serial"] = "Player-4477-02FB963B",
-					["fight_component"] = true,
 				}, -- [3]
 				{
 					["fight_component"] = true,
-					["pets"] = {
-					},
+					["flag_original"] = 66888,
 					["nome"] = "Xzech",
 					["enemy"] = true,
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						["Auto Shot"] = 5,
 						["Arcane Shot"] = 1,
 						["Serpent Sting"] = 3,
 					},
-					["flag_original"] = 66888,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Player-4477-02FB23AC",
 					["classe"] = "UNGROUPPLAYER",
 				}, -- [4]
@@ -11233,7 +11243,7 @@ _detalhes_database = {
 		}, -- [1]
 	},
 	["character_data"] = {
-		["logons"] = 689,
+		["logons"] = 715,
 	},
 	["announce_cooldowns"] = {
 		["enabled"] = false,

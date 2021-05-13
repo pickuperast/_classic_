@@ -10,7 +10,20 @@ AucAdvancedConfig = {
 				},
 			},
 		},
+		["configator.top"] = 558.9130859375,
+		["stat"] = {
+			["sales"] = {
+				["ignoredsigs"] = {
+				},
+				["upgraded32"] = true,
+			},
+		},
+		["configator.left"] = 396.0185546875,
 		["util"] = {
+			["appraiser"] = {
+				["columnsortcurDir"] = -1,
+				["columnsortcurSort"] = 6,
+			},
 			["automagic"] = {
 				["ammailguix"] = 160,
 				["autoSellList"] = {
@@ -21,14 +34,15 @@ AucAdvancedConfig = {
 				},
 			},
 			["ahwindowcontrol"] = {
-				["ahframeanchors"] = "TOP:TOP:-173.6:-42.0",
+				["ahframeanchors"] = "LEFT:LEFT:0.9:40.2",
 			},
 		},
-		["stat"] = {
-			["sales"] = {
-				["ignoredsigs"] = {
-				},
-				["upgraded32"] = true,
+		["match"] = {
+			["undercut"] = {
+				["usevalue"] = true,
+			},
+			["undermarket"] = {
+				["undercut"] = 0,
 			},
 		},
 	},
@@ -61,8 +75,8 @@ AucAdvancedData = {
 AucAdvancedServers = {
 	["Version"] = 1,
 	["KnownServerKeys"] = {
-		["РокДелар"] = 1620260614,
-		["Пламегор"] = 1620796147,
+		["РокДелар"] = 1620830169,
+		["Пламегор"] = 1620838321,
 	},
 	["KnownRealms"] = {
 		["РокДелар"] = "РокДелар",

@@ -12,6 +12,7 @@ AucAdvancedConfig = {
 		["util"] = {
 			["automagic"] = {
 				["ammailguix"] = 160,
+				["ammailguiy"] = 99.9,
 				["SavedMailButtons"] = {
 				},
 			},
@@ -42,7 +43,7 @@ AucAdvancedServers = {
 		["Пламегор"] = "Пламегор",
 	},
 	["KnownServerKeys"] = {
-		["Пламегор"] = 1620770282,
+		["Пламегор"] = 1620856672,
 	},
 	["Version"] = 1,
 }

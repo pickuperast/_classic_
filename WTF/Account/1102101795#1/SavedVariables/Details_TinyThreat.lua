@@ -2,8 +2,8 @@
 Details_TinyThreatDB = {
 	["characters"] = {
 		["Lucibaubb - Lucifron"] = "Lucisatush - Lucifron",
-		["Lucisatush - Lucifron"] = "Lucisatush - Lucifron",
 		["Lucibalykk - Lucifron"] = "Lucisatush - Lucifron",
+		["Lucisatush - Lucifron"] = "Lucisatush - Lucifron",
 	},
 	["profiles"] = {
 		["Lucisatush - Lucifron"] = {
