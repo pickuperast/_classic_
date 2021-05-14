@@ -6,13 +6,13 @@ FishingBuddy_Player = {
 	},
 	["Settings"] = {
 		["SpecialBobbers"] = -1,
-		["TotalTimeFishing"] = 604524.798,
+		["TotalTimeFishing"] = 606074.793,
 	},
 	["WasWearing"] = {
 	},
 	["WatcherLocation"] = {
 		["grp_point"] = "RIGHT",
-		["solo_y"] = -25.0000381469727,
+		["solo_y"] = -25.0000457763672,
 		["solo_x"] = 0,
 		["solo_point"] = "RIGHT",
 		["grp_x"] = 0,

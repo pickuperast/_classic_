@@ -16,7 +16,7 @@ BeanCounterDB = {
 			},
 			["failedBidsNeutral"] = {
 			},
-			["completedBidsBuyouts"] = {
+			["failedBids"] = {
 			},
 			["completedAuctions"] = {
 			},
@@ -24,27 +24,27 @@ BeanCounterDB = {
 			},
 			["completedAuctionsNeutral"] = {
 			},
-			["failedBids"] = {
+			["completedBidsBuyouts"] = {
 			},
 		},
 	},
 }
 BeanCounterDBSettings = {
-	["configator.left"] = 90.4346389770508,
+	["configator.left"] = 90.4346542358399,
 	["Пламегор"] = {
 		["Пламбалыкши"] = {
 			["tasks.sortArray"] = 1620854129,
 			["version"] = 3.04,
 			["faction"] = "Alliance",
 			["tasks.compactDB"] = 1620854129,
-			["wealth"] = 50441,
+			["wealth"] = 32062,
 			["tasks.prunePostedDB"] = 1620854129,
 			["mailbox"] = {
 			},
 		},
 	},
-	["util.beancounter.ButtonuseDateCheck"] = false,
 	["configator.top"] = 558.913391113281,
+	["util.beancounter.ButtonuseDateCheck"] = false,
 }
 BeanCounterDBNames = {
 }

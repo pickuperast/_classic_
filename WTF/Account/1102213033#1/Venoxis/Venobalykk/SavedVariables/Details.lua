@@ -23,17 +23,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 0.004074,
-							["last_event"] = 0,
+							["friendlyfire_total"] = 0,
+							["tipo"] = 1,
 							["classe"] = "HUNTER",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004074,
-							["delay"] = 0,
+							["serial"] = "Player-4477-0303F15F",
 							["dps_started"] = false,
-							["end_time"] = 1618506766,
-							["damage_taken"] = 1871.004074,
+							["total"] = 0.004074,
 							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["nome"] = "Venobalykk",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -41,15 +42,14 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["custom"] = 0,
-							["last_dps"] = 0.000626769230769231,
 							["colocacao"] = 1,
-							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["last_dps"] = 0.000626769230769231,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 1871.004074,
 							["start_time"] = 1618506766,
-							["serial"] = "Player-4477-0303F15F",
-							["friendlyfire_total"] = 0,
+							["delay"] = 0,
+							["end_time"] = 1618506766,
 						}, -- [1]
 						{
 							["flag_original"] = 66888,
@@ -62,17 +62,17 @@ _detalhes_database = {
 							["enemy"] = true,
 							["pets"] = {
 							},
-							["last_event"] = 1618506775,
+							["tipo"] = 1,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 136.007213,
-							["classe"] = "UNGROUPPLAYER",
+							["dps_started"] = true,
 							["fight_component"] = true,
 							["total"] = 136.007213,
-							["delay"] = 1618506775,
-							["nome"] = "Fräse",
+							["serial"] = "Player-4477-02FB963B",
 							["timeMachine"] = 1,
+							["nome"] = "Fräse",
 							["spells"] = {
 								["_ActorTable"] = {
 									["!Autoshot"] = {
@@ -93,16 +93,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = "!Autoshot",
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 									["Serpent Sting"] = {
 										["c_amt"] = 0,
@@ -122,30 +122,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = "Serpent Sting",
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 5,
-										["a_dmg"] = 0,
-										["spellschool"] = 8,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 0.007213,
+							["on_hold"] = true,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = true,
+							["last_event"] = 1618506775,
+							["damage_taken"] = 0.007213,
 							["start_time"] = 1618506760,
-							["serial"] = "Player-4477-02FB963B",
-							["dps_started"] = true,
+							["delay"] = 1618506775,
+							["classe"] = "UNGROUPPLAYER",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -176,37 +176,102 @@ _detalhes_database = {
 				["raid_roster"] = {
 					["Venobalykk"] = true,
 				},
-				["tempo_start"] = 1618506760,
+				["overall_added"] = true,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
+				["combat_counter"] = 450,
 				["playing_solo"] = true,
 				["totals"] = {
-					135.899753999999, -- [1]
+					135.887316999999, -- [1]
 					0, -- [2]
 					{
 						-0.00849100000000025, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = -0.0140559999999894,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					0, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = false,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "20:12:47",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Fräse",
+				["TotalElapsedCombatTime"] = 293976.676,
+				["CombatEndedAt"] = 293976.676,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Venobalykk"] = 0.004074,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 293976.676,
+				["combat_id"] = 17,
+				["frags"] = {
+				},
+				["contra"] = "Fräse",
+				["spells_cast_timeline"] = {
+				},
+				["tempo_start"] = 1618506760,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
 				},
 				["player_last_events"] = {
 					["Venobalykk"] = {
@@ -527,75 +592,10 @@ _detalhes_database = {
 						["n"] = 26,
 					},
 				},
-				["frags_need_refresh"] = false,
-				["instance_type"] = "none",
-				["hasSaved"] = true,
-				["data_fim"] = "20:12:47",
-				["pvp"] = true,
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Fräse",
-				["TotalElapsedCombatTime"] = 293976.676,
-				["CombatEndedAt"] = 293976.676,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "20:12:40",
-				["end_time"] = 293976.676,
-				["combat_id"] = 17,
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["Venobalykk"] = 0.004074,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
+				["start_time"] = 293970.176,
 				["TimeData"] = {
 				},
-				["spells_cast_timeline"] = {
-				},
-				["overall_added"] = true,
-				["combat_counter"] = 450,
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					0, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 293970.176,
-				["contra"] = "Fräse",
-				["frags"] = {
-				},
+				["data_inicio"] = "20:12:40",
 			}, -- [1]
 			{
 				{
@@ -606,24 +606,25 @@ _detalhes_database = {
 							["flag_original"] = 1297,
 							["totalabsorbed"] = 0.007497,
 							["damage_from"] = {
-								["Reported <Fräse>"] = true,
 								["Fräse"] = true,
+								["Reported <Fräse>"] = true,
 							},
 							["targets"] = {
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1618506728,
-							["last_event"] = 0,
+							["friendlyfire_total"] = 0,
+							["tipo"] = 1,
 							["classe"] = "HUNTER",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.007497,
-							["delay"] = 0,
+							["serial"] = "Player-4477-0303F15F",
 							["dps_started"] = false,
-							["total"] = 0.007497,
-							["damage_taken"] = 150.007497,
+							["end_time"] = 1618506728,
 							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["nome"] = "Venobalykk",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -631,35 +632,34 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["custom"] = 0,
-							["last_dps"] = 0.000620047969563375,
 							["colocacao"] = 1,
-							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["last_dps"] = 0.000620047969563375,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 150.007497,
 							["start_time"] = 1618506728,
-							["serial"] = "Player-4477-0303F15F",
-							["friendlyfire_total"] = 0,
+							["delay"] = 0,
+							["total"] = 0.007497,
 						}, -- [1]
 						{
 							["flag_original"] = 69960,
 							["totalabsorbed"] = 0.008598,
 							["damage_from"] = {
-								["Southsea Swashbuckler"] = true,
 								["Southsea Freebooter"] = true,
+								["Southsea Swashbuckler"] = true,
 							},
 							["targets"] = {
 								["Venobalykk"] = 84,
 							},
 							["pets"] = {
 							},
+							["dps_started"] = false,
+							["last_event"] = 1618506722,
 							["friendlyfire_total"] = 0,
-							["tipo"] = 1,
-							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 84.008598,
-							["delay"] = 0,
+							["serial"] = "Pet-0-4457-1-31-1996-0F0041C460",
 							["fight_component"] = true,
 							["total"] = 84.008598,
 							["end_time"] = 1618506728,
@@ -685,30 +685,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = "!Melee",
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 4,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 430.008598,
+							["on_hold"] = false,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1618506722,
-							["on_hold"] = false,
+							["tipo"] = 1,
+							["damage_taken"] = 430.008598,
 							["start_time"] = 1618506716,
-							["serial"] = "Pet-0-4457-1-31-1996-0F0041C460",
-							["dps_started"] = false,
+							["delay"] = 0,
+							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -756,21 +756,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["totals_grupo"] = {
 					0, -- [1]
@@ -779,18 +779,18 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
 				["frags_need_refresh"] = true,
@@ -810,13 +810,34 @@ _detalhes_database = {
 				["data_inicio"] = "20:11:56",
 				["end_time"] = 293937.813,
 				["combat_id"] = 16,
-				["tempo_start"] = 1618506716,
-				["TimeData"] = {
+				["spells_cast_timeline"] = {
 				},
+				["contra"] = "Reported",
 				["frags"] = {
 					["Reported"] = 1,
 				},
 				["combat_counter"] = 449,
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Venobalykk"] = 0.007497,
+						}, -- [1]
+					},
+				},
+				["CombatSkillCache"] = {
+				},
 				["player_last_events"] = {
 					["Venobalykk"] = {
 						{
@@ -896,31 +917,10 @@ _detalhes_database = {
 						["n"] = 2,
 					},
 				},
-				["CombatSkillCache"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["Venobalykk"] = 0.007497,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
 				["start_time"] = 293925.722,
-				["contra"] = "Reported",
-				["spells_cast_timeline"] = {
+				["TimeData"] = {
 				},
+				["tempo_start"] = 1618506716,
 			}, -- [2]
 			{
 				{
@@ -931,24 +931,25 @@ _detalhes_database = {
 							["flag_original"] = 1297,
 							["totalabsorbed"] = 0.003956,
 							["damage_from"] = {
-								["Fräse"] = true,
 								["Reported <Fräse>"] = true,
+								["Fräse"] = true,
 							},
 							["targets"] = {
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1618506681,
-							["last_event"] = 0,
+							["friendlyfire_total"] = 0,
+							["tipo"] = 1,
 							["classe"] = "HUNTER",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.003956,
-							["delay"] = 0,
+							["serial"] = "Player-4477-0303F15F",
 							["dps_started"] = false,
-							["total"] = 0.003956,
-							["damage_taken"] = 282.003956,
+							["end_time"] = 1618506681,
 							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["nome"] = "Venobalykk",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -956,15 +957,14 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["custom"] = 0,
-							["last_dps"] = 0.000576424304239111,
 							["colocacao"] = 1,
-							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["last_dps"] = 0.000576424304239111,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 282.003956,
 							["start_time"] = 1618506681,
-							["serial"] = "Player-4477-0303F15F",
-							["friendlyfire_total"] = 0,
+							["delay"] = 0,
+							["total"] = 0.003956,
 						}, -- [1]
 						{
 							["flag_original"] = 66888,
@@ -978,17 +978,16 @@ _detalhes_database = {
 							["pets"] = {
 								"Reported <Fräse>", -- [1]
 							},
-							["last_event"] = 1618506714,
+							["tipo"] = 1,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 259.002492,
-							["classe"] = "UNGROUPPLAYER",
+							["dps_started"] = false,
 							["fight_component"] = true,
 							["total"] = 282.002492,
-							["delay"] = 1618506697,
-							["friendlyfire"] = {
-							},
+							["serial"] = "Player-4477-02FB963B",
+							["damage_taken"] = 0.002492,
 							["nome"] = "Fräse",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -1009,45 +1008,15 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = "Auto Shot",
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
+										["a_amt"] = 0,
 										["c_min"] = 0,
-										["m_amt"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["a_amt"] = 0,
-										["a_dmg"] = 0,
-									},
-									["!Autoshot"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 56,
-										["targets"] = {
-											["Venobalykk"] = 110,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 110,
-										["n_min"] = 54,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 110,
-										["c_max"] = 0,
-										["r_amt"] = 0,
-										["id"] = "!Autoshot",
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 2,
-										["spellschool"] = 1,
-										["MISS"] = 1,
+										["r_amt"] = 0,
 									},
 									["Multi-Shot"] = {
 										["c_amt"] = 0,
@@ -1067,16 +1036,46 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = "Multi-Shot",
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									["!Autoshot"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 56,
+										["targets"] = {
+											["Venobalykk"] = 110,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 110,
+										["n_min"] = 54,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 110,
+										["c_max"] = 0,
+										["MISS"] = 1,
+										["id"] = "!Autoshot",
+										["r_dmg"] = 0,
 										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									["Serpent Sting"] = {
 										["c_amt"] = 0,
@@ -1096,29 +1095,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = "Serpent Sting",
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 5,
-										["a_dmg"] = 0,
-										["spellschool"] = 8,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 0.002492,
+							["on_hold"] = false,
 							["end_time"] = 1618506716,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
+							["last_event"] = 1618506714,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1618506691,
-							["serial"] = "Player-4477-02FB963B",
-							["dps_started"] = false,
+							["delay"] = 1618506697,
+							["classe"] = "UNGROUPPLAYER",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -1140,18 +1140,18 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 66888,
-							["last_event"] = 0,
+							["spell_cast"] = {
+								["Auto Shot"] = 1,
+							},
 							["nome"] = "Fräse",
 							["enemy"] = true,
 							["pets"] = {
 							},
-							["classe"] = "UNGROUPPLAYER",
-							["tipo"] = 4,
-							["spell_cast"] = {
-								["Auto Shot"] = 1,
-							},
-							["serial"] = "Player-4477-02FB963B",
 							["fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Player-4477-02FB963B",
+							["classe"] = "UNGROUPPLAYER",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -1181,21 +1181,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["totals_grupo"] = {
 					0, -- [1]
@@ -1204,18 +1204,18 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
 				["frags_need_refresh"] = false,
@@ -1235,12 +1235,33 @@ _detalhes_database = {
 				["data_inicio"] = "20:11:14",
 				["end_time"] = 293891.358,
 				["combat_id"] = 15,
-				["tempo_start"] = 1618506674,
-				["TimeData"] = {
+				["spells_cast_timeline"] = {
 				},
+				["contra"] = "Fräse",
 				["frags"] = {
 				},
 				["combat_counter"] = 448,
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Venobalykk"] = 0.003956,
+						}, -- [1]
+					},
+				},
+				["CombatSkillCache"] = {
+				},
 				["player_last_events"] = {
 					["Venobalykk"] = {
 						{
@@ -1360,31 +1381,10 @@ _detalhes_database = {
 						["n"] = 6,
 					},
 				},
-				["CombatSkillCache"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["Venobalykk"] = 0.003956,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
 				["start_time"] = 293884.495,
-				["contra"] = "Fräse",
-				["spells_cast_timeline"] = {
+				["TimeData"] = {
 				},
+				["tempo_start"] = 1618506674,
 			}, -- [3]
 			{
 				{
@@ -1401,17 +1401,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1618506639,
-							["last_event"] = 0,
+							["friendlyfire_total"] = 0,
+							["tipo"] = 1,
 							["classe"] = "HUNTER",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.002913,
-							["delay"] = 0,
+							["serial"] = "Player-4477-0303F15F",
 							["dps_started"] = false,
-							["total"] = 0.002913,
-							["damage_taken"] = 266.002913,
+							["end_time"] = 1618506639,
 							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["nome"] = "Venobalykk",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -1419,15 +1420,14 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["custom"] = 0,
-							["last_dps"] = 0.000475203915170928,
 							["colocacao"] = 1,
-							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["last_dps"] = 0.000475203915170928,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 266.002913,
 							["start_time"] = 1618506639,
-							["serial"] = "Player-4477-0303F15F",
-							["friendlyfire_total"] = 0,
+							["delay"] = 0,
+							["total"] = 0.002913,
 						}, -- [1]
 						{
 							["flag_original"] = 66888,
@@ -1440,48 +1440,19 @@ _detalhes_database = {
 							["enemy"] = true,
 							["pets"] = {
 							},
-							["tipo"] = 1,
+							["last_event"] = 1618506674,
 							["classe"] = "UNGROUPPLAYER",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 266.001219,
+							["total"] = 266.001219,
 							["fight_component"] = true,
-							["dps_started"] = false,
 							["end_time"] = 1618506674,
-							["delay"] = 1618506645,
+							["serial"] = "Player-4477-02FB963B",
 							["friendlyfire_total"] = 0,
 							["nome"] = "Fräse",
 							["spells"] = {
 								["_ActorTable"] = {
-									["!Autoshot"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 51,
-										["targets"] = {
-											["Venobalykk"] = 51,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 51,
-										["n_min"] = 51,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 51,
-										["c_max"] = 0,
-										["id"] = "!Autoshot",
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
-									},
 									["Multi-Shot"] = {
 										["c_amt"] = 1,
 										["b_amt"] = 0,
@@ -1500,16 +1471,45 @@ _detalhes_database = {
 										["c_max"] = 128,
 										["id"] = "Multi-Shot",
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 128,
 										["m_amt"] = 0,
+										["c_min"] = 128,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									["!Autoshot"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 51,
+										["targets"] = {
+											["Venobalykk"] = 51,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 51,
+										["n_min"] = 51,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 51,
+										["c_max"] = 0,
+										["id"] = "!Autoshot",
+										["r_dmg"] = 0,
 										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 									["Serpent Sting"] = {
 										["c_amt"] = 0,
@@ -1529,30 +1529,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = "Serpent Sting",
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 5,
-										["a_dmg"] = 0,
-										["spellschool"] = 8,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 0.001219,
+							["on_hold"] = false,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1618506674,
-							["on_hold"] = false,
+							["tipo"] = 1,
+							["damage_taken"] = 0.001219,
 							["start_time"] = 1618506661,
-							["serial"] = "Player-4477-02FB963B",
-							["total"] = 266.001219,
+							["delay"] = 1618506645,
+							["dps_started"] = false,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -1600,21 +1600,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["totals_grupo"] = {
 					0, -- [1]
@@ -1623,18 +1623,18 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
 				["frags_need_refresh"] = false,
@@ -1654,12 +1654,33 @@ _detalhes_database = {
 				["data_inicio"] = "20:10:33",
 				["end_time"] = 293848.918,
 				["combat_id"] = 14,
-				["tempo_start"] = 1618506633,
-				["TimeData"] = {
+				["spells_cast_timeline"] = {
 				},
+				["contra"] = "Fräse",
 				["frags"] = {
 				},
 				["combat_counter"] = 447,
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Venobalykk"] = 0.002913,
+						}, -- [1]
+					},
+				},
+				["CombatSkillCache"] = {
+				},
 				["player_last_events"] = {
 					["Venobalykk"] = {
 						{
@@ -1769,31 +1790,10 @@ _detalhes_database = {
 						["n"] = 5,
 					},
 				},
-				["CombatSkillCache"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["Venobalykk"] = 0.002913,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
 				["start_time"] = 293842.788,
-				["contra"] = "Fräse",
-				["spells_cast_timeline"] = {
+				["TimeData"] = {
 				},
+				["tempo_start"] = 1618506633,
 			}, -- [4]
 			{
 				{
@@ -1810,17 +1810,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1618505802,
-							["last_event"] = 0,
+							["friendlyfire_total"] = 0,
+							["tipo"] = 1,
 							["classe"] = "HUNTER",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004814,
-							["delay"] = 0,
+							["serial"] = "Player-4477-0303F15F",
 							["dps_started"] = false,
-							["total"] = 0.004814,
-							["damage_taken"] = 273.004814,
+							["end_time"] = 1618505802,
 							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["nome"] = "Venobalykk",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -1828,15 +1829,14 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["custom"] = 0,
-							["last_dps"] = 0.00199833955999576,
 							["colocacao"] = 1,
-							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["last_dps"] = 0.00199833955999576,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 273.004814,
 							["start_time"] = 1618505802,
-							["serial"] = "Player-4477-0303F15F",
-							["friendlyfire_total"] = 0,
+							["delay"] = 0,
+							["total"] = 0.004814,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -1848,17 +1848,17 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["monster"] = true,
-							["end_time"] = 1618505802,
+							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 273.002911,
-							["delay"] = 0,
-							["dps_started"] = false,
+							["serial"] = "Creature-0-4457-1-31-7858-00007850A5",
+							["monster"] = true,
+							["end_time"] = 1618505802,
 							["total"] = 273.002911,
-							["fight_component"] = true,
-							["damage_taken"] = 0.002911,
+							["on_hold"] = false,
 							["nome"] = "Southsea Swashbuckler",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -1880,16 +1880,16 @@ _detalhes_database = {
 										["c_max"] = 159,
 										["id"] = "!Melee",
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 159,
 										["m_amt"] = 0,
+										["c_min"] = 159,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 									["Disarm"] = {
 										["c_amt"] = 0,
@@ -1908,29 +1908,29 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = "Disarm",
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
+										["a_amt"] = 0,
 										["c_min"] = 0,
-										["m_amt"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["a_amt"] = 0,
-										["a_dmg"] = 0,
+										["m_amt"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["tipo"] = 1,
-							["last_dps"] = 0,
+							["last_event"] = 1618505802,
 							["friendlyfire"] = {
 							},
+							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1618505802,
-							["on_hold"] = false,
+							["tipo"] = 1,
+							["damage_taken"] = 0.002911,
 							["start_time"] = 1618505800,
-							["serial"] = "Creature-0-4457-1-31-7858-00007850A5",
-							["friendlyfire_total"] = 0,
+							["delay"] = 0,
+							["dps_started"] = false,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -1952,18 +1952,18 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 68168,
-							["last_event"] = 0,
+							["tipo"] = 4,
 							["nome"] = "Southsea Swashbuckler",
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
+							["fight_component"] = true,
 							["spell_cast"] = {
 								["Disarm"] = 1,
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
 							["monster"] = true,
 							["serial"] = "Creature-0-4457-1-31-7858-00007850A5",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [1]
 						{
 							["flag_original"] = 1297,
@@ -1971,10 +1971,10 @@ _detalhes_database = {
 							["grupo"] = true,
 							["pets"] = {
 							},
-							["classe"] = "HUNTER",
+							["last_event"] = 0,
 							["tipo"] = 4,
 							["serial"] = "Player-4477-0303F15F",
-							["last_event"] = 0,
+							["classe"] = "HUNTER",
 						}, -- [2]
 					},
 				}, -- [4]
@@ -1988,7 +1988,7 @@ _detalhes_database = {
 					["Venobalykk"] = true,
 				},
 				["CombatStartedAt"] = 293840.379,
-				["overall_added"] = true,
+				["tempo_start"] = 1618505800,
 				["last_events_tables"] = {
 					{
 						{
@@ -2030,15 +2030,13 @@ _detalhes_database = {
 						"HUNTER", -- [4]
 						457, -- [5]
 						"0m 2s", -- [6]
-						["dead"] = true,
 						["dead_at"] = 2.4089999999851,
+						["dead"] = true,
 					}, -- [1]
 				},
 				["alternate_power"] = {
 				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
+				["combat_counter"] = 446,
 				["playing_solo"] = true,
 				["totals"] = {
 					273, -- [1]
@@ -2047,42 +2045,23 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 1,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 1,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
-				["totals_grupo"] = {
-					0, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 1,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
+				["player_last_events"] = {
 				},
 				["frags_need_refresh"] = false,
 				["instance_type"] = "none",
@@ -2097,18 +2076,12 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "19:56:40",
-				["end_time"] = 293012.708,
-				["combat_id"] = 13,
 				["PhaseData"] = {
 					{
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["Venobalykk"] = 0.004814,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -2116,23 +2089,50 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Venobalykk"] = 0.004814,
+						}, -- [1]
 					},
 				},
-				["tempo_start"] = 1618505800,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Southsea Swashbuckler",
-				["combat_counter"] = 446,
-				["CombatSkillCache"] = {
-				},
-				["player_last_events"] = {
-				},
-				["start_time"] = 293010.299,
-				["TimeData"] = {
-				},
+				["end_time"] = 293012.708,
+				["combat_id"] = 13,
 				["frags"] = {
 				},
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["TimeData"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					0, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 1,
+					}, -- [4]
+				},
+				["start_time"] = 293010.299,
+				["contra"] = "Southsea Swashbuckler",
+				["data_inicio"] = "19:56:40",
 			}, -- [5]
 			{
 				{
@@ -2150,17 +2150,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1618504653,
-							["last_event"] = 0,
+							["friendlyfire_total"] = 0,
+							["tipo"] = 1,
 							["classe"] = "HUNTER",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.001621,
-							["delay"] = 0,
+							["serial"] = "Player-4477-0303F15F",
 							["dps_started"] = false,
-							["total"] = 0.001621,
-							["damage_taken"] = 1141.001621,
+							["end_time"] = 1618504653,
 							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["nome"] = "Venobalykk",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -2168,15 +2169,14 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["custom"] = 0,
-							["last_dps"] = 0.00396332518351848,
 							["colocacao"] = 1,
-							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["last_dps"] = 0.00396332518351848,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 1141.001621,
 							["start_time"] = 1618504653,
-							["serial"] = "Player-4477-0303F15F",
-							["friendlyfire_total"] = 0,
+							["delay"] = 0,
+							["total"] = 0.001621,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -2188,17 +2188,17 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["fight_component"] = true,
+							["total"] = 571.007098,
 							["classe"] = "UNKNOW",
-							["dps_started"] = false,
-							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 571.007098,
-							["delay"] = 0,
-							["monster"] = true,
+							["serial"] = "Creature-0-4457-1-31-5466-0000F6402F",
+							["dps_started"] = false,
 							["end_time"] = 1618504653,
-							["total"] = 571.007098,
-							["damage_taken"] = 0.007098,
+							["monster"] = true,
+							["on_hold"] = false,
 							["nome"] = "Coast Strider",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -2220,30 +2220,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = "!Melee",
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["tipo"] = 1,
-							["last_dps"] = 0,
+							["last_event"] = 1618504652,
 							["friendlyfire"] = {
 							},
+							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1618504652,
-							["on_hold"] = false,
+							["tipo"] = 1,
+							["damage_taken"] = 0.007098,
 							["start_time"] = 1618504652,
-							["serial"] = "Creature-0-4457-1-31-5466-0000F6402F",
-							["fight_component"] = true,
+							["delay"] = 0,
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -2269,15 +2269,15 @@ _detalhes_database = {
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
 									["Dazed"] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = "Dazed",
-										["uptime"] = 0,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = "Dazed",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
@@ -2286,36 +2286,36 @@ _detalhes_database = {
 							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["pets"] = {
-							},
+							["buff_uptime"] = 0,
 							["buff_uptime_targets"] = {
 							},
-							["buff_uptime"] = 0,
-							["last_event"] = 1618504652,
+							["pets"] = {
+							},
 							["tipo"] = 4,
+							["last_event"] = 1618504652,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									["Track Beasts"] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = "Track Beasts",
-										["uptime"] = 0,
+										["appliedamt"] = 0,
 										["targets"] = {
 										},
-										["appliedamt"] = 0,
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = "Track Beasts",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									["Aspect of the Cheetah"] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = "Aspect of the Cheetah",
-										["uptime"] = 0,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 0,
+										["id"] = "Aspect of the Cheetah",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
@@ -2335,7 +2335,7 @@ _detalhes_database = {
 					["Venobalykk"] = true,
 				},
 				["CombatStartedAt"] = 293000.935,
-				["overall_added"] = true,
+				["tempo_start"] = 1618504652,
 				["last_events_tables"] = {
 					{
 						{
@@ -2365,15 +2365,13 @@ _detalhes_database = {
 						"HUNTER", -- [4]
 						457, -- [5]
 						"0m 0s", -- [6]
-						["dead"] = true,
 						["dead_at"] = 0.408999999985099,
+						["dead"] = true,
 					}, -- [1]
 				},
 				["alternate_power"] = {
 				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
+				["combat_counter"] = 445,
 				["playing_solo"] = true,
 				["totals"] = {
 					570.99324, -- [1]
@@ -2382,84 +2380,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 1,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 1,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
-				},
-				["totals_grupo"] = {
-					0, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 1,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = false,
-				["instance_type"] = "none",
-				["hasSaved"] = true,
-				["data_fim"] = "19:37:33",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Coast Strider",
-				["TotalElapsedCombatTime"] = 291862.891,
-				["CombatEndedAt"] = 291862.891,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "19:37:32",
-				["end_time"] = 291862.891,
-				["combat_id"] = 12,
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["Venobalykk"] = 0.001621,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
-				["tempo_start"] = 1618504652,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Coast Strider",
-				["combat_counter"] = 445,
-				["CombatSkillCache"] = {
+					["voidzone_damage"] = 0,
 				},
 				["player_last_events"] = {
 					["Venobalykk"] = {
@@ -2600,11 +2535,76 @@ _detalhes_database = {
 						["n"] = 8,
 					},
 				},
-				["start_time"] = 291862.482,
-				["TimeData"] = {
+				["frags_need_refresh"] = false,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "19:37:33",
+				["cleu_timeline"] = {
 				},
+				["enemy"] = "Coast Strider",
+				["TotalElapsedCombatTime"] = 291862.891,
+				["CombatEndedAt"] = 291862.891,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Venobalykk"] = 0.001621,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 291862.891,
+				["combat_id"] = 12,
 				["frags"] = {
 				},
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["TimeData"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					0, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 1,
+					}, -- [4]
+				},
+				["start_time"] = 291862.482,
+				["contra"] = "Coast Strider",
+				["data_inicio"] = "19:37:32",
 			}, -- [6]
 			{
 				{
@@ -2622,18 +2622,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["total"] = 0.007744,
+							["last_event"] = 0,
 							["friendlyfire_total"] = 0,
-							["tipo"] = 1,
-							["classe"] = "HUNTER",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.007744,
-							["serial"] = "Player-4477-0303F15F",
+							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1618483839,
-							["on_hold"] = false,
 							["friendlyfire"] = {
 							},
+							["damage_taken"] = 472.007744,
 							["nome"] = "Venobalykk",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -2641,14 +2641,14 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["colocacao"] = 1,
-							["last_dps"] = 0.000968,
 							["custom"] = 0,
-							["last_event"] = 0,
-							["damage_taken"] = 472.007744,
+							["last_dps"] = 0.000968,
+							["colocacao"] = 1,
+							["tipo"] = 1,
+							["on_hold"] = false,
 							["start_time"] = 1618483839,
-							["delay"] = 0,
-							["total"] = 0.007744,
+							["serial"] = "Player-4477-0303F15F",
+							["classe"] = "HUNTER",
 						}, -- [1]
 						{
 							["flag_original"] = 66888,
@@ -2661,47 +2661,46 @@ _detalhes_database = {
 							["enemy"] = true,
 							["pets"] = {
 							},
-							["tipo"] = 1,
+							["last_event"] = 1618483838,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 445.00899,
+							["classe"] = "UNGROUPPLAYER",
 							["dps_started"] = false,
-							["fight_component"] = true,
 							["total"] = 445.00899,
-							["serial"] = "Player-4477-02FB23AC",
-							["damage_taken"] = 0.00899,
+							["delay"] = 0,
+							["on_hold"] = false,
 							["nome"] = "Xzech",
 							["spells"] = {
 								["_ActorTable"] = {
-									["Serpent Sting"] = {
+									["Arcane Shot"] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 16,
+										["n_max"] = 33,
 										["targets"] = {
-											["Venobalykk"] = 32,
+											["Venobalykk"] = 33,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 32,
-										["n_min"] = 16,
+										["n_dmg"] = 33,
+										["n_min"] = 33,
 										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 32,
+										["counter"] = 1,
+										["total"] = 33,
 										["c_max"] = 0,
-										["id"] = "Serpent Sting",
+										["id"] = "Arcane Shot",
 										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["m_amt"] = 0,
 										["c_min"] = 0,
-										["successful_casted"] = 3,
+										["successful_casted"] = 1,
 										["b_dmg"] = 0,
-										["n_amt"] = 2,
+										["n_amt"] = 1,
 										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
 									},
 									["Auto Shot"] = {
 										["c_amt"] = 0,
@@ -2720,44 +2719,15 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = "Auto Shot",
 										["r_dmg"] = 0,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
+										["m_amt"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 5,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["m_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["!Autoshot"] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 140,
-										["g_amt"] = 0,
-										["n_max"] = 39,
-										["targets"] = {
-											["Venobalykk"] = 285,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 145,
-										["n_min"] = 34,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 285,
-										["c_max"] = 72,
-										["id"] = "!Autoshot",
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 68,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 4,
 										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
 									},
 									["Multi-Shot"] = {
 										["c_amt"] = 1,
@@ -2777,58 +2747,88 @@ _detalhes_database = {
 										["c_max"] = 95,
 										["id"] = "Multi-Shot",
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 95,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
-									["Arcane Shot"] = {
+									["!Autoshot"] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 140,
+										["g_amt"] = 0,
+										["n_max"] = 39,
+										["targets"] = {
+											["Venobalykk"] = 285,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 145,
+										["n_min"] = 34,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 285,
+										["c_max"] = 72,
+										["id"] = "!Autoshot",
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 68,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									["Serpent Sting"] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 33,
+										["n_max"] = 16,
 										["targets"] = {
-											["Venobalykk"] = 33,
+											["Venobalykk"] = 32,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 33,
-										["n_min"] = 33,
+										["n_dmg"] = 32,
+										["n_min"] = 16,
 										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 33,
+										["counter"] = 2,
+										["total"] = 32,
 										["c_max"] = 0,
-										["id"] = "Arcane Shot",
+										["id"] = "Serpent Sting",
 										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["m_amt"] = 0,
 										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 3,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["end_time"] = 1618483839,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1618483838,
-							["friendlyfire"] = {
-							},
+							["tipo"] = 1,
+							["damage_taken"] = 0.00899,
 							["start_time"] = 1618483831,
-							["delay"] = 0,
-							["classe"] = "UNGROUPPLAYER",
+							["serial"] = "Player-4477-02FB23AC",
+							["fight_component"] = true,
 						}, -- [2]
 						{
 							["flag_original"] = 4424,
@@ -2840,16 +2840,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
+							["last_event"] = 1618483831,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 27.005353,
+							["classe"] = "PET",
 							["dps_started"] = false,
-							["fight_component"] = true,
 							["total"] = 27.005353,
-							["serial"] = "Pet-0-4457-1-31-1996-010041C733",
-							["damage_taken"] = 0.005353,
+							["delay"] = 0,
+							["on_hold"] = false,
 							["nome"] = "Reported",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -2871,30 +2871,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = "!Melee",
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["end_time"] = 1618483839,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1618483831,
-							["friendlyfire"] = {
-							},
+							["tipo"] = 1,
+							["damage_taken"] = 0.005353,
 							["start_time"] = 1618483831,
-							["delay"] = 0,
-							["classe"] = "PET",
+							["serial"] = "Pet-0-4457-1-31-1996-010041C733",
+							["fight_component"] = true,
 						}, -- [3]
 					},
 				}, -- [1]
@@ -2920,26 +2920,26 @@ _detalhes_database = {
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
 									["Freezing Trap Effect"] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = "Freezing Trap Effect",
+										["uptime"] = 8,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 8,
-										["id"] = "Freezing Trap Effect",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									["Dazed"] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 7,
+										["id"] = "Dazed",
+										["uptime"] = 7,
 										["targets"] = {
 										},
-										["activedamt"] = 0,
-										["uptime"] = 7,
-										["id"] = "Dazed",
-										["refreshamt"] = 7,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
@@ -2948,36 +2948,36 @@ _detalhes_database = {
 							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["buff_uptime"] = 7,
-							["buff_uptime_targets"] = {
-							},
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
+							["buff_uptime"] = 7,
 							["last_event"] = 1618483838,
+							["tipo"] = 4,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
-									["Track Humanoids"] = {
-										["appliedamt"] = 0,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 0,
-										["id"] = "Track Humanoids",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
 									["Aspect of the Cheetah"] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = "Aspect of the Cheetah",
+										["uptime"] = 7,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 7,
-										["id"] = "Aspect of the Cheetah",
-										["refreshamt"] = 0,
-										["actived"] = false,
+										["appliedamt"] = 1,
+									},
+									["Track Humanoids"] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = "Track Humanoids",
+										["uptime"] = 0,
+										["targets"] = {
+										},
+										["appliedamt"] = 0,
 									},
 								},
 								["tipo"] = 9,
@@ -2987,20 +2987,20 @@ _detalhes_database = {
 						}, -- [1]
 						{
 							["flag_original"] = 66888,
-							["spell_cast"] = {
-								["Auto Shot"] = 5,
-								["Serpent Sting"] = 3,
-								["Arcane Shot"] = 1,
-							},
+							["tipo"] = 4,
 							["nome"] = "Xzech",
 							["enemy"] = true,
+							["spell_cast"] = {
+								["Auto Shot"] = 5,
+								["Arcane Shot"] = 1,
+								["Serpent Sting"] = 3,
+							},
+							["classe"] = "UNGROUPPLAYER",
+							["last_event"] = 0,
+							["fight_component"] = true,
+							["serial"] = "Player-4477-02FB23AC",
 							["pets"] = {
 							},
-							["fight_component"] = true,
-							["last_event"] = 0,
-							["tipo"] = 4,
-							["serial"] = "Player-4477-02FB23AC",
-							["classe"] = "UNGROUPPLAYER",
 						}, -- [2]
 					},
 				}, -- [4]
@@ -3188,8 +3188,8 @@ _detalhes_database = {
 						"HUNTER", -- [4]
 						457, -- [5]
 						"0m 8s", -- [6]
-						["dead_at"] = 8,
 						["dead"] = true,
+						["dead_at"] = 8,
 					}, -- [1]
 				},
 				["alternate_power"] = {
@@ -3205,21 +3205,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 1,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 1,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -3242,7 +3242,10 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Venobalykk"] = 0.007744,
+						}, -- [1]
 					},
 					["heal_section"] = {
 					},
@@ -3250,23 +3253,17 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage"] = {
-						{
-							["Venobalykk"] = 0.007744,
-						}, -- [1]
+					["damage_section"] = {
 					},
 				},
 				["end_time"] = 271049.09,
 				["combat_id"] = 11,
+				["overall_added"] = true,
+				["TimeData"] = {
+				},
 				["frags"] = {
 				},
-				["contra"] = "Xzech",
-				["spells_cast_timeline"] = {
-				},
 				["combat_counter"] = 443,
-				["data_inicio"] = "13:50:31",
-				["CombatSkillCache"] = {
-				},
 				["totals_grupo"] = {
 					0, -- [1]
 					0, -- [2]
@@ -3274,24 +3271,27 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 1,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 1,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
-				["start_time"] = 271041.09,
-				["TimeData"] = {
+				["CombatSkillCache"] = {
 				},
-				["overall_added"] = true,
+				["data_inicio"] = "13:50:31",
+				["start_time"] = 271041.09,
+				["contra"] = "Xzech",
+				["spells_cast_timeline"] = {
+				},
 			}, -- [7]
 			{
 				{
@@ -3308,18 +3308,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["total"] = 0.002819,
+							["last_event"] = 0,
 							["friendlyfire_total"] = 0,
-							["tipo"] = 1,
-							["classe"] = "HUNTER",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.002819,
-							["serial"] = "Player-4477-0303F15F",
+							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1618376768,
-							["on_hold"] = false,
 							["friendlyfire"] = {
 							},
+							["damage_taken"] = 474.002819,
 							["nome"] = "Venobalykk",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -3327,14 +3327,14 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["colocacao"] = 1,
-							["last_dps"] = 0.000316421596138232,
 							["custom"] = 0,
-							["last_event"] = 0,
-							["damage_taken"] = 474.002819,
+							["last_dps"] = 0.000316421596138232,
+							["colocacao"] = 1,
+							["tipo"] = 1,
+							["on_hold"] = false,
 							["start_time"] = 1618376768,
-							["delay"] = 0,
-							["total"] = 0.002819,
+							["serial"] = "Player-4477-0303F15F",
+							["classe"] = "HUNTER",
 						}, -- [1]
 						{
 							["flag_original"] = 66888,
@@ -3347,16 +3347,16 @@ _detalhes_database = {
 							["enemy"] = true,
 							["pets"] = {
 							},
-							["tipo"] = 1,
+							["last_event"] = 1618376768,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 474.004768,
+							["classe"] = "UNGROUPPLAYER",
 							["dps_started"] = false,
-							["fight_component"] = true,
 							["total"] = 474.004768,
-							["serial"] = "Player-4477-02FB963B",
-							["damage_taken"] = 0.004768,
+							["delay"] = 0,
+							["on_hold"] = false,
 							["nome"] = "Fräse",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -3377,44 +3377,15 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = "Auto Shot",
 										["r_dmg"] = 0,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
+										["m_amt"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 5,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["m_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["!Autoshot"] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 85,
-										["g_amt"] = 0,
-										["n_max"] = 51,
-										["targets"] = {
-											["Venobalykk"] = 318,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 233,
-										["n_min"] = 43,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 318,
-										["c_max"] = 85,
-										["id"] = "!Autoshot",
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 85,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 5,
 										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
 									},
 									["Multi-Shot"] = {
 										["c_amt"] = 1,
@@ -3434,16 +3405,45 @@ _detalhes_database = {
 										["c_max"] = 122,
 										["id"] = "Multi-Shot",
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 122,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["a_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									["!Autoshot"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 85,
+										["g_amt"] = 0,
+										["n_max"] = 51,
+										["targets"] = {
+											["Venobalykk"] = 318,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 233,
+										["n_min"] = 43,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 318,
+										["c_max"] = 85,
+										["id"] = "!Autoshot",
+										["r_dmg"] = 0,
 										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 85,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 									["Serpent Sting"] = {
 										["c_amt"] = 0,
@@ -3463,30 +3463,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = "Serpent Sting",
 										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 2,
 										["b_dmg"] = 0,
 										["n_amt"] = 2,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["end_time"] = 1618376768,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1618376768,
-							["friendlyfire"] = {
-							},
+							["tipo"] = 1,
+							["damage_taken"] = 0.004768,
 							["start_time"] = 1618376760,
-							["delay"] = 0,
-							["classe"] = "UNGROUPPLAYER",
+							["serial"] = "Player-4477-02FB963B",
+							["fight_component"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -3508,19 +3508,19 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 66888,
-							["pets"] = {
-							},
+							["tipo"] = 4,
 							["nome"] = "Fräse",
 							["enemy"] = true,
+							["pets"] = {
+							},
+							["classe"] = "UNGROUPPLAYER",
+							["last_event"] = 0,
+							["fight_component"] = true,
+							["serial"] = "Player-4477-02FB963B",
 							["spell_cast"] = {
 								["Auto Shot"] = 5,
 								["Serpent Sting"] = 2,
 							},
-							["fight_component"] = true,
-							["last_event"] = 0,
-							["tipo"] = 4,
-							["serial"] = "Player-4477-02FB963B",
-							["classe"] = "UNGROUPPLAYER",
 						}, -- [1]
 						{
 							["flag_original"] = 1297,
@@ -3528,15 +3528,15 @@ _detalhes_database = {
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
 									["Freezing Trap Effect"] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = "Freezing Trap Effect",
+										["uptime"] = 7,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 7,
-										["id"] = "Freezing Trap Effect",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
@@ -3545,25 +3545,25 @@ _detalhes_database = {
 							["grupo"] = true,
 							["buff_uptime_targets"] = {
 							},
-							["buff_uptime"] = 0,
-							["debuff_uptime_targets"] = {
-							},
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
+							["buff_uptime"] = 0,
 							["last_event"] = 1618376768,
+							["tipo"] = 4,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									["Track Humanoids"] = {
-										["appliedamt"] = 0,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = "Track Humanoids",
+										["uptime"] = 0,
 										["targets"] = {
 										},
-										["activedamt"] = 0,
-										["uptime"] = 0,
-										["id"] = "Track Humanoids",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 0,
 									},
 								},
 								["tipo"] = 9,
@@ -3733,8 +3733,8 @@ _detalhes_database = {
 						"HUNTER", -- [4]
 						457, -- [5]
 						"0m 8s", -- [6]
-						["dead_at"] = 8.9090000000142,
 						["dead"] = true,
+						["dead_at"] = 8.9090000000142,
 					}, -- [1]
 				},
 				["alternate_power"] = {
@@ -3748,21 +3748,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 1,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 1,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["totals_grupo"] = {
 					0, -- [1]
@@ -3771,18 +3771,18 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 1,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 1,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
 				["frags_need_refresh"] = false,
@@ -3802,28 +3802,15 @@ _detalhes_database = {
 				["data_inicio"] = "08:06:00",
 				["end_time"] = 163979.013,
 				["combat_id"] = 10,
-				["frags"] = {
-				},
-				["contra"] = "Fräse",
-				["spells_cast_timeline"] = {
-				},
-				["tempo_start"] = 1618376760,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["CombatSkillCache"] = {
-				},
-				["player_last_events"] = {
-				},
-				["start_time"] = 163970.104,
-				["TimeData"] = {
-				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Venobalykk"] = 0.002819,
+						}, -- [1]
 					},
 					["heal_section"] = {
 					},
@@ -3831,11 +3818,24 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage"] = {
-						{
-							["Venobalykk"] = 0.002819,
-						}, -- [1]
+					["damage_section"] = {
 					},
+				},
+				["TimeData"] = {
+				},
+				["frags"] = {
+				},
+				["tempo_start"] = 1618376760,
+				["player_last_events"] = {
+				},
+				["CombatSkillCache"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["start_time"] = 163970.104,
+				["contra"] = "Fräse",
+				["spells_cast_timeline"] = {
 				},
 			}, -- [8]
 			{
@@ -3847,25 +3847,24 @@ _detalhes_database = {
 							["flag_original"] = 1297,
 							["totalabsorbed"] = 0.007603,
 							["damage_from"] = {
-								["Fräse"] = true,
 								["Reported <Fräse>"] = true,
+								["Fräse"] = true,
 							},
 							["targets"] = {
 							},
 							["pets"] = {
 							},
+							["end_time"] = 1618292576,
+							["last_event"] = 0,
 							["classe"] = "HUNTER",
-							["tipo"] = 1,
-							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.007603,
-							["serial"] = "Player-4477-0303F15F",
+							["delay"] = 0,
 							["dps_started"] = false,
 							["total"] = 0.007603,
-							["friendlyfire"] = {
-							},
 							["damage_taken"] = 465.007603,
+							["on_hold"] = false,
 							["nome"] = "Venobalykk",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -3873,14 +3872,15 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["colocacao"] = 1,
-							["last_dps"] = 0.000987146195792689,
 							["custom"] = 0,
-							["last_event"] = 0,
-							["on_hold"] = false,
+							["last_dps"] = 0.000987146195792689,
+							["colocacao"] = 1,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1618292576,
-							["delay"] = 0,
-							["end_time"] = 1618292576,
+							["serial"] = "Player-4477-0303F15F",
+							["friendlyfire_total"] = 0,
 						}, -- [1]
 						{
 							["flag_original"] = 1352,
@@ -3895,16 +3895,16 @@ _detalhes_database = {
 							["pets"] = {
 								"Reported <Fräse>", -- [1]
 							},
-							["tipo"] = 1,
+							["last_event"] = 1618292591,
 							["classe"] = "UNGROUPPLAYER",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 532.006616,
-							["total"] = 778.006616,
+							["dps_started"] = false,
 							["fight_component"] = true,
-							["end_time"] = 1618376760,
-							["serial"] = "Player-4477-02FB963B",
-							["damage_taken"] = 0.006616,
+							["total"] = 778.006616,
+							["delay"] = 1618292591,
+							["on_hold"] = false,
 							["nome"] = "Fräse",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -3925,43 +3925,15 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = "Auto Shot",
 										["r_dmg"] = 0,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 3,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
-									},
-									["Multi-Shot"] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 129,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Venobalykk"] = 129,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 129,
-										["c_max"] = 129,
-										["id"] = "Multi-Shot",
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 1,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["c_min"] = 129,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
 									},
 									["!Autoshot"] = {
 										["c_amt"] = 2,
@@ -3982,16 +3954,44 @@ _detalhes_database = {
 										["c_max"] = 104,
 										["id"] = "!Autoshot",
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 84,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 4,
-										["a_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									["Multi-Shot"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 129,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Venobalykk"] = 129,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 129,
+										["c_max"] = 129,
+										["id"] = "Multi-Shot",
+										["r_dmg"] = 0,
 										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 129,
+										["m_amt"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_amt"] = 0,
+										["a_dmg"] = 0,
 									},
 									["Serpent Sting"] = {
 										["c_amt"] = 0,
@@ -4011,29 +4011,29 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = "Serpent Sting",
 										["r_dmg"] = 0,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["c_min"] = 0,
-										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["a_dmg"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["last_dps"] = 0,
 							["friendlyfire_total"] = 0,
 							["friendlyfire"] = {
 							},
 							["custom"] = 0,
-							["last_event"] = 1618292591,
-							["last_dps"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.006616,
 							["start_time"] = 1618376737,
-							["delay"] = 1618292591,
-							["dps_started"] = false,
+							["serial"] = "Player-4477-02FB963B",
+							["end_time"] = 1618376760,
 						}, -- [2]
 						{
 							["flag_original"] = 69960,
@@ -4046,16 +4046,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["fight_component"] = true,
-							["tipo"] = 1,
+							["total"] = 246.002711,
+							["last_event"] = 1618292591,
 							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 246.002711,
-							["serial"] = "Pet-0-4479-1-46-1996-040041C460",
-							["dps_started"] = false,
+							["delay"] = 1618292591,
+							["fight_component"] = true,
 							["end_time"] = 1618376760,
-							["damage_taken"] = 0.002711,
+							["on_hold"] = false,
 							["ownerName"] = "Fräse",
 							["nome"] = "Reported <Fräse>",
 							["spells"] = {
@@ -4079,30 +4079,30 @@ _detalhes_database = {
 										["c_max"] = 50,
 										["id"] = "!Melee",
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 44,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 6,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["last_dps"] = 0,
 							["friendlyfire_total"] = 0,
 							["friendlyfire"] = {
 							},
 							["custom"] = 0,
-							["last_event"] = 1618292591,
-							["last_dps"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.002711,
 							["start_time"] = 1618376737,
-							["delay"] = 1618292591,
-							["total"] = 246.002711,
+							["serial"] = "Pet-0-4479-1-46-1996-040041C460",
+							["dps_started"] = false,
 						}, -- [3]
 					},
 				}, -- [1]
@@ -4128,15 +4128,15 @@ _detalhes_database = {
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
 									["Dazed"] = {
-										["appliedamt"] = 0,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = -1,
+										["refreshamt"] = 5,
+										["id"] = "Dazed",
+										["uptime"] = 7,
 										["targets"] = {
 										},
-										["activedamt"] = -1,
-										["uptime"] = 7,
-										["id"] = "Dazed",
-										["refreshamt"] = 5,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 0,
 									},
 								},
 								["tipo"] = 9,
@@ -4145,36 +4145,36 @@ _detalhes_database = {
 							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["buff_uptime"] = 7,
-							["buff_uptime_targets"] = {
-							},
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
+							["buff_uptime"] = 7,
 							["last_event"] = 1618292576,
+							["tipo"] = 4,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
-									["Track Humanoids"] = {
-										["appliedamt"] = 0,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 0,
-										["id"] = "Track Humanoids",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
 									["Aspect of the Cheetah"] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = "Aspect of the Cheetah",
+										["uptime"] = 7,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 7,
-										["id"] = "Aspect of the Cheetah",
-										["refreshamt"] = 0,
-										["actived"] = false,
+										["appliedamt"] = 1,
+									},
+									["Track Humanoids"] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = "Track Humanoids",
+										["uptime"] = 0,
+										["targets"] = {
+										},
+										["appliedamt"] = 0,
 									},
 								},
 								["tipo"] = 9,
@@ -4184,20 +4184,20 @@ _detalhes_database = {
 						}, -- [1]
 						{
 							["flag_original"] = 1352,
-							["fight_component"] = true,
+							["last_event"] = 0,
 							["nome"] = "Fräse",
 							["enemy"] = true,
 							["pets"] = {
 							},
+							["classe"] = "UNGROUPPLAYER",
+							["tipo"] = 4,
 							["spell_cast"] = {
 								["Auto Shot"] = 3,
 								["Multi-Shot"] = 1,
 								["Serpent Sting"] = 1,
 							},
-							["tipo"] = 4,
-							["last_event"] = 0,
 							["serial"] = "Player-4477-02FB963B",
-							["classe"] = "UNGROUPPLAYER",
+							["fight_component"] = true,
 						}, -- [2]
 					},
 				}, -- [4]
@@ -4337,8 +4337,8 @@ _detalhes_database = {
 						"HUNTER", -- [4]
 						457, -- [5]
 						"0m 7s", -- [6]
-						["dead_at"] = 7.70200000000477,
 						["dead"] = true,
+						["dead_at"] = 7.70200000000477,
 					}, -- [1]
 				},
 				["alternate_power"] = {
@@ -4352,21 +4352,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 1,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 1,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["totals_grupo"] = {
 					0, -- [1]
@@ -4375,18 +4375,18 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 1,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 1,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
 				["frags_need_refresh"] = false,
@@ -4408,7 +4408,10 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Venobalykk"] = 0.007603,
+						}, -- [1]
 					},
 					["heal_section"] = {
 					},
@@ -4416,31 +4419,28 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage"] = {
-						{
-							["Venobalykk"] = 0.007603,
-						}, -- [1]
+					["damage_section"] = {
 					},
 				},
 				["end_time"] = 79788.596,
 				["combat_id"] = 9,
+				["data_inicio"] = "08:42:49",
+				["TimeData"] = {
+				},
 				["spells_cast_timeline"] = {
 				},
-				["contra"] = "Reported",
-				["frags"] = {
-				},
 				["tempo_start"] = 1618292569,
-				["cleu_events"] = {
-					["n"] = 1,
+				["player_last_events"] = {
 				},
 				["CombatSkillCache"] = {
 				},
-				["player_last_events"] = {
+				["cleu_events"] = {
+					["n"] = 1,
 				},
 				["start_time"] = 79780.894,
-				["TimeData"] = {
+				["contra"] = "Reported",
+				["frags"] = {
 				},
-				["data_inicio"] = "08:42:49",
 			}, -- [9]
 			{
 				{
@@ -4458,18 +4458,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1618199627,
-							["last_event"] = 0,
+							["friendlyfire_total"] = 0,
+							["tipo"] = 1,
 							["classe"] = "HUNTER",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004272,
-							["delay"] = 0,
+							["serial"] = "Player-4477-0303F15F",
 							["dps_started"] = false,
-							["total"] = 0.004272,
-							["on_hold"] = false,
+							["end_time"] = 1618199627,
 							["friendlyfire"] = {
 							},
+							["damage_taken"] = 1615.004272,
 							["nome"] = "Venobalykk",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4477,14 +4477,14 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["custom"] = 0,
-							["last_dps"] = 0.000776727272727273,
 							["colocacao"] = 1,
-							["tipo"] = 1,
-							["damage_taken"] = 1615.004272,
+							["last_dps"] = 0.000776727272727273,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["on_hold"] = false,
 							["start_time"] = 1618199627,
-							["serial"] = "Player-4477-0303F15F",
-							["friendlyfire_total"] = 0,
+							["delay"] = 0,
+							["total"] = 0.004272,
 						}, -- [1]
 						{
 							["flag_original"] = 66888,
@@ -4497,16 +4497,16 @@ _detalhes_database = {
 							["enemy"] = true,
 							["pets"] = {
 							},
-							["last_event"] = 1618229579,
+							["tipo"] = 1,
 							["classe"] = "UNGROUPPLAYER",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1588.005554,
-							["end_time"] = 1618292569,
+							["dps_started"] = false,
 							["fight_component"] = true,
-							["total"] = 1588.005554,
-							["delay"] = 1618229579,
-							["damage_taken"] = 0.005554,
+							["end_time"] = 1618292569,
+							["serial"] = "Player-4477-02FA3BE1",
+							["last_dps"] = 0,
 							["nome"] = "Galadroniouz",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4528,16 +4528,16 @@ _detalhes_database = {
 										["c_max"] = 249,
 										["id"] = "!Melee",
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 249,
 										["m_amt"] = 0,
+										["c_min"] = 249,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 3,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 									["Ravage"] = {
 										["c_amt"] = 0,
@@ -4557,30 +4557,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = "Ravage",
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
+							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
 							["friendlyfire"] = {
 							},
 							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
+							["last_event"] = 1618229579,
+							["damage_taken"] = 0.005554,
 							["start_time"] = 1618292561,
-							["serial"] = "Player-4477-02FA3BE1",
-							["dps_started"] = false,
+							["delay"] = 1618229579,
+							["total"] = 1588.005554,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -4628,21 +4628,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = -0.00894900000000121,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["player_last_events"] = {
 					["Venobalykk"] = {
@@ -4770,33 +4770,12 @@ _detalhes_database = {
 				["data_inicio"] = "06:53:42",
 				["end_time"] = 122832.996,
 				["combat_id"] = 8,
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["Venobalykk"] = 0.004272,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
+				["frags"] = {
 				},
-				["TimeData"] = {
-				},
+				["contra"] = "Galadroniouz",
 				["spells_cast_timeline"] = {
 				},
 				["overall_added"] = true,
-				["combat_counter"] = 389,
-				["CombatSkillCache"] = {
-				},
 				["totals_grupo"] = {
 					0, -- [1]
 					0, -- [2]
@@ -4804,23 +4783,44 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
+				["CombatSkillCache"] = {
+				},
+				["combat_counter"] = 389,
 				["start_time"] = 122827.496,
-				["contra"] = "Galadroniouz",
-				["frags"] = {
+				["TimeData"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Venobalykk"] = 0.004272,
+						}, -- [1]
+					},
 				},
 			}, -- [10]
 			{
@@ -4838,18 +4838,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 0.006415,
-							["last_event"] = 0,
+							["classe"] = "HUNTER",
+							["tipo"] = 1,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.006415,
-							["delay"] = 0,
+							["serial"] = "Player-4477-0303F15F",
 							["dps_started"] = false,
-							["end_time"] = 1617851496,
-							["on_hold"] = false,
+							["total"] = 0.006415,
 							["friendlyfire"] = {
 							},
+							["damage_taken"] = 489.006415,
 							["nome"] = "Venobalykk",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4857,14 +4857,14 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["custom"] = 0,
-							["last_dps"] = 0.000841421825812039,
 							["colocacao"] = 1,
-							["tipo"] = 1,
-							["damage_taken"] = 489.006415,
+							["last_dps"] = 0.000841421825812039,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["on_hold"] = false,
 							["start_time"] = 1617851496,
-							["serial"] = "Player-4477-0303F15F",
-							["classe"] = "HUNTER",
+							["delay"] = 0,
+							["end_time"] = 1617851496,
 						}, -- [1]
 						{
 							["flag_original"] = 66888,
@@ -4877,16 +4877,16 @@ _detalhes_database = {
 							["enemy"] = true,
 							["pets"] = {
 							},
-							["last_event"] = 1617851495,
+							["tipo"] = 1,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 489.006913,
-							["classe"] = "UNGROUPPLAYER",
+							["fight_component"] = true,
 							["dps_started"] = false,
 							["total"] = 489.006913,
-							["delay"] = 0,
-							["damage_taken"] = 0.006913,
+							["serial"] = "Player-4477-02FA3BE1",
+							["on_hold"] = false,
 							["nome"] = "Galadroniouz",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4908,30 +4908,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = "!Melee",
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 4,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["end_time"] = 1617851496,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["last_event"] = 1617851495,
+							["damage_taken"] = 0.006913,
 							["start_time"] = 1617851488,
-							["serial"] = "Player-4477-02FA3BE1",
-							["fight_component"] = true,
+							["delay"] = 0,
+							["classe"] = "UNGROUPPLAYER",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -4957,29 +4957,29 @@ _detalhes_database = {
 							["grupo"] = true,
 							["pets"] = {
 							},
-							["last_event"] = 1617851495,
-							["classe"] = "HUNTER",
+							["buff_uptime_targets"] = {
+							},
 							["tipo"] = 4,
+							["last_event"] = 1617851495,
 							["buff_uptime"] = 0,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									["Track Humanoids"] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = "Track Humanoids",
-										["uptime"] = 0,
+										["appliedamt"] = 0,
 										["targets"] = {
 										},
-										["appliedamt"] = 0,
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = "Track Humanoids",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-4477-0303F15F",
-							["buff_uptime_targets"] = {
-							},
+							["classe"] = "HUNTER",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -5059,8 +5059,8 @@ _detalhes_database = {
 						"HUNTER", -- [4]
 						457, -- [5]
 						"0m 7s", -- [6]
-						["dead"] = true,
 						["dead_at"] = 7.62399999998161,
+						["dead"] = true,
 					}, -- [1]
 				},
 				["alternate_power"] = {
@@ -5074,21 +5074,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 1,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 1,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["totals_grupo"] = {
 					0, -- [1]
@@ -5097,18 +5097,18 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 1,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 1,
 					}, -- [4]
 				},
 				["frags_need_refresh"] = false,
@@ -5130,10 +5130,7 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["Venobalykk"] = 0.006415,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -5141,28 +5138,31 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Venobalykk"] = 0.006415,
+						}, -- [1]
 					},
 				},
 				["end_time"] = 154026.454,
 				["combat_id"] = 7,
-				["data_inicio"] = "06:11:29",
-				["TimeData"] = {
+				["spells_cast_timeline"] = {
 				},
+				["contra"] = "Galadroniouz",
 				["frags"] = {
 				},
 				["tempo_start"] = 1617851488,
-				["player_last_events"] = {
-				},
-				["CombatSkillCache"] = {
-				},
 				["cleu_events"] = {
 					["n"] = 1,
 				},
-				["start_time"] = 154018.83,
-				["contra"] = "Galadroniouz",
-				["spells_cast_timeline"] = {
+				["CombatSkillCache"] = {
 				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 154018.83,
+				["TimeData"] = {
+				},
+				["data_inicio"] = "06:11:29",
 			}, -- [11]
 			{
 				{
@@ -5179,17 +5179,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 0.006284,
-							["last_event"] = 0,
+							["classe"] = "HUNTER",
+							["tipo"] = 1,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.006284,
-							["delay"] = 0,
+							["serial"] = "Player-4477-0303F15F",
 							["dps_started"] = false,
-							["end_time"] = 1617759103,
-							["damage_taken"] = 489.006284,
+							["total"] = 0.006284,
 							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["nome"] = "Venobalykk",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -5197,15 +5198,14 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["custom"] = 0,
-							["last_dps"] = 0.000714090909090673,
 							["colocacao"] = 1,
-							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["last_dps"] = 0.000714090909090673,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 489.006284,
 							["start_time"] = 1617759103,
-							["serial"] = "Player-4477-0303F15F",
-							["classe"] = "HUNTER",
+							["delay"] = 0,
+							["end_time"] = 1617759103,
 						}, -- [1]
 						{
 							["flag_original"] = 66888,
@@ -5219,47 +5219,48 @@ _detalhes_database = {
 							["enemy"] = true,
 							["pets"] = {
 							},
-							["last_event"] = 1617759113,
+							["tipo"] = 1,
 							["classe"] = "UNGROUPPLAYER",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 997.005614,
+							["end_time"] = 1617851488,
 							["fight_component"] = true,
-							["dps_started"] = false,
 							["total"] = 997.005614,
-							["delay"] = 1617759113,
-							["damage_taken"] = 0.005614,
+							["serial"] = "Player-4477-02FB963B",
+							["on_hold"] = false,
 							["nome"] = "Fräse",
 							["spells"] = {
 								["_ActorTable"] = {
-									["Arcane Shot"] = {
+									["Serpent Sting"] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 33,
+										["n_max"] = 18,
 										["targets"] = {
-											["Venobalykk"] = 66,
-											["Venoxbalyk"] = 33,
+											["Venobalykk"] = 54,
+											["Venoxbalyk"] = 87,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 99,
-										["n_min"] = 33,
+										["n_dmg"] = 141,
+										["n_min"] = 17,
 										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 99,
+										["counter"] = 8,
+										["total"] = 141,
 										["c_max"] = 0,
-										["id"] = "Arcane Shot",
+										["id"] = "Serpent Sting",
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
 										["m_amt"] = 0,
 										["c_min"] = 0,
-										["successful_casted"] = 2,
+										["successful_casted"] = 1,
 										["b_dmg"] = 0,
-										["n_amt"] = 3,
+										["n_amt"] = 8,
 										["a_amt"] = 0,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									["Auto Shot"] = {
 										["c_amt"] = 0,
@@ -5278,15 +5279,46 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = "Auto Shot",
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
+										["a_amt"] = 0,
 										["m_amt"] = 0,
-										["c_min"] = 0,
 										["successful_casted"] = 5,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+									},
+									["!Autoshot"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 96,
+										["g_amt"] = 0,
+										["n_max"] = 52,
+										["targets"] = {
+											["Venobalykk"] = 243,
+											["Venoxbalyk"] = 268,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 415,
+										["n_min"] = 40,
+										["g_dmg"] = 0,
+										["counter"] = 12,
+										["total"] = 511,
+										["c_max"] = 96,
+										["MISS"] = 2,
+										["id"] = "!Autoshot",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 96,
+										["n_amt"] = 9,
 										["a_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									["Multi-Shot"] = {
 										["c_amt"] = 1,
@@ -5307,91 +5339,59 @@ _detalhes_database = {
 										["c_max"] = 126,
 										["id"] = "Multi-Shot",
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 126,
 										["m_amt"] = 0,
+										["c_min"] = 126,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 2,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
-									},
-									["!Autoshot"] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 96,
-										["g_amt"] = 0,
-										["n_max"] = 52,
-										["targets"] = {
-											["Venobalykk"] = 243,
-											["Venoxbalyk"] = 268,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 415,
-										["n_min"] = 40,
-										["g_dmg"] = 0,
-										["counter"] = 12,
-										["total"] = 511,
-										["c_max"] = 96,
-										["r_amt"] = 0,
-										["id"] = "!Autoshot",
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 96,
-										["successful_casted"] = 0,
 										["a_amt"] = 0,
-										["n_amt"] = 9,
-										["spellschool"] = 1,
-										["MISS"] = 2,
+										["r_amt"] = 0,
 									},
-									["Serpent Sting"] = {
+									["Arcane Shot"] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 18,
+										["n_max"] = 33,
 										["targets"] = {
-											["Venobalykk"] = 54,
-											["Venoxbalyk"] = 87,
+											["Venobalykk"] = 66,
+											["Venoxbalyk"] = 33,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 141,
-										["n_min"] = 17,
+										["n_dmg"] = 99,
+										["n_min"] = 33,
 										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 141,
+										["counter"] = 3,
+										["total"] = 99,
 										["c_max"] = 0,
-										["id"] = "Serpent Sting",
+										["id"] = "Arcane Shot",
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 1,
-										["b_dmg"] = 0,
-										["n_amt"] = 8,
 										["a_dmg"] = 0,
-										["spellschool"] = 8,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 2,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["c_min"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["last_dps"] = 0,
 							["friendlyfire_total"] = 0,
 							["friendlyfire"] = {
 							},
 							["custom"] = 0,
-							["tipo"] = 1,
-							["last_dps"] = 0,
+							["last_event"] = 1617759113,
+							["damage_taken"] = 0.005614,
 							["start_time"] = 1617851468,
-							["serial"] = "Player-4477-02FB963B",
-							["end_time"] = 1617851488,
+							["delay"] = 1617759113,
+							["dps_started"] = false,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -5413,20 +5413,20 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 66888,
-							["tipo"] = 4,
+							["fight_component"] = true,
 							["nome"] = "Fräse",
 							["enemy"] = true,
 							["spell_cast"] = {
 								["Auto Shot"] = 5,
-								["Arcane Shot"] = 2,
 								["Serpent Sting"] = 1,
+								["Arcane Shot"] = 2,
 							},
-							["classe"] = "UNGROUPPLAYER",
-							["last_event"] = 0,
-							["fight_component"] = true,
-							["serial"] = "Player-4477-02FB963B",
 							["pets"] = {
 							},
+							["tipo"] = 4,
+							["last_event"] = 0,
+							["serial"] = "Player-4477-02FB963B",
+							["classe"] = "UNGROUPPLAYER",
 						}, -- [1]
 						{
 							["flag_original"] = 1297,
@@ -5434,29 +5434,29 @@ _detalhes_database = {
 							["grupo"] = true,
 							["pets"] = {
 							},
-							["last_event"] = 1617759103,
-							["classe"] = "HUNTER",
+							["buff_uptime_targets"] = {
+							},
 							["tipo"] = 4,
+							["last_event"] = 1617759103,
 							["buff_uptime"] = 0,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									["Track Humanoids"] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = "Track Humanoids",
-										["uptime"] = 0,
+										["appliedamt"] = 0,
 										["targets"] = {
 										},
-										["appliedamt"] = 0,
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = "Track Humanoids",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-4477-0303F15F",
-							["buff_uptime_targets"] = {
-							},
+							["classe"] = "HUNTER",
 						}, -- [2]
 					},
 				}, -- [4]
@@ -5608,8 +5608,8 @@ _detalhes_database = {
 						"HUNTER", -- [4]
 						457, -- [5]
 						"0m 8s", -- [6]
-						["dead"] = true,
 						["dead_at"] = 8.80000000000291,
+						["dead"] = true,
 					}, -- [1]
 				},
 				["alternate_power"] = {
@@ -5623,21 +5623,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 1,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = -0.00440799999999997,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = -0.00440799999999997,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 1,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["totals_grupo"] = {
 					0, -- [1]
@@ -5646,18 +5646,18 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 1,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 1,
 					}, -- [4]
 				},
 				["frags_need_refresh"] = false,
@@ -5677,15 +5677,28 @@ _detalhes_database = {
 				["data_inicio"] = "04:31:34",
 				["end_time"] = 61634.321,
 				["combat_id"] = 6,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Fräse",
+				["frags"] = {
+				},
+				["tempo_start"] = 1617759094,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 61625.521,
+				["TimeData"] = {
+				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["Venobalykk"] = 0.006284,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -5693,24 +5706,11 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Venobalykk"] = 0.006284,
+						}, -- [1]
 					},
-				},
-				["TimeData"] = {
-				},
-				["frags"] = {
-				},
-				["tempo_start"] = 1617759094,
-				["player_last_events"] = {
-				},
-				["CombatSkillCache"] = {
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["start_time"] = 61625.521,
-				["contra"] = "Fräse",
-				["spells_cast_timeline"] = {
 				},
 			}, -- [12]
 			{
@@ -5729,17 +5729,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 0.003253,
-							["last_event"] = 0,
+							["classe"] = "HUNTER",
+							["tipo"] = 1,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.003253,
-							["delay"] = 0,
+							["serial"] = "Player-4477-0303F15F",
 							["dps_started"] = false,
-							["end_time"] = 1617579780,
-							["damage_taken"] = 357.003253,
+							["total"] = 0.003253,
 							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["nome"] = "Venobalykk",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -5747,15 +5748,14 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["custom"] = 0,
-							["last_dps"] = 0.00039430303030303,
 							["colocacao"] = 1,
-							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["last_dps"] = 0.00039430303030303,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 357.003253,
 							["start_time"] = 1617579780,
-							["serial"] = "Player-4477-0303F15F",
-							["classe"] = "HUNTER",
+							["delay"] = 0,
+							["end_time"] = 1617579780,
 						}, -- [1]
 						{
 							["flag_original"] = 66888,
@@ -5769,134 +5769,19 @@ _detalhes_database = {
 							["enemy"] = true,
 							["pets"] = {
 							},
-							["last_event"] = 1617759094,
+							["tipo"] = 1,
 							["classe"] = "UNGROUPPLAYER",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 452.00754,
+							["end_time"] = 1617759094,
 							["fight_component"] = true,
-							["dps_started"] = false,
 							["total"] = 452.00754,
-							["delay"] = 1617579788,
-							["last_dps"] = 0,
+							["serial"] = "Player-4477-02FB963B",
+							["damage_taken"] = 0.00754,
 							["nome"] = "Fräse",
 							["spells"] = {
 								["_ActorTable"] = {
-									["Arcane Shot"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 33,
-										["targets"] = {
-											["Venobalykk"] = 66,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 66,
-										["n_min"] = 33,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 66,
-										["c_max"] = 0,
-										["id"] = "Arcane Shot",
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 2,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_amt"] = 0,
-										["a_dmg"] = 0,
-									},
-									["Auto Shot"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = "Auto Shot",
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 5,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_amt"] = 0,
-										["a_dmg"] = 0,
-									},
-									["!Autoshot"] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 96,
-										["g_amt"] = 0,
-										["n_max"] = 53,
-										["targets"] = {
-											["Venobalykk"] = 247,
-											["Venoxbalyk"] = 47,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 198,
-										["n_min"] = 47,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 294,
-										["c_max"] = 96,
-										["r_amt"] = 0,
-										["id"] = "!Autoshot",
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 96,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 4,
-										["spellschool"] = 1,
-										["MISS"] = 1,
-									},
-									["Multi-Shot"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 58,
-										["targets"] = {
-											["Venoxbalyk"] = 58,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 58,
-										["n_min"] = 58,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 58,
-										["c_max"] = 0,
-										["id"] = "Multi-Shot",
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
-									},
 									["Serpent Sting"] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
@@ -5916,30 +5801,145 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = "Serpent Sting",
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 2,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									["Auto Shot"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = "Auto Shot",
+										["r_dmg"] = 0,
 										["a_dmg"] = 0,
-										["spellschool"] = 8,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 5,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+									},
+									["Multi-Shot"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 58,
+										["targets"] = {
+											["Venoxbalyk"] = 58,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 58,
+										["n_min"] = 58,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 58,
+										["c_max"] = 0,
+										["id"] = "Multi-Shot",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									["!Autoshot"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 96,
+										["g_amt"] = 0,
+										["n_max"] = 53,
+										["targets"] = {
+											["Venobalykk"] = 247,
+											["Venoxbalyk"] = 47,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 198,
+										["n_min"] = 47,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 294,
+										["c_max"] = 96,
+										["MISS"] = 1,
+										["id"] = "!Autoshot",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 96,
+										["n_amt"] = 4,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									["Arcane Shot"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 33,
+										["targets"] = {
+											["Venobalykk"] = 66,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 66,
+										["n_min"] = 33,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 66,
+										["c_max"] = 0,
+										["id"] = "Arcane Shot",
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 2,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["c_min"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 0.00754,
+							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
 							["friendlyfire"] = {
 							},
 							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
+							["last_event"] = 1617759094,
+							["last_dps"] = 0,
 							["start_time"] = 1617759077,
-							["serial"] = "Player-4477-02FB963B",
-							["end_time"] = 1617759094,
+							["delay"] = 1617579788,
+							["dps_started"] = false,
 						}, -- [2]
 						{
 							["flag_original"] = 4424,
@@ -5952,15 +5952,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["last_event"] = 1617759093,
+							["tipo"] = 1,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 268.007395,
-							["classe"] = "PET",
+							["fight_component"] = true,
 							["dps_started"] = false,
 							["end_time"] = 1617759094,
-							["delay"] = 1617579786,
+							["serial"] = "Pet-0-4460-1-29-1996-050041C460",
 							["total"] = 268.007395,
 							["nome"] = "Reported",
 							["spells"] = {
@@ -5982,33 +5982,33 @@ _detalhes_database = {
 										["counter"] = 9,
 										["total"] = 268,
 										["c_max"] = 49,
-										["r_amt"] = 0,
+										["MISS"] = 1,
 										["id"] = "!Melee",
 										["r_dmg"] = 0,
-										["a_dmg"] = 0,
+										["spellschool"] = 1,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 46,
-										["successful_casted"] = 0,
 										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 46,
 										["n_amt"] = 5,
-										["spellschool"] = 1,
-										["MISS"] = 1,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 0.007395,
+							["on_hold"] = false,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
+							["last_event"] = 1617759093,
+							["damage_taken"] = 0.007395,
 							["start_time"] = 1617759079,
-							["serial"] = "Pet-0-4460-1-29-1996-050041C460",
-							["fight_component"] = true,
+							["delay"] = 1617579786,
+							["classe"] = "PET",
 						}, -- [3]
 					},
 				}, -- [1]
@@ -6030,20 +6030,20 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 66888,
-							["tipo"] = 4,
+							["fight_component"] = true,
 							["nome"] = "Fräse",
 							["enemy"] = true,
 							["spell_cast"] = {
 								["Auto Shot"] = 5,
-								["Arcane Shot"] = 2,
 								["Serpent Sting"] = 1,
+								["Arcane Shot"] = 2,
 							},
-							["classe"] = "UNGROUPPLAYER",
-							["last_event"] = 0,
-							["fight_component"] = true,
-							["serial"] = "Player-4477-02FB963B",
 							["pets"] = {
 							},
+							["tipo"] = 4,
+							["last_event"] = 0,
+							["serial"] = "Player-4477-02FB963B",
+							["classe"] = "UNGROUPPLAYER",
 						}, -- [1]
 						{
 							["flag_original"] = 1297,
@@ -6051,29 +6051,29 @@ _detalhes_database = {
 							["grupo"] = true,
 							["pets"] = {
 							},
-							["last_event"] = 1617579780,
-							["classe"] = "HUNTER",
+							["buff_uptime_targets"] = {
+							},
 							["tipo"] = 4,
+							["last_event"] = 1617579780,
 							["buff_uptime"] = 0,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									["Track Humanoids"] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = "Track Humanoids",
-										["uptime"] = 0,
+										["appliedamt"] = 0,
 										["targets"] = {
 										},
-										["appliedamt"] = 0,
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = "Track Humanoids",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-4477-0303F15F",
-							["buff_uptime_targets"] = {
-							},
+							["classe"] = "HUNTER",
 						}, -- [2]
 					},
 				}, -- [4]
@@ -6225,8 +6225,8 @@ _detalhes_database = {
 						"HUNTER", -- [4]
 						457, -- [5]
 						"0m 8s", -- [6]
-						["dead"] = true,
 						["dead_at"] = 8.25,
+						["dead"] = true,
 					}, -- [1]
 				},
 				["alternate_power"] = {
@@ -6240,21 +6240,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 1,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 1,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["totals_grupo"] = {
 					0, -- [1]
@@ -6263,18 +6263,18 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 1,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 1,
 					}, -- [4]
 				},
 				["frags_need_refresh"] = false,
@@ -6294,15 +6294,28 @@ _detalhes_database = {
 				["data_inicio"] = "02:42:53",
 				["end_time"] = 646980.376,
 				["combat_id"] = 5,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Fräse",
+				["frags"] = {
+				},
+				["tempo_start"] = 1617579772,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 646972.126,
+				["TimeData"] = {
+				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["Venobalykk"] = 0.003253,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -6310,24 +6323,11 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Venobalykk"] = 0.003253,
+						}, -- [1]
 					},
-				},
-				["TimeData"] = {
-				},
-				["frags"] = {
-				},
-				["tempo_start"] = 1617579772,
-				["player_last_events"] = {
-				},
-				["CombatSkillCache"] = {
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["start_time"] = 646972.126,
-				["contra"] = "Fräse",
-				["spells_cast_timeline"] = {
 				},
 			}, -- [13]
 			{
@@ -6346,18 +6346,17 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["total"] = 0.004303,
+							["last_event"] = 0,
 							["friendlyfire_total"] = 0,
-							["tipo"] = 1,
-							["classe"] = "HUNTER",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004303,
-							["serial"] = "Player-4477-0303F15F",
+							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1617499473,
-							["friendlyfire"] = {
-							},
 							["damage_taken"] = 576.004303,
+							["on_hold"] = false,
 							["nome"] = "Venobalykk",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -6365,14 +6364,15 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["colocacao"] = 1,
-							["last_dps"] = 0.000830374372842903,
 							["custom"] = 0,
-							["last_event"] = 0,
-							["on_hold"] = false,
+							["last_dps"] = 0.000830374372842903,
+							["colocacao"] = 1,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1617499473,
-							["delay"] = 0,
-							["total"] = 0.004303,
+							["serial"] = "Player-4477-0303F15F",
+							["classe"] = "HUNTER",
 						}, -- [1]
 						{
 							["flag_original"] = 66888,
@@ -6385,46 +6385,47 @@ _detalhes_database = {
 							["enemy"] = true,
 							["pets"] = {
 							},
-							["tipo"] = 1,
+							["last_event"] = 1617579771,
 							["classe"] = "UNGROUPPLAYER",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 546.007668,
-							["total"] = 546.007668,
+							["friendlyfire_total"] = 0,
 							["fight_component"] = true,
-							["end_time"] = 1617579772,
-							["serial"] = "Player-4477-02FB963B",
-							["last_dps"] = 0,
+							["total"] = 546.007668,
+							["delay"] = 0,
+							["friendlyfire"] = {
+							},
 							["nome"] = "Fräse",
 							["spells"] = {
 								["_ActorTable"] = {
-									["Serpent Sting"] = {
+									["Arcane Shot"] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 18,
+										["n_max"] = 33,
 										["targets"] = {
-											["Venobalykk"] = 18,
+											["Venobalykk"] = 33,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 18,
-										["n_min"] = 18,
+										["n_dmg"] = 33,
+										["n_min"] = 33,
 										["g_dmg"] = 0,
 										["counter"] = 1,
-										["total"] = 18,
+										["total"] = 33,
 										["c_max"] = 0,
-										["id"] = "Serpent Sting",
+										["id"] = "Arcane Shot",
 										["r_dmg"] = 0,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
+										["m_amt"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["m_amt"] = 0,
-										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["a_dmg"] = 0,
 									},
 									["Auto Shot"] = {
 										["c_amt"] = 0,
@@ -6443,44 +6444,15 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = "Auto Shot",
 										["r_dmg"] = 0,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
+										["m_amt"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 3,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["m_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["!Autoshot"] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 109,
-										["g_amt"] = 0,
-										["n_max"] = 58,
-										["targets"] = {
-											["Venobalykk"] = 220,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 111,
-										["n_min"] = 53,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 220,
-										["c_max"] = 109,
-										["id"] = "!Autoshot",
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 109,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
 										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
 									},
 									["Multi-Shot"] = {
 										["c_amt"] = 2,
@@ -6500,58 +6472,86 @@ _detalhes_database = {
 										["c_max"] = 151,
 										["id"] = "Multi-Shot",
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 124,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
-									["Arcane Shot"] = {
+									["!Autoshot"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 109,
+										["g_amt"] = 0,
+										["n_max"] = 58,
+										["targets"] = {
+											["Venobalykk"] = 220,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 111,
+										["n_min"] = 53,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 220,
+										["c_max"] = 109,
+										["id"] = "!Autoshot",
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 109,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									["Serpent Sting"] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 33,
+										["n_max"] = 18,
 										["targets"] = {
-											["Venobalykk"] = 33,
+											["Venobalykk"] = 18,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 33,
-										["n_min"] = 33,
+										["n_dmg"] = 18,
+										["n_min"] = 18,
 										["g_dmg"] = 0,
 										["counter"] = 1,
-										["total"] = 33,
+										["total"] = 18,
 										["c_max"] = 0,
-										["id"] = "Arcane Shot",
+										["id"] = "Serpent Sting",
 										["r_dmg"] = 0,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
+										["m_amt"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["m_amt"] = 0,
-										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["a_dmg"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 0.007668,
 							["dps_started"] = false,
 							["on_hold"] = false,
 							["custom"] = 0,
-							["last_event"] = 1617579771,
-							["damage_taken"] = 0.007668,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1617499468,
-							["delay"] = 0,
-							["friendlyfire_total"] = 0,
+							["serial"] = "Player-4477-02FB963B",
+							["end_time"] = 1617579772,
 						}, -- [2]
 						{
 							["flag_original"] = 4424,
@@ -6563,16 +6563,17 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
+							["last_event"] = 1617499472,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 30.006233,
+							["classe"] = "PET",
 							["dps_started"] = false,
-							["fight_component"] = true,
 							["total"] = 30.006233,
-							["serial"] = "Pet-0-4460-1-29-1996-030041C460",
-							["on_hold"] = false,
+							["delay"] = 0,
+							["friendlyfire"] = {
+							},
 							["nome"] = "Reported",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -6594,30 +6595,29 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = "!Melee",
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 0.006233,
 							["end_time"] = 1617499473,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1617499472,
-							["damage_taken"] = 0.006233,
+							["tipo"] = 1,
+							["on_hold"] = false,
 							["start_time"] = 1617499472,
-							["delay"] = 0,
-							["classe"] = "PET",
+							["serial"] = "Pet-0-4460-1-29-1996-030041C460",
+							["fight_component"] = true,
 						}, -- [3]
 					},
 				}, -- [1]
@@ -6643,15 +6643,15 @@ _detalhes_database = {
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
 									["Dazed"] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 4,
+										["id"] = "Dazed",
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["activedamt"] = 0,
-										["uptime"] = 5,
-										["id"] = "Dazed",
-										["refreshamt"] = 4,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
@@ -6660,36 +6660,36 @@ _detalhes_database = {
 							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["buff_uptime"] = 5,
-							["buff_uptime_targets"] = {
-							},
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
+							["buff_uptime"] = 5,
 							["last_event"] = 1617499473,
+							["tipo"] = 4,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
-									["Track Humanoids"] = {
-										["appliedamt"] = 0,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 0,
-										["id"] = "Track Humanoids",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
 									["Aspect of the Cheetah"] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = "Aspect of the Cheetah",
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 5,
-										["id"] = "Aspect of the Cheetah",
-										["refreshamt"] = 0,
-										["actived"] = false,
+										["appliedamt"] = 1,
+									},
+									["Track Humanoids"] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = "Track Humanoids",
+										["uptime"] = 0,
+										["targets"] = {
+										},
+										["appliedamt"] = 0,
 									},
 								},
 								["tipo"] = 9,
@@ -6699,20 +6699,20 @@ _detalhes_database = {
 						}, -- [1]
 						{
 							["flag_original"] = 66888,
-							["pets"] = {
-							},
+							["tipo"] = 4,
 							["nome"] = "Fräse",
 							["enemy"] = true,
+							["pets"] = {
+							},
+							["classe"] = "UNGROUPPLAYER",
+							["last_event"] = 0,
+							["fight_component"] = true,
+							["serial"] = "Player-4477-02FB963B",
 							["spell_cast"] = {
 								["Auto Shot"] = 3,
-								["Serpent Sting"] = 1,
 								["Arcane Shot"] = 1,
+								["Serpent Sting"] = 1,
 							},
-							["fight_component"] = true,
-							["last_event"] = 0,
-							["tipo"] = 4,
-							["serial"] = "Player-4477-02FB963B",
-							["classe"] = "UNGROUPPLAYER",
 						}, -- [2]
 					},
 				}, -- [4]
@@ -6840,8 +6840,8 @@ _detalhes_database = {
 						"HUNTER", -- [4]
 						457, -- [5]
 						"0m 5s", -- [6]
-						["dead_at"] = 5.18199999991339,
 						["dead"] = true,
+						["dead_at"] = 5.18199999991339,
 					}, -- [1]
 				},
 				["alternate_power"] = {
@@ -6857,21 +6857,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 1,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 1,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 					["Venobalykk"] = {
@@ -6971,7 +6971,10 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Venobalykk"] = 0.004303,
+						}, -- [1]
 					},
 					["heal_section"] = {
 					},
@@ -6979,20 +6982,20 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage"] = {
-						{
-							["Venobalykk"] = 0.004303,
-						}, -- [1]
+					["damage_section"] = {
 					},
 				},
 				["end_time"] = 566672.889,
 				["combat_id"] = 4,
+				["data_inicio"] = "04:24:28",
+				["TimeData"] = {
+				},
 				["frags"] = {
 				},
-				["contra"] = "Fräse",
-				["spells_cast_timeline"] = {
-				},
 				["overall_added"] = true,
+				["combat_counter"] = 96,
+				["CombatSkillCache"] = {
+				},
 				["totals_grupo"] = {
 					0, -- [1]
 					0, -- [2]
@@ -7000,27 +7003,24 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 1,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 1,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
-				["CombatSkillCache"] = {
-				},
-				["combat_counter"] = 96,
 				["start_time"] = 566667.707,
-				["TimeData"] = {
+				["contra"] = "Fräse",
+				["spells_cast_timeline"] = {
 				},
-				["data_inicio"] = "04:24:28",
 			}, -- [14]
 			{
 				{
@@ -7039,18 +7039,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["end_time"] = 1617012576,
+							["last_event"] = 0,
 							["classe"] = "HUNTER",
-							["tipo"] = 1,
-							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.003759,
-							["serial"] = "Player-4477-0303F15F",
+							["delay"] = 0,
 							["dps_started"] = false,
 							["total"] = 0.003759,
-							["on_hold"] = false,
 							["friendlyfire"] = {
 							},
+							["damage_taken"] = 463.003759,
 							["nome"] = "Venobalykk",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7058,14 +7058,14 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["colocacao"] = 1,
-							["last_dps"] = 0.000578307692307692,
 							["custom"] = 0,
-							["last_event"] = 0,
-							["damage_taken"] = 463.003759,
+							["last_dps"] = 0.000578307692307692,
+							["colocacao"] = 1,
+							["tipo"] = 1,
+							["on_hold"] = false,
 							["start_time"] = 1617012576,
-							["delay"] = 0,
-							["end_time"] = 1617012576,
+							["serial"] = "Player-4477-0303F15F",
+							["friendlyfire_total"] = 0,
 						}, -- [1]
 						{
 							["flag_original"] = 69960,
@@ -7077,16 +7077,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
+							["last_event"] = 1617012575,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 109.006569,
+							["classe"] = "PET",
 							["fight_component"] = true,
-							["dps_started"] = false,
 							["total"] = 109.006569,
-							["serial"] = "Pet-0-4459-0-56-1996-020041C8FD",
-							["damage_taken"] = 0.006569,
+							["delay"] = 0,
+							["on_hold"] = false,
 							["nome"] = "Reported",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7108,30 +7108,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = "!Melee",
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 4,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["end_time"] = 1617012576,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1617012575,
-							["friendlyfire"] = {
-							},
+							["tipo"] = 1,
+							["damage_taken"] = 0.006569,
 							["start_time"] = 1617012569,
-							["delay"] = 0,
-							["classe"] = "PET",
+							["serial"] = "Pet-0-4459-0-56-1996-020041C8FD",
+							["dps_started"] = false,
 						}, -- [2]
 						{
 							["flag_original"] = 1352,
@@ -7144,47 +7144,46 @@ _detalhes_database = {
 							["enemy"] = true,
 							["pets"] = {
 							},
-							["tipo"] = 1,
+							["last_event"] = 1617012576,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 337.002594,
+							["classe"] = "UNGROUPPLAYER",
 							["fight_component"] = true,
-							["dps_started"] = false,
 							["total"] = 337.002594,
-							["serial"] = "Player-4477-02FBBE8E",
-							["damage_taken"] = 0.002594,
+							["delay"] = 0,
+							["on_hold"] = false,
 							["nome"] = "Pfeilschelle",
 							["spells"] = {
 								["_ActorTable"] = {
-									["Serpent Sting"] = {
+									["Arcane Shot"] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 16,
+										["n_max"] = 33,
 										["targets"] = {
-											["Venobalykk"] = 16,
+											["Venobalykk"] = 33,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 16,
-										["n_min"] = 16,
+										["n_dmg"] = 33,
+										["n_min"] = 33,
 										["g_dmg"] = 0,
 										["counter"] = 1,
-										["total"] = 16,
+										["total"] = 33,
 										["c_max"] = 0,
-										["id"] = "Serpent Sting",
+										["id"] = "Arcane Shot",
 										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
 										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
 									},
 									["Auto Shot"] = {
 										["c_amt"] = 0,
@@ -7203,44 +7202,15 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = "Auto Shot",
 										["r_dmg"] = 0,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 3,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
-									},
-									["!Autoshot"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 74,
-										["targets"] = {
-											["Venobalykk"] = 219,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 219,
-										["n_min"] = 72,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 219,
-										["c_max"] = 0,
-										["id"] = "!Autoshot",
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
 										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
 									},
 									["Multi-Shot"] = {
 										["c_amt"] = 0,
@@ -7260,57 +7230,87 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = "Multi-Shot",
 										["r_dmg"] = 0,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["c_min"] = 0,
-										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["a_dmg"] = 0,
 									},
-									["Arcane Shot"] = {
+									["!Autoshot"] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 33,
+										["n_max"] = 74,
 										["targets"] = {
-											["Venobalykk"] = 33,
+											["Venobalykk"] = 219,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 33,
-										["n_min"] = 33,
+										["n_dmg"] = 219,
+										["n_min"] = 72,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 219,
+										["c_max"] = 0,
+										["id"] = "!Autoshot",
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									["Serpent Sting"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 16,
+										["targets"] = {
+											["Venobalykk"] = 16,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 16,
+										["n_min"] = 16,
 										["g_dmg"] = 0,
 										["counter"] = 1,
-										["total"] = 33,
+										["total"] = 16,
 										["c_max"] = 0,
-										["id"] = "Arcane Shot",
+										["id"] = "Serpent Sting",
 										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
+										["r_amt"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["c_min"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["end_time"] = 1617012576,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1617012576,
-							["friendlyfire"] = {
-							},
+							["tipo"] = 1,
+							["damage_taken"] = 0.002594,
 							["start_time"] = 1617012572,
-							["delay"] = 0,
-							["classe"] = "UNGROUPPLAYER",
+							["serial"] = "Player-4477-02FBBE8E",
+							["dps_started"] = false,
 						}, -- [3]
 					},
 				}, -- [1]
@@ -7332,21 +7332,21 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1352,
-							["fight_component"] = true,
+							["last_event"] = 0,
 							["nome"] = "Pfeilschelle",
 							["enemy"] = true,
 							["pets"] = {
 							},
+							["classe"] = "UNGROUPPLAYER",
+							["tipo"] = 4,
 							["spell_cast"] = {
 								["Auto Shot"] = 3,
-								["Serpent Sting"] = 1,
-								["Multi-Shot"] = 1,
 								["Arcane Shot"] = 1,
+								["Multi-Shot"] = 1,
+								["Serpent Sting"] = 1,
 							},
-							["tipo"] = 4,
-							["last_event"] = 0,
 							["serial"] = "Player-4477-02FBBE8E",
-							["classe"] = "UNGROUPPLAYER",
+							["fight_component"] = true,
 						}, -- [1]
 						{
 							["flag_original"] = 1297,
@@ -7354,29 +7354,29 @@ _detalhes_database = {
 							["grupo"] = true,
 							["pets"] = {
 							},
-							["buff_uptime_targets"] = {
-							},
-							["tipo"] = 4,
+							["classe"] = "HUNTER",
 							["last_event"] = 1617012576,
+							["tipo"] = 4,
 							["buff_uptime"] = 0,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									["Track Humanoids"] = {
-										["appliedamt"] = 0,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = "Track Humanoids",
+										["uptime"] = 0,
 										["targets"] = {
 										},
-										["activedamt"] = 0,
-										["uptime"] = 0,
-										["id"] = "Track Humanoids",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-4477-0303F15F",
-							["classe"] = "HUNTER",
+							["buff_uptime_targets"] = {
+							},
 						}, -- [2]
 					},
 				}, -- [4]
@@ -7552,8 +7552,8 @@ _detalhes_database = {
 						"HUNTER", -- [4]
 						457, -- [5]
 						"0m 6s", -- [6]
-						["dead_at"] = 6.5,
 						["dead"] = true,
+						["dead_at"] = 6.5,
 					}, -- [1]
 				},
 				["alternate_power"] = {
@@ -7567,21 +7567,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 1,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 1,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["totals_grupo"] = {
 					0, -- [1]
@@ -7590,18 +7590,18 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 1,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 1,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
 				["frags_need_refresh"] = false,
@@ -7623,7 +7623,10 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Venobalykk"] = 0.003759,
+						}, -- [1]
 					},
 					["heal_section"] = {
 					},
@@ -7631,25 +7634,17 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage"] = {
-						{
-							["Venobalykk"] = 0.003759,
-						}, -- [1]
+					["damage_section"] = {
 					},
 				},
 				["end_time"] = 79777.861,
 				["combat_id"] = 3,
+				["data_inicio"] = "13:09:30",
+				["TimeData"] = {
+				},
 				["spells_cast_timeline"] = {
 				},
-				["contra"] = "Reported",
-				["frags"] = {
-				},
 				["tempo_start"] = 1617012569,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["CombatSkillCache"] = {
-				},
 				["player_last_events"] = {
 					["Venobalykk"] = {
 						{
@@ -7729,10 +7724,15 @@ _detalhes_database = {
 						["n"] = 2,
 					},
 				},
-				["start_time"] = 79771.361,
-				["TimeData"] = {
+				["CombatSkillCache"] = {
 				},
-				["data_inicio"] = "13:09:30",
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["start_time"] = 79771.361,
+				["contra"] = "Reported",
+				["frags"] = {
+				},
 			}, -- [15]
 			{
 				{
@@ -7751,17 +7751,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 79.006765,
-							["last_event"] = 1616248830,
+							["classe"] = "HUNTER",
+							["tipo"] = 1,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 79.006765,
-							["serial"] = "Player-4477-0303F15F",
+							["delay"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1616248830,
-							["on_hold"] = false,
+							["total"] = 79.006765,
 							["damage_taken"] = 629.006765,
+							["friendlyfire"] = {
+							},
 							["nome"] = "Venobalykk",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7783,30 +7784,29 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = "!Melee",
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 3,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 								},
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["colocacao"] = 1,
-							["last_dps"] = 4.63165464884784,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["last_dps"] = 4.63165464884784,
+							["colocacao"] = 1,
+							["last_event"] = 1616248830,
+							["on_hold"] = false,
 							["start_time"] = 1616248824,
-							["delay"] = 0,
-							["classe"] = "HUNTER",
+							["serial"] = "Player-4477-0303F15F",
+							["end_time"] = 1616248830,
 						}, -- [1]
 						{
 							["flag_original"] = 4424,
@@ -7819,15 +7819,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
+							["last_event"] = 1617012567,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 294.00704,
+							["end_time"] = 1617012569,
 							["dps_started"] = false,
-							["fight_component"] = true,
 							["total"] = 294.00704,
-							["serial"] = "Pet-0-4458-0-31-1996-1B0041C8FD",
+							["delay"] = 0,
 							["classe"] = "PET",
 							["nome"] = "Reported",
 							["spells"] = {
@@ -7850,30 +7850,30 @@ _detalhes_database = {
 										["c_max"] = 52,
 										["id"] = "!Melee",
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 52,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 9,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 79.00704,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1617012567,
-							["damage_taken"] = 79.00704,
+							["tipo"] = 1,
+							["on_hold"] = false,
 							["start_time"] = 1616248813,
-							["delay"] = 0,
-							["end_time"] = 1617012569,
+							["serial"] = "Pet-0-4458-0-31-1996-1B0041C8FD",
+							["fight_component"] = true,
 						}, -- [2]
 						{
 							["flag_original"] = 1352,
@@ -7886,46 +7886,46 @@ _detalhes_database = {
 							["enemy"] = true,
 							["pets"] = {
 							},
-							["tipo"] = 1,
+							["last_event"] = 1616248830,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 335.007584,
+							["end_time"] = 1616248830,
 							["dps_started"] = false,
-							["fight_component"] = true,
 							["total"] = 335.007584,
-							["serial"] = "Player-4477-02FBBE8E",
+							["delay"] = 0,
 							["classe"] = "UNGROUPPLAYER",
 							["nome"] = "Pfeilschelle",
 							["spells"] = {
 								["_ActorTable"] = {
-									["Arcane Shot"] = {
+									["Serpent Sting"] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 33,
+										["n_max"] = 16,
 										["targets"] = {
-											["Venobalykk"] = 33,
+											["Venobalykk"] = 16,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 33,
-										["n_min"] = 33,
+										["n_dmg"] = 16,
+										["n_min"] = 16,
 										["g_dmg"] = 0,
 										["counter"] = 1,
-										["total"] = 33,
+										["total"] = 16,
 										["c_max"] = 0,
-										["id"] = "Arcane Shot",
+										["id"] = "Serpent Sting",
 										["r_dmg"] = 0,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
+										["m_amt"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["m_amt"] = 0,
-										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["a_dmg"] = 0,
 									},
 									["Auto Shot"] = {
 										["c_amt"] = 0,
@@ -7944,44 +7944,15 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = "Auto Shot",
 										["r_dmg"] = 0,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
+										["m_amt"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 2,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["m_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									["!Autoshot"] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 144,
-										["g_amt"] = 0,
-										["n_max"] = 64,
-										["targets"] = {
-											["Venobalykk"] = 208,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 64,
-										["n_min"] = 64,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 208,
-										["c_max"] = 144,
-										["id"] = "!Autoshot",
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 144,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
 										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
 									},
 									["Multi-Shot"] = {
 										["c_amt"] = 0,
@@ -8001,57 +7972,86 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = "Multi-Shot",
 										["r_dmg"] = 0,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
+										["m_amt"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["m_amt"] = 0,
-										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["a_dmg"] = 0,
 									},
-									["Serpent Sting"] = {
+									["!Autoshot"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 144,
+										["g_amt"] = 0,
+										["n_max"] = 64,
+										["targets"] = {
+											["Venobalykk"] = 208,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 64,
+										["n_min"] = 64,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 208,
+										["c_max"] = 144,
+										["id"] = "!Autoshot",
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 144,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									["Arcane Shot"] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 16,
+										["n_max"] = 33,
 										["targets"] = {
-											["Venobalykk"] = 16,
+											["Venobalykk"] = 33,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 16,
-										["n_min"] = 16,
+										["n_dmg"] = 33,
+										["n_min"] = 33,
 										["g_dmg"] = 0,
 										["counter"] = 1,
-										["total"] = 16,
+										["total"] = 33,
 										["c_max"] = 0,
-										["id"] = "Serpent Sting",
+										["id"] = "Arcane Shot",
 										["r_dmg"] = 0,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
+										["m_amt"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["m_amt"] = 0,
-										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["a_dmg"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 0.007584,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1616248830,
-							["damage_taken"] = 0.007584,
+							["tipo"] = 1,
+							["on_hold"] = false,
 							["start_time"] = 1616248828,
-							["delay"] = 0,
-							["end_time"] = 1616248830,
+							["serial"] = "Player-4477-02FBBE8E",
+							["fight_component"] = true,
 						}, -- [3]
 					},
 				}, -- [1]
@@ -8077,15 +8077,15 @@ _detalhes_database = {
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
 									["Dazed"] = {
-										["appliedamt"] = 0,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = -1,
+										["refreshamt"] = 12,
+										["id"] = "Dazed",
+										["uptime"] = 17,
 										["targets"] = {
 										},
-										["activedamt"] = -1,
-										["uptime"] = 17,
-										["id"] = "Dazed",
-										["refreshamt"] = 12,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 0,
 									},
 								},
 								["tipo"] = 9,
@@ -8094,36 +8094,36 @@ _detalhes_database = {
 							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["buff_uptime"] = 17,
-							["buff_uptime_targets"] = {
-							},
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
+							["buff_uptime"] = 17,
 							["last_event"] = 1616248830,
+							["tipo"] = 4,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									["Track Beasts"] = {
-										["appliedamt"] = 0,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = "Track Beasts",
+										["uptime"] = 0,
 										["targets"] = {
 										},
-										["activedamt"] = 0,
-										["uptime"] = 0,
-										["id"] = "Track Beasts",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 0,
 									},
 									["Aspect of the Cheetah"] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = "Aspect of the Cheetah",
+										["uptime"] = 17,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 17,
-										["id"] = "Aspect of the Cheetah",
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
@@ -8133,21 +8133,21 @@ _detalhes_database = {
 						}, -- [1]
 						{
 							["flag_original"] = 1352,
-							["spell_cast"] = {
-								["Auto Shot"] = 2,
-								["Arcane Shot"] = 1,
-								["Multi-Shot"] = 1,
-								["Serpent Sting"] = 1,
-							},
+							["tipo"] = 4,
 							["nome"] = "Pfeilschelle",
 							["enemy"] = true,
+							["spell_cast"] = {
+								["Auto Shot"] = 2,
+								["Serpent Sting"] = 1,
+								["Multi-Shot"] = 1,
+								["Arcane Shot"] = 1,
+							},
+							["classe"] = "UNGROUPPLAYER",
+							["last_event"] = 0,
+							["fight_component"] = true,
+							["serial"] = "Player-4477-02FBBE8E",
 							["pets"] = {
 							},
-							["fight_component"] = true,
-							["last_event"] = 0,
-							["tipo"] = 4,
-							["serial"] = "Player-4477-02FBBE8E",
-							["classe"] = "UNGROUPPLAYER",
 						}, -- [2]
 					},
 				}, -- [4]
@@ -8359,8 +8359,8 @@ _detalhes_database = {
 						"HUNTER", -- [4]
 						457, -- [5]
 						"0m 17s", -- [6]
-						["dead_at"] = 17.0580000000045,
 						["dead"] = true,
+						["dead_at"] = 17.0580000000045,
 					}, -- [1]
 				},
 				["alternate_power"] = {
@@ -8374,21 +8374,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 1,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 1,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["totals_grupo"] = {
 					79, -- [1]
@@ -8397,18 +8397,18 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 1,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 1,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
 				["frags_need_refresh"] = false,
@@ -8430,7 +8430,10 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Venobalykk"] = 79.006765,
+						}, -- [1]
 					},
 					["heal_section"] = {
 					},
@@ -8438,25 +8441,17 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage"] = {
-						{
-							["Venobalykk"] = 79.006765,
-						}, -- [1]
+					["damage_section"] = {
 					},
 				},
 				["end_time"] = 109983.468,
 				["combat_id"] = 2,
+				["data_inicio"] = "20:00:14",
+				["TimeData"] = {
+				},
 				["frags"] = {
 				},
-				["contra"] = "Reported",
-				["spells_cast_timeline"] = {
-				},
 				["tempo_start"] = 1616248813,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["CombatSkillCache"] = {
-				},
 				["player_last_events"] = {
 					["Venobalykk"] = {
 						{
@@ -8536,10 +8531,15 @@ _detalhes_database = {
 						["n"] = 2,
 					},
 				},
-				["start_time"] = 109966.41,
-				["TimeData"] = {
+				["CombatSkillCache"] = {
 				},
-				["data_inicio"] = "20:00:14",
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["start_time"] = 109966.41,
+				["contra"] = "Reported",
+				["spells_cast_timeline"] = {
+				},
 			}, -- [16]
 			{
 				{
@@ -8558,18 +8558,19 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["last_event"] = 0,
-							["end_time"] = 1616224045,
+							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
 							["classe"] = "HUNTER",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.002761,
 							["detalhes"] = "Pfeilschelle",
-							["delay"] = 0,
+							["serial"] = "Player-4477-0303F15F",
 							["dps_started"] = false,
-							["total"] = 0.002761,
-							["last_dps"] = 0.000748035762666168,
+							["end_time"] = 1616224045,
 							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["nome"] = "Venobalykk",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -8577,15 +8578,14 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["custom"] = 0,
-							["damage_taken"] = 535.002761,
 							["colocacao"] = 1,
-							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 535.002761,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["last_dps"] = 0.000748035762666168,
 							["start_time"] = 1616224045,
-							["serial"] = "Player-4477-0303F15F",
-							["friendlyfire_total"] = 0,
+							["delay"] = 0,
+							["total"] = 0.002761,
 						}, -- [1]
 						{
 							["flag_original"] = 66888,
@@ -8598,132 +8598,47 @@ _detalhes_database = {
 							["enemy"] = true,
 							["pets"] = {
 							},
-							["last_event"] = 1616224045,
+							["tipo"] = 1,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 465.00287,
-							["classe"] = "UNGROUPPLAYER",
+							["dps_started"] = false,
 							["fight_component"] = true,
 							["total"] = 465.00287,
-							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["serial"] = "Player-4477-02FBBE8E",
+							["damage_taken"] = 0.00287,
 							["nome"] = "Pfeilschelle",
 							["spells"] = {
 								["_ActorTable"] = {
-									["Venom Shot"] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 80,
-										["g_amt"] = 0,
-										["n_max"] = 42,
-										["targets"] = {
-											["Venobalykk"] = 122,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 42,
-										["n_min"] = 42,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 122,
-										["c_max"] = 80,
-										["id"] = "Venom Shot",
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 80,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 8,
-									},
-									["!Autoshot"] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 149,
-										["g_amt"] = 0,
-										["n_max"] = 74,
-										["targets"] = {
-											["Venobalykk"] = 223,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 74,
-										["n_min"] = 74,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 223,
-										["c_max"] = 149,
-										["id"] = "!Autoshot",
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 149,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
-									},
-									["Auto Shot"] = {
+									["Serpent Sting"] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 0,
+										["n_max"] = 16,
 										["targets"] = {
+											["Venobalykk"] = 16,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = "Auto Shot",
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 1,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_amt"] = 0,
-										["a_dmg"] = 0,
-									},
-									["Arcane Shot"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 33,
-										["targets"] = {
-											["Venobalykk"] = 33,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 33,
-										["n_min"] = 33,
+										["n_dmg"] = 16,
+										["n_min"] = 16,
 										["g_dmg"] = 0,
 										["counter"] = 1,
-										["total"] = 33,
+										["total"] = 16,
 										["c_max"] = 0,
-										["id"] = "Arcane Shot",
+										["id"] = "Serpent Sting",
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
-										["successful_casted"] = 1,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
 										["a_amt"] = 0,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									["Multi-Shot"] = {
 										["c_amt"] = 0,
@@ -8743,57 +8658,142 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = "Multi-Shot",
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
+										["a_amt"] = 0,
 										["c_min"] = 0,
-										["m_amt"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["a_dmg"] = 0,
+										["m_amt"] = 0,
+										["r_amt"] = 0,
 									},
-									["Serpent Sting"] = {
+									["Auto Shot"] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 16,
+										["n_max"] = 0,
 										["targets"] = {
-											["Venobalykk"] = 16,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 16,
-										["n_min"] = 16,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = "Auto Shot",
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["m_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									["Arcane Shot"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 33,
+										["targets"] = {
+											["Venobalykk"] = 33,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 33,
+										["n_min"] = 33,
 										["g_dmg"] = 0,
 										["counter"] = 1,
-										["total"] = 16,
+										["total"] = 33,
 										["c_max"] = 0,
-										["id"] = "Serpent Sting",
+										["id"] = "Arcane Shot",
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
+										["a_amt"] = 0,
 										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
 										["m_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									["!Autoshot"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 149,
+										["g_amt"] = 0,
+										["n_max"] = 74,
+										["targets"] = {
+											["Venobalykk"] = 223,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 74,
+										["n_min"] = 74,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 223,
+										["c_max"] = 149,
+										["id"] = "!Autoshot",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 149,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									["Venom Shot"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 80,
+										["g_amt"] = 0,
+										["n_max"] = 42,
+										["targets"] = {
+											["Venobalykk"] = 122,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 42,
+										["n_min"] = 42,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 122,
+										["c_max"] = 80,
+										["id"] = "Venom Shot",
+										["r_dmg"] = 0,
 										["spellschool"] = 8,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 80,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 0.00287,
+							["on_hold"] = false,
 							["end_time"] = 1616224045,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
+							["last_event"] = 1616224045,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1616224043,
-							["serial"] = "Player-4477-02FBBE8E",
-							["dps_started"] = false,
+							["delay"] = 0,
+							["classe"] = "UNGROUPPLAYER",
 						}, -- [2]
 						{
 							["flag_original"] = 4424,
@@ -8805,17 +8805,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["last_event"] = 1616248811,
+							["tipo"] = 1,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 56.002709,
-							["classe"] = "PET",
+							["dps_started"] = false,
 							["fight_component"] = true,
 							["total"] = 56.002709,
-							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["serial"] = "Pet-0-4458-0-31-1996-0F0041C8FD",
+							["damage_taken"] = 0.002709,
 							["nome"] = "Reported",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -8837,29 +8836,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = "!Melee",
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 2,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 0.002709,
+							["on_hold"] = false,
 							["end_time"] = 1616248813,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
+							["last_event"] = 1616248811,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1616224044,
-							["serial"] = "Pet-0-4458-0-31-1996-0F0041C8FD",
-							["dps_started"] = false,
+							["delay"] = 0,
+							["classe"] = "PET",
 						}, -- [3]
 					},
 				}, -- [1]
@@ -8881,7 +8881,8 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 66888,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "Pfeilschelle",
 							["enemy"] = true,
 							["spell_cast"] = {
@@ -8889,12 +8890,11 @@ _detalhes_database = {
 								["Multi-Shot"] = 1,
 								["Arcane Shot"] = 1,
 							},
-							["classe"] = "UNGROUPPLAYER",
-							["tipo"] = 4,
-							["pets"] = {
-							},
-							["serial"] = "Player-4477-02FBBE8E",
 							["fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Player-4477-02FBBE8E",
+							["classe"] = "UNGROUPPLAYER",
 						}, -- [1]
 						{
 							["flag_original"] = 1297,
@@ -8902,29 +8902,29 @@ _detalhes_database = {
 							["grupo"] = true,
 							["pets"] = {
 							},
-							["classe"] = "HUNTER",
-							["last_event"] = 1616224045,
+							["buff_uptime_targets"] = {
+							},
 							["tipo"] = 4,
+							["classe"] = "HUNTER",
 							["buff_uptime"] = 0,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									["Track Humanoids"] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = "Track Humanoids",
-										["uptime"] = 0,
+										["appliedamt"] = 0,
 										["targets"] = {
 										},
-										["appliedamt"] = 0,
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = "Track Humanoids",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-4477-0303F15F",
-							["buff_uptime_targets"] = {
-							},
+							["last_event"] = 1616224045,
 						}, -- [2]
 					},
 				}, -- [4]
@@ -9052,8 +9052,8 @@ _detalhes_database = {
 						"HUNTER", -- [4]
 						457, -- [5]
 						"0m 3s", -- [6]
-						["dead"] = true,
 						["dead_at"] = 3.69099999999889,
+						["dead"] = true,
 					}, -- [1]
 				},
 				["alternate_power"] = {
@@ -9069,21 +9069,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 1,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 1,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["totals_grupo"] = {
 					0, -- [1]
@@ -9092,18 +9092,18 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 1,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 1,
 					}, -- [4]
 				},
 				["frags_need_refresh"] = false,
@@ -9125,10 +9125,7 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["Venobalykk"] = 0.002761,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -9136,20 +9133,20 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Venobalykk"] = 0.002761,
+						}, -- [1]
 					},
 				},
 				["end_time"] = 25972.141,
 				["combat_id"] = 1,
-				["data_inicio"] = "13:07:23",
-				["TimeData"] = {
+				["frags"] = {
 				},
+				["contra"] = "Pfeilschelle",
 				["spells_cast_timeline"] = {
 				},
 				["tempo_start"] = 1616224043,
-				["combat_counter"] = 14,
-				["CombatSkillCache"] = {
-				},
 				["player_last_events"] = {
 					["Venobalykk"] = {
 						{
@@ -9239,10 +9236,13 @@ _detalhes_database = {
 						["n"] = 3,
 					},
 				},
-				["start_time"] = 25968.45,
-				["contra"] = "Pfeilschelle",
-				["frags"] = {
+				["CombatSkillCache"] = {
 				},
+				["combat_counter"] = 14,
+				["start_time"] = 25968.45,
+				["TimeData"] = {
+				},
+				["data_inicio"] = "13:07:23",
 			}, -- [17]
 		},
 	},
@@ -9294,8 +9294,8 @@ _detalhes_database = {
 			["dividebyhundred"] = true,
 			["showamount"] = true,
 			["useplayercolor"] = true,
-			["alwaysshowme"] = true,
 			["author"] = "Terciob",
+			["alwaysshowme"] = true,
 		},
 		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
 			["font_color"] = {
@@ -9322,17 +9322,12 @@ _detalhes_database = {
 			},
 			["arrow_anchor_x"] = 0,
 			["row_texture"] = "Details Serenity",
-			["scale"] = 1,
-			["row_height"] = 20,
-			["point"] = "CENTER",
+			["arrow_anchor_y"] = 0,
+			["main_frame_locked"] = false,
+			["author"] = "Details! Team",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["use_spark"] = true,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -9340,8 +9335,14 @@ _detalhes_database = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["main_frame_strata"] = "LOW",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["y"] = -3.05175781250e-05,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -9349,20 +9350,20 @@ _detalhes_database = {
 				["font_shadow"] = true,
 				["y"] = -1.525878906250e-05,
 				["x"] = 3.05175781250e-05,
-				["size"] = 32,
-				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
+				["update_speed"] = 0.05,
+				["size"] = 32,
 			},
-			["font_size"] = 10,
 			["x"] = 3.05175781250e-05,
 			["font_face"] = "Friz Quadrata TT",
-			["y"] = -3.05175781250e-05,
-			["use_spark"] = true,
-			["author"] = "Details! Team",
-			["main_frame_locked"] = false,
-			["arrow_anchor_y"] = 0,
+			["font_size"] = 10,
+			["main_frame_strata"] = "LOW",
+			["point"] = "CENTER",
+			["row_height"] = 20,
+			["scale"] = 1,
 		},
 	},
+	["last_day"] = "15",
 	["cached_talents"] = {
 		["Player-4477-0303F15F"] = {
 			{
@@ -9786,20 +9787,50 @@ _detalhes_database = {
 		["channel"] = "SELF",
 		["reverse"] = false,
 	},
-	["last_day"] = "13",
 	["benchmark_db"] = {
 		["frame"] = {
 		},
 	},
-	["last_realversion"] = 142,
+	["character_data"] = {
+		["logons"] = 740,
+	},
 	["combat_id"] = 17,
 	["savedStyles"] = {
 	},
-	["announce_firsthit"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
+	["local_instances_config"] = {
+		{
+			["segment"] = 0,
+			["sub_attribute"] = 3,
+			["sub_atributo_last"] = {
+				3, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["is_open"] = true,
+			["isLocked"] = false,
+			["snap"] = {
+			},
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -205.912963867188,
+					["x"] = -290.217391967773,
+					["w"] = 309.999969482422,
+					["h"] = 157.999984741211,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [1]
 	},
-	["combat_counter"] = 739,
+	["force_font_outline"] = "",
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -9821,129 +9852,46 @@ _detalhes_database = {
 					["enemy"] = true,
 					["pets"] = {
 					},
-					["tipo"] = 1,
+					["last_event"] = 0,
 					["classe"] = "UNGROUPPLAYER",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 1137.022037,
-					["friendlyfire_total"] = 0,
+					["total"] = 1137.022037,
 					["fight_component"] = true,
 					["end_time"] = 1616224046,
-					["delay"] = 0,
-					["on_hold"] = false,
+					["serial"] = "Player-4477-02FBBE8E",
+					["damage_taken"] = 0.022037,
 					["nome"] = "Pfeilschelle",
 					["spells"] = {
 						["_ActorTable"] = {
-							["Serpent Sting"] = {
-								["c_amt"] = 0,
+							["Venom Shot"] = {
+								["c_amt"] = 1,
 								["b_amt"] = 0,
-								["c_dmg"] = 0,
+								["c_dmg"] = 80,
 								["g_amt"] = 0,
-								["n_max"] = 16,
+								["n_max"] = 42,
 								["targets"] = {
-									["Venobalykk"] = 48,
+									["Venobalykk"] = 122,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 48,
+								["n_dmg"] = 42,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 3,
-								["total"] = 48,
-								["c_max"] = 0,
-								["id"] = "Serpent Sting",
+								["counter"] = 2,
+								["total"] = 122,
+								["c_max"] = 80,
+								["id"] = "Venom Shot",
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["m_crit"] = 0,
-								["c_min"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 2,
-								["b_dmg"] = 0,
-								["n_amt"] = 3,
-								["a_amt"] = 0,
 								["a_dmg"] = 0,
-							},
-							["Multi-Shot"] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 78,
-								["targets"] = {
-									["Venobalykk"] = 218,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 218,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 3,
-								["total"] = 218,
-								["c_max"] = 0,
-								["id"] = "Multi-Shot",
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 3,
-								["b_dmg"] = 0,
-								["n_amt"] = 3,
 								["a_amt"] = 0,
-								["a_dmg"] = 0,
-							},
-							["Auto Shot"] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = "Auto Shot",
-								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 1,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
-								["m_crit"] = 0,
-								["c_min"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 6,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
-							},
-							["Arcane Shot"] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 33,
-								["targets"] = {
-									["Venobalykk"] = 99,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 99,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 3,
-								["total"] = 99,
-								["c_max"] = 0,
-								["id"] = "Arcane Shot",
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["m_crit"] = 0,
-								["c_min"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 3,
-								["b_dmg"] = 0,
-								["n_amt"] = 3,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
 							},
 							["!Autoshot"] = {
 								["c_amt"] = 2,
@@ -9963,57 +9911,140 @@ _detalhes_database = {
 								["c_max"] = 149,
 								["id"] = "!Autoshot",
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["c_min"] = 0,
-								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 5,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
 							},
-							["Venom Shot"] = {
-								["c_amt"] = 1,
+							["Auto Shot"] = {
+								["c_amt"] = 0,
 								["b_amt"] = 0,
-								["c_dmg"] = 80,
+								["c_dmg"] = 0,
 								["g_amt"] = 0,
-								["n_max"] = 42,
+								["n_max"] = 0,
 								["targets"] = {
-									["Venobalykk"] = 122,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 42,
+								["n_dmg"] = 0,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 2,
-								["total"] = 122,
-								["c_max"] = 80,
-								["id"] = "Venom Shot",
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = "Auto Shot",
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["m_crit"] = 0,
-								["c_min"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 1,
-								["a_amt"] = 0,
 								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 6,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+							["Arcane Shot"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 33,
+								["targets"] = {
+									["Venobalykk"] = 99,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 99,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 3,
+								["total"] = 99,
+								["c_max"] = 0,
+								["id"] = "Arcane Shot",
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 3,
+								["b_dmg"] = 0,
+								["n_amt"] = 3,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+							["Multi-Shot"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 78,
+								["targets"] = {
+									["Venobalykk"] = 218,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 218,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 3,
+								["total"] = 218,
+								["c_max"] = 0,
+								["id"] = "Multi-Shot",
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 3,
+								["b_dmg"] = 0,
+								["n_amt"] = 3,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+							["Serpent Sting"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 16,
+								["targets"] = {
+									["Venobalykk"] = 48,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 48,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 3,
+								["total"] = 48,
+								["c_max"] = 0,
+								["id"] = "Serpent Sting",
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 2,
+								["b_dmg"] = 0,
+								["n_amt"] = 3,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["damage_taken"] = 0.022037,
+					["friendlyfire"] = {
+					},
 					["dps_started"] = false,
 					["last_dps"] = 0,
 					["custom"] = 0,
-					["last_event"] = 0,
-					["friendlyfire"] = {
-					},
+					["tipo"] = 1,
+					["on_hold"] = false,
 					["start_time"] = 1616224035,
-					["serial"] = "Player-4477-02FBBE8E",
-					["total"] = 1137.022037,
+					["delay"] = 0,
+					["friendlyfire_total"] = 0,
 				}, -- [1]
 				{
 					["flag_original"] = 1297,
@@ -10021,27 +10052,27 @@ _detalhes_database = {
 					["damage_from"] = {
 						["Reported"] = true,
 						["Pfeilschelle"] = true,
-						["Reported <Fräse>"] = true,
-						["Southsea Swashbuckler"] = true,
-						["Fräse"] = true,
-						["Xzech"] = true,
-						["Galadroniouz"] = true,
 						["Coast Strider"] = true,
+						["Southsea Swashbuckler"] = true,
+						["Xzech"] = true,
+						["Fräse"] = true,
+						["Galadroniouz"] = true,
+						["Reported <Fräse>"] = true,
 					},
 					["targets"] = {
 						["Reported"] = 79,
 					},
 					["pets"] = {
 					},
-					["damage_taken"] = 6312.088669,
+					["on_hold"] = false,
 					["classe"] = "HUNTER",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 79.088669,
-					["last_dps"] = 0,
+					["friendlyfire_total"] = 0,
 					["dps_started"] = false,
 					["end_time"] = 1616224046,
-					["delay"] = 0,
+					["serial"] = "Player-4477-0303F15F",
 					["total"] = 79.088669,
 					["nome"] = "Venobalykk",
 					["spells"] = {
@@ -10064,29 +10095,29 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = "!Melee",
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["m_amt"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 3,
-								["m_amt"] = 0,
-								["r_amt"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
 					["grupo"] = true,
-					["tipo"] = 1,
+					["last_event"] = 0,
 					["friendlyfire"] = {
 					},
 					["custom"] = 0,
-					["last_event"] = 0,
-					["on_hold"] = false,
+					["tipo"] = 1,
+					["damage_taken"] = 6312.088669,
 					["start_time"] = 1616224037,
-					["serial"] = "Player-4477-0303F15F",
-					["friendlyfire_total"] = 0,
+					["delay"] = 0,
+					["last_dps"] = 0,
 				}, -- [2]
 				{
 					["flag_original"] = 4424,
@@ -10100,16 +10131,16 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["tipo"] = 1,
+					["last_event"] = 0,
 					["classe"] = "PET",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 536.048442,
-					["friendlyfire_total"] = 0,
+					["dps_started"] = false,
 					["fight_component"] = true,
 					["end_time"] = 1616224046,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "Pet-0-4458-0-31-1996-0F0041C8FD",
+					["damage_taken"] = 79.048442,
 					["nome"] = "Reported",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -10132,30 +10163,30 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = "!Melee",
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["a_amt"] = 0,
+								["MISS"] = 1,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 20,
-								["a_dmg"] = 0,
-								["MISS"] = 1,
+								["a_amt"] = 0,
+								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["damage_taken"] = 79.048442,
+					["on_hold"] = false,
 					["total"] = 536.048442,
 					["friendlyfire"] = {
 					},
 					["custom"] = 0,
-					["last_event"] = 0,
-					["on_hold"] = false,
+					["tipo"] = 1,
+					["last_dps"] = 0,
 					["start_time"] = 1616223999,
-					["serial"] = "Pet-0-4458-0-31-1996-0F0041C8FD",
-					["dps_started"] = false,
+					["delay"] = 0,
+					["friendlyfire_total"] = 0,
 				}, -- [3]
 				{
 					["flag_original"] = 66888,
@@ -10170,48 +10201,47 @@ _detalhes_database = {
 					["pets"] = {
 						"Reported <Fräse>", -- [1]
 					},
-					["last_event"] = 0,
+					["tipo"] = 1,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 2520.051943,
-					["end_time"] = 1617499473,
+					["dps_started"] = false,
 					["fight_component"] = true,
-					["total"] = 2713.051943,
-					["serial"] = "Player-4477-02FB963B",
-					["friendlyfire"] = {
-					},
+					["end_time"] = 1617499473,
+					["delay"] = 0,
+					["on_hold"] = false,
 					["nome"] = "Fräse",
 					["spells"] = {
 						["_ActorTable"] = {
-							["Arcane Shot"] = {
+							["Serpent Sting"] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["c_dmg"] = 0,
 								["g_amt"] = 0,
-								["n_max"] = 33,
+								["n_max"] = 18,
 								["targets"] = {
-									["Venobalykk"] = 165,
-									["Venoxbalyk"] = 0,
+									["Venobalykk"] = 244,
+									["Venoxbalyk"] = 36,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 165,
+								["n_dmg"] = 280,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 5,
-								["total"] = 165,
+								["counter"] = 16,
+								["total"] = 280,
 								["c_max"] = 0,
-								["id"] = "Arcane Shot",
+								["id"] = "Serpent Sting",
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 5,
-								["b_dmg"] = 0,
-								["n_amt"] = 5,
-								["m_amt"] = 0,
 								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 6,
+								["b_dmg"] = 0,
+								["n_amt"] = 16,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							["Auto Shot"] = {
 								["c_amt"] = 0,
@@ -10230,44 +10260,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = "Auto Shot",
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["m_amt"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 22,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["m_amt"] = 0,
-								["r_amt"] = 0,
-							},
-							["Multi-Shot"] = {
-								["c_amt"] = 4,
-								["b_amt"] = 0,
-								["c_dmg"] = 528,
-								["g_amt"] = 0,
-								["n_max"] = 59,
-								["targets"] = {
-									["Venobalykk"] = 528,
-									["Venoxbalyk"] = 59,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 59,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 5,
-								["total"] = 587,
-								["c_max"] = 151,
-								["id"] = "Multi-Shot",
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 1,
-								["b_dmg"] = 0,
-								["n_amt"] = 1,
-								["m_amt"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							["!Autoshot"] = {
 								["c_amt"] = 5,
@@ -10288,58 +10289,88 @@ _detalhes_database = {
 								["c_max"] = 109,
 								["id"] = "!Autoshot",
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["a_amt"] = 0,
+								["MISS"] = 2,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 20,
-								["r_amt"] = 0,
-								["MISS"] = 2,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
-							["Serpent Sting"] = {
+							["Multi-Shot"] = {
+								["c_amt"] = 4,
+								["b_amt"] = 0,
+								["c_dmg"] = 528,
+								["g_amt"] = 0,
+								["n_max"] = 59,
+								["targets"] = {
+									["Venobalykk"] = 528,
+									["Venoxbalyk"] = 59,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 59,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 5,
+								["total"] = 587,
+								["c_max"] = 151,
+								["id"] = "Multi-Shot",
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["b_dmg"] = 0,
+								["n_amt"] = 1,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							["Arcane Shot"] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["c_dmg"] = 0,
 								["g_amt"] = 0,
-								["n_max"] = 18,
+								["n_max"] = 33,
 								["targets"] = {
-									["Venobalykk"] = 244,
-									["Venoxbalyk"] = 36,
+									["Venobalykk"] = 165,
+									["Venoxbalyk"] = 0,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 280,
+								["n_dmg"] = 165,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 16,
-								["total"] = 280,
+								["counter"] = 5,
+								["total"] = 165,
 								["c_max"] = 0,
-								["id"] = "Serpent Sting",
+								["id"] = "Arcane Shot",
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 6,
-								["b_dmg"] = 0,
-								["n_amt"] = 16,
-								["m_amt"] = 0,
 								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 5,
+								["b_dmg"] = 0,
+								["n_amt"] = 5,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["on_hold"] = false,
+					["damage_taken"] = 0.051943,
 					["classe"] = "UNGROUPPLAYER",
 					["last_dps"] = 0,
 					["custom"] = 0,
-					["tipo"] = 1,
-					["damage_taken"] = 0.051943,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1617499402,
-					["delay"] = 0,
-					["dps_started"] = false,
+					["serial"] = "Player-4477-02FB963B",
+					["total"] = 2713.051943,
 				}, -- [4]
 				{
 					["flag_original"] = 66888,
@@ -10352,16 +10383,16 @@ _detalhes_database = {
 					["enemy"] = true,
 					["pets"] = {
 					},
-					["tipo"] = 1,
+					["last_event"] = 0,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 845.018687,
+					["classe"] = "UNGROUPPLAYER",
 					["fight_component"] = true,
-					["dps_started"] = false,
 					["end_time"] = 1617851496,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "Player-4477-02FA3BE1",
+					["damage_taken"] = 0.018687,
 					["nome"] = "Galadroniouz",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -10383,15 +10414,15 @@ _detalhes_database = {
 								["c_max"] = 249,
 								["id"] = "!Melee",
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 5,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 							},
 							["Ravage"] = {
 								["c_amt"] = 0,
@@ -10411,36 +10442,36 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = "Ravage",
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["c_min"] = 0,
-								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["damage_taken"] = 0.018687,
+					["on_hold"] = false,
 					["total"] = 845.018687,
 					["friendlyfire"] = {
 					},
 					["custom"] = 0,
-					["last_event"] = 0,
-					["on_hold"] = false,
+					["tipo"] = 1,
+					["last_dps"] = 0,
 					["start_time"] = 1617851480,
-					["serial"] = "Player-4477-02FA3BE1",
-					["classe"] = "UNGROUPPLAYER",
+					["delay"] = 0,
+					["dps_started"] = false,
 				}, -- [5]
 				{
 					["flag_original"] = 69960,
 					["totalabsorbed"] = 0.016636,
 					["damage_from"] = {
-						["Southsea Freebooter"] = true,
 						["Southsea Swashbuckler"] = true,
+						["Southsea Freebooter"] = true,
 					},
 					["targets"] = {
 						["Venobalykk"] = 193,
@@ -10448,17 +10479,16 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
+					["dps_started"] = false,
+					["tipo"] = 1,
 					["classe"] = "PET",
-					["last_event"] = 0,
-					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 193.016636,
-					["serial"] = "Pet-0-4479-1-46-1996-040041C460",
+					["delay"] = 0,
 					["fight_component"] = true,
 					["total"] = 193.016636,
-					["friendlyfire"] = {
-					},
+					["damage_taken"] = 430.016636,
 					["ownerName"] = "Fräse",
 					["nome"] = "Reported <Fräse>",
 					["spells"] = {
@@ -10482,28 +10512,29 @@ _detalhes_database = {
 								["c_max"] = 50,
 								["id"] = "!Melee",
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["c_min"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 6,
-								["c_min"] = 0,
-								["r_amt"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["damage_taken"] = 430.016636,
+					["on_hold"] = false,
 					["end_time"] = 1618292577,
 					["last_dps"] = 0,
 					["custom"] = 0,
-					["tipo"] = 1,
-					["on_hold"] = false,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1618292555,
-					["delay"] = 0,
-					["dps_started"] = false,
+					["serial"] = "Pet-0-4479-1-46-1996-040041C460",
+					["friendlyfire_total"] = 0,
 				}, -- [6]
 				{
 					["flag_original"] = 66888,
@@ -10516,46 +10547,47 @@ _detalhes_database = {
 					["enemy"] = true,
 					["pets"] = {
 					},
-					["last_event"] = 0,
+					["tipo"] = 1,
 					["classe"] = "UNGROUPPLAYER",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 445.017277,
-					["total"] = 445.017277,
+					["fight_component"] = true,
 					["dps_started"] = false,
-					["end_time"] = 1618483839,
-					["serial"] = "Player-4477-02FB23AC",
-					["last_dps"] = 0,
+					["total"] = 445.017277,
+					["delay"] = 0,
+					["friendlyfire"] = {
+					},
 					["nome"] = "Xzech",
 					["spells"] = {
 						["_ActorTable"] = {
-							["Arcane Shot"] = {
+							["Serpent Sting"] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["c_dmg"] = 0,
 								["g_amt"] = 0,
-								["n_max"] = 33,
+								["n_max"] = 16,
 								["targets"] = {
-									["Venobalykk"] = 33,
+									["Venobalykk"] = 32,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 33,
+								["n_dmg"] = 32,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 1,
-								["total"] = 33,
+								["counter"] = 2,
+								["total"] = 32,
 								["c_max"] = 0,
-								["id"] = "Arcane Shot",
+								["id"] = "Serpent Sting",
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 1,
-								["b_dmg"] = 0,
-								["n_amt"] = 1,
-								["m_amt"] = 0,
 								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 3,
+								["b_dmg"] = 0,
+								["n_amt"] = 2,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							["Auto Shot"] = {
 								["c_amt"] = 0,
@@ -10574,43 +10606,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = "Auto Shot",
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["m_amt"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 5,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["m_amt"] = 0,
-								["r_amt"] = 0,
-							},
-							["Multi-Shot"] = {
-								["c_amt"] = 1,
-								["b_amt"] = 0,
-								["c_dmg"] = 95,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["Venobalykk"] = 95,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 1,
-								["total"] = 95,
-								["c_max"] = 95,
-								["id"] = "Multi-Shot",
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["m_amt"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							["!Autoshot"] = {
 								["c_amt"] = 2,
@@ -10630,57 +10634,84 @@ _detalhes_database = {
 								["c_max"] = 72,
 								["id"] = "!Autoshot",
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["m_amt"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 4,
-								["m_amt"] = 0,
-								["r_amt"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
-							["Serpent Sting"] = {
+							["Multi-Shot"] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 95,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Venobalykk"] = 95,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 95,
+								["c_max"] = 95,
+								["id"] = "Multi-Shot",
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							["Arcane Shot"] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["c_dmg"] = 0,
 								["g_amt"] = 0,
-								["n_max"] = 16,
+								["n_max"] = 33,
 								["targets"] = {
-									["Venobalykk"] = 32,
+									["Venobalykk"] = 33,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 32,
+								["n_dmg"] = 33,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 2,
-								["total"] = 32,
+								["counter"] = 1,
+								["total"] = 33,
 								["c_max"] = 0,
-								["id"] = "Serpent Sting",
+								["id"] = "Arcane Shot",
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 3,
-								["b_dmg"] = 0,
-								["n_amt"] = 2,
-								["m_amt"] = 0,
 								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["b_dmg"] = 0,
+								["n_amt"] = 1,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
+					["damage_taken"] = 0.017277,
 					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
 					["custom"] = 0,
-					["tipo"] = 1,
-					["damage_taken"] = 0.017277,
+					["last_event"] = 0,
+					["last_dps"] = 0,
 					["start_time"] = 1618483828,
-					["delay"] = 0,
-					["fight_component"] = true,
+					["serial"] = "Player-4477-02FB23AC",
+					["end_time"] = 1618483839,
 				}, -- [7]
 				{
 					["flag_original"] = 68168,
@@ -10692,17 +10723,17 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["monster"] = true,
-					["last_dps"] = 0,
+					["dps_started"] = false,
+					["damage_taken"] = 0.012723,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 571.012723,
-					["delay"] = 0,
-					["fight_component"] = true,
+					["serial"] = "Creature-0-4457-1-31-5466-0000F6402F",
+					["monster"] = true,
 					["end_time"] = 1618504653,
 					["friendlyfire_total"] = 0,
-					["damage_taken"] = 0.012723,
+					["on_hold"] = false,
 					["nome"] = "Coast Strider",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -10724,29 +10755,29 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = "!Melee",
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["c_min"] = 0,
-								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 1,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["tipo"] = 1,
+					["last_event"] = 0,
+					["total"] = 571.012723,
 					["friendlyfire"] = {
 					},
-					["total"] = 571.012723,
 					["custom"] = 0,
-					["last_event"] = 0,
-					["on_hold"] = false,
+					["tipo"] = 1,
+					["last_dps"] = 0,
 					["start_time"] = 1618504649,
-					["serial"] = "Creature-0-4457-1-31-5466-0000F6402F",
-					["dps_started"] = false,
+					["delay"] = 0,
+					["fight_component"] = true,
 				}, -- [8]
 				{
 					["flag_original"] = 68168,
@@ -10759,18 +10790,18 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 0.013036,
+					["fight_component"] = true,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 613.013036,
-					["delay"] = 0,
-					["monster"] = true,
+					["serial"] = "Creature-0-4457-1-31-7858-00007850A5",
+					["dps_started"] = false,
 					["total"] = 613.013036,
 					["friendlyfire"] = {
 					},
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["nome"] = "Southsea Swashbuckler",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -10793,15 +10824,15 @@ _detalhes_database = {
 								["c_max"] = 159,
 								["id"] = "!Melee",
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["c_min"] = 0,
-								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 3,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
 							},
 							["Disarm"] = {
 								["c_amt"] = 0,
@@ -10820,28 +10851,28 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = "Disarm",
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["c_min"] = 0,
-								["m_amt"] = 0,
 								["successful_casted"] = 1,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["tipo"] = 1,
-					["classe"] = "UNKNOW",
-					["end_time"] = 1618505803,
-					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
+					["end_time"] = 1618505803,
+					["classe"] = "UNKNOW",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 0.013036,
 					["start_time"] = 1618505788,
-					["serial"] = "Creature-0-4457-1-31-7858-00007850A5",
-					["fight_component"] = true,
+					["delay"] = 0,
+					["monster"] = true,
 				}, -- [9]
 			},
 		}, -- [1]
@@ -10860,21 +10891,21 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["fight_component"] = true,
-					["classe"] = "UNGROUPPLAYER",
+					["last_event"] = 0,
 					["nome"] = "Pfeilschelle",
 					["enemy"] = true,
 					["pets"] = {
 					},
-					["flag_original"] = 66888,
-					["tipo"] = 4,
-					["last_event"] = 0,
-					["serial"] = "Player-4477-02FBBE8E",
 					["spell_cast"] = {
 						["Auto Shot"] = 6,
-						["Serpent Sting"] = 2,
-						["Multi-Shot"] = 3,
 						["Arcane Shot"] = 3,
+						["Multi-Shot"] = 3,
+						["Serpent Sting"] = 2,
 					},
+					["classe"] = "UNGROUPPLAYER",
+					["tipo"] = 4,
+					["serial"] = "Player-4477-02FBBE8E",
+					["flag_original"] = 66888,
 				}, -- [1]
 				{
 					["flag_original"] = 1297,
@@ -10882,24 +10913,24 @@ _detalhes_database = {
 					["debuff_uptime_spells"] = {
 						["_ActorTable"] = {
 							["Freezing Trap Effect"] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 2,
 								["appliedamt"] = 2,
 								["id"] = "Freezing Trap Effect",
 								["uptime"] = 15,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							["Dazed"] = {
-								["refreshamt"] = 28,
+								["counter"] = 0,
 								["activedamt"] = -2,
 								["appliedamt"] = 3,
 								["id"] = "Dazed",
 								["uptime"] = 36,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 28,
 							},
 						},
 						["tipo"] = 9,
@@ -10909,43 +10940,43 @@ _detalhes_database = {
 					["grupo"] = true,
 					["buff_uptime_targets"] = {
 					},
-					["buff_uptime"] = 36,
-					["nome"] = "Venobalykk",
 					["pets"] = {
 					},
-					["classe"] = "HUNTER",
+					["nome"] = "Venobalykk",
+					["buff_uptime"] = 36,
 					["last_event"] = 0,
+					["classe"] = "HUNTER",
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
 							["Track Beasts"] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 0,
 								["id"] = "Track Beasts",
 								["uptime"] = 0,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							["Track Humanoids"] = {
-								["counter"] = 0,
+								["refreshamt"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 0,
 								["id"] = "Track Humanoids",
 								["uptime"] = 0,
 								["targets"] = {
 								},
-								["refreshamt"] = 0,
+								["counter"] = 0,
 							},
 							["Aspect of the Cheetah"] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 5,
 								["appliedamt"] = 5,
 								["id"] = "Aspect of the Cheetah",
 								["uptime"] = 36,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 						},
 						["tipo"] = 9,
@@ -10955,53 +10986,53 @@ _detalhes_database = {
 				}, -- [2]
 				{
 					["flag_original"] = 66888,
-					["classe"] = "UNGROUPPLAYER",
+					["fight_component"] = true,
 					["nome"] = "Fräse",
 					["enemy"] = true,
 					["pets"] = {
 					},
-					["last_event"] = 0,
-					["tipo"] = 4,
-					["fight_component"] = true,
-					["serial"] = "Player-4477-02FB963B",
 					["spell_cast"] = {
 						["Auto Shot"] = 22,
-						["Arcane Shot"] = 5,
-						["Multi-Shot"] = 1,
 						["Serpent Sting"] = 6,
+						["Multi-Shot"] = 1,
+						["Arcane Shot"] = 5,
 					},
+					["classe"] = "UNGROUPPLAYER",
+					["tipo"] = 4,
+					["serial"] = "Player-4477-02FB963B",
+					["last_event"] = 0,
 				}, -- [3]
 				{
 					["fight_component"] = true,
-					["flag_original"] = 66888,
+					["last_event"] = 0,
 					["nome"] = "Xzech",
 					["enemy"] = true,
 					["pets"] = {
 					},
+					["classe"] = "UNGROUPPLAYER",
+					["tipo"] = 4,
 					["spell_cast"] = {
 						["Auto Shot"] = 5,
-						["Arcane Shot"] = 1,
 						["Serpent Sting"] = 3,
+						["Arcane Shot"] = 1,
 					},
-					["tipo"] = 4,
-					["last_event"] = 0,
 					["serial"] = "Player-4477-02FB23AC",
-					["classe"] = "UNGROUPPLAYER",
+					["flag_original"] = 66888,
 				}, -- [4]
 				{
 					["monster"] = true,
-					["last_event"] = 0,
+					["tipo"] = 4,
 					["nome"] = "Southsea Swashbuckler",
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
-					["flag_original"] = 68168,
-					["tipo"] = 4,
-					["fight_component"] = true,
-					["serial"] = "Creature-0-4457-1-31-7858-00007850A5",
 					["spell_cast"] = {
 						["Disarm"] = 1,
 					},
+					["flag_original"] = 68168,
+					["last_event"] = 0,
+					["fight_component"] = true,
+					["serial"] = "Creature-0-4457-1-31-7858-00007850A5",
+					["classe"] = "UNKNOW",
 				}, -- [5]
 			},
 		}, -- [4]
@@ -11017,6 +11048,69 @@ _detalhes_database = {
 		},
 		["alternate_power"] = {
 		},
+		["spells_cast_timeline"] = {
+		},
+		["combat_counter"] = 13,
+		["totals"] = {
+			7132.225373, -- [1]
+			0, -- [2]
+			{
+				0, -- [1]
+				[0] = 0,
+				["alternatepower"] = 0,
+				[3] = 0,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["cooldowns_defensive"] = 0,
+				["dispell"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+			["frags_total"] = 0,
+			["voidzone_damage"] = 0,
+		},
+		["player_last_events"] = {
+		},
+		["frags_need_refresh"] = false,
+		["aura_timeline"] = {
+		},
+		["__call"] = {
+		},
+		["data_inicio"] = "13:07:23",
+		["end_time"] = 293976.676,
+		["cleu_events"] = {
+			["n"] = 1,
+		},
+		["totals_grupo"] = {
+			79.080853, -- [1]
+			0, -- [2]
+			{
+				0, -- [1]
+				[0] = 0,
+				["alternatepower"] = 0,
+				[3] = 0,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["cooldowns_defensive"] = 0,
+				["dispell"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+		},
+		["overall_refreshed"] = true,
+		["frags"] = {
+		},
+		["hasSaved"] = true,
 		["segments_added"] = {
 			{
 				["elapsed"] = 6.5,
@@ -11121,134 +11215,40 @@ _detalhes_database = {
 				["clock"] = "13:07:23",
 			}, -- [17]
 		},
-		["combat_counter"] = 13,
-		["totals"] = {
-			7132.225373, -- [1]
-			0, -- [2]
-			{
-				0, -- [1]
-				[0] = 0,
-				["alternatepower"] = 0,
-				[6] = 0,
-				[3] = 0,
-			}, -- [3]
-			{
-				["buff_uptime"] = 0,
-				["ress"] = 0,
-				["dead"] = 0,
-				["cc_break"] = 0,
-				["interrupt"] = 0,
-				["debuff_uptime"] = 0,
-				["dispell"] = 0,
-				["cooldowns_defensive"] = 0,
-			}, -- [4]
-			["voidzone_damage"] = 0,
-			["frags_total"] = 0,
+		["data_fim"] = "20:12:47",
+		["overall_enemy_name"] = "-- x -- x --",
+		["CombatSkillCache"] = {
 		},
-		["player_last_events"] = {
-		},
-		["frags_need_refresh"] = false,
-		["aura_timeline"] = {
-		},
-		["__call"] = {
-		},
-		["data_inicio"] = "13:07:23",
-		["end_time"] = 293976.676,
-		["cleu_timeline"] = {
-		},
-		["totals_grupo"] = {
-			79.080853, -- [1]
-			0, -- [2]
-			{
-				0, -- [1]
-				[0] = 0,
-				["alternatepower"] = 0,
-				[6] = 0,
-				[3] = 0,
-			}, -- [3]
-			{
-				["buff_uptime"] = 0,
-				["ress"] = 0,
-				["dead"] = 0,
-				["cc_break"] = 0,
-				["interrupt"] = 0,
-				["debuff_uptime"] = 0,
-				["dispell"] = 0,
-				["cooldowns_defensive"] = 0,
-			}, -- [4]
-		},
-		["overall_refreshed"] = true,
 		["PhaseData"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 			}, -- [1]
-			["damage"] = {
+			["damage_section"] = {
 			},
 			["heal_section"] = {
 			},
 			["heal"] = {
 			},
-			["damage_section"] = {
+			["damage"] = {
 			},
-		},
-		["hasSaved"] = true,
-		["spells_cast_timeline"] = {
-		},
-		["data_fim"] = "20:12:47",
-		["overall_enemy_name"] = "-- x -- x --",
-		["CombatSkillCache"] = {
-		},
-		["frags"] = {
 		},
 		["start_time"] = 293855.058,
 		["TimeData"] = {
 		},
-		["cleu_events"] = {
-			["n"] = 1,
+		["cleu_timeline"] = {
 		},
 	},
-	["force_font_outline"] = "",
-	["local_instances_config"] = {
-		{
-			["segment"] = 0,
-			["sub_attribute"] = 3,
-			["sub_atributo_last"] = {
-				3, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			},
-			["is_open"] = true,
-			["isLocked"] = false,
-			["snap"] = {
-			},
-			["mode"] = 2,
-			["attribute"] = 1,
-			["pos"] = {
-				["normal"] = {
-					["y"] = -205.912963867188,
-					["x"] = -290.217391967773,
-					["w"] = 309.999969482422,
-					["h"] = 157.999984741211,
-				},
-				["solo"] = {
-					["y"] = 2,
-					["x"] = 1,
-					["w"] = 300,
-					["h"] = 200,
-				},
-			},
-		}, -- [1]
+	["combat_counter"] = 764,
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
 	},
-	["character_data"] = {
-		["logons"] = 715,
-	},
+	["last_realversion"] = 142,
 	["announce_cooldowns"] = {
-		["enabled"] = false,
 		["ignored_cooldowns"] = {
 		},
+		["enabled"] = false,
 		["custom"] = "",
 		["channel"] = "RAID",
 	},

@@ -205,7 +205,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame1"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 5,
+			["headIndex"] = 107,
 			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -218,1284 +218,724 @@ Prat3HighCPUPerCharDB = {
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
 				{
-					["message"] = "|cff979797|Hpratcopy|h[09:23:41]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 229302.45,
-					["serverTime"] = 1620876220,
+					["message"] = "|cff979797|Hpratcopy|h[03:19:24]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380245.068,
+					["serverTime"] = 1621027163,
 				}, -- [1]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[09:23:59]|h|r You receive loot: |cffffffff|Hitem:13422::::::::20:::::::|h[Stonescale Eel]|h|r.",
-					["serverTime"] = 1620876238,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 229320.117,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[03:19:36]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380256.971,
+					["serverTime"] = 1621027175,
 				}, -- [2]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[09:24:00]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 229321.753,
-					["serverTime"] = 1620876239,
+					["message"] = "|cff979797|Hpratcopy|h[03:19:46]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380267.581,
+					["serverTime"] = 1621027185,
 				}, -- [3]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[09:24:35]|h|r |Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Tanaris]|h",
-					["serverTime"] = 1620876274,
+					["message"] = "|cff979797|Hpratcopy|h[03:20:16]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380297.585,
+					["serverTime"] = 1621027215,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:20:46]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380327.67,
+					["serverTime"] = 1621027245,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:20:55]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380335.938,
+					["serverTime"] = 1621027254,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:21:12]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380353.218,
+					["serverTime"] = 1621027271,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:21:40]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380381.389,
+					["serverTime"] = 1621027299,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:22:10]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380411.355,
+					["serverTime"] = 1621027329,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:22:40]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380441.392,
+					["serverTime"] = 1621027359,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:22:52]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380453.887,
+					["serverTime"] = 1621027371,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:23:08]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380469.63,
+					["serverTime"] = 1621027387,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:23:18]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380479.717,
+					["serverTime"] = 1621027397,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:23:46]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380507.837,
+					["serverTime"] = 1621027425,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:24:16]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380537.843,
+					["serverTime"] = 1621027455,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:24:44]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380564.992,
+					["serverTime"] = 1621027483,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:25:11]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380591.939,
+					["serverTime"] = 1621027510,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:25:29]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380609.995,
+					["serverTime"] = 1621027528,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:25:42]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380622.94,
+					["serverTime"] = 1621027541,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:26:01]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380642.713,
+					["serverTime"] = 1621027560,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:26:31]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380672.775,
+					["serverTime"] = 1621027590,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:27:01]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380702.77,
+					["serverTime"] = 1621027620,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:27:24]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380725.899,
+					["serverTime"] = 1621027643,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:27:40]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380740.961,
+					["serverTime"] = 1621027659,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:28:10]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380770.934,
+					["serverTime"] = 1621027689,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:28:36]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380797.496,
+					["serverTime"] = 1621027715,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:28:51]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380812.378,
+					["serverTime"] = 1621027730,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:29:06]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380827.276,
+					["serverTime"] = 1621027745,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:29:27]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380848.416,
+					["serverTime"] = 1621027766,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:29:45]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380865.956,
+					["serverTime"] = 1621027784,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:29:53]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380874.7,
+					["serverTime"] = 1621027792,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:30:03]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380884.204,
+					["serverTime"] = 1621027802,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:30:23]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380904.448,
+					["serverTime"] = 1621027822,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:30:43]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380924.888,
+					["serverTime"] = 1621027842,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:31:01]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380942.782,
+					["serverTime"] = 1621027860,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:31:19]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380960.45,
+					["serverTime"] = 1621027878,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:31:39]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380980.877,
+					["serverTime"] = 1621027898,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:31:56]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380997.552,
+					["serverTime"] = 1621027915,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:32:16]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381017.19,
+					["serverTime"] = 1621027935,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:32:31]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381032.228,
+					["serverTime"] = 1621027950,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:32:43]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381044.14,
+					["serverTime"] = 1621027962,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:33:05]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381066.354,
+					["serverTime"] = 1621027984,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:33:30]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381091.665,
+					["serverTime"] = 1621028009,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:33:44]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381105.868,
+					["serverTime"] = 1621028023,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:34:07]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381128.252,
+					["serverTime"] = 1621028046,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:34:25]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381146.896,
+					["serverTime"] = 1621028064,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:34:55]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381176.908,
+					["serverTime"] = 1621028094,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:35:26]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381207.04,
+					["serverTime"] = 1621028125,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:35:48]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381229.871,
+					["serverTime"] = 1621028147,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:35:57]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381238.597,
+					["serverTime"] = 1621028156,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:36:05]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381246.706,
+					["serverTime"] = 1621028164,
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:36:19]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381260.407,
+					["serverTime"] = 1621028178,
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:36:49]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381290.448,
+					["serverTime"] = 1621028208,
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:36:53]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Bannock-Lucifron:473:CHANNEL:1|h|cffaad372Bannock|r|h|cffd8d8d8]|r: lfg (Oder lfm) für rf",
+					["serverTime"] = 1621028212,
 					["r"] = 1,
 					["extraData"] = {
 						67, -- [1]
 						false, -- [2]
 						3, -- [3]
-						6, -- [4]
+						34, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 229356.235,
+					["timestamp"] = 381293.948,
 					["g"] = 0.752941250801086,
 					["b"] = 0.752941250801086,
-				}, -- [4]
+				}, -- [54]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[09:24:35]|h|r |Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Tanaris]|h",
-					["serverTime"] = 1620876274,
+					["message"] = "|cff979797|Hpratcopy|h[03:37:19]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381320.461,
+					["serverTime"] = 1621028238,
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:37:49]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381350.477,
+					["serverTime"] = 1621028268,
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:38:19]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381380.519,
+					["serverTime"] = 1621028298,
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:38:30]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381391.439,
+					["serverTime"] = 1621028309,
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:39:00]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381421.51,
+					["serverTime"] = 1621028339,
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:39:09]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Bannock-Lucifron:474:CHANNEL:1|h|cffaad372Bannock|r|h|cffd8d8d8]|r: lfm Rf (Potentieller Heal vorhanden)",
+					["serverTime"] = 1621028348,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
+						34, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 381430.387,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:39:20]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381441.06,
+					["serverTime"] = 1621028359,
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:39:43]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381464.715,
+					["serverTime"] = 1621028382,
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:40:05]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381486.285,
+					["serverTime"] = 1621028404,
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:40:19]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381500.245,
+					["serverTime"] = 1621028418,
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:40:25]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Bannock-Lucifron:475:CHANNEL:1|h|cffaad372Bannock|r|h|cffd8d8d8]|r: Tank und ein DD noch für RF",
+					["serverTime"] = 1621028424,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
+						34, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 381505.971,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:40:49]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381530.314,
+					["serverTime"] = 1621028448,
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:41:12]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381553.057,
+					["serverTime"] = 1621028471,
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:41:16]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Bannock-Lucifron:476:CHANNEL:1|h|cffaad372Bannock|r|h|cffd8d8d8]|r: Ein Tank noch für rf und go",
+					["serverTime"] = 1621028475,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
+						34, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 381557.321,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:41:27]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381568.878,
+					["serverTime"] = 1621028486,
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:41:42]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381583.428,
+					["serverTime"] = 1621028501,
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:42:12]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381613.473,
+					["serverTime"] = 1621028531,
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:42:26]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381627.125,
+					["serverTime"] = 1621028545,
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:42:44]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381645.466,
+					["serverTime"] = 1621028563,
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:43:06]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381667.033,
+					["serverTime"] = 1621028585,
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:43:14]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381675.338,
+					["serverTime"] = 1621028593,
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:43:26]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381687.86,
+					["serverTime"] = 1621028605,
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:43:40]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381701.324,
+					["serverTime"] = 1621028619,
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:43:58]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381719.607,
+					["serverTime"] = 1621028637,
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:44:09]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Bannock-Lucifron:477:CHANNEL:1|h|cffaad372Bannock|r|h|cffd8d8d8]|r: Tank noch für Rf",
+					["serverTime"] = 1621028648,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
+						34, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 381730.478,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:44:23]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381744.595,
+					["serverTime"] = 1621028662,
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:44:33]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381754.504,
+					["serverTime"] = 1621028672,
+				}, -- [81]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:45:03]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381784.657,
+					["serverTime"] = 1621028702,
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:45:33]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381814.682,
+					["serverTime"] = 1621028732,
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:45:58]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381839.436,
+					["serverTime"] = 1621028757,
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:46:11]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381852.856,
+					["serverTime"] = 1621028770,
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:46:20]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381861.802,
+					["serverTime"] = 1621028779,
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:46:36]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381877.718,
+					["serverTime"] = 1621028795,
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:47:06]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381907.711,
+					["serverTime"] = 1621028825,
+				}, -- [88]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:47:23]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381924.551,
+					["serverTime"] = 1621028842,
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:47:50]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381951.059,
+					["serverTime"] = 1621028869,
+				}, -- [90]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:48:01]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381962.523,
+					["serverTime"] = 1621028880,
+				}, -- [91]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:48:16]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 381976.918,
+					["serverTime"] = 1621028895,
+				}, -- [92]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:48:44]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 382005.719,
+					["serverTime"] = 1621028923,
+				}, -- [93]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:49:03]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 382024.485,
+					["serverTime"] = 1621028942,
+				}, -- [94]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:49:17]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 382038.49,
+					["serverTime"] = 1621028956,
+				}, -- [95]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:49:47]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 382068.611,
+					["serverTime"] = 1621028986,
+				}, -- [96]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:50:04]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 382085.45,
+					["serverTime"] = 1621029003,
+				}, -- [97]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:50:32]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 382113.372,
+					["serverTime"] = 1621029031,
+				}, -- [98]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:50:48]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 382129.624,
+					["serverTime"] = 1621029047,
+				}, -- [99]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:51:18]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 382159.629,
+					["serverTime"] = 1621029077,
+				}, -- [100]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:51:42]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 382183.408,
+					["serverTime"] = 1621029101,
+				}, -- [101]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:51:55]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 382196.564,
+					["serverTime"] = 1621029114,
+				}, -- [102]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:52:25]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 382226.576,
+					["serverTime"] = 1621029144,
+				}, -- [103]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:52:55]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 382256.596,
+					["serverTime"] = 1621029174,
+				}, -- [104]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:52:59]|h|r You lie down.",
+					["serverTime"] = 1621029178,
+					["r"] = 1,
+					["extraData"] = {
+						12, -- [1]
+						false, -- [2]
+						44, -- [3]
+						45, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 382260.571,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [105]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:53:19]|h|r |Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - The Barrens]|h",
+					["serverTime"] = 1621029198,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
+						46, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 382280.668,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
+				}, -- [106]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:53:19]|h|r |Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - The Barrens]|h",
+					["serverTime"] = 1621029198,
 					["r"] = 1,
 					["extraData"] = {
 						69, -- [1]
 						false, -- [2]
-						8, -- [3]
-						9, -- [4]
+						48, -- [3]
+						49, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 229356.235,
+					["timestamp"] = 382280.668,
 					["g"] = 0.752941250801086,
 					["b"] = 0.752941250801086,
-				}, -- [5]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:03:43]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 228104.068,
-					["serverTime"] = 1620875022,
-				}, -- [6]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:04:01]|h|r You receive loot: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["serverTime"] = 1620875041,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228122.131,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [7]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:04:03]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 228124.354,
-					["serverTime"] = 1620875043,
-				}, -- [8]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:04:11]|h|r You receive loot: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["serverTime"] = 1620875051,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228132.368,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [9]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:04:13]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 228134.459,
-					["serverTime"] = 1620875053,
-				}, -- [10]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:04:37]|h|r You receive loot: |cffffffff|Hitem:13422::::::::20:::::::|h[Stonescale Eel]|h|r.",
-					["serverTime"] = 1620875077,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228158.774,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [11]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:04:39]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 228160.365,
-					["serverTime"] = 1620875079,
-				}, -- [12]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:04:50]|h|r You receive loot: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["serverTime"] = 1620875090,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228171.765,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [13]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:04:52]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 228173.718,
-					["serverTime"] = 1620875092,
-				}, -- [14]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:05:09]|h|r You receive loot: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["serverTime"] = 1620875109,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228190.057,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [15]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:05:11]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 228192.375,
-					["serverTime"] = 1620875111,
-				}, -- [16]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:05:34]|h|r You receive loot: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["serverTime"] = 1620875133,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228215.849,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [17]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:05:36]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 228217.88,
-					["serverTime"] = 1620875135,
-				}, -- [18]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:05:57]|h|r You receive loot: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["serverTime"] = 1620875156,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228237.918,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [19]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:05:59]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 228240.189,
-					["serverTime"] = 1620875158,
-				}, -- [20]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:06:28]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 228269.552,
-					["serverTime"] = 1620875187,
-				}, -- [21]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:06:53]|h|r You receive loot: |cffffffff|Hitem:13754::::::::20:::::::|h[Raw Glossy Mightfish]|h|r.",
-					["serverTime"] = 1620875212,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228294.027,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [22]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:06:55]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:13754::::::::20:::::::|h[Raw Glossy Mightfish]|h|r.",
-					["timestamp"] = 228296.155,
-					["serverTime"] = 1620875214,
-				}, -- [23]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:07:18]|h|r You receive loot: |cffffffff|Hitem:6359::::::::20:::::::|h[Firefin Snapper]|h|r.",
-					["serverTime"] = 1620875237,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228319.196,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [24]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:07:19]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 228320.787,
-					["serverTime"] = 1620875238,
-				}, -- [25]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:07:30]|h|r You receive loot: |cffffffff|Hitem:6362::::::::20:::::::|h[Raw Rockscale Cod]|h|r.",
-					["serverTime"] = 1620875249,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228331.073,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [26]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:07:32]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6362::::::::20:::::::|h[Raw Rockscale Cod]|h|r.",
-					["timestamp"] = 228332.986,
-					["serverTime"] = 1620875251,
-				}, -- [27]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:07:38]|h|r You receive loot: |cffffffff|Hitem:6359::::::::20:::::::|h[Firefin Snapper]|h|r.",
-					["serverTime"] = 1620875257,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228339.681,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [28]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:07:40]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 228341.223,
-					["serverTime"] = 1620875259,
-				}, -- [29]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:07:53]|h|r You receive loot: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["serverTime"] = 1620875272,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228354.217,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [30]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:07:55]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 228356.427,
-					["serverTime"] = 1620875274,
-				}, -- [31]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:08:21]|h|r You receive loot: |cffffffff|Hitem:6359::::::::20:::::::|h[Firefin Snapper]|h|r.",
-					["serverTime"] = 1620875300,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228382.119,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [32]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:08:22]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 228383.756,
-					["serverTime"] = 1620875301,
-				}, -- [33]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:08:36]|h|r You receive loot: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["serverTime"] = 1620875315,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228397.129,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [34]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:08:38]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 228399.311,
-					["serverTime"] = 1620875317,
-				}, -- [35]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:09:01]|h|r You receive loot: |cffffffff|Hitem:13874::::::::20:::::::|h[Heavy Crate]|h|r.",
-					["serverTime"] = 1620875340,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228422.225,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [36]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:09:02]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 228423.771,
-					["serverTime"] = 1620875341,
-				}, -- [37]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:09:03]|h|r You receive loot: |cffffffff|Hitem:10505::::::::20:::::::|h[Solid Blasting Powder]|h|r.",
-					["serverTime"] = 1620875342,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228424.452,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [38]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:09:20]|h|r You receive loot: |cffffffff|Hitem:13754::::::::20:::::::|h[Raw Glossy Mightfish]|h|r.",
-					["serverTime"] = 1620875359,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228440.997,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [39]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:09:22]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:13754::::::::20:::::::|h[Raw Glossy Mightfish]|h|r.",
-					["timestamp"] = 228443.097,
-					["serverTime"] = 1620875361,
-				}, -- [40]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:09:51]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 228472.603,
-					["serverTime"] = 1620875390,
-				}, -- [41]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:10:08]|h|r You receive loot: |cffffffff|Hitem:13754::::::::20:::::::|h[Raw Glossy Mightfish]|h|r.",
-					["serverTime"] = 1620875407,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228489.63,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [42]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:10:11]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:13754::::::::20:::::::|h[Raw Glossy Mightfish]|h|r.",
-					["timestamp"] = 228492.5,
-					["serverTime"] = 1620875410,
-				}, -- [43]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:10:36]|h|r You receive loot: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["serverTime"] = 1620875435,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228517.597,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [44]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:10:39]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 228519.934,
-					["serverTime"] = 1620875438,
-				}, -- [45]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:11:00]|h|r You receive loot: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["serverTime"] = 1620875459,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228541.442,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [46]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:11:02]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 228543.358,
-					["serverTime"] = 1620875461,
-				}, -- [47]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:11:21]|h|r You receive loot: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["serverTime"] = 1620875480,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228562.6,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [48]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:11:23]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 228564.859,
-					["serverTime"] = 1620875482,
-				}, -- [49]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:11:39]|h|r You receive loot: |cffffffff|Hitem:13422::::::::20:::::::|h[Stonescale Eel]|h|r.",
-					["serverTime"] = 1620875498,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228580.412,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [50]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:11:41]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 228582.006,
-					["serverTime"] = 1620875500,
-				}, -- [51]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:11:55]|h|r You receive loot: |cffffffff|Hitem:6359::::::::20:::::::|h[Firefin Snapper]|h|r.",
-					["serverTime"] = 1620875514,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228596.023,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [52]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:11:56]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 228597.764,
-					["serverTime"] = 1620875515,
-				}, -- [53]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:12:16]|h|r You receive loot: |cffffffff|Hitem:13754::::::::20:::::::|h[Raw Glossy Mightfish]|h|r.",
-					["serverTime"] = 1620875535,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228616.951,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [54]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:12:18]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:13754::::::::20:::::::|h[Raw Glossy Mightfish]|h|r.",
-					["timestamp"] = 228619.118,
-					["serverTime"] = 1620875537,
-				}, -- [55]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:12:24]|h|r You receive loot: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["serverTime"] = 1620875543,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228625.294,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [56]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:12:26]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 228627.162,
-					["serverTime"] = 1620875545,
-				}, -- [57]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:12:51]|h|r You receive loot: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["serverTime"] = 1620875571,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228652.202,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [58]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:12:53]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 228654.722,
-					["serverTime"] = 1620875573,
-				}, -- [59]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:13:14]|h|r You receive loot: |cffffffff|Hitem:13874::::::::20:::::::|h[Heavy Crate]|h|r.",
-					["serverTime"] = 1620875594,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228675.593,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [60]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:13:16]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 228677.234,
-					["serverTime"] = 1620875596,
-				}, -- [61]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:13:16]|h|r You receive loot: |cffffffff|Hitem:9060::::::::20:::::::|h[Inlaid Mithril Cylinder]|h|r.",
-					["serverTime"] = 1620875596,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228677.81,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [62]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:13:24]|h|r You receive loot: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["serverTime"] = 1620875604,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228685.918,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [63]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:13:27]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 228687.964,
-					["serverTime"] = 1620875607,
-				}, -- [64]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:13:47]|h|r You receive loot: |cffffffff|Hitem:13754::::::::20:::::::|h[Raw Glossy Mightfish]|h|r.",
-					["serverTime"] = 1620875627,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228708.62,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [65]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:13:49]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:13754::::::::20:::::::|h[Raw Glossy Mightfish]|h|r.",
-					["timestamp"] = 228710.62,
-					["serverTime"] = 1620875629,
-				}, -- [66]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:14:11]|h|r You receive loot: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["serverTime"] = 1620875651,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228732.823,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [67]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:14:14]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 228734.942,
-					["serverTime"] = 1620875654,
-				}, -- [68]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:14:28]|h|r You receive loot: |cffffffff|Hitem:13422::::::::20:::::::|h[Stonescale Eel]|h|r.",
-					["serverTime"] = 1620875667,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228749.586,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [69]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:14:30]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 228751.177,
-					["serverTime"] = 1620875669,
-				}, -- [70]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:14:41]|h|r You receive loot: |cffffffff|Hitem:13754::::::::20:::::::|h[Raw Glossy Mightfish]|h|r.",
-					["serverTime"] = 1620875680,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228762.24,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [71]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:14:42]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:13754::::::::20:::::::|h[Raw Glossy Mightfish]|h|r.",
-					["timestamp"] = 228763.643,
-					["serverTime"] = 1620875681,
-				}, -- [72]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:14:52]|h|r You receive loot: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["serverTime"] = 1620875691,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228773.643,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [73]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:14:54]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 228775.825,
-					["serverTime"] = 1620875693,
-				}, -- [74]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:15:13]|h|r You receive loot: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["serverTime"] = 1620875712,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228794.363,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [75]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:15:15]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 228796.493,
-					["serverTime"] = 1620875714,
-				}, -- [76]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:15:25]|h|r You receive loot: |cffffffff|Hitem:6362::::::::20:::::::|h[Raw Rockscale Cod]|h|r.",
-					["serverTime"] = 1620875724,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228806.279,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [77]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:15:27]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6362::::::::20:::::::|h[Raw Rockscale Cod]|h|r.",
-					["timestamp"] = 228808.233,
-					["serverTime"] = 1620875726,
-				}, -- [78]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:15:56]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 228837.866,
-					["serverTime"] = 1620875755,
-				}, -- [79]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:16:13]|h|r You receive loot: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["serverTime"] = 1620875772,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228854.782,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [80]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:16:16]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 228857.249,
-					["serverTime"] = 1620875775,
-				}, -- [81]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:16:24]|h|r You receive loot: |cffffffff|Hitem:13422::::::::20:::::::|h[Stonescale Eel]|h|r.",
-					["serverTime"] = 1620875783,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228864.933,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [82]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:16:25]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 228866.516,
-					["serverTime"] = 1620875784,
-				}, -- [83]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:16:42]|h|r You receive loot: |cffffffff|Hitem:13754::::::::20:::::::|h[Raw Glossy Mightfish]|h|r.",
-					["serverTime"] = 1620875801,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228883.876,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [84]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:16:44]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:13754::::::::20:::::::|h[Raw Glossy Mightfish]|h|r.",
-					["timestamp"] = 228885.63,
-					["serverTime"] = 1620875803,
-				}, -- [85]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:16:59]|h|r You receive loot: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["serverTime"] = 1620875818,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228900.363,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [86]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:17:01]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 228902.236,
-					["serverTime"] = 1620875820,
-				}, -- [87]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:17:17]|h|r You receive loot: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["serverTime"] = 1620875836,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228918.407,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [88]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:17:19]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 228920.092,
-					["serverTime"] = 1620875838,
-				}, -- [89]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:17:31]|h|r You receive loot: |cffffffff|Hitem:13754::::::::20:::::::|h[Raw Glossy Mightfish]|h|r.",
-					["serverTime"] = 1620875850,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228932.471,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [90]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:17:33]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:13754::::::::20:::::::|h[Raw Glossy Mightfish]|h|r.",
-					["timestamp"] = 228934.636,
-					["serverTime"] = 1620875852,
-				}, -- [91]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:17:42]|h|r You receive loot: |cffffffff|Hitem:6362::::::::20:::::::|h[Raw Rockscale Cod]|h|r.",
-					["serverTime"] = 1620875861,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228943.533,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [92]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:17:44]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6362::::::::20:::::::|h[Raw Rockscale Cod]|h|r.",
-					["timestamp"] = 228945.487,
-					["serverTime"] = 1620875863,
-				}, -- [93]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:18:10]|h|r You receive loot: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["serverTime"] = 1620875889,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228971.757,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [94]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:18:12]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 228973.494,
-					["serverTime"] = 1620875891,
-				}, -- [95]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:18:37]|h|r You receive loot: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["serverTime"] = 1620875916,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 228998.344,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [96]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:18:39]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 229000.707,
-					["serverTime"] = 1620875918,
-				}, -- [97]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:18:52]|h|r You receive loot: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["serverTime"] = 1620875931,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 229013.621,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [98]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:18:54]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 229015.283,
-					["serverTime"] = 1620875933,
-				}, -- [99]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:19:02]|h|r You receive loot: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["serverTime"] = 1620875941,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 229023.426,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [100]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:19:04]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 229025.426,
-					["serverTime"] = 1620875943,
-				}, -- [101]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:19:19]|h|r You receive loot: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["serverTime"] = 1620875958,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 229040.681,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [102]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:19:22]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 229043.249,
-					["serverTime"] = 1620875961,
-				}, -- [103]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:19:36]|h|r You receive loot: |cffffffff|Hitem:13422::::::::20:::::::|h[Stonescale Eel]|h|r.",
-					["serverTime"] = 1620875975,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 229057.014,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [104]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:19:37]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 229058.553,
-					["serverTime"] = 1620875976,
-				}, -- [105]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:19:56]|h|r You receive loot: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["serverTime"] = 1620875995,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 229077.521,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [106]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:20:05]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 229086.631,
-					["serverTime"] = 1620876004,
 				}, -- [107]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[09:20:16]|h|r You receive loot: |cffffffff|Hitem:13754::::::::20:::::::|h[Raw Glossy Mightfish]|h|r.",
-					["serverTime"] = 1620876015,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 229096.998,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[03:12:04]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 379805.825,
+					["serverTime"] = 1621026723,
 				}, -- [108]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[09:20:18]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:13754::::::::20:::::::|h[Raw Glossy Mightfish]|h|r.",
-					["timestamp"] = 229099.18,
-					["serverTime"] = 1620876017,
+					["message"] = "|cff979797|Hpratcopy|h[03:12:15]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 379816.095,
+					["serverTime"] = 1621026734,
 				}, -- [109]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[09:20:34]|h|r You receive loot: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["serverTime"] = 1620876033,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 229115.842,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[03:12:24]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 379825.456,
+					["serverTime"] = 1621026743,
 				}, -- [110]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[09:20:36]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 229117.764,
-					["serverTime"] = 1620876035,
+					["message"] = "|cff979797|Hpratcopy|h[03:12:41]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 379842.46,
+					["serverTime"] = 1621026760,
 				}, -- [111]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[09:20:57]|h|r You receive loot: |cffffffff|Hitem:6362::::::::20:::::::|h[Raw Rockscale Cod]|h|r.",
-					["serverTime"] = 1620876056,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 229138.807,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[03:12:56]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 379857.544,
+					["serverTime"] = 1621026775,
 				}, -- [112]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[09:20:59]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6362::::::::20:::::::|h[Raw Rockscale Cod]|h|r.",
-					["timestamp"] = 229140.502,
-					["serverTime"] = 1620876058,
+					["message"] = "|cff979797|Hpratcopy|h[03:13:09]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 379870.769,
+					["serverTime"] = 1621026788,
 				}, -- [113]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[09:21:18]|h|r You receive loot: |cffffffff|Hitem:13422::::::::20:::::::|h[Stonescale Eel]|h|r.",
-					["serverTime"] = 1620876077,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 229159.491,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[03:13:23]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 379884.126,
+					["serverTime"] = 1621026802,
 				}, -- [114]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[09:21:20]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 229160.991,
-					["serverTime"] = 1620876079,
+					["message"] = "|cff979797|Hpratcopy|h[03:13:53]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 379914.013,
+					["serverTime"] = 1621026832,
 				}, -- [115]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[09:21:39]|h|r You receive loot: |cffffffff|Hitem:13754::::::::20:::::::|h[Raw Glossy Mightfish]|h|r.",
-					["serverTime"] = 1620876098,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 229180.383,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[03:14:23]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 379944.036,
+					["serverTime"] = 1621026862,
 				}, -- [116]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[09:21:41]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:13754::::::::20:::::::|h[Raw Glossy Mightfish]|h|r.",
-					["timestamp"] = 229182.247,
-					["serverTime"] = 1620876100,
+					["message"] = "|cff979797|Hpratcopy|h[03:14:41]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 379962.542,
+					["serverTime"] = 1621026880,
 				}, -- [117]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[09:21:52]|h|r You receive loot: |cffffffff|Hitem:6359::::::::20:::::::|h[Firefin Snapper]|h|r.",
-					["serverTime"] = 1620876111,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 229193.215,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[03:15:11]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 379992.522,
+					["serverTime"] = 1621026910,
 				}, -- [118]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[09:21:53]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 229194.808,
-					["serverTime"] = 1620876112,
+					["message"] = "|cff979797|Hpratcopy|h[03:15:41]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380022.58,
+					["serverTime"] = 1621026940,
 				}, -- [119]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[09:22:16]|h|r You receive loot: |cffffffff|Hitem:6359::::::::20:::::::|h[Firefin Snapper]|h|r.",
-					["serverTime"] = 1620876135,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 229217.205,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[03:16:11]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380052.603,
+					["serverTime"] = 1621026970,
 				}, -- [120]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[09:22:17]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 229218.77,
-					["serverTime"] = 1620876136,
+					["message"] = "|cff979797|Hpratcopy|h[03:16:40]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380081.462,
+					["serverTime"] = 1621026999,
 				}, -- [121]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[09:22:42]|h|r You receive loot: |cffffffff|Hitem:6362::::::::20:::::::|h[Raw Rockscale Cod]|h|r.",
-					["serverTime"] = 1620876161,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 229243.748,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[03:17:10]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380111.493,
+					["serverTime"] = 1621027029,
 				}, -- [122]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[09:22:44]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6362::::::::20:::::::|h[Raw Rockscale Cod]|h|r.",
-					["timestamp"] = 229245.748,
-					["serverTime"] = 1620876163,
+					["message"] = "|cff979797|Hpratcopy|h[03:17:29]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380130.697,
+					["serverTime"] = 1621027048,
 				}, -- [123]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[09:23:10]|h|r You receive loot: |cffffffff|Hitem:13754::::::::20:::::::|h[Raw Glossy Mightfish]|h|r.",
-					["serverTime"] = 1620876189,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 229271.203,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[03:17:41]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380142.202,
+					["serverTime"] = 1621027060,
 				}, -- [124]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[09:23:12]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:13754::::::::20:::::::|h[Raw Glossy Mightfish]|h|r.",
-					["timestamp"] = 229273.722,
-					["serverTime"] = 1620876191,
+					["message"] = "|cff979797|Hpratcopy|h[03:17:53]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380154.164,
+					["serverTime"] = 1621027072,
 				}, -- [125]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[09:23:20]|h|r You receive loot: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["serverTime"] = 1620876199,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 229281.252,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[03:18:09]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380170.415,
+					["serverTime"] = 1621027088,
 				}, -- [126]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[09:23:22]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 229283.453,
-					["serverTime"] = 1620876201,
+					["message"] = "|cff979797|Hpratcopy|h[03:18:36]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380197.739,
+					["serverTime"] = 1621027115,
 				}, -- [127]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[09:23:39]|h|r You receive loot: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["serverTime"] = 1620876218,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 229300.541,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[03:19:06]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 380227.753,
+					["serverTime"] = 1621027145,
 				}, -- [128]
 			},
 			["maxElements"] = 128,

@@ -57,18 +57,17 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
-							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
+							["damage_taken"] = 0.006574,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 530.006574,
 							["delay"] = 0,
-							["fight_component"] = true,
+							["dps_started"] = false,
 							["total"] = 530.006574,
 							["monster"] = true,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Deep Dweller",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -109,10 +108,11 @@ _detalhes_database = {
 							["end_time"] = 1616249921,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 0.006574,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1616249921,
 							["serial"] = "Creature-0-4448-1-62-5467-000351642D",
-							["dps_started"] = false,
+							["fight_component"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -138,8 +138,8 @@ _detalhes_database = {
 							["grupo"] = true,
 							["pets"] = {
 							},
-							["last_event"] = 1619982290,
 							["classe"] = "HUNTER",
+							["last_event"] = 1619982290,
 							["tipo"] = 4,
 							["buff_uptime"] = 0,
 							["buff_uptime_spells"] = {
@@ -226,11 +226,11 @@ _detalhes_database = {
 				},
 				["playing_solo"] = true,
 				["totals"] = {
-					529.977160000001, -- [1]
+					529.973852000001, -- [1]
 					0, -- [2]
 					{
 						0, -- [1]
-						[0] = 0,
+						[0] = -0.00457700000001182,
 						["alternatepower"] = 0,
 						[6] = 0,
 						[3] = 0,
@@ -282,9 +282,6 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "20:18:41",
-				["end_time"] = 84457.06,
-				["combat_id"] = 1,
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -304,6 +301,9 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
+				["end_time"] = 84457.06,
+				["combat_id"] = 1,
+				["data_inicio"] = "20:18:41",
 				["overall_added"] = true,
 				["frags"] = {
 				},
@@ -371,18 +371,17 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
-							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
+							["damage_taken"] = 0.006574,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 530.006574,
 							["delay"] = 0,
-							["fight_component"] = true,
+							["dps_started"] = false,
 							["total"] = 530.006574,
 							["monster"] = true,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Deep Dweller",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -423,10 +422,11 @@ _detalhes_database = {
 							["end_time"] = 1616249921,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 0.006574,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1616249921,
 							["serial"] = "Creature-0-4448-1-62-5467-000351642D",
-							["dps_started"] = false,
+							["fight_component"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -452,8 +452,8 @@ _detalhes_database = {
 							["grupo"] = true,
 							["pets"] = {
 							},
-							["last_event"] = 1619982290,
 							["classe"] = "HUNTER",
+							["last_event"] = 1619982290,
 							["tipo"] = 4,
 							["buff_uptime"] = 0,
 							["buff_uptime_spells"] = {
@@ -596,9 +596,6 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "20:18:41",
-				["end_time"] = 84457.06,
-				["combat_id"] = 1,
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -618,6 +615,9 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
+				["end_time"] = 84457.06,
+				["combat_id"] = 1,
+				["data_inicio"] = "20:18:41",
 				["overall_added"] = true,
 				["frags"] = {
 				},
@@ -716,7 +716,12 @@ _detalhes_database = {
 			["point"] = "CENTER",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["author"] = "Details! Team",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -724,18 +729,9 @@ _detalhes_database = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["main_frame_strata"] = "LOW",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["use_spark"] = true,
 			["y"] = -3.05175781250e-05,
-			["x"] = 3.05175781250e-05,
-			["font_face"] = "Friz Quadrata TT",
-			["font_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -747,12 +743,15 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
 			},
-			["main_frame_strata"] = "LOW",
+			["x"] = 3.05175781250e-05,
+			["font_face"] = "Friz Quadrata TT",
+			["use_spark"] = true,
+			["font_size"] = 10,
+			["author"] = "Details! Team",
 			["main_frame_locked"] = false,
 			["arrow_anchor_y"] = 0,
 		},
 	},
-	["last_day"] = "13",
 	["cached_talents"] = {
 		["Player-4466-0229105A"] = {
 			{
@@ -1176,6 +1175,7 @@ _detalhes_database = {
 		["channel"] = "SELF",
 		["reverse"] = false,
 	},
+	["last_day"] = "14",
 	["benchmark_db"] = {
 		["frame"] = {
 		},
@@ -1188,7 +1188,7 @@ _detalhes_database = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["combat_counter"] = 297,
+	["combat_counter"] = 323,
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -1209,17 +1209,17 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["fight_component"] = true,
-					["on_hold"] = false,
+					["dps_started"] = false,
+					["damage_taken"] = 0.013482,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 530.013482,
 					["delay"] = 0,
-					["dps_started"] = false,
+					["monster"] = true,
 					["end_time"] = 1616249921,
 					["friendlyfire_total"] = 0,
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["nome"] = "Deep Dweller",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -1243,8 +1243,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 1,
@@ -1260,10 +1260,10 @@ _detalhes_database = {
 					["total"] = 530.013482,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 0.013482,
+					["last_dps"] = 0,
 					["start_time"] = 1616249918,
 					["serial"] = "Creature-0-4448-1-62-5467-000351642D",
-					["monster"] = true,
+					["fight_component"] = true,
 				}, -- [1]
 				{
 					["flag_original"] = 1297,
@@ -1323,8 +1323,8 @@ _detalhes_database = {
 					["grupo"] = true,
 					["pets"] = {
 					},
-					["classe"] = "HUNTER",
 					["last_event"] = 0,
+					["classe"] = "HUNTER",
 					["tipo"] = 4,
 					["buff_uptime"] = 0,
 					["buff_uptime_spells"] = {
@@ -1496,7 +1496,7 @@ _detalhes_database = {
 		}, -- [1]
 	},
 	["character_data"] = {
-		["logons"] = 287,
+		["logons"] = 313,
 	},
 	["announce_cooldowns"] = {
 		["enabled"] = false,
@@ -1514,5 +1514,6 @@ _detalhes_database = {
 		["channel"] = "SELF",
 	},
 	["cached_specs"] = {
+		["Player-4466-0229105A"] = 0,
 	},
 }

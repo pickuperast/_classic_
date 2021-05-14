@@ -2,13 +2,13 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_50000"] = 500,
 	["_2000"] = 100,
-	["_500"] = 5,
 	["STARTING_DISCOUNT"] = 5,
-	["_1000000"] = 2500,
-	["_10000"] = 200,
 	["LOG_DE_DATA_X"] = true,
-	["_200000"] = 1000,
+	["_1000000"] = 2500,
 	["_5000000"] = 10000,
+	["_500"] = 5,
+	["_10000"] = 200,
+	["_200000"] = 1000,
 }
 AUCTIONATOR_PRICING_HISTORY = {
 	["Raw Brilliant Smallfish"] = {
@@ -46,8 +46,9 @@ AUCTIONATOR_PRICING_HISTORY = {
 AUCTIONATOR_SHOPPING_LISTS = {
 	{
 		["items"] = {
-			"bag", -- [1]
-			"runecloth", -- [2]
+			"Stonescale Eel", -- [1]
+			"bag", -- [2]
+			"runecloth", -- [3]
 		},
 		["isRecents"] = 1,
 		["name"] = "Recent Searches",
@@ -230,6 +231,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["id"] = "13926:0:0:0:0",
 			["cc"] = 7,
 		},
+		["Stonescale Eel"] = {
+			["mr"] = 1989,
+			["cc"] = 5,
+			["H3832"] = 1989,
+			["id"] = "13422:0:0:0:0",
+			["sc"] = 0,
+		},
 		["Craftsman's Writ - Runecloth Boots"] = {
 			["mr"] = 34800,
 			["cc"] = 15,
@@ -243,6 +251,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["id"] = "4240:0:0:0:0",
 			["sc"] = 0,
 			["H3772"] = 1800,
+		},
+		["Pattern: Runecloth Shoulders"] = {
+			["mr"] = 70500,
+			["cc"] = 9,
+			["id"] = "14504:0:0:0:0",
+			["sc"] = 2,
+			["H3757"] = 70500,
 		},
 		["Core Felcloth Bag"] = {
 			["mr"] = 3032250,
@@ -258,13 +273,6 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["id"] = "6291:0:0:0:0",
 			["cc"] = 0,
 		},
-		["Pattern: Runecloth Shoulders"] = {
-			["mr"] = 70500,
-			["cc"] = 9,
-			["id"] = "14504:0:0:0:0",
-			["sc"] = 2,
-			["H3757"] = 70500,
-		},
 		["Bottomless Bag"] = {
 			["mr"] = 2750000,
 			["cc"] = 1,
@@ -279,12 +287,19 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 2,
 			["H3772"] = 3531,
 		},
-		["Enchanted Runecloth Bag"] = {
-			["H3759"] = 390000,
-			["mr"] = 390000,
-			["sc"] = 3,
-			["id"] = "22248:0:0:0:0",
-			["cc"] = 1,
+		["Bolt of Runecloth"] = {
+			["mr"] = 11399,
+			["cc"] = 7,
+			["id"] = "14048:0:0:0:0",
+			["sc"] = 0,
+			["H3757"] = 11399,
+		},
+		["Pattern: Runecloth Pants"] = {
+			["mr"] = 49999,
+			["cc"] = 9,
+			["id"] = "14491:0:0:0:0",
+			["sc"] = 2,
+			["H3757"] = 49999,
 		},
 		["Mageweave Bag"] = {
 			["mr"] = 31500,
@@ -293,19 +308,19 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 0,
 			["H3772"] = 31500,
 		},
-		["Bolt of Runecloth"] = {
-			["mr"] = 11399,
-			["cc"] = 7,
-			["id"] = "14048:0:0:0:0",
-			["sc"] = 0,
-			["H3757"] = 11399,
+		["Enchanted Runecloth Bag"] = {
+			["H3759"] = 390000,
+			["mr"] = 390000,
+			["sc"] = 3,
+			["id"] = "22248:0:0:0:0",
+			["cc"] = 1,
 		},
-		["Six Demon Bag"] = {
-			["mr"] = 291996,
-			["cc"] = 4,
-			["id"] = "7734:0:0:0:0",
+		["Craftsman's Writ - Stonescale Eel"] = {
+			["mr"] = 48000,
+			["cc"] = 15,
+			["H3832"] = 48000,
+			["id"] = "22622:0:0:0:0",
 			["sc"] = 0,
-			["H3772"] = 291996,
 		},
 		["Inlaid Mithril Cylinder"] = {
 			["H3759"] = 126133,
@@ -321,12 +336,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 2,
 			["H3757"] = 184999,
 		},
-		["Pattern: Runecloth Pants"] = {
-			["mr"] = 49999,
-			["cc"] = 9,
-			["id"] = "14491:0:0:0:0",
-			["sc"] = 2,
-			["H3757"] = 49999,
+		["Six Demon Bag"] = {
+			["mr"] = 291996,
+			["cc"] = 4,
+			["id"] = "7734:0:0:0:0",
+			["sc"] = 0,
+			["H3772"] = 291996,
 		},
 		["Runecloth"] = {
 			["mr"] = 1566,

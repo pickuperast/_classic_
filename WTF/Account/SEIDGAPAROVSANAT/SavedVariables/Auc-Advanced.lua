@@ -10,33 +10,6 @@ AucAdvancedConfig = {
 				},
 			},
 		},
-		["configator.top"] = 558.9130859375,
-		["stat"] = {
-			["sales"] = {
-				["ignoredsigs"] = {
-				},
-				["upgraded32"] = true,
-			},
-		},
-		["configator.left"] = 396.0185546875,
-		["util"] = {
-			["appraiser"] = {
-				["columnsortcurDir"] = -1,
-				["columnsortcurSort"] = 6,
-			},
-			["automagic"] = {
-				["ammailguix"] = 160,
-				["autoSellList"] = {
-					[7971] = "Черная жемчужина",
-				},
-				["ammailguiy"] = 99.8,
-				["SavedMailButtons"] = {
-				},
-			},
-			["ahwindowcontrol"] = {
-				["ahframeanchors"] = "LEFT:LEFT:0.9:40.2",
-			},
-		},
 		["match"] = {
 			["undercut"] = {
 				["usevalue"] = true,
@@ -45,38 +18,65 @@ AucAdvancedConfig = {
 				["undercut"] = 0,
 			},
 		},
+		["util"] = {
+			["appraiser"] = {
+				["columnsortcurDir"] = -1,
+				["columnsortcurSort"] = 6,
+			},
+			["automagic"] = {
+				["ammailguix"] = 160,
+				["ammailguiy"] = 99.8,
+				["autoSellList"] = {
+					[7971] = "Черная жемчужина",
+				},
+				["SavedMailButtons"] = {
+				},
+			},
+			["ahwindowcontrol"] = {
+				["ahframeanchors"] = "LEFT:LEFT:0.0:41.6",
+			},
+		},
+		["configator.left"] = 396.0185546875,
+		["stat"] = {
+			["sales"] = {
+				["upgraded32"] = true,
+				["ignoredsigs"] = {
+				},
+			},
+		},
+		["configator.top"] = 558.9130859375,
 	},
 	["version"] = 1,
 }
 AucAdvancedData = {
-	["Stats"] = {
-	},
 	["UtilSearchUiData"] = {
-		["Version"] = 1,
-		["Current"] = {
-			["columnsortcurSort"] = 11,
-			["general.maxbuy"] = 9999999999,
-			["vendor.timeleft"] = 2,
-			["snatch.itemsList"] = {
-			},
-			["columnsortcurDir"] = -1,
-			["snatch.columnsortcurDir"] = 1,
-			["general.maxbid"] = 9999999999,
-			["snatch.columnsortcurSort"] = 1,
-		},
 		["Global"] = {
 			["configator.left"] = -9.56533813476563,
 			["configator.top"] = 667.826110839844,
 		},
+		["Current"] = {
+			["columnsortcurSort"] = 11,
+			["general.maxbuy"] = 9999999999,
+			["snatch.columnsortcurDir"] = 1,
+			["snatch.itemsList"] = {
+			},
+			["columnsortcurDir"] = -1,
+			["vendor.timeleft"] = 2,
+			["general.maxbid"] = 9999999999,
+			["snatch.columnsortcurSort"] = 1,
+		},
+		["Version"] = 1,
 		["SavedSearches"] = {
 		},
+	},
+	["Stats"] = {
 	},
 }
 AucAdvancedServers = {
 	["Version"] = 1,
 	["KnownServerKeys"] = {
 		["РокДелар"] = 1620830169,
-		["Пламегор"] = 1620838321,
+		["Пламегор"] = 1620980696,
 	},
 	["KnownRealms"] = {
 		["РокДелар"] = "РокДелар",

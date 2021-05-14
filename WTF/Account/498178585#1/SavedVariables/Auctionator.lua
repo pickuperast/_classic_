@@ -2,13 +2,13 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_50000"] = 500,
 	["_2000"] = 100,
-	["_5000000"] = 10000,
 	["_200000"] = 1000,
-	["_1000000"] = 2500,
 	["_10000"] = 200,
+	["_1000000"] = 2500,
+	["_5000000"] = 10000,
+	["STARTING_DISCOUNT"] = 5,
 	["_500"] = 5,
 	["LOG_DE_DATA_X"] = true,
-	["STARTING_DISCOUNT"] = 5,
 }
 AUCTIONATOR_PRICING_HISTORY = {
 	["Inlaid Mithril Cylinder"] = {
@@ -46,8 +46,9 @@ AUCTIONATOR_PRICING_HISTORY = {
 AUCTIONATOR_SHOPPING_LISTS = {
 	{
 		["items"] = {
-			"bag", -- [1]
-			"runecloth", -- [2]
+			"Stonescale Eel", -- [1]
+			"bag", -- [2]
+			"runecloth", -- [3]
 		},
 		["isRecents"] = 1,
 		["name"] = "Recent Searches",
@@ -237,6 +238,20 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 0,
 			["H3772"] = 31400,
 		},
+		["Stranglekelp"] = {
+			["H3759"] = 5799,
+			["mr"] = 5799,
+			["sc"] = 0,
+			["id"] = "3820:0:0:0:0",
+			["cc"] = 7,
+		},
+		["Pattern: Mooncloth Bag"] = {
+			["mr"] = 49996,
+			["cc"] = 9,
+			["id"] = "14499:0:0:0:0",
+			["sc"] = 2,
+			["H3772"] = 49996,
+		},
 		["Woolen Bag"] = {
 			["mr"] = 1800,
 			["cc"] = 1,
@@ -258,32 +273,32 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["id"] = "6291:0:0:0:0",
 			["cc"] = 0,
 		},
-		["Stranglekelp"] = {
-			["H3759"] = 5799,
-			["mr"] = 5799,
+		["Bottomless Bag"] = {
+			["mr"] = 2750000,
+			["cc"] = 1,
+			["id"] = "14156:0:0:0:0",
 			["sc"] = 0,
-			["id"] = "3820:0:0:0:0",
-			["cc"] = 7,
-		},
-		["Pattern: Mooncloth Bag"] = {
-			["mr"] = 49996,
-			["cc"] = 9,
-			["id"] = "14499:0:0:0:0",
-			["sc"] = 2,
-			["H3772"] = 49996,
-		},
-		["Pattern: Red Woolen Bag"] = {
-			["mr"] = 3531,
-			["cc"] = 9,
-			["id"] = "5772:0:0:0:0",
-			["sc"] = 2,
-			["H3772"] = 3531,
+			["H3772"] = 2750000,
 		},
 		["Fel Steed Saddlebags"] = {
 			["H3765"] = 9500,
 			["mr"] = 9500,
 			["cc"] = 1,
 			["id"] = "932:0:0:0:0",
+			["sc"] = 0,
+		},
+		["Enchanted Runecloth Bag"] = {
+			["H3759"] = 390000,
+			["mr"] = 390000,
+			["sc"] = 3,
+			["id"] = "22248:0:0:0:0",
+			["cc"] = 1,
+		},
+		["Blue Leather Bag"] = {
+			["mr"] = 3100,
+			["cc"] = 1,
+			["id"] = "856:0:0:0:0",
+			["H3768"] = 3100,
 			["sc"] = 0,
 		},
 		["Mageweave Bag"] = {
@@ -293,12 +308,33 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 0,
 			["H3772"] = 31500,
 		},
-		["Enchanted Runecloth Bag"] = {
-			["H3759"] = 390000,
-			["mr"] = 390000,
-			["sc"] = 3,
-			["id"] = "22248:0:0:0:0",
-			["cc"] = 1,
+		["Bolt of Runecloth"] = {
+			["mr"] = 11399,
+			["cc"] = 7,
+			["id"] = "14048:0:0:0:0",
+			["sc"] = 0,
+			["H3757"] = 11399,
+		},
+		["Runecloth"] = {
+			["mr"] = 1566,
+			["cc"] = 7,
+			["id"] = "14047:0:0:0:0",
+			["sc"] = 0,
+			["H3757"] = 1566,
+		},
+		["Craftsman's Writ - Stonescale Eel"] = {
+			["mr"] = 48000,
+			["cc"] = 15,
+			["H3832"] = 48000,
+			["id"] = "22622:0:0:0:0",
+			["sc"] = 0,
+		},
+		["Pattern: Runecloth Gloves"] = {
+			["mr"] = 184999,
+			["cc"] = 9,
+			["id"] = "14481:0:0:0:0",
+			["sc"] = 2,
+			["H3757"] = 184999,
 		},
 		["Six Demon Bag"] = {
 			["mr"] = 291996,
@@ -314,27 +350,6 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["id"] = "9060:0:0:0:0",
 			["cc"] = 5,
 		},
-		["Pattern: Runecloth Gloves"] = {
-			["mr"] = 184999,
-			["cc"] = 9,
-			["id"] = "14481:0:0:0:0",
-			["sc"] = 2,
-			["H3757"] = 184999,
-		},
-		["Blue Leather Bag"] = {
-			["mr"] = 3100,
-			["cc"] = 1,
-			["id"] = "856:0:0:0:0",
-			["H3768"] = 3100,
-			["sc"] = 0,
-		},
-		["Runecloth"] = {
-			["mr"] = 1566,
-			["cc"] = 7,
-			["id"] = "14047:0:0:0:0",
-			["sc"] = 0,
-			["H3757"] = 1566,
-		},
 		["Pattern: Runecloth Pants"] = {
 			["mr"] = 49999,
 			["cc"] = 9,
@@ -349,12 +364,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["id"] = "6289:0:0:0:0",
 			["cc"] = 0,
 		},
-		["Bolt of Runecloth"] = {
-			["mr"] = 11399,
-			["cc"] = 7,
-			["id"] = "14048:0:0:0:0",
-			["sc"] = 0,
-			["H3757"] = 11399,
+		["Pattern: Red Woolen Bag"] = {
+			["mr"] = 3531,
+			["cc"] = 9,
+			["id"] = "5772:0:0:0:0",
+			["sc"] = 2,
+			["H3772"] = 3531,
 		},
 		["Pattern: Green Woolen Bag"] = {
 			["mr"] = 7508,
@@ -362,13 +377,6 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["id"] = "4292:0:0:0:0",
 			["cc"] = 9,
 			["H3772"] = 7508,
-		},
-		["Bottomless Bag"] = {
-			["mr"] = 2750000,
-			["cc"] = 1,
-			["id"] = "14156:0:0:0:0",
-			["sc"] = 0,
-			["H3772"] = 2750000,
 		},
 		["Pattern: Runecloth Shoulders"] = {
 			["mr"] = 70500,
@@ -383,6 +391,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["id"] = "22610:0:0:0:0",
 			["sc"] = 0,
 			["H3757"] = 34800,
+		},
+		["Stonescale Eel"] = {
+			["mr"] = 1989,
+			["cc"] = 5,
+			["H3832"] = 1989,
+			["id"] = "13422:0:0:0:0",
+			["sc"] = 0,
 		},
 	},
 }

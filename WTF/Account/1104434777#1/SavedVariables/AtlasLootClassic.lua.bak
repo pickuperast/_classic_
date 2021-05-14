@@ -1,10 +1,10 @@
 
 AtlasLootClassicDB = {
-	["global"] = {
-		["__addonrevision"] = 2010000,
-	},
 	["profileKeys"] = {
 		["Пламбалыкши - Пламегор"] = "Пламбалыкши - Пламегор",
+	},
+	["global"] = {
+		["__addonrevision"] = 2010000,
 	},
 	["profiles"] = {
 		["Пламбалыкши - Пламегор"] = {

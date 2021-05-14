@@ -20,8 +20,8 @@ Details_TinyThreatDB = {
 			["dividebyhundred"] = true,
 			["showamount"] = true,
 			["useplayercolor"] = true,
-			["alwaysshowme"] = true,
 			["author"] = "Terciob",
+			["alwaysshowme"] = true,
 		},
 	},
 }

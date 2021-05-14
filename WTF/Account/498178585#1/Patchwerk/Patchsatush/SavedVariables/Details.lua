@@ -129,7 +129,7 @@ _detalhes_database = {
 		["channel"] = "SELF",
 		["reverse"] = false,
 	},
-	["last_day"] = "13",
+	["last_day"] = "14",
 	["cached_talents"] = {
 	},
 	["benchmark_db"] = {
@@ -144,7 +144,7 @@ _detalhes_database = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["combat_counter"] = 580,
+	["combat_counter"] = 628,
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -304,7 +304,7 @@ _detalhes_database = {
 		}, -- [1]
 	},
 	["character_data"] = {
-		["logons"] = 285,
+		["logons"] = 309,
 	},
 	["announce_cooldowns"] = {
 		["enabled"] = false,

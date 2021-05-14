@@ -10247,11 +10247,11 @@ Healbot_Config_Skins = {
 	["Anchors"] = {
 		["Standard"] = {
 			{
-				["Y"] = 58,
+				["Y"] = 49.67,
 				["GROW"] = 2,
 				["BARS"] = 3,
 				["FRAME"] = 3,
-				["X"] = 21,
+				["X"] = 18.5,
 			}, -- [1]
 			{
 				["Y"] = 51,
@@ -10296,11 +10296,11 @@ Healbot_Config_Skins = {
 				["X"] = 56,
 			}, -- [7]
 			{
-				["Y"] = 56.8,
+				["Y"] = 48.47,
 				["GROW"] = 2,
 				["BARS"] = 3,
 				["FRAME"] = 2,
-				["X"] = 3.26,
+				["X"] = 0.76,
 			}, -- [8]
 			{
 				["Y"] = 63,
@@ -22699,6 +22699,17 @@ HealBot_Globals = {
 	["MacroSuppressSound"] = 1,
 	["ttalpha"] = 0.799999952316284,
 	["HideOptions"] = false,
+	["Debug01"] = false,
+	["MinimapIcon"] = {
+		["minimapPos"] = 6.40873657428527,
+		["radius"] = 80,
+		["hide"] = false,
+	},
+	["CustomBuffIDMethod"] = {
+	},
+	["HealBot_PermPrivateTanks"] = {
+	},
+	["HealBot_ButtonPosition"] = 300,
 	["OverrideEffects"] = {
 		["FLUIDFREQ"] = 9,
 		["USE"] = 1,
@@ -22709,17 +22720,6 @@ HealBot_Globals = {
 		["OMAX"] = 0.95,
 		["FGDIMMING"] = 2.5,
 	},
-	["MinimapIcon"] = {
-		["minimapPos"] = 6.40873657428527,
-		["radius"] = 80,
-		["hide"] = false,
-	},
-	["HealBot_ButtonPosition"] = 300,
-	["HealBot_PermPrivateTanks"] = {
-	},
-	["CustomBuffIDMethod"] = {
-	},
-	["Debug01"] = false,
 	["CureCustomDefaultCastBy"] = 1,
 	["TestBars"] = {
 		["HEALERS"] = 3,

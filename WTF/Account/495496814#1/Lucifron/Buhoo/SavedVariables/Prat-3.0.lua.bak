@@ -14,13 +14,13 @@ Prat3CharDB = {
 			},
 			["ChatFrame6EditBox"] = {
 			},
-			["ChatFrame9EditBox"] = {
-			},
-			["ChatFrame2EditBox"] = {
+			["ChatFrame1EditBox"] = {
 			},
 			["ChatFrame3EditBox"] = {
 			},
-			["ChatFrame1EditBox"] = {
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
 			},
 		},
 	},
@@ -29,7 +29,7 @@ Prat3HighCPUPerCharDB = {
 	["scrollback"] = {
 		["ChatFrame5"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 7,
+			["headIndex"] = 4,
 			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -42,73 +42,37 @@ Prat3HighCPUPerCharDB = {
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
 				{
-					["message"] = "|cff979797|Hpratcopy|h[01:58:49]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620763129,
+					["message"] = "|cff979797|Hpratcopy|h[02:00:12]|h|r You have been disconnected from Blizzard services.",
+					["b"] = 0,
 					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 375560.022,
+					["serverTime"] = 1621022411,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 193265.97,
-					["g"] = 1,
-					["b"] = 0,
 				}, -- [1]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:24:17]|h|r You have been disconnected from Blizzard services.",
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["b"] = 0,
-					["serverTime"] = 1620768257,
-					["timestamp"] = 193265.97,
-					["g"] = 1,
-					["r"] = 1,
+					["message"] = "0 days, 0 hours, 1 minutes, 7 seconds",
+					["timestamp"] = 375560.022,
 				}, -- [2]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:27:07]|h|r You have been disconnected from Blizzard services.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 193265.97,
-					["serverTime"] = 1620768427,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 375560.022,
 				}, -- [3]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:31:49]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620768709,
+					["message"] = "|cff979797|Hpratcopy|h[03:01:18]|h|r You have been disconnected from Blizzard services.",
+					["serverTime"] = 1621026077,
 					["r"] = 1,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 193265.97,
+					["timestamp"] = 379159.454,
 					["g"] = 1,
 					["b"] = 0,
 				}, -- [4]
-				{
-					["message"] = "0 days, 19 hours, 51 minutes, 16 seconds",
-					["timestamp"] = 193265.97,
-				}, -- [5]
-				{
-					["message"] = "========== End of Scrollback ==========",
-					["timestamp"] = 193265.97,
-				}, -- [6]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:35:10]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620844509,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 197591.321,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [7]
 			},
 			["maxElements"] = 128,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
@@ -119,7 +83,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame4"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 7,
+			["headIndex"] = 4,
 			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -132,73 +96,37 @@ Prat3HighCPUPerCharDB = {
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
 				{
-					["message"] = "|cff979797|Hpratcopy|h[01:58:49]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620763129,
+					["message"] = "|cff979797|Hpratcopy|h[02:00:12]|h|r You have been disconnected from Blizzard services.",
+					["b"] = 0,
 					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 375560.022,
+					["serverTime"] = 1621022411,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 193265.97,
-					["g"] = 1,
-					["b"] = 0,
 				}, -- [1]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:24:17]|h|r You have been disconnected from Blizzard services.",
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["b"] = 0,
-					["serverTime"] = 1620768257,
-					["timestamp"] = 193265.97,
-					["g"] = 1,
-					["r"] = 1,
+					["message"] = "0 days, 0 hours, 1 minutes, 7 seconds",
+					["timestamp"] = 375560.022,
 				}, -- [2]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:27:07]|h|r You have been disconnected from Blizzard services.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 193265.97,
-					["serverTime"] = 1620768427,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 375560.022,
 				}, -- [3]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:31:49]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620768709,
+					["message"] = "|cff979797|Hpratcopy|h[03:01:18]|h|r You have been disconnected from Blizzard services.",
+					["serverTime"] = 1621026077,
 					["r"] = 1,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 193265.97,
+					["timestamp"] = 379159.454,
 					["g"] = 1,
 					["b"] = 0,
 				}, -- [4]
-				{
-					["message"] = "0 days, 19 hours, 51 minutes, 16 seconds",
-					["timestamp"] = 193265.97,
-				}, -- [5]
-				{
-					["message"] = "========== End of Scrollback ==========",
-					["timestamp"] = 193265.97,
-				}, -- [6]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:35:10]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620844509,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 197591.321,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [7]
 			},
 			["maxElements"] = 128,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
@@ -209,7 +137,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame3"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 7,
+			["headIndex"] = 4,
 			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -222,73 +150,37 @@ Prat3HighCPUPerCharDB = {
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
 				{
-					["message"] = "|cff979797|Hpratcopy|h[01:58:49]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620763129,
+					["message"] = "|cff979797|Hpratcopy|h[02:00:12]|h|r You have been disconnected from Blizzard services.",
+					["b"] = 0,
 					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 375560.022,
+					["serverTime"] = 1621022411,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 193265.97,
-					["g"] = 1,
-					["b"] = 0,
 				}, -- [1]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:24:17]|h|r You have been disconnected from Blizzard services.",
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["b"] = 0,
-					["serverTime"] = 1620768257,
-					["timestamp"] = 193265.97,
-					["g"] = 1,
-					["r"] = 1,
+					["message"] = "0 days, 0 hours, 1 minutes, 7 seconds",
+					["timestamp"] = 375560.022,
 				}, -- [2]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:27:07]|h|r You have been disconnected from Blizzard services.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 193265.97,
-					["serverTime"] = 1620768427,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 375560.022,
 				}, -- [3]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:31:49]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620768709,
+					["message"] = "|cff979797|Hpratcopy|h[03:01:18]|h|r You have been disconnected from Blizzard services.",
+					["serverTime"] = 1621026077,
 					["r"] = 1,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 193265.97,
+					["timestamp"] = 379159.454,
 					["g"] = 1,
 					["b"] = 0,
 				}, -- [4]
-				{
-					["message"] = "0 days, 19 hours, 51 minutes, 16 seconds",
-					["timestamp"] = 193265.97,
-				}, -- [5]
-				{
-					["message"] = "========== End of Scrollback ==========",
-					["timestamp"] = 193265.97,
-				}, -- [6]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:35:10]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620844509,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 197591.321,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [7]
 			},
 			["maxElements"] = 128,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
@@ -299,7 +191,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame7"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 7,
+			["headIndex"] = 4,
 			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -312,73 +204,37 @@ Prat3HighCPUPerCharDB = {
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
 				{
-					["message"] = "|cff979797|Hpratcopy|h[01:58:49]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620763129,
+					["message"] = "|cff979797|Hpratcopy|h[02:00:12]|h|r You have been disconnected from Blizzard services.",
+					["b"] = 0,
 					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 375560.022,
+					["serverTime"] = 1621022411,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 193265.97,
-					["g"] = 1,
-					["b"] = 0,
 				}, -- [1]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:24:17]|h|r You have been disconnected from Blizzard services.",
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["b"] = 0,
-					["serverTime"] = 1620768257,
-					["timestamp"] = 193265.97,
-					["g"] = 1,
-					["r"] = 1,
+					["message"] = "0 days, 0 hours, 1 minutes, 7 seconds",
+					["timestamp"] = 375560.022,
 				}, -- [2]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:27:07]|h|r You have been disconnected from Blizzard services.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 193265.97,
-					["serverTime"] = 1620768427,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 375560.022,
 				}, -- [3]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:31:49]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620768709,
+					["message"] = "|cff979797|Hpratcopy|h[03:01:18]|h|r You have been disconnected from Blizzard services.",
+					["serverTime"] = 1621026077,
 					["r"] = 1,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 193265.97,
+					["timestamp"] = 379159.454,
 					["g"] = 1,
 					["b"] = 0,
 				}, -- [4]
-				{
-					["message"] = "0 days, 19 hours, 51 minutes, 16 seconds",
-					["timestamp"] = 193265.97,
-				}, -- [5]
-				{
-					["message"] = "========== End of Scrollback ==========",
-					["timestamp"] = 193265.97,
-				}, -- [6]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:35:10]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620844509,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 197591.321,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [7]
 			},
 			["maxElements"] = 128,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
@@ -389,7 +245,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame6"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 7,
+			["headIndex"] = 4,
 			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -402,73 +258,37 @@ Prat3HighCPUPerCharDB = {
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
 				{
-					["message"] = "|cff979797|Hpratcopy|h[01:58:49]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620763129,
+					["message"] = "|cff979797|Hpratcopy|h[02:00:12]|h|r You have been disconnected from Blizzard services.",
+					["b"] = 0,
 					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 375560.022,
+					["serverTime"] = 1621022411,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 193265.97,
-					["g"] = 1,
-					["b"] = 0,
 				}, -- [1]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:24:17]|h|r You have been disconnected from Blizzard services.",
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["b"] = 0,
-					["serverTime"] = 1620768257,
-					["timestamp"] = 193265.97,
-					["g"] = 1,
-					["r"] = 1,
+					["message"] = "0 days, 0 hours, 1 minutes, 7 seconds",
+					["timestamp"] = 375560.022,
 				}, -- [2]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:27:07]|h|r You have been disconnected from Blizzard services.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 193265.97,
-					["serverTime"] = 1620768427,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 375560.022,
 				}, -- [3]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:31:49]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620768709,
+					["message"] = "|cff979797|Hpratcopy|h[03:01:18]|h|r You have been disconnected from Blizzard services.",
+					["serverTime"] = 1621026077,
 					["r"] = 1,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 193265.97,
+					["timestamp"] = 379159.454,
 					["g"] = 1,
 					["b"] = 0,
 				}, -- [4]
-				{
-					["message"] = "0 days, 19 hours, 51 minutes, 16 seconds",
-					["timestamp"] = 193265.97,
-				}, -- [5]
-				{
-					["message"] = "========== End of Scrollback ==========",
-					["timestamp"] = 193265.97,
-				}, -- [6]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:35:10]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620844509,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 197591.321,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [7]
 			},
 			["maxElements"] = 128,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
@@ -479,7 +299,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame8"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 7,
+			["headIndex"] = 4,
 			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -492,73 +312,37 @@ Prat3HighCPUPerCharDB = {
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
 				{
-					["message"] = "|cff979797|Hpratcopy|h[01:58:49]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620763129,
+					["message"] = "|cff979797|Hpratcopy|h[02:00:12]|h|r You have been disconnected from Blizzard services.",
+					["b"] = 0,
 					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 375560.022,
+					["serverTime"] = 1621022411,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 193265.97,
-					["g"] = 1,
-					["b"] = 0,
 				}, -- [1]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:24:17]|h|r You have been disconnected from Blizzard services.",
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["b"] = 0,
-					["serverTime"] = 1620768257,
-					["timestamp"] = 193265.97,
-					["g"] = 1,
-					["r"] = 1,
+					["message"] = "0 days, 0 hours, 1 minutes, 7 seconds",
+					["timestamp"] = 375560.022,
 				}, -- [2]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:27:07]|h|r You have been disconnected from Blizzard services.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 193265.97,
-					["serverTime"] = 1620768427,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 375560.022,
 				}, -- [3]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:31:49]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620768709,
+					["message"] = "|cff979797|Hpratcopy|h[03:01:18]|h|r You have been disconnected from Blizzard services.",
+					["serverTime"] = 1621026077,
 					["r"] = 1,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 193265.97,
+					["timestamp"] = 379159.454,
 					["g"] = 1,
 					["b"] = 0,
 				}, -- [4]
-				{
-					["message"] = "0 days, 19 hours, 51 minutes, 16 seconds",
-					["timestamp"] = 193265.97,
-				}, -- [5]
-				{
-					["message"] = "========== End of Scrollback ==========",
-					["timestamp"] = 193265.97,
-				}, -- [6]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:35:10]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620844509,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 197591.321,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [7]
 			},
 			["maxElements"] = 128,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
@@ -569,7 +353,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame10"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 7,
+			["headIndex"] = 4,
 			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -582,73 +366,37 @@ Prat3HighCPUPerCharDB = {
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
 				{
-					["message"] = "|cff979797|Hpratcopy|h[01:58:49]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620763129,
+					["message"] = "|cff979797|Hpratcopy|h[02:00:12]|h|r You have been disconnected from Blizzard services.",
+					["b"] = 0,
 					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 375560.022,
+					["serverTime"] = 1621022411,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 193265.97,
-					["g"] = 1,
-					["b"] = 0,
 				}, -- [1]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:24:17]|h|r You have been disconnected from Blizzard services.",
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["b"] = 0,
-					["serverTime"] = 1620768257,
-					["timestamp"] = 193265.97,
-					["g"] = 1,
-					["r"] = 1,
+					["message"] = "0 days, 0 hours, 1 minutes, 7 seconds",
+					["timestamp"] = 375560.022,
 				}, -- [2]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:27:07]|h|r You have been disconnected from Blizzard services.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 193265.97,
-					["serverTime"] = 1620768427,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 375560.022,
 				}, -- [3]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:31:49]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620768709,
+					["message"] = "|cff979797|Hpratcopy|h[03:01:18]|h|r You have been disconnected from Blizzard services.",
+					["serverTime"] = 1621026077,
 					["r"] = 1,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 193265.97,
+					["timestamp"] = 379159.454,
 					["g"] = 1,
 					["b"] = 0,
 				}, -- [4]
-				{
-					["message"] = "0 days, 19 hours, 51 minutes, 16 seconds",
-					["timestamp"] = 193265.97,
-				}, -- [5]
-				{
-					["message"] = "========== End of Scrollback ==========",
-					["timestamp"] = 193265.97,
-				}, -- [6]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:35:10]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620844509,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 197591.321,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [7]
 			},
 			["maxElements"] = 128,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
@@ -659,7 +407,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame9"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 7,
+			["headIndex"] = 4,
 			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -672,73 +420,37 @@ Prat3HighCPUPerCharDB = {
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
 				{
-					["message"] = "|cff979797|Hpratcopy|h[01:58:49]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620763129,
+					["message"] = "|cff979797|Hpratcopy|h[02:00:12]|h|r You have been disconnected from Blizzard services.",
+					["b"] = 0,
 					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 375560.022,
+					["serverTime"] = 1621022411,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 193265.97,
-					["g"] = 1,
-					["b"] = 0,
 				}, -- [1]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:24:17]|h|r You have been disconnected from Blizzard services.",
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["b"] = 0,
-					["serverTime"] = 1620768257,
-					["timestamp"] = 193265.97,
-					["g"] = 1,
-					["r"] = 1,
+					["message"] = "0 days, 0 hours, 1 minutes, 7 seconds",
+					["timestamp"] = 375560.022,
 				}, -- [2]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:27:07]|h|r You have been disconnected from Blizzard services.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 193265.97,
-					["serverTime"] = 1620768427,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 375560.022,
 				}, -- [3]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:31:49]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620768709,
+					["message"] = "|cff979797|Hpratcopy|h[03:01:18]|h|r You have been disconnected from Blizzard services.",
+					["serverTime"] = 1621026077,
 					["r"] = 1,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 193265.97,
+					["timestamp"] = 379159.454,
 					["g"] = 1,
 					["b"] = 0,
 				}, -- [4]
-				{
-					["message"] = "0 days, 19 hours, 51 minutes, 16 seconds",
-					["timestamp"] = 193265.97,
-				}, -- [5]
-				{
-					["message"] = "========== End of Scrollback ==========",
-					["timestamp"] = 193265.97,
-				}, -- [6]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:35:10]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620844509,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 197591.321,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [7]
 			},
 			["maxElements"] = 128,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
@@ -749,7 +461,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame1"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 126,
+			["headIndex"] = 54,
 			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -762,671 +474,671 @@ Prat3HighCPUPerCharDB = {
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
 				{
-					["message"] = "|cff979797|Hpratcopy|h[23:58:25]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 195386.281,
-					["serverTime"] = 1620842305,
+					["message"] = "|cff979797|Hpratcopy|h[02:43:21]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378081.93,
+					["serverTime"] = 1621025000,
 				}, -- [1]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[23:58:53]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 195414.68,
-					["serverTime"] = 1620842333,
+					["message"] = "|cff979797|Hpratcopy|h[02:43:49]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378110.425,
+					["serverTime"] = 1621025028,
 				}, -- [2]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[23:59:23]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 195444.298,
-					["serverTime"] = 1620842363,
+					["message"] = "|cff979797|Hpratcopy|h[02:44:15]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378136.293,
+					["serverTime"] = 1621025054,
 				}, -- [3]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[23:59:51]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:13754::::::::20:::::::|h[Raw Glossy Mightfish]|h|r.",
-					["timestamp"] = 195472.619,
-					["serverTime"] = 1620842391,
+					["message"] = "|cff979797|Hpratcopy|h[02:44:34]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378155.156,
+					["serverTime"] = 1621025073,
 				}, -- [4]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:00:01]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 195482.291,
-					["serverTime"] = 1620842401,
+					["message"] = "|cff979797|Hpratcopy|h[02:45:04]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378185.098,
+					["serverTime"] = 1621025103,
 				}, -- [5]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:00:22]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:13754::::::::20:::::::|h[Raw Glossy Mightfish]|h|r.",
-					["timestamp"] = 195503.596,
-					["serverTime"] = 1620842422,
+					["message"] = "|cff979797|Hpratcopy|h[02:45:16]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378197.787,
+					["serverTime"] = 1621025115,
 				}, -- [6]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:00:44]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 195525.836,
-					["serverTime"] = 1620842443,
+					["message"] = "|cff979797|Hpratcopy|h[02:45:43]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378224.245,
+					["serverTime"] = 1621025142,
 				}, -- [7]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:01:11]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:13754::::::::20:::::::|h[Raw Glossy Mightfish]|h|r.",
-					["timestamp"] = 195552.401,
-					["serverTime"] = 1620842470,
+					["message"] = "|cff979797|Hpratcopy|h[02:46:10]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378251.245,
+					["serverTime"] = 1621025169,
 				}, -- [8]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:01:28]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 195569.512,
-					["serverTime"] = 1620842487,
+					["message"] = "|cff979797|Hpratcopy|h[02:46:37]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378278.909,
+					["serverTime"] = 1621025196,
 				}, -- [9]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:01:46]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:7974::::::::20:::::::|h[Zesty Clam Meat]|h|r.",
-					["timestamp"] = 195587.63,
-					["serverTime"] = 1620842505,
+					["message"] = "|cff979797|Hpratcopy|h[02:47:02]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378303.29,
+					["serverTime"] = 1621025221,
 				}, -- [10]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:01:46]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:13756::::::::20:::::::|h[Raw Summer Bass]|h|r.",
-					["timestamp"] = 195587.63,
-					["serverTime"] = 1620842505,
+					["message"] = "|cff979797|Hpratcopy|h[02:47:18]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378319.292,
+					["serverTime"] = 1621025237,
 				}, -- [11]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:02:07]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 195608.289,
-					["serverTime"] = 1620842526,
+					["message"] = "|cff979797|Hpratcopy|h[02:47:48]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378349.491,
+					["serverTime"] = 1621025267,
 				}, -- [12]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:02:25]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 195626.068,
-					["serverTime"] = 1620842544,
+					["message"] = "|cff979797|Hpratcopy|h[02:48:05]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378366.691,
+					["serverTime"] = 1621025284,
 				}, -- [13]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:02:36]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:7974::::::::20:::::::|h[Zesty Clam Meat]|h|r.",
-					["timestamp"] = 195637.046,
-					["serverTime"] = 1620842555,
+					["message"] = "|cff979797|Hpratcopy|h[02:48:19]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378380.503,
+					["serverTime"] = 1621025298,
 				}, -- [14]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:02:36]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:13754::::::::20:::::::|h[Raw Glossy Mightfish]|h|r.",
-					["timestamp"] = 195637.046,
-					["serverTime"] = 1620842555,
+					["message"] = "|cff979797|Hpratcopy|h[02:48:42]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378402.982,
+					["serverTime"] = 1621025321,
 				}, -- [15]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:02:48]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 195649.569,
-					["serverTime"] = 1620842567,
+					["message"] = "|cff979797|Hpratcopy|h[02:48:56]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378417.63,
+					["serverTime"] = 1621025335,
 				}, -- [16]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:02:57]|h|r |Hplayer:Lucibalykk:0:TEXT_EMOTE:|h|cffaad372Lucibalykk|r|h lies down.",
-					["serverTime"] = 1620842576,
-					["r"] = 1,
-					["extraData"] = {
-						12, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 195658.077,
-					["g"] = 0.501960813999176,
-					["b"] = 0.250980406999588,
+					["message"] = "|cff979797|Hpratcopy|h[02:49:15]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378435.999,
+					["serverTime"] = 1621025354,
 				}, -- [17]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:03:13]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6362::::::::20:::::::|h[Raw Rockscale Cod]|h|r.",
-					["timestamp"] = 195674.743,
-					["serverTime"] = 1620842592,
+					["message"] = "|cff979797|Hpratcopy|h[02:49:35]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378456.366,
+					["serverTime"] = 1621025374,
 				}, -- [18]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:03:40]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 195701.821,
-					["serverTime"] = 1620842619,
+					["message"] = "|cff979797|Hpratcopy|h[02:49:54]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378475.324,
+					["serverTime"] = 1621025393,
 				}, -- [19]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:04:06]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 195727.784,
-					["serverTime"] = 1620842646,
+					["message"] = "|cff979797|Hpratcopy|h[02:50:24]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378505.396,
+					["serverTime"] = 1621025423,
 				}, -- [20]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:04:20]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 195741.818,
-					["serverTime"] = 1620842660,
+					["message"] = "|cff979797|Hpratcopy|h[02:50:43]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378524.824,
+					["serverTime"] = 1621025442,
 				}, -- [21]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:04:52]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 195773.493,
-					["serverTime"] = 1620842692,
+					["message"] = "|cff979797|Hpratcopy|h[02:50:54]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378535.782,
+					["serverTime"] = 1621025453,
 				}, -- [22]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:05:15]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:13754::::::::20:::::::|h[Raw Glossy Mightfish]|h|r.",
-					["timestamp"] = 195796.606,
-					["serverTime"] = 1620842715,
+					["message"] = "|cff979797|Hpratcopy|h[02:51:24]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378565.795,
+					["serverTime"] = 1621025483,
 				}, -- [23]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:05:51]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 195832.856,
-					["serverTime"] = 1620842751,
+					["message"] = "|cff979797|Hpratcopy|h[02:51:47]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378588.846,
+					["serverTime"] = 1621025506,
 				}, -- [24]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:06:11]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 195852.449,
-					["serverTime"] = 1620842771,
+					["message"] = "|cff979797|Hpratcopy|h[02:52:01]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378602.336,
+					["serverTime"] = 1621025520,
 				}, -- [25]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:06:22]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:13754::::::::20:::::::|h[Raw Glossy Mightfish]|h|r.",
-					["timestamp"] = 195863.326,
-					["serverTime"] = 1620842782,
+					["message"] = "|cff979797|Hpratcopy|h[02:52:27]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378628.227,
+					["serverTime"] = 1621025546,
 				}, -- [26]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:06:41]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:13756::::::::20:::::::|h[Raw Summer Bass]|h|r.",
-					["timestamp"] = 195882.334,
-					["serverTime"] = 1620842801,
+					["message"] = "|cff979797|Hpratcopy|h[02:52:39]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378640.123,
+					["serverTime"] = 1621025558,
 				}, -- [27]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:07:04]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 195905.004,
-					["serverTime"] = 1620842823,
+					["message"] = "|cff979797|Hpratcopy|h[02:53:07]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378668.907,
+					["serverTime"] = 1621025586,
 				}, -- [28]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:07:25]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 195926.616,
-					["serverTime"] = 1620842844,
+					["message"] = "|cff979797|Hpratcopy|h[02:53:23]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378684.059,
+					["serverTime"] = 1621025602,
 				}, -- [29]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:07:47]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:7974::::::::20:::::::|h[Zesty Clam Meat]|h|r.",
-					["timestamp"] = 195948.713,
-					["serverTime"] = 1620842866,
+					["message"] = "|cff979797|Hpratcopy|h[02:53:39]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378700.434,
+					["serverTime"] = 1621025618,
 				}, -- [30]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:07:48]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6362::::::::20:::::::|h[Raw Rockscale Cod]|h|r.",
-					["timestamp"] = 195949.113,
-					["serverTime"] = 1620842867,
+					["message"] = "|cff979797|Hpratcopy|h[02:53:59]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378720.362,
+					["serverTime"] = 1621025638,
 				}, -- [31]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:08:16]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 195977.048,
-					["serverTime"] = 1620842896,
+					["message"] = "|cff979797|Hpratcopy|h[02:54:11]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378731.917,
+					["serverTime"] = 1621025650,
 				}, -- [32]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:08:31]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 195992.868,
-					["serverTime"] = 1620842911,
+					["message"] = "|cff979797|Hpratcopy|h[02:54:28]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378749.024,
+					["serverTime"] = 1621025667,
 				}, -- [33]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:08:44]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 196005.766,
-					["serverTime"] = 1620842924,
+					["message"] = "|cff979797|Hpratcopy|h[02:54:58]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378779.197,
+					["serverTime"] = 1621025697,
 				}, -- [34]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:09:08]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:7974::::::::20:::::::|h[Zesty Clam Meat]|h|r.",
-					["timestamp"] = 196029.28,
-					["serverTime"] = 1620842948,
+					["message"] = "|cff979797|Hpratcopy|h[02:55:13]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378794.691,
+					["serverTime"] = 1621025712,
 				}, -- [35]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:09:08]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:13756::::::::20:::::::|h[Raw Summer Bass]|h|r.",
-					["timestamp"] = 196029.28,
-					["serverTime"] = 1620842948,
+					["message"] = "|cff979797|Hpratcopy|h[02:55:27]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378808.138,
+					["serverTime"] = 1621025726,
 				}, -- [36]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:09:18]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 196039.416,
-					["serverTime"] = 1620842958,
+					["message"] = "|cff979797|Hpratcopy|h[02:55:51]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378832.303,
+					["serverTime"] = 1621025750,
 				}, -- [37]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:09:34]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 196055.568,
-					["serverTime"] = 1620842974,
+					["message"] = "|cff979797|Hpratcopy|h[02:56:07]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378848.545,
+					["serverTime"] = 1621025766,
 				}, -- [38]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:09:50]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 196071.722,
-					["serverTime"] = 1620842990,
+					["message"] = "|cff979797|Hpratcopy|h[02:56:24]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378865.678,
+					["serverTime"] = 1621025783,
 				}, -- [39]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:10:02]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:13756::::::::20:::::::|h[Raw Summer Bass]|h|r.",
-					["timestamp"] = 196083.429,
-					["serverTime"] = 1620843002,
+					["message"] = "|cff979797|Hpratcopy|h[02:56:49]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378890.698,
+					["serverTime"] = 1621025808,
 				}, -- [40]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:10:14]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:13754::::::::20:::::::|h[Raw Glossy Mightfish]|h|r.",
-					["timestamp"] = 196095.599,
-					["serverTime"] = 1620843014,
+					["message"] = "|cff979797|Hpratcopy|h[02:57:04]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378905.667,
+					["serverTime"] = 1621025823,
 				}, -- [41]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:10:35]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 196116.672,
-					["serverTime"] = 1620843035,
+					["message"] = "|cff979797|Hpratcopy|h[02:57:30]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378931.062,
+					["serverTime"] = 1621025849,
 				}, -- [42]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:10:43]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:13756::::::::20:::::::|h[Raw Summer Bass]|h|r.",
-					["timestamp"] = 196124.767,
-					["serverTime"] = 1620843043,
+					["message"] = "|cff979797|Hpratcopy|h[02:57:55]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378956.603,
+					["serverTime"] = 1621025874,
 				}, -- [43]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:10:55]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 196136.411,
-					["serverTime"] = 1620843055,
+					["message"] = "|cff979797|Hpratcopy|h[02:58:20]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378981.31,
+					["serverTime"] = 1621025899,
 				}, -- [44]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:11:21]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 196162.445,
-					["serverTime"] = 1620843081,
+					["message"] = "|cff979797|Hpratcopy|h[02:58:37]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378997.933,
+					["serverTime"] = 1621025916,
 				}, -- [45]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:11:44]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 196185.866,
-					["serverTime"] = 1620843104,
+					["message"] = "|cff979797|Hpratcopy|h[02:58:49]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 379010.887,
+					["serverTime"] = 1621025928,
 				}, -- [46]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:11:56]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 196197.533,
-					["serverTime"] = 1620843116,
+					["message"] = "|cff979797|Hpratcopy|h[02:59:12]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 379033.267,
+					["serverTime"] = 1621025951,
 				}, -- [47]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:12:18]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 196219.897,
-					["serverTime"] = 1620843138,
+					["message"] = "|cff979797|Hpratcopy|h[02:59:20]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 379041.442,
+					["serverTime"] = 1621025959,
 				}, -- [48]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:12:34]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:13754::::::::20:::::::|h[Raw Glossy Mightfish]|h|r.",
-					["timestamp"] = 196235.163,
-					["serverTime"] = 1620843154,
+					["message"] = "|cff979797|Hpratcopy|h[02:59:50]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 379071.494,
+					["serverTime"] = 1621025989,
 				}, -- [49]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:12:46]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:13756::::::::20:::::::|h[Raw Summer Bass]|h|r.",
-					["timestamp"] = 196247.318,
-					["serverTime"] = 1620843166,
+					["message"] = "|cff979797|Hpratcopy|h[03:00:01]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 379082.08,
+					["serverTime"] = 1621026000,
 				}, -- [50]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:13:07]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:13756::::::::20:::::::|h[Raw Summer Bass]|h|r.",
-					["timestamp"] = 196268.283,
-					["serverTime"] = 1620843187,
+					["message"] = "|cff979797|Hpratcopy|h[03:00:25]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 379106.237,
+					["serverTime"] = 1621026024,
 				}, -- [51]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:13:35]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 196296.121,
-					["serverTime"] = 1620843215,
+					["message"] = "|cff979797|Hpratcopy|h[03:00:53]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 379134.539,
+					["serverTime"] = 1621026052,
 				}, -- [52]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:13:50]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 196311.805,
-					["serverTime"] = 1620843230,
+					["message"] = "|cff979797|Hpratcopy|h[03:01:03]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 379144.826,
+					["serverTime"] = 1621026062,
 				}, -- [53]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:14:07]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 196328.437,
-					["serverTime"] = 1620843247,
-				}, -- [54]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:14:28]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 196349.494,
-					["serverTime"] = 1620843267,
-				}, -- [55]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:14:41]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:13756::::::::20:::::::|h[Raw Summer Bass]|h|r.",
-					["timestamp"] = 196361.983,
-					["serverTime"] = 1620843280,
-				}, -- [56]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:14:54]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6362::::::::20:::::::|h[Raw Rockscale Cod]|h|r.",
-					["timestamp"] = 196375.347,
-					["serverTime"] = 1620843293,
-				}, -- [57]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:15:02]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:13875::::::::20:::::::|h[Ironbound Locked Chest]|h|r.",
-					["timestamp"] = 196383.417,
-					["serverTime"] = 1620843301,
-				}, -- [58]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:15:30]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 196411.1,
-					["serverTime"] = 1620843329,
-				}, -- [59]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:15:48]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 196429.564,
-					["serverTime"] = 1620843348,
-				}, -- [60]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:15:59]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 196440.305,
-					["serverTime"] = 1620843359,
-				}, -- [61]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:16:21]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 196462.297,
-					["serverTime"] = 1620843381,
-				}, -- [62]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:16:48]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6362::::::::20:::::::|h[Raw Rockscale Cod]|h|r.",
-					["timestamp"] = 196489.4,
-					["serverTime"] = 1620843408,
-				}, -- [63]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:17:10]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 196511.602,
-					["serverTime"] = 1620843430,
-				}, -- [64]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:17:28]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:13756::::::::20:::::::|h[Raw Summer Bass]|h|r.",
-					["timestamp"] = 196529.763,
-					["serverTime"] = 1620843448,
-				}, -- [65]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:17:40]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 196541.861,
-					["serverTime"] = 1620843460,
-				}, -- [66]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:17:55]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 196556.383,
-					["serverTime"] = 1620843475,
-				}, -- [67]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:18:18]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:7974::::::::20:::::::|h[Zesty Clam Meat]|h|r.",
-					["timestamp"] = 196579.456,
-					["serverTime"] = 1620843498,
-				}, -- [68]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:18:42]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6362::::::::20:::::::|h[Raw Rockscale Cod]|h|r.",
-					["timestamp"] = 196602.931,
-					["serverTime"] = 1620843522,
-				}, -- [69]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:19:09]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 196630.442,
-					["serverTime"] = 1620843548,
-				}, -- [70]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:19:30]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 196651.643,
-					["serverTime"] = 1620843569,
-				}, -- [71]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:19:58]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 196679.163,
-					["serverTime"] = 1620843597,
-				}, -- [72]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:20:22]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 196703.574,
-					["serverTime"] = 1620843621,
-				}, -- [73]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:20:37]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 196718.129,
-					["serverTime"] = 1620843636,
-				}, -- [74]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:20:53]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 196734.241,
-					["serverTime"] = 1620843652,
-				}, -- [75]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:21:15]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 196756.12,
-					["serverTime"] = 1620843674,
-				}, -- [76]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:21:21]|h|r |Hplayer:Lucibalykk:0:TEXT_EMOTE:|h|cffaad372Lucibalykk|r|h lies down.",
-					["serverTime"] = 1620843680,
-					["r"] = 1,
-					["extraData"] = {
-						12, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 196762.692,
-					["g"] = 0.501960813999176,
-					["b"] = 0.250980406999588,
-				}, -- [77]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:21:38]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 196779.573,
-					["serverTime"] = 1620843697,
-				}, -- [78]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:21:51]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:7974::::::::20:::::::|h[Zesty Clam Meat]|h|r.",
-					["timestamp"] = 196792.846,
-					["serverTime"] = 1620843711,
-				}, -- [79]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:22:00]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:7974::::::::20:::::::|h[Zesty Clam Meat]|h|r.",
-					["timestamp"] = 196801.764,
-					["serverTime"] = 1620843720,
-				}, -- [80]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:22:00]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 196801.764,
-					["serverTime"] = 1620843720,
-				}, -- [81]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:22:27]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 196828.085,
-					["serverTime"] = 1620843747,
-				}, -- [82]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:23:06]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 196867.273,
-					["serverTime"] = 1620843786,
-				}, -- [83]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:23:25]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 196886.123,
-					["serverTime"] = 1620843805,
-				}, -- [84]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:23:39]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:7974::::::::20:::::::|h[Zesty Clam Meat]|h|r.",
-					["timestamp"] = 196899.953,
-					["serverTime"] = 1620843819,
-				}, -- [85]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:23:39]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 196899.953,
-					["serverTime"] = 1620843819,
-				}, -- [86]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:23:52]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 196913.795,
-					["serverTime"] = 1620843832,
-				}, -- [87]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:24:16]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 196937.186,
-					["serverTime"] = 1620843856,
-				}, -- [88]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:24:44]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 196965.433,
-					["serverTime"] = 1620843883,
-				}, -- [89]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:25:02]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:7974::::::::20:::::::|h[Zesty Clam Meat]|h|r.",
-					["timestamp"] = 196983.379,
-					["serverTime"] = 1620843901,
-				}, -- [90]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:25:02]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 196983.379,
-					["serverTime"] = 1620843901,
-				}, -- [91]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:25:11]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 196992.276,
-					["serverTime"] = 1620843910,
-				}, -- [92]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:25:23]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 197004.35,
-					["serverTime"] = 1620843922,
-				}, -- [93]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:25:44]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 197025.739,
-					["serverTime"] = 1620843943,
-				}, -- [94]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:26:14]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 197055.775,
-					["serverTime"] = 1620843973,
-				}, -- [95]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:26:26]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:13754::::::::20:::::::|h[Raw Glossy Mightfish]|h|r.",
-					["timestamp"] = 197067.819,
-					["serverTime"] = 1620843985,
-				}, -- [96]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:26:38]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 197079.73,
-					["serverTime"] = 1620843997,
-				}, -- [97]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:26:51]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:7974::::::::20:::::::|h[Zesty Clam Meat]|h|r.",
-					["timestamp"] = 197092.476,
-					["serverTime"] = 1620844010,
-				}, -- [98]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:26:51]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6362::::::::20:::::::|h[Raw Rockscale Cod]|h|r.",
-					["timestamp"] = 197092.476,
-					["serverTime"] = 1620844010,
-				}, -- [99]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:27:19]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 197119.997,
-					["serverTime"] = 1620844038,
-				}, -- [100]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:27:32]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 197133.736,
-					["serverTime"] = 1620844051,
-				}, -- [101]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:27:59]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6362::::::::20:::::::|h[Raw Rockscale Cod]|h|r.",
-					["timestamp"] = 197160.833,
-					["serverTime"] = 1620844078,
-				}, -- [102]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:28:26]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:13756::::::::20:::::::|h[Raw Summer Bass]|h|r.",
-					["timestamp"] = 197187.136,
-					["serverTime"] = 1620844105,
-				}, -- [103]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:28:36]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:13754::::::::20:::::::|h[Raw Glossy Mightfish]|h|r.",
-					["timestamp"] = 197197.695,
-					["serverTime"] = 1620844115,
-				}, -- [104]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:28:47]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:13754::::::::20:::::::|h[Raw Glossy Mightfish]|h|r.",
-					["timestamp"] = 197208.606,
-					["serverTime"] = 1620844126,
-				}, -- [105]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:29:11]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:13756::::::::20:::::::|h[Raw Summer Bass]|h|r.",
-					["timestamp"] = 197232.884,
-					["serverTime"] = 1620844150,
-				}, -- [106]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:29:32]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 197253.049,
-					["serverTime"] = 1620844171,
-				}, -- [107]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:29:48]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 197269.281,
-					["serverTime"] = 1620844187,
-				}, -- [108]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:29:56]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:13756::::::::20:::::::|h[Raw Summer Bass]|h|r.",
-					["timestamp"] = 197277.41,
-					["serverTime"] = 1620844195,
-				}, -- [109]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:30:08]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6362::::::::20:::::::|h[Raw Rockscale Cod]|h|r.",
-					["timestamp"] = 197289.149,
-					["serverTime"] = 1620844207,
-				}, -- [110]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:30:32]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6362::::::::20:::::::|h[Raw Rockscale Cod]|h|r.",
-					["timestamp"] = 197313.844,
-					["serverTime"] = 1620844231,
-				}, -- [111]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:30:52]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:13756::::::::20:::::::|h[Raw Summer Bass]|h|r.",
-					["timestamp"] = 197332.927,
-					["serverTime"] = 1620844252,
-				}, -- [112]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:31:05]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 197346.738,
-					["serverTime"] = 1620844265,
-				}, -- [113]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:31:32]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:13754::::::::20:::::::|h[Raw Glossy Mightfish]|h|r.",
-					["timestamp"] = 197373.022,
-					["serverTime"] = 1620844292,
-				}, -- [114]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:31:44]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 197385.096,
-					["serverTime"] = 1620844304,
-				}, -- [115]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:31:57]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 197398.31,
-					["serverTime"] = 1620844317,
-				}, -- [116]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:32:16]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 197417.177,
-					["serverTime"] = 1620844335,
-				}, -- [117]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:32:39]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 197440.057,
-					["serverTime"] = 1620844358,
-				}, -- [118]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:32:54]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 197455.555,
-					["serverTime"] = 1620844373,
-				}, -- [119]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:33:20]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 197481.828,
-					["serverTime"] = 1620844399,
-				}, -- [120]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:33:57]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 197518.675,
-					["serverTime"] = 1620844436,
-				}, -- [121]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:34:08]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 197529.583,
-					["serverTime"] = 1620844447,
-				}, -- [122]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:34:33]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:13754::::::::20:::::::|h[Raw Glossy Mightfish]|h|r.",
-					["timestamp"] = 197554.219,
-					["serverTime"] = 1620844472,
-				}, -- [123]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:34:44]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 197565.13,
-					["serverTime"] = 1620844483,
-				}, -- [124]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:35:06]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:4603::::::::20:::::::|h[Raw Spotted Yellowtail]|h|r.",
-					["timestamp"] = 197587.771,
-					["serverTime"] = 1620844505,
-				}, -- [125]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:35:10]|h|r You have been disconnected from Blizzard services.",
-					["serverTime"] = 1620844509,
+					["message"] = "|cff979797|Hpratcopy|h[03:01:18]|h|r You have been disconnected from Blizzard services.",
+					["serverTime"] = 1621026077,
 					["r"] = 1,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 197591.321,
+					["timestamp"] = 379159.454,
 					["g"] = 1,
 					["b"] = 0,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:18:59]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 376620.211,
+					["serverTime"] = 1621023538,
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:19:29]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 376650.23,
+					["serverTime"] = 1621023568,
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:19:43]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 376664.003,
+					["serverTime"] = 1621023582,
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:20:01]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 376682.48,
+					["serverTime"] = 1621023600,
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:20:25]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 376706.69,
+					["serverTime"] = 1621023624,
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:20:47]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 376727.964,
+					["serverTime"] = 1621023646,
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:21:02]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 376743.678,
+					["serverTime"] = 1621023661,
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:21:20]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 376761.67,
+					["serverTime"] = 1621023679,
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:21:36]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 376777.779,
+					["serverTime"] = 1621023695,
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:21:48]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 376789.044,
+					["serverTime"] = 1621023707,
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:22:04]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 376805.257,
+					["serverTime"] = 1621023723,
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:22:22]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 376823.576,
+					["serverTime"] = 1621023741,
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:22:47]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 376848.32,
+					["serverTime"] = 1621023766,
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:23:07]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 376868.247,
+					["serverTime"] = 1621023786,
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:23:27]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 376888.58,
+					["serverTime"] = 1621023806,
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:23:53]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 376914.633,
+					["serverTime"] = 1621023832,
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:24:24]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 376945.063,
+					["serverTime"] = 1621023863,
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:24:43]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 376964.038,
+					["serverTime"] = 1621023882,
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:25:03]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 376984.135,
+					["serverTime"] = 1621023902,
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:25:19]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377000.59,
+					["serverTime"] = 1621023918,
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:25:30]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377011.416,
+					["serverTime"] = 1621023929,
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:25:58]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377039.172,
+					["serverTime"] = 1621023957,
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:26:28]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377069.197,
+					["serverTime"] = 1621023987,
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:26:39]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377080.257,
+					["serverTime"] = 1621023998,
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:26:59]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377100.567,
+					["serverTime"] = 1621024018,
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:27:26]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377127.46,
+					["serverTime"] = 1621024045,
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:27:37]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377138.093,
+					["serverTime"] = 1621024056,
+				}, -- [81]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:27:49]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377150.247,
+					["serverTime"] = 1621024068,
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:28:14]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377175.276,
+					["serverTime"] = 1621024093,
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:28:35]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377196.632,
+					["serverTime"] = 1621024114,
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:29:05]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377226.696,
+					["serverTime"] = 1621024144,
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:29:30]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377251.423,
+					["serverTime"] = 1621024169,
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:29:43]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377264.744,
+					["serverTime"] = 1621024182,
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:30:00]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377281.026,
+					["serverTime"] = 1621024199,
+				}, -- [88]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:30:14]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377294.917,
+					["serverTime"] = 1621024213,
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:30:27]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377308.431,
+					["serverTime"] = 1621024226,
+				}, -- [90]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:30:57]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377338.452,
+					["serverTime"] = 1621024256,
+				}, -- [91]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:31:25]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377366.236,
+					["serverTime"] = 1621024284,
+				}, -- [92]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:31:33]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377374.439,
+					["serverTime"] = 1621024292,
+				}, -- [93]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:32:01]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377402.498,
+					["serverTime"] = 1621024320,
+				}, -- [94]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:32:11]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377411.994,
+					["serverTime"] = 1621024330,
+				}, -- [95]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:32:41]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377442.407,
+					["serverTime"] = 1621024360,
+				}, -- [96]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:32:59]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377460.194,
+					["serverTime"] = 1621024378,
+				}, -- [97]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:33:10]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377471.755,
+					["serverTime"] = 1621024389,
+				}, -- [98]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:33:31]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377492.877,
+					["serverTime"] = 1621024410,
+				}, -- [99]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:33:45]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377505.959,
+					["serverTime"] = 1621024424,
+				}, -- [100]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:34:15]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377535.976,
+					["serverTime"] = 1621024454,
+				}, -- [101]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:34:23]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377544.693,
+					["serverTime"] = 1621024462,
+				}, -- [102]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:34:46]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377567.068,
+					["serverTime"] = 1621024485,
+				}, -- [103]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:35:11]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377592.339,
+					["serverTime"] = 1621024510,
+				}, -- [104]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:35:29]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377610.693,
+					["serverTime"] = 1621024528,
+				}, -- [105]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:35:59]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377640.712,
+					["serverTime"] = 1621024558,
+				}, -- [106]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:36:10]|h|r Herald of Thrall yells: Honor your heroes! On this day, they have dealt a great blow against one of our most hated enemies! The false Warchief, Rend Blackhand, has fallen!",
+					["serverTime"] = 1621024569,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 377650.974,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [107]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:36:13]|h|r Herald of Thrall yells: Be bathed in the power of the Warchief! Drink in his might! Battle for the glory of the Horde!",
+					["serverTime"] = 1621024572,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 377653.924,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [108]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:36:25]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377666.256,
+					["serverTime"] = 1621024584,
+				}, -- [109]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:36:35]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377676.512,
+					["serverTime"] = 1621024594,
+				}, -- [110]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:36:49]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377690.734,
+					["serverTime"] = 1621024608,
+				}, -- [111]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:37:10]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377711.262,
+					["serverTime"] = 1621024629,
+				}, -- [112]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:37:36]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377736.926,
+					["serverTime"] = 1621024655,
+				}, -- [113]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:37:53]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377754.774,
+					["serverTime"] = 1621024672,
+				}, -- [114]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:38:22]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377783.048,
+					["serverTime"] = 1621024701,
+				}, -- [115]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:38:52]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377813.045,
+					["serverTime"] = 1621024731,
+				}, -- [116]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:39:11]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377832.856,
+					["serverTime"] = 1621024750,
+				}, -- [117]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:39:36]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377857.522,
+					["serverTime"] = 1621024775,
+				}, -- [118]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:39:58]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377879.205,
+					["serverTime"] = 1621024797,
+				}, -- [119]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:40:16]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377897.597,
+					["serverTime"] = 1621024815,
+				}, -- [120]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:40:39]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377920.174,
+					["serverTime"] = 1621024838,
+				}, -- [121]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:40:52]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377933.108,
+					["serverTime"] = 1621024851,
+				}, -- [122]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:41:10]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377950.94,
+					["serverTime"] = 1621024869,
+				}, -- [123]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:41:21]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377962.25,
+					["serverTime"] = 1621024880,
+				}, -- [124]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:41:40]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 377981.749,
+					["serverTime"] = 1621024899,
+				}, -- [125]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:42:11]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378012.115,
+					["serverTime"] = 1621024930,
 				}, -- [126]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[23:58:09]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 195370.077,
-					["serverTime"] = 1620842289,
+					["message"] = "|cff979797|Hpratcopy|h[02:42:24]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378025.761,
+					["serverTime"] = 1621024943,
 				}, -- [127]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[23:58:25]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:7974::::::::20:::::::|h[Zesty Clam Meat]|h|r.",
-					["timestamp"] = 195386.281,
-					["serverTime"] = 1620842305,
+					["message"] = "|cff979797|Hpratcopy|h[02:42:51]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
+					["timestamp"] = 378051.965,
+					["serverTime"] = 1621024970,
 				}, -- [128]
 			},
 			["maxElements"] = 128,

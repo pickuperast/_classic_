@@ -1,49 +1,49 @@
 
 AucAdvancedConfig = {
-	["version"] = 1,
 	["profile.Default"] = {
 		["stat"] = {
 			["sales"] = {
-				["upgraded32"] = true,
 				["ignoredsigs"] = {
 				},
+				["upgraded32"] = true,
 			},
 		},
 		["util"] = {
 			["automagic"] = {
 				["ammailguix"] = 160,
-				["ammailguiy"] = 99.9,
+				["ammailguiy"] = 99.8,
 				["SavedMailButtons"] = {
 				},
 			},
 		},
 	},
+	["version"] = 1,
 	["users.Пламегор.Пламбалыкши"] = "Default",
 }
 AucAdvancedData = {
+	["Stats"] = {
+	},
 	["UtilSearchUiData"] = {
-		["Global"] = {
-			["configator.left"] = -9.56520462036133,
-			["configator.top"] = 583.913146972656,
-		},
+		["Version"] = 1,
 		["Current"] = {
 			["snatch.itemsList"] = {
 			},
 		},
-		["Version"] = 1,
+		["Global"] = {
+			["configator.left"] = -9.56520462036133,
+			["configator.top"] = 583.913146972656,
+		},
 		["SavedSearches"] = {
 		},
 	},
-	["Stats"] = {
-	},
 }
 AucAdvancedServers = {
+	["Version"] = 1,
 	["Timestamp"] = 1620754277,
+	["KnownServerKeys"] = {
+		["Пламегор"] = 1621016257,
+	},
 	["KnownRealms"] = {
 		["Пламегор"] = "Пламегор",
 	},
-	["KnownServerKeys"] = {
-		["Пламегор"] = 1620856672,
-	},
-	["Version"] = 1,
 }

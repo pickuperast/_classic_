@@ -49,6 +49,13 @@ VER 3 0000000001000008 "Cancelform5" "INV_MISC_QUESTIONMARK"
 /cancelform [noform:1]
 /cast !Облик лютого медведя
 END
+VER 3 000000000100000A "Cat" "132115"
+#showtooltip
+/stand
+/dismount
+/cancelform [noform:3]
+/cast [noform:3] Облик кошки
+END
 VER 3 0000000001000002 "Dash" "INV_MISC_QUESTIONMARK"
 #showtooltip Порыв
 /stand
@@ -56,14 +63,6 @@ VER 3 0000000001000002 "Dash" "INV_MISC_QUESTIONMARK"
 /cancelform [noform:3]
 /cast [noform:3] Облик кошки
 /cast !Порыв
-END
-VER 3 000000000100000A "form77" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/stand
-/dismount
-/cancelform
-/cancelform [noform:3]
-/cast [noform:3] Облик кошки
 END
 VER 3 0000000001000001 "invis" "INV_MISC_QUESTIONMARK"
 #showtooltip

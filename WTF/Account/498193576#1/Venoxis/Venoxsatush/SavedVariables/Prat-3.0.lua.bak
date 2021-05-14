@@ -205,7 +205,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame1"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 71,
+			["headIndex"] = 109,
 			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -218,12 +218,11 @@ Prat3HighCPUPerCharDB = {
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:02]|h|r You receive item: |cffffffff|Hitem:1478::::::::1:::::::|h[Scroll of Protection II]|h|rx2.",
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[04:57:50]|h|r You receive item: |cffffffff|Hitem:13755::::::::1:::::::|h[Winter Squid]|h|rx20.",
 					["r"] = 0,
+					["b"] = 0,
 					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758221,
+					["timestamp"] = 309495.491,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
@@ -231,644 +230,14 @@ Prat3HighCPUPerCharDB = {
 						5, -- [4]
 						["n"] = 4,
 					},
+					["serverTime"] = 1620946669,
 				}, -- [1]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:02]|h|r You receive item: |cffffffff|Hitem:4404::::::::1:::::::|h[Silver Contact]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758221,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [2]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:02]|h|r You receive item: |cffffffff|Hitem:4404::::::::1:::::::|h[Silver Contact]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758221,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [3]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:03]|h|r You receive item: |cffffffff|Hitem:4359::::::::1:::::::|h[Handful of Copper Bolts]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758222,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [4]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:03]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758222,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [5]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:03]|h|r You receive item: |cffffffff|Hitem:1478::::::::1:::::::|h[Scroll of Protection II]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758222,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [6]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:04]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758223,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [7]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:04]|h|r You receive item: |cffffffff|Hitem:4404::::::::1:::::::|h[Silver Contact]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758223,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [8]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:04]|h|r You receive item: |cffffffff|Hitem:4404::::::::1:::::::|h[Silver Contact]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758223,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [9]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:04]|h|r You receive item: |cffffffff|Hitem:4404::::::::1:::::::|h[Silver Contact]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758223,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [10]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:05]|h|r You receive item: |cffffffff|Hitem:1478::::::::1:::::::|h[Scroll of Protection II]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758224,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [11]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:05]|h|r You receive item: |cffffffff|Hitem:4404::::::::1:::::::|h[Silver Contact]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758224,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [12]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:06]|h|r You receive item: |cffffffff|Hitem:4363::::::::1:::::::|h[Copper Modulator]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758225,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [13]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:06]|h|r You receive item: |cffffffff|Hitem:954::::::::1:::::::|h[Scroll of Strength]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758225,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [14]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:06]|h|r You receive item: |cffffffff|Hitem:4364::::::::1:::::::|h[Coarse Blasting Powder]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758225,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [15]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:07]|h|r You receive item: |cffffffff|Hitem:13755::::::::1:::::::|h[Winter Squid]|h|rx20.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758226,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [16]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:07]|h|r You receive item: |cffffffff|Hitem:13755::::::::1:::::::|h[Winter Squid]|h|rx20.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758226,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [17]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:08]|h|r You receive item: |cffffffff|Hitem:3012::::::::1:::::::|h[Scroll of Agility]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758227,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [18]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:08]|h|r You receive item: |cffffffff|Hitem:4363::::::::1:::::::|h[Copper Modulator]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758227,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [19]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:08]|h|r You receive item: |cffffffff|Hitem:4364::::::::1:::::::|h[Coarse Blasting Powder]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758227,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [20]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:09]|h|r You receive item: |cffffffff|Hitem:4364::::::::1:::::::|h[Coarse Blasting Powder]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758228,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [21]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:09]|h|r You receive item: |cffffffff|Hitem:4363::::::::1:::::::|h[Copper Modulator]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758228,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [22]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:09]|h|r You receive item: |cffffffff|Hitem:3012::::::::1:::::::|h[Scroll of Agility]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758228,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [23]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:10]|h|r You receive item: |cffffffff|Hitem:13755::::::::1:::::::|h[Winter Squid]|h|rx20.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758229,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [24]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:10]|h|r You receive item: |cffffffff|Hitem:4364::::::::1:::::::|h[Coarse Blasting Powder]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758229,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [25]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:10]|h|r You receive item: |cffffffff|Hitem:4364::::::::1:::::::|h[Coarse Blasting Powder]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758229,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [26]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:11]|h|r You receive item: |cffffffff|Hitem:4364::::::::1:::::::|h[Coarse Blasting Powder]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758230,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [27]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:11]|h|r You receive item: |cffffffff|Hitem:4364::::::::1:::::::|h[Coarse Blasting Powder]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758230,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [28]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:11]|h|r You receive item: |cffffffff|Hitem:4364::::::::1:::::::|h[Coarse Blasting Powder]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758230,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [29]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:12]|h|r You receive item: |cffffffff|Hitem:13755::::::::1:::::::|h[Winter Squid]|h|rx20.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758231,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [30]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:12]|h|r You receive item: |cffffffff|Hitem:4364::::::::1:::::::|h[Coarse Blasting Powder]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758231,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [31]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:12]|h|r You receive item: |cffffffff|Hitem:13755::::::::1:::::::|h[Winter Squid]|h|rx20.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758231,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [32]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:13]|h|r You receive item: |cffffffff|Hitem:954::::::::1:::::::|h[Scroll of Strength]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758232,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [33]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:13]|h|r You receive item: |cffffffff|Hitem:4364::::::::1:::::::|h[Coarse Blasting Powder]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758232,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [34]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:14]|h|r You receive item: |cffffffff|Hitem:13755::::::::1:::::::|h[Winter Squid]|h|rx20.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758233,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [35]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:14]|h|r You receive item: |cffffffff|Hitem:1181::::::::1:::::::|h[Scroll of Spirit]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758233,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [36]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:14]|h|r You receive item: |cffffffff|Hitem:1181::::::::1:::::::|h[Scroll of Spirit]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758233,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [37]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:15]|h|r You receive item: |cffffffff|Hitem:1181::::::::1:::::::|h[Scroll of Spirit]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758234,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [38]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:15]|h|r You receive item: |cffffffff|Hitem:4375::::::::1:::::::|h[Whirring Bronze Gizmo]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758234,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [39]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:16]|h|r You receive item: |cffffffff|Hitem:1181::::::::1:::::::|h[Scroll of Spirit]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758235,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [40]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:16]|h|r You receive item: |cffffffff|Hitem:1181::::::::1:::::::|h[Scroll of Spirit]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758235,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [41]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:16]|h|r You receive item: |cffffffff|Hitem:4375::::::::1:::::::|h[Whirring Bronze Gizmo]|h|r.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758235,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [42]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:17]|h|r You receive item: |cffffffff|Hitem:1181::::::::1:::::::|h[Scroll of Spirit]|h|r.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758236,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [43]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:35]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Treex:64:CHANNEL:2|h|cffff7c0aTreex|r|h|cffd8d8d8]|r: Tank lfg BFD",
-					["b"] = 0.752941250801086,
+					["message"] = "|cff979797|Hpratcopy|h[04:57:57]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Valentinmlk:2033:CHANNEL:2|h|cff3fc6eaValentinmlk|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00wts zg boost|r|cffffffff>|r 50-55mobs solo50g duo25g trio20g 1/2",
 					["r"] = 1,
+					["b"] = 0.752941250801086,
 					["g"] = 0.752941250801086,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758254,
+					["timestamp"] = 309495.491,
 					["extraData"] = {
 						68, -- [1]
 						false, -- [2]
@@ -876,372 +245,1563 @@ Prat3HighCPUPerCharDB = {
 						6, -- [4]
 						["n"] = 4,
 					},
-				}, -- [44]
+					["serverTime"] = 1620946676,
+				}, -- [2]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:42]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Eleonova-Venoxis:68:CHANNEL:2|h|cffffffffEleonova|r|h|cffd8d8d8]|r: Verzauberer mit allen Rezepten sucht Arbeit",
-					["b"] = 0.752941250801086,
-					["r"] = 1,
-					["g"] = 0.752941250801086,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758261,
+					["message"] = "|cff979797|Hpratcopy|h[05:20:13]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Myue:2152:CHANNEL:2|h|cff3fc6eaMyue|r|h|cffd8d8d8]|r: Kaufe all eure ZG Coins - 20s / stück",
 					["extraData"] = {
 						68, -- [1]
-						false, -- [2]
-						1, -- [3]
-						8, -- [4]
-						["n"] = 4,
-					},
-				}, -- [45]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:42]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Eleonova-Venoxis:69:CHANNEL:2|h|cffffffffEleonova|r|h|cffd8d8d8]|r: /w oder einfach an der Kiste vor dem OG AH traden",
-					["b"] = 0.752941250801086,
-					["r"] = 1,
-					["g"] = 0.752941250801086,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758261,
-					["extraData"] = {
-						68, -- [1]
-						false, -- [2]
-						1, -- [3]
-						8, -- [4]
-						["n"] = 4,
-					},
-				}, -- [46]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:49]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mowjow:72:CHANNEL:2|h|cffc69b6dMowjow|r|h|cffd8d8d8]|r: geht heute noch ein mc gdkp?",
-					["b"] = 0.752941250801086,
-					["r"] = 1,
-					["g"] = 0.752941250801086,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758268,
-					["extraData"] = {
-						68, -- [1]
-						false, -- [2]
-						1, -- [3]
-						10, -- [4]
-						["n"] = 4,
-					},
-				}, -- [47]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:52]|h|r You receive item: |cffffffff|Hitem:3013::::::::1:::::::|h[Scroll of Protection]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758271,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [48]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:53]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758272,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [49]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:53]|h|r You receive item: |cffffffff|Hitem:3013::::::::1:::::::|h[Scroll of Protection]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758272,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [50]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:53]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758272,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [51]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:54]|h|r You receive item: |cffffffff|Hitem:3013::::::::1:::::::|h[Scroll of Protection]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758273,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [52]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:54]|h|r You receive item: |cffffffff|Hitem:3013::::::::1:::::::|h[Scroll of Protection]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758273,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [53]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:54]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758273,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [54]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:55]|h|r You receive item: |cffffffff|Hitem:955::::::::1:::::::|h[Scroll of Intellect]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758274,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [55]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:55]|h|r You receive item: |cffffffff|Hitem:955::::::::1:::::::|h[Scroll of Intellect]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758274,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [56]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:56]|h|r You receive item: |cffffffff|Hitem:955::::::::1:::::::|h[Scroll of Intellect]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758275,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [57]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:56]|h|r You receive item: |cffffffff|Hitem:4404::::::::1:::::::|h[Silver Contact]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758275,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [58]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:56]|h|r You receive item: |cffffffff|Hitem:4404::::::::1:::::::|h[Silver Contact]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758275,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [59]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:57]|h|r You receive item: |cffffffff|Hitem:4404::::::::1:::::::|h[Silver Contact]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758276,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [60]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:57]|h|r You receive item: |cffffffff|Hitem:1478::::::::1:::::::|h[Scroll of Protection II]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758276,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [61]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:57]|h|r You receive item: |cffffffff|Hitem:13755::::::::1:::::::|h[Winter Squid]|h|rx20.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758276,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [62]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:37:58]|h|r You receive item: |cffffffff|Hitem:4359::::::::1:::::::|h[Handful of Copper Bolts]|h|rx2.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758277,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [63]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:38:22]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Sasko:100:CHANNEL:2|h|cff0070ddSasko|r|h|cffd8d8d8]|r: LFM tank, heal und dd für kloster wk",
-					["b"] = 0.752941250801086,
-					["r"] = 1,
-					["g"] = 0.752941250801086,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758301,
-					["extraData"] = {
-						68, -- [1]
-						false, -- [2]
-						1, -- [3]
-						12, -- [4]
-						["n"] = 4,
-					},
-				}, -- [64]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:38:37]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Luvash:105:CHANNEL:2|h|cfffff468Luvash|r|h|cffd8d8d8]|r: LFM Uldaman Tank/Heal",
-					["b"] = 0.752941250801086,
-					["r"] = 1,
-					["g"] = 0.752941250801086,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758316,
-					["extraData"] = {
-						68, -- [1]
-						false, -- [2]
-						1, -- [3]
-						14, -- [4]
-						["n"] = 4,
-					},
-				}, -- [65]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:38:41]|h|r You lie down.",
-					["b"] = 0.250980406999588,
-					["r"] = 1,
-					["g"] = 0.501960813999176,
-					["timestamp"] = 116460.954,
-					["serverTime"] = 1620758320,
-					["extraData"] = {
-						12, -- [1]
-						false, -- [2]
-						16, -- [3]
-						17, -- [4]
-						["n"] = 4,
-					},
-				}, -- [66]
-				{
-					["message"] = "0 days, 1 hours, 24 minutes, 20 seconds",
-					["timestamp"] = 116460.954,
-				}, -- [67]
-				{
-					["message"] = "========== End of Scrollback ==========",
-					["timestamp"] = 116460.954,
-				}, -- [68]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[02:03:00]|h|r Fishing Buddy v0.7.3 Beta 5 loaded",
-					["timestamp"] = 116460.399,
-				}, -- [69]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[02:03:05]|h|r HealBot |cff20ff201.13.7.1|r loaded. For help use: |cffffff00 /hb h|r",
-					["r"] = 0.7,
-					["serverTime"] = 1620763385,
-					["timestamp"] = 116466.501,
-					["g"] = 0.7,
-					["b"] = 1,
-				}, -- [70]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[02:03:08]|h|r You lie down.",
-					["serverTime"] = 1620763388,
-					["r"] = 1,
-					["extraData"] = {
-						12, -- [1]
 						false, -- [2]
 						1, -- [3]
 						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 116469.566,
+					["b"] = 0.752941250801086,
+					["serverTime"] = 1620948012,
+					["timestamp"] = 309495.491,
+					["g"] = 0.752941250801086,
+					["r"] = 1,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:20:20]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ozrik:2155:CHANNEL:2|h|cffaad372Ozrik|r|h|cffd8d8d8]|r: wts |cffa335ee|Hitem:16830::::::::60:::::::|h[Armschienen des Cenarius]|h|r",
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.752941250801086,
+					["serverTime"] = 1620948019,
+					["timestamp"] = 309495.491,
+					["g"] = 0.752941250801086,
+					["r"] = 1,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:20:57]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Clickz:2174:CHANNEL:2|h|cff8787edClickz|r|h|cffd8d8d8]|r: lf vz für feurige waffe",
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.752941250801086,
+					["serverTime"] = 1620948056,
+					["timestamp"] = 309495.491,
+					["g"] = 0.752941250801086,
+					["r"] = 1,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:21:00]|h|r You lie down before Auctioneer Stampi.",
+					["extraData"] = {
+						12, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.250980406999588,
+					["serverTime"] = 1620948059,
+					["timestamp"] = 309495.491,
+					["g"] = 0.501960813999176,
+					["r"] = 1,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:35:39]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Nalea:2211:CHANNEL:2|h|cffc69b6dNalea|r|h|cffd8d8d8]|r: Ist dir dein Mount zu langsam? Für 2g bringe ich |cff1eff00|Hitem:7969::::::::60:::::::|h[Mithril Spurs]|h|r an deine Schuhe an :)",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620948938,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:36:55]|h|r |Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Thunder Bluff]|h",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620949014,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:36:55]|h|r |Hchannel:channel:2|h[2] |h Left Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620949014,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:36:55]|h|r |Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Thunder Bluff]|h",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620949014,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:07:59]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Dâgor:2260:CHANNEL:2|h|cffffffffDâgor|r|h|cffd8d8d8]|r: Lf VZ für |cffffffff|Henchant:22749|h[Waffe - Zauberkraft]|h|r",
+					["serverTime"] = 1620950878,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309495.491,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:08:16]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Wazy:2261:CHANNEL:2|h|cff0070ddWazy|r|h|cffd8d8d8]|r: WTB Klosterboost 6 runs für 200 g",
+					["serverTime"] = 1620950895,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309495.491,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:08:54]|h|r You receive item: |cffffffff|Hitem:3013::::::::1:::::::|h[Scroll of Protection]|h|r.",
+					["serverTime"] = 1620950933,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:08:54]|h|r You receive item: |cffffffff|Hitem:3013::::::::1:::::::|h[Scroll of Protection]|h|rx2.",
+					["serverTime"] = 1620950933,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:08:54]|h|r You receive item: |cffffffff|Hitem:3013::::::::1:::::::|h[Scroll of Protection]|h|rx2.",
+					["serverTime"] = 1620950933,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:08:55]|h|r You receive item: |cffffffff|Hitem:3013::::::::1:::::::|h[Scroll of Protection]|h|rx2.",
+					["serverTime"] = 1620950934,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:08:55]|h|r You receive item: |cffffffff|Hitem:3013::::::::1:::::::|h[Scroll of Protection]|h|rx2.",
+					["serverTime"] = 1620950934,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:08:55]|h|r You receive item: |cffffffff|Hitem:3013::::::::1:::::::|h[Scroll of Protection]|h|rx2.",
+					["serverTime"] = 1620950934,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:08:56]|h|r You receive item: |cffffffff|Hitem:1712::::::::1:::::::|h[Scroll of Spirit II]|h|rx2.",
+					["serverTime"] = 1620950935,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:08:56]|h|r You receive item: |cffffffff|Hitem:4361::::::::1:::::::|h[Copper Tube]|h|rx2.",
+					["serverTime"] = 1620950935,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:08:56]|h|r You receive item: |cffffffff|Hitem:4363::::::::1:::::::|h[Copper Modulator]|h|rx2.",
+					["serverTime"] = 1620950935,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:08:57]|h|r You receive item: |cffffffff|Hitem:1712::::::::1:::::::|h[Scroll of Spirit II]|h|rx2.",
+					["serverTime"] = 1620950936,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:08:57]|h|r You receive item: |cffffffff|Hitem:4361::::::::1:::::::|h[Copper Tube]|h|rx2.",
+					["serverTime"] = 1620950936,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:08:57]|h|r You receive item: |cffffffff|Hitem:4361::::::::1:::::::|h[Copper Tube]|h|r.",
+					["serverTime"] = 1620950936,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:08:57]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx16.",
+					["serverTime"] = 1620950936,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:08:58]|h|r You receive item: |cffffffff|Hitem:4363::::::::1:::::::|h[Copper Modulator]|h|rx2.",
+					["serverTime"] = 1620950937,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:08:58]|h|r You receive item: |cffffffff|Hitem:4363::::::::1:::::::|h[Copper Modulator]|h|rx2.",
+					["serverTime"] = 1620950937,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:08:58]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
+					["serverTime"] = 1620950937,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:08:58]|h|r You receive item: |cffffffff|Hitem:4363::::::::1:::::::|h[Copper Modulator]|h|rx2.",
+					["serverTime"] = 1620950937,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:08:59]|h|r You receive item: |cffffffff|Hitem:3012::::::::1:::::::|h[Scroll of Agility]|h|rx2.",
+					["serverTime"] = 1620950938,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:08:59]|h|r You receive item: |cffffffff|Hitem:1478::::::::1:::::::|h[Scroll of Protection II]|h|r.",
+					["serverTime"] = 1620950938,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:08:59]|h|r You receive item: |cffffffff|Hitem:1478::::::::1:::::::|h[Scroll of Protection II]|h|rx2.",
+					["serverTime"] = 1620950938,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:09:00]|h|r You receive item: |cffffffff|Hitem:1478::::::::1:::::::|h[Scroll of Protection II]|h|rx2.",
+					["serverTime"] = 1620950939,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:09:00]|h|r You receive item: |cffffffff|Hitem:3012::::::::1:::::::|h[Scroll of Agility]|h|rx2.",
+					["serverTime"] = 1620950939,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:09:00]|h|r You receive item: |cffffffff|Hitem:4359::::::::1:::::::|h[Handful of Copper Bolts]|h|rx2.",
+					["serverTime"] = 1620950939,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:09:01]|h|r You receive item: |cffffffff|Hitem:1478::::::::1:::::::|h[Scroll of Protection II]|h|rx2.",
+					["serverTime"] = 1620950940,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:09:01]|h|r You receive item: |cffffffff|Hitem:1712::::::::1:::::::|h[Scroll of Spirit II]|h|rx2.",
+					["serverTime"] = 1620950940,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:09:01]|h|r You receive item: |cffffffff|Hitem:1478::::::::1:::::::|h[Scroll of Protection II]|h|rx2.",
+					["serverTime"] = 1620950940,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:09:02]|h|r You receive item: |cffffffff|Hitem:3012::::::::1:::::::|h[Scroll of Agility]|h|r.",
+					["serverTime"] = 1620950941,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:09:02]|h|r You receive item: |cffffffff|Hitem:4359::::::::1:::::::|h[Handful of Copper Bolts]|h|rx2.",
+					["serverTime"] = 1620950941,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:09:02]|h|r You receive item: |cffffffff|Hitem:1478::::::::1:::::::|h[Scroll of Protection II]|h|rx2.",
+					["serverTime"] = 1620950941,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:09:03]|h|r You receive item: |cffffffff|Hitem:4359::::::::1:::::::|h[Handful of Copper Bolts]|h|rx2.",
+					["serverTime"] = 1620950942,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:09:03]|h|r You receive item: |cffffffff|Hitem:4359::::::::1:::::::|h[Handful of Copper Bolts]|h|rx2.",
+					["serverTime"] = 1620950942,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:09:03]|h|r You receive item: |cffffffff|Hitem:1181::::::::1:::::::|h[Scroll of Spirit]|h|rx2.",
+					["serverTime"] = 1620950942,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:09:04]|h|r You receive item: |cffffffff|Hitem:1181::::::::1:::::::|h[Scroll of Spirit]|h|rx2.",
+					["serverTime"] = 1620950943,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:09:04]|h|r You receive item: |cffffffff|Hitem:1181::::::::1:::::::|h[Scroll of Spirit]|h|r.",
+					["serverTime"] = 1620950943,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:09:04]|h|r You receive item: |cffffffff|Hitem:1181::::::::1:::::::|h[Scroll of Spirit]|h|rx2.",
+					["serverTime"] = 1620950943,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:09:04]|h|r You receive item: |cffffffff|Hitem:4359::::::::1:::::::|h[Handful of Copper Bolts]|h|rx2.",
+					["serverTime"] = 1620950943,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:09:05]|h|r You receive item: |cffffffff|Hitem:1181::::::::1:::::::|h[Scroll of Spirit]|h|rx2.",
+					["serverTime"] = 1620950944,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:09:05]|h|r You receive item: |cffffffff|Hitem:1181::::::::1:::::::|h[Scroll of Spirit]|h|rx2.",
+					["serverTime"] = 1620950944,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:09:05]|h|r You receive item: |cffffffff|Hitem:4375::::::::1:::::::|h[Whirring Bronze Gizmo]|h|r.",
+					["serverTime"] = 1620950944,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:09:06]|h|r You receive item: |cffffffff|Hitem:4375::::::::1:::::::|h[Whirring Bronze Gizmo]|h|rx2.",
+					["serverTime"] = 1620950945,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:25:57]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Paparoach:2357:CHANNEL:2|h|cff8787edPaparoach|r|h|cffd8d8d8]|r: Suche bisschen Gold hier, biete Gold auf Everlook  Allianz",
+					["r"] = 1,
+					["b"] = 0.752941250801086,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 309495.491,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1620951956,
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:26:40]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Paparoach-Venoxis:2398:CHANNEL:2|h|cff8787edPaparoach|r|h|cffd8d8d8]|r: Nur damit ich n paar Sachen kaufen kann für Ingi bevor Merkel Auktionshaus zu macht ;(",
+					["r"] = 1,
+					["b"] = 0.752941250801086,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 309495.491,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1620951999,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:27:04]|h|r You lie down before Auctioneer Stampi.",
+					["r"] = 1,
+					["b"] = 0.250980406999588,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 309495.491,
+					["extraData"] = {
+						12, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1620952023,
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:48:37]|h|r You receive item: |cffffffff|Hitem:955::::::::1:::::::|h[Scroll of Intellect]|h|rx2.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1620953316,
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["r"] = 0,
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:48:37]|h|r You receive item: |cffffffff|Hitem:955::::::::1:::::::|h[Scroll of Intellect]|h|rx2.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1620953316,
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["r"] = 0,
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:48:38]|h|r You receive item: |cffffffff|Hitem:955::::::::1:::::::|h[Scroll of Intellect]|h|rx2.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1620953317,
+					["timestamp"] = 309495.491,
+					["g"] = 0.666666686534882,
+					["r"] = 0,
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:19:50]|h|r Your auction of Coarse Blasting Powder has expired.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620955189,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:19:50]|h|r Your auction of Coarse Blasting Powder has expired.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620955189,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:19:55]|h|r Your auction of Coarse Blasting Powder has expired.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620955194,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:19:55]|h|r Your auction of Coarse Blasting Powder has expired.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620955194,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:19:55]|h|r Your auction of Coarse Blasting Powder has expired.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620955194,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:19:55]|h|r Your auction of Coarse Blasting Powder has expired.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620955194,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:19:55]|h|r Your auction of Coarse Blasting Powder has expired.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620955194,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:19:55]|h|r Your auction of Coarse Blasting Powder has expired.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620955194,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:19:55]|h|r Your auction of Coarse Blasting Powder has expired.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620955194,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:19:55]|h|r Your auction of Coarse Blasting Powder has expired.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620955194,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:19:57]|h|r You receive item: |cffffffff|Hitem:13755::::::::1:::::::|h[Winter Squid]|h|rx20.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620955196,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:19:57]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620955196,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:19:57]|h|r You receive item: |cffffffff|Hitem:13755::::::::1:::::::|h[Winter Squid]|h|rx20.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620955196,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:19:58]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620955197,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:19:58]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620955197,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:19:58]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620955197,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:19:59]|h|r You receive item: |cffffffff|Hitem:13755::::::::1:::::::|h[Winter Squid]|h|rx20.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620955198,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:19:59]|h|r You receive item: |cffffffff|Hitem:4359::::::::1:::::::|h[Handful of Copper Bolts]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620955198,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:19:59]|h|r You receive item: |cffffffff|Hitem:13755::::::::1:::::::|h[Winter Squid]|h|rx20.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620955198,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:20:00]|h|r You receive item: |cffffffff|Hitem:13755::::::::1:::::::|h[Winter Squid]|h|rx20.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620955199,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:20:00]|h|r You receive item: |cffffffff|Hitem:4359::::::::1:::::::|h[Handful of Copper Bolts]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620955199,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:20:00]|h|r You receive item: |cffffffff|Hitem:4359::::::::1:::::::|h[Handful of Copper Bolts]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620955199,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:20:01]|h|r You receive item: |cffffffff|Hitem:4359::::::::1:::::::|h[Handful of Copper Bolts]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620955200,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [81]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:20:01]|h|r You receive item: |cffffffff|Hitem:4359::::::::1:::::::|h[Handful of Copper Bolts]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620955200,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:20:01]|h|r You receive item: |cffffffff|Hitem:13755::::::::1:::::::|h[Winter Squid]|h|rx20.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620955200,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:20:02]|h|r You receive item: |cffffffff|Hitem:13755::::::::1:::::::|h[Winter Squid]|h|rx20.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620955201,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:20:02]|h|r You receive item: |cffffffff|Hitem:4364::::::::1:::::::|h[Coarse Blasting Powder]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620955201,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:20:02]|h|r You receive item: |cffffffff|Hitem:4364::::::::1:::::::|h[Coarse Blasting Powder]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620955201,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:20:03]|h|r You receive item: |cffffffff|Hitem:4364::::::::1:::::::|h[Coarse Blasting Powder]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620955202,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:20:03]|h|r You receive item: |cffffffff|Hitem:4364::::::::1:::::::|h[Coarse Blasting Powder]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620955202,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [88]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:20:03]|h|r You receive item: |cffffffff|Hitem:4364::::::::1:::::::|h[Coarse Blasting Powder]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620955202,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:20:03]|h|r You receive item: |cffffffff|Hitem:4364::::::::1:::::::|h[Coarse Blasting Powder]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620955202,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [90]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:20:04]|h|r You receive item: |cffffffff|Hitem:4364::::::::1:::::::|h[Coarse Blasting Powder]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620955203,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [91]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:20:04]|h|r You receive item: |cffffffff|Hitem:4364::::::::1:::::::|h[Coarse Blasting Powder]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620955203,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [92]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:20:04]|h|r You receive item: |cffffffff|Hitem:4364::::::::1:::::::|h[Coarse Blasting Powder]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620955203,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [93]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:20:05]|h|r You receive item: |cffffffff|Hitem:4364::::::::1:::::::|h[Coarse Blasting Powder]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620955204,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [94]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:22:00]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Paparoach:2600:CHANNEL:2|h|cff8787edPaparoach|r|h|cffd8d8d8]|r: Kostet Kupfererz eigentlich immer so viel?",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620955319,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+				}, -- [95]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:22:05]|h|r |Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Thunder Bluff]|h",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620955324,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+				}, -- [96]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:22:05]|h|r |Hchannel:channel:2|h[2] |h Left Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620955324,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						5, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+				}, -- [97]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:22:05]|h|r |Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Thunder Bluff]|h",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 309495.491,
+					["serverTime"] = 1620955324,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						13, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+				}, -- [98]
+				{
+					["message"] = "0 days, 0 hours, 18 minutes, 9 seconds",
+					["timestamp"] = 309495.491,
+				}, -- [99]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 309495.491,
+				}, -- [100]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:40:14]|h|r Fishing Buddy v0.7.3 Beta 5 loaded",
+					["timestamp"] = 309494.868,
+				}, -- [101]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:40:20]|h|r HealBot |cff20ff201.13.7.1|r loaded. For help use: |cffffff00 /hb h|r",
+					["r"] = 0.7,
+					["serverTime"] = 1620956419,
+					["timestamp"] = 309501.333,
+					["g"] = 0.7,
+					["b"] = 1,
+				}, -- [102]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:40:58]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Xeido:2655:CHANNEL:2|h|cff3fc6eaXeido|r|h|cffd8d8d8]|r: LFg ragefire",
+					["serverTime"] = 1620956457,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309539.878,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
+				}, -- [103]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:41:38]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
+					["serverTime"] = 1620956497,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309579.105,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [104]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:41:38]|h|r |cff33ff99TradeSkillMaster|r: Horde Auction House sent you a message: Auction expired: Firefin Snapper (20)",
+					["timestamp"] = 309579.105,
+					["serverTime"] = 1620956497,
+				}, -- [105]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:42:04]|h|r You lie down before Auctioneer Stampi.",
+					["serverTime"] = 1620956523,
+					["r"] = 1,
+					["extraData"] = {
+						12, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309605.477,
 					["g"] = 0.501960813999176,
 					["b"] = 0.250980406999588,
-				}, -- [71]
+				}, -- [106]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:42:04]|h|r |Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Thunder Bluff]|h",
+					["serverTime"] = 1620956523,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309605.523,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
+				}, -- [107]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:42:04]|h|r |Hchannel:channel:2|h[2] |h Left Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
+					["serverTime"] = 1620956523,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309605.523,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
+				}, -- [108]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[07:42:04]|h|r |Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Thunder Bluff]|h",
+					["serverTime"] = 1620956523,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						13, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 309605.523,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
+				}, -- [109]
 			},
 			["maxElements"] = 128,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],

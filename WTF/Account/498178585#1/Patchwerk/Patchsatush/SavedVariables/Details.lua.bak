@@ -124,7 +124,7 @@ _detalhes_database = {
 			["scale"] = 1,
 		},
 	},
-	["last_day"] = "13",
+	["last_day"] = "14",
 	["cached_talents"] = {
 	},
 	["announce_prepots"] = {
@@ -137,7 +137,7 @@ _detalhes_database = {
 		},
 	},
 	["character_data"] = {
-		["logons"] = 284,
+		["logons"] = 308,
 	},
 	["combat_id"] = 0,
 	["savedStyles"] = {
@@ -300,7 +300,7 @@ _detalhes_database = {
 			}, -- [4]
 		},
 	},
-	["combat_counter"] = 578,
+	["combat_counter"] = 626,
 	["announce_firsthit"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",

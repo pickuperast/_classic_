@@ -2,13 +2,13 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_50000"] = 500,
 	["_2000"] = 100,
-	["_500"] = 5,
-	["STARTING_DISCOUNT"] = 5,
-	["_1000000"] = 2500,
-	["_10000"] = 200,
-	["LOG_DE_DATA_X"] = true,
 	["_200000"] = 1000,
+	["_10000"] = 200,
+	["_1000000"] = 2500,
 	["_5000000"] = 10000,
+	["STARTING_DISCOUNT"] = 5,
+	["_500"] = 5,
+	["LOG_DE_DATA_X"] = true,
 }
 AUCTIONATOR_PRICING_HISTORY = {
 }
@@ -30,8 +30,8 @@ AUCTIONATOR_LAST_SCAN_TIME = nil
 AUCTIONATOR_TOONS = {
 	["Пламбалыкши"] = {
 		["firstSeen"] = 1620754286,
-		["firstVersion"] = "100.0.8",
 		["guid"] = "Player-4474-0328DC33",
+		["firstVersion"] = "100.0.8",
 	},
 }
 AUCTIONATOR_STACKING_PREFS = {

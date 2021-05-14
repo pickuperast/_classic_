@@ -14,13 +14,13 @@ Prat3CharDB = {
 			},
 			["ChatFrame6EditBox"] = {
 			},
-			["ChatFrame9EditBox"] = {
-			},
-			["ChatFrame2EditBox"] = {
+			["ChatFrame1EditBox"] = {
 			},
 			["ChatFrame3EditBox"] = {
 			},
-			["ChatFrame1EditBox"] = {
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
 			},
 		},
 	},
@@ -205,7 +205,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame1"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 118,
+			["headIndex"] = 0,
 			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -218,98 +218,278 @@ Prat3HighCPUPerCharDB = {
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:50:41]|h|r You receive item: |cffffffff|Hitem:13422::::::::1:::::::|h[Stonescale Eel]|h|rx20.",
-					["serverTime"] = 1620852641,
+					["message"] = "|cff979797|Hpratcopy|h[02:27:32]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["serverTime"] = 1620937651,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
-						4, -- [3]
-						5, -- [4]
+						8, -- [3]
+						9, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 218753.663,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
 				}, -- [1]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:50:42]|h|r You receive item: |cffffffff|Hitem:13422::::::::1:::::::|h[Stonescale Eel]|h|rx20.",
-					["serverTime"] = 1620852642,
+					["message"] = "|cff979797|Hpratcopy|h[02:27:32]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["serverTime"] = 1620937651,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
-						4, -- [3]
-						5, -- [4]
+						8, -- [3]
+						9, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 218753.663,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
 				}, -- [2]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:50:42]|h|r You receive item: |cffffffff|Hitem:13422::::::::1:::::::|h[Stonescale Eel]|h|rx20.",
-					["serverTime"] = 1620852642,
+					["message"] = "|cff979797|Hpratcopy|h[02:27:33]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["serverTime"] = 1620937652,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
-						4, -- [3]
-						5, -- [4]
+						8, -- [3]
+						9, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 218753.663,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
 				}, -- [3]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:50:42]|h|r You receive item: |cffffffff|Hitem:13422::::::::1:::::::|h[Stonescale Eel]|h|rx20.",
-					["serverTime"] = 1620852642,
+					["message"] = "|cff979797|Hpratcopy|h[02:27:33]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["serverTime"] = 1620937652,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
-						4, -- [3]
-						5, -- [4]
+						8, -- [3]
+						9, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 218753.663,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
 				}, -- [4]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:50:43]|h|r You receive item: |cffffffff|Hitem:13422::::::::1:::::::|h[Stonescale Eel]|h|rx20.",
-					["serverTime"] = 1620852643,
+					["message"] = "|cff979797|Hpratcopy|h[02:27:33]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["serverTime"] = 1620937652,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
-						4, -- [3]
-						5, -- [4]
+						8, -- [3]
+						9, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 218753.663,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
 				}, -- [5]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:50:43]|h|r You receive item: |cffffffff|Hitem:13422::::::::1:::::::|h[Stonescale Eel]|h|rx20.",
-					["serverTime"] = 1620852643,
+					["message"] = "|cff979797|Hpratcopy|h[02:27:34]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx3.",
+					["b"] = 0,
 					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["serverTime"] = 1620937653,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
-						4, -- [3]
-						5, -- [4]
+						8, -- [3]
+						9, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 218753.663,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
 				}, -- [6]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:51:21]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Nussfuellung:834:CHANNEL:2|h|cff3fc6eaNussfuellung|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00cleanse|r|cffffffff>|r sucht zum Start von Burning Crusade  motivierte Raidmember. Wir raiden Mittwoch+Sonntag (19-23Uhr) und nutzen für eine faire Lootverteilung DKP.(Voice TS3) Für mehr Infos : |cffffffff|Hurl:https://discord.gg/wACXdjxnDA|h[https://discord.gg/wACXdjxnDA]|h|r oder /w me",
-					["serverTime"] = 1620852681,
+					["message"] = "|cff979797|Hpratcopy|h[02:27:34]|h|r You receive item: |cffffffff|Hitem:13422::::::::1:::::::|h[Stonescale Eel]|h|rx20.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["serverTime"] = 1620937653,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:27:34]|h|r You receive item: |cffffffff|Hitem:13422::::::::1:::::::|h[Stonescale Eel]|h|rx20.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["serverTime"] = 1620937653,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:27:35]|h|r You receive item: |cffffffff|Hitem:13422::::::::1:::::::|h[Stonescale Eel]|h|rx20.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["serverTime"] = 1620937654,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:27:35]|h|r You receive item: |cffffffff|Hitem:13422::::::::1:::::::|h[Stonescale Eel]|h|rx20.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["serverTime"] = 1620937654,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:27:36]|h|r You receive item: |cffffffff|Hitem:13422::::::::1:::::::|h[Stonescale Eel]|h|rx20.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["serverTime"] = 1620937655,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:27:36]|h|r You receive item: |cffffffff|Hitem:13422::::::::1:::::::|h[Stonescale Eel]|h|rx20.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["serverTime"] = 1620937655,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:27:36]|h|r You receive item: |cffffffff|Hitem:13422::::::::1:::::::|h[Stonescale Eel]|h|rx20.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["serverTime"] = 1620937655,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:27:37]|h|r You receive item: |cffffffff|Hitem:13422::::::::1:::::::|h[Stonescale Eel]|h|rx20.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["serverTime"] = 1620937656,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:27:55]|h|r You lie down before Auctioneer Stampi.",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 367749.801,
+					["serverTime"] = 1620937674,
+					["extraData"] = {
+						12, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:49:42]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Studentin:1098:CHANNEL:2|h|cffc69b6dStudentin|r|h|cffd8d8d8]|r: vk |cff1eff00|Hitem:7910::::::::24:::::::|h[Star Ruby]|h|r10stk/7g |cff1eff00|Hitem:1705::::::::24:::::::|h[Lesser Moonstone]|h|r5stk/2g50 |cff1eff00|Hitem:3864::::::::24:::::::|h[Citrine]|h|r2stk/1g pst",
+					["serverTime"] = 1620938981,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 367749.801,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:49:48]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Frauport:1099:CHANNEL:2|h|cff8787edFrauport|r|h|cffd8d8d8]|r: da hat wohl wer ferspielt",
+					["serverTime"] = 1620938987,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 367749.801,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:50:00]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Studentin-Lucifron:1100:CHANNEL:2|h|cffc69b6dStudentin|r|h|cffd8d8d8]|r: f",
+					["serverTime"] = 1620938999,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 367749.801,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:50:03]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ezreal:1101:CHANNEL:2|h|cff0070ddEzreal|r|h|cffd8d8d8]|r: suche vz",
+					["serverTime"] = 1620939002,
 					["r"] = 1,
 					["extraData"] = {
 						68, -- [1]
@@ -318,13 +498,13 @@ Prat3HighCPUPerCharDB = {
 						6, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 218753.663,
+					["timestamp"] = 367749.801,
 					["g"] = 0.752941250801086,
 					["b"] = 0.752941250801086,
-				}, -- [7]
+				}, -- [19]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:51:51]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mavie-Lucifron:845:CHANNEL:2|h|cffff7c0aMavie|r|h|cffd8d8d8]|r: Kaufe 6x |cff1eff00|Hitem:19726::::::::5:::::::|h[Bloodvine]|h|r für insgesamt 50g",
-					["serverTime"] = 1620852710,
+					["message"] = "|cff979797|Hpratcopy|h[02:50:18]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Flachmat:1102:CHANNEL:2|h|cff0070ddFlachmat|r|h|cffd8d8d8]|r: ferlust",
+					["serverTime"] = 1620939017,
 					["r"] = 1,
 					["extraData"] = {
 						68, -- [1]
@@ -333,31 +513,76 @@ Prat3HighCPUPerCharDB = {
 						8, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 218753.663,
+					["timestamp"] = 367749.801,
 					["g"] = 0.752941250801086,
 					["b"] = 0.752941250801086,
-				}, -- [8]
+				}, -- [20]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:52:08]|h|r You lie down before Auctioneer Stampi.",
-					["serverTime"] = 1620852727,
+					["message"] = "|cff979797|Hpratcopy|h[02:50:38]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Harc:1103:CHANNEL:2|h|cff8787edHarc|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_4:0|t vz gegen mats und 3g fixpreis: chest:+100hp/+100mana & wrist:+9stam/+7int/+9spir/+9stren/+3def & cloak:+5res/+70armor & boots:+7stam/+7agi/+5spir/+speed |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_4:0|t |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_4:0|t",
+					["serverTime"] = 1620939037,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 367749.801,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:50:38]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Harc-Lucifron:1104:CHANNEL:2|h|cff8787edHarc|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t vz gegen mats und 4g fixpreis: weapon:fiery/icy/unholy & weapon:+55heal & shield:+7stam/+7spir & weapon:crusader/lifesteal/+22int/+20spir/+15stren/+15agi |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t",
+					["serverTime"] = 1620939037,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 367749.801,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:50:45]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Quicklie-Lucifron:1105:CHANNEL:2|h|cff0070ddQuicklie|r|h|cffd8d8d8]|r: im AH: |cffa335ee|Hitem:14551::::::::1:::::::|h[Handschützer des Klingenmeisters]|h|r - Gebot 399g / Sofortkauf 749g",
+					["serverTime"] = 1620939044,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 367749.801,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:50:53]|h|r You lie down before Auctioneer Stampi.",
+					["serverTime"] = 1620939052,
 					["r"] = 1,
 					["extraData"] = {
 						12, -- [1]
 						false, -- [2]
-						10, -- [3]
-						11, -- [4]
+						14, -- [3]
+						15, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 218753.663,
+					["timestamp"] = 367749.801,
 					["g"] = 0.501960813999176,
 					["b"] = 0.250980406999588,
-				}, -- [9]
+				}, -- [24]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:06:40]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Pansca:887:CHANNEL:2|h|cffaad372Pansca|r|h|cffd8d8d8]|r: LFM AQ20. 3er Prio. 2 Tanks. 1 Heal",
+					["message"] = "|cff979797|Hpratcopy|h[03:10:37]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Savajin:1146:CHANNEL:2|h|cff0070ddSavajin|r|h|cffd8d8d8]|r: fögel vliegen fiel",
 					["r"] = 1,
 					["b"] = 0.752941250801086,
 					["g"] = 0.752941250801086,
-					["timestamp"] = 218753.663,
+					["timestamp"] = 367749.801,
 					["extraData"] = {
 						68, -- [1]
 						false, -- [2]
@@ -365,14 +590,14 @@ Prat3HighCPUPerCharDB = {
 						2, -- [4]
 						["n"] = 4,
 					},
-					["serverTime"] = 1620853599,
-				}, -- [10]
+					["serverTime"] = 1620940236,
+				}, -- [25]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:06:51]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Nihilus:891:CHANNEL:2|h|cff3fc6eaNihilus|r|h|cffd8d8d8]|r: Die PvE Gilde \"Tide\" rekrutiert für TBC ab jetzt 4 Heiler (Pala,Priest,Shamy,Dudu) und 2 DDs (Balance Druid, WL) egal ob neu in WoW oder erfahrener Raider /join |cffffffff|Hurl:discord.gg/HvGKXQAw3z|h[discord.gg/HvGKXQAw3z]|h|r",
+					["message"] = "|cff979797|Hpratcopy|h[03:10:49]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Frauport:1147:CHANNEL:2|h|cff8787edFrauport|r|h|cffd8d8d8]|r: puh ich hatte schon angst er vürde vernsehn",
 					["r"] = 1,
 					["b"] = 0.752941250801086,
 					["g"] = 0.752941250801086,
-					["timestamp"] = 218753.663,
+					["timestamp"] = 367749.801,
 					["extraData"] = {
 						68, -- [1]
 						false, -- [2]
@@ -380,14 +605,14 @@ Prat3HighCPUPerCharDB = {
 						4, -- [4]
 						["n"] = 4,
 					},
-					["serverTime"] = 1620853611,
-				}, -- [11]
+					["serverTime"] = 1620940248,
+				}, -- [26]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:07:02]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Geilerstuff:896:CHANNEL:2|h|cffc69b6dGeilerstuff|r|h|cffd8d8d8]|r: WTS |cffa335ee|Hitem:1168:1704:::::::1:::::::|h[Skullflame Shield]|h|r 500g",
+					["message"] = "|cff979797|Hpratcopy|h[03:11:31]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Flachmat:1150:CHANNEL:2|h|cff0070ddFlachmat|r|h|cffd8d8d8]|r: nee das braucht er nicht weil er meinte das sonst zufiel mk-ultra",
 					["r"] = 1,
 					["b"] = 0.752941250801086,
 					["g"] = 0.752941250801086,
-					["timestamp"] = 218753.663,
+					["timestamp"] = 367749.801,
 					["extraData"] = {
 						68, -- [1]
 						false, -- [2]
@@ -395,145 +620,25 @@ Prat3HighCPUPerCharDB = {
 						6, -- [4]
 						["n"] = 4,
 					},
-					["serverTime"] = 1620853622,
-				}, -- [12]
+					["serverTime"] = 1620940290,
+				}, -- [27]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:07:46]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
-					["r"] = 0,
-					["b"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						8, -- [3]
-						9, -- [4]
-						["n"] = 4,
-					},
-					["serverTime"] = 1620853666,
-				}, -- [13]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:07:46]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
-					["r"] = 0,
-					["b"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						8, -- [3]
-						9, -- [4]
-						["n"] = 4,
-					},
-					["serverTime"] = 1620853666,
-				}, -- [14]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:07:47]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx3.",
-					["r"] = 0,
-					["b"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						8, -- [3]
-						9, -- [4]
-						["n"] = 4,
-					},
-					["serverTime"] = 1620853667,
-				}, -- [15]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:07:47]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
-					["r"] = 0,
-					["b"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						8, -- [3]
-						9, -- [4]
-						["n"] = 4,
-					},
-					["serverTime"] = 1620853667,
-				}, -- [16]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:07:47]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
-					["r"] = 0,
-					["b"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						8, -- [3]
-						9, -- [4]
-						["n"] = 4,
-					},
-					["serverTime"] = 1620853667,
-				}, -- [17]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:07:48]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
-					["r"] = 0,
-					["b"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						8, -- [3]
-						9, -- [4]
-						["n"] = 4,
-					},
-					["serverTime"] = 1620853668,
-				}, -- [18]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:08:01]|h|r You lie down before Auctioneer Stampi.",
-					["r"] = 1,
-					["b"] = 0.250980406999588,
-					["g"] = 0.501960813999176,
-					["timestamp"] = 218753.663,
-					["extraData"] = {
-						12, -- [1]
-						false, -- [2]
-						10, -- [3]
-						11, -- [4]
-						["n"] = 4,
-					},
-					["serverTime"] = 1620853681,
-				}, -- [19]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:08:01]|h|r |Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Thunder Bluff]|h",
+					["message"] = "|cff979797|Hpratcopy|h[03:11:37]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Darkleaf-Lucifron:1151:CHANNEL:1|h|cffff7c0aDarkleaf|r|h|cffd8d8d8]|r: wo finde ich hier in TB reagenzien",
 					["r"] = 1,
 					["b"] = 0.752941250801086,
 					["g"] = 0.752941250801086,
-					["timestamp"] = 218753.663,
+					["timestamp"] = 367749.801,
 					["extraData"] = {
 						67, -- [1]
 						false, -- [2]
-						12, -- [3]
-						13, -- [4]
+						8, -- [3]
+						9, -- [4]
 						["n"] = 4,
 					},
-					["serverTime"] = 1620853681,
-				}, -- [20]
+					["serverTime"] = 1620940296,
+				}, -- [28]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:08:01]|h|r |Hchannel:channel:2|h[2] |h Left Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
-					["r"] = 1,
-					["b"] = 0.752941250801086,
-					["g"] = 0.752941250801086,
-					["timestamp"] = 218753.663,
-					["extraData"] = {
-						68, -- [1]
-						false, -- [2]
-						1, -- [3]
-						15, -- [4]
-						["n"] = 4,
-					},
-					["serverTime"] = 1620853681,
-				}, -- [21]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:29:28]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Reev:961:CHANNEL:2|h|cffc69b6dReev|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Washed Up|r|cffffffff>|r sucht für die aktuellen Raids und in Vorbereitung auf TBC: Resto Shaman - Disc Priest - Mage - Rogue - Warri // Montag + Mittwoch 19-23 Uhr // Naxx 15/15 in 1:43h // |cffffffff|Hurl:https://discord.gg/dUkCVqU|h[https://discord.gg/dUkCVqU]|h|r",
+					["message"] = "|cff979797|Hpratcopy|h[03:27:08]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Bananabank:1179:CHANNEL:2|h|cffc69b6dBananabank|r|h|cffd8d8d8]|r: Ret Pala(Tbc) sucht Gilde.",
 					["extraData"] = {
 						68, -- [1]
 						false, -- [2]
@@ -542,13 +647,13 @@ Prat3HighCPUPerCharDB = {
 						["n"] = 4,
 					},
 					["b"] = 0.752941250801086,
-					["serverTime"] = 1620854967,
-					["timestamp"] = 218753.663,
+					["serverTime"] = 1620941228,
+					["timestamp"] = 367749.801,
 					["g"] = 0.752941250801086,
 					["r"] = 1,
-				}, -- [22]
+				}, -- [29]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:30:32]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Bösarsch:968:CHANNEL:2|h|cffaad372Bösarsch|r|h|cffd8d8d8]|r: VK |cff0070dd|Hitem:4090::::::::46:::::::|h[Mug O' Hurt]|h|r 8g",
+					["message"] = "|cff979797|Hpratcopy|h[03:27:19]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Yqshi-Lucifron:1180:CHANNEL:2|h|cffff7c0aYqshi|r|h|cffd8d8d8]|r: WTB |cffa335ee|Hitem:943::::::::45:::::::|h[Stab des Aufsehers]|h|r wme :)",
 					["extraData"] = {
 						68, -- [1]
 						false, -- [2]
@@ -557,13 +662,763 @@ Prat3HighCPUPerCharDB = {
 						["n"] = 4,
 					},
 					["b"] = 0.752941250801086,
-					["serverTime"] = 1620855031,
-					["timestamp"] = 218753.663,
+					["serverTime"] = 1620941239,
+					["timestamp"] = 367749.801,
 					["g"] = 0.752941250801086,
 					["r"] = 1,
-				}, -- [23]
+				}, -- [30]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:30:41]|h|r You lie down before Auctioneer Stampi.",
+					["message"] = "|cff979797|Hpratcopy|h[03:27:23]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Itsatrap:1181:CHANNEL:2|h|cff3fc6eaItsatrap|r|h|cffd8d8d8]|r: Biete Kochguide 1-300 (alle Mats+Rezepte) Kochzeit ca. 20min - Skill-und Zufriedenheitsgarantie (Letzter Guide des Tages :)",
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.752941250801086,
+					["serverTime"] = 1620941243,
+					["timestamp"] = 367749.801,
+					["g"] = 0.752941250801086,
+					["r"] = 1,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:27:29]|h|r You receive item: |cffffffff|Hitem:13755::::::::1:::::::|h[Winter Squid]|h|rx20.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1620941249,
+					["timestamp"] = 367749.801,
+					["g"] = 0.666666686534882,
+					["r"] = 0,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:27:29]|h|r You receive item: |cffffffff|Hitem:13755::::::::1:::::::|h[Winter Squid]|h|rx20.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1620941249,
+					["timestamp"] = 367749.801,
+					["g"] = 0.666666686534882,
+					["r"] = 0,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:48:19]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Dwarrior:1224:CHANNEL:2|h|cff0070ddDwarrior|r|h|cffd8d8d8]|r: suche wen mit dem man deathrolln kann",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 367749.801,
+					["serverTime"] = 1620942498,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:48:33]|h|r You receive item: |cffffffff|Hitem:9061::::::::1:::::::|h[Goblin Rocket Fuel]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["serverTime"] = 1620942512,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:48:33]|h|r You receive item: |cffffffff|Hitem:10505::::::::1:::::::|h[Solid Blasting Powder]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["serverTime"] = 1620942512,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:49:00]|h|r You lie down before Auctioneer Stampi.",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 367749.801,
+					["serverTime"] = 1620942539,
+					["extraData"] = {
+						12, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:10:08]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mijena:1263:CHANNEL:2|h|cffffffffMijena|r|h|cffd8d8d8]|r: Enchanter 300 bietet 30 Heal, 15 Agi + 20 Fire & Shadowdmg Handschuhe, 2% Threat Handschuhe, Umhang Stealth + Subtlety, 30 Spellpower, Crusader, 15 Agi Waffe, 15 NR Cloak, alle Zauberöle uvm. gegen Mats und TG /w me",
+					["serverTime"] = 1620943807,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 367749.801,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:10:29]|h|r Your auction of Stonescale Eel has expired.",
+					["serverTime"] = 1620943828,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 367749.801,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:10:29]|h|r Your auction of Stonescale Eel has expired.",
+					["serverTime"] = 1620943828,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 367749.801,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:10:29]|h|r Your auction of Stonescale Eel has expired.",
+					["serverTime"] = 1620943828,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 367749.801,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:10:34]|h|r Your auction of Stonescale Eel has expired.",
+					["serverTime"] = 1620943833,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 367749.801,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:10:34]|h|r Your auction of Stonescale Eel has expired.",
+					["serverTime"] = 1620943833,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 367749.801,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:10:34]|h|r Your auction of Inlaid Mithril Cylinder has expired.",
+					["serverTime"] = 1620943833,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 367749.801,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:10:34]|h|r Your auction of Stonescale Eel has expired.",
+					["serverTime"] = 1620943833,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 367749.801,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:10:34]|h|r Your auction of Stonescale Eel has expired.",
+					["serverTime"] = 1620943833,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 367749.801,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:10:34]|h|r Your auction of Solid Blasting Powder has expired.",
+					["serverTime"] = 1620943833,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 367749.801,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:10:34]|h|r Your auction of Solid Blasting Powder has expired.",
+					["serverTime"] = 1620943833,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 367749.801,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:10:34]|h|r Your auction of Solid Blasting Powder has expired.",
+					["serverTime"] = 1620943833,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 367749.801,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:10:34]|h|r Your auction of Solid Blasting Powder has expired.",
+					["serverTime"] = 1620943833,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 367749.801,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:11:17]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Boleslaw:1282:CHANNEL:2|h|cff0070ddBoleslaw|r|h|cffd8d8d8]|r: LF LvL 1 Boots /w me",
+					["serverTime"] = 1620943876,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 367749.801,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:32:09]|h|r You receive item: |cffffffff|Hitem:13755::::::::1:::::::|h[Winter Squid]|h|rx20.",
+					["r"] = 0,
+					["b"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1620945128,
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:32:09]|h|r You receive item: |cffffffff|Hitem:13755::::::::1:::::::|h[Winter Squid]|h|rx20.",
+					["r"] = 0,
+					["b"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1620945128,
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:32:09]|h|r You receive item: |cffffffff|Hitem:9060::::::::1:::::::|h[Inlaid Mithril Cylinder]|h|r.",
+					["r"] = 0,
+					["b"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1620945128,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:32:10]|h|r You receive item: |cffffffff|Hitem:10505::::::::1:::::::|h[Solid Blasting Powder]|h|r.",
+					["r"] = 0,
+					["b"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1620945129,
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:32:10]|h|r You receive item: |cffffffff|Hitem:10505::::::::1:::::::|h[Solid Blasting Powder]|h|r.",
+					["r"] = 0,
+					["b"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1620945129,
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:32:15]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
+					["r"] = 0,
+					["b"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1620945134,
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:32:15]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx12.",
+					["r"] = 0,
+					["b"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1620945134,
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:32:15]|h|r You receive item: |cffffffff|Hitem:13422::::::::1:::::::|h[Stonescale Eel]|h|rx20.",
+					["r"] = 0,
+					["b"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1620945134,
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:32:16]|h|r You receive item: |cffffffff|Hitem:13422::::::::1:::::::|h[Stonescale Eel]|h|rx20.",
+					["r"] = 0,
+					["b"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1620945135,
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:32:16]|h|r You receive item: |cffffffff|Hitem:13422::::::::1:::::::|h[Stonescale Eel]|h|rx20.",
+					["r"] = 0,
+					["b"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1620945135,
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:32:16]|h|r You receive item: |cffffffff|Hitem:13422::::::::1:::::::|h[Stonescale Eel]|h|rx20.",
+					["r"] = 0,
+					["b"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1620945135,
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:32:17]|h|r You receive item: |cffffffff|Hitem:10505::::::::1:::::::|h[Solid Blasting Powder]|h|r.",
+					["r"] = 0,
+					["b"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1620945136,
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:32:17]|h|r You receive item: |cffffffff|Hitem:9060::::::::1:::::::|h[Inlaid Mithril Cylinder]|h|r.",
+					["r"] = 0,
+					["b"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1620945136,
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:32:17]|h|r You receive item: |cffffffff|Hitem:13422::::::::1:::::::|h[Stonescale Eel]|h|rx20.",
+					["r"] = 0,
+					["b"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1620945136,
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:32:18]|h|r You receive item: |cffffffff|Hitem:10505::::::::1:::::::|h[Solid Blasting Powder]|h|r.",
+					["r"] = 0,
+					["b"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1620945137,
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:32:18]|h|r You receive item: |cffffffff|Hitem:10505::::::::1:::::::|h[Solid Blasting Powder]|h|r.",
+					["r"] = 0,
+					["b"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1620945137,
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:32:18]|h|r You receive item: |cffffffff|Hitem:13422::::::::1:::::::|h[Stonescale Eel]|h|rx20.",
+					["r"] = 0,
+					["b"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1620945137,
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:32:19]|h|r You receive item: |cffffffff|Hitem:10505::::::::1:::::::|h[Solid Blasting Powder]|h|r.",
+					["r"] = 0,
+					["b"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1620945138,
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:32:19]|h|r You receive item: |cffffffff|Hitem:13422::::::::1:::::::|h[Stonescale Eel]|h|rx20.",
+					["r"] = 0,
+					["b"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1620945138,
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:32:19]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
+					["r"] = 0,
+					["b"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1620945138,
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:32:20]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
+					["r"] = 0,
+					["b"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1620945139,
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:32:20]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
+					["r"] = 0,
+					["b"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1620945139,
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:32:20]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx12.",
+					["r"] = 0,
+					["b"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1620945139,
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:32:21]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
+					["r"] = 0,
+					["b"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1620945140,
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:32:29]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Schranz:1377:CHANNEL:2|h|cff8787edSchranz|r|h|cffd8d8d8]|r: duelle vor og wer sich traut",
+					["r"] = 1,
+					["b"] = 0.752941250801086,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 367749.801,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1620945148,
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:32:35]|h|r You lie down before Auctioneer Stampi.",
+					["r"] = 1,
+					["b"] = 0.250980406999588,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 367749.801,
+					["extraData"] = {
+						12, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1620945154,
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:46:00]|h|r Your auction of |cffffffff|Hitem:13755::::::::1:::::::|h[Winter Squid]|h|r has sold for |cffffffff3|r|cffffd70ag|r |cffffffff98|r|cffc7c7cfs|r |cffffffff80|r|cffeda55fc|r!",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1620945959,
+					["timestamp"] = 367749.801,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:46:03]|h|r Your auction of |cffffffff|Hitem:13755::::::::1:::::::|h[Winter Squid]|h|r has sold for |cffffffff3|r|cffffd70ag|r |cffffffff98|r|cffc7c7cfs|r |cffffffff80|r|cffeda55fc|r!",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1620945962,
+					["timestamp"] = 367749.801,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:46:40]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Schranz:1408:CHANNEL:2|h|cff8787edSchranz|r|h|cffd8d8d8]|r: was mitd uelle ihr slacker",
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.752941250801086,
+					["serverTime"] = 1620945999,
+					["timestamp"] = 367749.801,
+					["g"] = 0.752941250801086,
+					["r"] = 1,
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:47:45]|h|r You lie down before Auctioneer Stampi.",
 					["extraData"] = {
 						12, -- [1]
 						false, -- [2]
@@ -572,13 +1427,13 @@ Prat3HighCPUPerCharDB = {
 						["n"] = 4,
 					},
 					["b"] = 0.250980406999588,
-					["serverTime"] = 1620855040,
-					["timestamp"] = 218753.663,
+					["serverTime"] = 1620946064,
+					["timestamp"] = 367749.801,
 					["g"] = 0.501960813999176,
 					["r"] = 1,
-				}, -- [24]
+				}, -- [81]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:30:41]|h|r |Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Thunder Bluff]|h",
+					["message"] = "|cff979797|Hpratcopy|h[04:47:45]|h|r |Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Thunder Bluff]|h",
 					["extraData"] = {
 						67, -- [1]
 						false, -- [2]
@@ -587,180 +1442,33 @@ Prat3HighCPUPerCharDB = {
 						["n"] = 4,
 					},
 					["b"] = 0.752941250801086,
-					["serverTime"] = 1620855040,
-					["timestamp"] = 218753.663,
+					["serverTime"] = 1620946064,
+					["timestamp"] = 367749.801,
 					["g"] = 0.752941250801086,
 					["r"] = 1,
-				}, -- [25]
+				}, -- [82]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:30:41]|h|r |Hchannel:channel:2|h[2] |h Left Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
+					["message"] = "|cff979797|Hpratcopy|h[05:08:01]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Eichenseele:1473:CHANNEL:2|h|cffff7c0aEichenseele|r|h|cffd8d8d8]|r: Verkaufe: Alchmie-Skill Set 0-300! Alle Mats (Auch Phiolen) + für das Skillen notwendige Rezepte die es nicht meim Lehrer gibt. Dazu die Transmutations-Rezepte und das Stein der Weisen-Rezept! Kein Farmen, kein Warten auf Rezept-Spawns! /w für Infos!",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 367749.801,
+					["serverTime"] = 1620947280,
 					["extraData"] = {
 						68, -- [1]
 						false, -- [2]
 						1, -- [3]
-						11, -- [4]
-						["n"] = 4,
-					},
-					["b"] = 0.752941250801086,
-					["serverTime"] = 1620855040,
-					["timestamp"] = 218753.663,
-					["g"] = 0.752941250801086,
-					["r"] = 1,
-				}, -- [26]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:30:41]|h|r |Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Thunder Bluff]|h",
-					["extraData"] = {
-						69, -- [1]
-						false, -- [2]
-						13, -- [3]
-						14, -- [4]
-						["n"] = 4,
-					},
-					["b"] = 0.752941250801086,
-					["serverTime"] = 1620855040,
-					["timestamp"] = 218753.663,
-					["g"] = 0.752941250801086,
-					["r"] = 1,
-				}, -- [27]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:51:23]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620856283,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
 						2, -- [4]
 						["n"] = 4,
 					},
-				}, -- [28]
+				}, -- [83]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:51:24]|h|r You receive item: |cffffffff|Hitem:13422::::::::1:::::::|h[Stonescale Eel]|h|rx20.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620856284,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [29]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:51:24]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620856284,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [30]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:51:24]|h|r You receive item: |cffffffff|Hitem:13422::::::::1:::::::|h[Stonescale Eel]|h|rx20.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620856284,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [31]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:51:24]|h|r You receive item: |cffffffff|Hitem:13422::::::::1:::::::|h[Stonescale Eel]|h|rx20.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620856284,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [32]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:51:25]|h|r You receive item: |cffffffff|Hitem:13422::::::::1:::::::|h[Stonescale Eel]|h|rx20.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620856285,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [33]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:51:38]|h|r You lie down before Tark.",
+					["message"] = "|cff979797|Hpratcopy|h[05:09:15]|h|r You lie down before Auctioneer Stampi.",
 					["b"] = 0.250980406999588,
 					["r"] = 1,
 					["g"] = 0.501960813999176,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620856298,
-					["extraData"] = {
-						12, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-				}, -- [34]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:05:27]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Häcky:1035:CHANNEL:2|h|cffc69b6dHäcky|r|h|cffd8d8d8]|r: lfm zg 1 heiler 2 dds",
-					["serverTime"] = 1620857127,
-					["r"] = 1,
-					["extraData"] = {
-						68, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 218753.663,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [35]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:05:35]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Häcky-Lucifron:1036:CHANNEL:2|h|cffc69b6dHäcky|r|h|cffd8d8d8]|r: 3 prio",
-					["serverTime"] = 1620857135,
-					["r"] = 1,
-					["extraData"] = {
-						68, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 218753.663,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [36]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:07:21]|h|r You lie down before Auctioneer Stampi.",
-					["serverTime"] = 1620857240,
-					["r"] = 1,
+					["timestamp"] = 367749.801,
+					["serverTime"] = 1620947354,
 					["extraData"] = {
 						12, -- [1]
 						false, -- [2]
@@ -768,449 +1476,133 @@ Prat3HighCPUPerCharDB = {
 						5, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 218753.663,
-					["g"] = 0.501960813999176,
-					["b"] = 0.250980406999588,
-				}, -- [37]
+				}, -- [84]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[04:23:11]|h|r You receive item: |cffffffff|Hitem:13755::::::::1:::::::|h[Winter Squid]|h|rx20.",
-					["r"] = 0,
-					["b"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["serverTime"] = 1620858190,
-				}, -- [38]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:23:11]|h|r You receive item: |cffffffff|Hitem:10561::::::::1:::::::|h[Mithril Casing]|h|r.",
-					["r"] = 0,
-					["b"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["serverTime"] = 1620858190,
-				}, -- [39]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:23:12]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
-					["r"] = 0,
-					["b"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["serverTime"] = 1620858191,
-				}, -- [40]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:23:12]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
-					["r"] = 0,
-					["b"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["serverTime"] = 1620858191,
-				}, -- [41]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:23:12]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
-					["r"] = 0,
-					["b"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["serverTime"] = 1620858191,
-				}, -- [42]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:23:13]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
-					["r"] = 0,
-					["b"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["serverTime"] = 1620858192,
-				}, -- [43]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:23:13]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
-					["r"] = 0,
-					["b"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["serverTime"] = 1620858192,
-				}, -- [44]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:23:14]|h|r You receive item: |cffffffff|Hitem:13755::::::::1:::::::|h[Winter Squid]|h|rx20.",
-					["r"] = 0,
-					["b"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["serverTime"] = 1620858193,
-				}, -- [45]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:23:14]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
-					["r"] = 0,
-					["b"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["serverTime"] = 1620858193,
-				}, -- [46]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:23:38]|h|r You lie down before Auctioneer Stampi.",
-					["r"] = 1,
-					["b"] = 0.250980406999588,
-					["g"] = 0.501960813999176,
-					["timestamp"] = 218753.663,
-					["extraData"] = {
-						12, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-					["serverTime"] = 1620858217,
-				}, -- [47]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:41:55]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Fckwinter:1094:CHANNEL:2|h|cff0070ddFckwinter|r|h|cffd8d8d8]|r: WTB |cffffffff|Hitem:6471::::::::60:::::::|h[Perfekte Deviatschuppe]|h|r",
-					["extraData"] = {
-						68, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["b"] = 0.752941250801086,
-					["serverTime"] = 1620859315,
-					["timestamp"] = 218753.663,
-					["g"] = 0.752941250801086,
-					["r"] = 1,
-				}, -- [48]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:43:41]|h|r You lie down before Auctioneer Stampi.",
-					["extraData"] = {
-						12, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["b"] = 0.250980406999588,
-					["serverTime"] = 1620859421,
-					["timestamp"] = 218753.663,
-					["g"] = 0.501960813999176,
-					["r"] = 1,
-				}, -- [49]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:58:44]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx12.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620860323,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [50]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:58:44]|h|r You receive item: |cffffffff|Hitem:13755::::::::1:::::::|h[Winter Squid]|h|rx20.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620860323,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [51]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:58:45]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620860324,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [52]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:58:45]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620860324,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [53]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:58:45]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620860324,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [54]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:58:46]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620860325,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [55]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:58:46]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620860325,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [56]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:58:46]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620860325,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [57]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:58:47]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620860326,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [58]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:58:53]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Oldgazzo:1136:CHANNEL:2|h|cff8787edOldgazzo|r|h|cffd8d8d8]|r: suche 3 lavakerne",
+					["message"] = "|cff979797|Hpratcopy|h[05:09:15]|h|r |Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Thunder Bluff]|h",
 					["b"] = 0.752941250801086,
 					["r"] = 1,
 					["g"] = 0.752941250801086,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620860332,
-					["extraData"] = {
-						68, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-				}, -- [59]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:58:58]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Fckwinter:1137:CHANNEL:2|h|cff0070ddFckwinter|r|h|cffd8d8d8]|r: WTB |cffffffff|Hitem:6471::::::::60:::::::|h[Perfekte Deviatschuppe]|h|r",
-					["b"] = 0.752941250801086,
-					["r"] = 1,
-					["g"] = 0.752941250801086,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620860337,
-					["extraData"] = {
-						68, -- [1]
-						false, -- [2]
-						3, -- [3]
-						6, -- [4]
-						["n"] = 4,
-					},
-				}, -- [60]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:59:11]|h|r |Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Thunder Bluff]|h",
-					["b"] = 0.752941250801086,
-					["r"] = 1,
-					["g"] = 0.752941250801086,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620860350,
+					["timestamp"] = 367749.801,
+					["serverTime"] = 1620947354,
 					["extraData"] = {
 						67, -- [1]
 						false, -- [2]
-						8, -- [3]
-						9, -- [4]
-						["n"] = 4,
-					},
-				}, -- [61]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:59:11]|h|r |Hchannel:channel:2|h[2] |h Left Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
-					["b"] = 0.752941250801086,
-					["r"] = 1,
-					["g"] = 0.752941250801086,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620860350,
-					["extraData"] = {
-						68, -- [1]
-						false, -- [2]
-						3, -- [3]
-						11, -- [4]
-						["n"] = 4,
-					},
-				}, -- [62]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:59:11]|h|r |Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Thunder Bluff]|h",
-					["b"] = 0.752941250801086,
-					["r"] = 1,
-					["g"] = 0.752941250801086,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620860350,
-					["extraData"] = {
-						69, -- [1]
-						false, -- [2]
-						13, -- [3]
-						14, -- [4]
-						["n"] = 4,
-					},
-				}, -- [63]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[05:13:47]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Jassu:1162:CHANNEL:2|h|cffaad372Jassu|r|h|cffd8d8d8]|r: LF VZ fuer 15 Agi Handschuhe und 7 Agi Boots",
-					["serverTime"] = 1620861226,
-					["r"] = 1,
-					["extraData"] = {
-						68, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 218753.663,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [64]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[05:14:41]|h|r |Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Thunder Bluff]|h",
-					["serverTime"] = 1620861280,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 218753.663,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [65]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[05:14:41]|h|r |Hchannel:channel:2|h[2] |h Left Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
-					["serverTime"] = 1620861280,
-					["r"] = 1,
-					["extraData"] = {
-						68, -- [1]
-						false, -- [2]
-						1, -- [3]
+						6, -- [3]
 						7, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 218753.663,
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:09:15]|h|r |Hchannel:channel:2|h[2] |h Left Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 367749.801,
+					["serverTime"] = 1620947354,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:09:15]|h|r |Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Thunder Bluff]|h",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 367749.801,
+					["serverTime"] = 1620947354,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:25:11]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Playkíng:1522:CHANNEL:2|h|cffc69b6dPlaykíng|r|h|cffd8d8d8]|r: WTS 100HP für Kopf/Hose,",
+					["serverTime"] = 1620948310,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 367749.801,
 					["g"] = 0.752941250801086,
 					["b"] = 0.752941250801086,
-				}, -- [66]
+				}, -- [88]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[05:14:41]|h|r |Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Thunder Bluff]|h",
-					["serverTime"] = 1620861280,
+					["message"] = "|cff979797|Hpratcopy|h[05:25:33]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tanky:1527:CHANNEL:2|h|cffc69b6dTanky|r|h|cffd8d8d8]|r: wts |cffffffff|Hitem:14047::::::::1:::::::|h[Runenstoff]|h|r 3,5g/stack",
+					["serverTime"] = 1620948332,
 					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 367749.801,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:50:11]|h|r You lie down before Auctioneer Stampi.",
+					["r"] = 1,
+					["b"] = 0.250980406999588,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 367749.801,
+					["extraData"] = {
+						12, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1620949810,
+				}, -- [90]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:50:11]|h|r |Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Thunder Bluff]|h",
+					["r"] = 1,
+					["b"] = 0.752941250801086,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 367749.801,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1620949810,
+				}, -- [91]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:50:11]|h|r |Hchannel:channel:2|h[2] |h Left Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
+					["r"] = 1,
+					["b"] = 0.752941250801086,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 367749.801,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1620949810,
+				}, -- [92]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:50:11]|h|r |Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Thunder Bluff]|h",
+					["r"] = 1,
+					["b"] = 0.752941250801086,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 367749.801,
 					["extraData"] = {
 						69, -- [1]
 						false, -- [2]
@@ -1218,725 +1610,403 @@ Prat3HighCPUPerCharDB = {
 						10, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 218753.663,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [67]
+					["serverTime"] = 1620949810,
+				}, -- [93]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[05:30:03]|h|r You receive item: |cffffffff|Hitem:13755::::::::1:::::::|h[Winter Squid]|h|rx20.",
-					["r"] = 0,
-					["b"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["serverTime"] = 1620862202,
-				}, -- [68]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[05:30:04]|h|r You receive item: |cffffffff|Hitem:13755::::::::1:::::::|h[Winter Squid]|h|rx20.",
-					["r"] = 0,
-					["b"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["serverTime"] = 1620862203,
-				}, -- [69]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[05:30:04]|h|r You receive item: |cffffffff|Hitem:10561::::::::1:::::::|h[Mithril Casing]|h|r.",
-					["r"] = 0,
-					["b"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["serverTime"] = 1620862203,
-				}, -- [70]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[05:30:04]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
-					["r"] = 0,
-					["b"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["serverTime"] = 1620862203,
-				}, -- [71]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[05:30:05]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
-					["r"] = 0,
-					["b"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["serverTime"] = 1620862204,
-				}, -- [72]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[05:30:05]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
-					["r"] = 0,
-					["b"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["serverTime"] = 1620862204,
-				}, -- [73]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[05:30:06]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
-					["r"] = 0,
-					["b"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["serverTime"] = 1620862205,
-				}, -- [74]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[05:30:06]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
-					["r"] = 0,
-					["b"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["serverTime"] = 1620862205,
-				}, -- [75]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[05:30:06]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
-					["r"] = 0,
-					["b"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["serverTime"] = 1620862205,
-				}, -- [76]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[05:30:24]|h|r Your auction of Firefin Snapper has expired.",
-					["r"] = 1,
-					["b"] = 0,
-					["g"] = 1,
-					["timestamp"] = 218753.663,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-					["serverTime"] = 1620862223,
-				}, -- [77]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[05:30:24]|h|r Your auction of Firefin Snapper has expired.",
-					["r"] = 1,
-					["b"] = 0,
-					["g"] = 1,
-					["timestamp"] = 218753.663,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-					["serverTime"] = 1620862223,
-				}, -- [78]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[05:30:24]|h|r Your auction of Firefin Snapper has expired.",
-					["r"] = 1,
-					["b"] = 0,
-					["g"] = 1,
-					["timestamp"] = 218753.663,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-					["serverTime"] = 1620862223,
-				}, -- [79]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[05:30:24]|h|r Your auction of Firefin Snapper has expired.",
-					["r"] = 1,
-					["b"] = 0,
-					["g"] = 1,
-					["timestamp"] = 218753.663,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-					["serverTime"] = 1620862223,
-				}, -- [80]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[05:30:24]|h|r Your auction of Firefin Snapper has expired.",
-					["r"] = 1,
-					["b"] = 0,
-					["g"] = 1,
-					["timestamp"] = 218753.663,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-					["serverTime"] = 1620862223,
-				}, -- [81]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[05:30:24]|h|r Your auction of Firefin Snapper has expired.",
-					["r"] = 1,
-					["b"] = 0,
-					["g"] = 1,
-					["timestamp"] = 218753.663,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-					["serverTime"] = 1620862223,
-				}, -- [82]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[05:30:29]|h|r You lie down before Auctioneer Stampi.",
-					["r"] = 1,
-					["b"] = 0.250980406999588,
-					["g"] = 0.501960813999176,
-					["timestamp"] = 218753.663,
+					["message"] = "|cff979797|Hpratcopy|h[06:09:16]|h|r You lie down before Auctioneer Stampi.",
 					["extraData"] = {
 						12, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.250980406999588,
+					["serverTime"] = 1620950955,
+					["timestamp"] = 367749.801,
+					["g"] = 0.501960813999176,
+					["r"] = 1,
+				}, -- [94]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:28:32]|h|r You receive item: |cffffffff|Hitem:13422::::::::1:::::::|h[Stonescale Eel]|h|rx20.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["serverTime"] = 1620952111,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [95]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:28:32]|h|r You receive item: |cffffffff|Hitem:13422::::::::1:::::::|h[Stonescale Eel]|h|rx20.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["serverTime"] = 1620952111,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [96]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:28:32]|h|r You receive item: |cffffffff|Hitem:13422::::::::1:::::::|h[Stonescale Eel]|h|rx20.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["serverTime"] = 1620952111,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [97]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:28:33]|h|r You receive item: |cffffffff|Hitem:13422::::::::1:::::::|h[Stonescale Eel]|h|rx16.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["serverTime"] = 1620952112,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [98]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:28:33]|h|r You receive item: |cffffffff|Hitem:13422::::::::1:::::::|h[Stonescale Eel]|h|rx20.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["serverTime"] = 1620952112,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [99]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:28:34]|h|r You receive item: |cffffffff|Hitem:13422::::::::1:::::::|h[Stonescale Eel]|h|rx20.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["serverTime"] = 1620952113,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [100]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:28:34]|h|r You receive item: |cffffffff|Hitem:13422::::::::1:::::::|h[Stonescale Eel]|h|rx20.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["serverTime"] = 1620952113,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [101]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:28:34]|h|r You receive item: |cffffffff|Hitem:13422::::::::1:::::::|h[Stonescale Eel]|h|rx20.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["serverTime"] = 1620952113,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [102]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:28:35]|h|r You receive item: |cffffffff|Hitem:13422::::::::1:::::::|h[Stonescale Eel]|h|rx20.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["serverTime"] = 1620952114,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [103]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:28:35]|h|r You receive item: |cffffffff|Hitem:13422::::::::1:::::::|h[Stonescale Eel]|h|rx20.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["serverTime"] = 1620952114,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [104]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:28:35]|h|r You receive item: |cffffffff|Hitem:13755::::::::1:::::::|h[Winter Squid]|h|rx20.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 367749.801,
+					["serverTime"] = 1620952114,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [105]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:28:59]|h|r You lie down before Auctioneer Stampi.",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 367749.801,
+					["serverTime"] = 1620952138,
+					["extraData"] = {
+						12, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [106]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[06:28:59]|h|r |Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Thunder Bluff]|h",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 367749.801,
+					["serverTime"] = 1620952138,
+					["extraData"] = {
+						67, -- [1]
 						false, -- [2]
 						5, -- [3]
 						6, -- [4]
 						["n"] = 4,
 					},
-					["serverTime"] = 1620862228,
-				}, -- [83]
+				}, -- [107]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[05:52:55]|h|r You lie down before Auctioneer Stampi.",
-					["extraData"] = {
-						12, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["b"] = 0.250980406999588,
-					["serverTime"] = 1620863575,
-					["timestamp"] = 218753.663,
-					["g"] = 0.501960813999176,
-					["r"] = 1,
-				}, -- [84]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[05:52:55]|h|r |Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Thunder Bluff]|h",
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-					["b"] = 0.752941250801086,
-					["serverTime"] = 1620863575,
-					["timestamp"] = 218753.663,
-					["g"] = 0.752941250801086,
-					["r"] = 1,
-				}, -- [85]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:07:00]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Sarpentia:1293:CHANNEL:2|h|cffffffffSarpentia|r|h|cffd8d8d8]|r: selling lips and faps and lips and faps",
+					["message"] = "|cff979797|Hpratcopy|h[06:28:59]|h|r |Hchannel:channel:2|h[2] |h Left Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
 					["b"] = 0.752941250801086,
 					["r"] = 1,
 					["g"] = 0.752941250801086,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620864420,
+					["timestamp"] = 367749.801,
+					["serverTime"] = 1620952138,
 					["extraData"] = {
 						68, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [86]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:07:04]|h|r Your auction of Firefin Snapper has expired.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620864424,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [87]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:07:04]|h|r Your auction of Firefin Snapper has expired.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620864424,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [88]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:07:04]|h|r Your auction of Stonescale Eel has expired.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620864424,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [89]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:07:04]|h|r Your auction of Stonescale Eel has expired.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620864424,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [90]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:07:04]|h|r Your auction of Stonescale Eel has expired.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620864424,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [91]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:07:04]|h|r Your auction of Stonescale Eel has expired.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620864424,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [92]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:07:04]|h|r Your auction of Stonescale Eel has expired.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620864424,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [93]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:07:04]|h|r Your auction of Stonescale Eel has expired.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620864424,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [94]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:07:04]|h|r Your auction of Stonescale Eel has expired.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620864424,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-				}, -- [95]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:07:28]|h|r You receive item: |cffffffff|Hitem:10505::::::::1:::::::|h[Solid Blasting Powder]|h|r.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620864448,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						6, -- [3]
-						7, -- [4]
-						["n"] = 4,
-					},
-				}, -- [96]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:07:29]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620864449,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						6, -- [3]
-						7, -- [4]
-						["n"] = 4,
-					},
-				}, -- [97]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:07:29]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620864449,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						6, -- [3]
-						7, -- [4]
-						["n"] = 4,
-					},
-				}, -- [98]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:07:29]|h|r You receive item: |cffffffff|Hitem:6359::::::::1:::::::|h[Firefin Snapper]|h|rx20.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620864449,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						6, -- [3]
-						7, -- [4]
-						["n"] = 4,
-					},
-				}, -- [99]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:07:30]|h|r You receive item: |cffffffff|Hitem:10505::::::::1:::::::|h[Solid Blasting Powder]|h|r.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620864450,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						6, -- [3]
-						7, -- [4]
-						["n"] = 4,
-					},
-				}, -- [100]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:07:30]|h|r You receive item: |cffffffff|Hitem:10505::::::::1:::::::|h[Solid Blasting Powder]|h|r.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620864450,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						6, -- [3]
-						7, -- [4]
-						["n"] = 4,
-					},
-				}, -- [101]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:07:31]|h|r You receive item: |cffffffff|Hitem:9060::::::::1:::::::|h[Inlaid Mithril Cylinder]|h|r.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620864451,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						6, -- [3]
-						7, -- [4]
-						["n"] = 4,
-					},
-				}, -- [102]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:07:31]|h|r You receive item: |cffffffff|Hitem:13422::::::::1:::::::|h[Stonescale Eel]|h|rx20.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620864451,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						6, -- [3]
-						7, -- [4]
-						["n"] = 4,
-					},
-				}, -- [103]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:07:32]|h|r You receive item: |cffffffff|Hitem:13422::::::::1:::::::|h[Stonescale Eel]|h|rx20.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620864452,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						6, -- [3]
-						7, -- [4]
-						["n"] = 4,
-					},
-				}, -- [104]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:07:32]|h|r You receive item: |cffffffff|Hitem:13422::::::::1:::::::|h[Stonescale Eel]|h|rx20.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620864452,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						6, -- [3]
-						7, -- [4]
-						["n"] = 4,
-					},
-				}, -- [105]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:07:32]|h|r You receive item: |cffffffff|Hitem:13422::::::::1:::::::|h[Stonescale Eel]|h|rx20.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.666666686534882,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620864452,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						6, -- [3]
-						7, -- [4]
-						["n"] = 4,
-					},
-				}, -- [106]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:07:55]|h|r You lie down before Auctioneer Stampi.",
-					["b"] = 0.250980406999588,
-					["r"] = 1,
-					["g"] = 0.501960813999176,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620864475,
-					["extraData"] = {
-						12, -- [1]
 						false, -- [2]
 						8, -- [3]
 						9, -- [4]
 						["n"] = 4,
 					},
-				}, -- [107]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:07:55]|h|r |Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Thunder Bluff]|h",
-					["b"] = 0.752941250801086,
-					["r"] = 1,
-					["g"] = 0.752941250801086,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620864475,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						10, -- [3]
-						11, -- [4]
-						["n"] = 4,
-					},
 				}, -- [108]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:07:55]|h|r |Hchannel:channel:2|h[2] |h Left Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
+					["message"] = "|cff979797|Hpratcopy|h[06:28:59]|h|r |Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Thunder Bluff]|h",
 					["b"] = 0.752941250801086,
 					["r"] = 1,
 					["g"] = 0.752941250801086,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620864475,
+					["timestamp"] = 367749.801,
+					["serverTime"] = 1620952138,
 					["extraData"] = {
-						68, -- [1]
+						69, -- [1]
 						false, -- [2]
-						1, -- [3]
-						13, -- [4]
+						11, -- [3]
+						12, -- [4]
 						["n"] = 4,
 					},
 				}, -- [109]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:07:55]|h|r |Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Thunder Bluff]|h",
-					["b"] = 0.752941250801086,
-					["r"] = 1,
-					["g"] = 0.752941250801086,
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620864475,
-					["extraData"] = {
-						69, -- [1]
-						false, -- [2]
-						15, -- [3]
-						16, -- [4]
-						["n"] = 4,
-					},
+					["message"] = "0 days, 17 hours, 22 minutes, 11 seconds",
+					["timestamp"] = 367749.801,
 				}, -- [110]
 				{
-					["message"] = "0 days, 0 hours, 19 minutes, 58 seconds",
-					["timestamp"] = 218753.663,
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 367749.801,
 				}, -- [111]
 				{
-					["message"] = "========== End of Scrollback ==========",
-					["timestamp"] = 218753.663,
+					["message"] = "|cff979797|Hpratcopy|h[23:51:08]|h|r Fishing Buddy v0.7.3 Beta 5 loaded",
+					["timestamp"] = 367749.206,
 				}, -- [112]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:27:52]|h|r Fishing Buddy v0.7.3 Beta 5 loaded",
-					["timestamp"] = 218753.03,
+					["message"] = "|cff979797|Hpratcopy|h[23:51:09]|h|r |CFFFFFF00[Details!]: To use Tiny Threat: right click the title bar and select Tiny Threat.",
+					["timestamp"] = 367749.801,
+					["serverTime"] = 1621014669,
 				}, -- [113]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:27:53]|h|r |CFFFFFF00[Details!]: To use Tiny Threat: right click the title bar and select Tiny Threat.",
-					["timestamp"] = 218753.663,
-					["serverTime"] = 1620865673,
-				}, -- [114]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[06:27:58]|h|r HealBot |cff20ff201.13.7.1|r loaded. For help use: |cffffff00 /hb h|r",
+					["message"] = "|cff979797|Hpratcopy|h[23:51:14]|h|r HealBot |cff20ff201.13.7.1|r loaded. For help use: |cffffff00 /hb h|r",
 					["r"] = 0.7,
-					["serverTime"] = 1620865678,
-					["timestamp"] = 218759.465,
+					["serverTime"] = 1621014674,
+					["timestamp"] = 367755.348,
 					["g"] = 0.7,
 					["b"] = 1,
-				}, -- [115]
+				}, -- [114]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:29:41]|h|r |Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Thunder Bluff]|h",
-					["serverTime"] = 1620865780,
+					["message"] = "|cff979797|Hpratcopy|h[23:51:16]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Cptiglo:1:CHANNEL:2|h|cffc69b6dCptiglo|r|h|cffd8d8d8]|r: WTS |cffa335ee|Hitem:2243::::::::5:::::::|h[Hand von Edgar dem Seltsamen]|h|r|cffa335ee|Hitem:868::::::::5:::1::::|h[Inbrünstiger Hüter]|h|r|cff0070dd|Hitem:23203::::::::5:::::::|h[Buchband der Inbrunst]|h|r|cff1eff00|Hitem:13521::::::::5:::1::::|h[Rezept: Fläschchen mit oberster Macht]|h|r",
+					["serverTime"] = 1621014676,
 					["r"] = 1,
 					["extraData"] = {
-						67, -- [1]
+						68, -- [1]
 						false, -- [2]
 						1, -- [3]
 						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 218862.148,
+					["timestamp"] = 367756.998,
 					["g"] = 0.752941250801086,
 					["b"] = 0.752941250801086,
-				}, -- [116]
+				}, -- [115]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:29:41]|h|r |Hchannel:channel:2|h[2] |h Left Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
-					["serverTime"] = 1620865780,
+					["message"] = "|cff979797|Hpratcopy|h[23:51:19]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Bankianer:2:CHANNEL:2|h|cff0070ddBankianer|r|h|cffd8d8d8]|r: WTS |cffa335ee|Hitem:811::::::::1:::1::::|h[Axt des Tiefwaldes]|h|r",
+					["serverTime"] = 1621014679,
 					["r"] = 1,
 					["extraData"] = {
 						68, -- [1]
 						false, -- [2]
-						4, -- [3]
-						5, -- [4]
+						1, -- [3]
+						4, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 218862.148,
+					["timestamp"] = 367760.448,
 					["g"] = 0.752941250801086,
 					["b"] = 0.752941250801086,
-				}, -- [117]
+				}, -- [116]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[06:29:41]|h|r |Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Thunder Bluff]|h",
-					["serverTime"] = 1620865780,
+					["message"] = "|cff979797|Hpratcopy|h[23:51:37]|h|r |Hplayer:Auho:0:TEXT_EMOTE:|h|cffc69b6dAuho|r|h lies down.",
+					["serverTime"] = 1621014697,
 					["r"] = 1,
 					["extraData"] = {
-						69, -- [1]
+						12, -- [1]
 						false, -- [2]
-						7, -- [3]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 367778.148,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [117]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:51:50]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Nottroll:3:CHANNEL:2|h|cfffff468Nottroll|r|h|cffd8d8d8]|r: WTS |cff1eff00|Hitem:13468::::::::1:::::::|h[Black Lotus]|h|r",
+					["serverTime"] = 1621014710,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
 						8, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 218862.148,
+					["timestamp"] = 367791.248,
 					["g"] = 0.752941250801086,
 					["b"] = 0.752941250801086,
 				}, -- [118]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:52:08]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Housman:4:CHANNEL:2|h|cff3fc6eaHousman|r|h|cffd8d8d8]|r: wtb thoriumbarren",
+					["serverTime"] = 1621014728,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 367809.748,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
+				}, -- [119]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:52:21]|h|r |cff33ff99TradeSkillMaster|r: Sold [Stonescale Eel]x20 for |cff00ff001|r|cffffd70ag|r |cff00ff0086|r|cffc7c7cfs|r |cff00ff0020|r|cffeda55fc|r to Nudelboxx",
+					["timestamp"] = 367821.965,
+					["serverTime"] = 1621014740,
+				}, -- [120]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:52:21]|h|r |cff33ff99TradeSkillMaster|r: Sold [Stonescale Eel]x20 for |cff00ff001|r|cffffd70ag|r |cff00ff0086|r|cffc7c7cfs|r |cff00ff0020|r|cffeda55fc|r to Nudelboxx",
+					["timestamp"] = 367822.147,
+					["serverTime"] = 1621014740,
+				}, -- [121]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:52:21]|h|r |cff33ff99TradeSkillMaster|r: Sold [Stonescale Eel]x20 for |cff00ff001|r|cffffd70ag|r |cff00ff0086|r|cffc7c7cfs|r |cff00ff0020|r|cffeda55fc|r to Nudelboxx",
+					["timestamp"] = 367822.374,
+					["serverTime"] = 1621014740,
+				}, -- [122]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:52:21]|h|r |cff33ff99TradeSkillMaster|r: Sold [Stonescale Eel]x20 for |cff00ff001|r|cffffd70ag|r |cff00ff0086|r|cffc7c7cfs|r |cff00ff0020|r|cffeda55fc|r to Nudelboxx",
+					["timestamp"] = 367822.602,
+					["serverTime"] = 1621014740,
+				}, -- [123]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:52:21]|h|r |cff33ff99TradeSkillMaster|r: Sold [Stonescale Eel]x20 for |cff00ff001|r|cffffd70ag|r |cff00ff0086|r|cffc7c7cfs|r |cff00ff0020|r|cffeda55fc|r to Nudelboxx",
+					["timestamp"] = 367822.783,
+					["serverTime"] = 1621014740,
+				}, -- [124]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:52:22]|h|r |cff33ff99TradeSkillMaster|r: Sold [Winter Squid]x20 for |cff00ff003|r|cffffd70ag|r |cff00ff0078|r|cffc7c7cfs|r |cff00ff0086|r|cffeda55fc|r to Shishtarbeit",
+					["timestamp"] = 367823.011,
+					["serverTime"] = 1621014741,
+				}, -- [125]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:52:22]|h|r |cff33ff99TradeSkillMaster|r: Sold [Winter Squid]x20 for |cff00ff003|r|cffffd70ag|r |cff00ff0078|r|cffc7c7cfs|r |cff00ff0086|r|cffeda55fc|r to Shishtarbeit",
+					["timestamp"] = 367823.193,
+					["serverTime"] = 1621014741,
+				}, -- [126]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:52:22]|h|r |cff33ff99TradeSkillMaster|r: Total Gold Collected: 16|cffffd70ag|r 89|cffc7c7cfs|r 36|cffeda55fc|r",
+					["timestamp"] = 367823.193,
+					["serverTime"] = 1621014741,
+				}, -- [127]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:52:24]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Høkuspøkus:5:CHANNEL:2|h|cff3fc6eaHøkuspøkus|r|h|cffd8d8d8]|r: suche enchanter für +4 stats",
+					["serverTime"] = 1621014743,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 367825.269,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
+				}, -- [128]
 			},
 			["maxElements"] = 128,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
