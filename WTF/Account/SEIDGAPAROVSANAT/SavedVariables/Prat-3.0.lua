@@ -14,17 +14,18 @@ Prat3DB = {
 				["Default"] = {
 					["initialized"] = true,
 					["minchatwidth"] = 31,
+					["removeclamp"] = false,
 					["maxchatheightdefault"] = 399.999969482422,
 					["maxchatheight"] = 465,
 					["rememberframepositions"] = true,
-					["minchatwidthdefault"] = 296,
+					["maxchatwidth"] = 573,
 					["framemetrics"] = {
 						{
 							["point"] = "BOTTOMLEFT",
-							["xOffset"] = 0.000975076846857795,
-							["yOffset"] = 0.150369066417881,
-							["height"] = 291.999969482422,
+							["xOffset"] = 0.00271126532530366,
 							["width"] = 370.145294189453,
+							["height"] = 291.999938964844,
+							["yOffset"] = 0.167591265727131,
 						}, -- [1]
 						nil, -- [2]
 						{
@@ -68,9 +69,9 @@ Prat3DB = {
 							["yOffset"] = 0.0269729997962713,
 						}, -- [10]
 					},
-					["maxchatwidth"] = 573,
-					["maxchatwidthdefault"] = 608,
 					["minchatheight"] = 292,
+					["maxchatwidthdefault"] = 608.000061035156,
+					["minchatwidthdefault"] = 296,
 				},
 			},
 		},
@@ -82,30 +83,25 @@ Prat3DB = {
 		},
 		["Prat_UrlCopy"] = {
 		},
-		["Prat_KeyBindings"] = {
+		["Prat_Bubbles"] = {
 		},
 		["Prat_Timestamps"] = {
 		},
-		["Prat_Scroll"] = {
+		["Prat_Sounds"] = {
 		},
 		["Prat_ChannelNames"] = {
 		},
-		["Prat_Bubbles"] = {
+		["Prat_KeyBindings"] = {
 		},
 		["Prat_ChatLog"] = {
 		},
-		["Prat_Sounds"] = {
+		["Prat_Scroll"] = {
 		},
 		["Prat_ChannelSticky"] = {
 		},
 		["Prat_Achievements"] = {
 		},
-		["Prat_History"] = {
-			["profiles"] = {
-				["Default"] = {
-					["chatlines"] = 5000,
-				},
-			},
+		["Prat_Font"] = {
 		},
 		["Prat_Alias"] = {
 		},
@@ -119,7 +115,12 @@ Prat3DB = {
 		},
 		["Prat_Invites"] = {
 		},
-		["Prat_Font"] = {
+		["Prat_History"] = {
+			["profiles"] = {
+				["Default"] = {
+					["chatlines"] = 5000,
+				},
+			},
 		},
 		["Prat_CopyChat"] = {
 		},
@@ -146,15 +147,15 @@ Prat3DB = {
 		["Фаерфигня - Рок-Делар"] = "Default",
 		["Деларива - Рок-Делар"] = "Default",
 		["Оод - Пламегор"] = "Default",
-		["Ооб - Пламегор"] = "Default",
-		["Каспиголд - Пламегор"] = "Default",
-		["Исцелю - Рок-Делар"] = "Default",
 		["Тектрел - Рок-Делар"] = "Default",
+		["Исцелю - Рок-Делар"] = "Default",
+		["Каспиголд - Пламегор"] = "Default",
+		["Ооб - Пламегор"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["modules"] = {
-				["Alias"] = 2,
+				["ChatLog"] = 2,
 				["Mentions"] = 2,
 				["PopupMessage"] = 2,
 				["AltNames"] = 2,
@@ -162,7 +163,7 @@ Prat3DB = {
 				["Paragraph"] = 2,
 				["KeyBindings"] = 2,
 				["OriginalButtons"] = 2,
-				["ChatLog"] = 2,
+				["Alias"] = 2,
 			},
 		},
 	},

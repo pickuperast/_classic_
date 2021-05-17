@@ -88,7 +88,12 @@ _detalhes_database = {
 			["point"] = "CENTER",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["author"] = "Details! Team",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -96,14 +101,8 @@ _detalhes_database = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["main_frame_strata"] = "LOW",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["y"] = -1.525878906250e-05,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -115,16 +114,16 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
 			},
+			["font_size"] = 10,
 			["x"] = 3.05175781250e-05,
 			["font_face"] = "Friz Quadrata TT",
+			["y"] = -1.525878906250e-05,
 			["use_spark"] = true,
-			["font_size"] = 10,
-			["main_frame_strata"] = "LOW",
+			["author"] = "Details! Team",
 			["main_frame_locked"] = false,
 			["arrow_anchor_y"] = 0,
 		},
 	},
-	["last_day"] = "14",
 	["cached_talents"] = {
 	},
 	["announce_prepots"] = {
@@ -132,6 +131,7 @@ _detalhes_database = {
 		["channel"] = "SELF",
 		["reverse"] = false,
 	},
+	["last_day"] = "15",
 	["benchmark_db"] = {
 		["frame"] = {
 		},
@@ -144,7 +144,7 @@ _detalhes_database = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["combat_counter"] = 34,
+	["combat_counter"] = 38,
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -289,10 +289,10 @@ _detalhes_database = {
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
-					["y"] = -84.3620758056641,
-					["x"] = -40.0599060058594,
+					["y"] = -84.362060546875,
+					["x"] = -277.509216308594,
 					["w"] = 310.000305175781,
-					["h"] = 158.000045776367,
+					["h"] = 158.000030517578,
 				},
 				["solo"] = {
 					["y"] = 2,
@@ -304,7 +304,7 @@ _detalhes_database = {
 		}, -- [1]
 	},
 	["character_data"] = {
-		["logons"] = 17,
+		["logons"] = 19,
 	},
 	["announce_cooldowns"] = {
 		["enabled"] = false,

@@ -6,6 +6,7 @@ CHANNELS
 Общий 0 1 0
 Торговля 0 2 0
 ОборонаЛокальный 0 3 0
+ПоискСпутников 1 4 0
 END
 
 ZONECHANNELS 0
@@ -156,6 +157,7 @@ COMBAT_HONOR_GAIN
 END
 
 CHANNELS
+ПоискСпутников
 END
 
 ZONECHANNELS 2097155

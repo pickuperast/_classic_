@@ -22,6 +22,9 @@ VER 3 0000000000000009 "foll" "INV_MISC_QUESTIONMARK"
 /assist Народныйбанк
 /cast Порча
 END
+VER 3 0000000000000010 "log" "135768"
+/logout
+END
 VER 3 0000000000000007 "O1" "INV_MISC_QUESTIONMARK"
 /use Моллюск-болтун
 /use Тяжелый ящик
@@ -35,12 +38,21 @@ END
 VER 3 0000000000000003 "SELL" "132102"
 /yell продам облик пирата/ниндзя на 1ч за 25 серебра
 END
+VER 3 0000000000000011 "SELL" "136044"
+/2 продам |cffffffff|Hitem:5634::::::::51:::::::|h[Зелье свободы действий]|h|r и |cffffffff|Hitem:6372::::::::51:::::::|h[Зелье быстрого плавания]|h|r 2г/шт можно почтой
+END
 VER 3 000000000000000D "TAR" "INV_MISC_QUESTIONMARK"
 /target Аукционер Краснушка
+END
+VER 3 0000000000000012 "test2" "INV_MISC_QUESTIONMARK"
+/script SendChatMessage(""..select(2,GetItemInfo13512)).."","channel",nil,1)
 END
 VER 3 0000000000000002 "ДА" "132100"
 /4 куплю крафт инженера Экстремальные очки силы заклинаний
 END
 VER 3 0000000000000001 "вы" "132185"
 /2 ищу кузнеца
+END
+VER 3 0000000000000013 "еуые3" "INV_MISC_QUESTIONMARK"
+/script MacroFrameText:Insert("")
 END

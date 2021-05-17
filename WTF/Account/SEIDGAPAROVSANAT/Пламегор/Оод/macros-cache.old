@@ -1,3 +1,8 @@
+VER 3 000000000100000D "5" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast [mod:alt] or [button:2] Разорвать; Свирепый укус
+END
 VER 3 000000000100000B "BASH" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /stand
@@ -49,6 +54,23 @@ VER 3 0000000001000008 "Cancelform5" "INV_MISC_QUESTIONMARK"
 /cancelform [noform:1]
 /cast !Облик лютого медведя
 END
+VER 3 000000000100000A "Cat" "132115"
+#showtooltip
+/stand
+/dismount
+/cancelform [noform:3]
+/cast [noform:3] Облик кошки
+END
+VER 3 000000000100000E "Cat1" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast [nostealth] КОГТИ; НАСКОК
+END
+VER 3 000000000100000F "Cat2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast [nostealth] ПОЛОСНУТЬ; НАКИНУТЬСЯ
+END
 VER 3 0000000001000002 "Dash" "INV_MISC_QUESTIONMARK"
 #showtooltip Порыв
 /stand
@@ -57,14 +79,6 @@ VER 3 0000000001000002 "Dash" "INV_MISC_QUESTIONMARK"
 /cast [noform:3] Облик кошки
 /cast !Порыв
 END
-VER 3 000000000100000A "form77" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/stand
-/dismount
-/cancelform
-/cancelform [noform:3]
-/cast [noform:3] Облик кошки
-END
 VER 3 0000000001000001 "invis" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /stand
@@ -72,10 +86,38 @@ VER 3 0000000001000001 "invis" "INV_MISC_QUESTIONMARK"
 /cast Облик кошки
 /cast Крадущийся зверь
 END
+VER 3 000000000100000C "Mount" "132226"
+#showtooltip
+/stand
+/dismount
+/cancelform
+/cast Поводья полосатого ледопарда
+END
 VER 3 0000000001000009 "Travel" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /stand
 /dismount
 /cancelform [swimming,noform:2][outdoors,noform:2/4]
 /cast [swimming] Водный облик;[outdoors] Походный облик; Облик кошки
+END
+VER 3 0000000001000010 "Гроза/Спокойстви" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stand
+/dismount
+/cancelform [noform:5]
+/cast [mod:alt] or [button:2] ГРОЗА; СПОКОЙСТВИЕ
+END
+VER 3 0000000001000012 "ЗАХВАТ/КОЖА" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stand
+/dismount
+/cancelform [noform:5]
+/cast [mod:alt] or [button:2] ПРИРОДНЫЙ ЗАХВАТ; ДУБОВАЯ КОЖА
+END
+VER 3 0000000001000011 "ЗНАК/ШИПЫ" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stand
+/dismount
+/cancelform [noform:5]
+/cast [mod:alt] or [button:2] ЗНАК ДИКОЙ ПРИРОДЫ; ШИПЫ
 END
