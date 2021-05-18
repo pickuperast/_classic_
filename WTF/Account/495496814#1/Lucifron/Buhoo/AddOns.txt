@@ -25,3 +25,4 @@ Prat-3.0: enabled
 Stubby: disabled
 SlideBar: disabled
 Leatrix_Plus: disabled
+TitanClassic: disabled

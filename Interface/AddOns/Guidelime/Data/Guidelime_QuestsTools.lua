@@ -6,6 +6,54 @@ HBD = LibStub("HereBeDragons-2.0")
 local LIMIT_CENTER_POSITION = 400
 local LIMIT_POSITIONS = 1000
 
+function addon.GetQuestsCompleted()
+	if GetQuestsCompleted ~= nil then return GetQuestsCompleted() end
+	local t = {}
+	local completedQuests = C_QuestLog.GetAllCompletedQuestIDs()
+	if completedQuests then
+		for i, id in ipairs(completedQuests) do
+			t[id] = true
+		end
+	end
+	return t
+end
+
+function addon.GetNumGossipActiveQuests()
+	if GetNumGossipActiveQuests ~= nil then return GetNumGossipActiveQuests() end
+	return C_GossipInfo.GetNumActiveQuests()
+end
+
+function addon.GetGossipActiveQuests()
+	if GetGossipActiveQuests ~= nil then return GetGossipActiveQuests() end
+	return C_GossipInfo.GetActiveQuests()
+end
+
+function addon.SelectGossipActiveQuest(i)
+	if SelectGossipActiveQuest ~= nil then return SelectGossipActiveQuest(i) end 
+	return C_GossipInfo.SelectActiveQuest(i)
+end
+
+function addon.GetNumGossipAvailableQuests()
+	if GetNumGossipAvailableQuests ~= nil then return GetNumGossipAvailableQuests() end 
+	return C_GossipInfo.GetNumAvailableQuests()
+end
+
+function addon.GetGossipAvailableQuests()
+	if GetGossipAvailableQuests ~= nil then return GetGossipAvailableQuests() end 
+	return C_GossipInfo.GetAvailableQuests()
+end
+
+function addon.SelectGossipAvailableQuest(i)
+	if SelectGossipAvailableQuest ~= nil then return SelectGossipAvailableQuest(i) end 
+	return C_GossipInfo.SelectAvailableQuest(i)
+end
+
+function addon.SelectGossipOption(i)
+	if SelectGossipOption ~= nil then return SelectGossipOption(i) end 
+	return C_GossipInfo.SelectOption(i)
+end
+	
+
 
 function addon.getQuestNameById(id)
 	if id == nil then return nil end
@@ -160,7 +208,7 @@ function addon.getQuestPositions(id, typ, objective, filterZone)
 	if id == nil then return end
 	if objective == 0 then objective = nil end
 	if GuidelimeData.dataSourceQuestie and QuestieDB ~= nil then return addon.getQuestPositionsQuestie(id, typ, objective, filterZone) end
-	if addon.questsDB[id] == nil then return end
+	if addon.getSuperCode(typ) == "QUEST" and addon.questsDB[id] == nil then return end
 	--local time
 	--if addon.debugging then time = debugprofilestop() end
 	local ids = {npc = {}, object = {}, item = {}}
@@ -217,15 +265,19 @@ function addon.getQuestPositions(id, typ, objective, filterZone)
 				c = c + 1
 			end
 		end
+	elseif typ == "COLLECT_ITEM" then
+		table.insert(ids.item, id)
 	end
 	for _, itemId in ipairs(ids.item) do
 		if addon.itemsDB[itemId] ~= nil then
 			if addon.itemsDB[itemId].drop ~= nil then
 				for _, npcId in ipairs(addon.itemsDB[itemId].drop) do
 					table.insert(ids.npc, npcId)
-					if objectives.npc[npcId] == nil then objectives.npc[npcId] = {} end
-					for _, c in ipairs(objectives.item[itemId]) do
-						table.insert(objectives.npc[npcId], c)
+					if objectives.item[itemId] ~= nil then
+						if objectives.npc[npcId] == nil then objectives.npc[npcId] = {} end
+						for _, c in ipairs(objectives.item[itemId]) do
+							table.insert(objectives.npc[npcId], c)
+						end
 					end
 				end
 			end
@@ -233,8 +285,10 @@ function addon.getQuestPositions(id, typ, objective, filterZone)
 				for _, objectId in ipairs(addon.itemsDB[itemId].object) do
 					table.insert(ids.object, objectId)
 					if objectives.object[objectId] == nil then objectives.object[objectId] = {} end
-					for _, c in ipairs(objectives.item[itemId]) do
-						table.insert(objectives.object[objectId], c)
+					if objectives.item[itemId] ~= nil then
+						for _, c in ipairs(objectives.item[itemId]) do
+							table.insert(objectives.object[objectId], c)
+						end
 					end
 				end
 			end
@@ -280,7 +334,7 @@ function addon.getQuestPositions(id, typ, objective, filterZone)
 							objectives = objectives.object[objectId],
 							objectId = objectId}
 					elseif addon.debugging and filterZone == nil then 
-						print("error transforming (" .. pos.x .. "," .. pos.y .. "," .. pos.mapid .. ") into zone coordinates for quest #" .. id .. " object #" .. objectId)
+						print("LIME: error transforming (" .. pos.x .. "," .. pos.y .. "," .. pos.mapid .. ") into zone coordinates for quest #" .. id .. " object #" .. objectId)
 					end
 				end
 			end
@@ -386,7 +440,7 @@ function addon.getQuestPosition(id, typ, index)
 				zone = zone, mapID = addon.mapIDs[zone], radius = math.floor(math.sqrt(maxCluster.radius)), estimate = #positions > 1}
 			return addon.questPosition[id][typ][index]
 		elseif addon.debugging then
-			print("error transforming (" .. maxCluster.x .. "," .. maxCluster.y .. "," .. maxCluster.instance .. ") into zone coordinates for quest #" .. id)
+			print("LIME: error transforming (" .. maxCluster.x .. "," .. maxCluster.y .. "," .. maxCluster.instance .. ") into zone coordinates for quest #" .. id)
 		end
 	end
 end
@@ -394,7 +448,7 @@ end
 function addon.getQuestPositionsLimited(id, typ, index, maxNumber, onlyWorld)
 	local clusters = {}
 	local filterZone
-	if addon.questsDB[id] ~= nil and addon.questsDB[id].zone ~= nil then filterZone = addon.questsDB[id].zone end
+	if addon.getSuperCode(typ) == "QUEST" and addon.questsDB[id] ~= nil and addon.questsDB[id].zone ~= nil then filterZone = addon.questsDB[id].zone end
 	local positions = addon.getQuestPositions(id, typ, index, filterZone)
 	if positions == nil then return end
 	if #positions == 0 and filterZone ~= nil then
@@ -429,6 +483,7 @@ function addon.getQuestPositionsLimited(id, typ, index, maxNumber, onlyWorld)
 			table.insert(clusters[pos.instance], {x = pos.wx, y = pos.wy, count = 1, instance = pos.instance})
 			table.insert(positions2, pos)
 		end
+		if addon.debugging then print("LIME: limited " .. #positions .. " positions to " .. #positions2 .. " positions. x = " .. x .. " y = " .. y) end
 		positions = positions2
 	end
 	if onlyWorld then return positions end
@@ -442,7 +497,7 @@ function addon.getQuestPositionsLimited(id, typ, index, maxNumber, onlyWorld)
 			pos.mapID = addon.mapIDs[zone]
 			table.insert(result, pos)
 		elseif addon.debugging then
-			print("error transforming (" .. maxCluster.x .. "," .. maxCluster.y .. "," .. maxCluster.instance .. ") into zone coordinates for quest #" .. id)
+			print("LIME: error transforming (" .. maxCluster.x .. "," .. maxCluster.y .. "," .. maxCluster.instance .. ") into zone coordinates for quest #" .. id)
 		end
 	end
 	return result

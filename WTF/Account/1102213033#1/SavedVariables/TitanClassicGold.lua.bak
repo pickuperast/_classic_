@@ -1,0 +1,8 @@
+
+GoldSave = {
+	["Venosatush_Venoxis::Horde"] = {
+		["show"] = true,
+		["name"] = "Venosatush",
+		["gold"] = 805093,
+	},
+}

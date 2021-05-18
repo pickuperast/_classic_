@@ -2,13 +2,13 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_50000"] = 500,
 	["_2000"] = 100,
-	["_200000"] = 1000,
-	["_10000"] = 200,
-	["_1000000"] = 2500,
-	["_5000000"] = 10000,
-	["STARTING_DISCOUNT"] = 5,
-	["_500"] = 5,
 	["LOG_DE_DATA_X"] = true,
+	["_500"] = 5,
+	["_1000000"] = 2500,
+	["_200000"] = 1000,
+	["STARTING_DISCOUNT"] = 5,
+	["_5000000"] = 10000,
+	["_10000"] = 200,
 }
 AUCTIONATOR_PRICING_HISTORY = {
 	["Iridescent Pearl"] = {
@@ -19,9 +19,9 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["is"] = "13422:0:0:0:0",
 		["6716841"] = "3999:20",
 	},
-	["Inlaid Mithril Cylinder"] = {
-		["is"] = "9060:0:0:0:0",
-		["6716843"] = "166497:1",
+	["Firefin Snapper"] = {
+		["is"] = "6359:0:0:0:0",
+		["6716842"] = "664:20",
 	},
 	["Mithril Casing"] = {
 		["is"] = "10561:0:0:0:0",
@@ -31,9 +31,9 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["is"] = "13755:0:0:0:0",
 		["6716842"] = "7891:20",
 	},
-	["Firefin Snapper"] = {
-		["is"] = "6359:0:0:0:0",
-		["6716842"] = "664:20",
+	["Inlaid Mithril Cylinder"] = {
+		["is"] = "9060:0:0:0:0",
+		["6716843"] = "166497:1",
 	},
 }
 AUCTIONATOR_SHOPPING_LISTS = {
@@ -175,12 +175,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 0,
 			["H3772"] = 8400,
 		},
-		["Iridescent Pearl"] = {
-			["mr"] = 1999,
-			["cc"] = 7,
-			["id"] = "5500:0:0:0:0",
-			["H3828"] = 1999,
+		["Fel Steed Saddlebags"] = {
+			["mr"] = 39600,
+			["cc"] = 1,
+			["L3772"] = 39600,
+			["id"] = "932:0:0:0:0",
 			["sc"] = 0,
+			["H3772"] = 39796,
 		},
 		["Winter Squid"] = {
 			["mr"] = 7892,
@@ -196,12 +197,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 2,
 			["H3772"] = 256883,
 		},
-		["Pattern: Red Linen Bag"] = {
-			["mr"] = 20000,
-			["cc"] = 9,
-			["id"] = "5771:0:0:0:0",
-			["sc"] = 2,
-			["H3766"] = 20000,
+		["Six Demon Bag"] = {
+			["mr"] = 280000,
+			["cc"] = 4,
+			["L3772"] = 280000,
+			["id"] = "7734:0:0:0:0",
+			["sc"] = 0,
+			["H3772"] = 319999,
 		},
 		["Mageweave Bag"] = {
 			["mr"] = 26997,
@@ -211,13 +213,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 0,
 			["H3772"] = 26998,
 		},
-		["Six Demon Bag"] = {
-			["mr"] = 280000,
-			["cc"] = 4,
-			["L3772"] = 280000,
-			["id"] = "7734:0:0:0:0",
-			["sc"] = 0,
-			["H3772"] = 319999,
+		["Enchanted Runecloth Bag"] = {
+			["mr"] = 177813,
+			["cc"] = 1,
+			["id"] = "22248:0:0:0:0",
+			["sc"] = 3,
+			["H3766"] = 177813,
 		},
 		["Cenarion Herb Bag"] = {
 			["mr"] = 356011,
@@ -233,19 +234,20 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H3828"] = 166498,
 			["sc"] = 0,
 		},
-		["Bottomless Bag"] = {
-			["mr"] = 2592498,
-			["cc"] = 1,
-			["id"] = "14156:0:0:0:0",
+		["Craftsman's Writ - Runecloth Bag"] = {
+			["mr"] = 34800,
+			["cc"] = 15,
+			["id"] = "22611:0:0:0:0",
 			["sc"] = 0,
-			["H3772"] = 2592498,
+			["H3772"] = 34800,
 		},
-		["Firefin Snapper"] = {
-			["mr"] = 665,
-			["cc"] = 5,
-			["id"] = "6359:0:0:0:0",
-			["H3828"] = 665,
+		["Red Mageweave Bag"] = {
+			["mr"] = 19600,
+			["cc"] = 1,
+			["L3772"] = 19600,
+			["id"] = "10051:0:0:0:0",
 			["sc"] = 0,
+			["H3772"] = 35511,
 		},
 		["Stonescale Eel"] = {
 			["mr"] = 999,
@@ -262,20 +264,19 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 0,
 			["H3772"] = 6900,
 		},
-		["Red Mageweave Bag"] = {
-			["mr"] = 19600,
-			["cc"] = 1,
-			["L3772"] = 19600,
-			["id"] = "10051:0:0:0:0",
+		["Firefin Snapper"] = {
+			["mr"] = 665,
+			["cc"] = 5,
+			["id"] = "6359:0:0:0:0",
+			["H3828"] = 665,
 			["sc"] = 0,
-			["H3772"] = 35511,
 		},
-		["Craftsman's Writ - Runecloth Bag"] = {
-			["mr"] = 34800,
-			["cc"] = 15,
-			["id"] = "22611:0:0:0:0",
+		["Bottomless Bag"] = {
+			["mr"] = 2592498,
+			["cc"] = 1,
+			["id"] = "14156:0:0:0:0",
 			["sc"] = 0,
-			["H3772"] = 34800,
+			["H3772"] = 2592498,
 		},
 		["Pattern: Green Woolen Bag"] = {
 			["mr"] = 7100,
@@ -285,12 +286,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 2,
 			["H3772"] = 7299,
 		},
-		["Enchanted Runecloth Bag"] = {
-			["mr"] = 177813,
-			["cc"] = 1,
-			["id"] = "22248:0:0:0:0",
-			["sc"] = 3,
-			["H3766"] = 177813,
+		["Pattern: Red Linen Bag"] = {
+			["mr"] = 20000,
+			["cc"] = 9,
+			["id"] = "5771:0:0:0:0",
+			["sc"] = 2,
+			["H3766"] = 20000,
 		},
 		["Pattern: Bottomless Bag"] = {
 			["mr"] = 24999999,
@@ -299,13 +300,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 2,
 			["H3766"] = 24999999,
 		},
-		["Fel Steed Saddlebags"] = {
-			["mr"] = 39600,
-			["cc"] = 1,
-			["L3772"] = 39600,
-			["id"] = "932:0:0:0:0",
+		["Iridescent Pearl"] = {
+			["mr"] = 1999,
+			["cc"] = 7,
+			["id"] = "5500:0:0:0:0",
+			["H3828"] = 1999,
 			["sc"] = 0,
-			["H3772"] = 39796,
 		},
 	},
 }
@@ -313,28 +313,28 @@ AUCTIONATOR_LAST_SCAN_TIME = nil
 AUCTIONATOR_TOONS = {
 	["Lucisatush"] = {
 		["firstSeen"] = 1615222632,
-		["firstVersion"] = "100.0.8",
 		["guid"] = "Player-4463-022F9DCA",
+		["firstVersion"] = "100.0.8",
 	},
 	["Lucibaubb"] = {
 		["firstSeen"] = 1615524795,
-		["guid"] = "Player-4463-02314674",
 		["firstVersion"] = "100.0.8",
+		["guid"] = "Player-4463-02314674",
 	},
 	["Lucibalykk"] = {
 		["firstSeen"] = 1615210769,
-		["guid"] = "Player-4463-022E4EFC",
 		["firstVersion"] = "100.0.8",
+		["guid"] = "Player-4463-022E4EFC",
 	},
 }
 AUCTIONATOR_STACKING_PREFS = {
 	["mithril casing"] = {
-		["stacksize"] = 1,
 		["numstacks"] = 0,
+		["stacksize"] = 1,
 	},
 	["iridescent pearl"] = {
-		["stacksize"] = 1,
 		["numstacks"] = 0,
+		["stacksize"] = 1,
 	},
 }
 AUCTIONATOR_SCAN_MINLEVEL = 1

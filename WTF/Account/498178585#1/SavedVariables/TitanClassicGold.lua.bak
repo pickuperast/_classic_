@@ -1,0 +1,8 @@
+
+GoldSave = {
+	["Patchsatush_Patchwerk::Horde"] = {
+		["show"] = true,
+		["name"] = "Patchsatush",
+		["gold"] = 805979,
+	},
+}

@@ -27,3 +27,4 @@ SlideBar: disabled
 Prat-3.0_Libraries: enabled
 Prat-3.0: enabled
 AutomaticGoblinTherapist: disabled
+TitanClassic: disabled

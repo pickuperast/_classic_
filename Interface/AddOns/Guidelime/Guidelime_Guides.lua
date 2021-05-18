@@ -26,7 +26,7 @@ function addon.loadGuide(name)
 		addon.updateMainFrame()
 	else
 		GuidelimeDataChar.mainFrameShowing = true
-		if addon.optionsFrame ~= nil then addon.optionsFrame.options.mainFrameShowing:SetChecked(true) end
+		if addon.optionsFrame ~= nil then addon.optionsFrame.mainFrameShowing:SetChecked(true) end
 		addon.showMainFrame()
 	end
 end
@@ -38,7 +38,7 @@ end
 
 function addon.fillGuides()
 	if addon.guidesFrame == nil then
-    	addon.guidesFrame = CreateFrame("Frame", nil, UIParent)
+    	addon.guidesFrame = CreateFrame("Frame", nil, InterfaceOptionsFramePanelContainer)
     	addon.guidesFrame.name = GetAddOnMetadata(addonName, "title")
     	InterfaceOptions_AddCategory(addon.guidesFrame)
 	
@@ -169,7 +169,7 @@ function addon.fillGuides()
 			local guide = addon.guides[name]
 			--if addon.debugging then print("LIME: guide", group, name) end
 			
-			if guide.next ~= nil and #guide.next > 0 and addon.guides[group .. guide.next[1]] == nil and guide.download ~= nil then
+			if guide.next ~= nil and #guide.next > 0 and (addon.guides[group .. ' ' .. guide.next[1]] == nil) and guide.download ~= nil then
 				downloadMinLevel, downloadMaxLevel, download, downloadUrl = guide.downloadMinLevel, guide.downloadMaxLevel, guide.download, guide.downloadUrl 	
 			end
 		end
@@ -214,7 +214,7 @@ function addon.fillGuides()
 				addon.guidesFrame.guides[name]:SetBackdrop({
 					--bgFile = "Interface\\QuestFrame\\UI-QuestLogTitleHighlight",
 					bgFile = "Interface\\AddOns\\" .. addonName .. "\\Icons\\TitleHighlight",
-					tile = false, edgeSize = 0
+					tile = false, edgeSize = 1
 				})
 				addon.guidesFrame.guides[name].name = name
 				addon.guidesFrame.guides[name].guide = guide

@@ -1,8 +1,1 @@
 Version: 1
-Frame: f1_HealBot_Action
-FrameLevel: 1
-Anchor: LEFT
-X: 7
-Y: -49
-W: 158
-H: 93

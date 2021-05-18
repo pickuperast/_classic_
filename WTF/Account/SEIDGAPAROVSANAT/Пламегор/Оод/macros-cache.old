@@ -40,19 +40,19 @@ VER 3 0000000001000006 "Cancelform4" "INV_MISC_QUESTIONMARK"
 /cancelform
 /cast Волшебный огонь
 END
-VER 3 0000000001000007 "Cancelform5" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/stand
-/dismount
-/cancelform [noform:5]
-/cast [mod:alt] or [button:2] Спячка; Гнев деревьев
-END
 VER 3 0000000001000008 "Cancelform5" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /stand
 /dismount
 /cancelform [noform:1]
 /cast !Облик лютого медведя
+END
+VER 3 0000000001000007 "Cancelform5" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stand
+/dismount
+/cancelform [noform:5]
+/cast [mod:alt] or [button:2] Спячка; Гнев деревьев
 END
 VER 3 000000000100000A "Cat" "132115"
 #showtooltip
@@ -83,6 +83,7 @@ VER 3 0000000001000001 "invis" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /stand
 /dismount
+/cancelform [noform:3]
 /cast Облик кошки
 /cast Крадущийся зверь
 END

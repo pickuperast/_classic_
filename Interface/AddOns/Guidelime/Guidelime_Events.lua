@@ -35,25 +35,50 @@ function addon.updateFromQuestLog()
 	local questLog = {}
 	local isCollapsed = {}
 	local currentHeader
-	for i=1,GetNumQuestLogEntries() do
-		local name, _, _, header, collapsed, completed, _, id = GetQuestLogTitle(i)
-		if header then
-			isCollapsed[name] = collapsed
-			currentHeader = name
-		else
-			questLog[id] = {}
-			questLog[id].index = i
-			questLog[id].finished = (completed == 1)
-			questLog[id].failed = (completed == -1)
-			questLog[id].name = name
-			questLog[id].sort = currentHeader
+	if C_QuestLog.GetInfo ~= nil then
+		local i = 1
+		while (true) do	
+			local info = C_QuestLog.GetInfo(i)
+			if not info then break end
+			if info.isHeader then
+				isCollapsed[info.title] = info.isCollapsed
+				currentHeader = info.title
+			else
+				questLog[info.questID] = {}
+				questLog[info.questID].index = i
+				--local completed = true
+				--local objectives = C_QuestLog.GetQuestObjectives(info.questID)
+				--for i, o in ipairs(objectives) do if not o.finished then completed = false end end
+				questLog[info.questID].finished = C_QuestLog.IsComplete(info.questID)
+				questLog[info.questID].failed = C_QuestLog.IsFailed(info.questID)
+				questLog[info.questID].name = info.title
+				questLog[info.questID].sort = currentHeader
+			end
+			i = i + 1
+		end
+	else
+		for i = 1, GetNumQuestLogEntries() do
+			local name, _, _, header, collapsed, completed, _, id = GetQuestLogTitle(i)
+			if header then
+				isCollapsed[name] = collapsed
+				currentHeader = name
+			else
+				questLog[id] = {}
+				questLog[id].index = i
+				questLog[id].finished = (completed == 1)
+				questLog[id].failed = (completed == -1)
+				questLog[id].name = name
+				questLog[id].sort = currentHeader	
+			end
 		end
 	end
 	
 	local checkCompleted = false
 	local questChanged = false
 	local questFound = false
-	for id, q in pairs(addon.quests) do
+	local questItemsNeeded = {}
+	for _, id in ipairs(addon.questIds) do
+		local q = addon.quests[id]
 		if questLog[id] ~= nil and not questLog[id].failed then
 			local numObjectives = GetNumQuestLeaderBoards(questLog[id].index)
 			if numObjectives == 0 then questLog[id].finished = true end
@@ -77,6 +102,26 @@ function addon.updateFromQuestLog()
 			if q.objectives == nil or #q.objectives ~= numObjectives then q.objectives = {} end
 			for k = 1, numObjectives do
 				local desc, type, done = GetQuestLogLeaderBoard(k, addon.quests[id].logIndex)
+				-- special treatment for item objectives: when the same item needs to be collected for different quests at the same time 
+				-- all objectives should be done only when enough items for all quests have been collected
+				if type == 'item' then
+					local objectives = addon.getQuestObjectives(id)
+					if objectives ~= nil and objectives[k] ~= nil and objectives[k].type == 'item' then
+						local itemId = objectives[k].ids.item[1]
+						local itemName, _, numNeeded = desc:match("(.*):%s*([%d]+)%s*/%s*([%d]+)")
+						numNeeded = tonumber(numNeeded)
+						if questItemsNeeded[itemId] ~= nil then 
+							local itemCount = GetItemCount(itemId) - questItemsNeeded[itemId]
+							if addon.debugging then print("LIME: item " .. itemId .. " " .. itemName .. " " .. itemCount .. "/" .. numNeeded) end
+							if itemCount < numNeeded then
+								done = false
+								q.finished = false
+								desc = itemName .. ": " .. (itemCount >= 0 and itemCount or 0) .. "/" .. numNeeded
+							end
+						end
+						questItemsNeeded[itemId] = (questItemsNeeded[itemId] or 0) + numNeeded
+					end
+				end
 				if q.objectives[k] == nil or desc ~= q.objectives[k] or done ~= q.objectives[k].done then
 					questChanged = true
 					q.objectives[k] = {desc = desc, done = done, type = type}
@@ -115,7 +160,7 @@ local function doQuestUpdate()
 					addon.updateStepsText()
 				end
 				C_Timer.After(0.1, function() 
-					local completed = GetQuestsCompleted()
+					local completed = addon.GetQuestsCompleted()
 					local questCompleted = false
 					for id, q in pairs(addon.quests) do
 						if completed[id] and not q.completed then
@@ -150,15 +195,16 @@ end
 addon.frame:RegisterEvent('GOSSIP_SHOW')
 function addon.frame:GOSSIP_SHOW()
 	if GuidelimeData.autoCompleteQuest and not IsShiftKeyDown() and addon.currentGuide ~= nil and addon.currentGuide.activeQuests ~= nil then 
-		if addon.debugging then print ("LIME: GOSSIP_SHOW", GetGossipActiveQuests()) end
-		if addon.debugging then print ("LIME: GOSSIP_SHOW", GetGossipAvailableQuests()) end
-		local q = { GetGossipActiveQuests() }
+		if addon.debugging then print ("LIME: GOSSIP_SHOW", addon.GetGossipActiveQuests()) end
+		if addon.debugging then print ("LIME: GOSSIP_SHOW", addon.GetGossipAvailableQuests()) end
+		local q = { addon.GetGossipActiveQuests() }
 		local selectActive = nil
 		local selectAvailable = nil
 		addon.openNpcAgain = false
-		for i = 1, GetNumGossipActiveQuests() do
+		for i = 1, addon.GetNumGossipActiveQuests() do
 			local name = q[(i-1) * 6 + 1]
-			if addon.contains(addon.currentGuide.activeQuests, function(id) return name == addon.getQuestNameById(id) end) then
+			local complete = q[(i-1) * 6 + 4]
+			if complete and addon.contains(addon.currentGuide.activeQuests, function(id) return name == addon.getQuestNameById(id) end) then
 				if selectActive == nil then
 					selectActive = i
 				else
@@ -166,8 +212,8 @@ function addon.frame:GOSSIP_SHOW()
 				end			
 			end
 		end
-		q = { GetGossipAvailableQuests() }
-		for i = 1, GetNumGossipAvailableQuests() do
+		q = { addon.GetGossipAvailableQuests() }
+		for i = 1, addon.GetNumGossipAvailableQuests() do
 			local name = q[(i-1) * 7 + 1]
 			if addon.contains(addon.currentGuide.activeQuests, function(id) return name == addon.getQuestNameById(id) end) then
 				if selectActive == nil and selectAvailable == nil then
@@ -181,12 +227,12 @@ function addon.frame:GOSSIP_SHOW()
 		if selectActive ~= nil then
 			C_Timer.After(addon.AUTO_COMPLETE_DELAY, function() 
 				if addon.debugging then print ("LIME: GOSSIP_SHOW selectActive", selectActive) end
-				SelectGossipActiveQuest(selectActive)
+				addon.SelectGossipActiveQuest(selectActive)
 			end)
 		elseif selectAvailable ~= nil then
 			C_Timer.After(addon.AUTO_COMPLETE_DELAY, function() 
 				if addon.debugging then print ("LIME: GOSSIP_SHOW selectAvailable", selectAvailable) end
-				SelectGossipAvailableQuest(selectAvailable)
+				addon.SelectGossipAvailableQuest(selectAvailable)
 			end)
 		end
 	end
@@ -199,7 +245,7 @@ function addon.frame:GOSSIP_SHOW()
 						local gossip = {GetGossipOptions()}
 						for i = 1, GetNumGossipOptions() do
 							if gossip[i * 2] == "taxi" then
-								SelectGossipOption(i)
+								addon.SelectGossipOption(i)
 							end
 						end
 					end
@@ -320,7 +366,9 @@ function addon.frame:TAXIMAP_OPENED()
 								if element.t == "FLY" and TaxiNodeGetType(j) == "REACHABLE" then
 									if IsMounted() then Dismount() end -- dismount before using the flightpoint
 									if addon.debugging then print ("LIME: Flying to " .. (master.place or master.zone)) end
-									TakeTaxiNode(j)
+									C_Timer.After(0.5, function()
+										TakeTaxiNode(j)
+									end)
 									addon.completeSemiAutomatic(element)
 								elseif element.t == "GET_FLIGHT_POINT" and TaxiNodeGetType(j) == "CURRENT" then
 									addon.completeSemiAutomatic(element)
@@ -383,4 +431,23 @@ addon.frame:RegisterEvent('PLAYER_UNGHOST')
 function addon.frame:PLAYER_UNGHOST()
 	if addon.debugging then print ("LIME: PLAYER_UNGHOST") end
 	addon.alive = true
+end
+
+addon.requestItemInfo = {}
+addon.frame:RegisterEvent('GET_ITEM_INFO_RECEIVED')
+function addon.frame:GET_ITEM_INFO_RECEIVED(itemId,success)
+	-- if addon.debugging then print ("LIME: GET_ITEM_INFO_RECEIVED") end
+	if addon.requestItemInfo[itemId] and success then
+		addon.requestItemInfo[itemId] = nil
+		addon.updateStepsText()
+	end
+end
+
+addon.frame:RegisterEvent('BAG_UPDATE')
+function addon.frame:BAG_UPDATE()
+	-- if addon.debugging then print ("LIME: BAG_UPDATE") end
+	local guide = GuidelimeDataChar and addon.guides[GuidelimeDataChar.currentGuide]
+	if guide and guide.itemUpdateIndices and #guide.itemUpdateIndices > 0 then
+		addon.updateSteps(guide.itemUpdateIndices)
+	end
 end

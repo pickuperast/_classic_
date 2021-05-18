@@ -16,7 +16,7 @@ BeanCounterDB = {
 			},
 			["failedBidsNeutral"] = {
 			},
-			["failedBids"] = {
+			["completedBidsBuyouts"] = {
 			},
 			["completedAuctions"] = {
 			},
@@ -24,7 +24,7 @@ BeanCounterDB = {
 			},
 			["completedAuctionsNeutral"] = {
 			},
-			["completedBidsBuyouts"] = {
+			["failedBids"] = {
 			},
 		},
 	},
@@ -43,8 +43,8 @@ BeanCounterDBSettings = {
 			},
 		},
 	},
-	["configator.top"] = 558.913391113281,
 	["util.beancounter.ButtonuseDateCheck"] = false,
+	["configator.top"] = 558.913391113281,
 }
 BeanCounterDBNames = {
 }

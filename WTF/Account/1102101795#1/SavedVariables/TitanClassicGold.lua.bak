@@ -1,0 +1,8 @@
+
+GoldSave = {
+	["Lucisatush_Lucifron::Horde"] = {
+		["show"] = true,
+		["name"] = "Lucisatush",
+		["gold"] = 1702941,
+	},
+}

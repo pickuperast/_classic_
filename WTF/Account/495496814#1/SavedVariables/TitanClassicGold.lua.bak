@@ -1,0 +1,8 @@
+
+GoldSave = {
+	["Auho_Lucifron::Horde"] = {
+		["show"] = true,
+		["name"] = "Auho",
+		["gold"] = 782166,
+	},
+}

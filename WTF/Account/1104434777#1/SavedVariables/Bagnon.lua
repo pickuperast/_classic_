@@ -29,8 +29,6 @@ Bagnon_Sets = {
 	["mineColor"] = {
 	},
 	["version"] = "8.3.8",
-	["fridgeColor"] = {
-	},
 	["global"] = {
 		["inventory"] = {
 			["rules"] = {
@@ -167,11 +165,13 @@ Bagnon_Sets = {
 			},
 			["color"] = {
 			},
-			["borderColor"] = {
-			},
+			["x"] = 95,
 			["hiddenRules"] = {
 			},
-			["x"] = 95,
+			["borderColor"] = {
+			},
 		},
+	},
+	["fridgeColor"] = {
 	},
 }

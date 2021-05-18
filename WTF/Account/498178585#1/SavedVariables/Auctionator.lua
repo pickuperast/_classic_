@@ -2,23 +2,24 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_50000"] = 500,
 	["_2000"] = 100,
-	["_200000"] = 1000,
-	["_10000"] = 200,
-	["_1000000"] = 2500,
-	["_5000000"] = 10000,
-	["STARTING_DISCOUNT"] = 5,
 	["_500"] = 5,
+	["STARTING_DISCOUNT"] = 5,
+	["_1000000"] = 2500,
+	["_10000"] = 200,
 	["LOG_DE_DATA_X"] = true,
+	["_200000"] = 1000,
+	["_5000000"] = 10000,
 }
 AUCTIONATOR_PRICING_HISTORY = {
-	["Inlaid Mithril Cylinder"] = {
-		["is"] = "9060:0:0:0:0",
-		["6616886"] = "126132:1",
+	["Raw Brilliant Smallfish"] = {
+		["6612308"] = "284:17",
+		["is"] = "6291:0:0:0:0",
+		["6616879"] = "461:17",
 	},
 	["Raw Longjaw Mud Snapper"] = {
 		["6612308"] = "97:12",
-		["6616879"] = "87:19",
 		["is"] = "6289:0:0:0:0",
+		["6616879"] = "87:19",
 	},
 	["Oily Blackmouth"] = {
 		["is"] = "6358:0:0:0:0",
@@ -29,10 +30,9 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["is"] = "6308:0:0:0:0",
 		["6612308"] = "402:2",
 	},
-	["Raw Brilliant Smallfish"] = {
-		["6612308"] = "284:17",
-		["6616879"] = "461:17",
-		["is"] = "6291:0:0:0:0",
+	["Inlaid Mithril Cylinder"] = {
+		["is"] = "9060:0:0:0:0",
+		["6616886"] = "126132:1",
 	},
 	["Stranglekelp"] = {
 		["is"] = "3820:0:0:0:0",
@@ -100,10 +100,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Green Leather Bag"] = {
 			["mr"] = 2700,
-			["cc"] = 1,
-			["id"] = "5573:0:0:0:0",
 			["sc"] = 0,
 			["H3768"] = 2700,
+			["id"] = "5573:0:0:0:0",
+			["cc"] = 1,
 		},
 		["Runecloth Gloves"] = {
 			["mr"] = 40000,
@@ -127,11 +127,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 0,
 		},
 		["Raw Bristle Whisker Catfish"] = {
-			["mr"] = 403,
-			["sc"] = 0,
-			["id"] = "6308:0:0:0:0",
 			["H3755"] = 403,
 			["cc"] = 0,
+			["id"] = "6308:0:0:0:0",
+			["sc"] = 0,
+			["mr"] = 403,
 		},
 		["Murloc Skin Bag"] = {
 			["H3759"] = 23029,
@@ -198,17 +198,17 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["White Leather Bag"] = {
 			["mr"] = 19900,
-			["cc"] = 1,
-			["H3768"] = 19900,
 			["sc"] = 0,
 			["id"] = "5574:0:0:0:0",
+			["H3768"] = 19900,
+			["cc"] = 1,
 		},
 		["Troll-hide Bag"] = {
 			["mr"] = 69900,
-			["cc"] = 1,
-			["H3768"] = 69900,
 			["sc"] = 0,
 			["id"] = "1685:0:0:0:0",
+			["H3768"] = 69900,
+			["cc"] = 1,
 		},
 		["Runecloth Headband"] = {
 			["mr"] = 116084,
@@ -219,10 +219,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Red Leather Bag"] = {
 			["mr"] = 1999,
+			["cc"] = 1,
+			["id"] = "2657:0:0:0:0",
 			["sc"] = 0,
 			["H3767"] = 1999,
-			["id"] = "2657:0:0:0:0",
-			["cc"] = 1,
 		},
 		["Golden Pearl"] = {
 			["H3759"] = 288899,
@@ -231,26 +231,19 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["id"] = "13926:0:0:0:0",
 			["cc"] = 7,
 		},
-		["Red Mageweave Bag"] = {
-			["mr"] = 31400,
-			["cc"] = 1,
-			["id"] = "10051:0:0:0:0",
+		["Stonescale Eel"] = {
+			["mr"] = 1989,
+			["cc"] = 5,
+			["H3832"] = 1989,
+			["id"] = "13422:0:0:0:0",
 			["sc"] = 0,
-			["H3772"] = 31400,
 		},
-		["Stranglekelp"] = {
-			["H3759"] = 5799,
-			["mr"] = 5799,
+		["Craftsman's Writ - Runecloth Boots"] = {
+			["mr"] = 34800,
+			["cc"] = 15,
+			["id"] = "22610:0:0:0:0",
 			["sc"] = 0,
-			["id"] = "3820:0:0:0:0",
-			["cc"] = 7,
-		},
-		["Pattern: Mooncloth Bag"] = {
-			["mr"] = 49996,
-			["cc"] = 9,
-			["id"] = "14499:0:0:0:0",
-			["sc"] = 2,
-			["H3772"] = 49996,
+			["H3757"] = 34800,
 		},
 		["Woolen Bag"] = {
 			["mr"] = 1800,
@@ -259,12 +252,19 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 0,
 			["H3772"] = 1800,
 		},
+		["Pattern: Runecloth Shoulders"] = {
+			["mr"] = 70500,
+			["cc"] = 9,
+			["id"] = "14504:0:0:0:0",
+			["sc"] = 2,
+			["H3757"] = 70500,
+		},
 		["Core Felcloth Bag"] = {
 			["mr"] = 3032250,
+			["sc"] = 1,
+			["id"] = "21342:0:0:0:0",
 			["cc"] = 1,
 			["H3767"] = 3032250,
-			["id"] = "21342:0:0:0:0",
-			["sc"] = 1,
 		},
 		["Raw Brilliant Smallfish"] = {
 			["H3759"] = 462,
@@ -280,33 +280,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 0,
 			["H3772"] = 2750000,
 		},
-		["Fel Steed Saddlebags"] = {
-			["H3765"] = 9500,
-			["mr"] = 9500,
-			["cc"] = 1,
-			["id"] = "932:0:0:0:0",
-			["sc"] = 0,
-		},
-		["Enchanted Runecloth Bag"] = {
-			["H3759"] = 390000,
-			["mr"] = 390000,
-			["sc"] = 3,
-			["id"] = "22248:0:0:0:0",
-			["cc"] = 1,
-		},
-		["Blue Leather Bag"] = {
-			["mr"] = 3100,
-			["cc"] = 1,
-			["id"] = "856:0:0:0:0",
-			["H3768"] = 3100,
-			["sc"] = 0,
-		},
-		["Mageweave Bag"] = {
-			["mr"] = 31500,
-			["cc"] = 1,
-			["id"] = "10050:0:0:0:0",
-			["sc"] = 0,
-			["H3772"] = 31500,
+		["Pattern: Red Woolen Bag"] = {
+			["mr"] = 3531,
+			["cc"] = 9,
+			["id"] = "5772:0:0:0:0",
+			["sc"] = 2,
+			["H3772"] = 3531,
 		},
 		["Bolt of Runecloth"] = {
 			["mr"] = 11399,
@@ -315,12 +294,26 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 0,
 			["H3757"] = 11399,
 		},
-		["Runecloth"] = {
-			["mr"] = 1566,
-			["cc"] = 7,
-			["id"] = "14047:0:0:0:0",
+		["Pattern: Runecloth Pants"] = {
+			["mr"] = 49999,
+			["cc"] = 9,
+			["id"] = "14491:0:0:0:0",
+			["sc"] = 2,
+			["H3757"] = 49999,
+		},
+		["Mageweave Bag"] = {
+			["mr"] = 31500,
+			["cc"] = 1,
+			["id"] = "10050:0:0:0:0",
 			["sc"] = 0,
-			["H3757"] = 1566,
+			["H3772"] = 31500,
+		},
+		["Enchanted Runecloth Bag"] = {
+			["H3759"] = 390000,
+			["mr"] = 390000,
+			["sc"] = 3,
+			["id"] = "22248:0:0:0:0",
+			["cc"] = 1,
 		},
 		["Craftsman's Writ - Stonescale Eel"] = {
 			["mr"] = 48000,
@@ -328,6 +321,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H3832"] = 48000,
 			["id"] = "22622:0:0:0:0",
 			["sc"] = 0,
+		},
+		["Inlaid Mithril Cylinder"] = {
+			["H3759"] = 126133,
+			["mr"] = 126133,
+			["sc"] = 0,
+			["id"] = "9060:0:0:0:0",
+			["cc"] = 5,
 		},
 		["Pattern: Runecloth Gloves"] = {
 			["mr"] = 184999,
@@ -343,19 +343,19 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 0,
 			["H3772"] = 291996,
 		},
-		["Inlaid Mithril Cylinder"] = {
-			["H3759"] = 126133,
-			["mr"] = 126133,
+		["Runecloth"] = {
+			["mr"] = 1566,
+			["cc"] = 7,
+			["id"] = "14047:0:0:0:0",
 			["sc"] = 0,
-			["id"] = "9060:0:0:0:0",
-			["cc"] = 5,
+			["H3757"] = 1566,
 		},
-		["Pattern: Runecloth Pants"] = {
-			["mr"] = 49999,
-			["cc"] = 9,
-			["id"] = "14491:0:0:0:0",
-			["sc"] = 2,
-			["H3757"] = 49999,
+		["Blue Leather Bag"] = {
+			["mr"] = 3100,
+			["sc"] = 0,
+			["H3768"] = 3100,
+			["cc"] = 1,
+			["id"] = "856:0:0:0:0",
 		},
 		["Raw Longjaw Mud Snapper"] = {
 			["H3759"] = 88,
@@ -364,12 +364,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["id"] = "6289:0:0:0:0",
 			["cc"] = 0,
 		},
-		["Pattern: Red Woolen Bag"] = {
-			["mr"] = 3531,
-			["cc"] = 9,
-			["id"] = "5772:0:0:0:0",
-			["sc"] = 2,
-			["H3772"] = 3531,
+		["Fel Steed Saddlebags"] = {
+			["H3765"] = 9500,
+			["mr"] = 9500,
+			["cc"] = 1,
+			["id"] = "932:0:0:0:0",
+			["sc"] = 0,
 		},
 		["Pattern: Green Woolen Bag"] = {
 			["mr"] = 7508,
@@ -378,26 +378,26 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["cc"] = 9,
 			["H3772"] = 7508,
 		},
-		["Pattern: Runecloth Shoulders"] = {
-			["mr"] = 70500,
+		["Pattern: Mooncloth Bag"] = {
+			["mr"] = 49996,
 			["cc"] = 9,
-			["id"] = "14504:0:0:0:0",
+			["id"] = "14499:0:0:0:0",
 			["sc"] = 2,
-			["H3757"] = 70500,
+			["H3772"] = 49996,
 		},
-		["Craftsman's Writ - Runecloth Boots"] = {
-			["mr"] = 34800,
-			["cc"] = 15,
-			["id"] = "22610:0:0:0:0",
+		["Stranglekelp"] = {
+			["H3759"] = 5799,
+			["mr"] = 5799,
 			["sc"] = 0,
-			["H3757"] = 34800,
+			["id"] = "3820:0:0:0:0",
+			["cc"] = 7,
 		},
-		["Stonescale Eel"] = {
-			["mr"] = 1989,
-			["cc"] = 5,
-			["H3832"] = 1989,
-			["id"] = "13422:0:0:0:0",
+		["Red Mageweave Bag"] = {
+			["mr"] = 31400,
+			["cc"] = 1,
+			["id"] = "10051:0:0:0:0",
 			["sc"] = 0,
+			["H3772"] = 31400,
 		},
 	},
 }
@@ -405,32 +405,32 @@ AUCTIONATOR_LAST_SCAN_TIME = nil
 AUCTIONATOR_TOONS = {
 	["Patchbalyk"] = {
 		["firstSeen"] = 1614261756,
-		["guid"] = "Player-4466-0229105A",
 		["firstVersion"] = "100.0.8",
+		["guid"] = "Player-4466-0229105A",
 	},
 	["Patchsatush"] = {
 		["firstSeen"] = 1614273843,
-		["guid"] = "Player-4466-022A314F",
 		["firstVersion"] = "100.0.8",
+		["guid"] = "Player-4466-022A314F",
 	},
 	["Patchbaub"] = {
 		["firstSeen"] = 1615005084,
-		["firstVersion"] = "100.0.8",
 		["guid"] = "Player-4466-022E4D8F",
+		["firstVersion"] = "100.0.8",
 	},
 }
 AUCTIONATOR_STACKING_PREFS = {
 	["raw longjaw mud snapper"] = {
-		["numstacks"] = 0,
 		["stacksize"] = 19,
-	},
-	["raw bristle whisker catfish"] = {
 		["numstacks"] = 0,
-		["stacksize"] = 9,
 	},
 	["oily blackmouth"] = {
-		["numstacks"] = 0,
 		["stacksize"] = 4,
+		["numstacks"] = 0,
+	},
+	["raw bristle whisker catfish"] = {
+		["stacksize"] = 9,
+		["numstacks"] = 0,
 	},
 }
 AUCTIONATOR_SCAN_MINLEVEL = 1

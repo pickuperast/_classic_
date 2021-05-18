@@ -27,25 +27,25 @@ Prat3DB = {
 		},
 		["Prat_UrlCopy"] = {
 		},
+		["Prat_KeyBindings"] = {
+		},
+		["Prat_ChatLog"] = {
+		},
+		["Prat_Scroll"] = {
+		},
+		["Prat_ChannelNames"] = {
+		},
 		["Prat_Bubbles"] = {
 		},
 		["Prat_PopupMessage"] = {
 		},
 		["Prat_Sounds"] = {
 		},
-		["Prat_ChannelNames"] = {
-		},
-		["Prat_KeyBindings"] = {
-		},
-		["Prat_Timestamps"] = {
-		},
-		["Prat_Scroll"] = {
-		},
 		["Prat_ChannelSticky"] = {
 		},
 		["Prat_Achievements"] = {
 		},
-		["Prat_Font"] = {
+		["Prat_History"] = {
 		},
 		["Prat_Alias"] = {
 		},
@@ -59,11 +59,11 @@ Prat3DB = {
 		},
 		["Prat_Invites"] = {
 		},
-		["Prat_History"] = {
+		["Prat_Font"] = {
 		},
 		["Prat_CopyChat"] = {
 		},
-		["Prat_ChatLog"] = {
+		["Prat_Timestamps"] = {
 		},
 		["Prat_Search"] = {
 		},
@@ -80,7 +80,7 @@ Prat3DB = {
 	["profiles"] = {
 		["Default"] = {
 			["modules"] = {
-				["ChatLog"] = 2,
+				["Alias"] = 2,
 				["Mentions"] = 2,
 				["PopupMessage"] = 2,
 				["AltNames"] = 2,
@@ -88,7 +88,7 @@ Prat3DB = {
 				["Paragraph"] = 2,
 				["KeyBindings"] = 2,
 				["OriginalButtons"] = 2,
-				["Alias"] = 2,
+				["ChatLog"] = 2,
 			},
 		},
 	},

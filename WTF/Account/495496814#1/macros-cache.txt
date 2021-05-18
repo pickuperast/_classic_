@@ -7,8 +7,8 @@ VER 3 0000000000000002 "4" "INV_MISC_QUESTIONMARK"
 /use Großmaulmuschel
 /use Schwere Kiste
 /use Zerbeulte Kiste
-/use Flaschenpost
-/use Versiegelte Kiste
+/use Message in a bottle
+/use Small chest
 /use Kleine verschlossene Truhe
 /use Big-mouth Clam
 /use Heavy Crate

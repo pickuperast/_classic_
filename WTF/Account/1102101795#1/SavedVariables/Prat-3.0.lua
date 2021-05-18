@@ -27,25 +27,25 @@ Prat3DB = {
 		},
 		["Prat_UrlCopy"] = {
 		},
-		["Prat_KeyBindings"] = {
-		},
-		["Prat_Timestamps"] = {
-		},
-		["Prat_Scroll"] = {
-		},
-		["Prat_ChannelNames"] = {
-		},
 		["Prat_Bubbles"] = {
 		},
 		["Prat_ChatLog"] = {
 		},
 		["Prat_Sounds"] = {
 		},
+		["Prat_ChannelNames"] = {
+		},
+		["Prat_KeyBindings"] = {
+		},
+		["Prat_PopupMessage"] = {
+		},
+		["Prat_Scroll"] = {
+		},
 		["Prat_ChannelSticky"] = {
 		},
 		["Prat_Achievements"] = {
 		},
-		["Prat_History"] = {
+		["Prat_Font"] = {
 		},
 		["Prat_Alias"] = {
 		},
@@ -59,11 +59,11 @@ Prat3DB = {
 		},
 		["Prat_Invites"] = {
 		},
-		["Prat_Font"] = {
+		["Prat_History"] = {
 		},
 		["Prat_CopyChat"] = {
 		},
-		["Prat_PopupMessage"] = {
+		["Prat_Timestamps"] = {
 		},
 		["Prat_Search"] = {
 		},
@@ -75,13 +75,13 @@ Prat3DB = {
 		},
 	},
 	["profileKeys"] = {
-		["Lucibalykk - Lucifron"] = "Default",
 		["Lucisatush - Lucifron"] = "Default",
+		["Lucibalykk - Lucifron"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["modules"] = {
-				["Alias"] = 2,
+				["ChatLog"] = 2,
 				["Mentions"] = 2,
 				["PopupMessage"] = 2,
 				["AltNames"] = 2,
@@ -89,7 +89,7 @@ Prat3DB = {
 				["Paragraph"] = 2,
 				["KeyBindings"] = 2,
 				["OriginalButtons"] = 2,
-				["ChatLog"] = 2,
+				["Alias"] = 2,
 			},
 		},
 	},

@@ -28,3 +28,4 @@ SlideBar: disabled
 StoryTeller: disabled
 Stubby: disabled
 !Swatter: disabled
+TitanClassic: disabled

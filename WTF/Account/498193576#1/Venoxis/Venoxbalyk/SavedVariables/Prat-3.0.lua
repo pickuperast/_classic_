@@ -205,7 +205,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame1"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 9,
+			["headIndex"] = 120,
 			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -218,1535 +218,1765 @@ Prat3HighCPUPerCharDB = {
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
 				{
-					["message"] = "|cff979797|Hpratcopy|h[04:23:34]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Elusia-Venoxis:1120:CHANNEL:1|h|cff8787edElusia|r|h|cffd8d8d8]|r: ja gz :D",
-					["serverTime"] = 1621031013,
-					["r"] = 1,
+					["message"] = "|cff979797|Hpratcopy|h[21:41:59]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1621273980,
+					["timestamp"] = 68376.126,
+					["g"] = 0.666666686534882,
+					["r"] = 0,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:42:14]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Eiergesicht:104:CHANNEL:1|h|cffaad372Eiergesicht|r|h|cffd8d8d8]|r: schön unten dranklatschen",
 					["extraData"] = {
 						67, -- [1]
 						false, -- [2]
-						1, -- [3]
-						36, -- [4]
+						6, -- [3]
+						23, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 384095.126,
-					["g"] = 0.752941250801086,
 					["b"] = 0.752941250801086,
-				}, -- [1]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:23:35]|h|r You lie down.",
-					["serverTime"] = 1621031014,
+					["serverTime"] = 1621273995,
+					["timestamp"] = 68376.126,
+					["g"] = 0.752941250801086,
 					["r"] = 1,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:42:22]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1621274003,
+					["timestamp"] = 68376.126,
+					["g"] = 0.666666686534882,
+					["r"] = 0,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:42:28]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Eiergesicht-Venoxis:106:CHANNEL:1|h|cffaad372Eiergesicht|r|h|cffd8d8d8]|r: färb dir mal die haare blond",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						6, -- [3]
+						23, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.752941250801086,
+					["serverTime"] = 1621274009,
+					["timestamp"] = 68376.126,
+					["g"] = 0.752941250801086,
+					["r"] = 1,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:42:30]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1621274011,
+					["timestamp"] = 68376.126,
+					["g"] = 0.666666686534882,
+					["r"] = 0,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:42:31]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Eiergesicht-Venoxis:108:CHANNEL:1|h|cffaad372Eiergesicht|r|h|cffd8d8d8]|r: rasier ma schön da fut",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						6, -- [3]
+						23, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.752941250801086,
+					["serverTime"] = 1621274012,
+					["timestamp"] = 68376.126,
+					["g"] = 0.752941250801086,
+					["r"] = 1,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:42:49]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1621274030,
+					["timestamp"] = 68376.126,
+					["g"] = 0.666666686534882,
+					["r"] = 0,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:43:05]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Wassabo:110:CHANNEL:1|h|cffaad372Wassabo|r|h|cffd8d8d8]|r: ach toni",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						6, -- [3]
+						25, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.752941250801086,
+					["serverTime"] = 1621274046,
+					["timestamp"] = 68376.126,
+					["g"] = 0.752941250801086,
+					["r"] = 1,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:43:10]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Wassabo-Venoxis:111:CHANNEL:1|h|cffaad372Wassabo|r|h|cffd8d8d8]|r: lang nix von dir gehört",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						6, -- [3]
+						25, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.752941250801086,
+					["serverTime"] = 1621274051,
+					["timestamp"] = 68376.126,
+					["g"] = 0.752941250801086,
+					["r"] = 1,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:43:13]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Trüfflbüffl:112:CHANNEL:1|h|cffff7c0aTrüfflbüffl|r|h|cffd8d8d8]|r: ein Romantiker, gefällt mir",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						6, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.752941250801086,
+					["serverTime"] = 1621274054,
+					["timestamp"] = 68376.126,
+					["g"] = 0.752941250801086,
+					["r"] = 1,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:43:17]|h|r You receive loot: |cffffffff|Hitem:6358::::::::20:::::::|h[Oily Blackmouth]|h|r.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1621274058,
+					["timestamp"] = 68376.126,
+					["g"] = 0.666666686534882,
+					["r"] = 0,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:43:19]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Eiergesicht-Venoxis:114:CHANNEL:1|h|cffaad372Eiergesicht|r|h|cffd8d8d8]|r: ! xD",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						6, -- [3]
+						23, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.752941250801086,
+					["serverTime"] = 1621274060,
+					["timestamp"] = 68376.126,
+					["g"] = 0.752941250801086,
+					["r"] = 1,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:43:19]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Dönerviech:115:CHANNEL:1|h|cffc69b6dDönerviech|r|h|cffd8d8d8]|r: ohje..dieses gesicht Oo",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						6, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.752941250801086,
+					["serverTime"] = 1621274060,
+					["timestamp"] = 68376.126,
+					["g"] = 0.752941250801086,
+					["r"] = 1,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:43:20]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Shadriks:116:CHANNEL:1|h|cffaad372Shadriks|r|h|cffd8d8d8]|r: wtf :D",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						6, -- [3]
+						31, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.752941250801086,
+					["serverTime"] = 1621274061,
+					["timestamp"] = 68376.126,
+					["g"] = 0.752941250801086,
+					["r"] = 1,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:43:26]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1621274067,
+					["timestamp"] = 68376.126,
+					["g"] = 0.666666686534882,
+					["r"] = 0,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:43:43]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1621274084,
+					["timestamp"] = 68376.126,
+					["g"] = 0.666666686534882,
+					["r"] = 0,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:43:56]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1621274097,
+					["timestamp"] = 68376.126,
+					["g"] = 0.666666686534882,
+					["r"] = 0,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:44:00]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Azôóg:120:CHANNEL:1|h|cffaad372Azôóg|r|h|cffd8d8d8]|r: brachland chat wie man ihn gewohnt ist <3",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						6, -- [3]
+						33, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.752941250801086,
+					["serverTime"] = 1621274101,
+					["timestamp"] = 68376.126,
+					["g"] = 0.752941250801086,
+					["r"] = 1,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:44:20]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1621274121,
+					["timestamp"] = 68376.126,
+					["g"] = 0.666666686534882,
+					["r"] = 0,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:44:37]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1621274138,
+					["timestamp"] = 68376.126,
+					["g"] = 0.666666686534882,
+					["r"] = 0,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:44:56]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1621274157,
+					["timestamp"] = 68376.126,
+					["g"] = 0.666666686534882,
+					["r"] = 0,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:45:23]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1621274184,
+					["timestamp"] = 68376.126,
+					["g"] = 0.666666686534882,
+					["r"] = 0,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:45:35]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1621274196,
+					["timestamp"] = 68376.126,
+					["g"] = 0.666666686534882,
+					["r"] = 0,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:45:49]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1621274210,
+					["timestamp"] = 68376.126,
+					["g"] = 0.666666686534882,
+					["r"] = 0,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:46:01]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1621274222,
+					["timestamp"] = 68376.126,
+					["g"] = 0.666666686534882,
+					["r"] = 0,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:46:12]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Berzerx:128:CHANNEL:1|h|cffc69b6dBerzerx|r|h|cffd8d8d8]|r: gibts ne Gruppe für Kral?",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						6, -- [3]
+						35, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.752941250801086,
+					["serverTime"] = 1621274233,
+					["timestamp"] = 68376.126,
+					["g"] = 0.752941250801086,
+					["r"] = 1,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:46:15]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Thomastuchel:129:CHANNEL:1|h|cffc69b6dThomastuchel|r|h|cffd8d8d8]|r: Nein",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						6, -- [3]
+						37, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.752941250801086,
+					["serverTime"] = 1621274236,
+					["timestamp"] = 68376.126,
+					["g"] = 0.752941250801086,
+					["r"] = 1,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:46:16]|h|r You receive loot: |cffffffff|Hitem:6351::::::::20:::::::|h[Dented Crate]|h|r.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1621274237,
+					["timestamp"] = 68376.126,
+					["g"] = 0.666666686534882,
+					["r"] = 0,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:46:18]|h|r You receive loot: |cffffffff|Hitem:4364::::::::20:::::::|h[Coarse Blasting Powder]|h|r.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1621274239,
+					["timestamp"] = 68376.126,
+					["g"] = 0.666666686534882,
+					["r"] = 0,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:46:24]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Berzerx-Venoxis:132:CHANNEL:1|h|cffc69b6dBerzerx|r|h|cffd8d8d8]|r: ok danke ;D",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						6, -- [3]
+						35, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.752941250801086,
+					["serverTime"] = 1621274245,
+					["timestamp"] = 68376.126,
+					["g"] = 0.752941250801086,
+					["r"] = 1,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:46:25]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Eugel:133:CHANNEL:1|h|cff0070ddEugel|r|h|cffd8d8d8]|r: ich wär dabei im kral",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						6, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.752941250801086,
+					["serverTime"] = 1621274246,
+					["timestamp"] = 68376.126,
+					["g"] = 0.752941250801086,
+					["r"] = 1,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:46:27]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Thomastuchel-Venoxis:134:CHANNEL:1|h|cffc69b6dThomastuchel|r|h|cffd8d8d8]|r: Kannst aber eine aufmachen, dann komme ich nicht mit",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						6, -- [3]
+						37, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.752941250801086,
+					["serverTime"] = 1621274248,
+					["timestamp"] = 68376.126,
+					["g"] = 0.752941250801086,
+					["r"] = 1,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:46:41]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1621274262,
+					["timestamp"] = 68376.126,
+					["g"] = 0.666666686534882,
+					["r"] = 0,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:46:59]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Zolenya:136:CHANNEL:1|h|cfffff468Zolenya|r|h|cffd8d8d8]|r: grp für hdw?",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						6, -- [3]
+						41, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.752941250801086,
+					["serverTime"] = 1621274280,
+					["timestamp"] = 68376.126,
+					["g"] = 0.752941250801086,
+					["r"] = 1,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:47:00]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1621274281,
+					["timestamp"] = 68376.126,
+					["g"] = 0.666666686534882,
+					["r"] = 0,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:47:19]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Shontre:138:CHANNEL:1|h|cff0070ddShontre|r|h|cffd8d8d8]|r: soviele fragen nach hdw, was ist das?",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						6, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.752941250801086,
+					["serverTime"] = 1621274300,
+					["timestamp"] = 68376.126,
+					["g"] = 0.752941250801086,
+					["r"] = 1,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:47:22]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1621274303,
+					["timestamp"] = 68376.126,
+					["g"] = 0.666666686534882,
+					["r"] = 0,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:47:34]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Azôóg-Venoxis:140:CHANNEL:1|h|cffaad372Azôóg|r|h|cffd8d8d8]|r: haus des wassers :D",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						6, -- [3]
+						33, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.752941250801086,
+					["serverTime"] = 1621274315,
+					["timestamp"] = 68376.126,
+					["g"] = 0.752941250801086,
+					["r"] = 1,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:47:37]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Mycroftqt-Venoxis:141:CHANNEL:1|h|cff8787edMycroftqt|r|h|cffd8d8d8]|r: wailing caverns",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						6, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.752941250801086,
+					["serverTime"] = 1621274318,
+					["timestamp"] = 68376.126,
+					["g"] = 0.752941250801086,
+					["r"] = 1,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:47:49]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1621274330,
+					["timestamp"] = 68376.126,
+					["g"] = 0.666666686534882,
+					["r"] = 0,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:47:50]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Rasheda:143:CHANNEL:1|h|cff3fc6eaRasheda|r|h|cffd8d8d8]|r: dd lf hdw w/me",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						6, -- [3]
+						45, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.752941250801086,
+					["serverTime"] = 1621274331,
+					["timestamp"] = 68376.126,
+					["g"] = 0.752941250801086,
+					["r"] = 1,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:47:55]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Mycroftqt-Venoxis:144:CHANNEL:1|h|cff8787edMycroftqt|r|h|cffd8d8d8]|r: bzw höhlen des wehklagens",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						6, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.752941250801086,
+					["serverTime"] = 1621274336,
+					["timestamp"] = 68376.126,
+					["g"] = 0.752941250801086,
+					["r"] = 1,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:47:56]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Thomastuchel-Venoxis:145:CHANNEL:1|h|cffc69b6dThomastuchel|r|h|cffd8d8d8]|r: Halle der Wollnys",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						6, -- [3]
+						37, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.752941250801086,
+					["serverTime"] = 1621274337,
+					["timestamp"] = 68376.126,
+					["g"] = 0.752941250801086,
+					["r"] = 1,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:47:58]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1621274339,
+					["timestamp"] = 68376.126,
+					["g"] = 0.666666686534882,
+					["r"] = 0,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:00]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Mullekular:147:CHANNEL:1|h|cff3fc6eaMullekular|r|h|cffd8d8d8]|r: dd oder heal für HDW",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						6, -- [3]
+						47, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.752941250801086,
+					["serverTime"] = 1621274341,
+					["timestamp"] = 68376.126,
+					["g"] = 0.752941250801086,
+					["r"] = 1,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:13]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1621274354,
+					["timestamp"] = 68376.126,
+					["g"] = 0.666666686534882,
+					["r"] = 0,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:14]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Berzerx-Venoxis:149:CHANNEL:1|h|cffc69b6dBerzerx|r|h|cffd8d8d8]|r: Suchen 3 dds für Kral",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						6, -- [3]
+						35, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.752941250801086,
+					["serverTime"] = 1621274355,
+					["timestamp"] = 68376.126,
+					["g"] = 0.752941250801086,
+					["r"] = 1,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:22]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Brunolabadia:150:CHANNEL:1|h|cffaad372Brunolabadia|r|h|cffd8d8d8]|r: Hier steppt ja wieder der Bär!",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						6, -- [3]
+						49, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.752941250801086,
+					["serverTime"] = 1621274363,
+					["timestamp"] = 68376.126,
+					["g"] = 0.752941250801086,
+					["r"] = 1,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:26]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1621274367,
+					["timestamp"] = 68376.126,
+					["g"] = 0.666666686534882,
+					["r"] = 0,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:28]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Mycroftqt-Venoxis:152:CHANNEL:1|h|cff8787edMycroftqt|r|h|cffd8d8d8]|r: und die katze",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						6, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.752941250801086,
+					["serverTime"] = 1621274369,
+					["timestamp"] = 68376.126,
+					["g"] = 0.752941250801086,
+					["r"] = 1,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:53]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1621274394,
+					["timestamp"] = 68376.126,
+					["g"] = 0.666666686534882,
+					["r"] = 0,
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:49:07]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1621274408,
+					["timestamp"] = 68376.126,
+					["g"] = 0.666666686534882,
+					["r"] = 0,
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:49:08]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Dedede:155:CHANNEL:1|h|cffffffffDedede|r|h|cffd8d8d8]|r: Hallo Brachland",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						6, -- [3]
+						51, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.752941250801086,
+					["serverTime"] = 1621274409,
+					["timestamp"] = 68376.126,
+					["g"] = 0.752941250801086,
+					["r"] = 1,
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:49:11]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Thomastuchel-Venoxis:156:CHANNEL:1|h|cffc69b6dThomastuchel|r|h|cffd8d8d8]|r: Und der Egbert von Schlauch",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						6, -- [3]
+						37, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.752941250801086,
+					["serverTime"] = 1621274412,
+					["timestamp"] = 68376.126,
+					["g"] = 0.752941250801086,
+					["r"] = 1,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:49:11]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Shontre-Venoxis:157:CHANNEL:1|h|cff0070ddShontre|r|h|cffd8d8d8]|r: wäre wailing caverns dann nicht wc?",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						6, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.752941250801086,
+					["serverTime"] = 1621274412,
+					["timestamp"] = 68376.126,
+					["g"] = 0.752941250801086,
+					["r"] = 1,
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:49:19]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Rasheda-Venoxis:158:CHANNEL:1|h|cff3fc6eaRasheda|r|h|cffd8d8d8]|r: dd lf hdw",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						6, -- [3]
+						45, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.752941250801086,
+					["serverTime"] = 1621274420,
+					["timestamp"] = 68376.126,
+					["g"] = 0.752941250801086,
+					["r"] = 1,
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:49:20]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Thomastuchel-Venoxis:159:CHANNEL:1|h|cffc69b6dThomastuchel|r|h|cffd8d8d8]|r: Hallo Dedede, biste Dortmunder?",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						6, -- [3]
+						37, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.752941250801086,
+					["serverTime"] = 1621274421,
+					["timestamp"] = 68376.126,
+					["g"] = 0.752941250801086,
+					["r"] = 1,
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:49:26]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1621274427,
+					["timestamp"] = 68376.126,
+					["g"] = 0.666666686534882,
+					["r"] = 0,
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:49:41]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Dedede-Venoxis:161:CHANNEL:1|h|cffffffffDedede|r|h|cffd8d8d8]|r: Wer kann mir ein paar Fragen zum Weber Gasgrill Spirit II E-310 GBS beantworten?",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						6, -- [3]
+						51, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.752941250801086,
+					["serverTime"] = 1621274442,
+					["timestamp"] = 68376.126,
+					["g"] = 0.752941250801086,
+					["r"] = 1,
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:49:52]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1621274453,
+					["timestamp"] = 68376.126,
+					["g"] = 0.666666686534882,
+					["r"] = 0,
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:49:59]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Cptbeasty:163:CHANNEL:1|h|cffaad372Cptbeasty|r|h|cffd8d8d8]|r: was willst wissen ?",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						6, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.752941250801086,
+					["serverTime"] = 1621274460,
+					["timestamp"] = 68376.126,
+					["g"] = 0.752941250801086,
+					["r"] = 1,
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:50:04]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1621274465,
+					["timestamp"] = 68376.126,
+					["g"] = 0.666666686534882,
+					["r"] = 0,
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:50:13]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Berzerx-Venoxis:165:CHANNEL:1|h|cffc69b6dBerzerx|r|h|cffd8d8d8]|r: suchen noch DD´s für Kral",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						6, -- [3]
+						35, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.752941250801086,
+					["serverTime"] = 1621274474,
+					["timestamp"] = 68376.126,
+					["g"] = 0.752941250801086,
+					["r"] = 1,
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:50:14]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Ekk:166:CHANNEL:1|h|cffffffffEkk|r|h|cffd8d8d8]|r: ja das gemüseh kommt da drauf",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						6, -- [3]
+						55, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.752941250801086,
+					["serverTime"] = 1621274475,
+					["timestamp"] = 68376.126,
+					["g"] = 0.752941250801086,
+					["r"] = 1,
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:50:15]|h|r You lie down.",
 					["extraData"] = {
 						12, -- [1]
 						false, -- [2]
-						56, -- [3]
-						57, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 384096.873,
-					["g"] = 0.501960813999176,
-					["b"] = 0.250980406999588,
-				}, -- [2]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:23:37]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Pathomosis-Venoxis:1121:CHANNEL:1|h|cffffffffPathomosis|r|h|cffd8d8d8]|r: Glückwunsch :)",
-					["serverTime"] = 1621031016,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
-						54, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 384098.282,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [3]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:23:40]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Bangin-Venoxis:1122:CHANNEL:1|h|cff0070ddBangin|r|h|cffd8d8d8]|r: gz :D",
-					["serverTime"] = 1621031019,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
-						42, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 384101.555,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [4]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:23:41]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Heskon:1123:CHANNEL:1|h|cffff7c0aHeskon|r|h|cffd8d8d8]|r: wtf is babypinkeln",
-					["serverTime"] = 1621031020,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
+						57, -- [3]
 						58, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 384102.6,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [5]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:23:48]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Valkirya-Venoxis:1124:CHANNEL:1|h|cff8787edValkirya|r|h|cffd8d8d8]|r: GZ :)",
-					["serverTime"] = 1621031027,
+					["b"] = 0.250980406999588,
+					["serverTime"] = 1621274476,
+					["timestamp"] = 68376.126,
+					["g"] = 0.501960813999176,
 					["r"] = 1,
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:50:19]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Ekk-Venoxis:167:CHANNEL:1|h|cffffffffEkk|r|h|cffd8d8d8]|r: -h",
 					["extraData"] = {
 						67, -- [1]
 						false, -- [2]
+						6, -- [3]
+						55, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.752941250801086,
+					["serverTime"] = 1621274480,
+					["timestamp"] = 68376.126,
+					["g"] = 0.752941250801086,
+					["r"] = 1,
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:50:34]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Mycroftqt-Venoxis:168:CHANNEL:1|h|cff8787edMycroftqt|r|h|cffd8d8d8]|r: gemüse wtf",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						6, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.752941250801086,
+					["serverTime"] = 1621274495,
+					["timestamp"] = 68376.126,
+					["g"] = 0.752941250801086,
+					["r"] = 1,
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:07:56]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621282077,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
 						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:08:18]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621282099,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:08:28]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621282109,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:08:45]|h|r You receive loot: |cffffffff|Hitem:6358::::::::20:::::::|h[Oily Blackmouth]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621282126,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:09:12]|h|r You receive loot: |cffffffff|Hitem:6353::::::::20:::::::|h[Small Chest]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621282153,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:09:14]|h|r You receive loot: |cff9d9d9d|Hitem:1764::::::::20:::::::|h[Canvas Shoes]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621282155,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:09:14]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Syrpth:175:CHANNEL:1|h|cff0070ddSyrpth|r|h|cffd8d8d8]|r: lfm rfa 3 dds",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621282155,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:09:36]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621282177,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:09:56]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621282197,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:10:07]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621282208,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:10:30]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621282231,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:10:47]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621282248,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:11:29]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621282290,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:11:53]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621282314,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [81]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:19:06]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Bradok:184:CHANNEL:1|h|cffc69b6dBradok|r|h|cffd8d8d8]|r: noch wer lust zu questen",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621279147,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:19:24]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Hotbra:185:CHANNEL:1|h|cff8787edHotbra|r|h|cffd8d8d8]|r: liebe das q'en",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621279165,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:21:55]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Kitinfordays:187:CHANNEL:1|h|cffaad372Kitinfordays|r|h|cffd8d8d8]|r: wolf, skorpion oder eber zum lvln? vielen dank! :)",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621279316,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:22:06]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Grotack:188:CHANNEL:1|h|cffaad372Grotack|r|h|cffd8d8d8]|r: ebre",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621279327,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:22:08]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Grotack-Venoxis:189:CHANNEL:1|h|cffaad372Grotack|r|h|cffd8d8d8]|r: eber",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621279329,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:22:09]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Kitinfordays-Venoxis:190:CHANNEL:1|h|cffaad372Kitinfordays|r|h|cffd8d8d8]|r: danke dir!",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621279330,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:22:12]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Kitinfordays-Venoxis:191:CHANNEL:1|h|cffaad372Kitinfordays|r|h|cffd8d8d8]|r: euch",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621279333,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [88]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:22:24]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Syrpth-Venoxis:192:CHANNEL:1|h|cff0070ddSyrpth|r|h|cffd8d8d8]|r: LFM rfa 1 dd dann go",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621279345,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:22:45]|h|r You are now AFK: Away from Keyboard",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621279366,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+				}, -- [90]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:23:34]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Kriegér:194:CHANNEL:1|h|cffc69b6dKriegér|r|h|cffd8d8d8]|r: What does the fox say?!",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621279415,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+				}, -- [91]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:23:42]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Agoah:195:CHANNEL:1|h|cff0070ddAgoah|r|h|cffd8d8d8]|r: Loktar ogar",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621279423,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+				}, -- [92]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:23:44]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Trüfflbüffl:196:CHANNEL:1|h|cffff7c0aTrüfflbüffl|r|h|cffd8d8d8]|r: meow meow",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621279425,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
+						20, -- [4]
+						["n"] = 4,
+					},
+				}, -- [93]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:23:48]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Reezzyy:197:CHANNEL:1|h|cff0070ddReezzyy|r|h|cffd8d8d8]|r: skrrrrrra skipipakpak?",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621279429,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+				}, -- [94]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:24:02]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Trüfflbüffl-Venoxis:198:CHANNEL:1|h|cffff7c0aTrüfflbüffl|r|h|cffd8d8d8]|r: i bin net derjeniche",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621279443,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
+						20, -- [4]
+						["n"] = 4,
+					},
+				}, -- [95]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:24:10]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Pîmpernickel:199:CHANNEL:1|h|cffff7c0aPîmpernickel|r|h|cffd8d8d8]|r: a frosch",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621279451,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
 						24, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 384109.099,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [6]
+				}, -- [96]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[04:23:49]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Maranon-Venoxis:1125:CHANNEL:1|h|cffaad372Maranon|r|h|cffd8d8d8]|r: Das wissen nur Papas",
-					["serverTime"] = 1621031028,
+					["message"] = "|cff979797|Hpratcopy|h[21:31:07]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Roguegame:200:CHANNEL:1|h|cfffff468Roguegame|r|h|cffd8d8d8]|r: suchen noch heal und tank für HDW",
+					["b"] = 0.752941250801086,
 					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621279868,
 					["extraData"] = {
 						67, -- [1]
 						false, -- [2]
-						1, -- [3]
-						40, -- [4]
+						3, -- [3]
+						26, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 384109.949,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [7]
+				}, -- [97]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[04:23:50]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Maranon-Venoxis:1126:CHANNEL:1|h|cffaad372Maranon|r|h|cffd8d8d8]|r: Danke :)",
-					["serverTime"] = 1621031029,
+					["message"] = "|cff979797|Hpratcopy|h[21:33:55]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Roguegame-Venoxis:202:CHANNEL:1|h|cfffff468Roguegame|r|h|cffd8d8d8]|r: Suchen Heal Tank und DD für HDW",
+					["b"] = 0.752941250801086,
 					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621280036,
 					["extraData"] = {
 						67, -- [1]
 						false, -- [2]
-						1, -- [3]
-						40, -- [4]
+						3, -- [3]
+						26, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 384111.699,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [8]
+				}, -- [98]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[04:23:52]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Pathomosis-Venoxis:1127:CHANNEL:1|h|cffffffffPathomosis|r|h|cffd8d8d8]|r: haha",
-					["serverTime"] = 1621031031,
+					["message"] = "|cff979797|Hpratcopy|h[21:40:48]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Schmutzgöre:205:CHANNEL:1|h|cffff7c0aSchmutzgöre|r|h|cffd8d8d8]|r: noch jmnd hezrul?",
+					["b"] = 0.752941250801086,
 					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621280449,
 					["extraData"] = {
 						67, -- [1]
 						false, -- [2]
-						1, -- [3]
-						54, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 384113.149,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [9]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:10:08]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["timestamp"] = 383289.852,
-					["serverTime"] = 1621030207,
-				}, -- [10]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:10:22]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
-					["serverTime"] = 1621030221,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383303.397,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [11]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:10:24]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
-					["timestamp"] = 383305.219,
-					["serverTime"] = 1621030223,
-				}, -- [12]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:10:44]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["serverTime"] = 1621030243,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383325.758,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [13]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:10:46]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["timestamp"] = 383327.856,
-					["serverTime"] = 1621030245,
-				}, -- [14]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:11:09]|h|r You receive loot: |cffffffff|Hitem:6353::::::::20:::::::|h[Small Chest]|h|r.",
-					["serverTime"] = 1621030268,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383350.367,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [15]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:11:10]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 383351.861,
-					["serverTime"] = 1621030269,
-				}, -- [16]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:11:11]|h|r You receive loot: |cffffffff|Hitem:2319::::::::20:::::::|h[Medium Leather]|h|r.",
-					["serverTime"] = 1621030270,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383352.407,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [17]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:11:40]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 383381.906,
-					["serverTime"] = 1621030299,
-				}, -- [18]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:12:04]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["serverTime"] = 1621030323,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383405.598,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [19]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:12:06]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["timestamp"] = 383407.696,
-					["serverTime"] = 1621030325,
-				}, -- [20]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:12:21]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["serverTime"] = 1621030340,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383421.949,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [21]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:12:23]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["timestamp"] = 383424.255,
-					["serverTime"] = 1621030342,
-				}, -- [22]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:12:35]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["serverTime"] = 1621030354,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383436.351,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [23]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:12:37]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["timestamp"] = 383438.524,
-					["serverTime"] = 1621030356,
-				}, -- [24]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:12:50]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Shanadoo-Venoxis:1043:CHANNEL:1|h|cffaad372Shanadoo|r|h|cffd8d8d8]|r: Suchen noch einen DD  und Tank o Heal für RF",
-					["serverTime"] = 1621030369,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
+						3, -- [3]
 						28, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 383451.124,
-					["g"] = 0.752941250801086,
+				}, -- [99]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:42:51]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Roguegame-Venoxis:206:CHANNEL:1|h|cfffff468Roguegame|r|h|cffd8d8d8]|r: Suchen Heal und Tank für HDW",
 					["b"] = 0.752941250801086,
-				}, -- [25]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:13:00]|h|r You receive loot: |cffffffff|Hitem:6358::::::::20:::::::|h[Oily Blackmouth]|h|r.",
-					["serverTime"] = 1621030379,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383461.114,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [26]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:13:01]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 383462.65,
-					["serverTime"] = 1621030380,
-				}, -- [27]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:13:20]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["serverTime"] = 1621030399,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383481.823,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [28]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:13:23]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["timestamp"] = 383484.247,
-					["serverTime"] = 1621030402,
-				}, -- [29]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:13:52]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 383513.491,
-					["serverTime"] = 1621030431,
-				}, -- [30]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:14:10]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["serverTime"] = 1621030449,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383531.655,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [31]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:14:12]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["timestamp"] = 383533.613,
-					["serverTime"] = 1621030451,
-				}, -- [32]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:14:28]|h|r You receive loot: |cffffffff|Hitem:6358::::::::20:::::::|h[Oily Blackmouth]|h|r.",
-					["serverTime"] = 1621030467,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383549.35,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [33]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:14:30]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 383550.941,
-					["serverTime"] = 1621030469,
-				}, -- [34]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:14:55]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
-					["serverTime"] = 1621030494,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383576.301,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [35]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:14:57]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
-					["timestamp"] = 383578.504,
-					["serverTime"] = 1621030496,
-				}, -- [36]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:15:07]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Odasedward:1050:CHANNEL:1|h|cff8787edOdasedward|r|h|cffd8d8d8]|r: wilkommen im Brachland YEEEAAA",
-					["serverTime"] = 1621030506,
 					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621280572,
 					["extraData"] = {
 						67, -- [1]
 						false, -- [2]
-						1, -- [3]
+						3, -- [3]
+						26, -- [4]
+						["n"] = 4,
+					},
+				}, -- [100]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:43:13]|h|r |cff3fc6eaPattilicious|r has gone offline.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621280594,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+				}, -- [101]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:43:16]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Ruschak:208:CHANNEL:1|h|cffff7c0aRuschak|r|h|cffd8d8d8]|r: Suche gold auf venoxis (horde). Biete gold auf lucifron (horde)",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621280597,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
+						30, -- [4]
+						["n"] = 4,
+					},
+				}, -- [102]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:45:37]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Roguegame-Venoxis:209:CHANNEL:1|h|cfffff468Roguegame|r|h|cffd8d8d8]|r: Suchen Tank für HDW",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621280738,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
+						26, -- [4]
+						["n"] = 4,
+					},
+				}, -- [103]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:45:55]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Kitinfordays-Venoxis:210:CHANNEL:1|h|cffaad372Kitinfordays|r|h|cffd8d8d8]|r: lvlt mein pet auch mit?",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621280756,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [104]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:46:07]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Everhoof:211:CHANNEL:1|h|cffaad372Everhoof|r|h|cffd8d8d8]|r: ja aber langsamer",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621280768,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
 						32, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 383588.354,
-					["g"] = 0.752941250801086,
+				}, -- [105]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:46:11]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Kitinfordays-Venoxis:212:CHANNEL:1|h|cffaad372Kitinfordays|r|h|cffd8d8d8]|r: okay",
 					["b"] = 0.752941250801086,
-				}, -- [37]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:15:16]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["serverTime"] = 1621030515,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383597.107,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [38]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:15:17]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Mycroftqt:1052:CHANNEL:1|h|cff8787edMycroftqt|r|h|cffd8d8d8]|r: tschö",
-					["serverTime"] = 1621030516,
 					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621280772,
 					["extraData"] = {
 						67, -- [1]
 						false, -- [2]
-						1, -- [3]
+						3, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [106]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:46:12]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Kitinfordays-Venoxis:213:CHANNEL:1|h|cffaad372Kitinfordays|r|h|cffd8d8d8]|r: danke",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621280773,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [107]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:47:01]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Zareah:214:CHANNEL:1|h|cffaad372Zareah|r|h|cffd8d8d8]|r: Dein pet kann nur dann leveln wenn du ein Level über ihm bist. Sobald das passiert bekommt es EP",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621280822,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
 						34, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 383598.868,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [39]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:15:18]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["timestamp"] = 383599.141,
-					["serverTime"] = 1621030517,
-				}, -- [40]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:15:19]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Elusia:1053:CHANNEL:1|h|cff8787edElusia|r|h|cffd8d8d8]|r: woop woop",
-					["serverTime"] = 1621030518,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
-						36, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383600.627,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [41]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:15:21]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Elusia-Venoxis:1054:CHANNEL:1|h|cff8787edElusia|r|h|cffd8d8d8]|r: :D",
-					["serverTime"] = 1621030520,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
-						36, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383602.027,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [42]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:15:24]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
-					["serverTime"] = 1621030523,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383605.764,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [43]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:15:26]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
-					["timestamp"] = 383607.628,
-					["serverTime"] = 1621030525,
-				}, -- [44]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:15:29]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Eltarios-Venoxis:1056:CHANNEL:1|h|cff3fc6eaEltarios|r|h|cffd8d8d8]|r: hau ab, das boot ist voll",
-					["serverTime"] = 1621030528,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
-						8, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383610.15,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [45]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:15:39]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Elusia-Venoxis:1057:CHANNEL:1|h|cff8787edElusia|r|h|cffd8d8d8]|r: .-.",
-					["serverTime"] = 1621030538,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
-						36, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383620.607,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [46]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:15:39]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["serverTime"] = 1621030538,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383620.744,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [47]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:15:42]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["timestamp"] = 383623.063,
-					["serverTime"] = 1621030541,
-				}, -- [48]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:16:07]|h|r You receive loot: |cffffffff|Hitem:6358::::::::20:::::::|h[Oily Blackmouth]|h|r.",
-					["serverTime"] = 1621030566,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383648.907,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [49]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:16:09]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 383650.684,
-					["serverTime"] = 1621030568,
-				}, -- [50]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:16:16]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Dualbytes:1061:CHANNEL:1|h|cfffff468Dualbytes|r|h|cffd8d8d8]|r: lfm tank und dd für kral",
-					["serverTime"] = 1621030575,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
-						38, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383657.292,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [51]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:16:38]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Maranon:1062:CHANNEL:1|h|cffaad372Maranon|r|h|cffd8d8d8]|r: Ist das hier die Selbshilfe Gruppe Brachland?",
-					["serverTime"] = 1621030597,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
-						40, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383679.142,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [52]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:16:39]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 383680.679,
-					["serverTime"] = 1621030598,
-				}, -- [53]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:17:02]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["serverTime"] = 1621030621,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383703.225,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [54]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:17:03]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["timestamp"] = 383704.816,
-					["serverTime"] = 1621030622,
-				}, -- [55]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:17:15]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["serverTime"] = 1621030634,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383716.05,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [56]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:17:17]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["timestamp"] = 383718.209,
-					["serverTime"] = 1621030636,
-				}, -- [57]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:17:20]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Bangin:1066:CHANNEL:1|h|cff0070ddBangin|r|h|cffd8d8d8]|r: Arbeitsschutzschuhe schützen nicht vor Arbeit :(",
-					["serverTime"] = 1621030639,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
-						42, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383721.559,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [58]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:17:35]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Elusia-Venoxis:1067:CHANNEL:1|h|cff8787edElusia|r|h|cffd8d8d8]|r: oh nicht ? !@#$ :c",
-					["serverTime"] = 1621030654,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
-						36, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383736.36,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [59]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:17:36]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["serverTime"] = 1621030655,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383736.951,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [60]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:17:37]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Wrzhgts:1069:CHANNEL:1|h|cffaad372Wrzhgts|r|h|cffd8d8d8]|r: ^^",
-					["serverTime"] = 1621030656,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
-						44, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383738.812,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [61]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:17:38]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["timestamp"] = 383739.22,
-					["serverTime"] = 1621030657,
-				}, -- [62]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:17:38]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Eltarios-Venoxis:1070:CHANNEL:1|h|cff3fc6eaEltarios|r|h|cffd8d8d8]|r: fall für den Verbraucherschutz",
-					["serverTime"] = 1621030657,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
-						8, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383739.22,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [63]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:17:46]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Bangin-Venoxis:1071:CHANNEL:1|h|cff0070ddBangin|r|h|cffd8d8d8]|r: :)",
-					["serverTime"] = 1621030665,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
-						42, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383746.97,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [64]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:17:47]|h|r You receive loot: |cffffffff|Hitem:6358::::::::20:::::::|h[Oily Blackmouth]|h|r.",
-					["serverTime"] = 1621030666,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383748.715,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [65]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:17:49]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 383750.307,
-					["serverTime"] = 1621030668,
-				}, -- [66]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:17:52]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Maranon-Venoxis:1073:CHANNEL:1|h|cffaad372Maranon|r|h|cffd8d8d8]|r: Wer sich morgens dumm anställt hat Abens mehr Energie!",
-					["serverTime"] = 1621030671,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
-						40, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383753.39,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [67]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:17:57]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["serverTime"] = 1621030676,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383758.878,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [68]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:18:00]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["timestamp"] = 383761.105,
-					["serverTime"] = 1621030679,
-				}, -- [69]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:18:04]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Heey:1075:CHANNEL:1|h|cff8787edHeey|r|h|cffd8d8d8]|r: \"anställt vorallem\"",
-					["serverTime"] = 1621030683,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383765.305,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [70]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:18:11]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Bangin-Venoxis:1076:CHANNEL:1|h|cff0070ddBangin|r|h|cffd8d8d8]|r: Dein Duden ist defekt",
-					["serverTime"] = 1621030690,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
-						42, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383772.605,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [71]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:18:16]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Noctowl:1077:CHANNEL:1|h|cffff7c0aNoctowl|r|h|cffd8d8d8]|r: lul",
-					["serverTime"] = 1621030695,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
-						48, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383777.405,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [72]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:18:22]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Elusia-Venoxis:1078:CHANNEL:1|h|cff8787edElusia|r|h|cffd8d8d8]|r: meddl loide",
-					["serverTime"] = 1621030701,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
-						36, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383783.005,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [73]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:18:23]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["serverTime"] = 1621030702,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383784.452,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [74]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:18:25]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Elusia-Venoxis:1080:CHANNEL:1|h|cff8787edElusia|r|h|cffd8d8d8]|r: ;3",
-					["serverTime"] = 1621030704,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
-						36, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383786.407,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [75]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:18:25]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["timestamp"] = 383786.635,
-					["serverTime"] = 1621030704,
-				}, -- [76]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:18:28]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Sterní:1081:CHANNEL:1|h|cffffffffSterní|r|h|cffd8d8d8]|r: Hat anställen etwas mit Pferden zu tun?",
-					["serverTime"] = 1621030707,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
-						50, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383789.121,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [77]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:18:29]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Shanadoo-Venoxis:1082:CHANNEL:1|h|cffaad372Shanadoo|r|h|cffd8d8d8]|r: Suchen noch einen DD  und Tank o Heal für RF",
-					["serverTime"] = 1621030708,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
-						28, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383790.371,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [78]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:18:30]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Maranon-Venoxis:1083:CHANNEL:1|h|cffaad372Maranon|r|h|cffd8d8d8]|r: Peinlich xD",
-					["serverTime"] = 1621030709,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
-						40, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383791.121,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [79]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:18:38]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["serverTime"] = 1621030717,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383799.849,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [80]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:18:41]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["timestamp"] = 383802.031,
-					["serverTime"] = 1621030720,
-				}, -- [81]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:18:42]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Bangin-Venoxis:1085:CHANNEL:1|h|cff0070ddBangin|r|h|cffd8d8d8]|r: Kann Baumwolle rosten? Wen nicht, hab ich mich eingeschissen :)",
-					["serverTime"] = 1621030721,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
-						42, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383803.349,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [82]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:18:48]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Bangin-Venoxis:1086:CHANNEL:1|h|cff0070ddBangin|r|h|cffd8d8d8]|r: wenn* xD",
-					["serverTime"] = 1621030727,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
-						42, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383809.121,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [83]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:18:49]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["serverTime"] = 1621030728,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383810.864,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [84]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:18:51]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["timestamp"] = 383812.575,
-					["serverTime"] = 1621030730,
-				}, -- [85]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:18:58]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Elusia-Venoxis:1088:CHANNEL:1|h|cff8787edElusia|r|h|cffd8d8d8]|r: ui.. nice",
-					["serverTime"] = 1621030737,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
-						36, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383819.377,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [86]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:19:00]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["serverTime"] = 1621030739,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383821.87,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [87]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:19:03]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["timestamp"] = 383823.922,
-					["serverTime"] = 1621030742,
-				}, -- [88]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:19:32]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 383853.465,
-					["serverTime"] = 1621030771,
-				}, -- [89]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:19:57]|h|r You receive loot: |cffffffff|Hitem:6358::::::::20:::::::|h[Oily Blackmouth]|h|r.",
-					["serverTime"] = 1621030796,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383878.201,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [90]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:19:58]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 383879.696,
-					["serverTime"] = 1621030797,
-				}, -- [91]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:20:09]|h|r You receive loot: |cffffffff|Hitem:6358::::::::20:::::::|h[Oily Blackmouth]|h|r.",
-					["serverTime"] = 1621030808,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383890.557,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [92]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:20:11]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 383892.062,
-					["serverTime"] = 1621030810,
-				}, -- [93]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:20:17]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Maranon-Venoxis:1092:CHANNEL:1|h|cffaad372Maranon|r|h|cffd8d8d8]|r: Krass, gerade das erste mal erlebt wie es ist so krasse rechtscheibfehler zu machen :D  Vorher dachte ich immer das wäre die Boomer Generation",
-					["serverTime"] = 1621030816,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
-						40, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383898.434,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [94]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:20:22]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Maranon-Venoxis:1093:CHANNEL:1|h|cffaad372Maranon|r|h|cffd8d8d8]|r: Vllt liegts am Biet",
-					["serverTime"] = 1621030821,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
-						40, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383903.384,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [95]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:20:31]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Maranon-Venoxis:1094:CHANNEL:1|h|cffaad372Maranon|r|h|cffd8d8d8]|r: Oder ich bin zulange aus der Schule raus",
-					["serverTime"] = 1621030830,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
-						40, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383912.084,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [96]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:20:34]|h|r You receive loot: |cffffffff|Hitem:6358::::::::20:::::::|h[Oily Blackmouth]|h|r.",
-					["serverTime"] = 1621030833,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383915.176,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [97]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:20:35]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 383916.276,
-					["serverTime"] = 1621030834,
-				}, -- [98]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:20:37]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Bangin-Venoxis:1096:CHANNEL:1|h|cff0070ddBangin|r|h|cffd8d8d8]|r: Biet? wtf",
-					["serverTime"] = 1621030836,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
-						42, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383918.736,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [99]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:20:46]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Elusia-Venoxis:1097:CHANNEL:1|h|cff8787edElusia|r|h|cffd8d8d8]|r: lul",
-					["serverTime"] = 1621030845,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
-						36, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383927.786,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [100]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:20:47]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Elusia-Venoxis:1098:CHANNEL:1|h|cff8787edElusia|r|h|cffd8d8d8]|r: ^^",
-					["serverTime"] = 1621030846,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
-						36, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383928.536,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [101]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:20:49]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Helk:1099:CHANNEL:1|h|cff0070ddHelk|r|h|cffd8d8d8]|r: Rieltork?",
-					["serverTime"] = 1621030848,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
-						52, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383930.786,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [102]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:20:55]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["serverTime"] = 1621030854,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383936.873,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [103]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:20:57]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["timestamp"] = 383938.919,
-					["serverTime"] = 1621030856,
-				}, -- [104]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:21:16]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Bangin-Venoxis:1101:CHANNEL:1|h|cff0070ddBangin|r|h|cffd8d8d8]|r: welche altersgrenze war die boomer generation?",
-					["serverTime"] = 1621030875,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
-						42, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383957.877,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [105]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:21:21]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Maranon-Venoxis:1102:CHANNEL:1|h|cffaad372Maranon|r|h|cffd8d8d8]|r: 21",
-					["serverTime"] = 1621030880,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
-						40, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383962.877,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [106]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:21:26]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Maranon-Venoxis:1103:CHANNEL:1|h|cffaad372Maranon|r|h|cffd8d8d8]|r: kek",
-					["serverTime"] = 1621030885,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
-						40, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383967.027,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [107]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:21:27]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 383968.467,
-					["serverTime"] = 1621030886,
 				}, -- [108]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[04:21:43]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Bangin-Venoxis:1105:CHANNEL:1|h|cff0070ddBangin|r|h|cffd8d8d8]|r: 21 jahre? xD",
-					["serverTime"] = 1621030902,
+					["message"] = "|cff979797|Hpratcopy|h[21:47:35]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Kitinfordays-Venoxis:215:CHANNEL:1|h|cffaad372Kitinfordays|r|h|cffd8d8d8]|r: bin 4 lvl drüber :D",
+					["b"] = 0.752941250801086,
 					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621280856,
 					["extraData"] = {
 						67, -- [1]
 						false, -- [2]
-						1, -- [3]
-						42, -- [4]
+						3, -- [3]
+						10, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 383984.12,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
 				}, -- [109]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[04:21:52]|h|r You receive loot: |cffffffff|Hitem:6358::::::::20:::::::|h[Oily Blackmouth]|h|r.",
-					["serverTime"] = 1621030911,
-					["r"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[21:47:45]|h|r You have been inactive for some time and will be logged out of the game. If you wish to remain logged in, hit the cancel button.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 68376.126,
+					["serverTime"] = 1621280866,
 					["extraData"] = {
-						28, -- [1]
+						1, -- [1]
 						false, -- [2]
-						4, -- [3]
-						5, -- [4]
+						14, -- [3]
+						15, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 383993.258,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
 				}, -- [110]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[04:21:53]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 383994.849,
-					["serverTime"] = 1621030912,
+					["message"] = "0 days, 3 hours, 23 minutes, 43 seconds",
+					["timestamp"] = 68376.126,
 				}, -- [111]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[04:21:54]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Maranon-Venoxis:1107:CHANNEL:1|h|cffaad372Maranon|r|h|cffd8d8d8]|r: Boomer ist nicht aufs Alter bezogen, eher aufs Verhalten",
-					["serverTime"] = 1621030913,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
-						40, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 383995.375,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 68376.126,
 				}, -- [112]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[04:22:02]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Pathomosis:1108:CHANNEL:1|h|cffffffffPathomosis|r|h|cffd8d8d8]|r: Boomer waren doch die 60/70er kids?",
-					["serverTime"] = 1621030921,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
-						54, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 384003.625,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
+					["message"] = "|cff979797|Hpratcopy|h[22:28:49]|h|r Fishing Buddy v0.7.3 Beta 5 loaded",
+					["timestamp"] = 68375.494,
 				}, -- [113]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[04:22:10]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["serverTime"] = 1621030929,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 384011.625,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[22:28:55]|h|r HealBot |cff20ff201.13.7.1|r loaded. For help use: |cffffff00 /hb h|r",
+					["r"] = 0.7,
+					["serverTime"] = 1621293095,
+					["timestamp"] = 68381.541,
+					["g"] = 0.7,
+					["b"] = 1,
 				}, -- [114]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[04:22:12]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["timestamp"] = 384013.846,
-					["serverTime"] = 1621030931,
+					["message"] = "|cff979797|Hpratcopy|h[21:38:57]|h|r You are now AFK: Away from Keyboard",
+					["serverTime"] = 1621290097,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 68670.341,
+					["g"] = 1,
+					["b"] = 0,
 				}, -- [115]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[04:22:25]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Maranon-Venoxis:1110:CHANNEL:1|h|cffaad372Maranon|r|h|cffd8d8d8]|r: Zb wenn man Nachts um 00:30 im Brahclandchat schreibt. Dann ist man zu 100% eein Boomer",
-					["serverTime"] = 1621030944,
+					["message"] = "|cff979797|Hpratcopy|h[21:48:10]|h|r Herald of Thrall yells: Honor your heroes! On this day, they have dealt a great blow against one of our most hated enemies! The false Warchief, Rend Blackhand, has fallen!",
+					["serverTime"] = 1621290650,
 					["r"] = 1,
 					["extraData"] = {
-						67, -- [1]
+						15, -- [1]
 						false, -- [2]
-						1, -- [3]
-						40, -- [4]
+						3, -- [3]
+						4, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 384026.646,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
+					["timestamp"] = 69223.291,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
 				}, -- [116]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[04:22:30]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Bangin-Venoxis:1111:CHANNEL:1|h|cff0070ddBangin|r|h|cffd8d8d8]|r: boomer waren geschichtlich eigentlich die nachkriegskinder",
-					["serverTime"] = 1621030949,
+					["message"] = "|cff979797|Hpratcopy|h[21:48:13]|h|r Herald of Thrall yells: Be bathed in the power of the Warchief! Drink in his might! Battle for the glory of the Horde!",
+					["serverTime"] = 1621290653,
 					["r"] = 1,
 					["extraData"] = {
-						67, -- [1]
+						15, -- [1]
 						false, -- [2]
-						1, -- [3]
-						42, -- [4]
+						3, -- [3]
+						4, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 384031.596,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
+					["timestamp"] = 69226.191,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
 				}, -- [117]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[04:22:42]|h|r |cFF4FAFE3[Dejunk]|r No junk items to destroy.",
-					["timestamp"] = 384043.182,
-					["serverTime"] = 1621030961,
-				}, -- [118]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:22:56]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Elusia-Venoxis:1112:CHANNEL:1|h|cff8787edElusia|r|h|cffd8d8d8]|r: waaas ich bin kein boomer luluul .-.",
-					["serverTime"] = 1621030975,
+					["message"] = "|cff979797|Hpratcopy|h[21:53:45]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Sandmannmvp:220:CHANNEL:1|h|cff3fc6eaSandmannmvp|r|h|cffd8d8d8]|r: WTB Leichte Feder 2g pro stack",
+					["serverTime"] = 1621290985,
 					["r"] = 1,
 					["extraData"] = {
 						67, -- [1]
 						false, -- [2]
-						1, -- [3]
-						36, -- [4]
+						5, -- [3]
+						6, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 384057.691,
+					["timestamp"] = 69558.191,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
+				}, -- [118]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:54:28]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Sandmannmvp-Venoxis:221:CHANNEL:1|h|cff3fc6eaSandmannmvp|r|h|cffd8d8d8]|r: WTB Leichte Feder 2g pro stack per nachname",
+					["serverTime"] = 1621291028,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 69601.091,
 					["g"] = 0.752941250801086,
 					["b"] = 0.752941250801086,
 				}, -- [119]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[04:23:01]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Pathomosis-Venoxis:1113:CHANNEL:1|h|cffffffffPathomosis|r|h|cffd8d8d8]|r: Ich vermute mal stark, dass die meisten hierkeine Boomer sind. Weil die Boomer heute alle 50+ sind",
-					["serverTime"] = 1621030980,
+					["message"] = "|cff979797|Hpratcopy|h[22:03:57]|h|r You have been inactive for some time and will be logged out of the game. If you wish to remain logged in, hit the cancel button.",
+					["serverTime"] = 1621291597,
 					["r"] = 1,
 					["extraData"] = {
-						67, -- [1]
+						1, -- [1]
 						false, -- [2]
 						1, -- [3]
-						54, -- [4]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 384062.291,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
+					["timestamp"] = 70170.341,
+					["g"] = 1,
+					["b"] = 0,
 				}, -- [120]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:23:02]|h|r You receive loot: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["serverTime"] = 1621030981,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 384063.381,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [121]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:23:04]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6361::::::::20:::::::|h[Raw Rainbow Fin Albacore]|h|r.",
-					["timestamp"] = 384065.287,
-					["serverTime"] = 1621030983,
-				}, -- [122]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:23:07]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Noctowl-Venoxis:1115:CHANNEL:1|h|cffff7c0aNoctowl|r|h|cffd8d8d8]|r: @Pathomosis Das waren die \"Baby-Boomer\" und das hat glaub ich hiermit nix zu tun",
-					["serverTime"] = 1621030986,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
-						48, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 384068.873,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [123]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:23:17]|h|r You receive loot: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
-					["serverTime"] = 1621030996,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						4, -- [3]
-						5, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 384078.316,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [124]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:23:17]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Pathomosis-Venoxis:1117:CHANNEL:1|h|cffffffffPathomosis|r|h|cffd8d8d8]|r: Mein Fehler dann",
-					["serverTime"] = 1621030996,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
-						54, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 384078.543,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [125]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:23:18]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Elusia-Venoxis:1118:CHANNEL:1|h|cff8787edElusia|r|h|cffd8d8d8]|r: ich glaube die wenigsten sind 50+ hier ^^",
-					["serverTime"] = 1621030997,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
-						36, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 384079.315,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [126]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:23:19]|h|r |cFF4FAFE3[Dejunk]|r Destroyed: |cffffffff|Hitem:6303::::::::20:::::::|h[Raw Slitherskin Mackerel]|h|r.",
-					["timestamp"] = 384080.274,
-					["serverTime"] = 1621030998,
-				}, -- [127]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[04:23:25]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Maranon-Venoxis:1119:CHANNEL:1|h|cffaad372Maranon|r|h|cffd8d8d8]|r: Bin vor 10 Tagen Papa geworden. Heute war babypinkeln. xD bin gut drauf ;)",
-					["serverTime"] = 1621031004,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						1, -- [3]
-						40, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 384086.576,
-					["g"] = 0.752941250801086,
-					["b"] = 0.752941250801086,
-				}, -- [128]
 			},
 			["maxElements"] = 128,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],

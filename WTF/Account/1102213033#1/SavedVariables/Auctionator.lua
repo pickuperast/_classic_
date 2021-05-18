@@ -2,13 +2,13 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_50000"] = 1,
 	["_2000"] = 1,
-	["STARTING_DISCOUNT"] = 5,
-	["LOG_DE_DATA_X"] = true,
+	["_200000"] = 1,
+	["_10000"] = 1,
 	["_1000000"] = 1,
 	["_5000000"] = 1,
+	["STARTING_DISCOUNT"] = 5,
 	["_500"] = 1,
-	["_10000"] = 1,
-	["_200000"] = 1,
+	["LOG_DE_DATA_X"] = true,
 }
 AUCTIONATOR_PRICING_HISTORY = {
 	["Bolt of Woolen Cloth"] = {
@@ -59,9 +59,9 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["is"] = "4389:0:0:0:0",
 		["6716846"] = "4899:1",
 	},
-	["Firefin Snapper"] = {
-		["is"] = "6359:0:0:0:0",
-		["6716844"] = "168:20",
+	["Coarse Blasting Powder"] = {
+		["is"] = "4364:0:0:0:0",
+		["6716846"] = "299:14",
 	},
 	["Pattern: Fine Leather Boots"] = {
 		["is"] = "2406:0:0:0:0",
@@ -71,17 +71,17 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["is"] = "4292:0:0:0:0",
 		["6716845"] = "4999:1",
 	},
-	["Oily Blackmouth"] = {
-		["is"] = "6358:0:0:0:0",
-		["6716844"] = "2998:20",
-	},
 	["Copper Tube"] = {
 		["is"] = "4361:0:0:0:0",
 		["6716846"] = "954:1",
 	},
-	["Coarse Blasting Powder"] = {
-		["is"] = "4364:0:0:0:0",
-		["6716846"] = "299:14",
+	["Oily Blackmouth"] = {
+		["is"] = "6358:0:0:0:0",
+		["6716844"] = "2998:20",
+	},
+	["Firefin Snapper"] = {
+		["is"] = "6359:0:0:0:0",
+		["6716844"] = "168:20",
 	},
 }
 AUCTIONATOR_SHOPPING_LISTS = {
@@ -108,11 +108,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 	["__dbversion"] = 4,
 	["Venoxis_Horde"] = {
 		["Pattern: Runecloth Bag"] = {
+			["mr"] = 269600,
+			["sc"] = 2,
+			["id"] = "14468:0:0:0:0",
 			["H3778"] = 269600,
 			["cc"] = 9,
-			["id"] = "14468:0:0:0:0",
-			["sc"] = 2,
-			["mr"] = 269600,
 		},
 		["Light Leather"] = {
 			["mr"] = 112,
@@ -122,18 +122,18 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 0,
 		},
 		["Red Woolen Bag"] = {
+			["mr"] = 4900,
+			["sc"] = 0,
+			["id"] = "5763:0:0:0:0",
 			["H3778"] = 4900,
 			["cc"] = 1,
-			["id"] = "5763:0:0:0:0",
-			["sc"] = 0,
-			["mr"] = 4900,
 		},
 		["Green Leather Bag"] = {
-			["mr"] = 5300,
-			["sc"] = 0,
-			["id"] = "5573:0:0:0:0",
 			["H3778"] = 5300,
 			["cc"] = 1,
+			["id"] = "5573:0:0:0:0",
+			["sc"] = 0,
+			["mr"] = 5300,
 		},
 		["Scroll of Intellect"] = {
 			["mr"] = 7110101,
@@ -143,11 +143,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 0,
 		},
 		["Runecloth Bag"] = {
+			["mr"] = 52897,
+			["sc"] = 0,
+			["id"] = "14046:0:0:0:0",
 			["H3778"] = 52897,
 			["cc"] = 1,
-			["id"] = "14046:0:0:0:0",
-			["sc"] = 0,
-			["mr"] = 52897,
 		},
 		["Winter Squid"] = {
 			["mr"] = 6700,
@@ -179,18 +179,18 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Scroll of Stamina"] = {
 			["mr"] = 854,
-			["L3828"] = 854,
-			["id"] = "1180:0:0:0:0",
 			["cc"] = 0,
+			["id"] = "1180:0:0:0:0",
+			["L3828"] = 854,
 			["H3828"] = 855,
 			["sc"] = 0,
 		},
 		["Mooncloth Bag"] = {
+			["mr"] = 213999,
+			["sc"] = 0,
+			["id"] = "14155:0:0:0:0",
 			["H3778"] = 213999,
 			["cc"] = 1,
-			["id"] = "14155:0:0:0:0",
-			["sc"] = 0,
-			["mr"] = 213999,
 		},
 		["Green Woolen Bag"] = {
 			["H3771"] = 9200,
@@ -200,18 +200,18 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["cc"] = 1,
 		},
 		["White Leather Bag"] = {
+			["mr"] = 6680,
+			["sc"] = 0,
+			["id"] = "5574:0:0:0:0",
 			["H3778"] = 6680,
 			["cc"] = 1,
-			["id"] = "5574:0:0:0:0",
-			["sc"] = 0,
-			["mr"] = 6680,
 		},
 		["Troll-hide Bag"] = {
-			["mr"] = 57499,
-			["sc"] = 0,
-			["id"] = "1685:0:0:0:0",
 			["H3778"] = 57499,
 			["cc"] = 1,
+			["id"] = "1685:0:0:0:0",
+			["sc"] = 0,
+			["mr"] = 57499,
 		},
 		["Bolt of Woolen Cloth"] = {
 			["mr"] = 2534,
@@ -241,19 +241,19 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H3828"] = 169,
 			["sc"] = 0,
 		},
-		["Pattern: Red Woolen Bag"] = {
-			["H3778"] = 372,
-			["cc"] = 9,
-			["id"] = "5772:0:0:0:0",
-			["sc"] = 2,
-			["mr"] = 372,
+		["Copper Tube"] = {
+			["mr"] = 955,
+			["cc"] = 7,
+			["id"] = "4361:0:0:0:0",
+			["H3828"] = 955,
+			["sc"] = 1,
 		},
-		["Pattern: Mooncloth Bag"] = {
-			["H3778"] = 34892,
-			["cc"] = 9,
-			["id"] = "14499:0:0:0:0",
+		["Pattern: Red Linen Bag"] = {
+			["mr"] = 19953,
 			["sc"] = 2,
-			["mr"] = 34892,
+			["id"] = "5771:0:0:0:0",
+			["H3778"] = 19953,
+			["cc"] = 9,
 		},
 		["Copper Modulator"] = {
 			["mr"] = 390,
@@ -270,39 +270,39 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 1,
 		},
 		["Pattern: Enchanted Runecloth Bag"] = {
+			["mr"] = 74250,
+			["sc"] = 2,
+			["id"] = "22308:0:0:0:0",
 			["H3778"] = 74250,
 			["cc"] = 9,
-			["id"] = "22308:0:0:0:0",
-			["sc"] = 2,
-			["mr"] = 74250,
-		},
-		["Craftsman's Writ - Runecloth Bag"] = {
-			["H3778"] = 84999,
-			["cc"] = 15,
-			["id"] = "22611:0:0:0:0",
-			["sc"] = 0,
-			["mr"] = 84999,
-		},
-		["Mageweave Bag"] = {
-			["H3778"] = 17800,
-			["cc"] = 1,
-			["id"] = "10050:0:0:0:0",
-			["sc"] = 0,
-			["mr"] = 17800,
 		},
 		["Enchanted Runecloth Bag"] = {
+			["mr"] = 226199,
+			["sc"] = 3,
+			["id"] = "22248:0:0:0:0",
 			["H3778"] = 226199,
 			["cc"] = 1,
-			["id"] = "22248:0:0:0:0",
-			["sc"] = 3,
-			["mr"] = 226199,
+		},
+		["Mageweave Bag"] = {
+			["mr"] = 17800,
+			["sc"] = 0,
+			["id"] = "10050:0:0:0:0",
+			["H3778"] = 17800,
+			["cc"] = 1,
+		},
+		["Six Demon Bag"] = {
+			["mr"] = 149999,
+			["sc"] = 0,
+			["id"] = "7734:0:0:0:0",
+			["H3778"] = 149999,
+			["cc"] = 4,
 		},
 		["Red Mageweave Bag"] = {
-			["mr"] = 12999,
-			["sc"] = 0,
-			["id"] = "10051:0:0:0:0",
 			["H3778"] = 12999,
 			["cc"] = 1,
+			["id"] = "10051:0:0:0:0",
+			["sc"] = 0,
+			["mr"] = 12999,
 		},
 		["Oily Blackmouth"] = {
 			["mr"] = 2999,
@@ -311,11 +311,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H3828"] = 2999,
 			["sc"] = 0,
 		},
-		["Woolen Bag"] = {
-			["mr"] = 4000,
+		["Bottomless Bag"] = {
+			["mr"] = 3009899,
 			["sc"] = 0,
-			["id"] = "4240:0:0:0:0",
-			["H3778"] = 4000,
+			["id"] = "14156:0:0:0:0",
+			["H3778"] = 3009899,
 			["cc"] = 1,
 		},
 		["Gyrochronatom"] = {
@@ -326,25 +326,25 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 1,
 		},
 		["Pattern: Kodo Hide Bag"] = {
+			["mr"] = 550000,
+			["sc"] = 1,
+			["id"] = "5083:0:0:0:0",
 			["H3778"] = 550000,
 			["cc"] = 9,
-			["id"] = "5083:0:0:0:0",
-			["sc"] = 1,
-			["mr"] = 550000,
 		},
 		["Blue Leather Bag"] = {
+			["mr"] = 5000,
+			["sc"] = 0,
+			["id"] = "856:0:0:0:0",
 			["H3778"] = 5000,
 			["cc"] = 1,
-			["id"] = "856:0:0:0:0",
-			["sc"] = 0,
-			["mr"] = 5000,
 		},
-		["Bottomless Bag"] = {
-			["H3778"] = 3009899,
+		["Woolen Bag"] = {
+			["H3778"] = 4000,
 			["cc"] = 1,
-			["id"] = "14156:0:0:0:0",
+			["id"] = "4240:0:0:0:0",
 			["sc"] = 0,
-			["mr"] = 3009899,
+			["mr"] = 4000,
 		},
 		["Pattern: Fine Leather Boots"] = {
 			["mr"] = 499,
@@ -360,26 +360,26 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H3828"] = 5000,
 			["sc"] = 2,
 		},
-		["Six Demon Bag"] = {
-			["H3778"] = 149999,
-			["cc"] = 4,
-			["id"] = "7734:0:0:0:0",
+		["Craftsman's Writ - Runecloth Bag"] = {
+			["mr"] = 84999,
 			["sc"] = 0,
-			["mr"] = 149999,
+			["id"] = "22611:0:0:0:0",
+			["H3778"] = 84999,
+			["cc"] = 15,
 		},
-		["Pattern: Red Linen Bag"] = {
-			["H3778"] = 19953,
-			["cc"] = 9,
-			["id"] = "5771:0:0:0:0",
+		["Pattern: Mooncloth Bag"] = {
+			["mr"] = 34892,
 			["sc"] = 2,
-			["mr"] = 19953,
+			["id"] = "14499:0:0:0:0",
+			["H3778"] = 34892,
+			["cc"] = 9,
 		},
-		["Copper Tube"] = {
-			["mr"] = 955,
-			["cc"] = 7,
-			["id"] = "4361:0:0:0:0",
-			["H3828"] = 955,
-			["sc"] = 1,
+		["Pattern: Red Woolen Bag"] = {
+			["mr"] = 372,
+			["sc"] = 2,
+			["id"] = "5772:0:0:0:0",
+			["H3778"] = 372,
+			["cc"] = 9,
 		},
 	},
 }
@@ -387,44 +387,44 @@ AUCTIONATOR_LAST_SCAN_TIME = nil
 AUCTIONATOR_TOONS = {
 	["Venobalykk"] = {
 		["firstSeen"] = 1615646028,
-		["firstVersion"] = "100.0.8",
 		["guid"] = "Player-4477-0303F15F",
-	},
-	["Venoxbaubb"] = {
-		["firstSeen"] = 1618336201,
-		["guid"] = "Player-4477-030A23F5",
 		["firstVersion"] = "100.0.8",
 	},
 	["Venosatush"] = {
 		["firstSeen"] = 1615648830,
-		["guid"] = "Player-4477-0305FCCC",
 		["firstVersion"] = "100.0.8",
+		["guid"] = "Player-4477-0305FCCC",
+	},
+	["Venoxbaubb"] = {
+		["firstSeen"] = 1618336201,
+		["firstVersion"] = "100.0.8",
+		["guid"] = "Player-4477-030A23F5",
 	},
 }
 AUCTIONATOR_STACKING_PREFS = {
 	["scroll of intellect"] = {
-		["numstacks"] = 0,
 		["stacksize"] = 1,
-	},
-	["handful of copper bolts"] = {
 		["numstacks"] = 0,
-		["stacksize"] = 2,
 	},
 	["copper tube"] = {
-		["numstacks"] = 0,
 		["stacksize"] = 1,
+		["numstacks"] = 0,
 	},
-	["scroll of protection"] = {
+	["handful of copper bolts"] = {
+		["stacksize"] = 2,
 		["numstacks"] = 0,
-		["stacksize"] = 1,
 	},
 	["scroll of stamina"] = {
-		["numstacks"] = 0,
 		["stacksize"] = 1,
+		["numstacks"] = 0,
+	},
+	["scroll of protection"] = {
+		["stacksize"] = 1,
+		["numstacks"] = 0,
 	},
 	["gyrochronatom"] = {
-		["numstacks"] = 0,
 		["stacksize"] = 1,
+		["numstacks"] = 0,
 	},
 }
 AUCTIONATOR_SCAN_MINLEVEL = 1

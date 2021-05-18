@@ -22,15 +22,15 @@ _detalhes_database = {
 							["pets"] = {
 								"Boar <Lucibalykk>", -- [1]
 							},
-							["classe"] = "HUNTER",
-							["tipo"] = 1,
 							["friendlyfire_total"] = 0,
+							["tipo"] = 1,
+							["classe"] = "HUNTER",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004539,
 							["serial"] = "Player-4463-022E4EFC",
 							["dps_started"] = false,
-							["total"] = 169.004539,
+							["end_time"] = 1620923937,
 							["friendlyfire"] = {
 							},
 							["damage_taken"] = 91.004539,
@@ -48,7 +48,7 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["start_time"] = 1620923916,
 							["delay"] = 1620923903,
-							["end_time"] = 1620923937,
+							["total"] = 169.004539,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -126,9 +126,9 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
 										["c_min"] = 26,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
 										["n_amt"] = 9,
 										["a_dmg"] = 0,
 										["r_amt"] = 0,
@@ -156,9 +156,9 @@ _detalhes_database = {
 										["RESIST"] = 1,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
 										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
 										["n_amt"] = 0,
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
@@ -190,14 +190,14 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["dps_started"] = false,
+							["fight_component"] = true,
 							["on_hold"] = false,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 394.007398,
 							["serial"] = "Creature-0-4448-1-30-6020-00001B2A48",
-							["fight_component"] = true,
+							["dps_started"] = false,
 							["total"] = 394.007398,
 							["monster"] = true,
 							["friendlyfire"] = {
@@ -223,7 +223,7 @@ _detalhes_database = {
 										["g_dmg"] = 0,
 										["counter"] = 19,
 										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["total"] = 394,
 										["c_max"] = 0,
 										["MISS"] = 1,
 										["id"] = "!Melee",
@@ -232,12 +232,12 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
 										["PARRY"] = 1,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
 										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
 										["n_amt"] = 17,
 										["spellschool"] = 1,
-										["total"] = 394,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
@@ -250,7 +250,7 @@ _detalhes_database = {
 							["damage_taken"] = 169.007398,
 							["start_time"] = 1620923904,
 							["delay"] = 1620923903,
-							["friendlyfire_total"] = 0,
+							["classe"] = "UNKNOW",
 						}, -- [3]
 					},
 				}, -- [1]
@@ -288,14 +288,14 @@ _detalhes_database = {
 							["nome"] = "Boar <Lucibalykk>",
 							["pets"] = {
 							},
+							["tipo"] = 4,
 							["last_event"] = 0,
-							["classe"] = "PET",
 							["spell_cast"] = {
 								["Bite"] = 3,
 								["Growl"] = 5,
 							},
 							["serial"] = "Pet-0-4448-1-30-3100-01003BBCB5",
-							["tipo"] = 4,
+							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [4]
@@ -409,7 +409,25 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "22:37:45",
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Lucibalykk"] = 169.004539,
+						}, -- [1]
+					},
+				},
 				["end_time"] = 277019.591,
 				["combat_id"] = 2,
 				["frags"] = {
@@ -447,25 +465,7 @@ _detalhes_database = {
 				},
 				["start_time"] = 276946.678,
 				["contra"] = "Slimeshell Makrura",
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage_section"] = {
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage"] = {
-						{
-							["Lucibalykk"] = 169.004539,
-						}, -- [1]
-					},
-				},
+				["data_inicio"] = "22:37:45",
 			}, -- [1]
 			{
 				{
@@ -483,15 +483,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["classe"] = "HUNTER",
-							["last_event"] = 1620923833,
 							["friendlyfire_total"] = 0,
+							["last_event"] = 1620923833,
+							["classe"] = "HUNTER",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 28.003371,
 							["serial"] = "Player-4463-022E4EFC",
 							["dps_started"] = false,
-							["total"] = 28.003371,
+							["end_time"] = 1620923864,
 							["friendlyfire"] = {
 							},
 							["on_hold"] = false,
@@ -538,7 +538,7 @@ _detalhes_database = {
 							["damage_taken"] = 453.003371,
 							["start_time"] = 1620923863,
 							["delay"] = 1620923833,
-							["end_time"] = 1620923864,
+							["total"] = 28.003371,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -552,14 +552,14 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["monster"] = true,
-							["end_time"] = 1620923864,
-							["friendlyfire_total"] = 0,
+							["total"] = 453.006528,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 453.006528,
 							["serial"] = "Creature-0-4448-1-30-6020-00001B2A48",
 							["fight_component"] = true,
-							["total"] = 453.006528,
+							["end_time"] = 1620923864,
 							["dps_started"] = false,
 							["on_hold"] = false,
 							["nome"] = "Slimeshell Makrura",
@@ -606,7 +606,7 @@ _detalhes_database = {
 							["damage_taken"] = 28.006528,
 							["start_time"] = 1620923834,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -644,8 +644,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["pets"] = {
-							},
+							["buff_uptime"] = 7,
 							["classe"] = "HUNTER",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -676,7 +675,8 @@ _detalhes_database = {
 							},
 							["last_event"] = 1620923842,
 							["serial"] = "Player-4463-022E4EFC",
-							["buff_uptime"] = 7,
+							["pets"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [4]
@@ -754,6 +754,25 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
+				["data_inicio"] = "22:37:13",
+				["end_time"] = 276946.36,
+				["combat_id"] = 1,
+				["frags"] = {
+				},
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["TimeData"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 276914.844,
+				["contra"] = "Slimeshell Makrura",
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -773,25 +792,6 @@ _detalhes_database = {
 						}, -- [1]
 					},
 				},
-				["end_time"] = 276946.36,
-				["combat_id"] = 1,
-				["frags"] = {
-				},
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
-				},
-				["TimeData"] = {
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["CombatSkillCache"] = {
-				},
-				["player_last_events"] = {
-				},
-				["start_time"] = 276914.844,
-				["contra"] = "Slimeshell Makrura",
-				["data_inicio"] = "22:37:13",
 			}, -- [2]
 		},
 	},
@@ -876,17 +876,7 @@ _detalhes_database = {
 			["author"] = "Details! Team",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["per_second"] = {
-				["enabled"] = false,
-				["point"] = "CENTER",
-				["scale"] = 1,
-				["font_shadow"] = true,
-				["y"] = -1.525878906250e-05,
-				["x"] = 3.05175781250e-05,
-				["attribute_type"] = 1,
-				["update_speed"] = 0.05,
-				["size"] = 32,
-			},
+			["y"] = -3.05175781250e-05,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -901,18 +891,28 @@ _detalhes_database = {
 				0.4, -- [4]
 			},
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["per_second"] = {
+				["enabled"] = false,
+				["point"] = "CENTER",
+				["scale"] = 1,
+				["font_shadow"] = true,
+				["y"] = -1.525878906250e-05,
+				["x"] = 3.05175781250e-05,
+				["attribute_type"] = 1,
+				["update_speed"] = 0.05,
+				["size"] = 32,
+			},
 			["font_size"] = 10,
-			["use_spark"] = true,
 			["x"] = 3.05175781250e-05,
 			["font_face"] = "Friz Quadrata TT",
-			["y"] = -3.05175781250e-05,
+			["use_spark"] = true,
 			["main_frame_strata"] = "LOW",
 			["point"] = "CENTER",
 			["row_height"] = 20,
 			["scale"] = 1,
 		},
 	},
-	["last_day"] = "14",
+	["last_day"] = "17",
 	["cached_talents"] = {
 		["Player-4463-022E4EFC"] = {
 			{
@@ -1341,7 +1341,7 @@ _detalhes_database = {
 		},
 	},
 	["character_data"] = {
-		["logons"] = 248,
+		["logons"] = 254,
 	},
 	["combat_id"] = 2,
 	["savedStyles"] = {
@@ -1436,11 +1436,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 1,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
 							},
 						},
@@ -1577,11 +1577,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 3,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
 							},
 							["!Melee"] = {
@@ -1635,11 +1635,11 @@ _detalhes_database = {
 								["a_amt"] = 0,
 								["m_crit"] = 0,
 								["RESIST"] = 1,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
 							},
 						},
@@ -1688,7 +1688,9 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["buff_uptime"] = 7,
+					["pets"] = {
+						"Boar <Lucibalykk>", -- [1]
+					},
 					["classe"] = "HUNTER",
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
@@ -1718,9 +1720,7 @@ _detalhes_database = {
 					["nome"] = "Lucibalykk",
 					["tipo"] = 4,
 					["serial"] = "Player-4463-022E4EFC",
-					["pets"] = {
-						"Boar <Lucibalykk>", -- [1]
-					},
+					["buff_uptime"] = 7,
 				}, -- [1]
 				{
 					["flag_original"] = 4369,
@@ -1732,10 +1732,10 @@ _detalhes_database = {
 						["Bite"] = 3,
 						["Growl"] = 5,
 					},
-					["tipo"] = 4,
 					["last_event"] = 0,
-					["serial"] = "Pet-0-4448-1-30-3100-01003BBCB5",
 					["classe"] = "PET",
+					["serial"] = "Pet-0-4448-1-30-3100-01003BBCB5",
+					["tipo"] = 4,
 				}, -- [2]
 			},
 		}, -- [4]
@@ -1852,7 +1852,7 @@ _detalhes_database = {
 		["cleu_timeline"] = {
 		},
 	},
-	["combat_counter"] = 475,
+	["combat_counter"] = 481,
 	["announce_firsthit"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
@@ -1874,5 +1874,6 @@ _detalhes_database = {
 		["channel"] = "SELF",
 	},
 	["cached_specs"] = {
+		["Player-4463-022E4EFC"] = 0,
 	},
 }

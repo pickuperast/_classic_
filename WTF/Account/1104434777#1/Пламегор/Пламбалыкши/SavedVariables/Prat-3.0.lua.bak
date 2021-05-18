@@ -14,13 +14,13 @@ Prat3CharDB = {
 			},
 			["ChatFrame6EditBox"] = {
 			},
-			["ChatFrame1EditBox"] = {
-			},
-			["ChatFrame3EditBox"] = {
+			["ChatFrame9EditBox"] = {
 			},
 			["ChatFrame2EditBox"] = {
 			},
-			["ChatFrame9EditBox"] = {
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
 			},
 		},
 	},
@@ -205,7 +205,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame1"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 124,
+			["headIndex"] = 3,
 			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -218,13 +218,13 @@ Prat3HighCPUPerCharDB = {
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:54:45]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
-					["timestamp"] = 371566.031,
-					["serverTime"] = 1621018484,
+					["message"] = "|cff979797|Hpratcopy|h[21:37:47]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 65313.778,
+					["serverTime"] = 1621286765,
 				}, -- [1]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:55:08]|h|r Ваша добыча: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
-					["serverTime"] = 1621018507,
+					["message"] = "|cff979797|Hpratcopy|h[21:37:47]|h|r Ваша добыча: |cffffffff|Hitem:4361::::::::10:::::::|h[Медная труба]|h|r.",
+					["serverTime"] = 1621286765,
 					["r"] = 0,
 					["extraData"] = {
 						28, -- [1]
@@ -233,1093 +233,28 @@ Prat3HighCPUPerCharDB = {
 						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 371589.623,
+					["timestamp"] = 65314.233,
 					["g"] = 0.666666686534882,
 					["b"] = 0,
 				}, -- [2]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:55:10]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
-					["timestamp"] = 371591.623,
-					["serverTime"] = 1621018509,
-				}, -- [3]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:55:18]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
-					["serverTime"] = 1621018517,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 371599.259,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [4]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:55:20]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
-					["timestamp"] = 371601.333,
-					["serverTime"] = 1621018519,
-				}, -- [5]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:55:24]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
-					["timestamp"] = 371605.589,
-					["serverTime"] = 1621018523,
-				}, -- [6]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:55:29]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
-					["timestamp"] = 371610.903,
-					["serverTime"] = 1621018528,
-				}, -- [7]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:55:45]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
-					["serverTime"] = 1621018544,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 371626.213,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [8]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:55:47]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
-					["timestamp"] = 371628.44,
-					["serverTime"] = 1621018546,
-				}, -- [9]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:55:51]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
-					["timestamp"] = 371632.503,
-					["serverTime"] = 1621018550,
-				}, -- [10]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:55:56]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
-					["timestamp"] = 371636.975,
-					["serverTime"] = 1621018555,
-				}, -- [11]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:56:06]|h|r Ваша добыча: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
-					["serverTime"] = 1621018565,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 371647.632,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [12]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:56:08]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
-					["timestamp"] = 371649.536,
-					["serverTime"] = 1621018567,
-				}, -- [13]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:56:32]|h|r Ваша добыча: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
-					["serverTime"] = 1621018591,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 371673.459,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [14]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:56:34]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
-					["timestamp"] = 371675.397,
-					["serverTime"] = 1621018593,
-				}, -- [15]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:56:41]|h|r Ваша добыча: |cffffffff|Hitem:6358::::::::10:::::::|h[Масляный черноротик]|h|r.",
-					["serverTime"] = 1621018600,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 371682.56,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [16]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:56:43]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
-					["timestamp"] = 371684.195,
-					["serverTime"] = 1621018602,
-				}, -- [17]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:57:05]|h|r Ваша добыча: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
-					["serverTime"] = 1621018624,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 371706.573,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [18]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:57:07]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
-					["timestamp"] = 371708.619,
-					["serverTime"] = 1621018626,
-				}, -- [19]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:57:11]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
-					["timestamp"] = 371712.725,
-					["serverTime"] = 1621018630,
-				}, -- [20]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:57:37]|h|r Ваша добыча: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
-					["serverTime"] = 1621018656,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 371738.892,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [21]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:57:40]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
-					["timestamp"] = 371741.074,
-					["serverTime"] = 1621018659,
-				}, -- [22]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:57:54]|h|r Ваша добыча: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
-					["serverTime"] = 1621018673,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 371755.468,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [23]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:57:56]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
-					["timestamp"] = 371757.277,
-					["serverTime"] = 1621018675,
-				}, -- [24]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:58:00]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
-					["timestamp"] = 371761.811,
-					["serverTime"] = 1621018679,
-				}, -- [25]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:58:17]|h|r Ваша добыча: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
-					["serverTime"] = 1621018696,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 371778.508,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [26]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:58:19]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
-					["timestamp"] = 371780.747,
-					["serverTime"] = 1621018698,
-				}, -- [27]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:58:27]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
-					["timestamp"] = 371788.703,
-					["serverTime"] = 1621018706,
-				}, -- [28]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:58:54]|h|r Ваша добыча: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
-					["serverTime"] = 1621018733,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 371815.536,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [29]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:58:56]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
-					["timestamp"] = 371817.542,
-					["serverTime"] = 1621018735,
-				}, -- [30]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:59:09]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
-					["serverTime"] = 1621018748,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 371830.131,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [31]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:59:11]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
-					["timestamp"] = 371832.153,
-					["serverTime"] = 1621018750,
-				}, -- [32]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:59:15]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
-					["timestamp"] = 371836.437,
-					["serverTime"] = 1621018754,
-				}, -- [33]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:59:41]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
-					["serverTime"] = 1621018780,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 371862.886,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [34]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:59:44]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
-					["timestamp"] = 371865.01,
-					["serverTime"] = 1621018783,
-				}, -- [35]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:59:48]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
-					["timestamp"] = 371869.728,
-					["serverTime"] = 1621018787,
-				}, -- [36]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[00:59:53]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
-					["timestamp"] = 371874.334,
-					["serverTime"] = 1621018792,
-				}, -- [37]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:00:13]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
-					["serverTime"] = 1621018812,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 371894.115,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [38]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:00:15]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
-					["timestamp"] = 371896.195,
-					["serverTime"] = 1621018814,
-				}, -- [39]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:00:19]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
-					["timestamp"] = 371900.481,
-					["serverTime"] = 1621018818,
-				}, -- [40]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:00:35]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
-					["serverTime"] = 1621018834,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 371916.196,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [41]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:00:37]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
-					["timestamp"] = 371918.069,
-					["serverTime"] = 1621018836,
-				}, -- [42]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:00:57]|h|r Ваша добыча: |cffffffff|Hitem:6358::::::::10:::::::|h[Масляный черноротик]|h|r.",
-					["serverTime"] = 1621018856,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 371938.901,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [43]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:00:59]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
-					["timestamp"] = 371940.111,
-					["serverTime"] = 1621018858,
-				}, -- [44]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:01:26]|h|r Ваша добыча: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
-					["serverTime"] = 1621018885,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 371967.044,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [45]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:01:28]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
-					["timestamp"] = 371969.107,
-					["serverTime"] = 1621018887,
-				}, -- [46]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:01:50]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
-					["serverTime"] = 1621018909,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 371991.406,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [47]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:01:52]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
-					["timestamp"] = 371993.374,
-					["serverTime"] = 1621018911,
-				}, -- [48]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:02:02]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
-					["serverTime"] = 1621018921,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 372003.536,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [49]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:02:04]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
-					["timestamp"] = 372005.443,
-					["serverTime"] = 1621018923,
-				}, -- [50]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:02:08]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
-					["timestamp"] = 372009.714,
-					["serverTime"] = 1621018927,
-				}, -- [51]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:02:24]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
-					["serverTime"] = 1621018943,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 372025.24,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [52]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:02:26]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
-					["timestamp"] = 372027.25,
-					["serverTime"] = 1621018945,
-				}, -- [53]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:02:30]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
-					["timestamp"] = 372031.425,
-					["serverTime"] = 1621018949,
-				}, -- [54]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:02:35]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
-					["timestamp"] = 372036.282,
-					["serverTime"] = 1621018954,
-				}, -- [55]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:02:40]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
-					["timestamp"] = 372041.243,
-					["serverTime"] = 1621018959,
-				}, -- [56]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:02:45]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
-					["timestamp"] = 372046.698,
-					["serverTime"] = 1621018964,
-				}, -- [57]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:02:50]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
-					["timestamp"] = 372051.489,
-					["serverTime"] = 1621018969,
-				}, -- [58]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:02:55]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
-					["timestamp"] = 372056.171,
-					["serverTime"] = 1621018974,
-				}, -- [59]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:03:00]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
-					["timestamp"] = 372060.966,
-					["serverTime"] = 1621018979,
-				}, -- [60]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:03:04]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
-					["timestamp"] = 372065.763,
-					["serverTime"] = 1621018983,
-				}, -- [61]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:03:09]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
-					["timestamp"] = 372070.252,
-					["serverTime"] = 1621018988,
-				}, -- [62]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:03:26]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
-					["timestamp"] = 372086.923,
-					["serverTime"] = 1621019005,
-				}, -- [63]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:03:49]|h|r Ваша добыча: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
-					["serverTime"] = 1621019028,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 372110.207,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [64]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:03:50]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
-					["timestamp"] = 372111.825,
-					["serverTime"] = 1621019029,
-				}, -- [65]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:02]|h|r Ваша добыча: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
-					["serverTime"] = 1621019041,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 372123.312,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [66]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:04]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
-					["timestamp"] = 372125.628,
-					["serverTime"] = 1621019043,
-				}, -- [67]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:09]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
-					["timestamp"] = 372130.064,
-					["serverTime"] = 1621019048,
-				}, -- [68]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:27]|h|r Ваша добыча: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
-					["serverTime"] = 1621019066,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 372147.96,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [69]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:28]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
-					["timestamp"] = 372149.917,
-					["serverTime"] = 1621019067,
-				}, -- [70]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:35]|h|r Ваша добыча: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
-					["serverTime"] = 1621019074,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 372156.897,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [71]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:37]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
-					["timestamp"] = 372158.806,
-					["serverTime"] = 1621019076,
-				}, -- [72]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:47]|h|r Ваша добыча: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
-					["serverTime"] = 1621019086,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 372168.216,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [73]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:49]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
-					["timestamp"] = 372170.127,
-					["serverTime"] = 1621019088,
-				}, -- [74]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:57]|h|r Ваша добыча: |cffffffff|Hitem:6358::::::::10:::::::|h[Масляный черноротик]|h|r.",
-					["serverTime"] = 1621019096,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 372178.26,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [75]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:58]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
-					["timestamp"] = 372179.76,
-					["serverTime"] = 1621019097,
-				}, -- [76]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:05:03]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
-					["timestamp"] = 372184.454,
-					["serverTime"] = 1621019102,
-				}, -- [77]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:05:22]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
-					["serverTime"] = 1621019121,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 372203.363,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [78]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:05:24]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
-					["timestamp"] = 372205.325,
-					["serverTime"] = 1621019123,
-				}, -- [79]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:05:46]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
-					["serverTime"] = 1621019145,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 372227.107,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [80]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:05:48]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
-					["timestamp"] = 372229.317,
-					["serverTime"] = 1621019147,
-				}, -- [81]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:06:13]|h|r Ваша добыча: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
-					["serverTime"] = 1621019172,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 372254.864,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [82]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:06:15]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
-					["timestamp"] = 372256.851,
-					["serverTime"] = 1621019174,
-				}, -- [83]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:06:23]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
-					["timestamp"] = 372263.971,
-					["serverTime"] = 1621019182,
-				}, -- [84]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:06:28]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
-					["timestamp"] = 372269.146,
-					["serverTime"] = 1621019187,
-				}, -- [85]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:06:43]|h|r Ваша добыча: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
-					["serverTime"] = 1621019202,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 372284.718,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [86]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:06:46]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
-					["timestamp"] = 372287.507,
-					["serverTime"] = 1621019205,
-				}, -- [87]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:07:02]|h|r Ваша добыча: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
-					["serverTime"] = 1621019221,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 372303.015,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [88]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:07:03]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
-					["timestamp"] = 372304.887,
-					["serverTime"] = 1621019222,
-				}, -- [89]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:07:25]|h|r Ваша добыча: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
-					["serverTime"] = 1621019244,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 372326.08,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [90]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:07:27]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
-					["timestamp"] = 372327.987,
-					["serverTime"] = 1621019246,
-				}, -- [91]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:07:44]|h|r Ваша добыча: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
-					["serverTime"] = 1621019263,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 372344.976,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [92]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:07:46]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
-					["timestamp"] = 372347.021,
-					["serverTime"] = 1621019265,
-				}, -- [93]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:07:57]|h|r Ваша добыча: |cffffffff|Hitem:6358::::::::10:::::::|h[Масляный черноротик]|h|r.",
-					["serverTime"] = 1621019276,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 372358.239,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [94]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:07:58]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
-					["timestamp"] = 372359.875,
-					["serverTime"] = 1621019277,
-				}, -- [95]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:08:09]|h|r Ваша добыча: |cffffffff|Hitem:6358::::::::10:::::::|h[Масляный черноротик]|h|r.",
-					["serverTime"] = 1621019288,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 372370.071,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [96]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:08:10]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
-					["timestamp"] = 372371.66,
-					["serverTime"] = 1621019289,
-				}, -- [97]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:08:30]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
-					["serverTime"] = 1621019309,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 372391.609,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [98]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:08:32]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
-					["timestamp"] = 372393.548,
-					["serverTime"] = 1621019311,
-				}, -- [99]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:08:36]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
-					["timestamp"] = 372397.807,
-					["serverTime"] = 1621019315,
-				}, -- [100]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:09:01]|h|r Ваша добыча: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
-					["serverTime"] = 1621019340,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 372422.029,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [101]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:09:03]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
-					["timestamp"] = 372424.208,
-					["serverTime"] = 1621019342,
-				}, -- [102]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:09:17]|h|r Ваша добыча: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
-					["serverTime"] = 1621019356,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 372438.549,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [103]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:09:19]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
-					["timestamp"] = 372440.81,
-					["serverTime"] = 1621019358,
-				}, -- [104]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:09:30]|h|r Ваша добыча: |cffffffff|Hitem:6358::::::::10:::::::|h[Масляный черноротик]|h|r.",
-					["serverTime"] = 1621019369,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 372451.003,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [105]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:09:31]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
-					["timestamp"] = 372452.554,
-					["serverTime"] = 1621019370,
-				}, -- [106]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:09:36]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
-					["timestamp"] = 372457.009,
-					["serverTime"] = 1621019375,
-				}, -- [107]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:09:54]|h|r Ваша добыча: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
-					["serverTime"] = 1621019393,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 372475.001,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [108]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:09:56]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
-					["timestamp"] = 372477.274,
-					["serverTime"] = 1621019395,
-				}, -- [109]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:10:13]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
-					["serverTime"] = 1621019412,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 372494.303,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [110]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:10:15]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
-					["timestamp"] = 372496.318,
-					["serverTime"] = 1621019414,
-				}, -- [111]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:10:31]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
-					["serverTime"] = 1621019430,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 372511.959,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [112]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:10:33]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
-					["timestamp"] = 372514.141,
-					["serverTime"] = 1621019432,
-				}, -- [113]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:10:57]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
-					["serverTime"] = 1621019456,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 372538.347,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [114]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:10:59]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
-					["timestamp"] = 372540.414,
-					["serverTime"] = 1621019458,
-				}, -- [115]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:11:23]|h|r Ваша добыча: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
-					["serverTime"] = 1621019482,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 372563.958,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [116]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:11:24]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
-					["timestamp"] = 372565.867,
-					["serverTime"] = 1621019483,
-				}, -- [117]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:11:31]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
-					["serverTime"] = 1621019490,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 372572.489,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [118]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:11:33]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
-					["timestamp"] = 372574.781,
-					["serverTime"] = 1621019492,
-				}, -- [119]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:11:39]|h|r Ваша добыча: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
-					["serverTime"] = 1621019498,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 372580.837,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [120]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:11:41]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
-					["timestamp"] = 372582.797,
-					["serverTime"] = 1621019500,
-				}, -- [121]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:11:55]|h|r Ваша добыча: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
-					["serverTime"] = 1621019514,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 372596.692,
-					["g"] = 0.666666686534882,
-					["b"] = 0,
-				}, -- [122]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:11:57]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
-					["timestamp"] = 372598.647,
-					["serverTime"] = 1621019516,
-				}, -- [123]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:12:13]|h|r Вы ложитесь.",
-					["serverTime"] = 1621019532,
+					["message"] = "|cff979797|Hpratcopy|h[21:37:52]|h|r Вы ложитесь.",
+					["serverTime"] = 1621286770,
 					["r"] = 1,
 					["extraData"] = {
 						12, -- [1]
 						false, -- [2]
-						8, -- [3]
-						9, -- [4]
+						3, -- [3]
+						4, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 372614.132,
+					["timestamp"] = 65319.348,
 					["g"] = 0.501960813999176,
 					["b"] = 0.250980406999588,
-				}, -- [124]
+				}, -- [3]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:54:16]|h|r Ваша добыча: |cffffffff|Hitem:6358::::::::10:::::::|h[Масляный черноротик]|h|r.",
-					["serverTime"] = 1621018455,
+					["message"] = "|cff979797|Hpratcopy|h[22:16:31]|h|r Ваша добыча: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
+					["serverTime"] = 1621285839,
 					["r"] = 0,
 					["extraData"] = {
 						28, -- [1]
@@ -1328,23 +263,1088 @@ Prat3HighCPUPerCharDB = {
 						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 371537.9,
+					["timestamp"] = 64375.828,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:16:33]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
+					["timestamp"] = 64377.646,
+					["serverTime"] = 1621285841,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:16:42]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["serverTime"] = 1621285850,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 64387.107,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:16:44]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["timestamp"] = 64389.046,
+					["serverTime"] = 1621285852,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:16:48]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 64393.254,
+					["serverTime"] = 1621285856,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:17:11]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["serverTime"] = 1621285879,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 64415.643,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:17:13]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["timestamp"] = 64417.765,
+					["serverTime"] = 1621285881,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:17:36]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["serverTime"] = 1621285904,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 64440.807,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:17:38]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["timestamp"] = 64442.829,
+					["serverTime"] = 1621285906,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:17:45]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["serverTime"] = 1621285913,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 64449.417,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:17:46]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["timestamp"] = 64451.281,
+					["serverTime"] = 1621285914,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:17:54]|h|r Ваша добыча: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
+					["serverTime"] = 1621285922,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 64458.748,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:17:56]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
+					["timestamp"] = 64460.667,
+					["serverTime"] = 1621285924,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:18:00]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 64464.846,
+					["serverTime"] = 1621285928,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:18:09]|h|r Ваша добыча: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
+					["serverTime"] = 1621285937,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 64473.615,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:18:11]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
+					["timestamp"] = 64475.57,
+					["serverTime"] = 1621285939,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:18:23]|h|r Ваша добыча: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
+					["serverTime"] = 1621289201,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 64487.531,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:18:25]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
+					["timestamp"] = 64489.758,
+					["serverTime"] = 1621289203,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:18:29]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 64493.836,
+					["serverTime"] = 1621289207,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:18:41]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["serverTime"] = 1621289219,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 64505.724,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:18:43]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["timestamp"] = 64507.906,
+					["serverTime"] = 1621289221,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:18:56]|h|r Ваша добыча: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
+					["serverTime"] = 1621289234,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 64521.002,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:18:58]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
+					["timestamp"] = 64523.252,
+					["serverTime"] = 1621289236,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:19:05]|h|r Ваша добыча: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
+					["serverTime"] = 1621289243,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 64530.034,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:19:07]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
+					["timestamp"] = 64532.17,
+					["serverTime"] = 1621289245,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:19:17]|h|r Ваша добыча: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
+					["serverTime"] = 1621289255,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 64542.227,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:19:19]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
+					["timestamp"] = 64544.272,
+					["serverTime"] = 1621289257,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:19:24]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 64548.573,
+					["serverTime"] = 1621289262,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:19:28]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 64553.32,
+					["serverTime"] = 1621289266,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:19:45]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["serverTime"] = 1621289283,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 64569.595,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:19:47]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["timestamp"] = 64571.703,
+					["serverTime"] = 1621289285,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:20:01]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["serverTime"] = 1621289299,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 64585.462,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:20:03]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["timestamp"] = 64587.438,
+					["serverTime"] = 1621289301,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:20:16]|h|r Ваша добыча: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
+					["serverTime"] = 1621289314,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 64601.104,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:20:18]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
+					["timestamp"] = 64603.23,
+					["serverTime"] = 1621289316,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:20:28]|h|r Ваша добыча: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
+					["serverTime"] = 1621289326,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 64612.968,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:20:30]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
+					["timestamp"] = 64614.877,
+					["serverTime"] = 1621289328,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:20:56]|h|r Ваша добыча: |cffffffff|Hitem:6358::::::::10:::::::|h[Масляный черноротик]|h|r.",
+					["serverTime"] = 1621289354,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 64640.829,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:20:57]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 64642.329,
+					["serverTime"] = 1621289355,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:21:02]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 64646.965,
+					["serverTime"] = 1621289360,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:21:18]|h|r Ваша добыча: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
+					["serverTime"] = 1621289376,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 64662.658,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:21:20]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
+					["timestamp"] = 64664.506,
+					["serverTime"] = 1621289378,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:21:31]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["serverTime"] = 1621289389,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 64675.722,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:21:33]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["timestamp"] = 64677.904,
+					["serverTime"] = 1621289391,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:21:40]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 64684.735,
+					["serverTime"] = 1621289398,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:21:56]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["serverTime"] = 1621289414,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 64701.272,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:21:58]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["timestamp"] = 64703.317,
+					["serverTime"] = 1621289416,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:22:03]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 64707.59,
+					["serverTime"] = 1621289421,
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:22:08]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 64712.605,
+					["serverTime"] = 1621289426,
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:22:23]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["serverTime"] = 1621289441,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 64728.117,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:22:26]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["timestamp"] = 64730.366,
+					["serverTime"] = 1621289444,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:22:38]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["serverTime"] = 1621289456,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 64742.445,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:22:40]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["timestamp"] = 64744.536,
+					["serverTime"] = 1621289458,
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:22:44]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 64748.718,
+					["serverTime"] = 1621289462,
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:22:49]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 64753.725,
+					["serverTime"] = 1621289467,
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:22:51]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 64756.199,
+					["serverTime"] = 1621289469,
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:23:15]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["serverTime"] = 1621289493,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 64780.176,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:23:18]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["timestamp"] = 64782.449,
+					["serverTime"] = 1621289496,
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:29:22]|h|r Ваша добыча: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
+					["serverTime"] = 1621286260,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 64808.409,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:29:23]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
+					["timestamp"] = 64810.273,
+					["serverTime"] = 1621286261,
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:29:33]|h|r Ваша добыча: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
+					["serverTime"] = 1621286271,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 64819.599,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:29:35]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
+					["timestamp"] = 64821.52,
+					["serverTime"] = 1621286273,
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:29:56]|h|r Ваша добыча: |cffffffff|Hitem:6358::::::::10:::::::|h[Масляный черноротик]|h|r.",
+					["serverTime"] = 1621286294,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 64843.007,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:29:58]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 64844.552,
+					["serverTime"] = 1621286296,
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:30:09]|h|r Ваша добыча: |cffffffff|Hitem:6358::::::::10:::::::|h[Масляный черноротик]|h|r.",
+					["serverTime"] = 1621286307,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 64856.234,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:30:11]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 64857.779,
+					["serverTime"] = 1621286309,
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:30:35]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["serverTime"] = 1621286333,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 64881.831,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:30:37]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["timestamp"] = 64883.694,
+					["serverTime"] = 1621286335,
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:30:41]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 64887.922,
+					["serverTime"] = 1621286339,
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:30:54]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["serverTime"] = 1621286352,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 64901.251,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:30:56]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["timestamp"] = 64903.115,
+					["serverTime"] = 1621286354,
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:31:19]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["serverTime"] = 1621286377,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 64926.315,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:31:21]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["timestamp"] = 64928.187,
+					["serverTime"] = 1621286379,
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:31:26]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 64932.971,
+					["serverTime"] = 1621286384,
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:31:31]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 64937.698,
+					["serverTime"] = 1621286389,
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:31:39]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["serverTime"] = 1621286397,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 64946.33,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:31:42]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["timestamp"] = 64948.375,
+					["serverTime"] = 1621286400,
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:31:46]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 64952.466,
+					["serverTime"] = 1621286404,
+				}, -- [81]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:31:50]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 64957.057,
+					["serverTime"] = 1621286408,
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:31:53]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 64959.511,
+					["serverTime"] = 1621286411,
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:31:55]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 64962.057,
+					["serverTime"] = 1621286413,
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:32:20]|h|r Ваша добыча: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
+					["serverTime"] = 1621286438,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 64986.983,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:32:22]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
+					["timestamp"] = 64989.165,
+					["serverTime"] = 1621286440,
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:32:32]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 64999.099,
+					["serverTime"] = 1621286450,
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:32:53]|h|r Ваша добыча: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
+					["serverTime"] = 1621286471,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 65020.148,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [88]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:32:55]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
+					["timestamp"] = 65022.33,
+					["serverTime"] = 1621286473,
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:33:10]|h|r Ваша добыча: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
+					["serverTime"] = 1621286488,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 65037.199,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [90]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:33:12]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
+					["timestamp"] = 65039.244,
+					["serverTime"] = 1621286490,
+				}, -- [91]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:33:27]|h|r Ваша добыча: |cffffffff|Hitem:6358::::::::10:::::::|h[Масляный черноротик]|h|r.",
+					["serverTime"] = 1621286505,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 65053.537,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [92]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:33:28]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 65055.037,
+					["serverTime"] = 1621286506,
+				}, -- [93]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:33:33]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 65059.582,
+					["serverTime"] = 1621286511,
+				}, -- [94]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:33:44]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["serverTime"] = 1621286522,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 65071.23,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [95]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:33:46]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["timestamp"] = 65073.165,
+					["serverTime"] = 1621286524,
+				}, -- [96]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:33:51]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 65077.529,
+					["serverTime"] = 1621286529,
+				}, -- [97]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:34:13]|h|r Ваша добыча: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
+					["serverTime"] = 1621286551,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 65100.098,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [98]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:34:15]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
+					["timestamp"] = 65102.234,
+					["serverTime"] = 1621286553,
+				}, -- [99]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:34:20]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 65106.623,
+					["serverTime"] = 1621286558,
+				}, -- [100]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:34:39]|h|r Ваша добыча: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
+					["serverTime"] = 1621286577,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 65125.892,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [101]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:34:41]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
+					["timestamp"] = 65128.028,
+					["serverTime"] = 1621286579,
+				}, -- [102]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:34:46]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 65132.892,
+					["serverTime"] = 1621286584,
+				}, -- [103]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:35:02]|h|r Ваша добыча: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
+					["serverTime"] = 1621286600,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 65148.641,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [104]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:35:04]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6303::::::::10:::::::|h[Сырая скользкая скумбрия]|h|r.",
+					["timestamp"] = 65150.593,
+					["serverTime"] = 1621286602,
+				}, -- [105]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:35:14]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 65160.866,
+					["serverTime"] = 1621286612,
+				}, -- [106]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:35:22]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 65168.49,
+					["serverTime"] = 1621286620,
+				}, -- [107]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:35:44]|h|r Ваша добыча: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
+					["serverTime"] = 1621286642,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 65191.261,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [108]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:35:47]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
+					["timestamp"] = 65193.488,
+					["serverTime"] = 1621286645,
+				}, -- [109]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:35:51]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 65197.759,
+					["serverTime"] = 1621286649,
+				}, -- [110]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:35:56]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 65202.646,
+					["serverTime"] = 1621286654,
+				}, -- [111]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:36:04]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["serverTime"] = 1621286662,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 65210.597,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [112]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:36:05]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["timestamp"] = 65212.097,
+					["serverTime"] = 1621286663,
+				}, -- [113]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:36:17]|h|r Ваша добыча: |cffffffff|Hitem:6307::::::::10:::::::|h[Послание в бутылке]|h|r.",
+					["serverTime"] = 1621286675,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 65223.723,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [114]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:36:18]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 65225.217,
+					["serverTime"] = 1621286676,
+				}, -- [115]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:36:19]|h|r Ваша добыча: |cffffffff|Hitem:3012::::::::10:::::::|h[Свиток ловкости]|h|r.",
+					["serverTime"] = 1621286677,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 65225.748,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [116]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:36:29]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 65235.637,
+					["serverTime"] = 1621286687,
+				}, -- [117]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:36:36]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["serverTime"] = 1621286694,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 65243.102,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [118]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:36:38]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["timestamp"] = 65244.783,
+					["serverTime"] = 1621286696,
+				}, -- [119]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:36:42]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 65248.829,
+					["serverTime"] = 1621286700,
+				}, -- [120]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:36:57]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["serverTime"] = 1621286715,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 65264.303,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [121]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:37:00]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["timestamp"] = 65266.576,
+					["serverTime"] = 1621286718,
+				}, -- [122]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:37:07]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["serverTime"] = 1621286725,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 65274.122,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [123]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:37:09]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["timestamp"] = 65276.258,
+					["serverTime"] = 1621286727,
+				}, -- [124]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:37:32]|h|r Ваша добыча: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["serverTime"] = 1621286750,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 65298.596,
 					["g"] = 0.666666686534882,
 					["b"] = 0,
 				}, -- [125]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:54:18]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
-					["timestamp"] = 371539.536,
-					["serverTime"] = 1621018457,
+					["message"] = "|cff979797|Hpratcopy|h[21:37:34]|h|r |cFF4FAFE3[Dejunk]|r Удалено: |cffffffff|Hitem:12238::::::::10:::::::|h[Окунь с Темных берегов]|h|r.",
+					["timestamp"] = 65300.46,
+					["serverTime"] = 1621286752,
 				}, -- [126]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:54:23]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
-					["timestamp"] = 371544.438,
-					["serverTime"] = 1621018462,
+					["message"] = "|cff979797|Hpratcopy|h[21:37:38]|h|r |cFF4FAFE3[Dejunk]|r Нет ненужных предметов для удаления.",
+					["timestamp"] = 65304.733,
+					["serverTime"] = 1621286756,
 				}, -- [127]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[00:54:42]|h|r Ваша добыча: |cffffffff|Hitem:6361::::::::10:::::::|h[Сырой радужный тунец]|h|r.",
-					["serverTime"] = 1621018481,
+					["message"] = "|cff979797|Hpratcopy|h[21:37:46]|h|r Ваша добыча: |cffffffff|Hitem:6351::::::::10:::::::|h[Продавленный ящик]|h|r.",
+					["serverTime"] = 1621286764,
 					["r"] = 0,
 					["extraData"] = {
 						28, -- [1]
@@ -1353,7 +1353,7 @@ Prat3HighCPUPerCharDB = {
 						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 371562.974,
+					["timestamp"] = 65312.596,
 					["g"] = 0.666666686534882,
 					["b"] = 0,
 				}, -- [128]

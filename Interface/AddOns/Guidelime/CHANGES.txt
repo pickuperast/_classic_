@@ -1,18 +1,18 @@
-tag f5dc7d5f7471c5ea557320fad65d9bbbc021b204 v1.040
+tag c165606ef127a78f6e4d5109719d8555f5a33f95 v1.048
 Author:	max-ri <51713394+max-ri@users.noreply.github.com>
-Date:	Fri Nov 29 12:21:19 2019 +0100
+Date:	Wed May 5 09:42:42 2021 +0200
 
-v1.040
+v1.048
 
-commit d635da35afee1b1207c60a6b8270ef43ed246a90
+commit 9e091c048b28ddfe30a56bfbedef22c93051e3d1
 Author: max-ri <51713394+max-ri@users.noreply.github.com>
-Date:   Fri Nov 29 12:21:19 2019 +0100
+Date:   Wed May 5 09:42:42 2021 +0200
 
-    v1.040
+    v1.048
 
-commit be9e00bee845b8ff6e3ae6a9e2f92965de24a954
+commit c9a0f491e5011a1f9f911fa060b1e9df511f4520
 Author: max-ri <51713394+max-ri@users.noreply.github.com>
-Date:   Fri Nov 29 12:21:08 2019 +0100
+Date:   Wed May 5 09:39:53 2021 +0200
 
-    bugfix: wrong default size for second arrow
+    bugfix: fix potential stack overflow
 

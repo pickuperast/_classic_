@@ -2,8 +2,8 @@
 Details_StreamerDB = {
 	["characters"] = {
 		["Lucibaubb - Lucifron"] = "Lucisatush - Lucifron",
-		["Lucisatush - Lucifron"] = "Lucisatush - Lucifron",
 		["Lucibalykk - Lucifron"] = "Lucisatush - Lucifron",
+		["Lucisatush - Lucifron"] = "Lucisatush - Lucifron",
 	},
 	["profiles"] = {
 		["Lucisatush - Lucifron"] = {
@@ -46,7 +46,11 @@ Details_StreamerDB = {
 			},
 			["author"] = "Details! Team",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["use_spark"] = true,
 			["y"] = -3.05175781250e-05,
+			["x"] = 3.05175781250e-05,
+			["font_face"] = "Friz Quadrata TT",
+			["font_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -58,10 +62,6 @@ Details_StreamerDB = {
 				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
 			},
-			["x"] = 3.05175781250e-05,
-			["font_face"] = "Friz Quadrata TT",
-			["use_spark"] = true,
-			["font_size"] = 10,
 			["row_color"] = {
 				0.1, -- [1]
 				0.1, -- [2]

@@ -3,9 +3,9 @@ Details_TinyThreatDB = {
 	["characters"] = {
 		["Patchbalyk - Flickwerk"] = "Patchsatush - Patchwerk",
 		["Patchsatush - Patchwerk"] = "Patchsatush - Patchwerk",
-		["Patchbaub - Patchwerk"] = "Patchsatush - Patchwerk",
-		["Patchsatush - Flickwerk"] = "Patchsatush - Patchwerk",
 		["Patchbalyk - Patchwerk"] = "Patchsatush - Patchwerk",
+		["Patchsatush - Flickwerk"] = "Patchsatush - Patchwerk",
+		["Patchbaub - Patchwerk"] = "Patchsatush - Patchwerk",
 	},
 	["profiles"] = {
 		["Patchsatush - Patchwerk"] = {

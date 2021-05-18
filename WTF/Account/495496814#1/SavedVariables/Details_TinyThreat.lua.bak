@@ -21,8 +21,8 @@ Details_TinyThreatDB = {
 			["dividebyhundred"] = true,
 			["showamount"] = true,
 			["useplayercolor"] = true,
-			["author"] = "Terciob",
 			["alwaysshowme"] = true,
+			["author"] = "Terciob",
 		},
 	},
 }
