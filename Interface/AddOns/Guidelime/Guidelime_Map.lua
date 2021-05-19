@@ -149,7 +149,7 @@ end
 
 function addon.addMapIcon(element, highlight, ignoreMaxNumOfMarkers)
 	if element.wx == nil or element.wy == nil or element.instance == nil then
-		if addon.debugging then print("LIME: no world coordinates for map marker", element.mapID, element.x / 100, element.y / 100, highlight) end
+		if addon.debugging then print("LIME: no world coordinates for map marker", element.mapID, element.x and (element.x / 100), element.y and (element.y / 100), highlight) end
 		return
 	end	
 	local mapIcon = getMapIcon(element.markerTyp or element.t, element, highlight)
@@ -251,7 +251,7 @@ function addon.getArrowIconText()
 end
 
 function addon.updateArrow()
-	addon.y, addon.x, addon.z, addon.instance = UnitPosition("player")
+	addon.x, addon.y, addon.instance = HBD:GetPlayerWorldPosition()
 	addon.face = GetPlayerFacing()
 	if addon.x == nil or addon.y == nil or addon.face == nil then return end
 	
@@ -261,12 +261,16 @@ function addon.updateArrow()
 	if not addon.alive then corpse = C_DeathInfo.GetCorpseMapPosition(HBD:GetPlayerZone()) end
 	if corpse ~= nil then
 		addon.arrowX, addon.arrowY = HBD:GetWorldCoordinatesFromZone(corpse.x, corpse.y, HBD:GetPlayerZone())
-	else
-		if addon.arrowFrame.element == nil or addon.arrowFrame.element.wx == nil or addon.arrowFrame.element.wy == nil or addon.arrowFrame.element.instance ~= addon.instance then return end
+	elseif addon.arrowFrame.element ~= nil and addon.arrowFrame.element.wx ~= nil and addon.arrowFrame.element.wy ~= nil and addon.arrowFrame.element.instance == addon.instance then
 		addon.arrowX, addon.arrowY = addon.arrowFrame.element.wx, addon.arrowFrame.element.wy
+	else
+		addon.arrowX, addon.arrowY = nil, nil
 	end
 	
-	if addon.arrowX == nil or addon.arrowY == nil then return end
+	if addon.arrowX == nil or addon.arrowY == nil then 
+		addon.hideArrow()
+		return 
+	end
 	local angle = addon.face - math.atan2(addon.arrowX - addon.x, addon.arrowY - addon.y)
 	if GuidelimeData.arrowStyle == 1 then
 		local index = angle * 32 / math.pi

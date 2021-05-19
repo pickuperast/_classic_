@@ -18,6 +18,64 @@ addon.classesPerRace = {
 	Draenei = {"Hunter", "Mage", "Paladin", "Priest", "Shaman", "Warrior"},
 	BloodElf = {"Hunter", "Mage", "Paladin", "Priest", "Rogue", "Warlock"}
 }
+addon.reputations = {
+	bootybay = 21,
+	ironforge = 47,
+	gnomeregan = 54,
+	thoriumbrotherhood = 59,
+	undercity = 68,
+	darnassus = 69,
+	syndicate = 70,
+	stormwind = 72,
+	orgrimmar = 76,
+	thunderbluff = 81,
+	bloodsailbuccaneers = 87,
+	gelkisclancentaur = 92,
+	magramclancentaur = 93,
+	zandalartribe = 270,
+	ravenholdt = 349,
+	gadgetzan = 369,
+	ratchet = 470,
+	wildhammerclan = 471,
+	leagueofarathor = 509,
+	defilers = 510,
+	argentdawn = 529,
+	darkspeartrolls = 530,
+	timbermawhold = 576,
+	everlook = 577,
+	wintersabertrainers = 589,
+	cenarioncircle = 609,
+	frostwolfclan = 729,
+	stormpikeguard = 730,
+	hydraxianwaterlords = 749,
+	shendralar = 809,
+	warsongoutriders = 889,
+	silverwingsentinels = 890,
+	darkmoonfaire = 909,
+	broodofnozdormu = 910,
+	silvermooncity = 911,
+	tranquillien = 922,
+	exodar = 930,
+	aldor = 932,
+	consortium = 933,
+	scryers = 934,
+	shatar = 935,
+	maghar = 941,
+	cenarionexpedition = 942,
+	honorhold = 946,
+	thrallmar = 947,
+	violeteye = 967,
+	sporeggar = 970,
+	kurenai = 978,
+	keepersoftime = 989,
+	scaleofthesands = 990,
+	lowercity = 1011,
+	ashtonguedeathsworn = 1012,
+	netherwing = 1015,
+	shatariskyguard = 1031,
+	ogrila = 1038,
+	shatteredsunoffensive = 1077,
+}
 
 addon.racesPerFaction = {}
 for race, faction in pairs(addon.races) do
@@ -71,6 +129,23 @@ function addon.getLocalizedClass(class)
 	return LOCALIZED_CLASS_NAMES_MALE[class:upper()]
 end
 
+function addon.getReputation(rep)
+	return addon.reputations[string.gsub(string.gsub(string.lower(rep), "[' ]", ""), "^the", "")]
+end
+function addon.isReputation(rep)
+	return addon.getReputation(rep) ~= nil
+end
+function addon.getLocalizedReputation(id)
+	local name = GetFactionInfoByID(id)
+	return name
+end
+function addon.isRequiredReputation(id, repMin, repMax)
+	local _, _, standing, _, _, value = GetFactionInfoByID(id)
+	if repMin ~= nil and value < repMin then return false end
+	if repMax ~= nil and value > repMax then return false end
+	return true
+end
+
 function addon.contains(array, value)
 	for i, v in ipairs(array) do
 		if type(value) == "function" then
@@ -99,13 +174,12 @@ end
 
 function addon.applies(guide)
 	if guide == nil then return false end
-	local applies = true
 	if guide.races ~= nil then
-		if not addon.contains(guide.races, addon.race) then applies = false end
+		if not addon.contains(guide.races, addon.race) then return false end
 	end
 	if guide.classes ~= nil then
-		if not addon.contains(guide.classes, addon.class) then applies = false end
+		if not addon.contains(guide.classes, addon.class) then return false end
 	end
-	if guide.faction ~= nil and guide.faction ~= addon.faction then applies = false end
-	return applies
+	if guide.faction ~= nil and guide.faction ~= addon.faction then return false end
+	return true
 end

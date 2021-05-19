@@ -1,17 +1,28 @@
 local addonName, addon = ...
 local L = addon.L
 
+HBD = LibStub("HereBeDragons-2.0")
+
 -- Register events and call functions
 addon.frame:SetScript("OnEvent", function(self, event, ...)
 	addon.frame[event](self, ...)
 end)
 
-addon.frame:RegisterEvent('PLAYER_ENTERING_WORLD')
-function addon.frame:PLAYER_ENTERING_WORLD()
-	--if addon.debugging then print("LIME: Player entering world...") end
+local function init()
 	if not addon.dataLoaded then addon.loadData() end
 	if GuidelimeDataChar.mainFrameShowing then addon.showMainFrame() end
 	addon.alive = HBD:GetPlayerZone() == nil or C_DeathInfo.GetCorpseMapPosition(HBD:GetPlayerZone()) == nil
+end
+
+addon.frame:RegisterEvent('PLAYER_LOGIN')
+function addon.frame:PLAYER_LOGIN()
+	--if addon.debugging then print("LIME: Player logged in...") end
+	C_Timer.After(2, init)
+end
+
+addon.frame:RegisterEvent('PLAYER_ENTERING_WORLD')
+function addon.frame:PLAYER_ENTERING_WORLD()
+	--if addon.debugging then print("LIME: Player entering world...") end
 end
 
 addon.frame:RegisterEvent('PLAYER_LEVEL_UP')
@@ -29,6 +40,12 @@ function addon.frame:PLAYER_XP_UPDATE(level)
 	addon.xp = UnitXP("player")
 	--if addon.debugging then print("LIME: xp is " .. addon.xp) end
 	addon.updateSteps()
+end
+
+addon.frame:RegisterEvent('UPDATE_FACTION')
+function addon.frame:UPDATE_FACTION(level)
+	if addon.debugging then print("LIME: Update faction") end
+	addon.updateMainFrame()
 end
 
 function addon.updateFromQuestLog()
@@ -141,7 +158,7 @@ end
 local function doQuestUpdate()
 	addon.xp = UnitXP("player")
 	addon.xpMax = UnitXPMax("player")
-	addon.y, addon.x = UnitPosition("player")
+	addon.x, addon.y, addon.instance = HBD:GetPlayerWorldPosition()
 	
 	if addon.quests ~= nil then 
 		local checkCompleted, questChanged, questFound = addon.updateFromQuestLog()
@@ -361,15 +378,17 @@ function addon.frame:TAXIMAP_OPENED()
 				if not element.completed then
 					if element.flightmaster ~= nil then
 						local master = addon.flightmasterDB[element.flightmaster]
+						if addon.debugging then print("LIME: looking for", master.zone, master.place) end
 						for j = 1, NumTaxiNodes() do
-							if (master.place or master.zone) == TaxiNodeName(j):sub(1, #(master.place or master.zone)) then
+							--if addon.debugging then print("LIME: ", TaxiNodeName(j)) end
+							if addon.isFlightmasterMatch(master, TaxiNodeName(j)) then
 								if element.t == "FLY" and TaxiNodeGetType(j) == "REACHABLE" then
 									if IsMounted() then Dismount() end -- dismount before using the flightpoint
 									if addon.debugging then print ("LIME: Flying to " .. (master.place or master.zone)) end
+									if _G["TaxiButton"..j] then TaxiNodeOnButtonEnter(_G["TaxiButton"..j]) end
 									C_Timer.After(0.5, function()
 										TakeTaxiNode(j)
 									end)
-									addon.completeSemiAutomatic(element)
 								elseif element.t == "GET_FLIGHT_POINT" and TaxiNodeGetType(j) == "CURRENT" then
 									addon.completeSemiAutomatic(element)
 								end

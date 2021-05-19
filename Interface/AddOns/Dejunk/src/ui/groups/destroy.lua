@@ -25,54 +25,76 @@ function Destroy:AddGeneral(parent)
     fullWidth = true
   })
 
-  -- Auto Destroy
-  Widgets:CheckBox({
-    parent = parent,
-    label = L.AUTO_DESTROY_TEXT,
-    tooltip = L.AUTO_DESTROY_TOOLTIP,
-    get = function() return DB.Profile.AutoDestroy end,
-    set = function(value) DB.Profile.AutoDestroy = value end
-  })
-
-  -- Save Space
+  -- Auto Open
   Widgets:CheckBoxSlider({
     parent = parent,
     checkBox = {
-      label = L.DESTROY_SAVE_SPACE_TEXT,
-      tooltip = L.DESTROY_SAVE_SPACE_TOOLTIP,
-      get = function() return DB.Profile.DestroySaveSpace.Enabled end,
-      set = function(value) DB.Profile.DestroySaveSpace.Enabled = value end
+      label = L.AUTO_OPEN_TEXT,
+      tooltip = L.AUTO_OPEN_DESTROY_TOOLTIP,
+      get = function() return DB.Profile.destroy.autoOpen.enabled end,
+      set = function(value) DB.Profile.destroy.autoOpen.enabled = value end
     },
     slider = {
-      label = L.DESTROY_SAVE_SPACE_SLIDER,
-      value = DB.Profile.DestroySaveSpace.Value,
-      min = Consts.DESTROY_SAVE_SPACE_MIN,
-      max = Consts.DESTROY_SAVE_SPACE_MAX,
-      step = Consts.DESTROY_SAVE_SPACE_STEP,
-      onValueChanged = function(self, event, value)
-        DB.Profile.DestroySaveSpace.Value = value
+      label = L.THRESHOLD_TEXT,
+      tooltip = L.AUTO_OPTION_THRESHOLD_TOOLTIP:format(
+        "|cFFFFD100"  .. L.AUTO_OPEN_TEXT .. "|r",
+        "|cFFFFD100"  .. L.AUTO_OPEN_TEXT .. "|r"
+      ),
+      value = DB.Profile.destroy.autoOpen.value,
+      min = Consts.DESTROY_AUTO_SLIDER_MIN,
+      max = Consts.DESTROY_AUTO_SLIDER_MAX,
+      step = Consts.DESTROY_AUTO_SLIDER_STEP,
+      onValueChanged = function(_, event, value)
+        DB.Profile.destroy.autoOpen.value = value
       end
     }
   })
+
+  -- Auto Start
+  if Addon.IS_CLASSIC then
+    Widgets:CheckBoxSlider({
+      parent = parent,
+      checkBox = {
+        label = L.AUTO_START_TEXT,
+        tooltip = L.AUTO_START_DESTROY_TOOLTIP,
+        get = function() return DB.Profile.destroy.autoStart.enabled end,
+        set = function(value) DB.Profile.destroy.autoStart.enabled = value end
+      },
+      slider = {
+        label = L.THRESHOLD_TEXT,
+        tooltip = L.AUTO_OPTION_THRESHOLD_TOOLTIP:format(
+          "|cFFFFD100"  .. L.AUTO_START_TEXT .. "|r",
+          "|cFFFFD100"  .. L.AUTO_START_TEXT .. "|r"
+        ),
+        value = DB.Profile.destroy.autoStart.value,
+        min = Consts.DESTROY_AUTO_SLIDER_MIN,
+        max = Consts.DESTROY_AUTO_SLIDER_MAX,
+        step = Consts.DESTROY_AUTO_SLIDER_STEP,
+        onValueChanged = function(_, event, value)
+          DB.Profile.destroy.autoStart.value = value
+        end
+      }
+    })
+  end
 
   -- Below Price
   Widgets:CheckBoxSlider({
     parent = parent,
     checkBox = {
-      label = L.DESTROY_BELOW_PRICE_TEXT,
+      label = L.BELOW_PRICE_TEXT,
       tooltip = L.DESTROY_BELOW_PRICE_TOOLTIP,
-      get = function() return DB.Profile.DestroyBelowPrice.Enabled end,
-      set = function(value) DB.Profile.DestroyBelowPrice.Enabled = value end
+      get = function() return DB.Profile.destroy.belowPrice.enabled end,
+      set = function(value) DB.Profile.destroy.belowPrice.enabled = value end
     },
     slider = {
-      label = GetCoinTextureString(DB.Profile.DestroyBelowPrice.Value),
-      value = DB.Profile.DestroyBelowPrice.Value,
+      label = GetCoinTextureString(DB.Profile.destroy.belowPrice.value),
+      value = DB.Profile.destroy.belowPrice.value,
       min = Consts.DESTROY_BELOW_PRICE_MIN,
       max = Consts.DESTROY_BELOW_PRICE_MAX,
       step = Consts.DESTROY_BELOW_PRICE_STEP,
-      onValueChanged = function(self, event, value)
-        DB.Profile.DestroyBelowPrice.Value = value
-        self:SetLabel(GetCoinTextureString(DB.Profile.DestroyBelowPrice.Value))
+      onValueChanged = function(this, event, value)
+        DB.Profile.destroy.belowPrice.value = value
+        this:SetLabel(GetCoinTextureString(DB.Profile.destroy.belowPrice.value))
       end
     }
   })
@@ -90,8 +112,8 @@ function Destroy:AddByQuality(parent)
     parent = parent,
     label = DCL:ColorString(L.POOR_TEXT, DCL.Wow.Poor),
     tooltip = L.DESTROY_ALL_TOOLTIP,
-    get = function() return DB.Profile.DestroyPoor end,
-    set = function(value) DB.Profile.DestroyPoor = value end
+    get = function() return DB.Profile.destroy.byQuality.poor end,
+    set = function(value) DB.Profile.destroy.byQuality.poor = value end
   })
 
   -- Common
@@ -99,8 +121,8 @@ function Destroy:AddByQuality(parent)
     parent = parent,
     label = DCL:ColorString(L.COMMON_TEXT, DCL.Wow.Common),
     tooltip = L.DESTROY_ALL_TOOLTIP,
-    get = function() return DB.Profile.DestroyCommon end,
-    set = function(value) DB.Profile.DestroyCommon = value end
+    get = function() return DB.Profile.destroy.byQuality.common end,
+    set = function(value) DB.Profile.destroy.byQuality.common = value end
   })
 
   -- Uncommon
@@ -108,8 +130,8 @@ function Destroy:AddByQuality(parent)
     parent = parent,
     label = DCL:ColorString(L.UNCOMMON_TEXT, DCL.Wow.Uncommon),
     tooltip = L.DESTROY_ALL_TOOLTIP,
-    get = function() return DB.Profile.DestroyUncommon end,
-    set = function(value) DB.Profile.DestroyUncommon = value end
+    get = function() return DB.Profile.destroy.byQuality.uncommon end,
+    set = function(value) DB.Profile.destroy.byQuality.uncommon = value end
   })
 
   -- Rare
@@ -117,8 +139,8 @@ function Destroy:AddByQuality(parent)
     parent = parent,
     label = DCL:ColorString(L.RARE_TEXT, DCL.Wow.Rare),
     tooltip = L.DESTROY_ALL_TOOLTIP,
-    get = function() return DB.Profile.DestroyRare end,
-    set = function(value) DB.Profile.DestroyRare = value end
+    get = function() return DB.Profile.destroy.byQuality.rare end,
+    set = function(value) DB.Profile.destroy.byQuality.rare = value end
   })
 
   -- Epic
@@ -126,8 +148,8 @@ function Destroy:AddByQuality(parent)
     parent = parent,
     label = DCL:ColorString(L.EPIC_TEXT, DCL.Wow.Epic),
     tooltip = L.DESTROY_ALL_TOOLTIP,
-    get = function() return DB.Profile.DestroyEpic end,
-    set = function(value) DB.Profile.DestroyEpic = value end
+    get = function() return DB.Profile.destroy.byQuality.epic end,
+    set = function(value) DB.Profile.destroy.byQuality.epic = value end
   })
 end
 
@@ -144,8 +166,8 @@ function Destroy:AddByType(parent)
       parent = parent,
       label = L.DESTROY_PETS_ALREADY_COLLECTED_TEXT,
       tooltip = L.DESTROY_PETS_ALREADY_COLLECTED_TOOLTIP,
-      get = function() return DB.Profile.DestroyPetsAlreadyCollected end,
-      set = function(value) DB.Profile.DestroyPetsAlreadyCollected = value end
+      get = function() return DB.Profile.destroy.byType.petsAlreadyCollected end,
+      set = function(value) DB.Profile.destroy.byType.petsAlreadyCollected = value end
     })
 
     -- Toys already collected
@@ -153,35 +175,70 @@ function Destroy:AddByType(parent)
       parent = parent,
       label = L.DESTROY_TOYS_ALREADY_COLLECTED_TEXT,
       tooltip = L.DESTROY_TOYS_ALREADY_COLLECTED_TOOLTIP,
-      get = function() return DB.Profile.DestroyToysAlreadyCollected end,
-      set = function(value) DB.Profile.DestroyToysAlreadyCollected = value end
+      get = function() return DB.Profile.destroy.byType.toysAlreadyCollected end,
+      set = function(value) DB.Profile.destroy.byType.toysAlreadyCollected = value end
     })
   end
 
   -- Excess Soul Shards
-  if Addon.IS_CLASSIC then
+  if Addon.IS_CLASSIC or Addon.IS_BC then
     Widgets:CheckBoxSlider({
       parent = parent,
       checkBox = {
         label = L.DESTROY_EXCESS_SOUL_SHARDS_TEXT,
         tooltip = L.DESTROY_EXCESS_SOUL_SHARDS_TOOLTIP,
-        get = function() return DB.Profile.DestroyExcessSoulShards.Enabled end,
+        get = function() return DB.Profile.destroy.byType.excessSoulShards.enabled end,
         set = function(value)
-          DB.Profile.DestroyExcessSoulShards.Enabled = value
+          DB.Profile.destroy.byType.excessSoulShards.enabled = value
         end
       },
       slider = {
         label = L.DESTROY_EXCESS_SOUL_SHARDS_SLIDER_LABEL,
-        value = DB.Profile.DestroyExcessSoulShards.Value,
+        value = DB.Profile.destroy.byType.excessSoulShards.value,
         min = Consts.DESTROY_EXCESS_SOUL_SHARDS_MIN,
         max = Consts.DESTROY_EXCESS_SOUL_SHARDS_MAX,
         step = Consts.DESTROY_EXCESS_SOUL_SHARDS_STEP,
-        onValueChanged = function(self, event, value)
-          DB.Profile.DestroyExcessSoulShards.Value = value
+        onValueChanged = function(_, event, value)
+          DB.Profile.destroy.byType.excessSoulShards.value = value
         end
       }
     })
   end
+
+  -- Item Level Range.
+  Widgets:CheckBoxSliderRange({
+    parent = parent,
+    checkBox = {
+      label = L.ITEM_LEVEL_RANGE_TEXT,
+      tooltip = L.ITEM_LEVEL_RANGE_TOOLTIP,
+      get = function() return DB.Profile.destroy.byType.itemLevelRange.enabled end,
+      set = function(value)
+        DB.Profile.destroy.byType.itemLevelRange.enabled = value
+      end
+    },
+    minSlider = {
+      label = L.MINIMUM_TEXT,
+      tooltip = L.ITEM_LEVEL_RANGE_MIN_TOOLTIP,
+      value = DB.Profile.destroy.byType.itemLevelRange.min,
+      min = Consts.ITEM_LEVEL_RANGE_MIN,
+      max = DB.Profile.destroy.byType.itemLevelRange.max,
+      step = Consts.ITEM_LEVEL_RANGE_STEP,
+      onValueChanged = function(this, event, value)
+        DB.Profile.destroy.byType.itemLevelRange.min = value
+      end
+    },
+    maxSlider = {
+      label = L.MAXIMUM_TEXT,
+      tooltip = L.ITEM_LEVEL_RANGE_MAX_TOOLTIP,
+      value = DB.Profile.destroy.byType.itemLevelRange.max,
+      min = DB.Profile.destroy.byType.itemLevelRange.min,
+      max = Consts.ITEM_LEVEL_RANGE_MAX,
+      step = Consts.ITEM_LEVEL_RANGE_STEP,
+      onValueChanged = function(this, event, value)
+        DB.Profile.destroy.byType.itemLevelRange.max = value
+      end
+    },
+  })
 end
 
 function Destroy:AddIgnore(parent)
@@ -204,8 +261,8 @@ function Destroy:AddIgnore(parent)
         parent = byCategory,
         label = L.IGNORE_BATTLEPETS_TEXT,
         tooltip = L.IGNORE_BATTLEPETS_TOOLTIP,
-        get = function() return DB.Profile.DestroyIgnoreBattlePets end,
-        set = function(value) DB.Profile.DestroyIgnoreBattlePets = value end
+        get = function() return DB.Profile.destroy.ignore.battlePets end,
+        set = function(value) DB.Profile.destroy.ignore.battlePets = value end
       })
     end
 
@@ -214,27 +271,29 @@ function Destroy:AddIgnore(parent)
       parent = byCategory,
       label = L.IGNORE_CONSUMABLES_TEXT,
       tooltip = Utils:DoesNotApplyToPoor(L.IGNORE_CONSUMABLES_TOOLTIP),
-      get = function() return DB.Profile.DestroyIgnoreConsumables end,
-      set = function(value) DB.Profile.DestroyIgnoreConsumables = value end
+      get = function() return DB.Profile.destroy.ignore.consumables end,
+      set = function(value) DB.Profile.destroy.ignore.consumables = value end
     })
 
-    if Addon.IS_RETAIL then
+    if not Addon.IS_CLASSIC then
       -- Gems
       Widgets:CheckBox({
         parent = byCategory,
         label = L.IGNORE_GEMS_TEXT,
         tooltip = Utils:DoesNotApplyToPoor(L.IGNORE_GEMS_TOOLTIP),
-        get = function() return DB.Profile.DestroyIgnoreGems end,
-        set = function(value) DB.Profile.DestroyIgnoreGems = value end
+        get = function() return DB.Profile.destroy.ignore.gems end,
+        set = function(value) DB.Profile.destroy.ignore.gems = value end
       })
+    end
 
+    if Addon.IS_RETAIL then
       -- Glyphs
       Widgets:CheckBox({
         parent = byCategory,
         label = L.IGNORE_GLYPHS_TEXT,
         tooltip = Utils:DoesNotApplyToPoor(L.IGNORE_GLYPHS_TOOLTIP),
-        get = function() return DB.Profile.DestroyIgnoreGlyphs end,
-        set = function(value) DB.Profile.DestroyIgnoreGlyphs = value end
+        get = function() return DB.Profile.destroy.ignore.glyphs end,
+        set = function(value) DB.Profile.destroy.ignore.glyphs = value end
       })
     end
 
@@ -243,8 +302,8 @@ function Destroy:AddIgnore(parent)
       parent = byCategory,
       label = L.IGNORE_ITEM_ENHANCEMENTS_TEXT,
       tooltip = Utils:DoesNotApplyToPoor(L.IGNORE_ITEM_ENHANCEMENTS_TOOLTIP),
-      get = function() return DB.Profile.DestroyIgnoreItemEnhancements end,
-      set = function(value) DB.Profile.DestroyIgnoreItemEnhancements = value end
+      get = function() return DB.Profile.destroy.ignore.itemEnhancements end,
+      set = function(value) DB.Profile.destroy.ignore.itemEnhancements = value end
     })
 
     -- Miscellaneous
@@ -252,8 +311,8 @@ function Destroy:AddIgnore(parent)
       parent = byCategory,
       label = L.IGNORE_MISCELLANEOUS_TEXT,
       tooltip = Utils:DoesNotApplyToPoor(L.IGNORE_MISCELLANEOUS_TOOLTIP),
-      get = function() return DB.Profile.DestroyIgnoreMiscellaneous end,
-      set = function(value) DB.Profile.DestroyIgnoreMiscellaneous = value end
+      get = function() return DB.Profile.destroy.ignore.miscellaneous end,
+      set = function(value) DB.Profile.destroy.ignore.miscellaneous = value end
     })
 
     -- Reagents
@@ -261,8 +320,8 @@ function Destroy:AddIgnore(parent)
       parent = byCategory,
       label = L.IGNORE_REAGENTS_TEXT,
       tooltip = Utils:DoesNotApplyToPoor(L.IGNORE_REAGENTS_TOOLTIP),
-      get = function() return DB.Profile.DestroyIgnoreReagents end,
-      set = function(value) DB.Profile.DestroyIgnoreReagents = value end
+      get = function() return DB.Profile.destroy.ignore.reagents end,
+      set = function(value) DB.Profile.destroy.ignore.reagents = value end
     })
 
     -- Recipes
@@ -270,8 +329,8 @@ function Destroy:AddIgnore(parent)
       parent = byCategory,
       label = L.IGNORE_RECIPES_TEXT,
       tooltip = Utils:DoesNotApplyToPoor(L.IGNORE_RECIPES_TOOLTIP),
-      get = function() return DB.Profile.DestroyIgnoreRecipes end,
-      set = function(value) DB.Profile.DestroyIgnoreRecipes = value end
+      get = function() return DB.Profile.destroy.ignore.recipes end,
+      set = function(value) DB.Profile.destroy.ignore.recipes = value end
     })
 
     -- Trade Goods
@@ -279,8 +338,8 @@ function Destroy:AddIgnore(parent)
       parent = byCategory,
       label = L.IGNORE_TRADE_GOODS_TEXT,
       tooltip = Utils:DoesNotApplyToPoor(L.IGNORE_TRADE_GOODS_TOOLTIP),
-      get = function() return DB.Profile.DestroyIgnoreTradeGoods end,
-      set = function(value) DB.Profile.DestroyIgnoreTradeGoods = value end
+      get = function() return DB.Profile.destroy.ignore.tradeGoods end,
+      set = function(value) DB.Profile.destroy.ignore.tradeGoods = value end
     })
   end
 
@@ -296,8 +355,8 @@ function Destroy:AddIgnore(parent)
       parent = byType,
       label = L.IGNORE_BOE_TEXT,
       tooltip = Utils:DoesNotApplyToPoor(L.IGNORE_BOE_TOOLTIP),
-      get = function() return DB.Profile.DestroyIgnoreBindsWhenEquipped end,
-      set = function(value) DB.Profile.DestroyIgnoreBindsWhenEquipped = value end
+      get = function() return DB.Profile.destroy.ignore.bindsWhenEquipped end,
+      set = function(value) DB.Profile.destroy.ignore.bindsWhenEquipped = value end
     })
 
     -- Cosmetic
@@ -305,8 +364,8 @@ function Destroy:AddIgnore(parent)
       parent = byType,
       label = L.IGNORE_COSMETIC_TEXT,
       tooltip = L.IGNORE_COSMETIC_TOOLTIP,
-      get = function() return DB.Profile.DestroyIgnoreCosmetic end,
-      set = function(value) DB.Profile.DestroyIgnoreCosmetic = value end
+      get = function() return DB.Profile.destroy.ignore.cosmetic end,
+      set = function(value) DB.Profile.destroy.ignore.cosmetic = value end
     })
 
     -- Equipment Sets
@@ -315,8 +374,8 @@ function Destroy:AddIgnore(parent)
         parent = byType,
         label = L.IGNORE_EQUIPMENT_SETS_TEXT,
         tooltip = L.IGNORE_EQUIPMENT_SETS_TOOLTIP,
-        get = function() return DB.Profile.DestroyIgnoreEquipmentSets end,
-        set = function(value) DB.Profile.DestroyIgnoreEquipmentSets = value end
+        get = function() return DB.Profile.destroy.ignore.equipmentSets end,
+        set = function(value) DB.Profile.destroy.ignore.equipmentSets = value end
       })
     end
 
@@ -325,8 +384,8 @@ function Destroy:AddIgnore(parent)
       parent = byType,
       label = L.IGNORE_QUEST_ITEMS_TEXT,
       tooltip = L.IGNORE_QUEST_ITEMS_TOOLTIP,
-      get = function() return DB.Profile.DestroyIgnoreQuestItems end,
-      set = function(value) DB.Profile.DestroyIgnoreQuestItems = value end
+      get = function() return DB.Profile.destroy.ignore.questItems end,
+      set = function(value) DB.Profile.destroy.ignore.questItems = value end
     })
 
     -- Readable
@@ -334,8 +393,8 @@ function Destroy:AddIgnore(parent)
       parent = byType,
       label = L.IGNORE_READABLE_TEXT,
       tooltip = L.IGNORE_READABLE_TOOLTIP,
-      get = function() return DB.Profile.DestroyIgnoreReadable end,
-      set = function(value) DB.Profile.DestroyIgnoreReadable = value end
+      get = function() return DB.Profile.destroy.ignore.readable end,
+      set = function(value) DB.Profile.destroy.ignore.readable = value end
     })
 
     -- Soulbound
@@ -343,8 +402,8 @@ function Destroy:AddIgnore(parent)
       parent = byType,
       label = L.IGNORE_SOULBOUND_TEXT,
       tooltip = Utils:DoesNotApplyToPoor(L.IGNORE_SOULBOUND_TOOLTIP),
-      get = function() return DB.Profile.DestroyIgnoreSoulbound end,
-      set = function(value) DB.Profile.DestroyIgnoreSoulbound = value end
+      get = function() return DB.Profile.destroy.ignore.soulbound end,
+      set = function(value) DB.Profile.destroy.ignore.soulbound = value end
     })
 
     -- Tradeable
@@ -353,8 +412,8 @@ function Destroy:AddIgnore(parent)
         parent = byType,
         label = L.IGNORE_TRADEABLE_TEXT,
         tooltip = L.IGNORE_TRADEABLE_TOOLTIP,
-        get = function() return DB.Profile.DestroyIgnoreTradeable end,
-        set = function(value) DB.Profile.DestroyIgnoreTradeable = value end
+        get = function() return DB.Profile.destroy.ignore.tradeable end,
+        set = function(value) DB.Profile.destroy.ignore.tradeable = value end
       })
     end
   end

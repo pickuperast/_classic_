@@ -1,15 +1,18 @@
 local _, Addon = ...
 local DB = Addon.DB
 local GetCoinTextureString = _G.GetCoinTextureString
+local ItemQuality = Addon.ItemQuality
 local L = Addon.Libs.L
-local LE_ITEM_QUALITY_POOR = _G.LE_ITEM_QUALITY_POOR
 local Utils = Addon.Utils
 
-local function isBelowPrice(item, price)
+local SELL_REASON, DESTROY_REASON = Addon.Filters:SharedReason(
+  L.GENERAL_TEXT,
+  L.BELOW_PRICE_TEXT .. " (%s)"
+)
+
+local function isBelowPrice(item, price, reason)
   if (item.Price * item.Quantity) >= price then
-    return "NOT_JUNK", L.REASON_ITEM_PRICE_IS_NOT_BELOW_TEXT:format(
-      GetCoinTextureString(price)
-    )
+    return "NOT_JUNK", reason:format(GetCoinTextureString(price))
   end
 
   return "PASS"
@@ -19,11 +22,15 @@ end
 Addon.Filters:Add(Addon.Dejunker, {
   Run = function(_, item)
     if
-      DB.Profile.SellBelowPrice.Enabled and
-      item.Quality ~= LE_ITEM_QUALITY_POOR and
+      DB.Profile.sell.belowPrice.enabled and
+      item.Quality ~= ItemQuality.Poor and
       Utils:ItemCanBeSold(item)
     then
-      return isBelowPrice(item, DB.Profile.SellBelowPrice.Value)
+      return isBelowPrice(
+        item,
+        DB.Profile.sell.belowPrice.value,
+        SELL_REASON
+      )
     end
 
     return "PASS"
@@ -33,8 +40,12 @@ Addon.Filters:Add(Addon.Dejunker, {
 -- Destroyer
 Addon.Filters:Add(Addon.Destroyer, {
   Run = function(_, item)
-    if DB.Profile.DestroyBelowPrice.Enabled and Utils:ItemCanBeSold(item) then
-      return isBelowPrice(item, DB.Profile.DestroyBelowPrice.Value)
+    if DB.Profile.destroy.belowPrice.enabled and Utils:ItemCanBeSold(item) then
+      return isBelowPrice(
+        item,
+        DB.Profile.destroy.belowPrice.value,
+        DESTROY_REASON
+      )
     end
 
     return "PASS"

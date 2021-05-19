@@ -523,8 +523,7 @@ function addon.fillOptions()
 	checkbox:SetPoint("TOPLEFT", prev, "BOTTOMLEFT", 0, 0)
 	prev = checkbox
 
-	--[[
-	if QuestieDB == nil then GuidelimeData.dataSourceQuestie = false end
+	if not addon.isQuestieInstalled() then GuidelimeData.dataSourceQuestie = false end
 	checkbox = addon.addCheckOption(content, GuidelimeData, "dataSourceQuestie", L.USE_QUESTIE_AS_DATA_SOURCE, L.USE_QUESTIE_AS_DATA_SOURCE_TOOLTIP, function()
 		content.options.dataSourceInternal:SetChecked(not GuidelimeData.dataSourceQuestie)
 		if GuidelimeDataChar.mainFrameShowing and GuidelimeData.autoAddCoordinates then
@@ -533,8 +532,8 @@ function addon.fillOptions()
 		end
 	end)
 	checkbox:SetPoint("TOPLEFT", prev, "BOTTOMLEFT", 0, 0)
-	checkbox:SetEnabled(QuestieDB ~= nil)
-	if QuestieDB == nil then checkbox.text:SetTextColor(0.4, 0.4, 0.4) end
+	checkbox:SetEnabled(addon.isQuestieInstalled())
+	if not addon.isQuestieInstalled() then checkbox.text:SetTextColor(0.4, 0.4, 0.4) end
 	prev = checkbox
 	
 	content.options.dataSourceInternal = addon.addCheckbox(content, L.USE_INTERNAL_DATA_SOURCE)
@@ -549,7 +548,6 @@ function addon.fillOptions()
 		end
 	end)
 	content.options.dataSourceInternal:SetPoint("TOPLEFT", prev, "TOPLEFT", 270, 0)
-	]]
 end
 
 function addon.isOptionsShowing()

@@ -1,68 +1,20 @@
-local AddonName, Addon = ...
-local Colors = Addon.Colors
+local _, Addon = ...
 local Confirmer = Addon.Confirmer
 local Core = Addon.Core
-local DB = Addon.DB
-local DCL = Addon.Libs.DCL
 local Dejunker = Addon.Dejunker
-local Destroyables = Addon.Lists.Destroyables
 local Destroyer = Addon.Destroyer
-local E = Addon.Events
-local EventManager = Addon.EventManager
-local Exclusions = Addon.Lists.Exclusions
 local GetNetStats = _G.GetNetStats
-local Inclusions = Addon.Lists.Inclusions
 local L = Addon.Libs.L
 local ListHelper = Addon.ListHelper
+local Lists = Addon.Lists
 local max = math.max
-local print = print
 local Repairer = Addon.Repairer
 local select = select
 local UI = Addon.UI
-local Undestroyables = Addon.Lists.Undestroyables
-
--- ============================================================================
--- Events
--- ============================================================================
-
--- Initialize slash commands on player login.
-EventManager:Once(E.Wow.PlayerLogin, function()
-  _G.SLASH_DEJUNK1 = "/dejunk"
-  _G.SLASH_DEJUNK2 = "/dj"
-  _G.SlashCmdList.DEJUNK = function() UI:Toggle() end
-end)
 
 -- ============================================================================
 -- Functions
 -- ============================================================================
-
--- Prints a formatted message ("[Dejunk] msg").
--- @param ... - the messages to print
-function Core:Print(...)
-  if DB.Profile.SilentMode then return end
-  print(DCL:ColorString(("[%s]"):format(AddonName), Colors.Primary), ...)
-end
-
--- Attempts to print a message if verbose mode is enabled.
--- @param ... - the messages to print
-function Core:PrintVerbose(...)
-  if DB.Profile.VerboseMode then self:Print(...) end
-end
-
---[[
--- Prints a debug message ("[Dejunk Debug] title: ...").
--- @param title - the title of the debug message
--- @param ... - the messages to print
-function Core:Debug(title, ...)
-  print(
-    DCL:ColorString(("[%s Debug]"):format(AddonName), Colors.Red),
-    (select("#", ...) > 0) and
-    DCL:ColorString(title, Colors.Green)..":" or
-    title,
-    ...
-  )
-end
---]] Core.Debug = _G.nop
 
 -- Returns true if the dejunking process can be safely started,
 -- and false plus a reason message otherwise.
@@ -76,13 +28,18 @@ function Core:CanDejunk()
     return false, L.CANNOT_SELL_WHILE_DESTROYING
   end
 
-  if ListHelper:IsParsing(Inclusions) or ListHelper:IsParsing(Exclusions) then
-    return
-      false,
-      L.CANNOT_SELL_WHILE_LISTS_UPDATING:format(
-        Inclusions.localeColored,
-        Exclusions.localeColored
-      )
+  for _, listKey in pairs(Lists.LIST_KEYS) do
+    if
+      ListHelper:IsParsing(Lists.sell.inclusions[listKey]) or
+      ListHelper:IsParsing(Lists.sell.exclusions[listKey])
+    then
+      return
+        false,
+        L.CANNOT_SELL_WHILE_LISTS_UPDATING:format(
+          Lists.sell.inclusions[listKey].locale,
+          Lists.sell.exclusions[listKey].locale
+        )
+    end
   end
 
   return true
@@ -100,16 +57,18 @@ function Core:CanDestroy()
     return false, L.CANNOT_DESTROY_WHILE_SELLING
   end
 
-  if
-    ListHelper:IsParsing(Destroyables) or
-    ListHelper:IsParsing(Undestroyables)
-  then
-    return
-      false,
-      L.CANNOT_DESTROY_WHILE_LISTS_UPDATING:format(
-        Destroyables.localeColored,
-        Undestroyables.localeColored
-      )
+  for _, listKey in pairs(Lists.LIST_KEYS) do
+    if
+      ListHelper:IsParsing(Lists.destroy.inclusions[listKey]) or
+      ListHelper:IsParsing(Lists.destroy.exclusions[listKey])
+    then
+      return
+        false,
+        L.CANNOT_DESTROY_WHILE_LISTS_UPDATING:format(
+          Lists.destroy.inclusions[listKey].locale,
+          Lists.destroy.exclusions[listKey].locale
+        )
+    end
   end
 
   return true
@@ -144,7 +103,7 @@ function Core:OnUpdate(elapsed)
     interval = 0
     home, world = select(3, GetNetStats())
     latency = max(home, world) * 0.001 -- convert to seconds
-    self.MinDelay = max(latency, 0.1) -- 0.1 seconds min
+    self.MinDelay = max(latency, 0.15) -- 0.15 seconds min
   end
 
   ListHelper:OnUpdate(elapsed)

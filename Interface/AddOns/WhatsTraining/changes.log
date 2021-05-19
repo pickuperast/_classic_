@@ -1,3 +1,26 @@
+* 3.0.0
+    - Add TBC Classic support
+    - Fix clashing with GrimoireKeeper
+
+* 2.0.2
+    - Updated toc version
+
+* 2.0.1
+    - Fix error when we don't get a valid warlock tome link
+
+* 2.0.0
+    - Added ability to mark warlock Grimoire's as learned so they are displayed differently in the vendor
+
+* 1.9.2
+    - Fix hunter error for some locales
+
+* 1.9.1
+    - Update toc version
+
+* 1.9.0
+    - Added support for known hunter pet abilities
+    - Fixed some rogue abilities not being marked as known
+
 * 1.8.7
     - Fixed price of final rank of Wing Clip
 
