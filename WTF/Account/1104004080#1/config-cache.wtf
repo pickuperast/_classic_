@@ -1,3 +1,4 @@
+SET autoDismountFlying "1"
 SET interactOnLeftClick "1"
 SET showTargetOfTarget "1"
 SET instantQuestText "1"

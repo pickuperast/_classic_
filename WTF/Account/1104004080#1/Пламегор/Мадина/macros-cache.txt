@@ -1,0 +1,36 @@
+VER 3 0000000001000006 "1" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] or [button:2] огненный шар; ледяная стрела
+END
+VER 3 0000000001000003 "2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] or [button:2] превращение; конус холода
+END
+VER 3 0000000001000001 "3" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] or [button:2] ЩИТ МАНЫ; ледяная преграда
+END
+VER 3 0000000001000002 "4" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] or [button:2] чародейский взрыв; кольцо льда
+END
+VER 3 0000000001000005 "armor" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] or [button:2] магический доспех; ледяной доспех
+END
+VER 3 0000000001000004 "def" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] or [button:2] защита от огня; защита от магии льда
+END
+VER 3 0000000001000008 "food" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] or [button:2] сотворение пищи; сотворение воды
+END
+VER 3 0000000001000009 "mana" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] or [button:2] сотворение рубина маны; сотворение цитрина маны
+END
+VER 3 0000000001000007 "weak" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] or [button:2] усиление магии; ослабление магии
+END

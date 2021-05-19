@@ -13,7 +13,7 @@ Prat3DB = {
 			["profiles"] = {
 				["Default"] = {
 					["minchatwidthdefault"] = 296,
-					["maxchatheightdefault"] = 400,
+					["maxchatheightdefault"] = 399.9999694824219,
 					["maxchatwidthdefault"] = 608,
 					["initialized"] = true,
 				},
@@ -27,25 +27,25 @@ Prat3DB = {
 		},
 		["Prat_UrlCopy"] = {
 		},
-		["Prat_Bubbles"] = {
-		},
-		["Prat_ChatLog"] = {
-		},
-		["Prat_Sounds"] = {
-		},
-		["Prat_ChannelNames"] = {
-		},
 		["Prat_KeyBindings"] = {
 		},
 		["Prat_PopupMessage"] = {
 		},
 		["Prat_Scroll"] = {
 		},
+		["Prat_ChannelNames"] = {
+		},
+		["Prat_Bubbles"] = {
+		},
+		["Prat_Timestamps"] = {
+		},
+		["Prat_Sounds"] = {
+		},
 		["Prat_ChannelSticky"] = {
 		},
 		["Prat_Achievements"] = {
 		},
-		["Prat_Font"] = {
+		["Prat_History"] = {
 		},
 		["Prat_Alias"] = {
 		},
@@ -59,11 +59,11 @@ Prat3DB = {
 		},
 		["Prat_Invites"] = {
 		},
-		["Prat_History"] = {
+		["Prat_Font"] = {
 		},
 		["Prat_CopyChat"] = {
 		},
-		["Prat_Timestamps"] = {
+		["Prat_ChatLog"] = {
 		},
 		["Prat_Search"] = {
 		},
@@ -76,11 +76,12 @@ Prat3DB = {
 	},
 	["profileKeys"] = {
 		["Еве - Пламегор"] = "Default",
+		["Мадина - Пламегор"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["modules"] = {
-				["ChatLog"] = 2,
+				["Alias"] = 2,
 				["Mentions"] = 2,
 				["PopupMessage"] = 2,
 				["AltNames"] = 2,
@@ -88,7 +89,7 @@ Prat3DB = {
 				["Paragraph"] = 2,
 				["KeyBindings"] = 2,
 				["OriginalButtons"] = 2,
-				["Alias"] = 2,
+				["ChatLog"] = 2,
 			},
 		},
 	},

@@ -2,13 +2,13 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_50000"] = 500,
 	["_2000"] = 100,
-	["_10000"] = 200,
-	["_5000000"] = 10000,
-	["_1000000"] = 2500,
-	["_200000"] = 1000,
-	["LOG_DE_DATA_X"] = true,
-	["STARTING_DISCOUNT"] = 5,
 	["_500"] = 5,
+	["STARTING_DISCOUNT"] = 5,
+	["_1000000"] = 2500,
+	["_10000"] = 200,
+	["LOG_DE_DATA_X"] = true,
+	["_200000"] = 1000,
+	["_5000000"] = 10000,
 }
 AUCTIONATOR_PRICING_HISTORY = {
 }
@@ -30,7 +30,12 @@ AUCTIONATOR_LAST_SCAN_TIME = nil
 AUCTIONATOR_TOONS = {
 	["Еве"] = {
 		["firstSeen"] = 1620202118,
+		["firstVersion"] = "100.0.8",
 		["guid"] = "Player-4474-03202CA5",
+	},
+	["Мадина"] = {
+		["firstSeen"] = 1621443376,
+		["guid"] = "Player-4474-0337283B",
 		["firstVersion"] = "100.0.8",
 	},
 }

@@ -1,0 +1,1948 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 126,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:11:50]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Виларона-Пламегор:625:CHANNEL:4|h|cffd8d83f60|r:|cff3fc6eaВиларона|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tАФК Кач Зул'Гуруб|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t1 РаН - 30 GOLD|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t11 паков|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t20-25k+ EXP (50-60lvl)|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tОгромный опыт|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tКачественно|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t0/2",
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1621485101,
+					["timestamp"] = 5482.848,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:11:52]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Будетсделано-Пламегор:626:CHANNEL:4|h|cff3fc6eaБудетсделано|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t АФК ТЮРЬМА |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t 15-28 лвл, 15г=5 ранов, фри лут, 3/4 ! |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t",
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						171, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1621485103,
+					["timestamp"] = 5482.848,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:11:52]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Будетсделано-Пламегор:627:CHANNEL:4|h|cff3fc6eaБудетсделано|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t АФК ТЮРЬМА |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t 15-28 лвл, 15г=5 ранов, фри лут, 3/4 ! |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t",
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						171, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1621485103,
+					["timestamp"] = 5482.848,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:11:54]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Фенобронь-Пламегор:628:CHANNEL:4|h|cffc69b6dФенобронь|r|h|cffd8d8d8]|r: танк схожу  дм восток север",
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						48, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1621485105,
+					["timestamp"] = 5482.848,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:11:55]|h|r Вы получаете предмет: |cffffffff|Hitem:8529::::::::58::::::::|h[Эликсир Ноггенфоггера]|h|rx5.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						86, -- [3]
+						87, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1621485106,
+					["timestamp"] = 5482.848,
+					["g"] = 0.6666666865348816,
+					["r"] = 0,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:11:55]|h|r Задание \"Эликсир Ноггенфоггера\" выполнено.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						24, -- [3]
+						25, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1621485106,
+					["timestamp"] = 5482.848,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:11:55]|h|r Получено: 70 |4серебряная:серебряные:серебряных;.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						24, -- [3]
+						25, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1621485106,
+					["timestamp"] = 5482.848,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:11:57]|h|r Вы продали хлама на 8|TInterface\\MoneyFrame\\UI-SilverIcon:0:0:2:0|t 87|TInterface\\MoneyFrame\\UI-CopperIcon:0:0:2:0|t",
+					["extraData"] = {
+						29, -- [1]
+						false, -- [2]
+						88, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1621485108,
+					["timestamp"] = 5482.848,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:12:06]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Мадина-Пламегор:632:CHANNEL:4|h|cff3fc6eaМадина|r|h|cffd8d8d8]|r: 123",
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						151, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1621485117,
+					["timestamp"] = 5482.848,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:12:06]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Виларона-Пламегор:633:CHANNEL:4|h|cffd8d83f60|r:|cff3fc6eaВиларона|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tАФК Кач Зул'Гуруб|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t1 РаН - 30 GOLD|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t11 паков|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t20-25k+ EXP (50-60lvl)|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tОгромный опыт|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tКачественно|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t0/2",
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1621485117,
+					["timestamp"] = 5482.848,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:12:07]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Виларона-Пламегор:634:CHANNEL:4|h|cffd8d83f60|r:|cff3fc6eaВиларона|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tАФК Кач Зул'Гуруб|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t1 РаН - 30 GOLD|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t11 паков|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t20-25k+ EXP (50-60lvl)|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tОгромный опыт|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tКачественно|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t0/2",
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1621485118,
+					["timestamp"] = 5482.848,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:12:15]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Ретроаладдин-Пламегор:635:CHANNEL:4|h|cfff48cbaРетроаладдин|r|h|cffd8d8d8]|r: афк кач ТЮРЬМА 15г=5 ранов, с 15 лвла, фри лут!",
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						72, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1621485126,
+					["timestamp"] = 5482.848,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:12:26]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Виларона-Пламегор:636:CHANNEL:4|h|cffd8d83f60|r:|cff3fc6eaВиларона|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tАФК Кач Зул'Гуруб|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t1 РаН - 30 GOLD|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t11 паков|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t20-25k+ EXP (50-60lvl)|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tОгромный опыт|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tКачественно|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t0/2",
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1621485137,
+					["timestamp"] = 5482.848,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:12:27]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Виларона-Пламегор:637:CHANNEL:4|h|cffd8d83f60|r:|cff3fc6eaВиларона|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tАФК Кач Зул'Гуруб|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t1 РаН - 30 GOLD|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t11 паков|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t20-25k+ EXP (50-60lvl)|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tОгромный опыт|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tКачественно|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t0/2",
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1621485138,
+					["timestamp"] = 5482.848,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:12:28]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Крофтик-Пламегор:638:CHANNEL:4|h|cffc69b6dКрофтик|r|h|cffd8d8d8]|r: Афк кач в шоло по 10г за ран  1/2 места .",
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						60, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1621485139,
+					["timestamp"] = 5482.848,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:12:36]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Будетсделано-Пламегор:639:CHANNEL:4|h|cff3fc6eaБудетсделано|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t АФК ТЮРЬМА |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t 15-28 лвл, 15г=5 ранов, фри лут, 3/4 ! |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t",
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						171, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1621485147,
+					["timestamp"] = 5482.848,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:12:36]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Будетсделано-Пламегор:640:CHANNEL:4|h|cff3fc6eaБудетсделано|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t АФК ТЮРЬМА |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t 15-28 лвл, 15г=5 ранов, фри лут, 3/4 ! |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t",
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						171, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1621485147,
+					["timestamp"] = 5482.848,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:12:40]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Виларона-Пламегор:641:CHANNEL:4|h|cffd8d83f60|r:|cff3fc6eaВиларона|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tАФК Кач Зул'Гуруб|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t1 РаН - 30 GOLD|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t11 паков|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t20-25k+ EXP (50-60lvl)|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tОгромный опыт|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tКачественно|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t0/2",
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1621485151,
+					["timestamp"] = 5482.848,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:12:40]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Стабби-Пламегор:642:CHANNEL:4|h|cff3fc6eaСтабби|r|h|cffd8d8d8]|r: 5/5",
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						177, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1621485151,
+					["timestamp"] = 5482.848,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:12:40]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Виларона-Пламегор:643:CHANNEL:4|h|cffd8d83f60|r:|cff3fc6eaВиларона|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tАФК Кач Зул'Гуруб|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t1 РаН - 30 GOLD|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t11 паков|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t20-25k+ EXP (50-60lvl)|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tОгромный опыт|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tКачественно|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t0/2",
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1621485151,
+					["timestamp"] = 5482.848,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:12:42]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Зои-Пламегор:644:CHANNEL:4|h|cff3fc6eaЗои|r|h|cffd8d8d8]|r: а что там за макрос на увеличение ренджа неймплейтов?",
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						54, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1621485153,
+					["timestamp"] = 5482.848,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:12:46]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Зои-Пламегор:645:CHANNEL:4|h|cff3fc6eaЗои|r|h|cffd8d8d8]|r: Близзы в препатче ввели",
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						54, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1621485157,
+					["timestamp"] = 5482.848,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:12:52]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Всаенгшолас-Пламегор:646:CHANNEL:4|h|cff8787edВсаенгшолас|r|h|cffd8d8d8]|r: МАО БИБЛА ОРУЖЕЙКА ДД и го",
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						157, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1621485163,
+					["timestamp"] = 5482.848,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:12:52]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Виларона-Пламегор:647:CHANNEL:4|h|cffd8d83f60|r:|cff3fc6eaВиларона|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tАФК Кач Зул'Гуруб|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t1 РаН - 30 GOLD|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t11 паков|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t20-25k+ EXP (50-60lvl)|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tОгромный опыт|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tКачественно|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t0/2",
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1621485163,
+					["timestamp"] = 5482.848,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:13:03]|h|r Гоблин-обыватель говорит: Пылающий Легион вернулся! Как нам их остановить?",
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						140, -- [3]
+						141, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6235294342041016,
+					["serverTime"] = 1621485174,
+					["timestamp"] = 5482.848,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:13:03]|h|r Гоблин-обыватель говорит: Пылающий Легион вернулся! Как нам их остановить?",
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						140, -- [3]
+						141, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6235294342041016,
+					["serverTime"] = 1621485174,
+					["timestamp"] = 5482.848,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:13:04]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Виларона-Пламегор:650:CHANNEL:4|h|cffd8d83f60|r:|cff3fc6eaВиларона|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tАФК Кач Зул'Гуруб|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t1 РаН - 30 GOLD|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t11 паков|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t20-25k+ EXP (50-60lvl)|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tОгромный опыт|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tКачественно|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t0/2",
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1621485175,
+					["timestamp"] = 5482.848,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:13:06]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Арзик-Пламегор:651:CHANNEL:4|h|cff3fc6eaАрзик|r|h|cffd8d8d8]|r: АФК КАЧ ТЮРЬМА, ФРИ ЛУТ, 15г\\5 ранов 15-30 лвл, ран 6-7 минут",
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						175, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1621485177,
+					["timestamp"] = 5482.848,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:13:10]|h|r |Hchannel:channel:1|h[1] |h Вы покинули канал |Hchannel:CHANNEL:1|h[1. Общий: Танарис]|h.",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						32, -- [3]
+						33, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1621485181,
+					["timestamp"] = 5482.848,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:13:10]|h|r |Hchannel:channel:3|h[3] |h Вы покинули канал |Hchannel:CHANNEL:3|h[3. Оборона: Танарис]|h.",
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						45, -- [3]
+						46, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1621485181,
+					["timestamp"] = 5482.848,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:13:21]|h|r Общее время игры: 0 |4день:дня:дней;, 1 |4час:часа:часов;, 11 |4минута:минуты:минут;, 25 |4секунда:секунды:секунд;.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485192,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:13:21]|h|r Время игры на этом уровне: 0 |4день:дня:дней;, 1 |4час:часа:часов;, 11 |4минута:минуты:минут;, 25 |4секунда:секунды:секунд;.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485192,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:13:26]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Виларона:654:CHANNEL:4|h|cff3fc6eaВиларона|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tАФК Кач Зул'Гуруб|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t1 РаН - 30 GOLD|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t11 паков|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t20-25k+ EXP (50-60lvl)|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tОгромный опыт|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tКачественно|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t0/2",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485197,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:13:28]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Ангрбоде:655:CHANNEL:4|h|cffc69b6dАнгрбоде|r|h|cffd8d8d8]|r: даколе мы будем терпеть этих приезжих??? понаехали в штормград с всех колхозав обезьяны! теперь эти с медузай на морде к нам в сталицу....",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485199,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:13:34]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Ангрбоде-Пламегор:656:CHANNEL:4|h|cffc69b6dАнгрбоде|r|h|cffd8d8d8]|r: доколе терпеть то будем??",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485205,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:13:35]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Виларона-Пламегор:657:CHANNEL:4|h|cff3fc6eaВиларона|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tАФК Кач Зул'Гуруб|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t1 РаН - 30 GOLD|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t11 паков|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t20-25k+ EXP (50-60lvl)|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tОгромный опыт|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tКачественно|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t0/2",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485206,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:13:48]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Виларона-Пламегор:658:CHANNEL:4|h|cff3fc6eaВиларона|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tАФК Кач Зул'Гуруб|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t1 РаН - 30 GOLD|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t11 паков|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t20-25k+ EXP (50-60lvl)|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tОгромный опыт|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tКачественно|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t0/2",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485219,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:13:50]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Будетсделано:659:CHANNEL:4|h|cff3fc6eaБудетсделано|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t АФК ТЮРЬМА |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t 15-28 лвл, 15г=5 ранов, фри лут, 3/4 ! |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485221,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:13:51]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Будетсделано-Пламегор:660:CHANNEL:4|h|cff3fc6eaБудетсделано|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t АФК ТЮРЬМА |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t 15-28 лвл, 15г=5 ранов, фри лут, 3/4 ! |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485222,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:14:02]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Виларона-Пламегор:661:CHANNEL:4|h|cff3fc6eaВиларона|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tАФК Кач Зул'Гуруб|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t1 РаН - 30 GOLD|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t11 паков|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t20-25k+ EXP (50-60lvl)|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tОгромный опыт|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tКачественно|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t0/2",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485233,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:14:03]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Виларона-Пламегор:662:CHANNEL:4|h|cff3fc6eaВиларона|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tАФК Кач Зул'Гуруб|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t1 РаН - 30 GOLD|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t11 паков|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t20-25k+ EXP (50-60lvl)|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tОгромный опыт|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tКачественно|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t0/2",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485234,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:14:05]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Логичность:663:CHANNEL:4|h|cff0070ddЛогичность|r|h|cffd8d8d8]|r: есть афк мк кто",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485236,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:14:08]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Всаенгшолас:664:CHANNEL:4|h|cff8787edВсаенгшолас|r|h|cffd8d8d8]|r: МАО БИБЛА ОРУЖЕЙКА ДД и го",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485239,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:14:14]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Фенобронь:665:CHANNEL:4|h|cffc69b6dФенобронь|r|h|cffd8d8d8]|r: танк схожу  дм восток север",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485245,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:14:16]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Докторнапалм:666:CHANNEL:4|h|cffffffffДокторнапалм|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t Дружный коллектив ведёт набор для освоения рейдового контента Burning Crusade. ПвЕ Драконы гарантируют место в статике и подъемные ДКП!",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485247,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:14:17]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Ретроаладдин:667:CHANNEL:4|h|cfff48cbaРетроаладдин|r|h|cffd8d8d8]|r: афк кач ТЮРЬМА 15г=5 ранов, с 15 лвла, фри лут!",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485248,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:14:21]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Виларона-Пламегор:668:CHANNEL:4|h|cff3fc6eaВиларона|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tАФК Кач Зул'Гуруб|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t1 РаН - 30 GOLD|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t11 паков|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t20-25k+ EXP (50-60lvl)|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tОгромный опыт|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tКачественно|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t0/2",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485252,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:14:21]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Виларона-Пламегор:669:CHANNEL:4|h|cff3fc6eaВиларона|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tАФК Кач Зул'Гуруб|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t1 РаН - 30 GOLD|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t11 паков|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t20-25k+ EXP (50-60lvl)|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tОгромный опыт|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tКачественно|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t0/2",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485252,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:14:24]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Будетсделано-Пламегор:670:CHANNEL:4|h|cff3fc6eaБудетсделано|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t АФК ТЮРЬМА |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t 15-28 лвл, 15г=5 ранов, фри лут, 3/4 ! |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485255,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:14:25]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Будетсделано-Пламегор:671:CHANNEL:4|h|cff3fc6eaБудетсделано|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t АФК ТЮРЬМА |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t 15-28 лвл, 15г=5 ранов, фри лут, 3/4 ! |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485256,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:14:27]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Крофтик:672:CHANNEL:4|h|cffc69b6dКрофтик|r|h|cffd8d8d8]|r: Афк кач в шоло по 10г за ран  1/2 места .",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485258,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:14:30]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Виларона-Пламегор:673:CHANNEL:4|h|cff3fc6eaВиларона|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tАФК Кач Зул'Гуруб|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t1 РаН - 30 GOLD|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t11 паков|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t20-25k+ EXP (50-60lvl)|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tОгромный опыт|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tКачественно|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t0/2",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485261,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:14:31]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Виларона-Пламегор:674:CHANNEL:4|h|cff3fc6eaВиларона|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tАФК Кач Зул'Гуруб|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t1 РаН - 30 GOLD|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t11 паков|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t20-25k+ EXP (50-60lvl)|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tОгромный опыт|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tКачественно|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t0/2",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485262,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:14:40]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Железякинс:675:CHANNEL:4|h|cfff48cbaЖелезякинс|r|h|cffd8d8d8]|r: ***АФК кач МК 4г ран (фри лут)***",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485271,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						20, -- [4]
+						["n"] = 4,
+					},
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:14:48]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Виларона-Пламегор:676:CHANNEL:4|h|cff3fc6eaВиларона|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tАФК Кач Зул'Гуруб|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t1 РаН - 30 GOLD|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t11 паков|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t20-25k+ EXP (50-60lvl)|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tОгромный опыт|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tКачественно|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t0/2",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485279,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:14:48]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Виларона-Пламегор:677:CHANNEL:4|h|cff3fc6eaВиларона|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tАФК Кач Зул'Гуруб|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t1 РаН - 30 GOLD|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t11 паков|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t20-25k+ EXP (50-60lvl)|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tОгромный опыт|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tКачественно|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t0/2",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485279,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:15:08]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Виларона-Пламегор:678:CHANNEL:4|h|cff3fc6eaВиларона|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|tАФК Кач ЗГ СОЛО 1 ран - 45г|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t 30к+ опыта за ран! 50-59 лвл",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485299,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:15:38]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Ерион:679:CHANNEL:4|h|cffff7c0aЕрион|r|h|cffd8d8d8]|r: какой самый норм аддон для кв сейчас?",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485329,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:15:40]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Палпалоч:680:CHANNEL:4|h|cfff48cbaПалпалоч|r|h|cffd8d8d8]|r: АФК кач мародон 30-49лвл 180-200+- мобов ( лут ваш ) ( 15г ран ) оплата за 5 ранов СУМОН ЕСТЬ",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485331,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:15:40]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Виларона-Пламегор:681:CHANNEL:4|h|cff3fc6eaВиларона|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tАФК Кач Зул'Гуруб|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t1 РаН - 30 GOLD|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t11 паков|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t20-25k+ EXP (50-60lvl)|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tОгромный опыт|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tКачественно|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t0/2",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485331,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:15:42]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Виларона-Пламегор:682:CHANNEL:4|h|cff3fc6eaВиларона|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tАФК Кач Зул'Гуруб|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t1 РаН - 30 GOLD|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t11 паков|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t20-25k+ EXP (50-60lvl)|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tОгромный опыт|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tКачественно|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t0/2",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485333,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:15:58]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Ёэе:683:CHANNEL:4|h|cff3fc6eaЁэе|r|h|cffd8d8d8]|r: Eрион - афк кач",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485349,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						26, -- [4]
+						["n"] = 4,
+					},
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:16:00]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Лортер:684:CHANNEL:4|h|cfffff468Лортер|r|h|cffd8d8d8]|r: Ищу мункена и рдруида с прямыми руками, которые планируют играть в БК 24/7, качественно закрывать контент. От нас сильный кор состав, пиши!)",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485351,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:16:08]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Виларона-Пламегор:685:CHANNEL:4|h|cff3fc6eaВиларона|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tАФК Кач Зул'Гуруб|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t1 РаН - 30 GOLD|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t11 паков|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t20-25k+ EXP (50-60lvl)|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tОгромный опыт|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tКачественно|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t0/2",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485359,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:16:10]|h|r |Hchannel:channel:1|h[1] |h Смена канала: |Hchannel:CHANNEL:1|h[1. Общий: Штормград]|h.",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485361,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						30, -- [3]
+						31, -- [4]
+						["n"] = 4,
+					},
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:16:10]|h|r |Hchannel:channel:3|h[3] |h Смена канала: |Hchannel:CHANNEL:3|h[3. Оборона: Штормград]|h.",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485361,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						33, -- [3]
+						34, -- [4]
+						["n"] = 4,
+					},
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:16:10]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Ерион-Пламегор:688:CHANNEL:4|h|cffff7c0aЕрион|r|h|cffd8d8d8]|r: афк кач это дорого",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485361,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:16:33]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Виларона-Пламегор:690:CHANNEL:4|h|cff3fc6eaВиларона|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tАФК Кач Зул'Гуруб|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t1 РаН - 30 GOLD|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t11 паков|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t20-25k+ EXP (50-60lvl)|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tОгромный опыт|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tКачественно|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t0/2",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485384,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:16:33]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Аннамиа:691:CHANNEL:4|h|cff0070ddАннамиа|r|h|cffd8d8d8]|r: при цене г 50 коп нет)",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485384,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:16:37]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Крофтик-Пламегор:693:CHANNEL:4|h|cffc69b6dКрофтик|r|h|cffd8d8d8]|r: Афк кач в шоло по 10г за ран  1/2 места .",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485388,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:16:40]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Виларона-Пламегор:695:CHANNEL:4|h|cff3fc6eaВиларона|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tАФК Кач Зул'Гуруб|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t1 РаН - 30 GOLD|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t11 паков|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t20-25k+ EXP (50-60lvl)|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tОгромный опыт|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tКачественно|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t0/2",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485391,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:16:41]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Виларона-Пламегор:696:CHANNEL:4|h|cff3fc6eaВиларона|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tАФК Кач Зул'Гуруб|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t1 РаН - 30 GOLD|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t11 паков|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t20-25k+ EXP (50-60lvl)|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tОгромный опыт|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tКачественно|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t0/2",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485392,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:16:41]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Хунтервиапон:697:CHANNEL:4|h|cffaad372Хунтервиапон|r|h|cffd8d8d8]|r: Гильдия Дримволкерс ПВЕ TBC",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485392,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						38, -- [4]
+						["n"] = 4,
+					},
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:16:41]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Хунтервиапон:698:CHANNEL:4|h|cffaad372Хунтервиапон|r|h|cffd8d8d8]|r: Проводит донабор в статики семихардкор/хардкор",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485392,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						38, -- [4]
+						["n"] = 4,
+					},
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:16:41]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Хунтервиапон:699:CHANNEL:4|h|cffaad372Хунтервиапон|r|h|cffd8d8d8]|r: Нужны Танки,Хилы,Шаманы,Дпс(кроме рог и хантов)",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485392,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						38, -- [4]
+						["n"] = 4,
+					},
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:16:41]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Хунтервиапон:700:CHANNEL:4|h|cffaad372Хунтервиапон|r|h|cffd8d8d8]|r: Рт будни с 21-00 до 0-30 мск,консул-лут",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485392,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						38, -- [4]
+						["n"] = 4,
+					},
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:16:41]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Хунтервиапон:701:CHANNEL:4|h|cffaad372Хунтервиапон|r|h|cffd8d8d8]|r: Подробности в пм или дискорде |cff149bfd|Hurl:https://discord.gg/5D9j3f7FYT|h[https://discord.gg/5D9j3f7FYT]|h|r",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485392,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						38, -- [4]
+						["n"] = 4,
+					},
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:16:44]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Хунтервиапон-Пламегор:703:CHANNEL:1|h|cffaad372Хунтервиапон|r|h|cffd8d8d8]|r: Гильдия Дримволкерс ПВЕ TBC",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485395,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						30, -- [3]
+						40, -- [4]
+						["n"] = 4,
+					},
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:16:44]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Хунтервиапон-Пламегор:704:CHANNEL:1|h|cffaad372Хунтервиапон|r|h|cffd8d8d8]|r: Проводит донабор в статики семихардкор/хардкор",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485395,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						30, -- [3]
+						40, -- [4]
+						["n"] = 4,
+					},
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:16:44]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Хунтервиапон-Пламегор:705:CHANNEL:1|h|cffaad372Хунтервиапон|r|h|cffd8d8d8]|r: Нужны Танки,Хилы,Шаманы,Дпс(кроме рог и хантов)",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485395,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						30, -- [3]
+						40, -- [4]
+						["n"] = 4,
+					},
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:16:44]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Хунтервиапон-Пламегор:706:CHANNEL:1|h|cffaad372Хунтервиапон|r|h|cffd8d8d8]|r: Рт будни с 21-00 до 0-30 мск,консул-лут",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485395,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						30, -- [3]
+						40, -- [4]
+						["n"] = 4,
+					},
+				}, -- [81]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:16:44]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Хунтервиапон-Пламегор:707:CHANNEL:1|h|cffaad372Хунтервиапон|r|h|cffd8d8d8]|r: Подробности в пм или дискорде |cff149bfd|Hurl:https://discord.gg/5D9j3f7FYT|h[https://discord.gg/5D9j3f7FYT]|h|r",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485395,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						30, -- [3]
+						40, -- [4]
+						["n"] = 4,
+					},
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:16:45]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Виларона-Пламегор:709:CHANNEL:4|h|cff3fc6eaВиларона|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tАФК Кач Зул'Гуруб|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t1 РаН - 30 GOLD|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t11 паков|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t20-25k+ EXP (50-60lvl)|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tОгромный опыт|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tКачественно|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t0/2",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485396,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:16:48]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Железякинс-Пламегор:710:CHANNEL:4|h|cfff48cbaЖелезякинс|r|h|cffd8d8d8]|r: ***АФК кач МК 4г ран (фри лут)***",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485399,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						20, -- [4]
+						["n"] = 4,
+					},
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:16:50]|h|r [Y] |cffd8d8d8[|r|Hplayer:Хунтервиапон-Пламегор:711:YELL|h|cffaad372Хунтервиапон|r|h|cffd8d8d8]|r: Гильдия Дримволкерс ПВЕ TBC",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.250980406999588,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485401,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						42, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:16:50]|h|r [Y] |cffd8d8d8[|r|Hplayer:Хунтервиапон-Пламегор:712:YELL|h|cffaad372Хунтервиапон|r|h|cffd8d8d8]|r: Проводит донабор в статики семихардкор/хардкор",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.250980406999588,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485401,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						42, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:16:50]|h|r [Y] |cffd8d8d8[|r|Hplayer:Хунтервиапон-Пламегор:713:YELL|h|cffaad372Хунтервиапон|r|h|cffd8d8d8]|r: Нужны Танки,Хилы,Шаманы,Дпс(кроме рог и хантов)",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.250980406999588,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485401,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						42, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:16:50]|h|r [Y] |cffd8d8d8[|r|Hplayer:Хунтервиапон-Пламегор:714:YELL|h|cffaad372Хунтервиапон|r|h|cffd8d8d8]|r: Рт будни с 21-00 до 0-30 мск,консул-лут",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.250980406999588,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485401,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						42, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+				}, -- [88]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:16:50]|h|r [Y] |cffd8d8d8[|r|Hplayer:Хунтервиапон-Пламегор:715:YELL|h|cffaad372Хунтервиапон|r|h|cffd8d8d8]|r: Подробности в пм или дискорде |cff149bfd|Hurl:https://discord.gg/5D9j3f7FYT|h[https://discord.gg/5D9j3f7FYT]|h|r",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.250980406999588,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485401,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						42, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:16:53]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Ерион-Пламегор:717:CHANNEL:4|h|cffff7c0aЕрион|r|h|cffd8d8d8]|r: а меняет кто то голд тут на голд на актуале?",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485404,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+				}, -- [90]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:17:06]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Дождливыйден:727:CHANNEL:4|h|cff0070ddДождливыйден|r|h|cffd8d8d8]|r: корабль с Экзодара до Шторма есть?",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485417,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						44, -- [4]
+						["n"] = 4,
+					},
+				}, -- [91]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:17:10]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Дарксоун:732:CHANNEL:4|h|cff8787edДарксоун|r|h|cffd8d8d8]|r: а каму нужен голд на актуале?",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485421,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						46, -- [4]
+						["n"] = 4,
+					},
+				}, -- [92]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:17:14]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Виларона-Пламегор:735:CHANNEL:4|h|cff3fc6eaВиларона|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tАФК Кач Зул'Гуруб|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t1 РаН - 30 GOLD|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t11 паков|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t20-25k+ EXP (50-60lvl)|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tОгромный опыт|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tКачественно|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t0/2",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485425,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [93]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:17:15]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Виларона-Пламегор:736:CHANNEL:4|h|cff3fc6eaВиларона|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tАФК Кач Зул'Гуруб|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t1 РаН - 30 GOLD|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t11 паков|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t20-25k+ EXP (50-60lvl)|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tОгромный опыт|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tКачественно|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t0/2",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485426,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [94]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:17:19]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Почтихуман-Пламегор:739:CHANNEL:2|h|cff3fc6eaПочтихуман|r|h|cffd8d8d8]|r: <<<порталы в любой город",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485430,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						48, -- [3]
+						49, -- [4]
+						["n"] = 4,
+					},
+				}, -- [95]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:17:26]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Гефрох:746:CHANNEL:4|h|cffc69b6dГефрох|r|h|cffd8d8d8]|r: есть кто на |Hquestie:228:Player-4474-0327AD5B|h|cFFC0C0C0[|r|cFFC0C0C0[30] Мор'Ладим|r|cFFC0C0C0]|r|h?",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485437,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						51, -- [4]
+						["n"] = 4,
+					},
+				}, -- [96]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:17:26]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Ерион-Пламегор:748:CHANNEL:4|h|cffff7c0aЕрион|r|h|cffd8d8d8]|r: вот я же спрашиваю",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485437,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+				}, -- [97]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:17:32]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Бикерфул:751:CHANNEL:4|h|cffaad372Бикерфул|r|h|cffd8d8d8]|r: 1 к 1 ve tot)",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485443,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+				}, -- [98]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:17:33]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Бикерфул-Пламегор:754:CHANNEL:4|h|cffaad372Бикерфул|r|h|cffd8d8d8]|r: еще",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485444,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+				}, -- [99]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:17:35]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Почтихуман-Пламегор:755:CHANNEL:4|h|cff3fc6eaПочтихуман|r|h|cffd8d8d8]|r: <<<порталы в любой город",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485446,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						55, -- [4]
+						["n"] = 4,
+					},
+				}, -- [100]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:17:37]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Почтихуман-Пламегор:758:CHANNEL:4|h|cff3fc6eaПочтихуман|r|h|cffd8d8d8]|r: <<<порталы в любой город",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485448,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						55, -- [4]
+						["n"] = 4,
+					},
+				}, -- [101]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:17:37]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Робиспьер:759:CHANNEL:4|h|cff3fc6eaРобиспьер|r|h|cffd8d8d8]|r: Гномские авиалинии. надежный портал из Экзодара в столицы Альянса. Пиво и сухарики и наше радушие.",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485448,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						57, -- [4]
+						["n"] = 4,
+					},
+				}, -- [102]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:17:39]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Виларона-Пламегор:762:CHANNEL:4|h|cff3fc6eaВиларона|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tАФК Кач Зул'Гуруб|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t1 РаН - 30 GOLD|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t11 паков|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t20-25k+ EXP (50-60lvl)|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tОгромный опыт|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tКачественно|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t0/2",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485450,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [103]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:17:39]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Виларона-Пламегор:763:CHANNEL:4|h|cff3fc6eaВиларона|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tАФК Кач Зул'Гуруб|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t1 РаН - 30 GOLD|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t11 паков|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t20-25k+ EXP (50-60lvl)|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tОгромный опыт|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tКачественно|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t0/2",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485450,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [104]
+				{
+					["message"] = "0 |4день:дня:дней;, 0 |4час:часа:часов;, 0 |4минута:минуты:минут;, 33 |4секунда:секунды:секунд;.",
+					["timestamp"] = 5482.848,
+				}, -- [105]
+				{
+					["message"] = "========== Конец истории сообщений ==========",
+					["timestamp"] = 5482.848,
+				}, -- [106]
+				{
+					["message"] = "|cFF33FF99BadBoy|r: You're trying to run the Classic version of BadBoy on a live server.",
+					["timestamp"] = 5482.848,
+				}, -- [107]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:18:12]|h|r Internal TSM error: ...Ons\\TradeSkillMaster\\LibTSM\\Service\\ErrorHandler.lua:526: attempt to call method 'SetBackdrop' (a nil value)",
+					["timestamp"] = 5482.848,
+				}, -- [108]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:18:12]|h|r Fishing Buddy v0.7.3 Beta 5 loaded",
+					["timestamp"] = 5482.848,
+				}, -- [109]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:18:12]|h|r Informant v8.2.6508 загружен",
+					["r"] = 0.25,
+					["serverTime"] = 1621485483,
+					["timestamp"] = 5482.848,
+					["g"] = 0.55,
+					["b"] = 1,
+				}, -- [110]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:18:13]|h|r |cffffaeaeDetails!:|r use '/details me' macro to open the player breakdown for you!    ",
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485484,
+				}, -- [111]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:18:13]|h|r |cffffaeaeDetails!:|r TBC Beta Version: 0013    ",
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485484,
+				}, -- [112]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:18:13]|h|r |cff33ff99TradeSkillMaster|r: TSM не имеет никаких данных цен AuctionDB для вашего игрового мира. Мы рекомендуем вам скачать TSM Приложение |cff99ffffhttp://tradeskillmaster.com|r чтобы автоматически обновлять ваши данные AuctionDB (и автоматически делать резервные копии ваших настроек TSM)",
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485484,
+				}, -- [113]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:18:13]|h|r |cffffd700Титан Панель Classic|r|cff20ff20 1.2.8.11306|r|cffffd700|cffffd700 от |cffff8c00Титан Панель Development Team|r|cff20ff20|r",
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485484,
+				}, -- [114]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:18:13]|h|r |cffffd700<Титан> |r|cff20ff20Регистрация Titan плагинов...|r",
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485484,
+				}, -- [115]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:18:13]|h|r |cffffd700<Титан> |r|cff20ff20Процесс регистрации завершен. 27|r",
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485484,
+				}, -- [116]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:18:13]|h|r |cffff0000TradeSkillMaster:|r Кажется, в TradeSkillMaster произошла ошибка. Пожалуйста, помогите автору проекта её исправить. Следуйте инструкциям ниже.",
+					["timestamp"] = 5482.848,
+					["serverTime"] = 1621485484,
+				}, -- [117]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:18:13]|h|r [Y] |cffd8d8d8[|r|Hplayer:Виларона-Пламегор:790:YELL|h|cff3fc6eaВиларона|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tАФК Кач Зул'Гуруб|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t1 РаН - 30 GOLD|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t11 паков|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t20-25k+ EXP (50-60lvl){ромб}Огромный опыт{ромб}Качественно|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t0/2",
+					["serverTime"] = 1621485484,
+					["r"] = 1,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 5489.613,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [118]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:18:13]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Виларона-Пламегор:792:CHANNEL:1|h|cff3fc6eaВиларона|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tАФК Кач Зул'Гуруб|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t1 РаН - 30 GOLD|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t11 паков|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t20-25k+ EXP (50-60lvl){ромб}Огромный опыт{ромб}Качественно|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t0/2",
+					["serverTime"] = 1621485484,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 5489.613,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [119]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:18:13]|h|r LEATRIX MAPS: УСТАНОВЛЕНА НЕПРАВИЛЬНАЯ ВЕРСИЯ!",
+					["timestamp"] = 5489.613,
+					["serverTime"] = 1621485484,
+				}, -- [120]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:18:13]|h|r |cffff0000TradeSkillMaster:|r Вывод дополнительных ошибок отключен",
+					["timestamp"] = 5489.613,
+					["serverTime"] = 1621485484,
+				}, -- [121]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:18:14]|h|r Общее время игры: 0 |4день:дня:дней;, 1 |4час:часа:часов;, 16 |4минута:минуты:минут;, 17 |4секунда:секунды:секунд;.",
+					["serverTime"] = 1621485485,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 5490.355000000001,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [122]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:18:14]|h|r Время игры на этом уровне: 0 |4день:дня:дней;, 1 |4час:часа:часов;, 16 |4минута:минуты:минут;, 17 |4секунда:секунды:секунд;.",
+					["serverTime"] = 1621485485,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 5490.355000000001,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [123]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:18:16]|h|r Вы отремонтировали свою броню за 1|TInterface\\MoneyFrame\\UI-SilverIcon:0:0:2:0|t 85|TInterface\\MoneyFrame\\UI-CopperIcon:0:0:2:0|t",
+					["serverTime"] = 1621485487,
+					["r"] = 1,
+					["extraData"] = {
+						29, -- [1]
+						false, -- [2]
+						6, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 5492.785,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [124]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:18:21]|h|r |cffff7d0a<|r|cffffd200DBM|r|cffff7d0a>|r ПРЕДУПРЕЖДЕНИЕ: Данная версия DBM предназначена для работы с текущей версией Retail World of Warcraft. Удалите эту версию и установите корректную версию DBM для Classic WoW.",
+					["r"] = 0.41,
+					["serverTime"] = 1621485492,
+					["timestamp"] = 5497.866,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [125]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:18:22]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Железякинс-Пламегор:804:CHANNEL:4|h|cfff48cbaЖелезякинс|r|h|cffd8d8d8]|r: ***АФК кач МК 4г ран (фри лут)***",
+					["serverTime"] = 1621485493,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						7, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 5499.137,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [126]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

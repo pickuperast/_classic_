@@ -16,6 +16,32 @@ BeanCounterDB = {
 			},
 			["failedBidsNeutral"] = {
 			},
+			["completedBidsBuyouts"] = {
+			},
+			["completedAuctions"] = {
+			},
+			["failedAuctionsNeutral"] = {
+			},
+			["completedAuctionsNeutral"] = {
+			},
+			["failedBids"] = {
+			},
+		},
+		["Мадина"] = {
+			["vendorsell"] = {
+			},
+			["postedBids"] = {
+			},
+			["postedAuctions"] = {
+			},
+			["completedBidsBuyoutsNeutral"] = {
+			},
+			["vendorbuy"] = {
+			},
+			["failedAuctions"] = {
+			},
+			["failedBidsNeutral"] = {
+			},
 			["failedBids"] = {
 			},
 			["completedAuctions"] = {
@@ -42,9 +68,19 @@ BeanCounterDBSettings = {
 			["mailbox"] = {
 			},
 		},
+		["Мадина"] = {
+			["tasks.sortArray"] = 1621773944,
+			["version"] = 3.04,
+			["faction"] = "unknown",
+			["tasks.compactDB"] = 1621773944,
+			["wealth"] = 0,
+			["tasks.prunePostedDB"] = 1621773944,
+			["mailbox"] = {
+			},
+		},
 	},
-	["configator.top"] = 558.913024902344,
 	["util.beancounter.ButtonuseDateCheck"] = false,
+	["configator.top"] = 558.913024902344,
 }
 BeanCounterDBNames = {
 }

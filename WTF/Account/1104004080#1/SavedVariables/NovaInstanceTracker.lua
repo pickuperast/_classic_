@@ -1,0 +1,80 @@
+
+NITdatabase = {
+	["profileKeys"] = {
+		["Мадина - Пламегор"] = "Default",
+	},
+	["global"] = {
+		["Пламегор"] = {
+			["trades"] = {
+			},
+			["myChars"] = {
+				["Мадина"] = {
+					["fishingSkill"] = 0,
+					["cookingSkill"] = 0,
+					["profSkill1"] = 0,
+					[17031] = 2,
+					[17032] = 5,
+					["prof2"] = "none",
+					["maxXP"] = 165800,
+					["gender"] = "Neutral",
+					["prof1"] = "none",
+					["restedXP"] = 43678,
+					["totalBagSlots"] = 64,
+					["freeBagSlots"] = 47,
+					[17056] = 5,
+					["guildRankName"] = "No guild rank",
+					["raceEnglish"] = "Gnome",
+					["profSkillMax1"] = 0,
+					["resting"] = true,
+					["time"] = 1621485517,
+					["gold"] = 256091,
+					["realm"] = "Пламегор",
+					["profSkill2"] = 0,
+					["firstaidSkillMax"] = 0,
+					["raceLocalized"] = "Гномка",
+					["fishingSkillMax"] = 0,
+					["firstaidSkill"] = 0,
+					["classEnglish"] = "MAGE",
+					["cookingSkillMax"] = 0,
+					["durabilityAverage"] = 100,
+					["currentXP"] = 6804,
+					["profSkillMax2"] = 0,
+					["race"] = "Гномка",
+					[17020] = 0,
+					["cooldowns"] = {
+					},
+					["level"] = 58,
+					["classLocalized"] = "Маг",
+					["guild"] = "No guild",
+				},
+			},
+			["instances"] = {
+				{
+					["GUID"] = "Creature-0-4479-34-1728-1707-0001A5E7C9",
+					["leftMoney"] = 0,
+					["group"] = {
+					},
+					["class"] = "Маг",
+					["leftTime"] = 1621485742,
+					["enteredXP"] = 3608,
+					["xpFromChat"] = 0,
+					["zoneID"] = 1728,
+					["leftXP"] = 0,
+					["playerName"] = "Мадина",
+					["enteredMoney"] = 242000,
+					["rep"] = {
+					},
+					["enteredTime"] = 1621485511,
+					["instanceID"] = 34,
+					["GUIDSource"] = "mouseover",
+					["leftLevel"] = 58,
+					["rawMoneyCount"] = 1477,
+					["instanceName"] = "Тюрьма Штормграда",
+					["classEnglish"] = "MAGE",
+					["mobCount"] = 0,
+					["enteredLevel"] = 58,
+				}, -- [1]
+			},
+		},
+	},
+}
