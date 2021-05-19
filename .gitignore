@@ -14,3 +14,7 @@ DBGHELP.DLL
 WTF/Config.wtf
 World of Warcraft Classic.app/
 WTF/Config.wtf
+*.dll
+WTF/Config.wtf
+WTF/SavedVariables/Blizzard_Console.lua.bak
+WTF/SavedVariables/Blizzard_Console.lua
