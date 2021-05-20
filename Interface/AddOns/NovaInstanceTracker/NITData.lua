@@ -4,7 +4,11 @@
 
 local L = LibStub("AceLocale-3.0"):GetLocale("NovaInstanceTracker");
 local version = GetAddOnMetadata("NovaInstanceTracker", "Version") or 9999;
-
+--TBC compatibility.
+local IsQuestFlaggedCompleted = IsQuestFlaggedCompleted;
+if (C_QuestLog.IsQuestFlaggedCompleted) then
+	IsQuestFlaggedCompleted = C_QuestLog.IsQuestFlaggedCompleted;
+end
 --Some of this addon comm stuff is copied from my other addon NovaWorldBuffs and is left here incase of future stuff being added.
 function NIT:OnCommReceived(commPrefix, string, distribution, sender)
 	--if (NIT.isDebug) then
@@ -1010,6 +1014,7 @@ function NIT:getInstanceLockoutInfo(char)
 	local count = 0;
 	local instances, lastInstance, lastInstance24 = 0, 0, 0;
 	local target = UnitName("player");
+	local maxCount = NIT.dailyLimit + 50;
 	if (char) then
 		target = char;
 	end
@@ -1019,8 +1024,8 @@ function NIT:getInstanceLockoutInfo(char)
 				--NIT:debug("skipping raid", v.instanceID);
 			else
 				count = count + 1;
-				--if (count > (NIT.dailyLimit + 10)) then
-				if (count > 80) then
+				if (count > maxCount) then
+				--if (count > 80) then
 					break;
 				end
 				--Check leftTime first, then fallback to enteredTime if there's no time recorded for leaving instance.
@@ -1191,13 +1196,86 @@ function NIT:recordCharacterData()
 	if (IsQuestFlaggedCompleted(9121) or IsQuestFlaggedCompleted(9122) or IsQuestFlaggedCompleted(9123)) then
 		NIT.data.myChars[char].naxxAttune = true;
 	end
+	if (IsQuestFlaggedCompleted(9838)) then
+		NIT.data.myChars[char].karaAttune = true;
+	end
+	if (IsQuestFlaggedCompleted(10764) or IsQuestFlaggedCompleted(10758)) then
+		NIT.data.myChars[char].shatteredHallsAttune = true;
+	end
+	if (IsQuestFlaggedCompleted(10901)) then
+		NIT.data.myChars[char].serpentshrineAttune = true;
+	end
+	--if (IsQuestFlaggedCompleted(10704)) then
+	--	NIT.data.myChars[char].arcatrazAttune = true;
+	--end
+	--if (IsQuestFlaggedCompleted(10285)) then
+	--	NIT.data.myChars[char].cavernsAttune = true;
+	--end
+	if (IsQuestFlaggedCompleted(10297) and IsQuestFlaggedCompleted(10298)) then
+		NIT.data.myChars[char].blackMorassAttune = true;
+	end
+	if (IsQuestFlaggedCompleted(10445)) then
+		NIT.data.myChars[char].hyjalAttune = true;
+	end
+	--if (IsQuestFlaggedCompleted(10888)) then
+	--	NIT.data.myChars[char].tempestKeepAttune = true;
+	--end
+	if (IsQuestFlaggedCompleted(10959)) then
+		NIT.data.myChars[char].blackTempleAttune = true;
+	end
 	if (classEnglish and classEnglish == "HUNTER") then
 		NIT:recordHunterData();
 	end
+	NIT:recordAttunementKeys();
 	NIT:recordInventoryData();
 	NIT:recordLockoutData();
 	NIT:recordPvpData();
 	NIT:recordCooldowns();
+end
+
+function NIT:recordAttunementKeys()
+	local char = UnitName("player");
+	if (not NIT.data.myChars[char]) then
+		NIT.data.myChars[char] = {};
+	end
+	--Check the keyring for attunement keys.
+	for slot = 1, 32 do
+		local slotID = KeyRingButtonIDToInvSlotID(slot);
+		if (slotID) then
+			local item = Item:CreateFromEquipmentSlot(slotID);
+			if (item) then
+				local itemID = item:GetItemID(item);
+				local itemName = item:GetItemName(item);
+				if (itemID == 185686 or itemID == 185687 or itemID == 30637 or itemID == 30622) then
+					NIT.data.myChars[char].hellfireCitadelAttune = true;
+				end
+				if (itemID == 30623 or itemID == 185690) then
+					NIT.data.myChars[char].coilfangAttune = true;
+				end
+				if (itemID == 30633 or itemID == 185691) then
+					NIT.data.myChars[char].auchindounAttune = true;
+				end
+				if (itemID == 27991) then
+					NIT.data.myChars[char].shadowLabAttune = true;
+				end
+				if (itemID == 30634 or itemID == 185692) then
+					NIT.data.myChars[char].tempestKeepAttune = true;
+				end
+				if (itemID == 30635 or itemID == 185693) then
+					NIT.data.myChars[char].cavernsAttune = true;
+				end
+				if (itemID == 31084) then
+					NIT.data.myChars[char].arcatrazAttune = true;
+				end
+				if (itemID == 7146) then
+					NIT.data.myChars[char].testAttune = true;
+				end
+				--if (itemName and string.find(itemName, "Key")) then
+				--	print(itemName, itemID)
+				--end
+			end
+		end
+	end
 end
 
 function NIT:recordPvpData()

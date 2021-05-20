@@ -19,14 +19,14 @@ GuidelimeDataChar = {
 	["mainFrameAlpha"] = 0.5,
 	["version"] = "2.005",
 	["arrowX"] = 0,
-	["mainFrameY"] = -4.712953567504883,
+	["mainFrameFontSize"] = 14,
 	["mainFrameShowing"] = false,
 	["guideSize"] = {
 	},
 	["editorFrameRelative"] = "CENTER",
 	["showArrow"] = true,
 	["mainFrameShowScrollBar"] = true,
-	["mainFrameFontSize"] = 14,
+	["mainFrameY"] = -4.712953567504883,
 	["mainFrameRelative"] = "RIGHT",
 	["editorFrameX"] = 0,
 }

@@ -1,2 +1,7 @@
 BagBrother: disabled
-TradeSkillMaster: disabled
+TradeSkillMaster: enabled
+BigWigs_ZulGurub: enabled
+BigWigs_Options: enabled
+BigWigs_Plugins: enabled
+BigWigs_Core: enabled
+ATT-Classic: disabled

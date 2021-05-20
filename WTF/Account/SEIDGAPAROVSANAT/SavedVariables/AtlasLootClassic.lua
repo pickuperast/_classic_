@@ -41,6 +41,9 @@ AtlasLootClassicDB = {
 			},
 		},
 		["Каспиголд - Пламегор"] = {
+			["minimap"] = {
+				["minimapPos"] = 201.500957535716,
+			},
 			["GUI"] = {
 				["selected"] = {
 					"AtlasLootClassic_Crafting", -- [1]
@@ -49,9 +52,6 @@ AtlasLootClassicDB = {
 					1, -- [4]
 					0, -- [5]
 				},
-			},
-			["minimap"] = {
-				["minimapPos"] = 201.500957535716,
 			},
 		},
 		["Енг - Змейталак"] = {
@@ -113,10 +113,15 @@ AtlasLootClassicDB = {
 			},
 		},
 		["Оод - Пламегор"] = {
-			["minimap"] = {
-				["minimapPos"] = 197.096204445109,
-			},
 			["GUI"] = {
+				["selectedGameVersion"] = 1,
+				["selected"] = {
+					"AtlasLootClassic_Crafting", -- [1]
+					"Alchemy", -- [2]
+					3, -- [3]
+					1, -- [4]
+					0, -- [5]
+				},
 				["point"] = {
 					"LEFT", -- [1]
 					nil, -- [2]
@@ -124,13 +129,9 @@ AtlasLootClassicDB = {
 					105.896415710449, -- [4]
 					56.5037460327149, -- [5]
 				},
-				["selected"] = {
-					nil, -- [1]
-					"Zul'Farrak", -- [2]
-					13, -- [3]
-					1, -- [4]
-					0, -- [5]
-				},
+			},
+			["minimap"] = {
+				["minimapPos"] = 197.096204445109,
 			},
 		},
 		["Хунтая - Рок-Делар"] = {
@@ -141,7 +142,7 @@ AtlasLootClassicDB = {
 					nil, -- [1]
 					nil, -- [2]
 					"CENTER", -- [3]
-					5.433135811472310e-05, -- [4]
+					5.43313581147231e-05, -- [4]
 					0, -- [5]
 				},
 				["selected"] = {

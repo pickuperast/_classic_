@@ -1,0 +1,23 @@
+
+smb_g = {
+	["bool"] = {
+		["tank"] = false,
+		["NeedAll"] = true,
+		["dps"] = false,
+		["ShowNumbers"] = false,
+		["heal"] = false,
+	},
+	["text"] = {
+		["tank"] = "",
+		["suff"] = "",
+		["raid"] = "",
+		["dps"] = "",
+		["rule"] = "",
+		["heal"] = "",
+	},
+	["num"] = {
+		["tank"] = 2,
+		["dps"] = 18,
+		["heal"] = 5,
+	},
+}

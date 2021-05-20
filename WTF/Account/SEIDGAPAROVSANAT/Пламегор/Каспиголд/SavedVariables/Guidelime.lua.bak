@@ -4,6 +4,8 @@ GuidelimeDataChar = {
 	["showUnavailableSteps"] = true,
 	["guideSkip"] = {
 	},
+	["completedSteps"] = {
+	},
 	["arrowY"] = -20,
 	["arrowRelative"] = "TOP",
 	["mainFrameX"] = 0,
@@ -12,19 +14,19 @@ GuidelimeDataChar = {
 	["arrowLocked"] = false,
 	["editorFrameY"] = 0,
 	["showCompletedSteps"] = false,
-	["arrowAlpha"] = 0.8,
 	["arrowSize"] = 64,
+	["editorFrameX"] = 0,
 	["mainFrameAlpha"] = 0.5,
-	["guideSize"] = {
-	},
+	["editorFrameRelative"] = "CENTER",
 	["arrowX"] = 0,
 	["mainFrameY"] = 0,
 	["mainFrameShowing"] = false,
+	["guideSize"] = {
+	},
 	["version"] = "1.040",
-	["editorFrameRelative"] = "CENTER",
 	["showArrow"] = true,
 	["mainFrameShowScrollBar"] = true,
 	["mainFrameFontSize"] = 14,
 	["mainFrameRelative"] = "RIGHT",
-	["editorFrameX"] = 0,
+	["arrowAlpha"] = 0.8,
 }
