@@ -12,3 +12,6 @@ Prat-3.0: enabled
 Prat-3.0_Libraries: enabled
 AutomaticGoblinTherapist: disabled
 TitanClassic: disabled
+BigWigs_Core: enabled
+BigWigs_Options: enabled
+BigWigs_Plugins: enabled

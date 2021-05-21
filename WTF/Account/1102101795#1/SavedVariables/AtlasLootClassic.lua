@@ -1,12 +1,15 @@
 
 AtlasLootClassicDB = {
-	["global"] = {
-		["__addonrevision"] = 1050001,
-	},
 	["profileKeys"] = {
+		["Lucisatush - Lucifron"] = "Lucisatush - Lucifron",
 		["Lucibalykk - Lucifron"] = "Lucibalykk - Lucifron",
 	},
+	["global"] = {
+		["__addonrevision"] = 2010000,
+	},
 	["profiles"] = {
+		["Lucisatush - Lucifron"] = {
+		},
 		["Lucibalykk - Lucifron"] = {
 		},
 	},

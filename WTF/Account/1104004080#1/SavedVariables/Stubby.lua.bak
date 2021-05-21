@@ -4,6 +4,8 @@ StubbyConfig = {
 	},
 	["inspected"] = {
 	},
+	["boots"] = {
+	},
 	["configs"] = {
 		["enchantrix"] = {
 			["loadtype"] = "always",
@@ -11,7 +13,5 @@ StubbyConfig = {
 		["informant"] = {
 			["loadtype"] = "always",
 		},
-	},
-	["boots"] = {
 	},
 }

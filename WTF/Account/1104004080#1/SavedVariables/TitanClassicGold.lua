@@ -3,7 +3,7 @@ GoldSave = {
 	["Мадина_Пламегор::Alliance"] = {
 		["show"] = true,
 		["name"] = "Мадина",
-		["gold"] = 397583,
+		["gold"] = 395135,
 	},
 	["Еве_Пламегор::Alliance"] = {
 		["show"] = true,

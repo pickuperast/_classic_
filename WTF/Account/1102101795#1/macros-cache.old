@@ -1,18 +1,20 @@
+VER 3 000000000000000B "1" "INV_MISC_QUESTIONMARK"
+END
 VER 3 0000000000000001 "3" "INV_MISC_QUESTIONMARK"
 /stopcasting
 /use Bright Baubles
 /use Strong Fishing Pole
 END
 VER 3 0000000000000002 "4" "INV_MISC_QUESTIONMARK"
-/use Großmaulmuschel
-/use Schwere Kiste
-/use Zerbeulte Kiste
-/use Flaschenpost
+/use Raw Slitherskin Mackerel
+/use Dented Crate
+/use Message in a Bottle
+/use Small Chest
 /use Versiegelte Kiste
 /use Kleine verschlossene Truhe
 /use Big-mouth Clam
 /use Heavy Crate
-/use Послание в бутылке
+/use Raw Rainbow Fin Albacore
 /use Моллюск-болтун
 /use Тяжелый ящик
 END
@@ -31,7 +33,13 @@ END
 VER 3 0000000000000007 "AUK_6" "INV_MISC_QUESTIONMARK"
 /target Auctioneer Stampi
 END
+VER 3 000000000000000A "DELETE" "INV_MISC_QUESTIONMARK"
+/run for bag = 0, 4 do for slot = 1, GetContainerNumSlots(bag) do local name = GetContainerItemLink(bag,slot) if name and string.find(name,"Raw Slitherskin Mackerel") then PickupContainerItem(bag,slot) DeleteCursorItem() end end end
+END
 VER 3 0000000000000008 "log" "135768"
 /lie
 /logout
+END
+VER 3 0000000000000009 "TSMMacro" "INV_Misc_Flower_01"
+/click TSMAuctioningBtn
 END

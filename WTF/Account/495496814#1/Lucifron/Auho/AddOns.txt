@@ -26,3 +26,6 @@ Stubby: disabled
 SlideBar: disabled
 Leatrix_Plus: disabled
 TitanClassic: disabled
+BigWigs_Core: enabled
+BigWigs_Options: enabled
+BigWigs_Plugins: enabled

@@ -9,7 +9,7 @@ AtlasLootClassicDB = {
 	["profiles"] = {
 		["Пламбалыкши - Пламегор"] = {
 			["minimap"] = {
-				["minimapPos"] = 199.146225261181,
+				["minimapPos"] = 135.8609472777677,
 			},
 		},
 	},

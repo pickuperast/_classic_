@@ -13,3 +13,6 @@ Stubby: disabled
 Prat-3.0_Libraries: enabled
 Prat-3.0: enabled
 TitanClassic: disabled
+BigWigs_Core: enabled
+BigWigs_Options: enabled
+BigWigs_Plugins: enabled

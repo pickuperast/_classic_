@@ -1,8 +1,1 @@
 Version: 1
-Frame: HealBot_Options
-FrameLevel: 1
-Anchor: BOTTOMRIGHT
-X: 10
-Y: 131
-W: 860
-H: 750

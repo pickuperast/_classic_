@@ -29,3 +29,6 @@ StoryTeller: disabled
 Stubby: disabled
 !Swatter: disabled
 TitanClassic: disabled
+BigWigs_Core: enabled
+BigWigs_Options: enabled
+BigWigs_Plugins: enabled

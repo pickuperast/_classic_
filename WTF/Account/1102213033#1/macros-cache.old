@@ -16,18 +16,17 @@ VER 3 0000000000000001 "3" "132112"
 /use Strong Fishing Pole
 END
 VER 3 0000000000000002 "4" "INV_MISC_QUESTIONMARK"
-/use Großmaulmuschel
-/use Schwere Kiste
-/use Zerbeulte Kiste
-/use Flaschenpost
+/use Raw Slitherskin Mackerel
+/use Dented Crate
+/use Message in a Bottle
+/use Small Chest
 /use Versiegelte Kiste
 /use Kleine verschlossene Truhe
 /use Big-mouth Clam
 /use Heavy Crate
-/use Послание в бутылке
+/use Raw Rainbow Fin Albacore
 /use Моллюск-болтун
 /use Тяжелый ящик
-/use Sealed Crate
 END
 VER 3 0000000000000004 "AUK_1" "INV_MISC_QUESTIONMARK"
 /click TSMStartPostScanBtn

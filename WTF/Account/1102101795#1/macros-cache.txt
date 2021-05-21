@@ -31,6 +31,9 @@ END
 VER 3 0000000000000007 "AUK_6" "INV_MISC_QUESTIONMARK"
 /target Auctioneer Stampi
 END
+VER 3 000000000000000A "DELETE" "INV_MISC_QUESTIONMARK"
+/run for bag = 0, 4 do for slot = 1, GetContainerNumSlots(bag) do local name = GetContainerItemLink(bag,slot) if name and string.find(name,"Raw Slitherskin Mackerel") then PickupContainerItem(bag,slot) DeleteCursorItem() end end end
+END
 VER 3 0000000000000008 "log" "135768"
 /lie
 /logout
