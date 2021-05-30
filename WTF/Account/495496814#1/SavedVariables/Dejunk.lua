@@ -8,6 +8,9 @@ __DEJUNK_SAVED_VARIABLES__ = {
 		["version"] = 1,
 	},
 	["Profiles"] = {
+		["Lucibaub-Lucifron"] = {
+			["version"] = 3,
+		},
 		["Auho-Lucifron"] = {
 			["version"] = 3,
 		},
@@ -34,6 +37,9 @@ __DEJUNK_SAVED_VARIABLES__ = {
 					["6354"] = true,
 				},
 			},
+			["version"] = 3,
+		},
+		["Senderttio-Patchwerk"] = {
 			["version"] = 3,
 		},
 	},

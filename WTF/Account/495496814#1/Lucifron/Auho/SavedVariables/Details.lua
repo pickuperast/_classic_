@@ -108,7 +108,7 @@ _detalhes_database = {
 			["author"] = "Details! Team",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["y"] = -3.0517578125e-05,
+			["font_size"] = 10,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -123,6 +123,10 @@ _detalhes_database = {
 				0.4, -- [4]
 			},
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["use_spark"] = true,
+			["y"] = -3.0517578125e-05,
+			["x"] = 3.0517578125e-05,
+			["font_face"] = "Friz Quadrata TT",
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -134,17 +138,13 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
-			["font_size"] = 10,
-			["x"] = 3.0517578125e-05,
-			["font_face"] = "Friz Quadrata TT",
-			["use_spark"] = true,
 			["main_frame_strata"] = "LOW",
 			["point"] = "CENTER",
 			["row_height"] = 20,
 			["scale"] = 1,
 		},
 	},
-	["last_day"] = "20",
+	["last_day"] = "29",
 	["cached_talents"] = {
 	},
 	["announce_prepots"] = {
@@ -157,7 +157,7 @@ _detalhes_database = {
 		},
 	},
 	["character_data"] = {
-		["logons"] = 278,
+		["logons"] = 290,
 	},
 	["combat_id"] = 0,
 	["savedStyles"] = {
@@ -238,6 +238,8 @@ _detalhes_database = {
 		},
 		["alternate_power"] = {
 		},
+		["spells_cast_timeline"] = {
+		},
 		["combat_counter"] = 566,
 		["totals"] = {
 			0, -- [1]
@@ -252,10 +254,10 @@ _detalhes_database = {
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["debuff_uptime"] = 0,
 				["cooldowns_defensive"] = 0,
-				["interrupt"] = 0,
 				["dispell"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
 				["cc_break"] = 0,
 				["dead"] = 0,
 			}, -- [4]
@@ -271,8 +273,6 @@ _detalhes_database = {
 		},
 		["data_inicio"] = 0,
 		["end_time"] = 5721.369,
-		["spells_cast_timeline"] = {
-		},
 		["totals_grupo"] = {
 			0, -- [1]
 			0, -- [2]
@@ -286,23 +286,25 @@ _detalhes_database = {
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["debuff_uptime"] = 0,
 				["cooldowns_defensive"] = 0,
-				["interrupt"] = 0,
 				["dispell"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
 				["cc_break"] = 0,
 				["dead"] = 0,
 			}, -- [4]
 		},
+		["overall_refreshed"] = true,
+		["hasSaved"] = true,
 		["frags"] = {
 		},
 		["data_fim"] = 0,
-		["cleu_events"] = {
-			["n"] = 1,
+		["cleu_timeline"] = {
 		},
 		["CombatSkillCache"] = {
 		},
-		["cleu_timeline"] = {
+		["cleu_events"] = {
+			["n"] = 1,
 		},
 		["start_time"] = 5721.369,
 		["TimeData"] = {
@@ -312,17 +314,17 @@ _detalhes_database = {
 				1, -- [1]
 				1, -- [2]
 			}, -- [1]
+			["damage_section"] = {
+			},
 			["heal_section"] = {
 			},
 			["heal"] = {
-			},
-			["damage_section"] = {
 			},
 			["damage"] = {
 			},
 		},
 	},
-	["combat_counter"] = 568,
+	["combat_counter"] = 592,
 	["announce_firsthit"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",

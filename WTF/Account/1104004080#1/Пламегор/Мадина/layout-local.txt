@@ -1,7 +1,7 @@
 Version: 1
 Frame: AtlasLoot_GUI-Frame
 FrameLevel: 1
-Anchor: CENTER
+Anchor: BOTTOMRIGHT
 X: 0
 Y: 0
 W: 920

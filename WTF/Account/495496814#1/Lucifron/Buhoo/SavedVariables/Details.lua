@@ -108,7 +108,7 @@ _detalhes_database = {
 			["point"] = "CENTER",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["author"] = "Details! Team",
+			["main_frame_strata"] = "LOW",
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -116,18 +116,12 @@ _detalhes_database = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["author"] = "Details! Team",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["font_size"] = 10,
 			["use_spark"] = true,
-			["y"] = -3.0517578125e-05,
 			["x"] = 3.0517578125e-05,
 			["font_face"] = "Friz Quadrata TT",
-			["font_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -139,18 +133,24 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
 			},
-			["main_frame_strata"] = "LOW",
+			["y"] = -3.0517578125e-05,
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["main_frame_locked"] = false,
 			["arrow_anchor_y"] = 0,
 		},
-	},
-	["last_day"] = "20",
-	["cached_talents"] = {
 	},
 	["announce_prepots"] = {
 		["enabled"] = false,
 		["channel"] = "SELF",
 		["reverse"] = false,
+	},
+	["last_day"] = "29",
+	["cached_talents"] = {
 	},
 	["benchmark_db"] = {
 		["frame"] = {
@@ -164,7 +164,7 @@ _detalhes_database = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["combat_counter"] = 433,
+	["combat_counter"] = 573,
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -328,7 +328,7 @@ _detalhes_database = {
 		}, -- [1]
 	},
 	["character_data"] = {
-		["logons"] = 311,
+		["logons"] = 381,
 	},
 	["announce_cooldowns"] = {
 		["enabled"] = false,

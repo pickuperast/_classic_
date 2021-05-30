@@ -1,0 +1,18 @@
+
+GoldSave = {
+	["Luciaksha_Lucifron::Horde"] = {
+		["show"] = true,
+		["name"] = "Luciaksha",
+		["gold"] = 13899730,
+	},
+	["Venoxaksha_Venoxis::Horde"] = {
+		["show"] = true,
+		["name"] = "Venoxaksha",
+		["gold"] = 99910,
+	},
+	["Patchaksha_Patchwerk::Horde"] = {
+		["show"] = true,
+		["name"] = "Patchaksha",
+		["gold"] = 99820,
+	},
+}

@@ -399,10 +399,10 @@ _detalhes_global = {
 					0, -- [1]
 					0, -- [2]
 				},
-				["maximize_method"] = 1,
 				["fontshadow"] = false,
-				["border_size"] = 14,
 				["menus_bg_texture"] = "Interface\\SPELLBOOK\\Spellbook-Page-1",
+				["border_size"] = 14,
+				["maximize_method"] = 1,
 				["anchor_screen_pos"] = {
 					507.7, -- [1]
 					-350.5, -- [2]
@@ -675,9 +675,6 @@ _detalhes_global = {
 					},
 					["switch_healer"] = false,
 					["StatusBarSaved"] = {
-						["left"] = "DETAILS_STATUSBAR_PLUGIN_PSEGMENT",
-						["right"] = "DETAILS_STATUSBAR_PLUGIN_PDPS",
-						["center"] = "DETAILS_STATUSBAR_PLUGIN_CLOCK",
 						["options"] = {
 							["DETAILS_STATUSBAR_PLUGIN_PDPS"] = {
 								["textColor"] = {
@@ -715,15 +712,18 @@ _detalhes_global = {
 									1, -- [3]
 									1, -- [4]
 								},
-								["textAlign"] = 0,
-								["textFace"] = "Accidental Presidency",
 								["timeType"] = 1,
-								["textXMod"] = 6,
+								["textFace"] = "Accidental Presidency",
 								["textStyle"] = 2,
+								["textXMod"] = 6,
+								["textAlign"] = 0,
 								["textSize"] = 10,
 								["textYMod"] = 1,
 							},
 						},
+						["right"] = "DETAILS_STATUSBAR_PLUGIN_PDPS",
+						["left"] = "DETAILS_STATUSBAR_PLUGIN_PSEGMENT",
+						["center"] = "DETAILS_STATUSBAR_PLUGIN_CLOCK",
 					},
 					["switch_tank_in_combat"] = false,
 					["bg_alpha"] = 0.183960914611816,
@@ -864,10 +864,10 @@ _detalhes_global = {
 						},
 						["textR_outline_small"] = true,
 						["texture_background_file"] = "Interface\\AddOns\\Details\\images\\bar4_reverse",
-						["texture_background"] = "Details D'ictum (reverse)",
-						["alpha"] = 1,
 						["textR_class_colors"] = false,
+						["alpha"] = 1,
 						["textL_class_colors"] = false,
+						["texture_background"] = "Details D'ictum (reverse)",
 						["textR_outline_small_color"] = {
 							0, -- [1]
 							0, -- [2]
@@ -941,17 +941,20 @@ _detalhes_global = {
 			["report_schema"] = 1,
 			["overall_clear_newboss"] = true,
 			["overall_clear_logout"] = false,
-			["new_window_size"] = {
-				["height"] = 158,
-				["width"] = 310,
+			["window_clamp"] = {
+				-8, -- [1]
+				0, -- [2]
+				21, -- [3]
+				-14, -- [4]
 			},
 			["minimum_combat_time"] = 5,
 			["memory_threshold"] = 3,
 			["cloud_capture"] = true,
 			["damage_taken_everything"] = false,
 			["scroll_speed"] = 2,
-			["font_sizes"] = {
-				["menus"] = 10,
+			["new_window_size"] = {
+				["height"] = 158,
+				["width"] = 310,
 			},
 			["chat_tab_embed"] = {
 				["enabled"] = false,
@@ -1316,11 +1319,8 @@ _detalhes_global = {
 				"out", -- [1]
 				0.2, -- [2]
 			},
-			["window_clamp"] = {
-				-8, -- [1]
-				0, -- [2]
-				21, -- [3]
-				-14, -- [4]
+			["font_sizes"] = {
+				["menus"] = 10,
 			},
 			["player_details_window"] = {
 				["scale"] = 1,
@@ -2378,10 +2378,6 @@ _detalhes_global = {
 			["force_class_icons"] = false,
 			["disable_alldisplays_window"] = false,
 			["numerical_system_symbols"] = "auto",
-			["total_abbreviation"] = 2,
-			["trash_auto_remove"] = true,
-			["broadcaster_enabled"] = false,
-			["clear_graphic"] = true,
 			["class_colors"] = {
 				["HUNTER"] = {
 					0.67, -- [1]
@@ -2398,10 +2394,10 @@ _detalhes_global = {
 					0.55, -- [2]
 					0.73, -- [3]
 				},
-				["Neutral"] = {
+				["Rogue"] = {
 					1, -- [1]
-					1, -- [2]
-					0, -- [3]
+					0.96, -- [2]
+					0.41, -- [3]
 				},
 				["Unknow"] = {
 					0.2, -- [1]
@@ -2500,10 +2496,10 @@ _detalhes_global = {
 					1, -- [2]
 					0.4, -- [3]
 				},
-				["MAGE"] = {
-					0.41, -- [1]
-					0.8, -- [2]
-					0.94, -- [3]
+				["Neutral"] = {
+					1, -- [1]
+					1, -- [2]
+					0, -- [3]
 				},
 				["Deathknight"] = {
 					0.77, -- [1]
@@ -2545,10 +2541,10 @@ _detalhes_global = {
 					1, -- [2]
 					1, -- [3]
 				},
-				["Rogue"] = {
-					1, -- [1]
-					0.96, -- [2]
-					0.41, -- [3]
+				["MAGE"] = {
+					0.41, -- [1]
+					0.8, -- [2]
+					0.94, -- [3]
 				},
 				["Druid"] = {
 					1, -- [1]
@@ -2578,6 +2574,12 @@ _detalhes_global = {
 				},
 				["version"] = 1,
 			},
+			["hotcorner_topleft"] = {
+				["hide"] = false,
+			},
+			["broadcaster_enabled"] = false,
+			["clear_graphic"] = true,
+			["total_abbreviation"] = 2,
 			["segments_auto_erase"] = 1,
 			["options_group_edit"] = true,
 			["segments_amount_to_save"] = 18,
@@ -2598,9 +2600,7 @@ _detalhes_global = {
 			["only_pvp_frags"] = false,
 			["disable_stretch_button"] = false,
 			["animation_speed_triggertravel"] = 5,
-			["hotcorner_topleft"] = {
-				["hide"] = false,
-			},
+			["trash_auto_remove"] = true,
 			["deny_score_messages"] = false,
 			["segments_panic_mode"] = false,
 			["standard_skin"] = false,
@@ -2648,15 +2648,10 @@ _detalhes_global = {
 		["point"] = "RIGHT",
 		["scale"] = 1,
 	},
-	["spellid_ignored"] = {
-	},
+	["realm_sync"] = true,
 	["plater"] = {
 		["realtime_dps_enabled"] = false,
-		["damage_taken_anchor"] = {
-			["y"] = 0,
-			["x"] = 0,
-			["side"] = 7,
-		},
+		["damage_taken_shadow"] = true,
 		["realtime_dps_player_shadow"] = true,
 		["damage_taken_enabled"] = false,
 		["realtime_dps_player_size"] = 12,
@@ -2672,8 +2667,12 @@ _detalhes_global = {
 			["x"] = 0,
 			["side"] = 7,
 		},
+		["damage_taken_anchor"] = {
+			["y"] = 0,
+			["x"] = 0,
+			["side"] = 7,
+		},
 		["realtime_dps_size"] = 12,
-		["damage_taken_shadow"] = true,
 		["damage_taken_color"] = {
 			1, -- [1]
 			1, -- [2]
@@ -2696,7 +2695,7 @@ _detalhes_global = {
 	},
 	["global_plugin_database"] = {
 	},
-	["realm_sync"] = true,
+	["show_totalhitdamage_on_overkill"] = false,
 	["createauraframe"] = {
 	},
 	["run_code"] = {
@@ -2719,7 +2718,8 @@ _detalhes_global = {
 		["11"] = false,
 		["10"] = false,
 	},
-	["show_totalhitdamage_on_overkill"] = false,
+	["spellid_ignored"] = {
+	},
 	["mobs_data_compiled"] = {
 	},
 	["item_level_pool"] = {
@@ -2791,8 +2791,8 @@ _detalhes_global = {
 	},
 	["tutorial"] = {
 		["unlock_button"] = 0,
-		["main_help_button"] = 680,
-		["logons"] = 680,
+		["main_help_button"] = 708,
+		["logons"] = 708,
 		["version_announce"] = 0,
 		["bookmark_tutorial"] = false,
 		["ctrl_click_close_tutorial"] = false,

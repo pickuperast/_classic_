@@ -1,11 +1,11 @@
 
 AtlasLootClassicDB = {
+	["global"] = {
+		["__addonrevision"] = 2010000,
+	},
 	["profileKeys"] = {
 		["Еве - Пламегор"] = "Еве - Пламегор",
 		["Мадина - Пламегор"] = "Мадина - Пламегор",
-	},
-	["global"] = {
-		["__addonrevision"] = 2010000,
 	},
 	["profiles"] = {
 		["Еве - Пламегор"] = {
@@ -16,17 +16,17 @@ AtlasLootClassicDB = {
 			},
 			["GUI"] = {
 				["point"] = {
-					nil, -- [1]
+					"BOTTOMRIGHT", -- [1]
 					nil, -- [2]
-					"CENTER", -- [3]
+					"BOTTOMRIGHT", -- [3]
 					0, -- [4]
 					0, -- [5]
 				},
 				["selectedGameVersion"] = 1,
 				["selected"] = {
 					"AtlasLootClassic_Crafting", -- [1]
-					"Enchanting", -- [2]
-					6, -- [3]
+					"Alchemy", -- [2]
+					3, -- [3]
 					1, -- [4]
 					0, -- [5]
 				},

@@ -27,11 +27,11 @@ VER 3 0000000001000004 "def" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0000000001000008 "food" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [mod:alt] or [button:2] сотворение пищи; сотворение воды
+/cast [mod:alt] or [button:2] сотворение пищи; Сотворение воды(6-й уровень)
 END
 VER 3 0000000001000009 "mana" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [mod:alt] or [button:2] сотворение рубина маны; сотворение цитрина маны
+/cast [mod:alt] or [button:2] сотворение цитрина маны; сотворение рубина маны
 END
 VER 3 0000000001000007 "weak" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -44,6 +44,6 @@ VER 3 000000000100000A "аа" "INV_MISC_QUESTIONMARK"
 END
 VER 3 000000000100000C "в" "132144"
 /cancelaura Эликсир Ноггенфоггера
-/use Эликсир Ноггенфоггера
+/cast Замедленное падение
 /use Зеленый механодолгоног
 END

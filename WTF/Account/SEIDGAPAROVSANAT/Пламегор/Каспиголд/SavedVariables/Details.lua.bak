@@ -113,7 +113,7 @@ _detalhes_database = {
 			},
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["y"] = -1.52587890625e-05,
+			["font_size"] = 10,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -123,6 +123,10 @@ _detalhes_database = {
 			},
 			["main_frame_strata"] = "LOW",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["use_spark"] = true,
+			["y"] = -1.52587890625e-05,
+			["x"] = 3.0517578125e-05,
+			["font_face"] = "Friz Quadrata TT",
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -134,10 +138,6 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
-			["font_size"] = 10,
-			["x"] = 3.0517578125e-05,
-			["font_face"] = "Friz Quadrata TT",
-			["use_spark"] = true,
 			["author"] = "Details! Team",
 			["point"] = "CENTER",
 			["row_height"] = 20,
@@ -151,13 +151,13 @@ _detalhes_database = {
 		["channel"] = "SELF",
 		["reverse"] = false,
 	},
-	["last_day"] = "21",
+	["last_day"] = "26",
 	["benchmark_db"] = {
 		["frame"] = {
 		},
 	},
 	["character_data"] = {
-		["logons"] = 22,
+		["logons"] = 34,
 	},
 	["combat_id"] = 0,
 	["savedStyles"] = {
@@ -182,10 +182,10 @@ _detalhes_database = {
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
-					["y"] = -84.36209106445312,
-					["x"] = -390.8610534667969,
-					["w"] = 310.0003356933594,
-					["h"] = 158.0000152587891,
+					["y"] = 33.62054443359375,
+					["x"] = -290.2171936035156,
+					["w"] = 310.0003662109375,
+					["h"] = 157.9999847412109,
 				},
 				["solo"] = {
 					["y"] = 2,
@@ -324,7 +324,7 @@ _detalhes_database = {
 			},
 		},
 	},
-	["combat_counter"] = 46,
+	["combat_counter"] = 70,
 	["announce_firsthit"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",

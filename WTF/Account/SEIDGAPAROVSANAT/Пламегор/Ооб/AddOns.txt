@@ -2,3 +2,6 @@ AutomaticGoblinTherapist: disabled
 StoryTeller: disabled
 Details: enabled
 Guidelime: enabled
+BigWigs_Options: enabled
+BigWigs_Plugins: enabled
+BigWigs_Core: enabled

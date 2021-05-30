@@ -1,5 +1,10 @@
 
 GoldSave = {
+	["Senderttio_Patchwerk::Horde"] = {
+		["show"] = true,
+		["name"] = "Senderttio",
+		["gold"] = 0,
+	},
 	["Buhoo_Lucifron::Horde"] = {
 		["show"] = true,
 		["name"] = "Buhoo",

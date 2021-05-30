@@ -13,9 +13,9 @@ DiminishDB = {
 					["iconPadding"] = 7,
 					["watchFriendly"] = false,
 					["disabledCategories"] = {
-						["Дезориентирующий выстрел"] = true,
 						["Лик смерти"] = true,
 						["Замораживающая ловушка"] = true,
+						["Дезориентирующий выстрел"] = true,
 						["Random roots"] = true,
 					},
 					["growDirection"] = "RIGHT",
@@ -47,9 +47,9 @@ DiminishDB = {
 					["iconPadding"] = 7,
 					["watchFriendly"] = true,
 					["disabledCategories"] = {
-						["Дезориентирующий выстрел"] = true,
 						["Лик смерти"] = true,
 						["Замораживающая ловушка"] = true,
+						["Дезориентирующий выстрел"] = true,
 						["Random roots"] = true,
 					},
 					["timerTextSize"] = 12,
@@ -66,9 +66,9 @@ DiminishDB = {
 					["iconPadding"] = 7,
 					["watchFriendly"] = false,
 					["disabledCategories"] = {
-						["Дезориентирующий выстрел"] = true,
 						["Замораживающая ловушка"] = true,
 						["Лик смерти"] = true,
+						["Дезориентирующий выстрел"] = true,
 						["Random roots"] = true,
 					},
 					["zones"] = {
@@ -92,9 +92,9 @@ DiminishDB = {
 					["iconPadding"] = 7,
 					["watchFriendly"] = false,
 					["disabledCategories"] = {
-						["Дезориентирующий выстрел"] = true,
 						["Замораживающая ловушка"] = true,
 						["Лик смерти"] = true,
+						["Дезориентирующий выстрел"] = true,
 						["Random roots"] = true,
 					},
 					["zones"] = {
@@ -117,9 +117,9 @@ DiminishDB = {
 					["anchorUIParent"] = false,
 					["iconPadding"] = 7,
 					["disabledCategories"] = {
-						["Дезориентирующий выстрел"] = true,
 						["Лик смерти"] = true,
 						["Замораживающая ловушка"] = true,
+						["Дезориентирующий выстрел"] = true,
 						["Random roots"] = true,
 					},
 					["growDirection"] = "LEFT",
@@ -143,9 +143,9 @@ DiminishDB = {
 					["iconPadding"] = 6,
 					["watchFriendly"] = true,
 					["disabledCategories"] = {
-						["Дезориентирующий выстрел"] = true,
 						["Лик смерти"] = true,
 						["Замораживающая ловушка"] = true,
+						["Дезориентирующий выстрел"] = true,
 						["Random roots"] = true,
 					},
 					["growDirection"] = "RIGHT",
@@ -164,7 +164,7 @@ DiminishDB = {
 					["isEnabledForZone"] = false,
 				},
 			},
-			["timerSwipe"] = true,
+			["trackNPCs"] = false,
 			["border"] = {
 				["layer"] = "BORDER",
 				["edgeSize"] = 2.5,
@@ -172,13 +172,13 @@ DiminishDB = {
 				["edgeFile"] = "Interface\\BUTTONS\\UI-Quickslot-Depress",
 			},
 			["timerStartAuraEnd"] = false,
-			["trackNPCs"] = false,
+			["timerSwipe"] = true,
 			["showCategoryText"] = false,
 			["version"] = "1.7",
 			["timerTextOutline"] = "NONE",
 			["colorBlind"] = false,
-			["timerText"] = true,
 			["timerColors"] = false,
+			["timerText"] = true,
 			["categoryFont"] = {
 				["x"] = 0,
 				["size"] = 9,

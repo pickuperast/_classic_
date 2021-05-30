@@ -64,12 +64,12 @@ END
 VER 3 000000000100000E "Cat1" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /startattack
-/cast [nostealth] КОГТИ; НАСКОК
+/cast [nostealth] ПОЛОСНУТЬ; НАСКОК
 END
 VER 3 000000000100000F "Cat2" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /startattack
-/cast [nostealth] ПОЛОСНУТЬ; НАКИНУТЬСЯ
+/cast [nostealth] КОГТИ; НАКИНУТЬСЯ
 END
 VER 3 0000000001000002 "Dash" "INV_MISC_QUESTIONMARK"
 #showtooltip Порыв

@@ -6,11 +6,22 @@ VER 3 000000000000000C "3" "132112"
 /use Блесна
 /use Удочка
 END
+VER 3 000000000000001B "AGGRO" "INV_MISC_QUESTIONMARK"
+/p не стойте в мили зоне (+130% aggro generation), стойте в рендж зоне (80% генерации аггро)
+END
+VER 3 0000000000000018 "AOE" "135802"
+/cancelform
+/use Воспламеняющая смесь
+/cast Облик лютого медведя
+END
 VER 3 000000000000000A "assist" "INV_MISC_QUESTIONMARK"
 /target Колёсяя
 END
 VER 3 000000000000000F "AUK_2" "INV_MISC_QUESTIONMARK"
 /click TSMAuctioningBtn
+END
+VER 3 0000000000000017 "buy item" "INV_MISC_QUESTIONMARK"
+/run BuyMerchantItem(5)
 END
 VER 3 0000000000000008 "CHECK" "INV_MISC_QUESTIONMARK"
 /readycheck
@@ -21,6 +32,17 @@ END
 VER 3 0000000000000009 "foll" "INV_MISC_QUESTIONMARK"
 /assist Народныйбанк
 /cast Порча
+END
+VER 3 0000000000000014 "HEAL" "135928"
+/cancelform
+/use Мощное лечебное зелье
+/cast Облик лютого медведя
+END
+VER 3 0000000000000019 "INNERVATE" "INV_MISC_QUESTIONMARK"
+/cast [@Элринз] Озарение
+END
+VER 3 000000000000001A "LFG" "INV_MISC_QUESTIONMARK"
+/4 в Забытый город (DM) хил и дд (только кольчуга и латы)
 END
 VER 3 0000000000000010 "log" "135768"
 /logout
@@ -35,14 +57,22 @@ END
 VER 3 000000000000000B "port" "132093"
 /4 куплю портал Дарнасс->Штормград
 END
-VER 3 0000000000000011 "SELL" "136044"
-/2 продам |cffffffff|Hitem:5634::::::::51:::::::|h[Зелье свободы действий]|h|r и |cffffffff|Hitem:6372::::::::51:::::::|h[Зелье быстрого плавания]|h|r 2г/шт можно почтой
-END
 VER 3 0000000000000003 "SELL" "132102"
 /yell продам облик пирата/ниндзя на 1ч за 25 серебра
 END
+VER 3 0000000000000011 "SELL" "136044"
+/2 продам кд на |cff1eff00|Hitem:12360::::::::54::::::::|h[Арканитовый слиток]|h|r
+END
 VER 3 000000000000000D "TAR" "INV_MISC_QUESTIONMARK"
 /target Аукционер Краснушка
+END
+VER 3 0000000000000015 "TEST re invis" "INV_MISC_QUESTIONMARK"
+/cancelform
+/cast Слиться с тенью
+END
+VER 3 0000000000000016 "Test re invis 2" "INV_MISC_QUESTIONMARK"
+/cancelform
+/cast Слиться с тенью
 END
 VER 3 0000000000000012 "test2" "INV_MISC_QUESTIONMARK"
 /script SendChatMessage(""..select(2,GetItemInfo13512)).."","channel",nil,1)

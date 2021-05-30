@@ -4,12 +4,11 @@ VER 3 0000000000000001 "3" "132112"
 /use Fishing Pole
 END
 VER 3 0000000000000002 "4" "INV_MISC_QUESTIONMARK"
-/use Großmaulmuschel
-/use Schwere Kiste
-/use Zerbeulte Kiste
+/use Raw Slitherskin Mackerel
+/use Raw Rainbow Fin Albacore
 /use Message in a bottle
 /use Small chest
-/use Kleine verschlossene Truhe
+/use Dented Crate
 /use Big-mouth Clam
 /use Heavy Crate
 /use Послание в бутылке

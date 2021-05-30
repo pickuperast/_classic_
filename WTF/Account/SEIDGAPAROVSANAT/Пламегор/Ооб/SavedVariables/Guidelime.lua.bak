@@ -5,14 +5,16 @@ GuidelimeDataChar = {
 	["guideSkip"] = {
 		["MarkyMark 1-5 Dun Morogh"] = {
 			[5] = true,
-			[20] = true,
 			[29] = true,
+			[20] = true,
 			[21] = true,
 		},
 		["MarkyMark 5-12 Dun Morogh/Loch Modan"] = {
 			[4] = true,
 			[44] = true,
 		},
+	},
+	["completedSteps"] = {
 	},
 	["arrowY"] = -20,
 	["arrowRelative"] = "TOP",
@@ -26,18 +28,18 @@ GuidelimeDataChar = {
 	["arrowSize"] = 64,
 	["mainFrameAlpha"] = 0.5,
 	["currentGuide"] = "MarkyMark 5-12 Dun Morogh/Loch Modan",
-	["mainFrameFontSize"] = 14,
-	["arrowX"] = 0,
 	["mainFrameY"] = -47.1296272277832,
+	["arrowX"] = 0,
+	["mainFrameFontSize"] = 14,
 	["mainFrameShowScrollBar"] = true,
 	["showArrow"] = true,
+	["version"] = "1.040",
 	["guideSize"] = {
 		["MarkyMark 1-5 Dun Morogh"] = 34,
 		["MarkyMark 5-12 Dun Morogh/Loch Modan"] = 103,
 	},
-	["editorFrameRelative"] = "CENTER",
 	["mainFrameShowing"] = false,
-	["version"] = "1.040",
+	["editorFrameRelative"] = "CENTER",
 	["mainFrameRelative"] = "RIGHT",
 	["editorFrameX"] = 0,
 }

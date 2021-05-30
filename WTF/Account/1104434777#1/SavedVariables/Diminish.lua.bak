@@ -8,7 +8,7 @@ DiminishDB = {
 			["categoryTextures"] = {
 			},
 			["timerStartAuraEnd"] = false,
-			["timerText"] = true,
+			["timerColors"] = false,
 			["border"] = {
 				["edgeSize"] = 2.5,
 				["layer"] = "BORDER",
@@ -21,9 +21,9 @@ DiminishDB = {
 					["iconPadding"] = 7,
 					["watchFriendly"] = false,
 					["disabledCategories"] = {
-						["Замораживающая ловушка"] = true,
 						["Дезориентирующий выстрел"] = true,
 						["Лик смерти"] = true,
+						["Замораживающая ловушка"] = true,
 						["Random roots"] = true,
 					},
 					["timerTextSize"] = 12,
@@ -55,9 +55,9 @@ DiminishDB = {
 					["iconPadding"] = 7,
 					["watchFriendly"] = true,
 					["disabledCategories"] = {
-						["Замораживающая ловушка"] = true,
 						["Дезориентирующий выстрел"] = true,
 						["Лик смерти"] = true,
+						["Замораживающая ловушка"] = true,
 						["Random roots"] = true,
 					},
 					["growDirection"] = "RIGHT",
@@ -74,9 +74,9 @@ DiminishDB = {
 					["iconPadding"] = 7,
 					["watchFriendly"] = false,
 					["disabledCategories"] = {
-						["Лик смерти"] = true,
 						["Дезориентирующий выстрел"] = true,
 						["Замораживающая ловушка"] = true,
+						["Лик смерти"] = true,
 						["Random roots"] = true,
 					},
 					["zones"] = {
@@ -100,9 +100,9 @@ DiminishDB = {
 					["iconPadding"] = 7,
 					["watchFriendly"] = false,
 					["disabledCategories"] = {
-						["Лик смерти"] = true,
 						["Дезориентирующий выстрел"] = true,
 						["Замораживающая ловушка"] = true,
+						["Лик смерти"] = true,
 						["Random roots"] = true,
 					},
 					["zones"] = {
@@ -125,9 +125,9 @@ DiminishDB = {
 					["anchorUIParent"] = false,
 					["iconPadding"] = 7,
 					["disabledCategories"] = {
-						["Замораживающая ловушка"] = true,
 						["Дезориентирующий выстрел"] = true,
 						["Лик смерти"] = true,
+						["Замораживающая ловушка"] = true,
 						["Random roots"] = true,
 					},
 					["timerTextSize"] = 12,
@@ -151,9 +151,9 @@ DiminishDB = {
 					["iconPadding"] = 6,
 					["watchFriendly"] = true,
 					["disabledCategories"] = {
-						["Замораживающая ловушка"] = true,
 						["Дезориентирующий выстрел"] = true,
 						["Лик смерти"] = true,
+						["Замораживающая ловушка"] = true,
 						["Random roots"] = true,
 					},
 					["timerTextSize"] = 12,
@@ -172,13 +172,13 @@ DiminishDB = {
 					["isEnabledForZone"] = false,
 				},
 			},
-			["timerColors"] = false,
+			["timerText"] = true,
 			["version"] = "1.7",
 			["showCategoryText"] = false,
 			["timerTextOutline"] = "NONE",
 			["colorBlind"] = false,
-			["trackNPCs"] = false,
 			["timerSwipe"] = true,
+			["trackNPCs"] = false,
 			["categoryFont"] = {
 				["size"] = 9,
 				["x"] = 0,

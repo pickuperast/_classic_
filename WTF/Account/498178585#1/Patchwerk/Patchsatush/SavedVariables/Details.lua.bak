@@ -7,16 +7,36 @@ _detalhes_database = {
 		["tabelas"] = {
 		},
 	},
-	["last_version"] = "v1.13.6.216",
+	["ocd_tracker"] = {
+		["enabled"] = false,
+		["current_cooldowns"] = {
+		},
+		["cooldowns"] = {
+		},
+		["show_conditions"] = {
+			["only_inside_instance"] = true,
+			["only_in_group"] = true,
+		},
+		["show_options"] = false,
+		["pos"] = {
+		},
+	},
+	["last_version"] = "v9.0.5.8406",
 	["SoloTablesSaved"] = {
 		["Mode"] = 1,
 	},
 	["tabela_instancias"] = {
 	},
+	["coach"] = {
+		["enabled"] = false,
+		["welcome_panel_pos"] = {
+		},
+		["last_coach_name"] = false,
+	},
 	["on_death_menu"] = true,
 	["nick_tag_cache"] = {
-		["nextreset"] = 1621276502,
-		["last_version"] = 11,
+		["nextreset"] = 1622827841,
+		["last_version"] = 14,
 	},
 	["last_instance_id"] = 0,
 	["announce_interrupts"] = {
@@ -93,7 +113,7 @@ _detalhes_database = {
 			},
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["y"] = -3.05175781250e-05,
+			["use_spark"] = true,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -103,21 +123,21 @@ _detalhes_database = {
 			},
 			["main_frame_strata"] = "LOW",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["y"] = -3.0517578125e-05,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
 				["scale"] = 1,
 				["font_shadow"] = true,
-				["y"] = -1.525878906250e-05,
-				["x"] = 3.05175781250e-05,
+				["y"] = -1.52587890625e-05,
+				["x"] = 3.0517578125e-05,
 				["attribute_type"] = 1,
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
-			["font_size"] = 10,
-			["x"] = 3.05175781250e-05,
+			["x"] = 3.0517578125e-05,
 			["font_face"] = "Friz Quadrata TT",
-			["use_spark"] = true,
+			["font_size"] = 10,
 			["author"] = "Details! Team",
 			["point"] = "CENTER",
 			["row_height"] = 20,
@@ -127,24 +147,24 @@ _detalhes_database = {
 	["cached_talents"] = {
 	},
 	["announce_prepots"] = {
-		["enabled"] = true,
+		["enabled"] = false,
 		["channel"] = "SELF",
 		["reverse"] = false,
 	},
-	["last_day"] = "17",
+	["last_day"] = "23",
 	["benchmark_db"] = {
 		["frame"] = {
 		},
 	},
 	["character_data"] = {
-		["logons"] = 310,
+		["logons"] = 316,
 	},
 	["combat_id"] = 0,
 	["savedStyles"] = {
 	},
 	["local_instances_config"] = {
 		{
-			["segment"] = 0,
+			["modo"] = 2,
 			["sub_attribute"] = 1,
 			["sub_atributo_last"] = {
 				1, -- [1]
@@ -157,14 +177,15 @@ _detalhes_database = {
 			["isLocked"] = false,
 			["snap"] = {
 			},
+			["segment"] = 0,
 			["mode"] = 2,
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
-					["y"] = -201.460815429688,
-					["x"] = -269.643432617187,
-					["w"] = 309.999969482422,
-					["h"] = 157.999938964844,
+					["y"] = -201.4608154296875,
+					["x"] = -269.6434326171875,
+					["w"] = 309.9999694824219,
+					["h"] = 157.9999389648438,
 				},
 				["solo"] = {
 					["y"] = 2,
@@ -210,12 +231,16 @@ _detalhes_database = {
 		}, -- [5]
 		["raid_roster"] = {
 		},
-		["tempo_start"] = 1616221728,
+		["raid_roster_indexed"] = {
+		},
+		["tempo_start"] = 5735.302,
 		["last_events_tables"] = {
 		},
 		["alternate_power"] = {
 		},
-		["combat_counter"] = 11,
+		["frags"] = {
+		},
+		["combat_counter"] = 632,
 		["totals"] = {
 			0, -- [1]
 			0, -- [2]
@@ -247,8 +272,7 @@ _detalhes_database = {
 		["__call"] = {
 		},
 		["data_inicio"] = 0,
-		["frags"] = {
-		},
+		["end_time"] = 5735.302,
 		["PhaseData"] = {
 			{
 				1, -- [1]
@@ -275,7 +299,7 @@ _detalhes_database = {
 		},
 		["cleu_timeline"] = {
 		},
-		["start_time"] = 0,
+		["start_time"] = 5735.302,
 		["TimeData"] = {
 		},
 		["totals_grupo"] = {
@@ -300,12 +324,12 @@ _detalhes_database = {
 			}, -- [4]
 		},
 	},
-	["combat_counter"] = 630,
+	["combat_counter"] = 644,
 	["announce_firsthit"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["last_realversion"] = 142,
+	["last_realversion"] = 144,
 	["announce_cooldowns"] = {
 		["ignored_cooldowns"] = {
 		},

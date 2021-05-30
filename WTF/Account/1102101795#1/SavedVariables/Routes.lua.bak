@@ -1,0 +1,7 @@
+
+RoutesDB = {
+	["profileKeys"] = {
+		["Lucisatush - Lucifron"] = "Default",
+		["Lucibalykk - Lucifron"] = "Default",
+	},
+}

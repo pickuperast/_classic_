@@ -3,3 +3,9 @@ BigWigs_Options: enabled
 BigWigs_Plugins: enabled
 BigWigs_Core: enabled
 BigWigs: disabled
+TradeSkillMaster_AppHelper: disabled
+TradeSkillMaster: disabled
+Questie: disabled
+Details: disabled
+Dejunk: disabled
+Diminish: disabled

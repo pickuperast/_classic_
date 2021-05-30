@@ -27,7 +27,7 @@ VER 3 0000000001000004 "def" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0000000001000008 "food" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [mod:alt] or [button:2] сотворение пищи; сотворение воды
+/cast [mod:alt] or [button:2] сотворение пищи; Сотворение воды(7-й уровень)
 END
 VER 3 0000000001000009 "mana" "INV_MISC_QUESTIONMARK"
 #showtooltip

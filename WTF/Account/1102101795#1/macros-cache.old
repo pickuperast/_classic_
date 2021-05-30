@@ -1,5 +1,3 @@
-VER 3 000000000000000B "1" "INV_MISC_QUESTIONMARK"
-END
 VER 3 0000000000000001 "3" "INV_MISC_QUESTIONMARK"
 /stopcasting
 /use Bright Baubles
@@ -7,14 +5,13 @@ VER 3 0000000000000001 "3" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0000000000000002 "4" "INV_MISC_QUESTIONMARK"
 /use Raw Slitherskin Mackerel
-/use Dented Crate
-/use Message in a Bottle
-/use Small Chest
-/use Versiegelte Kiste
+/use Raw Rainbow Fin Albacore
+/use Message in a bottle
+/use Small chest
 /use Kleine verschlossene Truhe
 /use Big-mouth Clam
 /use Heavy Crate
-/use Raw Rainbow Fin Albacore
+/use Послание в бутылке
 /use Моллюск-болтун
 /use Тяжелый ящик
 END

@@ -1,0 +1,23 @@
+VER 3 0000000000000007 "EAT" "INV_MISC_QUESTIONMARK"
+/use Сотворенная талая вода
+/use Сотворенная плюшка с корицей
+END
+VER 3 0000000000000001 "FOLLOW" "INV_MISC_QUESTIONMARK"
+/follow Ооб
+END
+VER 3 0000000000000003 "LFG" "INV_MISC_QUESTIONMARK"
+/4 <AFK кач Зул'Гуруб> за ран: 18 мобов-11К xp. Оплата за 5 ранов 50г, сумон есть. 1/2
+END
+VER 3 0000000000000002 "LOG" "INV_MISC_QUESTIONMARK"
+/logout
+END
+VER 3 0000000000000006 "АФК тюрьма" "INV_MISC_QUESTIONMARK"
+/2 АФКкач тюрьма 2г за ран, но только на 1 забег
+/yell АФКкач тюрьма 2г за ран, но только на 1 забег
+END
+VER 3 0000000000000004 "РЧ" "INV_MISC_QUESTIONMARK"
+/readycheck
+END
+VER 3 0000000000000005 "инструкция" "INV_MISC_QUESTIONMARK"
+/p на редичек жмем на релог, ждем 10 сек в меню персонажа и заходим в игру
+END

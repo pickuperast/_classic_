@@ -9,6 +9,16 @@ AtlasLootClassicDB = {
 	},
 	["profiles"] = {
 		["Venosatush - Venoxis"] = {
+			["minimap"] = {
+				["minimapPos"] = 197.887369709019,
+			},
+			["GUI"] = {
+				["selected"] = {
+					nil, -- [1]
+					"HellfireRamparts", -- [2]
+					[5] = 0,
+				},
+			},
 		},
 		["Venobalykk - Venoxis"] = {
 			["minimap"] = {

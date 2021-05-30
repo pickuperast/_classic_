@@ -1,31 +1,84 @@
 
 NITdatabase = {
 	["profileKeys"] = {
-		["Знать - Рок-Делар"] = "Default",
 		["Фаерфигня - Рок-Делар"] = "Default",
 		["Каспиголд - Пламегор"] = "Default",
 		["Оод - Пламегор"] = "Default",
+		["Знать - Рок-Делар"] = "Default",
+		["Оощ - Пламегор"] = "Default",
+		["Ооы - Пламегор"] = "Default",
+		["Оож - Пламегор"] = "Default",
 		["Ооб - Пламегор"] = "Default",
+		["Оои - Пламегор"] = "Default",
+		["Gdfjkhguidh - Golemagg"] = "Default",
 	},
 	["global"] = {
 		["minimapIcon"] = {
 			["minimapPos"] = 139.397466723697,
+		},
+		["Golemagg"] = {
+			["trades"] = {
+			},
+			["myChars"] = {
+				["Gdfjkhguidh"] = {
+					["fishingSkill"] = 0,
+					["cookingSkill"] = 0,
+					["profSkill1"] = 0,
+					[17031] = 0,
+					["durabilityAverage"] = 100,
+					["prof2"] = "none",
+					["savedInstances"] = {
+					},
+					["maxXP"] = 400,
+					["gender"] = "Male",
+					["prof1"] = "none",
+					["restedXP"] = 0,
+					["totalBagSlots"] = 16,
+					["freeBagSlots"] = 13,
+					[17056] = 0,
+					["guild"] = "No guild",
+					["raceEnglish"] = "Gnome",
+					["profSkillMax1"] = 0,
+					["resting"] = false,
+					["time"] = 1622198730,
+					["gold"] = 0,
+					["realm"] = "Golemagg",
+					["profSkill2"] = 0,
+					["raceLocalized"] = "Gnome",
+					["fishingSkillMax"] = 0,
+					["firstaidSkill"] = 0,
+					["classEnglish"] = "MAGE",
+					["firstaidSkillMax"] = 0,
+					["level"] = 1,
+					["guildRankName"] = "No guild rank",
+					[17032] = 0,
+					["race"] = "Gnome",
+					[17020] = 0,
+					["cooldowns"] = {
+					},
+					["cookingSkillMax"] = 0,
+					["classLocalized"] = "Mage",
+					["profSkillMax2"] = 0,
+				},
+			},
+			["instances"] = {
+			},
 		},
 		["Рок-Делар"] = {
 			["trades"] = {
 				{
 					["targetMoney"] = 0,
 					["playerMoney"] = 5000000,
-					["tradeWho"] = "Кипишной",
 					["tradeWhoClass"] = "SHAMAN",
+					["tradeWho"] = "Кипишной",
 					["where"] = "Оргриммар",
 					["time"] = 1620830195,
 				}, -- [1]
 				{
 					["targetMoney"] = 0,
 					["playerMoney"] = 1000000,
-					["tradeWhoClass"] = "MAGE",
 					["tradeWho"] = "Монтекарло",
+					["tradeWhoClass"] = "MAGE",
 					["where"] = "Оргриммар",
 					["time"] = 1620829737,
 				}, -- [2]
@@ -117,260 +170,450 @@ NITdatabase = {
 			["instances"] = {
 			},
 		},
-		["lastVersionMsg"] = 1621050864,
+		["lastVersionMsg"] = 1622326599,
 		["resetCharData"] = false,
 		["Пламегор"] = {
 			["trades"] = {
 				{
 					["targetMoney"] = 0,
-					["playerMoney"] = 10000,
-					["tradeWho"] = "Помогус",
+					["playerMoney"] = 300000,
+					["tradeWhoClass"] = "SHAMAN",
+					["tradeWho"] = "Дизейм",
+					["where"] = "Зул'Гуруб",
+					["time"] = 1621948171,
+				}, -- [1]
+				{
+					["targetMoney"] = 0,
+					["playerMoney"] = 40000,
+					["tradeWho"] = "Мадина",
 					["tradeWhoClass"] = "MAGE",
 					["where"] = "Штормград",
+					["time"] = 1621935342,
+				}, -- [2]
+				{
+					["targetMoney"] = 0,
+					["playerMoney"] = 10000,
+					["tradeWhoClass"] = "MAGE",
+					["tradeWho"] = "Помогус",
+					["where"] = "Штормград",
 					["time"] = 1621247142,
-				}, -- [1]
+				}, -- [3]
 				{
 					["targetMoney"] = 0,
 					["playerMoney"] = 900000,
 					["time"] = 1621088491,
-					["tradeWho"] = "Цирилала",
-					["where"] = "Зул'Гуруб",
 					["tradeWhoClass"] = "MAGE",
-				}, -- [2]
+					["where"] = "Зул'Гуруб",
+					["tradeWho"] = "Цирилала",
+				}, -- [4]
 				{
 					["targetMoney"] = 10000,
 					["playerMoney"] = 0,
-					["tradeWhoClass"] = "MAGE",
 					["tradeWho"] = "Фирмино",
+					["tradeWhoClass"] = "MAGE",
 					["where"] = "Стальгорн",
 					["time"] = 1621087510,
-				}, -- [3]
+				}, -- [5]
 				{
 					["targetMoney"] = 0,
 					["playerMoney"] = 1250000,
 					["time"] = 1621051707,
-					["tradeWhoClass"] = "MAGE",
-					["where"] = "Мародон",
 					["tradeWho"] = "Шустроног",
-				}, -- [4]
-				{
-					["targetMoney"] = 0,
-					["playerMoney"] = 1250000,
-					["tradeWho"] = "Гачигномий",
-					["tradeWhoClass"] = "MAGE",
 					["where"] = "Мародон",
-					["time"] = 1621032867,
-				}, -- [5]
-				{
-					["targetMoney"] = 0,
-					["playerMoney"] = 1000000,
-					["tradeWho"] = "Магонед",
 					["tradeWhoClass"] = "MAGE",
-					["where"] = "Мародон",
-					["time"] = 1620907315,
 				}, -- [6]
 				{
 					["targetMoney"] = 0,
 					["playerMoney"] = 1250000,
-					["time"] = 1620901545,
+					["tradeWhoClass"] = "MAGE",
+					["tradeWho"] = "Гачигномий",
+					["where"] = "Мародон",
+					["time"] = 1621032867,
+				}, -- [7]
+				{
+					["targetMoney"] = 0,
+					["playerMoney"] = 1000000,
+					["tradeWhoClass"] = "MAGE",
 					["tradeWho"] = "Магонед",
 					["where"] = "Мародон",
+					["time"] = 1620907315,
+				}, -- [8]
+				{
+					["targetMoney"] = 0,
+					["playerMoney"] = 1250000,
+					["time"] = 1620901545,
 					["tradeWhoClass"] = "MAGE",
-				}, -- [7]
+					["where"] = "Мародон",
+					["tradeWho"] = "Магонед",
+				}, -- [9]
 				{
 					["targetMoney"] = 0,
 					["playerMoney"] = 500000,
 					["time"] = 1620895327,
-					["tradeWho"] = "Однобабловый",
-					["where"] = "Мародон",
 					["tradeWhoClass"] = "PALADIN",
-				}, -- [8]
+					["where"] = "Мародон",
+					["tradeWho"] = "Однобабловый",
+				}, -- [10]
 				{
 					["targetMoney"] = 0,
 					["playerMoney"] = 500000,
 					["time"] = 1620888143,
-					["tradeWho"] = "Однобабловый",
-					["where"] = "Мародон",
 					["tradeWhoClass"] = "PALADIN",
-				}, -- [9]
+					["where"] = "Мародон",
+					["tradeWho"] = "Однобабловый",
+				}, -- [11]
 				{
 					["targetMoney"] = 0,
 					["playerMoney"] = 1000000,
 					["time"] = 1620832398,
-					["tradeWho"] = "Сувран",
-					["where"] = "Мародон",
 					["tradeWhoClass"] = "MAGE",
-				}, -- [10]
+					["where"] = "Мародон",
+					["tradeWho"] = "Сувран",
+				}, -- [12]
 				{
 					["targetMoney"] = 5000000,
 					["playerMoney"] = 0,
-					["tradeWhoClass"] = "WARRIOR",
 					["tradeWho"] = "Темагодх",
+					["tradeWhoClass"] = "WARRIOR",
 					["where"] = "Стальгорн",
 					["time"] = 1620832073,
-				}, -- [11]
+				}, -- [13]
 				{
 					["targetMoney"] = 0,
 					["playerMoney"] = 750000,
-					["tradeWhoClass"] = "MAGE",
 					["tradeWho"] = "Белыйгнум",
+					["tradeWhoClass"] = "MAGE",
 					["where"] = "Мародон",
 					["time"] = 1620804374,
-				}, -- [12]
-				{
-					["targetMoney"] = 0,
-					["playerMoney"] = 1250000,
-					["tradeWho"] = "Карамелькая",
-					["tradeWhoClass"] = "MAGE",
-					["where"] = "Мародон",
-					["time"] = 1620798917,
-				}, -- [13]
-				{
-					["targetMoney"] = 500000,
-					["playerMoney"] = 0,
-					["tradeWhoClass"] = "MAGE",
-					["tradeWho"] = "Еже",
-					["where"] = "Мародон",
-					["time"] = 1620764568,
 				}, -- [14]
 				{
 					["targetMoney"] = 0,
 					["playerMoney"] = 1250000,
 					["tradeWhoClass"] = "MAGE",
-					["tradeWho"] = "Рудикшаман",
-					["where"] = "Пустоши",
-					["time"] = 1620757756,
+					["tradeWho"] = "Карамелькая",
+					["where"] = "Мародон",
+					["time"] = 1620798917,
 				}, -- [15]
+				{
+					["targetMoney"] = 500000,
+					["playerMoney"] = 0,
+					["tradeWho"] = "Еже",
+					["tradeWhoClass"] = "MAGE",
+					["where"] = "Мародон",
+					["time"] = 1620764568,
+				}, -- [16]
 				{
 					["targetMoney"] = 0,
 					["playerMoney"] = 1250000,
+					["tradeWho"] = "Рудикшаман",
 					["tradeWhoClass"] = "MAGE",
+					["where"] = "Пустоши",
+					["time"] = 1620757756,
+				}, -- [17]
+				{
+					["targetMoney"] = 0,
+					["playerMoney"] = 1250000,
 					["tradeWho"] = "Флабберх",
+					["tradeWhoClass"] = "MAGE",
 					["where"] = "Мародон",
 					["time"] = 1620737215,
-				}, -- [16]
+				}, -- [18]
 				{
 					["targetMoney"] = 3390000,
 					["playerMoney"] = 0,
 					["time"] = 1620729864,
-					["tradeWho"] = "Ширкес",
-					["where"] = "Штормград",
 					["tradeWhoClass"] = "MAGE",
-				}, -- [17]
+					["where"] = "Штормград",
+					["tradeWho"] = "Ширкес",
+				}, -- [19]
 				{
 					["targetMoney"] = 0,
 					["playerMoney"] = 500000,
-					["tradeWhoClass"] = "MAGE",
 					["tradeWho"] = "Альджазир",
+					["tradeWhoClass"] = "MAGE",
 					["where"] = "Монастырь Алого ордена",
 					["time"] = 1620724352,
-				}, -- [18]
+				}, -- [20]
 				{
 					["targetMoney"] = 0,
 					["playerMoney"] = 500000,
-					["tradeWhoClass"] = "MAGE",
 					["tradeWho"] = "Альджазир",
+					["tradeWhoClass"] = "MAGE",
 					["where"] = "Монастырь Алого ордена",
 					["time"] = 1620675370,
-				}, -- [19]
+				}, -- [21]
 				{
 					["targetMoney"] = 0,
 					["playerMoney"] = 120000,
 					["time"] = 1620671757,
-					["tradeWhoClass"] = "WARRIOR",
-					["where"] = "Тюрьма Штормграда",
 					["tradeWho"] = "Алуксандрий",
-				}, -- [20]
+					["where"] = "Тюрьма Штормграда",
+					["tradeWhoClass"] = "WARRIOR",
+				}, -- [22]
 				{
 					["targetMoney"] = 0,
 					["playerMoney"] = 300000,
-					["tradeWho"] = "Однобабловый",
 					["tradeWhoClass"] = "PALADIN",
+					["tradeWho"] = "Однобабловый",
 					["where"] = "Тюрьма Штормграда",
 					["time"] = 1620406329,
-				}, -- [21]
+				}, -- [23]
 				{
 					["targetMoney"] = 0,
 					["playerMoney"] = 150000,
 					["time"] = 1620645337,
-					["tradeWhoClass"] = "MAGE",
-					["where"] = "Тюрьма Штормграда",
 					["tradeWho"] = "Болты",
-				}, -- [22]
-				{
-					["targetMoney"] = 0,
-					["playerMoney"] = 150000,
-					["tradeWho"] = "Тода",
-					["tradeWhoClass"] = "PALADIN",
 					["where"] = "Тюрьма Штормграда",
-					["time"] = 1620630016,
-				}, -- [23]
-				{
-					["targetMoney"] = 10600,
-					["playerMoney"] = 0,
-					["time"] = 1620622096,
-					["tradeWho"] = "Ударвспину",
-					["where"] = "Тюрьма Штормграда",
-					["tradeWhoClass"] = "ROGUE",
+					["tradeWhoClass"] = "MAGE",
 				}, -- [24]
 				{
 					["targetMoney"] = 0,
 					["playerMoney"] = 150000,
-					["time"] = 1620620272,
-					["tradeWho"] = "Арзик",
+					["tradeWhoClass"] = "PALADIN",
+					["tradeWho"] = "Тода",
 					["where"] = "Тюрьма Штормграда",
-					["tradeWhoClass"] = "MAGE",
+					["time"] = 1620630016,
 				}, -- [25]
 				{
-					["targetMoney"] = 0,
-					["playerMoney"] = 150000,
-					["tradeWho"] = "Колхозный",
-					["tradeWhoClass"] = "WARRIOR",
+					["targetMoney"] = 10600,
+					["playerMoney"] = 0,
+					["time"] = 1620622096,
+					["tradeWhoClass"] = "ROGUE",
 					["where"] = "Тюрьма Штормграда",
-					["time"] = 1620548001,
+					["tradeWho"] = "Ударвспину",
 				}, -- [26]
 				{
 					["targetMoney"] = 0,
 					["playerMoney"] = 150000,
-					["tradeWhoClass"] = "PALADIN",
-					["tradeWho"] = "Мбаппе",
+					["time"] = 1620620272,
+					["tradeWhoClass"] = "MAGE",
 					["where"] = "Тюрьма Штормграда",
-					["time"] = 1620541815,
+					["tradeWho"] = "Арзик",
 				}, -- [27]
 				{
 					["targetMoney"] = 0,
 					["playerMoney"] = 150000,
-					["tradeWho"] = "Джусифлэш",
-					["tradeWhoClass"] = "PALADIN",
+					["tradeWhoClass"] = "WARRIOR",
+					["tradeWho"] = "Колхозный",
 					["where"] = "Тюрьма Штормграда",
-					["time"] = 1620507309,
+					["time"] = 1620548001,
 				}, -- [28]
 				{
 					["targetMoney"] = 0,
 					["playerMoney"] = 150000,
-					["tradeWho"] = "Соваризам",
-					["tradeWhoClass"] = "MAGE",
+					["tradeWho"] = "Мбаппе",
+					["tradeWhoClass"] = "PALADIN",
 					["where"] = "Тюрьма Штормграда",
-					["time"] = 1620502026,
+					["time"] = 1620541815,
 				}, -- [29]
 				{
 					["targetMoney"] = 0,
 					["playerMoney"] = 150000,
-					["time"] = 1620460712,
-					["tradeWho"] = "Подпечень",
-					["where"] = "Штормград",
-					["tradeWhoClass"] = "ROGUE",
+					["tradeWhoClass"] = "PALADIN",
+					["tradeWho"] = "Джусифлэш",
+					["where"] = "Тюрьма Штормграда",
+					["time"] = 1620507309,
 				}, -- [30]
+				{
+					["targetMoney"] = 0,
+					["playerMoney"] = 150000,
+					["tradeWhoClass"] = "MAGE",
+					["tradeWho"] = "Соваризам",
+					["where"] = "Тюрьма Штормграда",
+					["time"] = 1620502026,
+				}, -- [31]
+				{
+					["targetMoney"] = 0,
+					["playerMoney"] = 150000,
+					["time"] = 1620460712,
+					["tradeWhoClass"] = "ROGUE",
+					["where"] = "Штормград",
+					["tradeWho"] = "Подпечень",
+				}, -- [32]
 				{
 					["targetMoney"] = 0,
 					["playerMoney"] = 450000,
 					["time"] = 1620454520,
-					["tradeWho"] = "Мбаппе",
-					["where"] = "Тюрьма Штормграда",
 					["tradeWhoClass"] = "PALADIN",
-				}, -- [31]
+					["where"] = "Тюрьма Штормграда",
+					["tradeWho"] = "Мбаппе",
+				}, -- [33]
 			},
 			["myChars"] = {
+				["Оод"] = {
+					["fishingSkill"] = 0,
+					["cookingSkill"] = 0,
+					["profSkill1"] = 300,
+					["instances"] = {
+						[48] = 1,
+						[429] = 6,
+						[34] = 11,
+						[36] = 1,
+						[230] = 1,
+						[189] = 10,
+						[309] = 57,
+						[349] = 53,
+						[329] = 1,
+					},
+					["firstaidSkillMax"] = 0,
+					["prof2"] = "Травничество",
+					[17038] = 0,
+					["savedInstances"] = {
+					},
+					["maxXP"] = 165800,
+					["gender"] = "Male",
+					["profSkillMax2"] = 300,
+					["restedXP"] = 0,
+					["totalBagSlots"] = 76,
+					["freeBagSlots"] = 32,
+					["pvpRankNumber"] = 2,
+					["guildRankName"] = "No guild rank",
+					["raceEnglish"] = "NightElf",
+					["profSkillMax1"] = 300,
+					["resting"] = true,
+					["time"] = 1622332153,
+					["gold"] = 3778579,
+					["pvpRankPercent"] = 0.321568638086319,
+					["pvpRankName"] = "Капрал",
+					["realm"] = "Пламегор",
+					["prof1"] = "Алхимия",
+					["firstaidSkill"] = 0,
+					["raceLocalized"] = "Ночной эльф",
+					["fishingSkillMax"] = 0,
+					["playerName"] = "Оод",
+					["classEnglish"] = "DRUID",
+					["cookingSkillMax"] = 0,
+					["guild"] = "No guild",
+					["profSkill2"] = 274,
+					["race"] = "Ночной эльф",
+					["durabilityAverage"] = 4.380952380952381,
+					[17026] = 0,
+					["cooldowns"] = {
+					},
+					["level"] = 58,
+					["classLocalized"] = "Друид",
+					["currentXP"] = 42828,
+				},
+				["Оож"] = {
+					["fishingSkill"] = 0,
+					["cookingSkill"] = 0,
+					["profSkill1"] = 0,
+					["durabilityAverage"] = 100,
+					[17033] = 0,
+					["profSkill2"] = 0,
+					["savedInstances"] = {
+					},
+					["maxXP"] = 400,
+					["gender"] = "Neutral",
+					["prof1"] = "none",
+					["restedXP"] = 104,
+					["totalBagSlots"] = 16,
+					["freeBagSlots"] = 13,
+					["guildRankName"] = "No guild rank",
+					["raceEnglish"] = "Draenei",
+					["profSkillMax1"] = 0,
+					["resting"] = false,
+					["time"] = 1622325964,
+					["gold"] = 0,
+					["realm"] = "Пламегор",
+					["raceLocalized"] = "Дренейка",
+					["fishingSkillMax"] = 0,
+					["firstaidSkill"] = 0,
+					["classEnglish"] = "PALADIN",
+					["prof2"] = "none",
+					["firstaidSkillMax"] = 0,
+					["guild"] = "No guild",
+					["cookingSkillMax"] = 0,
+					[21177] = 0,
+					["race"] = "Дренейка",
+					["cooldowns"] = {
+					},
+					["level"] = 1,
+					["classLocalized"] = "Паладин",
+					["profSkillMax2"] = 0,
+				},
+				["Ооы"] = {
+					["fishingSkill"] = 0,
+					["cookingSkill"] = 0,
+					["profSkill1"] = 0,
+					["durabilityAverage"] = 100,
+					["prof2"] = "none",
+					["savedInstances"] = {
+					},
+					["maxXP"] = 400,
+					["gender"] = "Neutral",
+					["prof1"] = "none",
+					["restedXP"] = 0,
+					["totalBagSlots"] = 16,
+					["freeBagSlots"] = 13,
+					[17057] = 0,
+					[17058] = 0,
+					["raceEnglish"] = "Draenei",
+					["profSkillMax1"] = 0,
+					["resting"] = false,
+					["time"] = 1621601244,
+					["gold"] = 0,
+					["realm"] = "Пламегор",
+					["guildRankName"] = "No guild rank",
+					["raceLocalized"] = "Дренейка",
+					["fishingSkillMax"] = 0,
+					["firstaidSkill"] = 0,
+					["classEnglish"] = "SHAMAN",
+					["firstaidSkillMax"] = 0,
+					["profSkill2"] = 0,
+					["guild"] = "No guild",
+					["level"] = 1,
+					["race"] = "Дренейка",
+					[17030] = 0,
+					["cooldowns"] = {
+					},
+					["cookingSkillMax"] = 0,
+					["classLocalized"] = "Шаманка",
+					["profSkillMax2"] = 0,
+				},
+				["Оощ"] = {
+					["fishingSkill"] = 0,
+					["cookingSkill"] = 0,
+					["profSkill1"] = 0,
+					["durabilityAverage"] = 100,
+					["prof2"] = "none",
+					["savedInstances"] = {
+					},
+					["totalPetPoints"] = 0,
+					["maxXP"] = 400,
+					["gender"] = "Male",
+					["prof1"] = "none",
+					["restedXP"] = 0,
+					["totalBagSlots"] = 16,
+					["freeBagSlots"] = 13,
+					["hasPet"] = false,
+					["guildRankName"] = "No guild rank",
+					["raceEnglish"] = "NightElf",
+					["profSkillMax1"] = 0,
+					["resting"] = false,
+					["time"] = 1621601068,
+					["gold"] = 0,
+					["spentPetPoints"] = 0,
+					["profSkillMax2"] = 0,
+					["realm"] = "Пламегор",
+					["petLevel"] = 0,
+					["fishingSkillMax"] = 0,
+					["raceLocalized"] = "Ночной эльф",
+					["isPetDead"] = false,
+					["firstaidSkill"] = 0,
+					["classEnglish"] = "HUNTER",
+					["race"] = "Ночной эльф",
+					["cookingSkillMax"] = 0,
+					["ammo"] = 200,
+					["guild"] = "No guild",
+					["firstaidSkillMax"] = 0,
+					["ammoType"] = 2512,
+					["cooldowns"] = {
+					},
+					["profSkill2"] = 0,
+					["classLocalized"] = "Охотник",
+					["level"] = 1,
+				},
 				["Каспиголд"] = {
 					["fishingSkill"] = 0,
 					["cookingSkill"] = 0,
@@ -384,13 +627,13 @@ NITdatabase = {
 					["prof1"] = "none",
 					["restedXP"] = 600,
 					["totalBagSlots"] = 40,
-					["freeBagSlots"] = 30,
+					["freeBagSlots"] = 32,
 					["guild"] = "No guild",
 					["raceEnglish"] = "Dwarf",
 					["profSkillMax1"] = 0,
 					["resting"] = true,
-					["time"] = 1621513637,
-					["gold"] = 623332,
+					["time"] = 1622028397,
+					["gold"] = 784793,
 					["realm"] = "Пламегор",
 					["raceLocalized"] = "Дворф",
 					["fishingSkillMax"] = 0,
@@ -408,56 +651,42 @@ NITdatabase = {
 					["classLocalized"] = "Воин",
 					["profSkill2"] = 0,
 				},
-				["Оод"] = {
+				["Оои"] = {
 					["fishingSkill"] = 0,
 					["cookingSkill"] = 0,
-					["profSkill1"] = 209,
-					["instances"] = {
-						[189] = 10,
-						[349] = 53,
-						[309] = 5,
-						[48] = 1,
-						[36] = 1,
-						[34] = 8,
-					},
-					["firstaidSkillMax"] = 0,
-					["prof2"] = "Травничество",
-					[17038] = 0,
+					["profSkill1"] = 0,
+					["durabilityAverage"] = 100,
+					["prof2"] = "none",
 					["savedInstances"] = {
 					},
-					["maxXP"] = 131500,
+					["maxXP"] = 400,
 					["gender"] = "Male",
-					["profSkillMax2"] = 300,
-					["restedXP"] = 55808,
-					["totalBagSlots"] = 72,
-					["freeBagSlots"] = 38,
-					["pvpRankNumber"] = 2,
+					["prof1"] = "none",
+					["restedXP"] = 0,
+					["totalBagSlots"] = 16,
+					["freeBagSlots"] = 13,
 					["guildRankName"] = "No guild rank",
-					["raceEnglish"] = "NightElf",
-					["profSkillMax1"] = 225,
-					["resting"] = true,
-					["time"] = 1621510039,
-					["gold"] = 1203833,
-					["pvpRankPercent"] = 0.321568638086319,
-					["pvpRankName"] = "Капрал",
+					["raceEnglish"] = "Gnome",
+					["profSkillMax1"] = 0,
+					["resting"] = false,
+					["time"] = 1622325882,
+					["gold"] = 0,
 					["realm"] = "Пламегор",
-					["prof1"] = "Алхимия",
-					["firstaidSkill"] = 0,
-					["raceLocalized"] = "Ночной эльф",
+					["raceLocalized"] = "Гном",
 					["fishingSkillMax"] = 0,
-					["playerName"] = "Оод",
-					["classEnglish"] = "DRUID",
-					["cookingSkillMax"] = 0,
+					["firstaidSkill"] = 0,
+					["classEnglish"] = "WARLOCK",
+					["level"] = 1,
+					["firstaidSkillMax"] = 0,
 					["guild"] = "No guild",
-					["profSkill2"] = 239,
-					["race"] = "Ночной эльф",
-					["durabilityAverage"] = 100,
-					[17026] = 0,
+					[6265] = 0,
+					["race"] = "Гном",
+					["cookingSkillMax"] = 0,
 					["cooldowns"] = {
 					},
-					["level"] = 52,
-					["classLocalized"] = "Друид",
-					["currentXP"] = 128125,
+					["profSkill2"] = 0,
+					["classLocalized"] = "Чернокнижник",
+					["profSkillMax2"] = 0,
 				},
 				["Ооб"] = {
 					["fishingSkill"] = 0,
@@ -466,19 +695,21 @@ NITdatabase = {
 					[17031] = 14,
 					["firstaidSkillMax"] = 0,
 					["profSkill2"] = 178,
+					["savedInstances"] = {
+					},
 					["maxXP"] = 22400,
 					["gender"] = "Male",
 					["prof1"] = "Инженерное дело",
-					["restedXP"] = 38156,
+					["restedXP"] = 33600,
 					["totalBagSlots"] = 72,
-					["freeBagSlots"] = 25,
+					["freeBagSlots"] = 26,
 					[17056] = 8,
 					["currentXP"] = 13518,
 					["raceEnglish"] = "Gnome",
 					["profSkillMax1"] = 240,
 					["race"] = "Гном",
-					["time"] = 1621489297,
-					["gold"] = 276091,
+					["time"] = 1621616987,
+					["gold"] = 275941,
 					["realm"] = "Пламегор",
 					["profSkillMax2"] = 225,
 					["resting"] = true,
@@ -501,31 +732,2750 @@ NITdatabase = {
 			},
 			["instances"] = {
 				{
+					["GUID"] = "Creature-0-5571-309-18011-11374-000032CEAA",
 					["leftMoney"] = 0,
 					["group"] = {
-						["Цирилала"] = {
+						["Еве"] = {
+							["classEnglish"] = "DRUID",
+							["level"] = 19,
+							["name"] = "Еве",
+							["class"] = "Друид",
+						},
+						["Оод"] = {
+							["classEnglish"] = "DRUID",
+							["level"] = 58,
+							["name"] = "Оод",
+							["class"] = "Друид",
+						},
+						["Деия"] = {
+							["name"] = "Деия",
+							["guildName"] = "Мир Грёз",
+							["classEnglish"] = "PRIEST",
+							["class"] = "Жрица",
+							["level"] = 56,
+						},
+						["Мадина"] = {
 							["classEnglish"] = "MAGE",
-							["class"] = "Маг",
-							["name"] = "Цирилала",
 							["level"] = 60,
+							["name"] = "Мадина",
+							["class"] = "Маг",
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1622332066,
+					["groupAverage"] = 50.2,
+					["enteredXP"] = 33939,
+					["xpFromChat"] = 8889,
+					["zoneID"] = 18011,
+					["leftXP"] = 0,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 3778579,
+					["rep"] = {
+					},
+					["enteredTime"] = 1622331052,
+					["instanceID"] = 309,
+					["GUIDSource"] = "combatLog",
+					["leftLevel"] = 58,
+					["rawMoneyCount"] = 0,
+					["instanceName"] = "Зул'Гуруб",
+					["classEnglish"] = "DRUID",
+					["mobCount"] = 17,
+					["enteredLevel"] = 58,
+				}, -- [1]
+				{
+					["GUID"] = "Creature-0-4459-309-28252-11350-0000B2C2E8",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Еве"] = {
+							["class"] = "Друид",
+							["classEnglish"] = "DRUID",
+							["name"] = "Еве",
+							["level"] = 19,
+						},
+						["Оод"] = {
+							["class"] = "Друид",
+							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 58,
+						},
+						["Деия"] = {
+							["name"] = "Деия",
+							["guildName"] = "Мир Грёз",
+							["classEnglish"] = "PRIEST",
+							["level"] = 56,
+							["class"] = "Жрица",
+						},
+						["Мадина"] = {
+							["class"] = "Маг",
+							["classEnglish"] = "MAGE",
+							["name"] = "Мадина",
+							["level"] = 60,
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1622331039,
+					["groupAverage"] = 50.2,
+					["enteredXP"] = 14959,
+					["xpFromChat"] = 18980,
+					["zoneID"] = 28252,
+					["enteredTime"] = 1622328045,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 3778579,
+					["rep"] = {
+					},
+					["leftXP"] = 0,
+					["instanceID"] = 309,
+					["mobCount"] = 38,
+					["leftLevel"] = 58,
+					["classEnglish"] = "DRUID",
+					["instanceName"] = "Зул'Гуруб",
+					["rawMoneyCount"] = 0,
+					["GUIDSource"] = "combatLog",
+					["enteredLevel"] = 58,
+				}, -- [2]
+				{
+					["GUID"] = "Creature-0-4458-309-24862-11350-000132BCC6",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Оод"] = {
+							["level"] = 58,
+							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
+						},
+						["Мадина"] = {
+							["level"] = 60,
+							["class"] = "Маг",
+							["name"] = "Мадина",
+							["classEnglish"] = "MAGE",
+						},
+						["Деия"] = {
+							["name"] = "Деия",
+							["guildName"] = "Мир Грёз",
+							["classEnglish"] = "PRIEST",
+							["class"] = "Жрица",
+							["level"] = 56,
+						},
+						["Неизвестно"] = {
+							["name"] = "Неизвестно",
+							["level"] = 0,
+						},
+						["Еве"] = {
+							["classEnglish"] = "DRUID",
+							["class"] = "Друид",
+							["name"] = "Еве",
+							["level"] = 19,
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1622328028,
+					["groupAverage"] = 50.2,
+					["enteredXP"] = 154061,
+					["xpFromChat"] = 20798,
+					["zoneID"] = 24862,
+					["leftXP"] = 0,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 3778579,
+					["rep"] = {
+					},
+					["enteredTime"] = 1622326470,
+					["instanceID"] = 309,
+					["GUIDSource"] = "combatLog",
+					["leftLevel"] = 57,
+					["rawMoneyCount"] = 0,
+					["instanceName"] = "Зул'Гуруб",
+					["classEnglish"] = "DRUID",
+					["mobCount"] = 43,
+					["enteredLevel"] = 57,
+				}, -- [3]
+				{
+					["GUID"] = "Creature-0-4458-329-19913-10812-0000329BF8",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Джунеор"] = {
+							["name"] = "Джунеор",
+							["guildName"] = "Итс Офишл",
+							["classEnglish"] = "SHAMAN",
+							["level"] = 60,
+							["class"] = "Шаман",
+						},
+						["Оод"] = {
+							["level"] = 57,
+							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
+						},
+						["Обожранец"] = {
+							["name"] = "Обожранец",
+							["guildName"] = "Идущие на Смерть",
+							["classEnglish"] = "WARRIOR",
+							["level"] = 60,
+							["class"] = "Воин",
+						},
+						["Козийкороль"] = {
+							["name"] = "Козийкороль",
+							["guildName"] = "Каморра",
+							["classEnglish"] = "HUNTER",
+							["level"] = 58,
+							["class"] = "Охотник",
+						},
+						["Лютиэл"] = {
+							["name"] = "Лютиэл",
+							["guildName"] = "Ледяной Пик",
+							["classEnglish"] = "DRUID",
+							["level"] = 58,
+							["class"] = "Друид",
+						},
+						["Вайеленсия"] = {
+							["level"] = 60,
+							["class"] = "Маг",
+							["name"] = "Вайеленсия",
+							["classEnglish"] = "MAGE",
+						},
+						["Неизвестно"] = {
+							["name"] = "Неизвестно",
+							["level"] = 0,
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1622325795,
+					["groupAverage"] = 58.6,
+					["enteredXP"] = 152064,
+					["xpFromChat"] = 63509,
+					["zoneID"] = 19913,
+					["enteredLevel"] = 57,
+					["mobCount"] = 197,
+					["enteredTime"] = 1622319977,
+					["playerName"] = "Оод",
+					["classEnglish"] = "DRUID",
+					["rep"] = {
+					},
+					["leftXP"] = 0,
+					["instanceID"] = 329,
+					["enteredMoney"] = 3752225,
+					["leftLevel"] = 57,
+					["rawMoneyCount"] = 46094,
+					["instanceName"] = "Стратхольм",
+					["mergeGUID"] = "Creature-0-4458-329-19913-10385-0000B2B889",
+					["GUIDSource"] = "mouseover",
+					["mergeSource"] = "nameplate",
+				}, -- [4]
+				{
+					["GUID"] = "Creature-0-4458-34-3383-1708-0002B0E220",
+					["leftMoney"] = 0,
+					["group"] = {
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1622205031,
+					["enteredXP"] = 83015,
+					["xpFromChat"] = 0,
+					["zoneID"] = 3383,
+					["enteredTime"] = 1622204960,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 2887159,
+					["rep"] = {
+					},
+					["leftXP"] = 0,
+					["instanceID"] = 34,
+					["mobCount"] = 0,
+					["leftLevel"] = 57,
+					["classEnglish"] = "DRUID",
+					["instanceName"] = "Тюрьма Штормграда",
+					["rawMoneyCount"] = 0,
+					["GUIDSource"] = "combatLog",
+					["enteredLevel"] = 57,
+				}, -- [5]
+				{
+					["leftMoney"] = 0,
+					["group"] = {
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1622200421,
+					["enteredXP"] = 83015,
+					["xpFromChat"] = 0,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 2887159,
+					["rep"] = {
+					},
+					["enteredTime"] = 1622200418,
+					["instanceID"] = 34,
+					["leftXP"] = 0,
+					["leftLevel"] = 57,
+					["rawMoneyCount"] = 0,
+					["instanceName"] = "Тюрьма Штормграда",
+					["classEnglish"] = "DRUID",
+					["mobCount"] = 0,
+					["enteredLevel"] = 57,
+				}, -- [6]
+				{
+					["GUID"] = "Creature-0-4479-34-8214-1708-0001B0CE8E",
+					["leftMoney"] = 0,
+					["group"] = {
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1622200315,
+					["enteredXP"] = 83015,
+					["xpFromChat"] = 0,
+					["zoneID"] = 8214,
+					["leftXP"] = 0,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 2886499,
+					["rep"] = {
+					},
+					["enteredTime"] = 1622199947,
+					["instanceID"] = 34,
+					["GUIDSource"] = "nameplate1",
+					["leftLevel"] = 57,
+					["rawMoneyCount"] = 660,
+					["instanceName"] = "Тюрьма Штормграда",
+					["classEnglish"] = "DRUID",
+					["mobCount"] = 0,
+					["enteredLevel"] = 57,
+				}, -- [7]
+				{
+					["leftMoney"] = 0,
+					["group"] = {
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1622199825,
+					["enteredXP"] = 83015,
+					["xpFromChat"] = 0,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 2844190,
+					["rep"] = {
+					},
+					["enteredTime"] = 1622199808,
+					["instanceID"] = 309,
+					["leftXP"] = 0,
+					["leftLevel"] = 57,
+					["rawMoneyCount"] = 0,
+					["instanceName"] = "Зул'Гуруб",
+					["classEnglish"] = "DRUID",
+					["mobCount"] = 0,
+					["enteredLevel"] = 57,
+				}, -- [8]
+				{
+					["GUID"] = "Creature-0-4479-309-5902-1420-000130BDC4",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Оод"] = {
+							["class"] = "Друид",
+							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 57,
+						},
+						["Мадина"] = {
+							["class"] = "Маг",
+							["classEnglish"] = "MAGE",
+							["name"] = "Мадина",
+							["level"] = 60,
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1622198149,
+					["groupAverage"] = 58,
+					["enteredXP"] = 63571,
+					["xpFromChat"] = 19444,
+					["zoneID"] = 5902,
+					["leftXP"] = 0,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 2844190,
+					["rep"] = {
+					},
+					["enteredTime"] = 1622195650,
+					["instanceID"] = 309,
+					["GUIDSource"] = "mouseover",
+					["leftLevel"] = 57,
+					["rawMoneyCount"] = 0,
+					["instanceName"] = "Зул'Гуруб",
+					["classEnglish"] = "DRUID",
+					["mobCount"] = 18,
+					["enteredLevel"] = 57,
+				}, -- [9]
+				{
+					["GUID"] = "Creature-0-4457-309-18298-11372-00082FAC72",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Еве"] = {
+							["classEnglish"] = "DRUID",
+							["level"] = 19,
+							["name"] = "Еве",
+							["class"] = "Друид",
+						},
+						["Оод"] = {
+							["classEnglish"] = "DRUID",
+							["level"] = 57,
+							["name"] = "Оод",
+							["class"] = "Друид",
+						},
+						["Мадина"] = {
+							["classEnglish"] = "MAGE",
+							["level"] = 60,
+							["name"] = "Мадина",
+							["class"] = "Маг",
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1622127501,
+					["groupAverage"] = 48.25,
+					["enteredXP"] = 37542,
+					["xpFromChat"] = 26029,
+					["zoneID"] = 18298,
+					["leftXP"] = 0,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 1793980,
+					["rep"] = {
+					},
+					["enteredTime"] = 1622125698,
+					["instanceID"] = 309,
+					["GUIDSource"] = "combatLog",
+					["leftLevel"] = 57,
+					["rawMoneyCount"] = 0,
+					["instanceName"] = "Зул'Гуруб",
+					["classEnglish"] = "DRUID",
+					["mobCount"] = 47,
+					["enteredLevel"] = 57,
+				}, -- [10]
+				{
+					["GUID"] = "Creature-0-5571-309-31413-11350-0007AFA817",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Еве"] = {
+							["class"] = "Друид",
+							["level"] = 19,
+							["name"] = "Еве",
+							["classEnglish"] = "DRUID",
+						},
+						["Оод"] = {
+							["class"] = "Друид",
+							["level"] = 57,
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
+						},
+						["Мадина"] = {
+							["class"] = "Маг",
+							["level"] = 60,
+							["name"] = "Мадина",
+							["classEnglish"] = "MAGE",
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1622125664,
+					["groupAverage"] = 48.25,
+					["enteredXP"] = 15783,
+					["xpFromChat"] = 21759,
+					["zoneID"] = 31413,
+					["enteredTime"] = 1622124580,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 1793980,
+					["rep"] = {
+					},
+					["leftXP"] = 0,
+					["instanceID"] = 309,
+					["mobCount"] = 34,
+					["leftLevel"] = 57,
+					["classEnglish"] = "DRUID",
+					["instanceName"] = "Зул'Гуруб",
+					["rawMoneyCount"] = 0,
+					["GUIDSource"] = "nameplate1",
+					["enteredLevel"] = 57,
+				}, -- [11]
+				{
+					["GUID"] = "Creature-0-4480-309-20936-13321-0001AFA3AB",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Еве"] = {
+							["level"] = 19,
+							["class"] = "Друид",
+							["name"] = "Еве",
+							["classEnglish"] = "DRUID",
+						},
+						["Оод"] = {
+							["level"] = 57,
+							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
+						},
+						["Мадина"] = {
+							["level"] = 60,
+							["class"] = "Маг",
+							["name"] = "Мадина",
+							["classEnglish"] = "MAGE",
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1622124554,
+					["groupAverage"] = 48.25,
+					["enteredXP"] = 145292,
+					["xpFromChat"] = 24491,
+					["zoneID"] = 20936,
+					["leftXP"] = 0,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 1793980,
+					["rep"] = {
+					},
+					["enteredTime"] = 1622123443,
+					["instanceID"] = 309,
+					["GUIDSource"] = "mouseover",
+					["leftLevel"] = 56,
+					["rawMoneyCount"] = 0,
+					["instanceName"] = "Зул'Гуруб",
+					["classEnglish"] = "DRUID",
+					["mobCount"] = 40,
+					["enteredLevel"] = 56,
+				}, -- [12]
+				{
+					["GUID"] = "Creature-0-4460-309-20411-11350-00092F9087",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Еве"] = {
+							["class"] = "Друид",
+							["classEnglish"] = "DRUID",
+							["name"] = "Еве",
+							["level"] = 19,
+						},
+						["Оод"] = {
+							["class"] = "Друид",
+							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 56,
+						},
+						["Мадина"] = {
+							["class"] = "Маг",
+							["classEnglish"] = "MAGE",
+							["name"] = "Мадина",
+							["level"] = 60,
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1622123422,
+					["groupAverage"] = 47.75,
+					["enteredXP"] = 133132,
+					["xpFromChat"] = 24301,
+					["zoneID"] = 20411,
+					["mergeSource"] = "nameplate",
+					["GUIDSource"] = "combatLog",
+					["leftXP"] = 0,
+					["playerName"] = "Оод",
+					["classEnglish"] = "DRUID",
+					["rep"] = {
+					},
+					["enteredTime"] = 1622118542,
+					["instanceID"] = 309,
+					["enteredMoney"] = 1793980,
+					["leftLevel"] = 56,
+					["rawMoneyCount"] = 0,
+					["instanceName"] = "Зул'Гуруб",
+					["mergeGUID"] = "Creature-0-4460-309-20411-11350-00002F9087",
+					["mobCount"] = 38,
+					["enteredLevel"] = 56,
+				}, -- [13]
+				{
+					["GUID"] = "Creature-0-4460-309-20070-11350-0006AF8AF6",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Еве"] = {
+							["level"] = 19,
+							["class"] = "Друид",
+							["name"] = "Еве",
+							["classEnglish"] = "DRUID",
+						},
+						["Оод"] = {
+							["level"] = 56,
+							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
+						},
+						["Мадина"] = {
+							["level"] = 60,
+							["class"] = "Маг",
+							["name"] = "Мадина",
+							["classEnglish"] = "MAGE",
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1622118524,
+					["groupAverage"] = 47.75,
+					["enteredXP"] = 96173,
+					["xpFromChat"] = 24818,
+					["zoneID"] = 20070,
+					["enteredTime"] = 1622117118,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 1843450,
+					["rep"] = {
+					},
+					["leftXP"] = 0,
+					["instanceID"] = 309,
+					["mobCount"] = 42,
+					["leftLevel"] = 56,
+					["classEnglish"] = "DRUID",
+					["instanceName"] = "Зул'Гуруб",
+					["rawMoneyCount"] = 0,
+					["GUIDSource"] = "nameplate1",
+					["enteredLevel"] = 56,
+				}, -- [14]
+				{
+					["GUID"] = "Creature-0-4460-309-19261-11371-00012F7EEF",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Еве"] = {
+							["level"] = 19,
+							["classEnglish"] = "DRUID",
+							["name"] = "Еве",
+							["class"] = "Друид",
+						},
+						["Оод"] = {
+							["classEnglish"] = "DRUID",
+							["level"] = 56,
+							["name"] = "Оод",
+							["class"] = "Друид",
+						},
+						["Мадина"] = {
+							["classEnglish"] = "MAGE",
+							["level"] = 60,
+							["name"] = "Мадина",
+							["class"] = "Маг",
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1622117090,
+					["groupAverage"] = 47.75,
+					["enteredXP"] = 66356,
+					["xpFromChat"] = 29817,
+					["zoneID"] = 19261,
+					["leftXP"] = 0,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 1843450,
+					["rep"] = {
+					},
+					["enteredTime"] = 1622115643,
+					["instanceID"] = 309,
+					["GUIDSource"] = "mouseover",
+					["leftLevel"] = 56,
+					["rawMoneyCount"] = 0,
+					["instanceName"] = "Зул'Гуруб",
+					["classEnglish"] = "DRUID",
+					["mobCount"] = 28,
+					["enteredLevel"] = 56,
+				}, -- [15]
+				{
+					["leftMoney"] = 0,
+					["group"] = {
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1622115623,
+					["enteredXP"] = 66356,
+					["xpFromChat"] = 0,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 1843450,
+					["rep"] = {
+					},
+					["enteredTime"] = 1622114037,
+					["instanceID"] = 309,
+					["leftXP"] = 0,
+					["leftLevel"] = 56,
+					["rawMoneyCount"] = 0,
+					["instanceName"] = "Зул'Гуруб",
+					["classEnglish"] = "DRUID",
+					["mobCount"] = 0,
+					["enteredLevel"] = 56,
+				}, -- [16]
+				{
+					["GUID"] = "Creature-0-4457-309-8427-11350-000AAE32CE",
+					["leftMoney"] = 0,
+					["group"] = {
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1622030378,
+					["enteredXP"] = 66356,
+					["xpFromChat"] = 0,
+					["zoneID"] = 8427,
+					["enteredTime"] = 1622029468,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 1843450,
+					["rep"] = {
+					},
+					["leftXP"] = 0,
+					["instanceID"] = 309,
+					["mobCount"] = 0,
+					["leftLevel"] = 56,
+					["classEnglish"] = "DRUID",
+					["instanceName"] = "Зул'Гуруб",
+					["rawMoneyCount"] = 0,
+					["GUIDSource"] = "nameplate1",
+					["enteredLevel"] = 56,
+				}, -- [17]
+				{
+					["leftMoney"] = 0,
+					["group"] = {
+						["Еве"] = {
+							["classEnglish"] = "DRUID",
+							["level"] = 19,
+							["name"] = "Еве",
+							["class"] = "Друид",
+						},
+						["Оод"] = {
+							["classEnglish"] = "DRUID",
+							["level"] = 56,
+							["name"] = "Оод",
+							["class"] = "Друид",
+						},
+						["Каспиголд"] = {
+							["classEnglish"] = "WARRIOR",
+							["level"] = 1,
+							["name"] = "Каспиголд",
+							["class"] = "Воин",
+						},
+						["Мадина"] = {
+							["classEnglish"] = "MAGE",
+							["level"] = 60,
+							["name"] = "Мадина",
+							["class"] = "Маг",
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1622029195,
+					["groupAverage"] = 38.4,
+					["enteredXP"] = 66356,
+					["xpFromChat"] = 0,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 1843450,
+					["rep"] = {
+					},
+					["enteredTime"] = 1622029007,
+					["instanceID"] = 309,
+					["leftXP"] = 0,
+					["leftLevel"] = 56,
+					["rawMoneyCount"] = 0,
+					["instanceName"] = "Зул'Гуруб",
+					["classEnglish"] = "DRUID",
+					["mobCount"] = 0,
+					["enteredLevel"] = 56,
+				}, -- [18]
+				{
+					["GUID"] = "Creature-0-4459-309-5779-11350-0002AE3090",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Еве"] = {
+							["class"] = "Друид",
+							["level"] = 19,
+							["name"] = "Еве",
+							["classEnglish"] = "DRUID",
+						},
+						["Оод"] = {
+							["class"] = "Друид",
+							["level"] = 56,
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
+						},
+						["Каспиголд"] = {
+							["class"] = "Воин",
+							["level"] = 1,
+							["name"] = "Каспиголд",
+							["classEnglish"] = "WARRIOR",
+						},
+						["Мадина"] = {
+							["class"] = "Маг",
+							["level"] = 60,
+							["name"] = "Мадина",
+							["classEnglish"] = "MAGE",
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1622028991,
+					["groupAverage"] = 38.4,
+					["enteredXP"] = 66356,
+					["xpFromChat"] = 0,
+					["zoneID"] = 5779,
+					["enteredTime"] = 1622028821,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 1843450,
+					["rep"] = {
+					},
+					["leftXP"] = 0,
+					["instanceID"] = 309,
+					["mobCount"] = 0,
+					["leftLevel"] = 56,
+					["classEnglish"] = "DRUID",
+					["instanceName"] = "Зул'Гуруб",
+					["rawMoneyCount"] = 0,
+					["GUIDSource"] = "nameplate1",
+					["enteredLevel"] = 56,
+				}, -- [19]
+				{
+					["leftMoney"] = 0,
+					["group"] = {
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1622028460,
+					["enteredXP"] = 66356,
+					["xpFromChat"] = 0,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 1843450,
+					["rep"] = {
+					},
+					["enteredTime"] = 1622028433,
+					["instanceID"] = 309,
+					["leftXP"] = 0,
+					["leftLevel"] = 56,
+					["rawMoneyCount"] = 0,
+					["instanceName"] = "Зул'Гуруб",
+					["classEnglish"] = "DRUID",
+					["mobCount"] = 0,
+					["enteredLevel"] = 56,
+				}, -- [20]
+				{
+					["GUID"] = "Creature-0-5571-309-14023-11372-0005AE2D66",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Еве"] = {
+							["classEnglish"] = "DRUID",
+							["class"] = "Друид",
+							["name"] = "Еве",
+							["level"] = 19,
 						},
 						["Оод"] = {
 							["classEnglish"] = "DRUID",
 							["class"] = "Друид",
 							["name"] = "Оод",
-							["level"] = 51,
+							["level"] = 56,
 						},
-						["Ордафуита"] = {
+						["Каспиголд"] = {
+							["classEnglish"] = "WARRIOR",
+							["class"] = "Воин",
+							["name"] = "Каспиголд",
+							["level"] = 1,
+						},
+						["Мадина"] = {
+							["classEnglish"] = "MAGE",
+							["class"] = "Маг",
+							["name"] = "Мадина",
+							["level"] = 60,
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1622028041,
+					["groupAverage"] = 38.4,
+					["enteredXP"] = 66356,
+					["xpFromChat"] = 0,
+					["zoneID"] = 14023,
+					["enteredTime"] = 1622027633,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 1843450,
+					["rep"] = {
+					},
+					["leftXP"] = 0,
+					["instanceID"] = 309,
+					["mobCount"] = 0,
+					["leftLevel"] = 56,
+					["classEnglish"] = "DRUID",
+					["instanceName"] = "Зул'Гуруб",
+					["rawMoneyCount"] = 0,
+					["GUIDSource"] = "combatLog",
+					["enteredLevel"] = 56,
+				}, -- [21]
+				{
+					["GUID"] = "Creature-0-4480-309-6205-15043-0009AE2990",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Еве"] = {
+							["class"] = "Друид",
+							["classEnglish"] = "DRUID",
+							["name"] = "Еве",
+							["level"] = 19,
+						},
+						["Оод"] = {
+							["class"] = "Друид",
+							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 56,
+						},
+						["Каспиголд"] = {
+							["class"] = "Воин",
+							["classEnglish"] = "WARRIOR",
+							["name"] = "Каспиголд",
+							["level"] = 1,
+						},
+						["Мадина"] = {
+							["class"] = "Маг",
+							["classEnglish"] = "MAGE",
+							["name"] = "Мадина",
+							["level"] = 60,
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1622027349,
+					["groupAverage"] = 38.4,
+					["enteredXP"] = 66356,
+					["xpFromChat"] = 0,
+					["zoneID"] = 6205,
+					["leftXP"] = 0,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 1843450,
+					["rep"] = {
+					},
+					["enteredTime"] = 1622026662,
+					["instanceID"] = 309,
+					["GUIDSource"] = "combatLog",
+					["leftLevel"] = 56,
+					["rawMoneyCount"] = 0,
+					["instanceName"] = "Зул'Гуруб",
+					["classEnglish"] = "DRUID",
+					["mobCount"] = 0,
+					["enteredLevel"] = 56,
+				}, -- [22]
+				{
+					["GUID"] = "Creature-0-5571-309-12379-11350-0005AE25C9",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Еве"] = {
+							["class"] = "Друид",
+							["classEnglish"] = "DRUID",
+							["name"] = "Еве",
+							["level"] = 19,
+						},
+						["Оод"] = {
+							["class"] = "Друид",
+							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 56,
+						},
+						["Мадина"] = {
+							["class"] = "Маг",
+							["classEnglish"] = "MAGE",
+							["name"] = "Мадина",
+							["level"] = 60,
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1622026450,
+					["groupAverage"] = 47.75,
+					["enteredXP"] = 66010,
+					["xpFromChat"] = 346,
+					["zoneID"] = 12379,
+					["leftXP"] = 0,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 1843450,
+					["rep"] = {
+					},
+					["enteredTime"] = 1622025674,
+					["instanceID"] = 309,
+					["GUIDSource"] = "mouseover",
+					["leftLevel"] = 56,
+					["rawMoneyCount"] = 0,
+					["instanceName"] = "Зул'Гуруб",
+					["classEnglish"] = "DRUID",
+					["mobCount"] = 1,
+					["enteredLevel"] = 56,
+				}, -- [23]
+				{
+					["GUID"] = "Creature-0-5571-309-11958-11372-0008AE2341",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Еве"] = {
+							["classEnglish"] = "DRUID",
+							["class"] = "Друид",
+							["name"] = "Еве",
+							["level"] = 19,
+						},
+						["Оод"] = {
+							["classEnglish"] = "DRUID",
+							["class"] = "Друид",
+							["name"] = "Оод",
+							["level"] = 56,
+						},
+						["Мадина"] = {
+							["classEnglish"] = "MAGE",
+							["class"] = "Маг",
+							["name"] = "Мадина",
+							["level"] = 60,
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1622025660,
+					["groupAverage"] = 47.75,
+					["enteredXP"] = 66010,
+					["xpFromChat"] = 0,
+					["zoneID"] = 11958,
+					["enteredTime"] = 1622025025,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 1843450,
+					["rep"] = {
+					},
+					["leftXP"] = 0,
+					["instanceID"] = 309,
+					["mobCount"] = 0,
+					["leftLevel"] = 56,
+					["classEnglish"] = "DRUID",
+					["instanceName"] = "Зул'Гуруб",
+					["rawMoneyCount"] = 0,
+					["GUIDSource"] = "mouseover",
+					["enteredLevel"] = 56,
+				}, -- [24]
+				{
+					["GUID"] = "Creature-0-4480-309-5201-11350-00022E219D",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Еве"] = {
+							["class"] = "Друид",
+							["classEnglish"] = "DRUID",
+							["name"] = "Еве",
+							["level"] = 19,
+						},
+						["Оод"] = {
+							["class"] = "Друид",
+							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 56,
+						},
+						["Мадина"] = {
+							["class"] = "Маг",
+							["classEnglish"] = "MAGE",
+							["name"] = "Мадина",
+							["level"] = 60,
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1622025013,
+					["groupAverage"] = 47.75,
+					["enteredXP"] = 66010,
+					["xpFromChat"] = 0,
+					["zoneID"] = 5201,
+					["leftXP"] = 0,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 1843450,
+					["rep"] = {
+					},
+					["enteredTime"] = 1622024606,
+					["instanceID"] = 309,
+					["GUIDSource"] = "nameplate1",
+					["leftLevel"] = 56,
+					["rawMoneyCount"] = 0,
+					["instanceName"] = "Зул'Гуруб",
+					["classEnglish"] = "DRUID",
+					["mobCount"] = 0,
+					["enteredLevel"] = 56,
+				}, -- [25]
+				{
+					["leftMoney"] = 0,
+					["group"] = {
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1621955162,
+					["enteredXP"] = 66010,
+					["xpFromChat"] = 0,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 1745778,
+					["rep"] = {
+					},
+					["enteredTime"] = 1621954818,
+					["instanceID"] = 309,
+					["leftXP"] = 0,
+					["leftLevel"] = 56,
+					["rawMoneyCount"] = 0,
+					["instanceName"] = "Зул'Гуруб",
+					["classEnglish"] = "DRUID",
+					["mobCount"] = 0,
+					["enteredLevel"] = 56,
+				}, -- [26]
+				{
+					["GUID"] = "Creature-0-4480-309-631-11350-00042D0BA2",
+					["leftMoney"] = 0,
+					["group"] = {
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1621954223,
+					["enteredXP"] = 66010,
+					["xpFromChat"] = 0,
+					["zoneID"] = 631,
+					["leftXP"] = 0,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 1745778,
+					["rep"] = {
+					},
+					["enteredTime"] = 1621953453,
+					["instanceID"] = 309,
+					["GUIDSource"] = "nameplate1",
+					["leftLevel"] = 56,
+					["rawMoneyCount"] = 0,
+					["instanceName"] = "Зул'Гуруб",
+					["classEnglish"] = "DRUID",
+					["mobCount"] = 0,
+					["enteredLevel"] = 56,
+				}, -- [27]
+				{
+					["GUID"] = "Creature-0-5571-309-30007-11350-0001ACF580",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Дизейм"] = {
+							["name"] = "Дизейм",
+							["guildName"] = "Сибирский Легион",
+							["classEnglish"] = "SHAMAN",
+							["level"] = 52,
+							["class"] = "Шаманка",
+						},
+						["Мадина"] = {
+							["class"] = "Маг",
+							["classEnglish"] = "MAGE",
+							["name"] = "Мадина",
+							["level"] = 60,
+						},
+						["Еве"] = {
+							["class"] = "Друид",
+							["classEnglish"] = "DRUID",
+							["name"] = "Еве",
+							["level"] = 19,
+						},
+						["Неизвестно"] = {
+							["name"] = "Неизвестно",
+							["level"] = 0,
+						},
+						["Оод"] = {
+							["class"] = "Друид",
+							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 56,
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1621953247,
+					["groupAverage"] = 48.6,
+					["enteredXP"] = 66010,
+					["xpFromChat"] = 0,
+					["zoneID"] = 30007,
+					["enteredTime"] = 1621947777,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 2045778,
+					["rep"] = {
+					},
+					["leftXP"] = 0,
+					["instanceID"] = 309,
+					["mobCount"] = 0,
+					["leftLevel"] = 56,
+					["classEnglish"] = "DRUID",
+					["instanceName"] = "Зул'Гуруб",
+					["rawMoneyCount"] = 0,
+					["GUIDSource"] = "combatLog",
+					["enteredLevel"] = 56,
+				}, -- [28]
+				{
+					["GUID"] = "Creature-0-4459-309-15611-11350-0006ACF2A5",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Еве"] = {
+							["classEnglish"] = "DRUID",
+							["class"] = "Друид",
+							["name"] = "Еве",
+							["level"] = 19,
+						},
+						["Оод"] = {
+							["classEnglish"] = "DRUID",
+							["class"] = "Друид",
+							["name"] = "Оод",
+							["level"] = 56,
+						},
+						["Дизейм"] = {
+							["name"] = "Дизейм",
+							["guildName"] = "Сибирский Легион",
+							["classEnglish"] = "SHAMAN",
+							["class"] = "Шаманка",
+							["level"] = 52,
+						},
+						["Мадина"] = {
+							["classEnglish"] = "MAGE",
+							["class"] = "Маг",
+							["name"] = "Мадина",
+							["level"] = 60,
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1621947759,
+					["groupAverage"] = 48.6,
+					["enteredXP"] = 56089,
+					["xpFromChat"] = 9921,
+					["zoneID"] = 15611,
+					["leftXP"] = 0,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 2045778,
+					["rep"] = {
+					},
+					["enteredTime"] = 1621947053,
+					["instanceID"] = 309,
+					["GUIDSource"] = "nameplate1",
+					["leftLevel"] = 56,
+					["rawMoneyCount"] = 0,
+					["instanceName"] = "Зул'Гуруб",
+					["classEnglish"] = "DRUID",
+					["mobCount"] = 19,
+					["enteredLevel"] = 56,
+				}, -- [29]
+				{
+					["GUID"] = "Creature-0-4459-309-15203-11372-00072CF00B",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Еве"] = {
+							["class"] = "Друид",
+							["classEnglish"] = "DRUID",
+							["name"] = "Еве",
+							["level"] = 19,
+						},
+						["Оод"] = {
+							["class"] = "Друид",
+							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 56,
+						},
+						["Дизейм"] = {
+							["name"] = "Дизейм",
+							["guildName"] = "Сибирский Легион",
+							["classEnglish"] = "SHAMAN",
+							["level"] = 52,
+							["class"] = "Шаманка",
+						},
+						["Мадина"] = {
+							["class"] = "Маг",
+							["classEnglish"] = "MAGE",
+							["name"] = "Мадина",
+							["level"] = 60,
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1621946961,
+					["groupAverage"] = 48.6,
+					["enteredXP"] = 47167,
+					["xpFromChat"] = 8922,
+					["zoneID"] = 15203,
+					["enteredTime"] = 1621946386,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 2045778,
+					["rep"] = {
+					},
+					["leftXP"] = 0,
+					["instanceID"] = 309,
+					["mobCount"] = 17,
+					["leftLevel"] = 56,
+					["classEnglish"] = "DRUID",
+					["instanceName"] = "Зул'Гуруб",
+					["rawMoneyCount"] = 0,
+					["GUIDSource"] = "mouseover",
+					["enteredLevel"] = 56,
+				}, -- [30]
+				{
+					["GUID"] = "Creature-0-5571-309-27740-11371-00082CE85D",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Еве"] = {
+							["level"] = 19,
+							["class"] = "Друид",
+							["name"] = "Еве",
+							["classEnglish"] = "DRUID",
+						},
+						["Оод"] = {
+							["level"] = 56,
+							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
+						},
+						["Дизейм"] = {
+							["name"] = "Дизейм",
+							["guildName"] = "Сибирский Легион",
+							["classEnglish"] = "SHAMAN",
+							["level"] = 52,
+							["class"] = "Шаманка",
+						},
+						["Мадина"] = {
+							["level"] = 60,
+							["class"] = "Маг",
+							["name"] = "Мадина",
+							["classEnglish"] = "MAGE",
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1621944899,
+					["groupAverage"] = 48.6,
+					["enteredXP"] = 37249,
+					["xpFromChat"] = 9918,
+					["zoneID"] = 27740,
+					["enteredTime"] = 1621944416,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 2045778,
+					["rep"] = {
+					},
+					["leftXP"] = 0,
+					["instanceID"] = 309,
+					["mobCount"] = 19,
+					["leftLevel"] = 56,
+					["classEnglish"] = "DRUID",
+					["instanceName"] = "Зул'Гуруб",
+					["rawMoneyCount"] = 0,
+					["GUIDSource"] = "mouseover",
+					["enteredLevel"] = 56,
+				}, -- [31]
+				{
+					["GUID"] = "Creature-0-4458-309-12283-11350-0008ACE64A",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Еве"] = {
+							["classEnglish"] = "DRUID",
+							["level"] = 19,
+							["name"] = "Еве",
+							["class"] = "Друид",
+						},
+						["Оод"] = {
+							["classEnglish"] = "DRUID",
+							["level"] = 56,
+							["name"] = "Оод",
+							["class"] = "Друид",
+						},
+						["Дизейм"] = {
+							["name"] = "Дизейм",
+							["guildName"] = "Сибирский Легион",
+							["classEnglish"] = "SHAMAN",
+							["class"] = "Шаманка",
+							["level"] = 52,
+						},
+						["Мадина"] = {
+							["classEnglish"] = "MAGE",
+							["level"] = 60,
+							["name"] = "Мадина",
+							["class"] = "Маг",
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1621944393,
+					["groupAverage"] = 48.6,
+					["enteredXP"] = 26809,
+					["xpFromChat"] = 10440,
+					["zoneID"] = 12283,
+					["leftXP"] = 0,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 2045778,
+					["rep"] = {
+					},
+					["enteredTime"] = 1621943888,
+					["instanceID"] = 309,
+					["GUIDSource"] = "nameplate1",
+					["leftLevel"] = 56,
+					["rawMoneyCount"] = 0,
+					["instanceName"] = "Зул'Гуруб",
+					["classEnglish"] = "DRUID",
+					["mobCount"] = 20,
+					["enteredLevel"] = 56,
+				}, -- [32]
+				{
+					["GUID"] = "Creature-0-4460-309-9174-11372-00002CE414",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Еве"] = {
+							["class"] = "Друид",
+							["level"] = 19,
+							["name"] = "Еве",
+							["classEnglish"] = "DRUID",
+						},
+						["Оод"] = {
+							["class"] = "Друид",
+							["level"] = 56,
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
+						},
+						["Дизейм"] = {
+							["name"] = "Дизейм",
+							["guildName"] = "Сибирский Легион",
+							["classEnglish"] = "SHAMAN",
+							["level"] = 52,
+							["class"] = "Шаманка",
+						},
+						["Мадина"] = {
+							["class"] = "Маг",
+							["level"] = 60,
+							["name"] = "Мадина",
+							["classEnglish"] = "MAGE",
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1621943860,
+					["groupAverage"] = 48.6,
+					["enteredXP"] = 16891,
+					["xpFromChat"] = 9918,
+					["zoneID"] = 9174,
+					["enteredTime"] = 1621943318,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 2045778,
+					["rep"] = {
+					},
+					["leftXP"] = 0,
+					["instanceID"] = 309,
+					["mobCount"] = 19,
+					["leftLevel"] = 56,
+					["classEnglish"] = "DRUID",
+					["instanceName"] = "Зул'Гуруб",
+					["rawMoneyCount"] = 0,
+					["GUIDSource"] = "combatLog",
+					["enteredLevel"] = 56,
+				}, -- [33]
+				{
+					["GUID"] = "Creature-0-5571-309-26683-11350-0000ACE1E2",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Еве"] = {
+							["classEnglish"] = "DRUID",
+							["level"] = 19,
+							["name"] = "Еве",
+							["class"] = "Друид",
+						},
+						["Оод"] = {
+							["classEnglish"] = "DRUID",
+							["level"] = 56,
+							["name"] = "Оод",
+							["class"] = "Друид",
+						},
+						["Дизейм"] = {
+							["name"] = "Дизейм",
+							["guildName"] = "Сибирский Легион",
+							["classEnglish"] = "SHAMAN",
+							["class"] = "Шаманка",
+							["level"] = 52,
+						},
+						["Мадина"] = {
+							["classEnglish"] = "MAGE",
+							["level"] = 60,
+							["name"] = "Мадина",
+							["class"] = "Маг",
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1621943293,
+					["groupAverage"] = 48.6,
+					["enteredXP"] = 6451,
+					["xpFromChat"] = 10440,
+					["zoneID"] = 26683,
+					["leftXP"] = 0,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 2045778,
+					["rep"] = {
+					},
+					["enteredTime"] = 1621942759,
+					["instanceID"] = 309,
+					["GUIDSource"] = "nameplate1",
+					["leftLevel"] = 56,
+					["rawMoneyCount"] = 0,
+					["instanceName"] = "Зул'Гуруб",
+					["classEnglish"] = "DRUID",
+					["mobCount"] = 20,
+					["enteredLevel"] = 56,
+				}, -- [34]
+				{
+					["GUID"] = "Creature-0-4459-309-11574-11350-0007ACD8A8",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Еве"] = {
+							["class"] = "Друид",
+							["level"] = 19,
+							["name"] = "Еве",
+							["classEnglish"] = "DRUID",
+						},
+						["Оод"] = {
+							["class"] = "Друид",
+							["level"] = 56,
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
+						},
+						["Дизейм"] = {
+							["name"] = "Дизейм",
+							["guildName"] = "Сибирский Легион",
+							["classEnglish"] = "SHAMAN",
+							["level"] = 52,
+							["class"] = "Шаманка",
+						},
+						["Мадина"] = {
+							["class"] = "Маг",
+							["level"] = 60,
+							["name"] = "Мадина",
+							["classEnglish"] = "MAGE",
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1621942742,
+					["groupAverage"] = 48.6,
+					["enteredXP"] = 144338,
+					["xpFromChat"] = 10313,
+					["zoneID"] = 11574,
+					["enteredTime"] = 1621942150,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 2045778,
+					["rep"] = {
+					},
+					["leftXP"] = 0,
+					["instanceID"] = 309,
+					["mobCount"] = 20,
+					["leftLevel"] = 55,
+					["classEnglish"] = "DRUID",
+					["instanceName"] = "Зул'Гуруб",
+					["rawMoneyCount"] = 0,
+					["GUIDSource"] = "combatLog",
+					["enteredLevel"] = 55,
+				}, -- [35]
+				{
+					["GUID"] = "Creature-0-4459-309-10482-11372-00032CD143",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Еве"] = {
+							["class"] = "Друид",
+							["classEnglish"] = "DRUID",
+							["name"] = "Еве",
+							["level"] = 19,
+						},
+						["Оод"] = {
+							["class"] = "Друид",
+							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 55,
+						},
+						["Мадина"] = {
+							["class"] = "Маг",
+							["classEnglish"] = "MAGE",
+							["name"] = "Мадина",
+							["level"] = 60,
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1621940380,
+					["groupAverage"] = 47.25,
+					["enteredXP"] = 133106,
+					["xpFromChat"] = 11232,
+					["zoneID"] = 10482,
+					["leftXP"] = 0,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 2045778,
+					["rep"] = {
+					},
+					["enteredTime"] = 1621938499,
+					["instanceID"] = 309,
+					["GUIDSource"] = "mouseover",
+					["leftLevel"] = 55,
+					["rawMoneyCount"] = 0,
+					["instanceName"] = "Зул'Гуруб",
+					["classEnglish"] = "DRUID",
+					["mobCount"] = 18,
+					["enteredLevel"] = 55,
+				}, -- [36]
+				{
+					["GUID"] = "Creature-0-4459-309-10186-2914-00032CCF3B",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Еве"] = {
+							["level"] = 19,
+							["class"] = "Друид",
+							["name"] = "Еве",
+							["classEnglish"] = "DRUID",
+						},
+						["Оод"] = {
+							["level"] = 55,
+							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
+						},
+						["Мадина"] = {
+							["level"] = 60,
+							["class"] = "Маг",
+							["name"] = "Мадина",
+							["classEnglish"] = "MAGE",
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1621938488,
+					["groupAverage"] = 47.25,
+					["enteredXP"] = 121874,
+					["xpFromChat"] = 11232,
+					["zoneID"] = 10186,
+					["enteredTime"] = 1621937979,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 2045778,
+					["rep"] = {
+					},
+					["leftXP"] = 0,
+					["instanceID"] = 309,
+					["mobCount"] = 18,
+					["leftLevel"] = 55,
+					["classEnglish"] = "DRUID",
+					["instanceName"] = "Зул'Гуруб",
+					["rawMoneyCount"] = 0,
+					["GUIDSource"] = "mouseover",
+					["enteredLevel"] = 55,
+				}, -- [37]
+				{
+					["GUID"] = "Creature-0-4459-309-9574-11371-0000ACCB06",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Еве"] = {
+							["classEnglish"] = "DRUID",
+							["level"] = 19,
+							["name"] = "Еве",
+							["class"] = "Друид",
+						},
+						["Оод"] = {
+							["classEnglish"] = "DRUID",
+							["level"] = 55,
+							["name"] = "Оод",
+							["class"] = "Друид",
+						},
+						["Мадина"] = {
+							["classEnglish"] = "MAGE",
+							["level"] = 60,
+							["name"] = "Мадина",
+							["class"] = "Маг",
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1621937966,
+					["groupAverage"] = 47.25,
+					["enteredXP"] = 111266,
+					["xpFromChat"] = 10608,
+					["zoneID"] = 9574,
+					["leftXP"] = 0,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 2045778,
+					["rep"] = {
+					},
+					["enteredTime"] = 1621936903,
+					["instanceID"] = 309,
+					["GUIDSource"] = "mouseover",
+					["leftLevel"] = 55,
+					["rawMoneyCount"] = 0,
+					["instanceName"] = "Зул'Гуруб",
+					["classEnglish"] = "DRUID",
+					["mobCount"] = 17,
+					["enteredLevel"] = 55,
+				}, -- [38]
+				{
+					["GUID"] = "Creature-0-4460-309-3350-11372-0000ACC91C",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Еве"] = {
+							["class"] = "Друид",
+							["classEnglish"] = "DRUID",
+							["name"] = "Еве",
+							["level"] = 19,
+						},
+						["Оод"] = {
+							["class"] = "Друид",
+							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 55,
+						},
+						["Мадина"] = {
+							["class"] = "Маг",
+							["classEnglish"] = "MAGE",
+							["name"] = "Мадина",
+							["level"] = 60,
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1621936891,
+					["groupAverage"] = 47.25,
+					["enteredXP"] = 99411,
+					["xpFromChat"] = 11855,
+					["zoneID"] = 3350,
+					["enteredTime"] = 1621936412,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 2045778,
+					["rep"] = {
+					},
+					["leftXP"] = 0,
+					["instanceID"] = 309,
+					["mobCount"] = 19,
+					["leftLevel"] = 55,
+					["classEnglish"] = "DRUID",
+					["instanceName"] = "Зул'Гуруб",
+					["rawMoneyCount"] = 0,
+					["GUIDSource"] = "combatLog",
+					["enteredLevel"] = 55,
+				}, -- [39]
+				{
+					["GUID"] = "Creature-0-4459-309-9013-11350-0001ACC717",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Еве"] = {
+							["class"] = "Друид",
+							["classEnglish"] = "DRUID",
+							["name"] = "Еве",
+							["level"] = 0,
+						},
+						["Оод"] = {
+							["class"] = "Друид",
+							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 55,
+						},
+						["Мадина"] = {
+							["class"] = "Маг",
+							["classEnglish"] = "MAGE",
+							["name"] = "Мадина",
+							["level"] = 60,
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1621936362,
+					["groupAverage"] = 56.66666666666666,
+					["enteredXP"] = 87335,
+					["xpFromChat"] = 12076,
+					["zoneID"] = 9013,
+					["enteredTime"] = 1621935899,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 2045778,
+					["rep"] = {
+					},
+					["leftXP"] = 0,
+					["instanceID"] = 309,
+					["mobCount"] = 19,
+					["leftLevel"] = 55,
+					["classEnglish"] = "DRUID",
+					["instanceName"] = "Зул'Гуруб",
+					["rawMoneyCount"] = 0,
+					["GUIDSource"] = "nameplate1",
+					["enteredLevel"] = 55,
+				}, -- [40]
+				{
+					["GUID"] = "Creature-0-4459-429-4876-11492-00002CA38A",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Оод"] = {
+							["classEnglish"] = "DRUID",
+							["class"] = "Друид",
+							["name"] = "Оод",
+							["level"] = 55,
+						},
+						["Нгазаргаму"] = {
+							["classEnglish"] = "PRIEST",
+							["class"] = "Жрица",
+							["name"] = "Нгазаргаму",
+							["level"] = 59,
+						},
+						["Йоруичи"] = {
+							["name"] = "Йоруичи",
+							["guildName"] = "Фоллоу Ми",
+							["classEnglish"] = "SHAMAN",
+							["class"] = "Шаманка",
+							["level"] = 60,
+						},
+						["Йынь"] = {
 							["classEnglish"] = "HUNTER",
 							["class"] = "Охотник",
-							["name"] = "Ордафуита",
+							["name"] = "Йынь",
+							["level"] = 60,
+						},
+						["Мадина"] = {
+							["classEnglish"] = "MAGE",
+							["class"] = "Маг",
+							["name"] = "Мадина",
+							["level"] = 60,
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1621929231,
+					["groupAverage"] = 58.75,
+					["enteredXP"] = 66607,
+					["xpFromChat"] = 20728,
+					["zoneID"] = 4876,
+					["leftXP"] = 0,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 2025109,
+					["rep"] = {
+					},
+					["enteredTime"] = 1621926851,
+					["instanceID"] = 429,
+					["GUIDSource"] = "mouseover",
+					["leftLevel"] = 55,
+					["rawMoneyCount"] = 14745,
+					["instanceName"] = "Забытый Город",
+					["classEnglish"] = "DRUID",
+					["mobCount"] = 166,
+					["enteredLevel"] = 55,
+				}, -- [41]
+				{
+					["GUID"] = "Creature-0-5571-309-16226-11372-00002C9441",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Еве"] = {
+							["classEnglish"] = "DRUID",
+							["level"] = 19,
+							["name"] = "Еве",
+							["class"] = "Друид",
+						},
+						["Оод"] = {
+							["classEnglish"] = "DRUID",
+							["level"] = 55,
+							["name"] = "Оод",
+							["class"] = "Друид",
+						},
+						["Мадина"] = {
+							["classEnglish"] = "MAGE",
+							["level"] = 60,
+							["name"] = "Мадина",
+							["class"] = "Маг",
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1621923967,
+					["groupAverage"] = 47.25,
+					["enteredXP"] = 57868,
+					["xpFromChat"] = 8739,
+					["zoneID"] = 16226,
+					["leftXP"] = 0,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 2290747,
+					["rep"] = {
+					},
+					["enteredTime"] = 1621922881,
+					["instanceID"] = 309,
+					["GUIDSource"] = "mouseover",
+					["leftLevel"] = 55,
+					["rawMoneyCount"] = 0,
+					["instanceName"] = "Зул'Гуруб",
+					["classEnglish"] = "DRUID",
+					["mobCount"] = 14,
+					["enteredLevel"] = 55,
+				}, -- [42]
+				{
+					["GUID"] = "Creature-0-4459-309-3452-11350-0001AC9198",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Еве"] = {
+							["class"] = "Друид",
+							["classEnglish"] = "DRUID",
+							["name"] = "Еве",
+							["level"] = 19,
+						},
+						["Оод"] = {
+							["class"] = "Друид",
+							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 55,
+						},
+						["Мадина"] = {
+							["class"] = "Маг",
+							["classEnglish"] = "MAGE",
+							["name"] = "Мадина",
+							["level"] = 60,
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1621922763,
+					["groupAverage"] = 47.25,
+					["enteredXP"] = 49755,
+					["xpFromChat"] = 8113,
+					["zoneID"] = 3452,
+					["enteredTime"] = 1621922201,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 2290747,
+					["rep"] = {
+					},
+					["leftXP"] = 0,
+					["instanceID"] = 309,
+					["mobCount"] = 13,
+					["leftLevel"] = 55,
+					["classEnglish"] = "DRUID",
+					["instanceName"] = "Зул'Гуруб",
+					["rawMoneyCount"] = 0,
+					["GUIDSource"] = "combatLog",
+					["enteredLevel"] = 55,
+				}, -- [43]
+				{
+					["GUID"] = "Creature-0-4460-309-25892-11350-0002AC8EA6",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Еве"] = {
+							["level"] = 19,
+							["class"] = "Друид",
+							["name"] = "Еве",
+							["classEnglish"] = "DRUID",
+						},
+						["Оод"] = {
+							["level"] = 55,
+							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
+						},
+						["Мадина"] = {
+							["level"] = 60,
+							["class"] = "Маг",
+							["name"] = "Мадина",
+							["classEnglish"] = "MAGE",
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1621922159,
+					["groupAverage"] = 47.25,
+					["enteredXP"] = 38524,
+					["xpFromChat"] = 11231,
+					["zoneID"] = 25892,
+					["leftXP"] = 0,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 2290747,
+					["rep"] = {
+					},
+					["enteredTime"] = 1621921447,
+					["instanceID"] = 309,
+					["GUIDSource"] = "nameplate1",
+					["leftLevel"] = 55,
+					["rawMoneyCount"] = 0,
+					["instanceName"] = "Зул'Гуруб",
+					["classEnglish"] = "DRUID",
+					["mobCount"] = 18,
+					["enteredLevel"] = 55,
+				}, -- [44]
+				{
+					["GUID"] = "Creature-0-4460-309-25179-11372-00032C89E4",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Еве"] = {
+							["classEnglish"] = "DRUID",
+							["level"] = 19,
+							["name"] = "Еве",
+							["class"] = "Друид",
+						},
+						["Оод"] = {
+							["classEnglish"] = "DRUID",
+							["level"] = 55,
+							["name"] = "Оод",
+							["class"] = "Друид",
+						},
+						["Мадина"] = {
+							["classEnglish"] = "MAGE",
+							["level"] = 60,
+							["name"] = "Мадина",
+							["class"] = "Маг",
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1621921433,
+					["groupAverage"] = 47.25,
+					["enteredXP"] = 27784,
+					["xpFromChat"] = 10740,
+					["zoneID"] = 25179,
+					["enteredTime"] = 1621920228,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 2290747,
+					["rep"] = {
+					},
+					["leftXP"] = 0,
+					["instanceID"] = 309,
+					["mobCount"] = 17,
+					["leftLevel"] = 55,
+					["classEnglish"] = "DRUID",
+					["instanceName"] = "Зул'Гуруб",
+					["rawMoneyCount"] = 0,
+					["GUIDSource"] = "mouseover",
+					["enteredLevel"] = 55,
+				}, -- [45]
+				{
+					["GUID"] = "Creature-0-4460-309-24858-11371-00012C8762",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Еве"] = {
+							["class"] = "Друид",
+							["level"] = 19,
+							["name"] = "Еве",
+							["classEnglish"] = "DRUID",
+						},
+						["Оод"] = {
+							["class"] = "Друид",
+							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 55,
+						},
+						["Мадина"] = {
+							["class"] = "Маг",
+							["classEnglish"] = "MAGE",
+							["name"] = "Мадина",
+							["level"] = 59,
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1621920216,
+					["groupAverage"] = 47,
+					["enteredXP"] = 14693,
+					["xpFromChat"] = 13091,
+					["zoneID"] = 24858,
+					["leftXP"] = 0,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 2290747,
+					["rep"] = {
+					},
+					["enteredTime"] = 1621919588,
+					["instanceID"] = 309,
+					["GUIDSource"] = "mouseover",
+					["leftLevel"] = 55,
+					["rawMoneyCount"] = 0,
+					["instanceName"] = "Зул'Гуруб",
+					["classEnglish"] = "DRUID",
+					["mobCount"] = 18,
+					["enteredLevel"] = 55,
+				}, -- [46]
+				{
+					["GUID"] = "Creature-0-4458-309-24548-11372-0004ABCD4A",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Еве"] = {
+							["level"] = 19,
+							["class"] = "Друид",
+							["name"] = "Еве",
+							["classEnglish"] = "DRUID",
+						},
+						["Оод"] = {
+							["level"] = 55,
+							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
+						},
+						["Мадина"] = {
+							["level"] = 59,
+							["class"] = "Маг",
+							["name"] = "Мадина",
+							["classEnglish"] = "MAGE",
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1621872406,
+					["groupAverage"] = 47,
+					["enteredXP"] = 5692,
+					["xpFromChat"] = 9001,
+					["zoneID"] = 24548,
+					["enteredTime"] = 1621871962,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 2290747,
+					["rep"] = {
+					},
+					["leftXP"] = 0,
+					["instanceID"] = 309,
+					["mobCount"] = 14,
+					["leftLevel"] = 55,
+					["classEnglish"] = "DRUID",
+					["instanceName"] = "Зул'Гуруб",
+					["rawMoneyCount"] = 0,
+					["GUIDSource"] = "mouseover",
+					["enteredLevel"] = 55,
+				}, -- [47]
+				{
+					["GUID"] = "Creature-0-4460-309-20253-11350-00092BC8CF",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Еве"] = {
+							["class"] = "Друид",
+							["classEnglish"] = "DRUID",
+							["name"] = "Еве",
+							["level"] = 19,
+						},
+						["Оод"] = {
+							["class"] = "Друид",
+							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 55,
+						},
+						["Мадина"] = {
+							["class"] = "Маг",
+							["classEnglish"] = "MAGE",
+							["name"] = "Мадина",
+							["level"] = 59,
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1621871884,
+					["groupAverage"] = 47,
+					["enteredXP"] = 139297,
+					["xpFromChat"] = 8895,
+					["zoneID"] = 20253,
+					["enteredTime"] = 1621870814,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 2290747,
+					["rep"] = {
+					},
+					["leftXP"] = 0,
+					["instanceID"] = 309,
+					["mobCount"] = 14,
+					["leftLevel"] = 54,
+					["classEnglish"] = "DRUID",
+					["instanceName"] = "Зул'Гуруб",
+					["rawMoneyCount"] = 0,
+					["GUIDSource"] = "combatLog",
+					["enteredLevel"] = 54,
+				}, -- [48]
+				{
+					["GUID"] = "Creature-0-5571-309-19497-1420-0000ABC67E",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Еве"] = {
+							["classEnglish"] = "DRUID",
+							["class"] = "Друид",
+							["name"] = "Еве",
+							["level"] = 19,
+						},
+						["Оод"] = {
+							["classEnglish"] = "DRUID",
+							["class"] = "Друид",
+							["name"] = "Оод",
+							["level"] = 54,
+						},
+						["Мадина"] = {
+							["classEnglish"] = "MAGE",
+							["class"] = "Маг",
+							["name"] = "Мадина",
+							["level"] = 59,
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1621870786,
+					["groupAverage"] = 46.5,
+					["enteredXP"] = 129876,
+					["xpFromChat"] = 9421,
+					["zoneID"] = 19497,
+					["leftXP"] = 0,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 2290747,
+					["rep"] = {
+					},
+					["enteredTime"] = 1621870216,
+					["instanceID"] = 309,
+					["GUIDSource"] = "mouseover",
+					["leftLevel"] = 54,
+					["rawMoneyCount"] = 0,
+					["instanceName"] = "Зул'Гуруб",
+					["classEnglish"] = "DRUID",
+					["mobCount"] = 15,
+					["enteredLevel"] = 54,
+				}, -- [49]
+				{
+					["GUID"] = "Creature-0-4479-309-14199-11350-0002ABC3B5",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Еве"] = {
+							["class"] = "Друид",
+							["classEnglish"] = "DRUID",
+							["name"] = "Еве",
+							["level"] = 19,
+						},
+						["Оод"] = {
+							["class"] = "Друид",
+							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 54,
+						},
+						["Мадина"] = {
+							["class"] = "Маг",
+							["classEnglish"] = "MAGE",
+							["name"] = "Мадина",
+							["level"] = 59,
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1621870183,
+					["groupAverage"] = 46.5,
+					["enteredXP"] = 119135,
+					["xpFromChat"] = 10741,
+					["zoneID"] = 14199,
+					["enteredTime"] = 1621869493,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 2290747,
+					["rep"] = {
+					},
+					["leftXP"] = 0,
+					["instanceID"] = 309,
+					["mobCount"] = 15,
+					["leftLevel"] = 54,
+					["classEnglish"] = "DRUID",
+					["instanceName"] = "Зул'Гуруб",
+					["rawMoneyCount"] = 0,
+					["GUIDSource"] = "nameplate1",
+					["enteredLevel"] = 54,
+				}, -- [50]
+				{
+					["GUID"] = "Creature-0-4458-429-10867-11486-00002B706C",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Оод"] = {
+							["class"] = "Друид",
+							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 54,
+						},
+						["Нгазаргаму"] = {
+							["class"] = "Жрица",
+							["classEnglish"] = "PRIEST",
+							["name"] = "Нгазаргаму",
+							["level"] = 59,
+						},
+						["Элринз"] = {
+							["name"] = "Элринз",
+							["guildName"] = "Идущие на Смерть",
+							["classEnglish"] = "PALADIN",
+							["level"] = 60,
+							["class"] = "Паладин",
+						},
+						["Мадина"] = {
+							["class"] = "Маг",
+							["classEnglish"] = "MAGE",
+							["name"] = "Мадина",
+							["level"] = 59,
+						},
+						["Бубкагоп"] = {
+							["class"] = "Охотница",
+							["classEnglish"] = "HUNTER",
+							["name"] = "Бубкагоп",
+							["level"] = 60,
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1621855449,
+					["groupAverage"] = 58,
+					["enteredXP"] = 117404,
+					["xpFromChat"] = 1731,
+					["zoneID"] = 10867,
+					["enteredTime"] = 1621854343,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 2251212,
+					["rep"] = {
+					},
+					["leftXP"] = 0,
+					["instanceID"] = 429,
+					["mobCount"] = 5,
+					["leftLevel"] = 54,
+					["classEnglish"] = "DRUID",
+					["instanceName"] = "Забытый Город",
+					["rawMoneyCount"] = 632,
+					["GUIDSource"] = "mouseover",
+					["enteredLevel"] = 54,
+				}, -- [51]
+				{
+					["leftMoney"] = 0,
+					["group"] = {
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1621854091,
+					["enteredXP"] = 117290,
+					["xpFromChat"] = 0,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 2251036,
+					["rep"] = {
+					},
+					["enteredTime"] = 1621854071,
+					["instanceID"] = 429,
+					["leftXP"] = 0,
+					["leftLevel"] = 54,
+					["rawMoneyCount"] = 0,
+					["instanceName"] = "Забытый Город",
+					["classEnglish"] = "DRUID",
+					["mobCount"] = 0,
+					["enteredLevel"] = 54,
+				}, -- [52]
+				{
+					["GUID"] = "Creature-0-4458-429-10867-11496-00002B706C",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Алесен"] = {
+							["class"] = "Охотница",
+							["classEnglish"] = "HUNTER",
+							["name"] = "Алесен",
+							["level"] = 60,
+						},
+						["Оод"] = {
+							["class"] = "Друид",
+							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 54,
+						},
+						["Бартик"] = {
+							["name"] = "Бартик",
+							["guildName"] = "Империя",
+							["classEnglish"] = "PRIEST",
+							["level"] = 60,
+							["class"] = "Жрец",
+						},
+						["Нгазаргаму"] = {
+							["class"] = "Жрица",
+							["classEnglish"] = "PRIEST",
+							["name"] = "Нгазаргаму",
+							["level"] = 59,
+						},
+						["Элринз"] = {
+							["name"] = "Элринз",
+							["guildName"] = "Идущие на Смерть",
+							["classEnglish"] = "PALADIN",
+							["level"] = 60,
+							["class"] = "Паладин",
+						},
+						["Мадина"] = {
+							["class"] = "Маг",
+							["classEnglish"] = "MAGE",
+							["name"] = "Мадина",
+							["level"] = 59,
+						},
+						["Бубкагоп"] = {
+							["class"] = "Охотница",
+							["classEnglish"] = "HUNTER",
+							["name"] = "Бубкагоп",
+							["level"] = 60,
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1621853925,
+					["groupAverage"] = 58.4,
+					["enteredXP"] = 91361,
+					["xpFromChat"] = 27437,
+					["zoneID"] = 10867,
+					["enteredLevel"] = 54,
+					["mobCount"] = 111,
+					["enteredTime"] = 1621848173,
+					["playerName"] = "Оод",
+					["classEnglish"] = "DRUID",
+					["rep"] = {
+					},
+					["leftXP"] = 0,
+					["instanceID"] = 429,
+					["enteredMoney"] = 2240724,
+					["leftLevel"] = 54,
+					["rawMoneyCount"] = 10854,
+					["instanceName"] = "Забытый Город",
+					["mergeGUID"] = "Creature-0-4458-429-10867-11458-0004AB706D",
+					["GUIDSource"] = "mouseover",
+					["mergeSource"] = "mouseover",
+				}, -- [53]
+				{
+					["GUID"] = "Creature-0-4459-309-24372-11371-0005AB448C",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Оод"] = {
+							["level"] = 54,
+							["classEnglish"] = "DRUID",
+							["class"] = "Друид",
+						},
+						["Мадина"] = {
+							["level"] = 59,
+							["classEnglish"] = "MAGE",
+							["class"] = "Маг",
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1621842920,
+					["groupAverage"] = 55.66666666666666,
+					["enteredXP"] = 75211,
+					["xpFromChat"] = 0,
+					["zoneID"] = 24372,
+					["leftXP"] = 0,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 2223298,
+					["rep"] = {
+					},
+					["enteredTime"] = 1621836940,
+					["instanceID"] = 309,
+					["GUIDSource"] = "mouseover",
+					["leftLevel"] = 54,
+					["rawMoneyCount"] = 0,
+					["instanceName"] = "Зул'Гуруб",
+					["classEnglish"] = "DRUID",
+					["mobCount"] = 0,
+					["enteredLevel"] = 54,
+				}, -- [54]
+				{
+					["GUID"] = "Creature-0-4460-309-24342-11372-00012B3A93",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Мадина"] = {
+							["level"] = 59,
+							["classEnglish"] = "MAGE",
+							["name"] = "Мадина",
+							["class"] = "Маг",
+						},
+						["Оод"] = {
+							["level"] = 54,
+							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["class"] = "Друид",
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1621836896,
+					["groupAverage"] = 55.66666666666666,
+					["enteredXP"] = 59955,
+					["xpFromChat"] = 15256,
+					["zoneID"] = 24342,
+					["enteredTime"] = 1621834387,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 2223298,
+					["rep"] = {
+					},
+					["leftXP"] = 0,
+					["instanceID"] = 309,
+					["mobCount"] = 26,
+					["leftLevel"] = 54,
+					["classEnglish"] = "DRUID",
+					["instanceName"] = "Зул'Гуруб",
+					["rawMoneyCount"] = 0,
+					["GUIDSource"] = "combatLog",
+					["enteredLevel"] = 54,
+				}, -- [55]
+				{
+					["GUID"] = "Creature-0-4460-309-23588-11372-0000AB3485",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Оод"] = {
+							["level"] = 54,
+							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
+						},
+						["Мадина"] = {
+							["level"] = 59,
+							["class"] = "Маг",
+							["name"] = "Мадина",
+							["classEnglish"] = "MAGE",
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1621834309,
+					["groupAverage"] = 55.66666666666666,
+					["enteredXP"] = 36136,
+					["xpFromChat"] = 23819,
+					["zoneID"] = 23588,
+					["leftXP"] = 0,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 2223298,
+					["rep"] = {
+					},
+					["enteredTime"] = 1621832836,
+					["instanceID"] = 309,
+					["GUIDSource"] = "combatLog",
+					["leftLevel"] = 54,
+					["rawMoneyCount"] = 0,
+					["instanceName"] = "Зул'Гуруб",
+					["classEnglish"] = "DRUID",
+					["mobCount"] = 29,
+					["enteredLevel"] = 54,
+				}, -- [56]
+				{
+					["GUID"] = "Creature-0-4458-309-6789-11350-0000AA34D2",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Мадина"] = {
+							["level"] = 59,
+							["classEnglish"] = "MAGE",
+							["name"] = "Мадина",
+							["class"] = "Маг",
+						},
+						["Оод"] = {
+							["level"] = 54,
+							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["class"] = "Друид",
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1621771061,
+					["groupAverage"] = 55.66666666666666,
+					["enteredXP"] = 35625,
+					["xpFromChat"] = 511,
+					["zoneID"] = 6789,
+					["enteredTime"] = 1621767396,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 2226158,
+					["rep"] = {
+					},
+					["leftXP"] = 0,
+					["instanceID"] = 309,
+					["mobCount"] = 3,
+					["leftLevel"] = 54,
+					["classEnglish"] = "DRUID",
+					["instanceName"] = "Зул'Гуруб",
+					["rawMoneyCount"] = 0,
+					["GUIDSource"] = "nameplate1",
+					["enteredLevel"] = 54,
+				}, -- [57]
+				{
+					["GUID"] = "Creature-0-5571-309-11206-11350-0008AA2CE7",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Оод"] = {
+							["level"] = 54,
+							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
+						},
+						["Мадина"] = {
+							["level"] = 59,
+							["class"] = "Маг",
+							["name"] = "Мадина",
+							["classEnglish"] = "MAGE",
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1621767362,
+					["groupAverage"] = 55.66666666666666,
+					["enteredXP"] = 13161,
+					["xpFromChat"] = 22464,
+					["zoneID"] = 11206,
+					["leftXP"] = 0,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 2226158,
+					["rep"] = {
+					},
+					["enteredTime"] = 1621765351,
+					["instanceID"] = 309,
+					["GUIDSource"] = "nameplate1",
+					["leftLevel"] = 54,
+					["rawMoneyCount"] = 0,
+					["instanceName"] = "Зул'Гуруб",
+					["classEnglish"] = "DRUID",
+					["mobCount"] = 28,
+					["enteredLevel"] = 54,
+				}, -- [58]
+				{
+					["GUID"] = "Creature-0-4459-429-26622-11492-00002936F7",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Оод"] = {
+							["level"] = 53,
+							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
+						},
+						["Нгазаргаму"] = {
+							["level"] = 58,
+							["class"] = "Жрица",
+							["name"] = "Нгазаргаму",
+							["classEnglish"] = "PRIEST",
+						},
+						["Яузбек"] = {
+							["name"] = "Яузбек",
+							["guildName"] = "Орден Последней Надежды",
+							["classEnglish"] = "DRUID",
+							["class"] = "Друид",
+							["level"] = 60,
+						},
+						["Мадина"] = {
+							["level"] = 58,
+							["class"] = "Маг",
+							["name"] = "Мадина",
+							["classEnglish"] = "MAGE",
+						},
+						["Нейтирри"] = {
+							["name"] = "Нейтирри",
+							["guildName"] = "Златоземье",
+							["classEnglish"] = "HUNTER",
+							["class"] = "Охотница",
+							["level"] = 60,
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1621702207,
+					["groupAverage"] = 57.8,
+					["enteredXP"] = 8441,
+					["xpFromChat"] = 32476,
+					["zoneID"] = 26622,
+					["mergeSource"] = "nameplate",
+					["GUIDSource"] = "mouseover",
+					["leftXP"] = 0,
+					["playerName"] = "Оод",
+					["classEnglish"] = "DRUID",
+					["rep"] = {
+					},
+					["enteredTime"] = 1621702642,
+					["instanceID"] = 429,
+					["enteredMoney"] = 2186628,
+					["leftLevel"] = 53,
+					["rawMoneyCount"] = 21810,
+					["instanceName"] = "Забытый Город",
+					["mergeGUID"] = "Creature-0-4459-429-26622-11461-0000A936F7",
+					["mobCount"] = 211,
+					["enteredLevel"] = 54,
+				}, -- [59]
+				{
+					["GUID"] = "Creature-0-5571-429-7572-11456-0001A8070B",
+					["leftMoney"] = 0,
+					["group"] = {
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1621617619,
+					["enteredXP"] = 102726,
+					["xpFromChat"] = 0,
+					["zoneID"] = 7572,
+					["leftXP"] = 0,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 2859463,
+					["rep"] = {
+					},
+					["enteredTime"] = 1621617387,
+					["instanceID"] = 429,
+					["GUIDSource"] = "mouseover",
+					["leftLevel"] = 53,
+					["rawMoneyCount"] = 0,
+					["instanceName"] = "Забытый Город",
+					["classEnglish"] = "DRUID",
+					["mobCount"] = 0,
+					["enteredLevel"] = 53,
+				}, -- [60]
+				{
+					["GUID"] = "Creature-0-4460-230-32220-9019-00002768D4",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Оод"] = {
+							["level"] = 53,
+							["classEnglish"] = "DRUID",
+							["class"] = "Друид",
+						},
+						["Нгазаргаму"] = {
+							["level"] = 58,
+							["classEnglish"] = "PRIEST",
+							["class"] = "Жрица",
+						},
+						["Нимвокс"] = {
+							["class"] = "Чернокнижница",
+							["level"] = 57,
+							["classEnglish"] = "WARLOCK",
+							["guildName"] = "ИМЕРТУС",
+						},
+						["Луннь"] = {
+							["class"] = "Паладин",
+							["level"] = 52,
+							["classEnglish"] = "PALADIN",
+							["guildName"] = "Гильдия Разгильдяев",
+						},
+						["Мадина"] = {
+							["level"] = 58,
+							["classEnglish"] = "MAGE",
+							["class"] = "Маг",
+						},
+						["Генззер"] = {
+							["class"] = "Друид",
+							["level"] = 59,
+							["classEnglish"] = "DRUID",
+							["guildName"] = "Идущие на Смерть",
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1621578310,
+					["groupAverage"] = 55.8,
+					["enteredXP"] = 65295,
+					["xpFromChat"] = 100112,
+					["zoneID"] = 32220,
+					["mergeSource"] = "mouseover",
+					["GUIDSource"] = "mouseover",
+					["leftXP"] = 0,
+					["playerName"] = "Оод",
+					["classEnglish"] = "DRUID",
+					["rep"] = {
+					},
+					["enteredTime"] = 1621580488,
+					["instanceID"] = 230,
+					["enteredMoney"] = 1459050,
+					["leftLevel"] = 52,
+					["rawMoneyCount"] = 78686,
+					["instanceName"] = "Глубины Черной горы",
+					["mergeGUID"] = "Creature-0-4460-230-32220-8894-00062768D4",
+					["mobCount"] = 536,
+					["enteredLevel"] = 53,
+				}, -- [61]
+				{
+					["leftMoney"] = 0,
+					["group"] = {
+						["Оод"] = {
+							["classEnglish"] = "DRUID",
+							["class"] = "Друид",
+							["name"] = "Оод",
+							["level"] = 52,
+						},
+						["Нгазаргаму"] = {
+							["classEnglish"] = "PRIEST",
+							["class"] = "Жрица",
+							["name"] = "Нгазаргаму",
+							["level"] = 58,
+						},
+						["Мадина"] = {
+							["classEnglish"] = "MAGE",
+							["class"] = "Маг",
+							["name"] = "Мадина",
+							["level"] = 58,
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1621578704,
+					["groupAverage"] = 55,
+					["enteredXP"] = 128125,
+					["xpFromChat"] = 0,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 1203519,
+					["rep"] = {
+					},
+					["enteredTime"] = 1621578157,
+					["instanceID"] = 309,
+					["leftXP"] = 0,
+					["leftLevel"] = 52,
+					["rawMoneyCount"] = 0,
+					["instanceName"] = "Зул'Гуруб",
+					["classEnglish"] = "DRUID",
+					["mobCount"] = 0,
+					["enteredLevel"] = 52,
+				}, -- [62]
+				{
+					["GUID"] = "Creature-0-4458-309-16549-11350-0009A73F7B",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Оод"] = {
+							["level"] = 52,
+							["class"] = "Друид",
+							["classEnglish"] = "DRUID",
+						},
+						["Мадина"] = {
+							["level"] = 58,
+							["class"] = "Маг",
+							["classEnglish"] = "MAGE",
+						},
+					},
+					["class"] = "Друид",
+					["leftTime"] = 1621574511,
+					["groupAverage"] = 54,
+					["enteredXP"] = 128125,
+					["xpFromChat"] = 0,
+					["zoneID"] = 16549,
+					["enteredTime"] = 1621570369,
+					["playerName"] = "Оод",
+					["enteredMoney"] = 1203519,
+					["rep"] = {
+					},
+					["leftXP"] = 0,
+					["instanceID"] = 309,
+					["mobCount"] = 0,
+					["leftLevel"] = 52,
+					["classEnglish"] = "DRUID",
+					["instanceName"] = "Зул'Гуруб",
+					["rawMoneyCount"] = 0,
+					["GUIDSource"] = "nameplate1",
+					["enteredLevel"] = 52,
+				}, -- [63]
+				{
+					["leftMoney"] = 0,
+					["group"] = {
+						["Цирилала"] = {
+							["class"] = "Маг",
+							["level"] = 60,
+							["name"] = "Цирилала",
+							["classEnglish"] = "MAGE",
+						},
+						["Оод"] = {
+							["class"] = "Друид",
+							["level"] = 51,
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
+						},
+						["Ордафуита"] = {
+							["class"] = "Охотник",
 							["level"] = 24,
+							["name"] = "Ордафуита",
+							["classEnglish"] = "HUNTER",
 						},
 						["Насложныхщах"] = {
-							["classEnglish"] = "WARLOCK",
 							["class"] = "Чернокнижник",
-							["name"] = "Насложныхщах",
 							["level"] = 60,
+							["name"] = "Насложныхщах",
+							["classEnglish"] = "WARLOCK",
 						},
 					},
 					["class"] = "Друид",
@@ -546,33 +3496,33 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 54,
 					["enteredLevel"] = 51,
-				}, -- [1]
+				}, -- [64]
 				{
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["level"] = 51,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 51,
 						},
 						["Цирилала"] = {
-							["level"] = 60,
 							["class"] = "Маг",
-							["name"] = "Цирилала",
 							["classEnglish"] = "MAGE",
+							["name"] = "Цирилала",
+							["level"] = 60,
 						},
 						["Ордафуита"] = {
-							["level"] = 24,
 							["class"] = "Охотник",
-							["name"] = "Ордафуита",
 							["classEnglish"] = "HUNTER",
+							["name"] = "Ордафуита",
+							["level"] = 24,
 						},
 						["Насложныхщах"] = {
-							["level"] = 59,
 							["class"] = "Чернокнижник",
-							["name"] = "Насложныхщах",
 							["classEnglish"] = "WARLOCK",
+							["name"] = "Насложныхщах",
+							["level"] = 59,
 						},
 					},
 					["class"] = "Друид",
@@ -593,33 +3543,33 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 48,
 					["enteredLevel"] = 51,
-				}, -- [2]
+				}, -- [65]
 				{
 					["leftMoney"] = 0,
 					["group"] = {
 						["Цирилала"] = {
-							["classEnglish"] = "MAGE",
 							["level"] = 60,
-							["name"] = "Цирилала",
 							["class"] = "Маг",
+							["name"] = "Цирилала",
+							["classEnglish"] = "MAGE",
 						},
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 51,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 						["Ордафуита"] = {
-							["classEnglish"] = "HUNTER",
 							["level"] = 24,
-							["name"] = "Ордафуита",
 							["class"] = "Охотник",
+							["name"] = "Ордафуита",
+							["classEnglish"] = "HUNTER",
 						},
 						["Насложныхщах"] = {
-							["classEnglish"] = "WARLOCK",
 							["level"] = 59,
-							["name"] = "Насложныхщах",
 							["class"] = "Чернокнижник",
+							["name"] = "Насложныхщах",
+							["classEnglish"] = "WARLOCK",
 						},
 					},
 					["class"] = "Друид",
@@ -640,34 +3590,34 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 51,
 					["enteredLevel"] = 51,
-				}, -- [3]
+				}, -- [66]
 				{
 					["GUID"] = "Creature-0-5571-309-10261-11371-00081FDCC3",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Цирилала"] = {
-							["level"] = 60,
 							["class"] = "Маг",
-							["name"] = "Цирилала",
 							["classEnglish"] = "MAGE",
+							["name"] = "Цирилала",
+							["level"] = 60,
 						},
 						["Оод"] = {
-							["level"] = 51,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 51,
 						},
 						["Ордафуита"] = {
-							["level"] = 24,
 							["class"] = "Охотник",
-							["name"] = "Ордафуита",
 							["classEnglish"] = "HUNTER",
+							["name"] = "Ордафуита",
+							["level"] = 24,
 						},
 						["Насложныхщах"] = {
-							["level"] = 59,
 							["class"] = "Чернокнижник",
-							["name"] = "Насложныхщах",
 							["classEnglish"] = "WARLOCK",
+							["name"] = "Насложныхщах",
+							["level"] = 59,
 						},
 					},
 					["class"] = "Друид",
@@ -692,34 +3642,34 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-5571-309-10261-11350-00081FDCC3",
 					["GUIDSource"] = "mouseover",
 					["mergeSource"] = "mouseover",
-				}, -- [4]
+				}, -- [67]
 				{
 					["GUID"] = "Creature-0-4479-309-32232-11371-000A9FD6C1",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 51,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 						["Ордафуита"] = {
-							["level"] = 24,
 							["classEnglish"] = "HUNTER",
-							["name"] = "Ордафуита",
 							["class"] = "Охотник",
+							["name"] = "Ордафуита",
+							["level"] = 24,
 						},
 						["Насложныхщах"] = {
-							["classEnglish"] = "WARLOCK",
 							["level"] = 59,
-							["name"] = "Насложныхщах",
 							["class"] = "Чернокнижник",
+							["name"] = "Насложныхщах",
+							["classEnglish"] = "WARLOCK",
 						},
 						["Цирилала"] = {
-							["classEnglish"] = "MAGE",
 							["level"] = 60,
-							["name"] = "Цирилала",
 							["class"] = "Маг",
+							["name"] = "Цирилала",
+							["classEnglish"] = "MAGE",
 						},
 						["Неизвестно"] = {
 							["name"] = "Неизвестно",
@@ -746,7 +3696,7 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 51,
 					["enteredLevel"] = 51,
-				}, -- [5]
+				}, -- [68]
 				{
 					["GUID"] = "Creature-0-5571-349-23734-12207-00001F5CE8",
 					["leftMoney"] = 0,
@@ -766,16 +3716,16 @@ NITdatabase = {
 							["class"] = "Друид",
 						},
 						["Оод"] = {
-							["level"] = 51,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 51,
 						},
 						["Дедблонд"] = {
-							["level"] = 35,
 							["class"] = "Паладин",
-							["name"] = "Дедблонд",
 							["classEnglish"] = "PALADIN",
+							["name"] = "Дедблонд",
+							["level"] = 35,
 						},
 					},
 					["class"] = "Друид",
@@ -798,7 +3748,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 27660,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 51,
-				}, -- [6]
+				}, -- [69]
 				{
 					["GUID"] = "Creature-0-4457-349-27115-12207-00009F58E9",
 					["leftMoney"] = 0,
@@ -818,16 +3768,16 @@ NITdatabase = {
 							["class"] = "Друид",
 						},
 						["Оод"] = {
-							["level"] = 51,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 51,
 						},
 						["Дедблонд"] = {
-							["level"] = 35,
 							["class"] = "Паладин",
-							["name"] = "Дедблонд",
 							["classEnglish"] = "PALADIN",
+							["name"] = "Дедблонд",
+							["level"] = 35,
 						},
 					},
 					["class"] = "Друид",
@@ -850,16 +3800,16 @@ NITdatabase = {
 					["rawMoneyCount"] = 30218,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 50,
-				}, -- [7]
+				}, -- [70]
 				{
 					["GUID"] = "Creature-0-4457-349-27014-12207-00009F5557",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Железякинс"] = {
-							["level"] = 50,
 							["class"] = "Паладин",
-							["name"] = "Железякинс",
 							["classEnglish"] = "PALADIN",
+							["name"] = "Железякинс",
+							["level"] = 50,
 						},
 						["Халявщикусь"] = {
 							["name"] = "Халявщикусь",
@@ -869,10 +3819,10 @@ NITdatabase = {
 							["class"] = "Друид",
 						},
 						["Дедблонд"] = {
-							["level"] = 35,
 							["class"] = "Паладин",
-							["name"] = "Дедблонд",
 							["classEnglish"] = "PALADIN",
+							["name"] = "Дедблонд",
+							["level"] = 35,
 						},
 						["Шустроног"] = {
 							["name"] = "Шустроног",
@@ -882,10 +3832,10 @@ NITdatabase = {
 							["class"] = "Маг",
 						},
 						["Оод"] = {
-							["level"] = 50,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 50,
 						},
 					},
 					["class"] = "Друид",
@@ -908,16 +3858,16 @@ NITdatabase = {
 					["rawMoneyCount"] = 22094,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 50,
-				}, -- [8]
+				}, -- [71]
 				{
 					["GUID"] = "Creature-0-4458-349-13054-11784-00001F50DD",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Железякинс"] = {
-							["level"] = 50,
 							["classEnglish"] = "PALADIN",
-							["name"] = "Железякинс",
 							["class"] = "Паладин",
+							["name"] = "Железякинс",
+							["level"] = 50,
 						},
 						["Халявщикусь"] = {
 							["name"] = "Халявщикусь",
@@ -927,16 +3877,16 @@ NITdatabase = {
 							["level"] = 45,
 						},
 						["Дедблонд"] = {
-							["level"] = 34,
 							["classEnglish"] = "PALADIN",
-							["name"] = "Дедблонд",
 							["class"] = "Паладин",
+							["name"] = "Дедблонд",
+							["level"] = 34,
 						},
 						["Оод"] = {
-							["level"] = 50,
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["level"] = 50,
 						},
 						["Шустроног"] = {
 							["name"] = "Шустроног",
@@ -968,16 +3918,16 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4458-349-13054-13323-00031F50DF",
 					["mobCount"] = 338,
 					["mergeSource"] = "mouseover",
-				}, -- [9]
+				}, -- [72]
 				{
 					["GUID"] = "Creature-0-5571-349-22098-11783-00001F5021",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Железякинс"] = {
-							["level"] = 49,
 							["classEnglish"] = "PALADIN",
-							["name"] = "Железякинс",
 							["class"] = "Паладин",
+							["name"] = "Железякинс",
+							["level"] = 49,
 						},
 						["Халявщикусь"] = {
 							["name"] = "Халявщикусь",
@@ -987,16 +3937,16 @@ NITdatabase = {
 							["level"] = 44,
 						},
 						["Дедблонд"] = {
-							["level"] = 34,
 							["classEnglish"] = "PALADIN",
-							["name"] = "Дедблонд",
 							["class"] = "Паладин",
+							["name"] = "Дедблонд",
+							["level"] = 34,
 						},
 						["Оод"] = {
-							["level"] = 50,
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["level"] = 50,
 						},
 						["Шустроног"] = {
 							["name"] = "Шустроног",
@@ -1026,7 +3976,7 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 330,
 					["enteredLevel"] = 49,
-				}, -- [10]
+				}, -- [73]
 				{
 					["GUID"] = "Creature-0-5571-349-16341-13142-00001F0FA1",
 					["leftMoney"] = 0,
@@ -1060,10 +4010,10 @@ NITdatabase = {
 							["class"] = "Маг",
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["level"] = 49,
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 					},
 					["class"] = "Друид",
@@ -1086,7 +4036,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 13972,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 49,
-				}, -- [11]
+				}, -- [74]
 				{
 					["GUID"] = "Creature-0-4458-349-12204-11783-00009F0F15",
 					["leftMoney"] = 0,
@@ -1120,10 +4070,10 @@ NITdatabase = {
 							["class"] = "Маг",
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["level"] = 49,
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 					},
 					["class"] = "Друид",
@@ -1146,7 +4096,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 24201,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 49,
-				}, -- [12]
+				}, -- [75]
 				{
 					["GUID"] = "Creature-0-5571-349-15430-12207-00021F07F6",
 					["leftMoney"] = 0,
@@ -1180,10 +4130,10 @@ NITdatabase = {
 							["class"] = "Маг",
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["level"] = 49,
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 					},
 					["class"] = "Друид",
@@ -1206,7 +4156,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 24413,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 49,
-				}, -- [13]
+				}, -- [76]
 				{
 					["GUID"] = "Creature-0-4458-349-11966-12207-00001F03E9",
 					["leftMoney"] = 0,
@@ -1240,10 +4190,10 @@ NITdatabase = {
 							["class"] = "Маг",
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["level"] = 49,
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 					},
 					["class"] = "Друид",
@@ -1266,7 +4216,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 24112,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 48,
-				}, -- [14]
+				}, -- [77]
 				{
 					["GUID"] = "Creature-0-5571-349-14145-12217-00009EFED8",
 					["leftMoney"] = 0,
@@ -1286,10 +4236,10 @@ NITdatabase = {
 							["class"] = "Паладин",
 						},
 						["Клопи"] = {
-							["class"] = "Чернокнижник",
 							["classEnglish"] = "WARLOCK",
-							["name"] = "Клопи",
 							["level"] = 22,
+							["name"] = "Клопи",
+							["class"] = "Чернокнижник",
 						},
 						["Магонед"] = {
 							["name"] = "Магонед",
@@ -1306,16 +4256,16 @@ NITdatabase = {
 							["class"] = "Воин",
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["level"] = 48,
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Гачигномий"] = {
-							["class"] = "Маг",
 							["classEnglish"] = "MAGE",
-							["name"] = "Гачигномий",
 							["level"] = 60,
+							["name"] = "Гачигномий",
+							["class"] = "Маг",
 						},
 					},
 					["class"] = "Друид",
@@ -1338,34 +4288,34 @@ NITdatabase = {
 					["rawMoneyCount"] = 26897,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 48,
-				}, -- [15]
+				}, -- [78]
 				{
 					["GUID"] = "Creature-0-5571-349-11364-12221-00059D2675",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Налапу"] = {
-							["level"] = 33,
 							["class"] = "Друид",
-							["name"] = "Налапу",
 							["classEnglish"] = "DRUID",
+							["name"] = "Налапу",
+							["level"] = 33,
 						},
 						["Оод"] = {
-							["level"] = 48,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 48,
 						},
 						["Магонед"] = {
-							["level"] = 60,
 							["class"] = "Маг",
-							["name"] = "Магонед",
 							["classEnglish"] = "MAGE",
+							["name"] = "Магонед",
+							["level"] = 60,
 						},
 						["Оттрравва"] = {
-							["level"] = 42,
 							["class"] = "Паладин",
-							["name"] = "Оттрравва",
 							["classEnglish"] = "PALADIN",
+							["name"] = "Оттрравва",
+							["level"] = 42,
 						},
 						["Шикотань"] = {
 							["name"] = "Шикотань",
@@ -1413,16 +4363,16 @@ NITdatabase = {
 					["rawMoneyCount"] = 24175,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 48,
-				}, -- [16]
+				}, -- [79]
 				{
 					["GUID"] = "Creature-0-5571-349-10621-13323-00029D2242",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["level"] = 48,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 48,
 						},
 						["Шикотань"] = {
 							["name"] = "Шикотань",
@@ -1432,10 +4382,10 @@ NITdatabase = {
 							["class"] = "Чернокнижница",
 						},
 						["Оттрравва"] = {
-							["level"] = 42,
 							["class"] = "Паладин",
-							["name"] = "Оттрравва",
 							["classEnglish"] = "PALADIN",
+							["name"] = "Оттрравва",
+							["level"] = 42,
 						},
 						["Йээ"] = {
 							["name"] = "Йээ",
@@ -1472,16 +4422,16 @@ NITdatabase = {
 					["rawMoneyCount"] = 2410,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 47,
-				}, -- [17]
+				}, -- [80]
 				{
 					["GUID"] = "Creature-0-4457-349-25147-12217-00041D1DD0",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 47,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 						["Шикотань"] = {
 							["name"] = "Шикотань",
@@ -1498,10 +4448,10 @@ NITdatabase = {
 							["level"] = 44,
 						},
 						["Оттрравва"] = {
-							["classEnglish"] = "PALADIN",
 							["level"] = 41,
-							["name"] = "Оттрравва",
 							["class"] = "Паладин",
+							["name"] = "Оттрравва",
+							["classEnglish"] = "PALADIN",
 						},
 						["Гачигномий"] = {
 							["name"] = "Гачигномий",
@@ -1531,16 +4481,16 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 344,
 					["enteredLevel"] = 47,
-				}, -- [18]
+				}, -- [81]
 				{
 					["GUID"] = "Creature-0-4479-349-23340-12207-00009D19EC",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 47,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 						["Шикотань"] = {
 							["name"] = "Шикотань",
@@ -1557,10 +4507,10 @@ NITdatabase = {
 							["level"] = 44,
 						},
 						["Оттрравва"] = {
-							["classEnglish"] = "PALADIN",
 							["level"] = 41,
-							["name"] = "Оттрравва",
 							["class"] = "Паладин",
+							["name"] = "Оттрравва",
+							["classEnglish"] = "PALADIN",
 						},
 						["Гачигномий"] = {
 							["name"] = "Гачигномий",
@@ -1590,16 +4540,16 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 340,
 					["enteredLevel"] = 47,
-				}, -- [19]
+				}, -- [82]
 				{
 					["GUID"] = "Creature-0-4459-349-18537-12216-00009D14D8",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 47,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 						["Шикотань"] = {
 							["name"] = "Шикотань",
@@ -1616,10 +4566,10 @@ NITdatabase = {
 							["level"] = 44,
 						},
 						["Оттрравва"] = {
-							["classEnglish"] = "PALADIN",
 							["level"] = 41,
-							["name"] = "Оттрравва",
 							["class"] = "Паладин",
+							["name"] = "Оттрравва",
+							["classEnglish"] = "PALADIN",
 						},
 						["Гачигномий"] = {
 							["name"] = "Гачигномий",
@@ -1649,7 +4599,7 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 338,
 					["enteredLevel"] = 46,
-				}, -- [20]
+				}, -- [83]
 				{
 					["GUID"] = "Creature-0-5571-349-7463-12224-00001D0FBD",
 					["leftMoney"] = 0,
@@ -1668,6 +4618,12 @@ NITdatabase = {
 							["level"] = 32,
 							["class"] = "Чернокнижница",
 						},
+						["Оттрравва"] = {
+							["level"] = 40,
+							["classEnglish"] = "PALADIN",
+							["name"] = "Оттрравва",
+							["class"] = "Паладин",
+						},
 						["Йээ"] = {
 							["name"] = "Йээ",
 							["guildName"] = "ПвЕ ДРААКОНЫ",
@@ -1675,17 +4631,11 @@ NITdatabase = {
 							["level"] = 43,
 							["class"] = "Разбойник",
 						},
-						["Оттрравва"] = {
-							["class"] = "Паладин",
-							["level"] = 40,
-							["name"] = "Оттрравва",
-							["classEnglish"] = "PALADIN",
-						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["level"] = 46,
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 					},
 					["class"] = "Друид",
@@ -1708,7 +4658,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 19837,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 46,
-				}, -- [21]
+				}, -- [84]
 				{
 					["GUID"] = "Creature-0-4458-349-18148-11784-00011D0B2D",
 					["leftMoney"] = 0,
@@ -1727,6 +4677,12 @@ NITdatabase = {
 							["level"] = 32,
 							["classEnglish"] = "WARLOCK",
 						},
+						["Оттрравва"] = {
+							["classEnglish"] = "PALADIN",
+							["level"] = 40,
+							["name"] = "Оттрравва",
+							["class"] = "Паладин",
+						},
 						["Йээ"] = {
 							["name"] = "Йээ",
 							["guildName"] = "ПвЕ ДРААКОНЫ",
@@ -1734,17 +4690,11 @@ NITdatabase = {
 							["level"] = 43,
 							["class"] = "Разбойник",
 						},
-						["Оттрравва"] = {
-							["class"] = "Паладин",
-							["classEnglish"] = "PALADIN",
-							["name"] = "Оттрравва",
-							["level"] = 40,
-						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["level"] = 46,
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 					},
 					["class"] = "Друид",
@@ -1767,7 +4717,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 17360,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 46,
-				}, -- [22]
+				}, -- [85]
 				{
 					["GUID"] = "Creature-0-4480-349-8627-13141-00009D06FC",
 					["leftMoney"] = 0,
@@ -1786,6 +4736,12 @@ NITdatabase = {
 							["level"] = 31,
 							["class"] = "Чернокнижница",
 						},
+						["Оттрравва"] = {
+							["classEnglish"] = "PALADIN",
+							["level"] = 39,
+							["name"] = "Оттрравва",
+							["class"] = "Паладин",
+						},
 						["Йээ"] = {
 							["name"] = "Йээ",
 							["guildName"] = "ПвЕ ДРААКОНЫ",
@@ -1793,17 +4749,11 @@ NITdatabase = {
 							["level"] = 42,
 							["class"] = "Разбойник",
 						},
-						["Оттрравва"] = {
-							["class"] = "Паладин",
-							["classEnglish"] = "PALADIN",
-							["name"] = "Оттрравва",
-							["level"] = 39,
-						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["level"] = 46,
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 					},
 					["class"] = "Друид",
@@ -1826,7 +4776,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 2598,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 45,
-				}, -- [23]
+				}, -- [86]
 				{
 					["GUID"] = "Creature-0-4459-349-17423-12217-00001D030B",
 					["leftMoney"] = 0,
@@ -1846,10 +4796,16 @@ NITdatabase = {
 							["level"] = 31,
 						},
 						["Оод"] = {
-							["level"] = 45,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 45,
+						},
+						["Оттрравва"] = {
+							["class"] = "Паладин",
+							["classEnglish"] = "PALADIN",
+							["name"] = "Оттрравва",
+							["level"] = 39,
 						},
 						["Йээ"] = {
 							["name"] = "Йээ",
@@ -1857,12 +4813,6 @@ NITdatabase = {
 							["classEnglish"] = "ROGUE",
 							["class"] = "Разбойник",
 							["level"] = 42,
-						},
-						["Оттрравва"] = {
-							["level"] = 39,
-							["class"] = "Паладин",
-							["name"] = "Оттрравва",
-							["classEnglish"] = "PALADIN",
 						},
 					},
 					["class"] = "Друид",
@@ -1885,7 +4835,7 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 339,
 					["enteredLevel"] = 45,
-				}, -- [24]
+				}, -- [87]
 				{
 					["GUID"] = "Creature-0-4460-349-18372-12217-00019CFE50",
 					["leftMoney"] = 0,
@@ -1905,10 +4855,16 @@ NITdatabase = {
 							["level"] = 30,
 						},
 						["Оод"] = {
-							["level"] = 45,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 45,
+						},
+						["Оттрравва"] = {
+							["class"] = "Паладин",
+							["classEnglish"] = "PALADIN",
+							["name"] = "Оттрравва",
+							["level"] = 38,
 						},
 						["Йээ"] = {
 							["name"] = "Йээ",
@@ -1916,12 +4872,6 @@ NITdatabase = {
 							["classEnglish"] = "ROGUE",
 							["class"] = "Разбойник",
 							["level"] = 42,
-						},
-						["Оттрравва"] = {
-							["level"] = 38,
-							["class"] = "Паладин",
-							["name"] = "Оттрравва",
-							["classEnglish"] = "PALADIN",
 						},
 					},
 					["class"] = "Друид",
@@ -1944,16 +4894,16 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 335,
 					["enteredLevel"] = 45,
-				}, -- [25]
+				}, -- [88]
 				{
 					["GUID"] = "Creature-0-4460-349-17869-12217-00049CF677",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Ниженоля"] = {
-							["class"] = "Маг",
 							["classEnglish"] = "MAGE",
-							["name"] = "Ниженоля",
 							["level"] = 60,
+							["name"] = "Ниженоля",
+							["class"] = "Маг",
 						},
 						["Иллиданасын"] = {
 							["name"] = "Иллиданасын",
@@ -1963,22 +4913,22 @@ NITdatabase = {
 							["level"] = 43,
 						},
 						["Однобабловый"] = {
-							["class"] = "Паладин",
 							["classEnglish"] = "PALADIN",
-							["name"] = "Однобабловый",
 							["level"] = 44,
+							["name"] = "Однобабловый",
+							["class"] = "Паладин",
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["level"] = 45,
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Лёдоед"] = {
-							["class"] = "Маг",
 							["classEnglish"] = "MAGE",
-							["name"] = "Лёдоед",
 							["level"] = 44,
+							["name"] = "Лёдоед",
+							["class"] = "Маг",
 						},
 					},
 					["class"] = "Друид",
@@ -2001,16 +4951,16 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 195,
 					["enteredLevel"] = 44,
-				}, -- [26]
+				}, -- [89]
 				{
 					["GUID"] = "Creature-0-5571-349-2355-12217-00061CF262",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Ниженоля"] = {
-							["class"] = "Маг",
 							["classEnglish"] = "MAGE",
-							["name"] = "Ниженоля",
 							["level"] = 60,
+							["name"] = "Ниженоля",
+							["class"] = "Маг",
 						},
 						["Иллиданасын"] = {
 							["name"] = "Иллиданасын",
@@ -2020,22 +4970,22 @@ NITdatabase = {
 							["level"] = 43,
 						},
 						["Однобабловый"] = {
-							["class"] = "Паладин",
 							["classEnglish"] = "PALADIN",
-							["name"] = "Однобабловый",
 							["level"] = 44,
+							["name"] = "Однобабловый",
+							["class"] = "Паладин",
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["level"] = 44,
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Лёдоед"] = {
-							["class"] = "Маг",
 							["classEnglish"] = "MAGE",
-							["name"] = "Лёдоед",
 							["level"] = 44,
+							["name"] = "Лёдоед",
+							["class"] = "Маг",
 						},
 					},
 					["class"] = "Друид",
@@ -2060,16 +5010,16 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-5571-349-2355-12217-00051CF262",
 					["mobCount"] = 194,
 					["mergeSource"] = "mouseover",
-				}, -- [27]
+				}, -- [90]
 				{
 					["GUID"] = "Creature-0-5571-349-1769-13141-00019CEE76",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Ниженоля"] = {
-							["class"] = "Маг",
 							["level"] = 60,
-							["name"] = "Ниженоля",
 							["classEnglish"] = "MAGE",
+							["name"] = "Ниженоля",
+							["class"] = "Маг",
 						},
 						["Иллиданасын"] = {
 							["name"] = "Иллиданасын",
@@ -2079,22 +5029,22 @@ NITdatabase = {
 							["class"] = "Жрец",
 						},
 						["Однобабловый"] = {
-							["class"] = "Паладин",
 							["level"] = 43,
-							["name"] = "Однобабловый",
 							["classEnglish"] = "PALADIN",
+							["name"] = "Однобабловый",
+							["class"] = "Паладин",
 						},
 						["Лёдоед"] = {
-							["class"] = "Маг",
 							["level"] = 44,
-							["name"] = "Лёдоед",
 							["classEnglish"] = "MAGE",
+							["name"] = "Лёдоед",
+							["class"] = "Маг",
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["level"] = 44,
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 					},
 					["class"] = "Друид",
@@ -2117,16 +5067,16 @@ NITdatabase = {
 					["rawMoneyCount"] = 16410,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 44,
-				}, -- [28]
+				}, -- [91]
 				{
 					["GUID"] = "Creature-0-4458-349-16115-12216-00021CEA25",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Ниженоля"] = {
-							["classEnglish"] = "MAGE",
 							["level"] = 60,
-							["name"] = "Ниженоля",
 							["class"] = "Маг",
+							["name"] = "Ниженоля",
+							["classEnglish"] = "MAGE",
 						},
 						["Иллиданасын"] = {
 							["name"] = "Иллиданасын",
@@ -2136,22 +5086,22 @@ NITdatabase = {
 							["level"] = 43,
 						},
 						["Однобабловый"] = {
-							["classEnglish"] = "PALADIN",
 							["level"] = 43,
-							["name"] = "Однобабловый",
 							["class"] = "Паладин",
+							["name"] = "Однобабловый",
+							["classEnglish"] = "PALADIN",
 						},
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 44,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 						["Лёдоед"] = {
-							["classEnglish"] = "MAGE",
 							["level"] = 44,
-							["name"] = "Лёдоед",
 							["class"] = "Маг",
+							["name"] = "Лёдоед",
+							["classEnglish"] = "MAGE",
 						},
 					},
 					["class"] = "Друид",
@@ -2174,26 +5124,28 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 184,
 					["enteredLevel"] = 44,
-				}, -- [29]
+				}, -- [92]
 				{
 					["GUID"] = "Creature-0-4479-349-19624-12224-00011CE621",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Ниженоля"] = {
-							["classEnglish"] = "MAGE",
 							["level"] = 60,
-							["name"] = "Ниженоля",
 							["class"] = "Маг",
+							["name"] = "Ниженоля",
+							["classEnglish"] = "MAGE",
 						},
 						["Марадонистый"] = {
-							["classEnglish"] = "WARLOCK",
 							["level"] = 8,
-							["name"] = "Марадонистый",
 							["class"] = "Чернокнижница",
+							["name"] = "Марадонистый",
+							["classEnglish"] = "WARLOCK",
 						},
-						["Неизвестно"] = {
-							["name"] = "Неизвестно",
-							["level"] = 0,
+						["Однобабловый"] = {
+							["level"] = 43,
+							["class"] = "Паладин",
+							["name"] = "Однобабловый",
+							["classEnglish"] = "PALADIN",
 						},
 						["Иллиданасын"] = {
 							["name"] = "Иллиданасын",
@@ -2202,23 +5154,21 @@ NITdatabase = {
 							["class"] = "Жрец",
 							["level"] = 42,
 						},
-						["Однобабловый"] = {
-							["classEnglish"] = "PALADIN",
-							["level"] = 43,
-							["name"] = "Однобабловый",
-							["class"] = "Паладин",
+						["Неизвестно"] = {
+							["name"] = "Неизвестно",
+							["level"] = 0,
 						},
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 44,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 						["Лёдоед"] = {
-							["classEnglish"] = "MAGE",
 							["level"] = 44,
-							["name"] = "Лёдоед",
 							["class"] = "Маг",
+							["name"] = "Лёдоед",
+							["classEnglish"] = "MAGE",
 						},
 					},
 					["class"] = "Друид",
@@ -2241,22 +5191,22 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 186,
 					["enteredLevel"] = 43,
-				}, -- [30]
+				}, -- [93]
 				{
 					["GUID"] = "Creature-0-4457-349-20275-12216-00061CDCE8",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Ниженоля"] = {
-							["class"] = "Маг",
 							["level"] = 60,
-							["name"] = "Ниженоля",
 							["classEnglish"] = "MAGE",
+							["name"] = "Ниженоля",
+							["class"] = "Маг",
 						},
 						["Лёдоед"] = {
-							["class"] = "Маг",
 							["level"] = 43,
-							["name"] = "Лёдоед",
 							["classEnglish"] = "MAGE",
+							["name"] = "Лёдоед",
+							["class"] = "Маг",
 						},
 						["Иллиданасын"] = {
 							["name"] = "Иллиданасын",
@@ -2266,22 +5216,22 @@ NITdatabase = {
 							["class"] = "Жрец",
 						},
 						["Однобабловый"] = {
-							["class"] = "Паладин",
 							["level"] = 43,
-							["name"] = "Однобабловый",
 							["classEnglish"] = "PALADIN",
+							["name"] = "Однобабловый",
+							["class"] = "Паладин",
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["level"] = 43,
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Марадонистый"] = {
-							["class"] = "Чернокнижница",
 							["level"] = 8,
-							["name"] = "Марадонистый",
 							["classEnglish"] = "WARLOCK",
+							["name"] = "Марадонистый",
+							["class"] = "Чернокнижница",
 						},
 					},
 					["class"] = "Друид",
@@ -2304,28 +5254,26 @@ NITdatabase = {
 					["rawMoneyCount"] = 14416,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 43,
-				}, -- [31]
+				}, -- [94]
 				{
 					["GUID"] = "Creature-0-4459-349-15207-13142-00029CD876",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Ниженоля"] = {
-							["classEnglish"] = "MAGE",
 							["level"] = 60,
-							["name"] = "Ниженоля",
 							["class"] = "Маг",
+							["name"] = "Ниженоля",
+							["classEnglish"] = "MAGE",
 						},
 						["Марадонистый"] = {
-							["classEnglish"] = "WARLOCK",
 							["level"] = 8,
-							["name"] = "Марадонистый",
 							["class"] = "Чернокнижница",
+							["name"] = "Марадонистый",
+							["classEnglish"] = "WARLOCK",
 						},
-						["Однобабловый"] = {
-							["classEnglish"] = "PALADIN",
-							["level"] = 43,
-							["name"] = "Однобабловый",
-							["class"] = "Паладин",
+						["Неизвестно"] = {
+							["name"] = "Неизвестно",
+							["level"] = 0,
 						},
 						["Иллиданасын"] = {
 							["name"] = "Иллиданасын",
@@ -2334,21 +5282,23 @@ NITdatabase = {
 							["class"] = "Жрец",
 							["level"] = 42,
 						},
-						["Неизвестно"] = {
-							["name"] = "Неизвестно",
-							["level"] = 0,
+						["Однобабловый"] = {
+							["level"] = 43,
+							["class"] = "Паладин",
+							["name"] = "Однобабловый",
+							["classEnglish"] = "PALADIN",
 						},
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 43,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 						["Лёдоед"] = {
-							["classEnglish"] = "MAGE",
 							["level"] = 43,
-							["name"] = "Лёдоед",
 							["class"] = "Маг",
+							["name"] = "Лёдоед",
+							["classEnglish"] = "MAGE",
 						},
 					},
 					["class"] = "Друид",
@@ -2373,28 +5323,28 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4459-349-15207-12221-00009CD875",
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 43,
-				}, -- [32]
+				}, -- [95]
 				{
 					["GUID"] = "Creature-0-4458-349-15091-12217-00041CD3A1",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Лёдоед"] = {
-							["class"] = "Маг",
 							["level"] = 43,
-							["name"] = "Лёдоед",
 							["classEnglish"] = "MAGE",
+							["name"] = "Лёдоед",
+							["class"] = "Маг",
 						},
 						["Ниженоля"] = {
-							["class"] = "Маг",
 							["level"] = 60,
-							["name"] = "Ниженоля",
 							["classEnglish"] = "MAGE",
+							["name"] = "Ниженоля",
+							["class"] = "Маг",
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["level"] = 43,
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Иллиданасын"] = {
 							["name"] = "Иллиданасын",
@@ -2403,21 +5353,21 @@ NITdatabase = {
 							["level"] = 42,
 							["class"] = "Жрец",
 						},
+						["Однобабловый"] = {
+							["level"] = 42,
+							["classEnglish"] = "PALADIN",
+							["name"] = "Однобабловый",
+							["class"] = "Паладин",
+						},
 						["Неизвестно"] = {
 							["name"] = "Неизвестно",
 							["level"] = 0,
 						},
-						["Однобабловый"] = {
-							["class"] = "Паладин",
-							["level"] = 42,
-							["name"] = "Однобабловый",
-							["classEnglish"] = "PALADIN",
-						},
 						["Марадонистый"] = {
-							["class"] = "Чернокнижница",
 							["level"] = 8,
-							["name"] = "Марадонистый",
 							["classEnglish"] = "WARLOCK",
+							["name"] = "Марадонистый",
+							["class"] = "Чернокнижница",
 						},
 					},
 					["class"] = "Друид",
@@ -2440,40 +5390,40 @@ NITdatabase = {
 					["rawMoneyCount"] = 22448,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 43,
-				}, -- [33]
+				}, -- [96]
 				{
 					["GUID"] = "Creature-0-5571-349-29805-13142-00001CCE57",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Лёдоед"] = {
-							["classEnglish"] = "MAGE",
 							["class"] = "Маг",
-							["name"] = "Лёдоед",
 							["level"] = 43,
+							["name"] = "Лёдоед",
+							["classEnglish"] = "MAGE",
 						},
 						["Ниженоля"] = {
-							["classEnglish"] = "MAGE",
 							["class"] = "Маг",
-							["name"] = "Ниженоля",
 							["level"] = 60,
+							["name"] = "Ниженоля",
+							["classEnglish"] = "MAGE",
 						},
 						["Однобабловый"] = {
-							["classEnglish"] = "PALADIN",
 							["class"] = "Паладин",
-							["name"] = "Однобабловый",
 							["level"] = 42,
+							["name"] = "Однобабловый",
+							["classEnglish"] = "PALADIN",
 						},
 						["Марадонистый"] = {
-							["classEnglish"] = "WARLOCK",
 							["class"] = "Чернокнижница",
-							["name"] = "Марадонистый",
 							["level"] = 8,
+							["name"] = "Марадонистый",
+							["classEnglish"] = "WARLOCK",
 						},
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["level"] = 43,
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 					},
 					["class"] = "Друид",
@@ -2498,44 +5448,44 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-5571-349-29805-12216-00009CCE57",
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 43,
-				}, -- [34]
+				}, -- [97]
 				{
 					["GUID"] = "Creature-0-5571-349-28729-13141-00029CC5AB",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Лёдоед"] = {
-							["classEnglish"] = "MAGE",
 							["level"] = 42,
-							["name"] = "Лёдоед",
 							["class"] = "Маг",
+							["name"] = "Лёдоед",
+							["classEnglish"] = "MAGE",
 						},
 						["Марадонистый"] = {
-							["class"] = "Чернокнижница",
 							["classEnglish"] = "WARLOCK",
-							["name"] = "Марадонистый",
 							["level"] = 8,
+							["name"] = "Марадонистый",
+							["class"] = "Чернокнижница",
+						},
+						["Однобабловый"] = {
+							["level"] = 42,
+							["class"] = "Паладин",
+							["name"] = "Однобабловый",
+							["classEnglish"] = "PALADIN",
 						},
 						["Неизвестно"] = {
 							["name"] = "Неизвестно",
 							["level"] = 0,
 						},
-						["Однобабловый"] = {
-							["classEnglish"] = "PALADIN",
-							["level"] = 42,
-							["name"] = "Однобабловый",
-							["class"] = "Паладин",
-						},
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 43,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 						["Ниженоля"] = {
-							["classEnglish"] = "MAGE",
 							["level"] = 60,
-							["name"] = "Ниженоля",
 							["class"] = "Маг",
+							["name"] = "Ниженоля",
+							["classEnglish"] = "MAGE",
 						},
 					},
 					["class"] = "Друид",
@@ -2558,7 +5508,7 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 197,
 					["enteredLevel"] = 42,
-				}, -- [35]
+				}, -- [98]
 				{
 					["GUID"] = "Creature-0-4457-349-9536-12207-00011C0084",
 					["leftMoney"] = 0,
@@ -2571,16 +5521,16 @@ NITdatabase = {
 							["class"] = "Маг",
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["level"] = 42,
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Сувран"] = {
-							["class"] = "Маг",
 							["level"] = 60,
-							["name"] = "Сувран",
 							["classEnglish"] = "MAGE",
+							["name"] = "Сувран",
+							["class"] = "Маг",
 						},
 						["Регентс"] = {
 							["name"] = "Регентс",
@@ -2590,22 +5540,22 @@ NITdatabase = {
 							["class"] = "Маг",
 						},
 						["Саважикх"] = {
-							["class"] = "Чернокнижница",
 							["level"] = 60,
-							["name"] = "Саважикх",
 							["classEnglish"] = "WARLOCK",
+							["name"] = "Саважикх",
+							["class"] = "Чернокнижница",
 						},
 						["Легранж"] = {
-							["class"] = "Чернокнижник",
 							["level"] = 44,
-							["name"] = "Легранж",
 							["classEnglish"] = "WARLOCK",
+							["name"] = "Легранж",
+							["class"] = "Чернокнижник",
 						},
 						["Шмотбанк"] = {
-							["class"] = "Паладин",
 							["level"] = 1,
-							["name"] = "Шмотбанк",
 							["classEnglish"] = "PALADIN",
+							["name"] = "Шмотбанк",
+							["class"] = "Паладин",
 						},
 						["Сизла"] = {
 							["name"] = "Сизла",
@@ -2635,7 +5585,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 21291,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 42,
-				}, -- [36]
+				}, -- [99]
 				{
 					["GUID"] = "Creature-0-4457-349-9243-12207-00001BFD2D",
 					["leftMoney"] = 0,
@@ -2648,16 +5598,16 @@ NITdatabase = {
 							["class"] = "Маг",
 						},
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 42,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 						["Сувран"] = {
-							["classEnglish"] = "MAGE",
 							["level"] = 60,
-							["name"] = "Сувран",
 							["class"] = "Маг",
+							["name"] = "Сувран",
+							["classEnglish"] = "MAGE",
 						},
 						["Регентс"] = {
 							["name"] = "Регентс",
@@ -2667,22 +5617,22 @@ NITdatabase = {
 							["class"] = "Маг",
 						},
 						["Саважикх"] = {
-							["classEnglish"] = "WARLOCK",
 							["level"] = 60,
-							["name"] = "Саважикх",
 							["class"] = "Чернокнижница",
+							["name"] = "Саважикх",
+							["classEnglish"] = "WARLOCK",
 						},
 						["Легранж"] = {
-							["classEnglish"] = "WARLOCK",
 							["level"] = 44,
-							["name"] = "Легранж",
 							["class"] = "Чернокнижник",
+							["name"] = "Легранж",
+							["classEnglish"] = "WARLOCK",
 						},
 						["Шмотбанк"] = {
-							["classEnglish"] = "PALADIN",
 							["level"] = 1,
-							["name"] = "Шмотбанк",
 							["class"] = "Паладин",
+							["name"] = "Шмотбанк",
+							["classEnglish"] = "PALADIN",
 						},
 						["Сизла"] = {
 							["name"] = "Сизла",
@@ -2712,7 +5662,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 22452,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 42,
-				}, -- [37]
+				}, -- [100]
 				{
 					["GUID"] = "Creature-0-5571-349-30957-11783-00009BFCCD",
 					["leftMoney"] = 0,
@@ -2725,16 +5675,16 @@ NITdatabase = {
 							["class"] = "Маг",
 						},
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 42,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 						["Сувран"] = {
-							["classEnglish"] = "MAGE",
 							["level"] = 60,
-							["name"] = "Сувран",
 							["class"] = "Маг",
+							["name"] = "Сувран",
+							["classEnglish"] = "MAGE",
 						},
 						["Регентс"] = {
 							["name"] = "Регентс",
@@ -2744,22 +5694,22 @@ NITdatabase = {
 							["class"] = "Маг",
 						},
 						["Саважикх"] = {
-							["classEnglish"] = "WARLOCK",
 							["level"] = 60,
-							["name"] = "Саважикх",
 							["class"] = "Чернокнижница",
+							["name"] = "Саважикх",
+							["classEnglish"] = "WARLOCK",
 						},
 						["Легранж"] = {
-							["classEnglish"] = "WARLOCK",
 							["level"] = 43,
-							["name"] = "Легранж",
 							["class"] = "Чернокнижник",
+							["name"] = "Легранж",
+							["classEnglish"] = "WARLOCK",
 						},
 						["Шмотбанк"] = {
-							["classEnglish"] = "PALADIN",
 							["level"] = 1,
-							["name"] = "Шмотбанк",
 							["class"] = "Паладин",
+							["name"] = "Шмотбанк",
+							["classEnglish"] = "PALADIN",
 						},
 						["Сизла"] = {
 							["name"] = "Сизла",
@@ -2789,7 +5739,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 19444,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 41,
-				}, -- [38]
+				}, -- [101]
 				{
 					["GUID"] = "Creature-0-5571-349-30377-12207-00001BF673",
 					["leftMoney"] = 0,
@@ -2802,16 +5752,16 @@ NITdatabase = {
 							["level"] = 60,
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["level"] = 41,
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Сувран"] = {
-							["class"] = "Маг",
 							["level"] = 60,
-							["name"] = "Сувран",
 							["classEnglish"] = "MAGE",
+							["name"] = "Сувран",
+							["class"] = "Маг",
 						},
 						["Сизла"] = {
 							["name"] = "Сизла",
@@ -2821,22 +5771,22 @@ NITdatabase = {
 							["level"] = 48,
 						},
 						["Саважикх"] = {
-							["class"] = "Чернокнижница",
 							["level"] = 60,
-							["name"] = "Саважикх",
 							["classEnglish"] = "WARLOCK",
+							["name"] = "Саважикх",
+							["class"] = "Чернокнижница",
 						},
 						["Легранж"] = {
-							["class"] = "Чернокнижник",
 							["level"] = 43,
-							["name"] = "Легранж",
 							["classEnglish"] = "WARLOCK",
+							["name"] = "Легранж",
+							["class"] = "Чернокнижник",
 						},
 						["Шмотбанк"] = {
-							["class"] = "Паладин",
 							["level"] = 1,
-							["name"] = "Шмотбанк",
 							["classEnglish"] = "PALADIN",
+							["name"] = "Шмотбанк",
+							["class"] = "Паладин",
 						},
 						["Регентс"] = {
 							["name"] = "Регентс",
@@ -2868,7 +5818,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-5571-349-30377-12216-00009BF672",
 					["mobCount"] = 163,
 					["mergeSource"] = "combatlogDestGUID",
-				}, -- [39]
+				}, -- [102]
 				{
 					["GUID"] = "Creature-0-4459-349-6485-11783-00009BF2FA",
 					["leftMoney"] = 0,
@@ -2881,16 +5831,16 @@ NITdatabase = {
 							["level"] = 60,
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["level"] = 41,
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Сувран"] = {
-							["class"] = "Маг",
 							["classEnglish"] = "MAGE",
-							["name"] = "Сувран",
 							["level"] = 60,
+							["name"] = "Сувран",
+							["class"] = "Маг",
 						},
 						["Сизла"] = {
 							["name"] = "Сизла",
@@ -2900,22 +5850,22 @@ NITdatabase = {
 							["level"] = 48,
 						},
 						["Саважикх"] = {
-							["class"] = "Чернокнижница",
 							["classEnglish"] = "WARLOCK",
-							["name"] = "Саважикх",
 							["level"] = 60,
+							["name"] = "Саважикх",
+							["class"] = "Чернокнижница",
 						},
 						["Легранж"] = {
-							["class"] = "Чернокнижник",
 							["classEnglish"] = "WARLOCK",
-							["name"] = "Легранж",
 							["level"] = 42,
+							["name"] = "Легранж",
+							["class"] = "Чернокнижник",
 						},
 						["Шмотбанк"] = {
-							["class"] = "Паладин",
 							["classEnglish"] = "PALADIN",
-							["name"] = "Шмотбанк",
 							["level"] = 1,
+							["name"] = "Шмотбанк",
+							["class"] = "Паладин",
 						},
 						["Регентс"] = {
 							["name"] = "Регентс",
@@ -2945,28 +5895,28 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 345,
 					["enteredLevel"] = 40,
-				}, -- [40]
+				}, -- [103]
 				{
 					["GUID"] = "Creature-0-4457-36-3214-657-00029BA735",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Убититор"] = {
-							["class"] = "Маг",
 							["classEnglish"] = "MAGE",
-							["name"] = "Убититор",
 							["level"] = 10,
+							["name"] = "Убититор",
+							["class"] = "Маг",
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["level"] = 40,
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Нгазаргаму"] = {
-							["class"] = "Жрица",
 							["classEnglish"] = "PRIEST",
-							["name"] = "Нгазаргаму",
 							["level"] = 23,
+							["name"] = "Нгазаргаму",
+							["class"] = "Жрица",
 						},
 					},
 					["class"] = "Друид",
@@ -2989,16 +5939,16 @@ NITdatabase = {
 					["rawMoneyCount"] = 4350,
 					["GUIDSource"] = "combatLog",
 					["enteredLevel"] = 40,
-				}, -- [41]
+				}, -- [104]
 				{
 					["GUID"] = "Creature-0-5571-349-13482-12223-00001B916C",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["level"] = 40,
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Белыйгнум"] = {
 							["name"] = "Белыйгнум",
@@ -3015,10 +5965,10 @@ NITdatabase = {
 							["level"] = 36,
 						},
 						["Пактус"] = {
-							["class"] = "Паладин",
 							["classEnglish"] = "PALADIN",
-							["name"] = "Пактус",
 							["level"] = 49,
+							["name"] = "Пактус",
+							["class"] = "Паладин",
 						},
 						["Папогандо"] = {
 							["name"] = "Папогандо",
@@ -3048,16 +5998,16 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 166,
 					["enteredLevel"] = 40,
-				}, -- [42]
+				}, -- [105]
 				{
 					["GUID"] = "Creature-0-5571-349-12799-12207-00009B8CC4",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["level"] = 40,
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 						["Белыйгнум"] = {
 							["name"] = "Белыйгнум",
@@ -3074,10 +6024,10 @@ NITdatabase = {
 							["level"] = 36,
 						},
 						["Пактус"] = {
-							["classEnglish"] = "PALADIN",
 							["class"] = "Паладин",
-							["name"] = "Пактус",
 							["level"] = 49,
+							["name"] = "Пактус",
+							["classEnglish"] = "PALADIN",
 						},
 						["Папогандо"] = {
 							["name"] = "Папогандо",
@@ -3107,16 +6057,16 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 327,
 					["enteredLevel"] = 40,
-				}, -- [43]
+				}, -- [106]
 				{
 					["GUID"] = "Creature-0-4459-349-789-12207-00021B8808",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["level"] = 40,
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 						["Белыйгнум"] = {
 							["name"] = "Белыйгнум",
@@ -3133,10 +6083,10 @@ NITdatabase = {
 							["class"] = "Друид",
 						},
 						["Пактус"] = {
-							["classEnglish"] = "PALADIN",
 							["class"] = "Паладин",
-							["name"] = "Пактус",
 							["level"] = 49,
+							["name"] = "Пактус",
+							["classEnglish"] = "PALADIN",
 						},
 						["Папогандо"] = {
 							["name"] = "Папогандо",
@@ -3166,16 +6116,16 @@ NITdatabase = {
 					["rawMoneyCount"] = 26626,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 39,
-				}, -- [44]
+				}, -- [107]
 				{
 					["GUID"] = "Creature-0-4458-349-648-11789-00051B830F",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["level"] = 39,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 39,
 						},
 						["Белыйгнум"] = {
 							["name"] = "Белыйгнум",
@@ -3192,10 +6142,10 @@ NITdatabase = {
 							["class"] = "Друид",
 						},
 						["Пактус"] = {
-							["level"] = 48,
 							["class"] = "Паладин",
-							["name"] = "Пактус",
 							["classEnglish"] = "PALADIN",
+							["name"] = "Пактус",
+							["level"] = 48,
 						},
 						["Папогандо"] = {
 							["name"] = "Папогандо",
@@ -3225,7 +6175,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 13251,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 39,
-				}, -- [45]
+				}, -- [108]
 				{
 					["GUID"] = "Creature-0-4458-349-506-13323-00011B7CEC",
 					["leftMoney"] = 0,
@@ -3252,10 +6202,10 @@ NITdatabase = {
 							["class"] = "Охотница",
 						},
 						["Оод"] = {
-							["level"] = 39,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 39,
 						},
 						["Сизла"] = {
 							["name"] = "Сизла",
@@ -3285,7 +6235,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 19158,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 39,
-				}, -- [46]
+				}, -- [109]
 				{
 					["GUID"] = "Creature-0-4460-349-445-12207-00009B7944",
 					["leftMoney"] = 0,
@@ -3312,10 +6262,10 @@ NITdatabase = {
 							["class"] = "Охотница",
 						},
 						["Оод"] = {
-							["level"] = 39,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 39,
 						},
 						["Сизла"] = {
 							["name"] = "Сизла",
@@ -3345,7 +6295,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 23156,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 38,
-				}, -- [47]
+				}, -- [110]
 				{
 					["GUID"] = "Creature-0-5571-349-9278-12207-00011B756B",
 					["leftMoney"] = 0,
@@ -3372,10 +6322,10 @@ NITdatabase = {
 							["level"] = 44,
 						},
 						["Оод"] = {
-							["level"] = 38,
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["level"] = 38,
 						},
 						["Сизла"] = {
 							["name"] = "Сизла",
@@ -3405,7 +6355,7 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 344,
 					["enteredLevel"] = 38,
-				}, -- [48]
+				}, -- [111]
 				{
 					["GUID"] = "Creature-0-4479-349-466-12207-00009B71B4",
 					["leftMoney"] = 0,
@@ -3432,10 +6382,10 @@ NITdatabase = {
 							["level"] = 44,
 						},
 						["Оод"] = {
-							["level"] = 38,
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["level"] = 38,
 						},
 						["Сизла"] = {
 							["name"] = "Сизла",
@@ -3465,7 +6415,7 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 339,
 					["enteredLevel"] = 38,
-				}, -- [49]
+				}, -- [112]
 				{
 					["GUID"] = "Creature-0-5571-349-8141-12217-00009B6DF4",
 					["leftMoney"] = 0,
@@ -3492,10 +6442,10 @@ NITdatabase = {
 							["level"] = 44,
 						},
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 38,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 						["Сизла"] = {
 							["name"] = "Сизла",
@@ -3527,7 +6477,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-5571-349-8141-13141-00011B6DF3",
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 37,
-				}, -- [50]
+				}, -- [113]
 				{
 					["GUID"] = "Creature-0-4479-349-20094-12207-00001AE413",
 					["leftMoney"] = 0,
@@ -3552,22 +6502,22 @@ NITdatabase = {
 					["rawMoneyCount"] = 0,
 					["GUIDSource"] = "combatLog",
 					["enteredLevel"] = 37,
-				}, -- [51]
+				}, -- [114]
 				{
 					["GUID"] = "Creature-0-4458-349-9939-12221-00001ADA3D",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 37,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 						["Еже"] = {
-							["classEnglish"] = "MAGE",
 							["level"] = 37,
-							["name"] = "Еже",
 							["class"] = "Маг",
+							["name"] = "Еже",
+							["classEnglish"] = "MAGE",
 						},
 						["Ягнум"] = {
 							["name"] = "Ягнум",
@@ -3584,10 +6534,10 @@ NITdatabase = {
 							["class"] = "Охотник",
 						},
 						["Рудикшаман"] = {
-							["classEnglish"] = "MAGE",
 							["level"] = 60,
-							["name"] = "Рудикшаман",
 							["class"] = "Маг",
+							["name"] = "Рудикшаман",
+							["classEnglish"] = "MAGE",
 						},
 					},
 					["class"] = "Друид",
@@ -3610,22 +6560,22 @@ NITdatabase = {
 					["rawMoneyCount"] = 6227,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 37,
-				}, -- [52]
+				}, -- [115]
 				{
 					["GUID"] = "Creature-0-4460-349-19808-12217-00031AD572",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 37,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 						["Еже"] = {
-							["classEnglish"] = "MAGE",
 							["level"] = 37,
-							["name"] = "Еже",
 							["class"] = "Маг",
+							["name"] = "Еже",
+							["classEnglish"] = "MAGE",
 						},
 						["Ягнум"] = {
 							["name"] = "Ягнум",
@@ -3642,10 +6592,10 @@ NITdatabase = {
 							["class"] = "Охотник",
 						},
 						["Рудикшаман"] = {
-							["classEnglish"] = "MAGE",
 							["level"] = 60,
-							["name"] = "Рудикшаман",
 							["class"] = "Маг",
+							["name"] = "Рудикшаман",
+							["classEnglish"] = "MAGE",
 						},
 					},
 					["class"] = "Друид",
@@ -3668,22 +6618,22 @@ NITdatabase = {
 					["rawMoneyCount"] = 12169,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 37,
-				}, -- [53]
+				}, -- [116]
 				{
 					["GUID"] = "Creature-0-5571-349-2404-12216-00049AD02A",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 37,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 						["Еже"] = {
-							["classEnglish"] = "MAGE",
 							["level"] = 37,
-							["name"] = "Еже",
 							["class"] = "Маг",
+							["name"] = "Еже",
+							["classEnglish"] = "MAGE",
 						},
 						["Ягнум"] = {
 							["name"] = "Ягнум",
@@ -3700,10 +6650,10 @@ NITdatabase = {
 							["class"] = "Охотник",
 						},
 						["Рудикшаман"] = {
-							["classEnglish"] = "MAGE",
 							["level"] = 60,
-							["name"] = "Рудикшаман",
 							["class"] = "Маг",
+							["name"] = "Рудикшаман",
+							["classEnglish"] = "MAGE",
 						},
 					},
 					["class"] = "Друид",
@@ -3726,7 +6676,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 15225,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 36,
-				}, -- [54]
+				}, -- [117]
 				{
 					["GUID"] = "Creature-0-5571-349-18755-12221-00039A8BA6",
 					["leftMoney"] = 0,
@@ -3739,28 +6689,28 @@ NITdatabase = {
 							["level"] = 60,
 						},
 						["Оод"] = {
-							["level"] = 36,
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["level"] = 36,
 						},
 						["Сувран"] = {
-							["level"] = 60,
 							["classEnglish"] = "MAGE",
-							["name"] = "Сувран",
 							["class"] = "Маг",
+							["name"] = "Сувран",
+							["level"] = 60,
 						},
 						["Софьюшка"] = {
-							["level"] = 38,
 							["classEnglish"] = "ROGUE",
-							["name"] = "Софьюшка",
 							["class"] = "Разбойница",
+							["name"] = "Софьюшка",
+							["level"] = 38,
 						},
 						["Саважикх"] = {
-							["level"] = 60,
 							["classEnglish"] = "WARLOCK",
-							["name"] = "Саважикх",
 							["class"] = "Чернокнижница",
+							["name"] = "Саважикх",
+							["level"] = 60,
 						},
 						["Ягнум"] = {
 							["name"] = "Ягнум",
@@ -3770,38 +6720,38 @@ NITdatabase = {
 							["level"] = 44,
 						},
 						["Мародонкач"] = {
-							["level"] = 1,
 							["classEnglish"] = "MAGE",
-							["name"] = "Мародонкач",
 							["class"] = "Маг",
+							["name"] = "Мародонкач",
+							["level"] = 1,
 						},
 						["Этомойнетрог"] = {
-							["level"] = 1,
 							["classEnglish"] = "MAGE",
-							["name"] = "Этомойнетрог",
 							["class"] = "Маг",
+							["name"] = "Этомойнетрог",
+							["level"] = 1,
 						},
 						["Шмотбанк"] = {
-							["level"] = 1,
 							["classEnglish"] = "PALADIN",
-							["name"] = "Шмотбанк",
 							["class"] = "Паладин",
+							["name"] = "Шмотбанк",
+							["level"] = 1,
 						},
 						["Неизвестно"] = {
 							["name"] = "Неизвестно",
 							["level"] = 0,
 						},
 						["Нуллариэль"] = {
-							["level"] = 60,
 							["classEnglish"] = "PRIEST",
-							["name"] = "Нуллариэль",
 							["class"] = "Жрица",
+							["name"] = "Нуллариэль",
+							["level"] = 60,
 						},
 						["Регентс"] = {
-							["level"] = 33,
 							["classEnglish"] = "MAGE",
-							["name"] = "Регентс",
 							["class"] = "Маг",
+							["name"] = "Регентс",
+							["level"] = 33,
 						},
 					},
 					["class"] = "Друид",
@@ -3824,7 +6774,7 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 355,
 					["enteredLevel"] = 36,
-				}, -- [55]
+				}, -- [118]
 				{
 					["GUID"] = "Creature-0-4458-349-3693-12207-00011A8804",
 					["leftMoney"] = 0,
@@ -3837,28 +6787,28 @@ NITdatabase = {
 							["class"] = "Маг",
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["level"] = 36,
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Сувран"] = {
-							["class"] = "Маг",
 							["level"] = 60,
-							["name"] = "Сувран",
 							["classEnglish"] = "MAGE",
+							["name"] = "Сувран",
+							["class"] = "Маг",
 						},
 						["Софьюшка"] = {
-							["class"] = "Разбойница",
 							["level"] = 37,
-							["name"] = "Софьюшка",
 							["classEnglish"] = "ROGUE",
+							["name"] = "Софьюшка",
+							["class"] = "Разбойница",
 						},
 						["Саважикх"] = {
-							["class"] = "Чернокнижница",
 							["level"] = 60,
-							["name"] = "Саважикх",
 							["classEnglish"] = "WARLOCK",
+							["name"] = "Саважикх",
+							["class"] = "Чернокнижница",
 						},
 						["Ягнум"] = {
 							["name"] = "Ягнум",
@@ -3868,34 +6818,34 @@ NITdatabase = {
 							["class"] = "Маг",
 						},
 						["Мародонкач"] = {
-							["class"] = "Маг",
 							["level"] = 1,
-							["name"] = "Мародонкач",
 							["classEnglish"] = "MAGE",
+							["name"] = "Мародонкач",
+							["class"] = "Маг",
 						},
 						["Этомойнетрог"] = {
-							["class"] = "Маг",
 							["level"] = 1,
-							["name"] = "Этомойнетрог",
 							["classEnglish"] = "MAGE",
+							["name"] = "Этомойнетрог",
+							["class"] = "Маг",
 						},
 						["Шмотбанк"] = {
-							["class"] = "Паладин",
 							["level"] = 1,
-							["name"] = "Шмотбанк",
 							["classEnglish"] = "PALADIN",
+							["name"] = "Шмотбанк",
+							["class"] = "Паладин",
 						},
 						["Нуллариэль"] = {
-							["class"] = "Жрица",
 							["level"] = 60,
-							["name"] = "Нуллариэль",
 							["classEnglish"] = "PRIEST",
+							["name"] = "Нуллариэль",
+							["class"] = "Жрица",
 						},
 						["Регентс"] = {
-							["class"] = "Маг",
 							["level"] = 33,
-							["name"] = "Регентс",
 							["classEnglish"] = "MAGE",
+							["name"] = "Регентс",
+							["class"] = "Маг",
 						},
 					},
 					["class"] = "Друид",
@@ -3918,7 +6868,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 26019,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 35,
-				}, -- [56]
+				}, -- [119]
 				{
 					["GUID"] = "Creature-0-4460-349-15072-12216-00031A8497",
 					["leftMoney"] = 0,
@@ -3931,28 +6881,28 @@ NITdatabase = {
 							["classEnglish"] = "MAGE",
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["level"] = 35,
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Сувран"] = {
-							["class"] = "Маг",
 							["classEnglish"] = "MAGE",
-							["name"] = "Сувран",
 							["level"] = 60,
+							["name"] = "Сувран",
+							["class"] = "Маг",
 						},
 						["Софьюшка"] = {
-							["class"] = "Разбойница",
 							["classEnglish"] = "ROGUE",
-							["name"] = "Софьюшка",
 							["level"] = 37,
+							["name"] = "Софьюшка",
+							["class"] = "Разбойница",
 						},
 						["Саважикх"] = {
-							["class"] = "Чернокнижница",
 							["classEnglish"] = "WARLOCK",
-							["name"] = "Саважикх",
 							["level"] = 60,
+							["name"] = "Саважикх",
+							["class"] = "Чернокнижница",
 						},
 						["Ягнум"] = {
 							["name"] = "Ягнум",
@@ -3962,34 +6912,34 @@ NITdatabase = {
 							["class"] = "Маг",
 						},
 						["Нуллариэль"] = {
-							["class"] = "Жрица",
 							["classEnglish"] = "PRIEST",
-							["name"] = "Нуллариэль",
 							["level"] = 60,
+							["name"] = "Нуллариэль",
+							["class"] = "Жрица",
 						},
 						["Этомойнетрог"] = {
-							["class"] = "Маг",
 							["classEnglish"] = "MAGE",
-							["name"] = "Этомойнетрог",
 							["level"] = 1,
+							["name"] = "Этомойнетрог",
+							["class"] = "Маг",
 						},
 						["Шмотбанк"] = {
-							["class"] = "Паладин",
 							["classEnglish"] = "PALADIN",
-							["name"] = "Шмотбанк",
 							["level"] = 1,
+							["name"] = "Шмотбанк",
+							["class"] = "Паладин",
 						},
 						["Мародонкач"] = {
-							["class"] = "Маг",
 							["classEnglish"] = "MAGE",
-							["name"] = "Мародонкач",
 							["level"] = 1,
+							["name"] = "Мародонкач",
+							["class"] = "Маг",
 						},
 						["Регентс"] = {
-							["class"] = "Маг",
 							["classEnglish"] = "MAGE",
-							["name"] = "Регентс",
 							["level"] = 32,
+							["name"] = "Регентс",
+							["class"] = "Маг",
 						},
 					},
 					["class"] = "Друид",
@@ -4012,7 +6962,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 24263,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 35,
-				}, -- [57]
+				}, -- [120]
 				{
 					["GUID"] = "Creature-0-4479-349-10453-12221-00019A8015",
 					["leftMoney"] = 0,
@@ -4025,34 +6975,34 @@ NITdatabase = {
 							["classEnglish"] = "MAGE",
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["level"] = 35,
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Сувран"] = {
-							["class"] = "Маг",
 							["classEnglish"] = "MAGE",
-							["name"] = "Сувран",
 							["level"] = 60,
+							["name"] = "Сувран",
+							["class"] = "Маг",
 						},
 						["Софьюшка"] = {
-							["class"] = "Разбойница",
 							["classEnglish"] = "ROGUE",
-							["name"] = "Софьюшка",
 							["level"] = 36,
+							["name"] = "Софьюшка",
+							["class"] = "Разбойница",
 						},
 						["Саважикх"] = {
-							["class"] = "Чернокнижница",
 							["classEnglish"] = "WARLOCK",
-							["name"] = "Саважикх",
 							["level"] = 60,
+							["name"] = "Саважикх",
+							["class"] = "Чернокнижница",
 						},
 						["Маринадка"] = {
-							["class"] = "Разбойница",
 							["classEnglish"] = "ROGUE",
-							["name"] = "Маринадка",
 							["level"] = 31,
+							["name"] = "Маринадка",
+							["class"] = "Разбойница",
 						},
 						["Мамихан"] = {
 							["name"] = "Мамихан",
@@ -4062,34 +7012,34 @@ NITdatabase = {
 							["class"] = "Разбойник",
 						},
 						["Ягнум"] = {
-							["class"] = "Маг",
 							["classEnglish"] = "MAGE",
-							["name"] = "Ягнум",
 							["level"] = 43,
+							["name"] = "Ягнум",
+							["class"] = "Маг",
 						},
 						["Нуллариэль"] = {
-							["class"] = "Жрица",
 							["classEnglish"] = "PRIEST",
-							["name"] = "Нуллариэль",
 							["level"] = 60,
+							["name"] = "Нуллариэль",
+							["class"] = "Жрица",
 						},
 						["Мародонкач"] = {
-							["class"] = "Маг",
 							["classEnglish"] = "MAGE",
-							["name"] = "Мародонкач",
 							["level"] = 1,
+							["name"] = "Мародонкач",
+							["class"] = "Маг",
 						},
 						["Этомойнетрог"] = {
-							["class"] = "Маг",
 							["classEnglish"] = "MAGE",
-							["name"] = "Этомойнетрог",
 							["level"] = 1,
+							["name"] = "Этомойнетрог",
+							["class"] = "Маг",
 						},
 						["Шмотбанк"] = {
-							["class"] = "Паладин",
 							["classEnglish"] = "PALADIN",
-							["name"] = "Шмотбанк",
 							["level"] = 1,
+							["name"] = "Шмотбанк",
+							["class"] = "Паладин",
 						},
 						["Неизвестно"] = {
 							["name"] = "Неизвестно",
@@ -4103,10 +7053,10 @@ NITdatabase = {
 							["class"] = "Разбойница",
 						},
 						["Регентс"] = {
-							["class"] = "Маг",
 							["classEnglish"] = "MAGE",
-							["name"] = "Регентс",
 							["level"] = 32,
+							["name"] = "Регентс",
+							["class"] = "Маг",
 						},
 					},
 					["class"] = "Друид",
@@ -4129,7 +7079,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 21166,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 34,
-				}, -- [58]
+				}, -- [121]
 				{
 					["GUID"] = "Creature-0-4460-349-14703-12223-00001A7CCB",
 					["leftMoney"] = 0,
@@ -4142,28 +7092,28 @@ NITdatabase = {
 							["class"] = "Маг",
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["level"] = 34,
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Сувран"] = {
-							["class"] = "Маг",
 							["classEnglish"] = "MAGE",
-							["name"] = "Сувран",
 							["level"] = 60,
+							["name"] = "Сувран",
+							["class"] = "Маг",
 						},
 						["Софьюшка"] = {
-							["class"] = "Разбойница",
 							["classEnglish"] = "ROGUE",
-							["name"] = "Софьюшка",
 							["level"] = 36,
+							["name"] = "Софьюшка",
+							["class"] = "Разбойница",
 						},
 						["Саважикх"] = {
-							["class"] = "Чернокнижница",
 							["classEnglish"] = "WARLOCK",
-							["name"] = "Саважикх",
 							["level"] = 60,
+							["name"] = "Саважикх",
+							["class"] = "Чернокнижница",
 						},
 						["Мамихан"] = {
 							["name"] = "Мамихан",
@@ -4173,28 +7123,28 @@ NITdatabase = {
 							["class"] = "Разбойник",
 						},
 						["Мародонкач"] = {
-							["class"] = "Маг",
 							["classEnglish"] = "MAGE",
-							["name"] = "Мародонкач",
 							["level"] = 1,
+							["name"] = "Мародонкач",
+							["class"] = "Маг",
 						},
 						["Нуллариэль"] = {
-							["class"] = "Жрица",
 							["classEnglish"] = "PRIEST",
-							["name"] = "Нуллариэль",
 							["level"] = 60,
+							["name"] = "Нуллариэль",
+							["class"] = "Жрица",
 						},
 						["Этомойнетрог"] = {
-							["class"] = "Маг",
 							["classEnglish"] = "MAGE",
-							["name"] = "Этомойнетрог",
 							["level"] = 1,
+							["name"] = "Этомойнетрог",
+							["class"] = "Маг",
 						},
 						["Шмотбанк"] = {
-							["class"] = "Паладин",
 							["classEnglish"] = "PALADIN",
-							["name"] = "Шмотбанк",
 							["level"] = 1,
+							["name"] = "Шмотбанк",
+							["class"] = "Паладин",
 						},
 						["Неизвестно"] = {
 							["name"] = "Неизвестно",
@@ -4208,10 +7158,10 @@ NITdatabase = {
 							["class"] = "Разбойница",
 						},
 						["Регентс"] = {
-							["class"] = "Маг",
 							["classEnglish"] = "MAGE",
-							["name"] = "Регентс",
 							["level"] = 32,
+							["name"] = "Регентс",
+							["class"] = "Маг",
 						},
 					},
 					["class"] = "Друид",
@@ -4234,22 +7184,22 @@ NITdatabase = {
 					["rawMoneyCount"] = 22139,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 34,
-				}, -- [59]
+				}, -- [122]
 				{
 					["GUID"] = "Creature-0-5571-189-7154-4289-00009A5999",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["level"] = 34,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 34,
 						},
 						["Йенсис"] = {
-							["level"] = 31,
 							["class"] = "Разбойница",
-							["name"] = "Йенсис",
 							["classEnglish"] = "ROGUE",
+							["name"] = "Йенсис",
+							["level"] = 31,
 						},
 						["Альджазир"] = {
 							["name"] = "Альджазир",
@@ -4295,22 +7245,22 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-5571-189-7154-4286-00011A599A",
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 34,
-				}, -- [60]
+				}, -- [123]
 				{
 					["GUID"] = "Creature-0-5571-189-6511-4286-00009A56C8",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["level"] = 34,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 34,
 						},
 						["Йенсис"] = {
-							["level"] = 30,
 							["class"] = "Разбойница",
-							["name"] = "Йенсис",
 							["classEnglish"] = "ROGUE",
+							["name"] = "Йенсис",
+							["level"] = 30,
 						},
 						["Альджазир"] = {
 							["name"] = "Альджазир",
@@ -4356,22 +7306,22 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-5571-189-6511-4286-00019A56C8",
 					["GUIDSource"] = "mouseover",
 					["mergeSource"] = "combatlogDestGUID",
-				}, -- [61]
+				}, -- [124]
 				{
 					["GUID"] = "Creature-0-5571-189-5789-4290-00001A53A0",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["level"] = 33,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 33,
 						},
 						["Йенсис"] = {
-							["level"] = 30,
 							["class"] = "Разбойница",
-							["name"] = "Йенсис",
 							["classEnglish"] = "ROGUE",
+							["name"] = "Йенсис",
+							["level"] = 30,
 						},
 						["Альджазир"] = {
 							["name"] = "Альджазир",
@@ -4417,22 +7367,22 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-5571-189-5789-4286-00021A53A1",
 					["GUIDSource"] = "mouseover",
 					["mergeSource"] = "combatlogDestGUID",
-				}, -- [62]
+				}, -- [125]
 				{
 					["GUID"] = "Creature-0-5571-189-5146-4289-00001A50BE",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["level"] = 33,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 33,
 						},
 						["Йенсис"] = {
-							["level"] = 30,
 							["class"] = "Разбойница",
-							["name"] = "Йенсис",
 							["classEnglish"] = "ROGUE",
+							["name"] = "Йенсис",
+							["level"] = 30,
 						},
 						["Альджазир"] = {
 							["name"] = "Альджазир",
@@ -4478,28 +7428,28 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-5571-189-5146-4286-00029A50BD",
 					["GUIDSource"] = "mouseover",
 					["mergeSource"] = "nameplate",
-				}, -- [63]
+				}, -- [126]
 				{
 					["GUID"] = "Creature-0-4479-189-6241-4297-00009A4920",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Соваризам"] = {
-							["level"] = 60,
 							["class"] = "Маг",
-							["name"] = "Соваризам",
 							["classEnglish"] = "MAGE",
+							["name"] = "Соваризам",
+							["level"] = 60,
 						},
 						["Оод"] = {
-							["level"] = 33,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 33,
 						},
 						["Йенсис"] = {
-							["level"] = 29,
 							["class"] = "Разбойница",
-							["name"] = "Йенсис",
 							["classEnglish"] = "ROGUE",
+							["name"] = "Йенсис",
+							["level"] = 29,
 						},
 						["Альджазир"] = {
 							["name"] = "Альджазир",
@@ -4509,10 +7459,10 @@ NITdatabase = {
 							["class"] = "Маг",
 						},
 						["Чупакабрана"] = {
-							["level"] = 0,
 							["class"] = "Чернокнижница",
-							["name"] = "Чупакабрана",
 							["classEnglish"] = "WARLOCK",
+							["name"] = "Чупакабрана",
+							["level"] = 0,
 						},
 						["Виточан"] = {
 							["name"] = "Виточан",
@@ -4533,10 +7483,10 @@ NITdatabase = {
 							["level"] = 0,
 						},
 						["Рейдо"] = {
-							["level"] = 37,
 							["class"] = "Чернокнижница",
-							["name"] = "Рейдо",
 							["classEnglish"] = "WARLOCK",
+							["name"] = "Рейдо",
+							["level"] = 37,
 						},
 						["Снеил"] = {
 							["name"] = "Снеил",
@@ -4568,16 +7518,16 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4479-189-6241-4286-00011A4922",
 					["GUIDSource"] = "mouseover",
 					["mergeSource"] = "nameplate",
-				}, -- [64]
+				}, -- [127]
 				{
 					["GUID"] = "Creature-0-4460-189-10530-6575-000319A41D",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 32,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 						["Протолавки"] = {
 							["name"] = "Протолавки",
@@ -4601,10 +7551,10 @@ NITdatabase = {
 							["class"] = "Маг",
 						},
 						["Осеменатор"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 25,
-							["name"] = "Осеменатор",
 							["class"] = "Друид",
+							["name"] = "Осеменатор",
+							["classEnglish"] = "DRUID",
 						},
 					},
 					["class"] = "Друид",
@@ -4629,16 +7579,16 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4460-189-10530-4286-0002199E7A",
 					["GUIDSource"] = "mouseover",
 					["mergeSource"] = "mouseover",
-				}, -- [65]
+				}, -- [128]
 				{
 					["GUID"] = "Creature-0-4458-189-28355-4286-0003199838",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 32,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 						["Протолавки"] = {
 							["name"] = "Протолавки",
@@ -4662,10 +7612,10 @@ NITdatabase = {
 							["class"] = "Маг",
 						},
 						["Осеменатор"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 24,
-							["name"] = "Осеменатор",
 							["class"] = "Друид",
+							["name"] = "Осеменатор",
+							["classEnglish"] = "DRUID",
 						},
 					},
 					["class"] = "Друид",
@@ -4690,16 +7640,16 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4458-189-28355-4286-0002199839",
 					["GUIDSource"] = "combatLog",
 					["mergeSource"] = "nameplate",
-				}, -- [66]
+				}, -- [129]
 				{
 					["GUID"] = "Creature-0-4460-189-9921-4289-0000199585",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 31,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 						["Протолавки"] = {
 							["name"] = "Протолавки",
@@ -4723,10 +7673,10 @@ NITdatabase = {
 							["class"] = "Маг",
 						},
 						["Осеменатор"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 24,
-							["name"] = "Осеменатор",
 							["class"] = "Друид",
+							["name"] = "Осеменатор",
+							["classEnglish"] = "DRUID",
 						},
 					},
 					["class"] = "Друид",
@@ -4751,16 +7701,16 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4460-189-9921-4286-0000199584",
 					["GUIDSource"] = "mouseover",
 					["mergeSource"] = "nameplate",
-				}, -- [67]
+				}, -- [130]
 				{
 					["GUID"] = "Creature-0-5571-189-30985-8836-000019955A",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 31,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 						["Протолавки"] = {
 							["name"] = "Протолавки",
@@ -4784,10 +7734,10 @@ NITdatabase = {
 							["class"] = "Маг",
 						},
 						["Осеменатор"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 23,
-							["name"] = "Осеменатор",
 							["class"] = "Друид",
+							["name"] = "Осеменатор",
+							["classEnglish"] = "DRUID",
 						},
 					},
 					["class"] = "Друид",
@@ -4812,16 +7762,16 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-5571-189-30985-575-0000198FE5",
 					["GUIDSource"] = "mouseover",
 					["mergeSource"] = "nameplate",
-				}, -- [68]
+				}, -- [131]
 				{
 					["GUID"] = "Creature-0-5571-189-29776-4286-0003998AC3",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 31,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 						["Протолавки"] = {
 							["name"] = "Протолавки",
@@ -4845,10 +7795,10 @@ NITdatabase = {
 							["class"] = "Маг",
 						},
 						["Осеменатор"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 23,
-							["name"] = "Осеменатор",
 							["class"] = "Друид",
+							["name"] = "Осеменатор",
+							["classEnglish"] = "DRUID",
 						},
 					},
 					["class"] = "Друид",
@@ -4873,7 +7823,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-5571-189-29776-4286-0001998AC3",
 					["GUIDSource"] = "mouseover",
 					["mergeSource"] = "nameplate",
-				}, -- [69]
+				}, -- [132]
 				{
 					["GUID"] = "Creature-0-4479-34-28856-1711-0001998283",
 					["leftMoney"] = 0,
@@ -4886,16 +7836,16 @@ NITdatabase = {
 							["class"] = "Воин",
 						},
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 30,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 						["Зеппи"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 15,
-							["name"] = "Зеппи",
 							["class"] = "Друид",
+							["name"] = "Зеппи",
+							["classEnglish"] = "DRUID",
 						},
 						["Шэсуза"] = {
 							["name"] = "Шэсуза",
@@ -4932,7 +7882,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 3967,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 30,
-				}, -- [70]
+				}, -- [133]
 				{
 					["GUID"] = "Creature-0-5571-34-27312-1708-00019980B7",
 					["leftMoney"] = 0,
@@ -4945,16 +7895,16 @@ NITdatabase = {
 							["class"] = "Воин",
 						},
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 30,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 						["Зеппи"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 15,
-							["name"] = "Зеппи",
 							["class"] = "Друид",
+							["name"] = "Зеппи",
+							["classEnglish"] = "DRUID",
 						},
 						["Шэсуза"] = {
 							["name"] = "Шэсуза",
@@ -4991,7 +7941,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 2004,
 					["GUIDSource"] = "combatLog",
 					["enteredLevel"] = 30,
-				}, -- [71]
+				}, -- [134]
 				{
 					["GUID"] = "Creature-0-4458-34-26235-1708-0000197ED9",
 					["leftMoney"] = 0,
@@ -5004,16 +7954,16 @@ NITdatabase = {
 							["level"] = 60,
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["level"] = 30,
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Зеппи"] = {
-							["class"] = "Друид",
 							["level"] = 15,
-							["name"] = "Зеппи",
 							["classEnglish"] = "DRUID",
+							["name"] = "Зеппи",
+							["class"] = "Друид",
 						},
 						["Шэсуза"] = {
 							["name"] = "Шэсуза",
@@ -5052,7 +8002,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4458-34-26235-1706-0004997EDA",
 					["mobCount"] = 77,
 					["mergeSource"] = "mouseover",
-				}, -- [72]
+				}, -- [135]
 				{
 					["GUID"] = "Creature-0-4459-34-16720-1715-0000997C3E",
 					["leftMoney"] = 0,
@@ -5065,16 +8015,16 @@ NITdatabase = {
 							["level"] = 60,
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["level"] = 30,
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Зеппи"] = {
-							["class"] = "Друид",
 							["level"] = 15,
-							["name"] = "Зеппи",
 							["classEnglish"] = "DRUID",
+							["name"] = "Зеппи",
+							["class"] = "Друид",
 						},
 						["Шэсуза"] = {
 							["name"] = "Шэсуза",
@@ -5111,28 +8061,28 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 93,
 					["enteredLevel"] = 30,
-				}, -- [73]
+				}, -- [136]
 				{
 					["GUID"] = "Creature-0-4479-48-25350-4818-0001996265",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Лидокаинка"] = {
-							["class"] = "Маг",
 							["level"] = 26,
-							["name"] = "Лидокаинка",
 							["classEnglish"] = "MAGE",
+							["name"] = "Лидокаинка",
+							["class"] = "Маг",
 						},
 						["Нгазаргаму"] = {
-							["class"] = "Жрица",
 							["level"] = 22,
-							["name"] = "Нгазаргаму",
 							["classEnglish"] = "PRIEST",
+							["name"] = "Нгазаргаму",
+							["class"] = "Жрица",
 						},
 						["Подпечень"] = {
-							["class"] = "Разбойник",
 							["level"] = 21,
-							["name"] = "Подпечень",
 							["classEnglish"] = "ROGUE",
+							["name"] = "Подпечень",
+							["class"] = "Разбойник",
 						},
 						["Граминар"] = {
 							["name"] = "Граминар",
@@ -5142,10 +8092,10 @@ NITdatabase = {
 							["class"] = "Паладин",
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["level"] = 30,
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 					},
 					["class"] = "Друид",
@@ -5170,40 +8120,40 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4479-48-25350-4825-000119718E",
 					["GUIDSource"] = "combatLog",
 					["enteredLevel"] = 30,
-				}, -- [74]
+				}, -- [137]
 				{
 					["GUID"] = "Creature-0-5571-34-31355-1715-00001576BD",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["level"] = 19,
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Нгазаргаму"] = {
-							["class"] = "Жрица",
 							["classEnglish"] = "PRIEST",
-							["name"] = "Нгазаргаму",
 							["level"] = 19,
+							["name"] = "Нгазаргаму",
+							["class"] = "Жрица",
 						},
 						["Однобабловый"] = {
-							["class"] = "Паладин",
 							["classEnglish"] = "PALADIN",
-							["name"] = "Однобабловый",
 							["level"] = 22,
+							["name"] = "Однобабловый",
+							["class"] = "Паладин",
 						},
 						["Мерегольт"] = {
-							["class"] = "Маг",
 							["classEnglish"] = "MAGE",
-							["name"] = "Мерегольт",
 							["level"] = 60,
+							["name"] = "Мерегольт",
+							["class"] = "Маг",
 						},
 						["Подпечень"] = {
-							["class"] = "Разбойник",
 							["classEnglish"] = "ROGUE",
-							["name"] = "Подпечень",
 							["level"] = 19,
+							["name"] = "Подпечень",
+							["class"] = "Разбойник",
 						},
 					},
 					["class"] = "Друид",
@@ -5226,40 +8176,40 @@ NITdatabase = {
 					["rawMoneyCount"] = 4166,
 					["GUIDSource"] = "combatLog",
 					["enteredLevel"] = 19,
-				}, -- [75]
+				}, -- [138]
 				{
 					["GUID"] = "Creature-0-4459-34-23305-1715-00011574AD",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["level"] = 19,
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Нгазаргаму"] = {
-							["class"] = "Жрица",
 							["classEnglish"] = "PRIEST",
-							["name"] = "Нгазаргаму",
 							["level"] = 19,
+							["name"] = "Нгазаргаму",
+							["class"] = "Жрица",
 						},
 						["Однобабловый"] = {
-							["class"] = "Паладин",
 							["classEnglish"] = "PALADIN",
-							["name"] = "Однобабловый",
 							["level"] = 22,
+							["name"] = "Однобабловый",
+							["class"] = "Паладин",
 						},
 						["Мерегольт"] = {
-							["class"] = "Маг",
 							["classEnglish"] = "MAGE",
-							["name"] = "Мерегольт",
 							["level"] = 60,
+							["name"] = "Мерегольт",
+							["class"] = "Маг",
 						},
 						["Подпечень"] = {
-							["class"] = "Разбойник",
 							["classEnglish"] = "ROGUE",
-							["name"] = "Подпечень",
 							["level"] = 19,
+							["name"] = "Подпечень",
+							["class"] = "Разбойник",
 						},
 					},
 					["class"] = "Друид",
@@ -5282,40 +8232,40 @@ NITdatabase = {
 					["rawMoneyCount"] = 3963,
 					["GUIDSource"] = "combatLog",
 					["enteredLevel"] = 18,
-				}, -- [76]
+				}, -- [139]
 				{
 					["GUID"] = "Creature-0-5571-34-30299-1715-00019572A5",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["level"] = 18,
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Нгазаргаму"] = {
-							["class"] = "Жрица",
 							["classEnglish"] = "PRIEST",
-							["name"] = "Нгазаргаму",
 							["level"] = 18,
+							["name"] = "Нгазаргаму",
+							["class"] = "Жрица",
 						},
 						["Однобабловый"] = {
-							["class"] = "Паладин",
 							["classEnglish"] = "PALADIN",
-							["name"] = "Однобабловый",
 							["level"] = 21,
+							["name"] = "Однобабловый",
+							["class"] = "Паладин",
 						},
 						["Мерегольт"] = {
-							["class"] = "Маг",
 							["classEnglish"] = "MAGE",
-							["name"] = "Мерегольт",
 							["level"] = 60,
+							["name"] = "Мерегольт",
+							["class"] = "Маг",
 						},
 						["Подпечень"] = {
-							["class"] = "Разбойник",
 							["classEnglish"] = "ROGUE",
-							["name"] = "Подпечень",
 							["level"] = 18,
+							["name"] = "Подпечень",
+							["class"] = "Разбойник",
 						},
 					},
 					["class"] = "Друид",
@@ -5338,40 +8288,40 @@ NITdatabase = {
 					["rawMoneyCount"] = 4033,
 					["GUIDSource"] = "combatLog",
 					["enteredLevel"] = 18,
-				}, -- [77]
+				}, -- [140]
 				{
 					["GUID"] = "Creature-0-4479-34-20981-1716-0000157091",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["level"] = 18,
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Нгазаргаму"] = {
-							["class"] = "Жрица",
 							["classEnglish"] = "PRIEST",
-							["name"] = "Нгазаргаму",
 							["level"] = 18,
+							["name"] = "Нгазаргаму",
+							["class"] = "Жрица",
 						},
 						["Однобабловый"] = {
-							["class"] = "Паладин",
 							["classEnglish"] = "PALADIN",
-							["name"] = "Однобабловый",
 							["level"] = 21,
+							["name"] = "Однобабловый",
+							["class"] = "Паладин",
 						},
 						["Мерегольт"] = {
-							["class"] = "Маг",
 							["classEnglish"] = "MAGE",
-							["name"] = "Мерегольт",
 							["level"] = 60,
+							["name"] = "Мерегольт",
+							["class"] = "Маг",
 						},
 						["Подпечень"] = {
-							["class"] = "Разбойник",
 							["classEnglish"] = "ROGUE",
-							["name"] = "Подпечень",
 							["level"] = 18,
+							["name"] = "Подпечень",
+							["class"] = "Разбойник",
 						},
 					},
 					["class"] = "Друид",
@@ -5394,7 +8344,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 3686,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 18,
-				}, -- [78]
+				}, -- [141]
 				{
 					["leftMoney"] = 0,
 					["group"] = {
@@ -5416,7 +8366,7 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 0,
 					["enteredLevel"] = 18,
-				}, -- [79]
+				}, -- [142]
 				{
 					["GUID"] = "Creature-0-5571-34-2183-1715-0000991E28",
 					["leftMoney"] = 0,
@@ -5429,28 +8379,28 @@ NITdatabase = {
 							["class"] = "Разбойница",
 						},
 						["Оод"] = {
-							["level"] = 29,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 29,
 						},
 						["Йенсис"] = {
-							["level"] = 23,
 							["class"] = "Разбойница",
-							["name"] = "Йенсис",
 							["classEnglish"] = "ROGUE",
+							["name"] = "Йенсис",
+							["level"] = 23,
 						},
 						["Болты"] = {
-							["level"] = 60,
 							["class"] = "Маг",
-							["name"] = "Болты",
 							["classEnglish"] = "MAGE",
+							["name"] = "Болты",
+							["level"] = 60,
 						},
 						["Спиритбокс"] = {
-							["level"] = 29,
 							["class"] = "Друид",
-							["name"] = "Спиритбокс",
 							["classEnglish"] = "DRUID",
+							["name"] = "Спиритбокс",
+							["level"] = 29,
 						},
 					},
 					["class"] = "Друид",
@@ -5473,7 +8423,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 4055,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 29,
-				}, -- [80]
+				}, -- [143]
 				{
 					["GUID"] = "Creature-0-4458-34-18409-1715-0003991C25",
 					["leftMoney"] = 0,
@@ -5486,28 +8436,28 @@ NITdatabase = {
 							["level"] = 24,
 						},
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 29,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 						["Йенсис"] = {
-							["classEnglish"] = "ROGUE",
 							["level"] = 23,
-							["name"] = "Йенсис",
 							["class"] = "Разбойница",
+							["name"] = "Йенсис",
+							["classEnglish"] = "ROGUE",
 						},
 						["Болты"] = {
-							["classEnglish"] = "MAGE",
 							["level"] = 60,
-							["name"] = "Болты",
 							["class"] = "Маг",
+							["name"] = "Болты",
+							["classEnglish"] = "MAGE",
 						},
 						["Спиритбокс"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 28,
-							["name"] = "Спиритбокс",
 							["class"] = "Друид",
+							["name"] = "Спиритбокс",
+							["classEnglish"] = "DRUID",
 						},
 					},
 					["class"] = "Друид",
@@ -5530,7 +8480,7 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 92,
 					["enteredLevel"] = 29,
-				}, -- [81]
+				}, -- [144]
 				{
 					["GUID"] = "Creature-0-4457-34-13470-1715-00019919C3",
 					["leftMoney"] = 0,
@@ -5543,28 +8493,28 @@ NITdatabase = {
 							["level"] = 24,
 						},
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 29,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 						["Йенсис"] = {
-							["classEnglish"] = "ROGUE",
 							["level"] = 23,
-							["name"] = "Йенсис",
 							["class"] = "Разбойница",
+							["name"] = "Йенсис",
+							["classEnglish"] = "ROGUE",
 						},
 						["Болты"] = {
-							["classEnglish"] = "MAGE",
 							["level"] = 60,
-							["name"] = "Болты",
 							["class"] = "Маг",
+							["name"] = "Болты",
+							["classEnglish"] = "MAGE",
 						},
 						["Спиритбокс"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 28,
-							["name"] = "Спиритбокс",
 							["class"] = "Друид",
+							["name"] = "Спиритбокс",
+							["classEnglish"] = "DRUID",
 						},
 					},
 					["class"] = "Друид",
@@ -5587,7 +8537,7 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 93,
 					["enteredLevel"] = 29,
-				}, -- [82]
+				}, -- [145]
 				{
 					["GUID"] = "Creature-0-4458-34-18135-1708-00029917CB",
 					["leftMoney"] = 0,
@@ -5600,28 +8550,28 @@ NITdatabase = {
 							["level"] = 24,
 						},
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 29,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 						["Йенсис"] = {
-							["classEnglish"] = "ROGUE",
 							["level"] = 22,
-							["name"] = "Йенсис",
 							["class"] = "Разбойница",
+							["name"] = "Йенсис",
+							["classEnglish"] = "ROGUE",
 						},
 						["Болты"] = {
-							["classEnglish"] = "MAGE",
 							["level"] = 60,
-							["name"] = "Болты",
 							["class"] = "Маг",
+							["name"] = "Болты",
+							["classEnglish"] = "MAGE",
 						},
 						["Спиритбокс"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 28,
-							["name"] = "Спиритбокс",
 							["class"] = "Друид",
+							["name"] = "Спиритбокс",
+							["classEnglish"] = "DRUID",
 						},
 					},
 					["class"] = "Друид",
@@ -5644,7 +8594,7 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 93,
 					["enteredLevel"] = 29,
-				}, -- [83]
+				}, -- [146]
 				{
 					["GUID"] = "Creature-0-4460-34-2267-1708-000119157D",
 					["leftMoney"] = 0,
@@ -5657,28 +8607,28 @@ NITdatabase = {
 							["level"] = 24,
 						},
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 29,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 						["Йенсис"] = {
-							["classEnglish"] = "ROGUE",
 							["level"] = 22,
-							["name"] = "Йенсис",
 							["class"] = "Разбойница",
+							["name"] = "Йенсис",
+							["classEnglish"] = "ROGUE",
 						},
 						["Болты"] = {
-							["classEnglish"] = "MAGE",
 							["level"] = 60,
-							["name"] = "Болты",
 							["class"] = "Маг",
+							["name"] = "Болты",
+							["classEnglish"] = "MAGE",
 						},
 						["Спиритбокс"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 28,
-							["name"] = "Спиритбокс",
 							["class"] = "Друид",
+							["name"] = "Спиритбокс",
+							["classEnglish"] = "DRUID",
 						},
 					},
 					["class"] = "Друид",
@@ -5701,28 +8651,28 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 93,
 					["enteredLevel"] = 29,
-				}, -- [84]
+				}, -- [147]
 				{
 					["GUID"] = "Creature-0-5571-34-20760-1708-000498E0BA",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Маллира"] = {
-							["class"] = "Паладин",
 							["classEnglish"] = "PALADIN",
-							["name"] = "Маллира",
 							["level"] = 17,
+							["name"] = "Маллира",
+							["class"] = "Паладин",
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["level"] = 29,
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Пактус"] = {
-							["class"] = "Паладин",
 							["classEnglish"] = "PALADIN",
-							["name"] = "Пактус",
 							["level"] = 30,
+							["name"] = "Пактус",
+							["class"] = "Паладин",
 						},
 						["Тода"] = {
 							["name"] = "Тода",
@@ -5752,22 +8702,22 @@ NITdatabase = {
 					["rawMoneyCount"] = 4947,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 28,
-				}, -- [85]
+				}, -- [148]
 				{
 					["GUID"] = "Creature-0-4460-34-32708-1715-000198DF0C",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Маллира"] = {
-							["class"] = "Паладин",
 							["classEnglish"] = "PALADIN",
-							["name"] = "Маллира",
 							["level"] = 17,
+							["name"] = "Маллира",
+							["class"] = "Паладин",
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["level"] = 28,
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Скайфеникс"] = {
 							["name"] = "Скайфеникс",
@@ -5784,10 +8734,10 @@ NITdatabase = {
 							["class"] = "Паладин",
 						},
 						["Пактус"] = {
-							["class"] = "Паладин",
 							["classEnglish"] = "PALADIN",
-							["name"] = "Пактус",
 							["level"] = 30,
+							["name"] = "Пактус",
+							["class"] = "Паладин",
 						},
 					},
 					["class"] = "Друид",
@@ -5810,28 +8760,28 @@ NITdatabase = {
 					["rawMoneyCount"] = 4259,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 28,
-				}, -- [86]
+				}, -- [149]
 				{
 					["GUID"] = "Creature-0-4457-34-10860-1711-000198DD68",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Маллира"] = {
-							["class"] = "Паладин",
 							["classEnglish"] = "PALADIN",
-							["name"] = "Маллира",
 							["level"] = 17,
+							["name"] = "Маллира",
+							["class"] = "Паладин",
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["level"] = 28,
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Скайфеникс"] = {
-							["class"] = "Паладин",
 							["classEnglish"] = "PALADIN",
-							["name"] = "Скайфеникс",
 							["level"] = 27,
+							["name"] = "Скайфеникс",
+							["class"] = "Паладин",
 						},
 						["Тода"] = {
 							["name"] = "Тода",
@@ -5841,10 +8791,10 @@ NITdatabase = {
 							["class"] = "Паладин",
 						},
 						["Пактус"] = {
-							["class"] = "Паладин",
 							["classEnglish"] = "PALADIN",
-							["name"] = "Пактус",
 							["level"] = 30,
+							["name"] = "Пактус",
+							["class"] = "Паладин",
 						},
 					},
 					["class"] = "Друид",
@@ -5867,22 +8817,22 @@ NITdatabase = {
 					["rawMoneyCount"] = 3873,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 28,
-				}, -- [87]
+				}, -- [150]
 				{
 					["GUID"] = "Creature-0-4460-34-32633-1716-000018DBBE",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Маллира"] = {
-							["class"] = "Паладин",
 							["classEnglish"] = "PALADIN",
-							["name"] = "Маллира",
 							["level"] = 16,
+							["name"] = "Маллира",
+							["class"] = "Паладин",
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["level"] = 28,
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Скайфеникс"] = {
 							["name"] = "Скайфеникс",
@@ -5899,10 +8849,10 @@ NITdatabase = {
 							["class"] = "Паладин",
 						},
 						["Пактус"] = {
-							["class"] = "Паладин",
 							["classEnglish"] = "PALADIN",
-							["name"] = "Пактус",
 							["level"] = 29,
+							["name"] = "Пактус",
+							["class"] = "Паладин",
 						},
 					},
 					["class"] = "Друид",
@@ -5925,22 +8875,22 @@ NITdatabase = {
 					["rawMoneyCount"] = 3952,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 28,
-				}, -- [88]
+				}, -- [151]
 				{
 					["GUID"] = "Creature-0-4479-34-13350-1717-000018D942",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Маллира"] = {
-							["class"] = "Паладин",
 							["classEnglish"] = "PALADIN",
-							["name"] = "Маллира",
 							["level"] = 16,
+							["name"] = "Маллира",
+							["class"] = "Паладин",
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["level"] = 28,
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Скайфеникс"] = {
 							["name"] = "Скайфеникс",
@@ -5957,10 +8907,10 @@ NITdatabase = {
 							["class"] = "Паладин",
 						},
 						["Пактус"] = {
-							["class"] = "Паладин",
 							["classEnglish"] = "PALADIN",
-							["name"] = "Пактус",
 							["level"] = 29,
+							["name"] = "Пактус",
+							["class"] = "Паладин",
 						},
 					},
 					["class"] = "Друид",
@@ -5983,22 +8933,22 @@ NITdatabase = {
 					["rawMoneyCount"] = 3411,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 28,
-				}, -- [89]
+				}, -- [152]
 				{
 					["GUID"] = "Creature-0-4479-34-12261-1715-000018BD12",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["level"] = 28,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 28,
 						},
 						["Реалмуто"] = {
-							["level"] = 21,
 							["class"] = "Паладин",
-							["name"] = "Реалмуто",
 							["classEnglish"] = "PALADIN",
+							["name"] = "Реалмуто",
+							["level"] = 21,
 						},
 						["Арзик"] = {
 							["name"] = "Арзик",
@@ -6008,10 +8958,10 @@ NITdatabase = {
 							["level"] = 60,
 						},
 						["Ударвспину"] = {
-							["level"] = 22,
 							["class"] = "Разбойница",
-							["name"] = "Ударвспину",
 							["classEnglish"] = "ROGUE",
+							["name"] = "Ударвспину",
+							["level"] = 22,
 						},
 						["Овелхил"] = {
 							["name"] = "Овелхил",
@@ -6041,22 +8991,22 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 93,
 					["enteredLevel"] = 28,
-				}, -- [90]
+				}, -- [153]
 				{
 					["GUID"] = "Creature-0-5571-34-13640-1708-000118BAE5",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["level"] = 28,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 28,
 						},
 						["Реалмуто"] = {
-							["level"] = 20,
 							["class"] = "Паладин",
-							["name"] = "Реалмуто",
 							["classEnglish"] = "PALADIN",
+							["name"] = "Реалмуто",
+							["level"] = 20,
 						},
 						["Арзик"] = {
 							["name"] = "Арзик",
@@ -6066,10 +9016,10 @@ NITdatabase = {
 							["level"] = 60,
 						},
 						["Ударвспину"] = {
-							["level"] = 22,
 							["class"] = "Разбойница",
-							["name"] = "Ударвспину",
 							["classEnglish"] = "ROGUE",
+							["name"] = "Ударвспину",
+							["level"] = 22,
 						},
 						["Овелхил"] = {
 							["name"] = "Овелхил",
@@ -6099,22 +9049,22 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 93,
 					["enteredLevel"] = 27,
-				}, -- [91]
+				}, -- [154]
 				{
 					["GUID"] = "Creature-0-5571-34-13264-1711-000018B8DB",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["level"] = 27,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 27,
 						},
 						["Реалмуто"] = {
-							["level"] = 20,
 							["class"] = "Паладин",
-							["name"] = "Реалмуто",
 							["classEnglish"] = "PALADIN",
+							["name"] = "Реалмуто",
+							["level"] = 20,
 						},
 						["Арзик"] = {
 							["name"] = "Арзик",
@@ -6124,10 +9074,10 @@ NITdatabase = {
 							["level"] = 60,
 						},
 						["Ударвспину"] = {
-							["level"] = 21,
 							["class"] = "Разбойница",
-							["name"] = "Ударвспину",
 							["classEnglish"] = "ROGUE",
+							["name"] = "Ударвспину",
+							["level"] = 21,
 						},
 						["Овелхил"] = {
 							["name"] = "Овелхил",
@@ -6157,22 +9107,22 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 93,
 					["enteredLevel"] = 27,
-				}, -- [92]
+				}, -- [155]
 				{
 					["GUID"] = "Creature-0-5571-34-12917-1715-000298B6E5",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["level"] = 27,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 27,
 						},
 						["Реалмуто"] = {
-							["level"] = 20,
 							["class"] = "Паладин",
-							["name"] = "Реалмуто",
 							["classEnglish"] = "PALADIN",
+							["name"] = "Реалмуто",
+							["level"] = 20,
 						},
 						["Арзик"] = {
 							["name"] = "Арзик",
@@ -6182,10 +9132,10 @@ NITdatabase = {
 							["level"] = 60,
 						},
 						["Ударвспину"] = {
-							["level"] = 21,
 							["class"] = "Разбойница",
-							["name"] = "Ударвспину",
 							["classEnglish"] = "ROGUE",
+							["name"] = "Ударвспину",
+							["level"] = 21,
 						},
 						["Овелхил"] = {
 							["name"] = "Овелхил",
@@ -6215,22 +9165,22 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 91,
 					["enteredLevel"] = 27,
-				}, -- [93]
+				}, -- [156]
 				{
 					["GUID"] = "Creature-0-5571-34-12424-1715-000118B3C2",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["level"] = 27,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 27,
 						},
 						["Реалмуто"] = {
-							["level"] = 19,
 							["class"] = "Паладин",
-							["name"] = "Реалмуто",
 							["classEnglish"] = "PALADIN",
+							["name"] = "Реалмуто",
+							["level"] = 19,
 						},
 						["Арзик"] = {
 							["name"] = "Арзик",
@@ -6240,16 +9190,16 @@ NITdatabase = {
 							["level"] = 60,
 						},
 						["Ударвспину"] = {
-							["level"] = 21,
 							["class"] = "Разбойница",
-							["name"] = "Ударвспину",
 							["classEnglish"] = "ROGUE",
+							["name"] = "Ударвспину",
+							["level"] = 21,
 						},
 						["Некроманка"] = {
-							["level"] = 19,
 							["class"] = "Друид",
-							["name"] = "Некроманка",
 							["classEnglish"] = "DRUID",
+							["name"] = "Некроманка",
+							["level"] = 19,
 						},
 						["Неизвестно"] = {
 							["name"] = "Неизвестно",
@@ -6283,22 +9233,22 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 93,
 					["enteredLevel"] = 27,
-				}, -- [94]
+				}, -- [157]
 				{
 					["GUID"] = "Creature-0-5571-34-18369-1716-000017A4CD",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Тенелом"] = {
-							["class"] = "Паладин",
 							["level"] = 30,
-							["name"] = "Тенелом",
 							["classEnglish"] = "PALADIN",
+							["name"] = "Тенелом",
+							["class"] = "Паладин",
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["level"] = 27,
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Колхозный"] = {
 							["name"] = "Колхозный",
@@ -6308,16 +9258,16 @@ NITdatabase = {
 							["level"] = 60,
 						},
 						["Завалкин"] = {
-							["class"] = "Воин",
 							["level"] = 26,
-							["name"] = "Завалкин",
 							["classEnglish"] = "WARRIOR",
+							["name"] = "Завалкин",
+							["class"] = "Воин",
 						},
 						["Фелмус"] = {
-							["class"] = "Жрица",
 							["level"] = 25,
-							["name"] = "Фелмус",
 							["classEnglish"] = "PRIEST",
+							["name"] = "Фелмус",
+							["class"] = "Жрица",
 						},
 					},
 					["class"] = "Друид",
@@ -6342,22 +9292,22 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-5571-34-18369-1708-000317A4CD",
 					["mobCount"] = 65,
 					["mergeSource"] = "mouseover",
-				}, -- [95]
+				}, -- [158]
 				{
 					["GUID"] = "Creature-0-5571-34-17947-1715-000197A2D5",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Тенелом"] = {
-							["classEnglish"] = "PALADIN",
 							["level"] = 29,
-							["name"] = "Тенелом",
 							["class"] = "Паладин",
+							["name"] = "Тенелом",
+							["classEnglish"] = "PALADIN",
 						},
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 26,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 						["Колхозный"] = {
 							["name"] = "Колхозный",
@@ -6367,16 +9317,16 @@ NITdatabase = {
 							["class"] = "Воин",
 						},
 						["Завалкин"] = {
-							["classEnglish"] = "WARRIOR",
 							["level"] = 26,
-							["name"] = "Завалкин",
 							["class"] = "Воин",
+							["name"] = "Завалкин",
+							["classEnglish"] = "WARRIOR",
 						},
 						["Фелмус"] = {
-							["classEnglish"] = "PRIEST",
 							["level"] = 25,
-							["name"] = "Фелмус",
 							["class"] = "Жрица",
+							["name"] = "Фелмус",
+							["classEnglish"] = "PRIEST",
 						},
 					},
 					["class"] = "Друид",
@@ -6399,22 +9349,22 @@ NITdatabase = {
 					["rawMoneyCount"] = 4094,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 26,
-				}, -- [96]
+				}, -- [159]
 				{
 					["GUID"] = "Creature-0-5571-34-17476-1711-000097A0B0",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Тенелом"] = {
-							["level"] = 29,
 							["class"] = "Паладин",
-							["name"] = "Тенелом",
 							["classEnglish"] = "PALADIN",
+							["name"] = "Тенелом",
+							["level"] = 29,
 						},
 						["Оод"] = {
-							["level"] = 26,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 26,
 						},
 						["Колхозный"] = {
 							["name"] = "Колхозный",
@@ -6424,16 +9374,16 @@ NITdatabase = {
 							["class"] = "Воин",
 						},
 						["Завалкин"] = {
-							["level"] = 26,
 							["class"] = "Воин",
-							["name"] = "Завалкин",
 							["classEnglish"] = "WARRIOR",
+							["name"] = "Завалкин",
+							["level"] = 26,
 						},
 						["Фелмус"] = {
-							["level"] = 25,
 							["class"] = "Жрица",
-							["name"] = "Фелмус",
 							["classEnglish"] = "PRIEST",
+							["name"] = "Фелмус",
+							["level"] = 25,
 						},
 					},
 					["class"] = "Друид",
@@ -6456,22 +9406,22 @@ NITdatabase = {
 					["rawMoneyCount"] = 3514,
 					["GUIDSource"] = "combatLog",
 					["enteredLevel"] = 26,
-				}, -- [97]
+				}, -- [160]
 				{
 					["GUID"] = "Creature-0-4460-34-20453-1715-0000179E8C",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Тенелом"] = {
-							["level"] = 29,
 							["class"] = "Паладин",
-							["name"] = "Тенелом",
 							["classEnglish"] = "PALADIN",
+							["name"] = "Тенелом",
+							["level"] = 29,
 						},
 						["Оод"] = {
-							["level"] = 26,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 26,
 						},
 						["Колхозный"] = {
 							["name"] = "Колхозный",
@@ -6481,16 +9431,16 @@ NITdatabase = {
 							["class"] = "Воин",
 						},
 						["Завалкин"] = {
-							["level"] = 25,
 							["class"] = "Воин",
-							["name"] = "Завалкин",
 							["classEnglish"] = "WARRIOR",
+							["name"] = "Завалкин",
+							["level"] = 25,
 						},
 						["Фелмус"] = {
-							["level"] = 25,
 							["class"] = "Жрица",
-							["name"] = "Фелмус",
 							["classEnglish"] = "PRIEST",
+							["name"] = "Фелмус",
+							["level"] = 25,
 						},
 					},
 					["class"] = "Друид",
@@ -6513,22 +9463,22 @@ NITdatabase = {
 					["rawMoneyCount"] = 3998,
 					["GUIDSource"] = "combatLog",
 					["enteredLevel"] = 26,
-				}, -- [98]
+				}, -- [161]
 				{
 					["GUID"] = "Creature-0-5571-34-15933-1708-0000979992",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Тенелом"] = {
-							["level"] = 29,
 							["class"] = "Паладин",
-							["name"] = "Тенелом",
 							["classEnglish"] = "PALADIN",
+							["name"] = "Тенелом",
+							["level"] = 29,
 						},
 						["Оод"] = {
-							["level"] = 26,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 26,
 						},
 						["Колхозный"] = {
 							["name"] = "Колхозный",
@@ -6538,26 +9488,26 @@ NITdatabase = {
 							["class"] = "Воин",
 						},
 						["Дневничёк"] = {
-							["level"] = 29,
 							["class"] = "Паладин",
-							["name"] = "Дневничёк",
 							["classEnglish"] = "PALADIN",
+							["name"] = "Дневничёк",
+							["level"] = 29,
 						},
 						["Неизвестно"] = {
 							["name"] = "Неизвестно",
 							["level"] = 0,
 						},
 						["Завалкин"] = {
-							["level"] = 25,
 							["class"] = "Воин",
-							["name"] = "Завалкин",
 							["classEnglish"] = "WARRIOR",
+							["name"] = "Завалкин",
+							["level"] = 25,
 						},
 						["Фелмус"] = {
-							["level"] = 24,
 							["class"] = "Жрица",
-							["name"] = "Фелмус",
 							["classEnglish"] = "PRIEST",
+							["name"] = "Фелмус",
+							["level"] = 24,
 						},
 					},
 					["class"] = "Друид",
@@ -6580,7 +9530,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 3969,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 26,
-				}, -- [99]
+				}, -- [162]
 				{
 					["GUID"] = "Creature-0-4457-34-28930-1715-000097887A",
 					["leftMoney"] = 0,
@@ -6593,10 +9543,10 @@ NITdatabase = {
 							["level"] = 16,
 						},
 						["Магусмаг"] = {
-							["classEnglish"] = "MAGE",
 							["level"] = 16,
-							["name"] = "Магусмаг",
 							["class"] = "Маг",
+							["name"] = "Магусмаг",
+							["classEnglish"] = "MAGE",
 						},
 						["Скайфеникс"] = {
 							["name"] = "Скайфеникс",
@@ -6613,10 +9563,10 @@ NITdatabase = {
 							["level"] = 60,
 						},
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 26,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 					},
 					["class"] = "Друид",
@@ -6639,7 +9589,7 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 62,
 					["enteredLevel"] = 26,
-				}, -- [100]
+				}, -- [163]
 				{
 					["GUID"] = "Creature-0-5571-34-11909-1715-00011786BF",
 					["leftMoney"] = 0,
@@ -6652,10 +9602,10 @@ NITdatabase = {
 							["level"] = 16,
 						},
 						["Магусмаг"] = {
-							["classEnglish"] = "MAGE",
 							["level"] = 16,
-							["name"] = "Магусмаг",
 							["class"] = "Маг",
+							["name"] = "Магусмаг",
+							["classEnglish"] = "MAGE",
 						},
 						["Скайфеникс"] = {
 							["name"] = "Скайфеникс",
@@ -6672,10 +9622,10 @@ NITdatabase = {
 							["level"] = 60,
 						},
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 26,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 					},
 					["class"] = "Друид",
@@ -6698,7 +9648,7 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 93,
 					["enteredLevel"] = 25,
-				}, -- [101]
+				}, -- [164]
 				{
 					["GUID"] = "Creature-0-5571-34-11532-1706-000197850E",
 					["leftMoney"] = 0,
@@ -6711,10 +9661,10 @@ NITdatabase = {
 							["level"] = 15,
 						},
 						["Магусмаг"] = {
-							["classEnglish"] = "MAGE",
 							["level"] = 15,
-							["name"] = "Магусмаг",
 							["class"] = "Маг",
+							["name"] = "Магусмаг",
+							["classEnglish"] = "MAGE",
 						},
 						["Скайфеникс"] = {
 							["name"] = "Скайфеникс",
@@ -6731,10 +9681,10 @@ NITdatabase = {
 							["level"] = 60,
 						},
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 25,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 					},
 					["class"] = "Друид",
@@ -6757,7 +9707,7 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 90,
 					["enteredLevel"] = 25,
-				}, -- [102]
+				}, -- [165]
 				{
 					["GUID"] = "Creature-0-5571-34-11108-1708-00021782D5",
 					["leftMoney"] = 0,
@@ -6770,10 +9720,10 @@ NITdatabase = {
 							["level"] = 15,
 						},
 						["Магусмаг"] = {
-							["classEnglish"] = "MAGE",
 							["level"] = 15,
-							["name"] = "Магусмаг",
 							["class"] = "Маг",
+							["name"] = "Магусмаг",
+							["classEnglish"] = "MAGE",
 						},
 						["Скайфеникс"] = {
 							["name"] = "Скайфеникс",
@@ -6783,16 +9733,16 @@ NITdatabase = {
 							["level"] = 22,
 						},
 						["Мбаппе"] = {
-							["classEnglish"] = "PALADIN",
 							["level"] = 60,
-							["name"] = "Мбаппе",
 							["class"] = "Паладин",
+							["name"] = "Мбаппе",
+							["classEnglish"] = "PALADIN",
 						},
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 25,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 					},
 					["class"] = "Друид",
@@ -6815,7 +9765,7 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 93,
 					["enteredLevel"] = 25,
-				}, -- [103]
+				}, -- [166]
 				{
 					["GUID"] = "Creature-0-5571-34-10749-1715-0000178126",
 					["leftMoney"] = 0,
@@ -6828,10 +9778,10 @@ NITdatabase = {
 							["class"] = "Воин",
 						},
 						["Магусмаг"] = {
-							["class"] = "Маг",
 							["level"] = 15,
-							["name"] = "Магусмаг",
 							["classEnglish"] = "MAGE",
+							["name"] = "Магусмаг",
+							["class"] = "Маг",
 						},
 						["Скайфеникс"] = {
 							["name"] = "Скайфеникс",
@@ -6848,10 +9798,10 @@ NITdatabase = {
 							["class"] = "Паладин",
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["level"] = 25,
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 					},
 					["class"] = "Друид",
@@ -6874,7 +9824,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 3677,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 25,
-				}, -- [104]
+				}, -- [167]
 				{
 					["GUID"] = "Creature-0-4479-34-18831-1708-0002971F74",
 					["leftMoney"] = 0,
@@ -6887,16 +9837,16 @@ NITdatabase = {
 							["level"] = 60,
 						},
 						["Оод"] = {
-							["level"] = 25,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 25,
 						},
 						["Алэйа"] = {
-							["level"] = 30,
 							["class"] = "Чернокнижница",
-							["name"] = "Алэйа",
 							["classEnglish"] = "WARLOCK",
+							["name"] = "Алэйа",
+							["level"] = 30,
 						},
 					},
 					["class"] = "Друид",
@@ -6919,22 +9869,22 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 93,
 					["enteredLevel"] = 24,
-				}, -- [105]
+				}, -- [168]
 				{
 					["GUID"] = "Creature-0-5571-34-25029-1706-0000171CB9",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["level"] = 24,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 24,
 						},
 						["Серенада"] = {
-							["level"] = 60,
 							["class"] = "Паладин",
-							["name"] = "Серенада",
 							["classEnglish"] = "PALADIN",
+							["name"] = "Серенада",
+							["level"] = 60,
 						},
 						["Эрнайтч"] = {
 							["name"] = "Эрнайтч",
@@ -6944,10 +9894,10 @@ NITdatabase = {
 							["level"] = 23,
 						},
 						["Алэйа"] = {
-							["level"] = 29,
 							["class"] = "Чернокнижница",
-							["name"] = "Алэйа",
 							["classEnglish"] = "WARLOCK",
+							["name"] = "Алэйа",
+							["level"] = 29,
 						},
 					},
 					["class"] = "Друид",
@@ -6970,22 +9920,22 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 93,
 					["enteredLevel"] = 24,
-				}, -- [106]
+				}, -- [169]
 				{
 					["GUID"] = "Creature-0-4479-34-18346-1708-00021717E1",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["level"] = 24,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 24,
 						},
 						["Серенада"] = {
-							["level"] = 60,
 							["class"] = "Паладин",
-							["name"] = "Серенада",
 							["classEnglish"] = "PALADIN",
+							["name"] = "Серенада",
+							["level"] = 60,
 						},
 						["Эрнайтч"] = {
 							["name"] = "Эрнайтч",
@@ -6995,10 +9945,10 @@ NITdatabase = {
 							["level"] = 23,
 						},
 						["Алэйа"] = {
-							["level"] = 29,
 							["class"] = "Чернокнижница",
-							["name"] = "Алэйа",
 							["classEnglish"] = "WARLOCK",
+							["name"] = "Алэйа",
+							["level"] = 29,
 						},
 					},
 					["class"] = "Друид",
@@ -7021,22 +9971,22 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 93,
 					["enteredLevel"] = 24,
-				}, -- [107]
+				}, -- [170]
 				{
 					["GUID"] = "Creature-0-5571-34-23251-1708-00011714A9",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["level"] = 24,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 24,
 						},
 						["Серенада"] = {
-							["level"] = 60,
 							["class"] = "Паладин",
-							["name"] = "Серенада",
 							["classEnglish"] = "PALADIN",
+							["name"] = "Серенада",
+							["level"] = 60,
 						},
 						["Эрнайтч"] = {
 							["name"] = "Эрнайтч",
@@ -7046,10 +9996,10 @@ NITdatabase = {
 							["level"] = 23,
 						},
 						["Алэйа"] = {
-							["level"] = 29,
 							["class"] = "Чернокнижница",
-							["name"] = "Алэйа",
 							["classEnglish"] = "WARLOCK",
+							["name"] = "Алэйа",
+							["level"] = 29,
 						},
 					},
 					["class"] = "Друид",
@@ -7072,16 +10022,16 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 93,
 					["enteredLevel"] = 24,
-				}, -- [108]
+				}, -- [171]
 				{
 					["GUID"] = "Creature-0-5571-34-21679-1708-0001970F9E",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["level"] = 24,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 24,
 						},
 						["Эрнайтч"] = {
 							["name"] = "Эрнайтч",
@@ -7091,22 +10041,22 @@ NITdatabase = {
 							["level"] = 22,
 						},
 						["Серенада"] = {
-							["level"] = 60,
 							["class"] = "Паладин",
-							["name"] = "Серенада",
 							["classEnglish"] = "PALADIN",
+							["name"] = "Серенада",
+							["level"] = 60,
 						},
 						["Рижуля"] = {
-							["level"] = 28,
 							["class"] = "Воин",
-							["name"] = "Рижуля",
 							["classEnglish"] = "WARRIOR",
+							["name"] = "Рижуля",
+							["level"] = 28,
 						},
 						["Алэйа"] = {
-							["level"] = 29,
 							["class"] = "Чернокнижница",
-							["name"] = "Алэйа",
 							["classEnglish"] = "WARLOCK",
+							["name"] = "Алэйа",
+							["level"] = 29,
 						},
 					},
 					["class"] = "Друид",
@@ -7129,22 +10079,22 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 93,
 					["enteredLevel"] = 24,
-				}, -- [109]
+				}, -- [172]
 				{
 					["GUID"] = "Creature-0-5571-34-18515-1711-0000170045",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Джусифлэш"] = {
-							["level"] = 60,
 							["classEnglish"] = "PALADIN",
-							["name"] = "Джусифлэш",
 							["class"] = "Паладин",
+							["name"] = "Джусифлэш",
+							["level"] = 60,
 						},
 						["Фидосья"] = {
-							["level"] = 22,
 							["classEnglish"] = "DRUID",
-							["name"] = "Фидосья",
 							["class"] = "Друид",
+							["name"] = "Фидосья",
+							["level"] = 22,
 						},
 						["Валасунд"] = {
 							["name"] = "Валасунд",
@@ -7161,10 +10111,10 @@ NITdatabase = {
 							["class"] = "Паладин",
 						},
 						["Оод"] = {
-							["level"] = 24,
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["level"] = 24,
 						},
 					},
 					["class"] = "Друид",
@@ -7187,22 +10137,22 @@ NITdatabase = {
 					["rawMoneyCount"] = 5778,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 23,
-				}, -- [110]
+				}, -- [173]
 				{
 					["GUID"] = "Creature-0-4458-34-26420-1708-000496FEDC",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Джусифлэш"] = {
-							["level"] = 60,
 							["classEnglish"] = "PALADIN",
-							["name"] = "Джусифлэш",
 							["class"] = "Паладин",
+							["name"] = "Джусифлэш",
+							["level"] = 60,
 						},
 						["Фидосья"] = {
-							["level"] = 22,
 							["classEnglish"] = "DRUID",
-							["name"] = "Фидосья",
 							["class"] = "Друид",
+							["name"] = "Фидосья",
+							["level"] = 22,
 						},
 						["Валасунд"] = {
 							["name"] = "Валасунд",
@@ -7219,10 +10169,10 @@ NITdatabase = {
 							["class"] = "Паладин",
 						},
 						["Оод"] = {
-							["level"] = 23,
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["level"] = 23,
 						},
 					},
 					["class"] = "Друид",
@@ -7245,22 +10195,22 @@ NITdatabase = {
 					["rawMoneyCount"] = 3780,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 23,
-				}, -- [111]
+				}, -- [174]
 				{
 					["GUID"] = "Creature-0-4459-34-1691-1708-000696FD64",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Джусифлэш"] = {
-							["level"] = 60,
 							["classEnglish"] = "PALADIN",
-							["name"] = "Джусифлэш",
 							["class"] = "Паладин",
+							["name"] = "Джусифлэш",
+							["level"] = 60,
 						},
 						["Фидосья"] = {
-							["level"] = 22,
 							["classEnglish"] = "DRUID",
-							["name"] = "Фидосья",
 							["class"] = "Друид",
+							["name"] = "Фидосья",
+							["level"] = 22,
 						},
 						["Валасунд"] = {
 							["name"] = "Валасунд",
@@ -7277,10 +10227,10 @@ NITdatabase = {
 							["class"] = "Паладин",
 						},
 						["Оод"] = {
-							["level"] = 23,
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["level"] = 23,
 						},
 					},
 					["class"] = "Друид",
@@ -7303,22 +10253,22 @@ NITdatabase = {
 					["rawMoneyCount"] = 4737,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 23,
-				}, -- [112]
+				}, -- [175]
 				{
 					["GUID"] = "Creature-0-4460-34-17384-1708-000116FC05",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Джусифлэш"] = {
-							["classEnglish"] = "PALADIN",
 							["level"] = 60,
-							["name"] = "Джусифлэш",
 							["class"] = "Паладин",
+							["name"] = "Джусифлэш",
+							["classEnglish"] = "PALADIN",
 						},
 						["Фидосья"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 22,
-							["name"] = "Фидосья",
 							["class"] = "Друид",
+							["name"] = "Фидосья",
+							["classEnglish"] = "DRUID",
 						},
 						["Валасунд"] = {
 							["name"] = "Валасунд",
@@ -7335,10 +10285,10 @@ NITdatabase = {
 							["classEnglish"] = "PALADIN",
 						},
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 23,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 					},
 					["class"] = "Друид",
@@ -7361,22 +10311,22 @@ NITdatabase = {
 					["rawMoneyCount"] = 4401,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 23,
-				}, -- [113]
+				}, -- [176]
 				{
 					["GUID"] = "Creature-0-5571-34-17198-1708-000316FA81",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Джусифлэш"] = {
-							["classEnglish"] = "PALADIN",
 							["level"] = 60,
-							["name"] = "Джусифлэш",
 							["class"] = "Паладин",
+							["name"] = "Джусифлэш",
+							["classEnglish"] = "PALADIN",
 						},
 						["Фидосья"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 21,
-							["name"] = "Фидосья",
 							["class"] = "Друид",
+							["name"] = "Фидосья",
+							["classEnglish"] = "DRUID",
 						},
 						["Валасунд"] = {
 							["name"] = "Валасунд",
@@ -7393,10 +10343,10 @@ NITdatabase = {
 							["class"] = "Паладин",
 						},
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 23,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 					},
 					["class"] = "Друид",
@@ -7419,34 +10369,34 @@ NITdatabase = {
 					["rawMoneyCount"] = 2655,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 22,
-				}, -- [114]
+				}, -- [177]
 				{
 					["GUID"] = "Creature-0-4480-34-7204-1711-000216ED64",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Соваризам"] = {
-							["classEnglish"] = "MAGE",
 							["level"] = 60,
-							["name"] = "Соваризам",
 							["class"] = "Маг",
+							["name"] = "Соваризам",
+							["classEnglish"] = "MAGE",
 						},
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 22,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 						["Аокидзихиэ"] = {
-							["classEnglish"] = "MAGE",
 							["level"] = 23,
-							["name"] = "Аокидзихиэ",
 							["class"] = "Маг",
+							["name"] = "Аокидзихиэ",
+							["classEnglish"] = "MAGE",
 						},
 						["Целительдушш"] = {
-							["classEnglish"] = "PRIEST",
 							["level"] = 19,
-							["name"] = "Целительдушш",
 							["class"] = "Жрец",
+							["name"] = "Целительдушш",
+							["classEnglish"] = "PRIEST",
 						},
 						["Сладар"] = {
 							["name"] = "Сладар",
@@ -7476,34 +10426,34 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 93,
 					["enteredLevel"] = 22,
-				}, -- [115]
+				}, -- [178]
 				{
 					["GUID"] = "Creature-0-4460-34-16257-1716-000016EB8E",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Соваризам"] = {
-							["class"] = "Маг",
 							["level"] = 60,
-							["name"] = "Соваризам",
 							["classEnglish"] = "MAGE",
+							["name"] = "Соваризам",
+							["class"] = "Маг",
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["level"] = 22,
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Аокидзихиэ"] = {
-							["class"] = "Маг",
 							["level"] = 22,
-							["name"] = "Аокидзихиэ",
 							["classEnglish"] = "MAGE",
+							["name"] = "Аокидзихиэ",
+							["class"] = "Маг",
 						},
 						["Целительдушш"] = {
-							["class"] = "Жрец",
 							["level"] = 19,
-							["name"] = "Целительдушш",
 							["classEnglish"] = "PRIEST",
+							["name"] = "Целительдушш",
+							["class"] = "Жрец",
 						},
 						["Сладар"] = {
 							["name"] = "Сладар",
@@ -7533,34 +10483,34 @@ NITdatabase = {
 					["rawMoneyCount"] = 4126,
 					["GUIDSource"] = "target",
 					["enteredLevel"] = 22,
-				}, -- [116]
+				}, -- [179]
 				{
 					["GUID"] = "Creature-0-4459-34-835-1711-000016E9B3",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Соваризам"] = {
-							["class"] = "Маг",
 							["level"] = 60,
-							["name"] = "Соваризам",
 							["classEnglish"] = "MAGE",
+							["name"] = "Соваризам",
+							["class"] = "Маг",
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["level"] = 22,
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Аокидзихиэ"] = {
-							["class"] = "Маг",
 							["level"] = 22,
-							["name"] = "Аокидзихиэ",
 							["classEnglish"] = "MAGE",
+							["name"] = "Аокидзихиэ",
+							["class"] = "Маг",
 						},
 						["Целительдушш"] = {
-							["class"] = "Жрец",
 							["level"] = 19,
-							["name"] = "Целительдушш",
 							["classEnglish"] = "PRIEST",
+							["name"] = "Целительдушш",
+							["class"] = "Жрец",
 						},
 						["Сладар"] = {
 							["name"] = "Сладар",
@@ -7590,34 +10540,34 @@ NITdatabase = {
 					["rawMoneyCount"] = 2210,
 					["GUIDSource"] = "combatLog",
 					["enteredLevel"] = 22,
-				}, -- [117]
+				}, -- [180]
 				{
 					["GUID"] = "Creature-0-5571-34-12964-1708-000296E7ED",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Соваризам"] = {
-							["class"] = "Маг",
 							["level"] = 60,
-							["name"] = "Соваризам",
 							["classEnglish"] = "MAGE",
+							["name"] = "Соваризам",
+							["class"] = "Маг",
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["level"] = 22,
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Аокидзихиэ"] = {
-							["class"] = "Маг",
 							["level"] = 22,
-							["name"] = "Аокидзихиэ",
 							["classEnglish"] = "MAGE",
+							["name"] = "Аокидзихиэ",
+							["class"] = "Маг",
 						},
 						["Целительдушш"] = {
-							["class"] = "Жрец",
 							["level"] = 18,
-							["name"] = "Целительдушш",
 							["classEnglish"] = "PRIEST",
+							["name"] = "Целительдушш",
+							["class"] = "Жрец",
 						},
 						["Сладар"] = {
 							["name"] = "Сладар",
@@ -7647,34 +10597,34 @@ NITdatabase = {
 					["rawMoneyCount"] = 2990,
 					["GUIDSource"] = "combatLog",
 					["enteredLevel"] = 21,
-				}, -- [118]
+				}, -- [181]
 				{
 					["GUID"] = "Creature-0-5571-34-12451-1708-000116E5E5",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Соваризам"] = {
-							["class"] = "Маг",
 							["classEnglish"] = "MAGE",
-							["name"] = "Соваризам",
 							["level"] = 60,
+							["name"] = "Соваризам",
+							["class"] = "Маг",
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["level"] = 21,
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Аокидзихиэ"] = {
-							["class"] = "Маг",
 							["classEnglish"] = "MAGE",
-							["name"] = "Аокидзихиэ",
 							["level"] = 21,
+							["name"] = "Аокидзихиэ",
+							["class"] = "Маг",
 						},
 						["Целительдушш"] = {
-							["class"] = "Жрец",
 							["classEnglish"] = "PRIEST",
-							["name"] = "Целительдушш",
 							["level"] = 18,
+							["name"] = "Целительдушш",
+							["class"] = "Жрец",
 						},
 						["Сладар"] = {
 							["name"] = "Сладар",
@@ -7704,22 +10654,22 @@ NITdatabase = {
 					["rawMoneyCount"] = 2715,
 					["GUIDSource"] = "combatLog",
 					["enteredLevel"] = 21,
-				}, -- [119]
+				}, -- [182]
 				{
 					["GUID"] = "Creature-0-5571-34-4760-1711-0002163426",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["level"] = 21,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 21,
 						},
 						["Нгазаргаму"] = {
-							["level"] = 21,
 							["class"] = "Жрица",
-							["name"] = "Нгазаргаму",
 							["classEnglish"] = "PRIEST",
+							["name"] = "Нгазаргаму",
+							["level"] = 21,
 						},
 						["Мбаппе"] = {
 							["name"] = "Мбаппе",
@@ -7729,16 +10679,16 @@ NITdatabase = {
 							["level"] = 60,
 						},
 						["Подпечень"] = {
-							["level"] = 21,
 							["class"] = "Разбойник",
-							["name"] = "Подпечень",
 							["classEnglish"] = "ROGUE",
+							["name"] = "Подпечень",
+							["level"] = 21,
 						},
 						["Сайферинг"] = {
-							["level"] = 18,
 							["class"] = "Разбойник",
-							["name"] = "Сайферинг",
 							["classEnglish"] = "ROGUE",
+							["name"] = "Сайферинг",
+							["level"] = 18,
 						},
 					},
 					["class"] = "Друид",
@@ -7761,28 +10711,28 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 93,
 					["enteredLevel"] = 21,
-				}, -- [120]
+				}, -- [183]
 				{
 					["GUID"] = "Creature-0-5571-34-4369-1666-0000163272",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["level"] = 21,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 21,
 						},
 						["Бкашка"] = {
-							["level"] = 18,
 							["class"] = "Воин",
-							["name"] = "Бкашка",
 							["classEnglish"] = "WARRIOR",
+							["name"] = "Бкашка",
+							["level"] = 18,
 						},
 						["Нгазаргаму"] = {
-							["level"] = 20,
 							["class"] = "Жрица",
-							["name"] = "Нгазаргаму",
 							["classEnglish"] = "PRIEST",
+							["name"] = "Нгазаргаму",
+							["level"] = 20,
 						},
 						["Мбаппе"] = {
 							["name"] = "Мбаппе",
@@ -7792,10 +10742,10 @@ NITdatabase = {
 							["level"] = 60,
 						},
 						["Подпечень"] = {
-							["level"] = 20,
 							["class"] = "Разбойник",
-							["name"] = "Подпечень",
 							["classEnglish"] = "ROGUE",
+							["name"] = "Подпечень",
+							["level"] = 20,
 						},
 					},
 					["class"] = "Друид",
@@ -7818,16 +10768,16 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 88,
 					["enteredLevel"] = 20,
-				}, -- [121]
+				}, -- [184]
 				{
 					["GUID"] = "Creature-0-4479-34-31529-1715-00001630E9",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["level"] = 20,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 20,
 						},
 						["Бкашка"] = {
 							["name"] = "Бкашка",
@@ -7837,10 +10787,10 @@ NITdatabase = {
 							["level"] = 18,
 						},
 						["Нгазаргаму"] = {
-							["level"] = 20,
 							["class"] = "Жрица",
-							["name"] = "Нгазаргаму",
 							["classEnglish"] = "PRIEST",
+							["name"] = "Нгазаргаму",
+							["level"] = 20,
 						},
 						["Мбаппе"] = {
 							["name"] = "Мбаппе",
@@ -7850,10 +10800,10 @@ NITdatabase = {
 							["level"] = 60,
 						},
 						["Подпечень"] = {
-							["level"] = 20,
 							["class"] = "Разбойник",
-							["name"] = "Подпечень",
 							["classEnglish"] = "ROGUE",
+							["name"] = "Подпечень",
+							["level"] = 20,
 						},
 					},
 					["class"] = "Друид",
@@ -7876,16 +10826,16 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 93,
 					["enteredLevel"] = 20,
-				}, -- [122]
+				}, -- [185]
 				{
 					["GUID"] = "Creature-0-4458-34-12169-1716-0000162F2C",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["level"] = 20,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 20,
 						},
 						["Бкашка"] = {
 							["name"] = "Бкашка",
@@ -7895,10 +10845,10 @@ NITdatabase = {
 							["level"] = 18,
 						},
 						["Нгазаргаму"] = {
-							["level"] = 20,
 							["class"] = "Жрица",
-							["name"] = "Нгазаргаму",
 							["classEnglish"] = "PRIEST",
+							["name"] = "Нгазаргаму",
+							["level"] = 20,
 						},
 						["Мбаппе"] = {
 							["name"] = "Мбаппе",
@@ -7908,10 +10858,10 @@ NITdatabase = {
 							["level"] = 60,
 						},
 						["Подпечень"] = {
-							["level"] = 20,
 							["class"] = "Разбойник",
-							["name"] = "Подпечень",
 							["classEnglish"] = "ROGUE",
+							["name"] = "Подпечень",
+							["level"] = 20,
 						},
 					},
 					["class"] = "Друид",
@@ -7936,16 +10886,16 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4458-34-12169-1716-0000162F2C",
 					["mobCount"] = 92,
 					["enteredLevel"] = 20,
-				}, -- [123]
+				}, -- [186]
 				{
 					["GUID"] = "Creature-0-5571-34-3044-1696-0000162BF1",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["level"] = 20,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 20,
 						},
 						["Бкашка"] = {
 							["name"] = "Бкашка",
@@ -7955,10 +10905,10 @@ NITdatabase = {
 							["level"] = 18,
 						},
 						["Нгазаргаму"] = {
-							["level"] = 20,
 							["class"] = "Жрица",
-							["name"] = "Нгазаргаму",
 							["classEnglish"] = "PRIEST",
+							["name"] = "Нгазаргаму",
+							["level"] = 20,
 						},
 						["Мбаппе"] = {
 							["name"] = "Мбаппе",
@@ -7975,10 +10925,10 @@ NITdatabase = {
 							["level"] = 25,
 						},
 						["Подпечень"] = {
-							["level"] = 20,
 							["class"] = "Разбойник",
-							["name"] = "Подпечень",
 							["classEnglish"] = "ROGUE",
+							["name"] = "Подпечень",
+							["level"] = 20,
 						},
 					},
 					["class"] = "Друид",
@@ -8001,7 +10951,7 @@ NITdatabase = {
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 93,
 					["enteredLevel"] = 19,
-				}, -- [124]
+				}, -- [187]
 			},
 		},
 	},

@@ -1,0 +1,8 @@
+
+RoutesDB = {
+	["profileKeys"] = {
+		["Оож - Пламегор"] = "Default",
+		["Оод - Пламегор"] = "Default",
+		["Оои - Пламегор"] = "Default",
+	},
+}

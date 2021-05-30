@@ -1,8 +1,10 @@
 
 DiminishDB = {
 	["profileKeys"] = {
-		["Auho-Lucifron"] = "Default",
+		["Lucibaub-Lucifron"] = "Default",
 		["Buhoo-Lucifron"] = "Default",
+		["Auho-Lucifron"] = "Default",
+		["Senderttio-Patchwerk"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

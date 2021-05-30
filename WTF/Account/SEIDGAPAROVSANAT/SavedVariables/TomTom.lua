@@ -2,6 +2,9 @@
 TomTomDB = {
 	["profileKeys"] = {
 		["Знать - Рок-Делар"] = "Default",
+		["Оои - Пламегор"] = "Default",
+		["Оож - Пламегор"] = "Default",
+		["Оод - Пламегор"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -30,6 +33,9 @@ TomTomWaypoints = nil
 TomTomWaypointsM = {
 	["profileKeys"] = {
 		["Знать - Рок-Делар"] = "Знать - Рок-Делар",
+		["Оои - Пламегор"] = "Оои - Пламегор",
+		["Оож - Пламегор"] = "Оож - Пламегор",
+		["Оод - Пламегор"] = "Оод - Пламегор",
 	},
 	["profiles"] = {
 		["Знать - Рок-Делар"] = {
@@ -47,18 +53,10 @@ TomTomWaypointsM = {
 					["from"] = "TomTom/Block",
 					["callbacks"] = {
 						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
 						},
 					},
 					["world"] = true,
@@ -76,23 +74,21 @@ TomTomWaypointsM = {
 					["from"] = "TomTom/Block",
 					["callbacks"] = {
 						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
 						},
 					},
 					["world"] = true,
 				},
 			},
+		},
+		["Оои - Пламегор"] = {
+		},
+		["Оож - Пламегор"] = {
+		},
+		["Оод - Пламегор"] = {
 		},
 	},
 }

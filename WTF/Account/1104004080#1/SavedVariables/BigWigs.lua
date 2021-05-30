@@ -12,8 +12,7 @@ BigWigsClassicDB = {
 		["BigWigs_Plugins_Bars"] = {
 			["profiles"] = {
 				["Default"] = {
-					["BigWigsEmphasizeAnchor_height"] = 21.99999046325684,
-					["BigWigsEmphasizeAnchor_width"] = 319.9999694824219,
+					["BigWigsEmphasizeAnchor_width"] = 320.0001220703125,
 				},
 			},
 		},
@@ -23,15 +22,15 @@ BigWigsClassicDB = {
 		},
 		["BigWigs_Plugins_Sounds"] = {
 		},
-		["BigWigs_Plugins_Proximity"] = {
-		},
-		["BigWigs_Plugins_AutoReply"] = {
+		["BigWigs_Plugins_Raid Icons"] = {
 		},
 		["BigWigs_Plugins_Statistics"] = {
 		},
+		["BigWigs_Plugins_AutoReply"] = {
+		},
 		["BigWigs_Plugins_Messages"] = {
 		},
-		["BigWigs_Plugins_Raid Icons"] = {
+		["BigWigs_Plugins_Proximity"] = {
 		},
 		["BigWigs_Plugins_Pull"] = {
 		},
