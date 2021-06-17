@@ -1,0 +1,7 @@
+
+RoutesDB = {
+	["profileKeys"] = {
+		["Luciaksha - Lucifron"] = "Default",
+		["Patchaksha - Patchwerk"] = "Default",
+	},
+}

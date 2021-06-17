@@ -4,7 +4,7 @@ VER 3 000000000100000D "5" "INV_MISC_QUESTIONMARK"
 /cast [mod:alt] or [button:2] Разорвать; Свирепый укус
 END
 VER 3 000000000100000B "BASH" "INV_MISC_QUESTIONMARK"
-#showtooltip
+#showtooltip Оглушить
 /stand
 /dismount
 /cancelform [noform:1]
@@ -80,7 +80,7 @@ VER 3 0000000001000002 "Dash" "INV_MISC_QUESTIONMARK"
 /cast !Порыв
 END
 VER 3 0000000001000001 "invis" "INV_MISC_QUESTIONMARK"
-#showtooltip
+#showtooltip Крадущийся зверь
 /stand
 /dismount
 /cancelform [noform:3]
@@ -96,8 +96,6 @@ VER 3 000000000100000C "Mount" "132226"
 END
 VER 3 0000000001000009 "Travel" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/stand
-/dismount
 /cancelform [swimming,noform:2][outdoors,noform:2/4]
 /cast [swimming] Водный облик;[outdoors] Походный облик; Облик кошки
 END

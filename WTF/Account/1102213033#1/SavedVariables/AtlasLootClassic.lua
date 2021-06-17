@@ -1,11 +1,11 @@
 
 AtlasLootClassicDB = {
-	["global"] = {
-		["__addonrevision"] = 2010000,
-	},
 	["profileKeys"] = {
 		["Venosatush - Venoxis"] = "Venosatush - Venoxis",
 		["Venobalykk - Venoxis"] = "Venobalykk - Venoxis",
+	},
+	["global"] = {
+		["__addonrevision"] = 2010000,
 	},
 	["profiles"] = {
 		["Venosatush - Venoxis"] = {

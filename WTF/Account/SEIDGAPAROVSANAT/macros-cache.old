@@ -6,6 +6,12 @@ VER 3 000000000000000C "3" "132112"
 /use Блесна
 /use Удочка
 END
+VER 3 000000000000001D "4" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/use Отмщение иллидари
+/cast Звездный огонь
+END
 VER 3 000000000000001B "AGGRO" "INV_MISC_QUESTIONMARK"
 /p не стойте в мили зоне (+130% aggro generation), стойте в рендж зоне (80% генерации аггро)
 END
@@ -35,14 +41,15 @@ VER 3 0000000000000009 "foll" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0000000000000014 "HEAL" "135928"
 /cancelform
-/use Мощное лечебное зелье
+/use Сильное лечебное зелье
 /cast Облик лютого медведя
 END
 VER 3 0000000000000019 "INNERVATE" "INV_MISC_QUESTIONMARK"
 /cast [@Элринз] Озарение
 END
 VER 3 000000000000001A "LFG" "INV_MISC_QUESTIONMARK"
-/4 в Забытый город (DM) хил и дд (только кольчуга и латы)
+/1 [Владыка (10400)] есть кто? 4/5
+/4 [Владыка (10400)] есть кто? 4/5
 END
 VER 3 0000000000000010 "log" "135768"
 /logout
@@ -57,14 +64,29 @@ END
 VER 3 000000000000000B "port" "132093"
 /4 куплю портал Дарнасс->Штормград
 END
-VER 3 0000000000000003 "SELL" "132102"
-/yell продам облик пирата/ниндзя на 1ч за 25 серебра
+VER 3 0000000000000020 "quest" "INV_MISC_QUESTIONMARK"
+/use Факел клана Кровавой Глазницы
+END
+VER 3 000000000000001C "roll" "INV_MISC_QUESTIONMARK"
+/roll
+END
+VER 3 000000000000001F "SELF1" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [self] Омоложение
 END
 VER 3 0000000000000011 "SELL" "136044"
 /2 продам кд на |cff1eff00|Hitem:12360::::::::54::::::::|h[Арканитовый слиток]|h|r
 END
+VER 3 0000000000000003 "SELL" "132102"
+/yell продам облик пирата/ниндзя на 1ч за 25 серебра
+END
 VER 3 000000000000000D "TAR" "INV_MISC_QUESTIONMARK"
 /target Аукционер Краснушка
+END
+VER 3 000000000000001E "tar" "INV_MISC_QUESTIONMARK"
+/cleartarget [dead][noharm][mod:ctrl]
+/target [nodead] спорокрыл
+/cast Лунный огонь
 END
 VER 3 0000000000000015 "TEST re invis" "INV_MISC_QUESTIONMARK"
 /cancelform

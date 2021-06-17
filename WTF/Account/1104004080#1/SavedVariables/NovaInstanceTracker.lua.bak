@@ -135,24 +135,24 @@ NITdatabase = {
 					["fishingSkill"] = 0,
 					["cookingSkill"] = 0,
 					["profSkill1"] = 0,
-					[17031] = 18,
-					[17032] = 0,
+					[17031] = 20,
+					[17032] = 19,
 					["prof2"] = "none",
 					["savedInstances"] = {
 					},
 					["maxXP"] = 494000,
 					["gender"] = "Neutral",
 					["prof1"] = "none",
-					["restedXP"] = 0,
+					["restedXP"] = 554300,
 					["totalBagSlots"] = 66,
-					["freeBagSlots"] = 9,
-					[17056] = 24,
+					["freeBagSlots"] = 7,
+					[17056] = 45,
 					["guildRankName"] = "No guild rank",
 					["raceEnglish"] = "Gnome",
 					["profSkillMax1"] = 0,
 					["resting"] = true,
-					["time"] = 1622367139,
-					["gold"] = 1430561,
+					["time"] = 1623256586,
+					["gold"] = 1516636,
 					["profSkill2"] = 0,
 					["guild"] = "No guild",
 					["realm"] = "Пламегор",
@@ -163,10 +163,10 @@ NITdatabase = {
 					["firstaidSkill"] = 0,
 					["classEnglish"] = "MAGE",
 					["level"] = 60,
-					["durabilityAverage"] = 37.68421052631579,
+					["durabilityAverage"] = 24.21052631578947,
 					["profSkillMax2"] = 0,
 					["race"] = "Гномка",
-					["currentXP"] = 84,
+					["currentXP"] = 7654,
 					[17020] = 0,
 					["cooldowns"] = {
 					},
@@ -175,11 +175,71 @@ NITdatabase = {
 					["instances"] = {
 						[34] = 22,
 						[429] = 1,
-						[309] = 71,
+						[309] = 73,
 					},
 				},
 			},
 			["instances"] = {
+				{
+					["leftMoney"] = 0,
+					["group"] = {
+					},
+					["class"] = "Маг",
+					["leftTime"] = 1622392312,
+					["enteredXP"] = 84,
+					["xpFromChat"] = 0,
+					["playerName"] = "Мадина",
+					["enteredMoney"] = 1379367,
+					["rep"] = {
+					},
+					["enteredTime"] = 1622392307,
+					["instanceID"] = 309,
+					["leftXP"] = 0,
+					["leftLevel"] = 60,
+					["rawMoneyCount"] = 0,
+					["instanceName"] = "Зул'Гуруб",
+					["classEnglish"] = "MAGE",
+					["mobCount"] = 0,
+					["enteredLevel"] = 60,
+				}, -- [1]
+				{
+					["GUID"] = "Creature-0-4458-309-18547-15043-000233B7E5",
+					["leftMoney"] = 0,
+					["group"] = {
+						["Оод"] = {
+							["level"] = 58,
+							["class"] = "Друид",
+							["classEnglish"] = "DRUID",
+						},
+						["Мадина"] = {
+							["level"] = 60,
+							["class"] = "Маг",
+							["classEnglish"] = "MAGE",
+						},
+					},
+					["class"] = "Маг",
+					["leftTime"] = 1622392158,
+					["groupAverage"] = 59.33333333333334,
+					["enteredXP"] = 84,
+					["xpFromChat"] = 0,
+					["zoneID"] = 18547,
+					["enteredLevel"] = 60,
+					["mobCount"] = 0,
+					["enteredTime"] = 1622390756,
+					["playerName"] = "Мадина",
+					["classEnglish"] = "MAGE",
+					["rep"] = {
+					},
+					["leftXP"] = 0,
+					["instanceID"] = 309,
+					["enteredMoney"] = 1379367,
+					["leftLevel"] = 60,
+					["rawMoneyCount"] = 0,
+					["instanceName"] = "Зул'Гуруб",
+					["mergeGUID"] = "Creature-0-4458-309-18547-2914-0001B3B7E5",
+					["GUIDSource"] = "mouseover",
+					["mergeSource"] = "mouseover",
+				}, -- [2]
 				{
 					["GUID"] = "Creature-0-4479-34-19440-1707-00003359D5",
 					["leftMoney"] = 0,
@@ -191,22 +251,22 @@ NITdatabase = {
 					["xpFromChat"] = 0,
 					["zoneID"] = 19440,
 					["mergeSource"] = "mouseover",
-					["classEnglish"] = "MAGE",
+					["GUIDSource"] = "nameplate1",
 					["leftXP"] = 0,
 					["playerName"] = "Мадина",
-					["enteredMoney"] = 1430561,
+					["classEnglish"] = "MAGE",
 					["rep"] = {
 					},
 					["enteredTime"] = 1622366868,
 					["instanceID"] = 34,
-					["GUIDSource"] = "nameplate1",
+					["enteredMoney"] = 1430561,
 					["leftLevel"] = 60,
 					["rawMoneyCount"] = 0,
 					["instanceName"] = "Тюрьма Штормграда",
 					["mergeGUID"] = "Creature-0-4479-34-19440-1707-0000B359D6",
 					["mobCount"] = 0,
 					["enteredLevel"] = 60,
-				}, -- [1]
+				}, -- [3]
 				{
 					["leftMoney"] = 0,
 					["group"] = {
@@ -228,7 +288,7 @@ NITdatabase = {
 					["classEnglish"] = "MAGE",
 					["mobCount"] = 0,
 					["enteredLevel"] = 60,
-				}, -- [2]
+				}, -- [4]
 				{
 					["GUID"] = "Creature-0-4479-34-19440-1708-0002B359D5",
 					["leftMoney"] = 0,
@@ -253,7 +313,7 @@ NITdatabase = {
 					["classEnglish"] = "MAGE",
 					["mobCount"] = 0,
 					["enteredLevel"] = 60,
-				}, -- [3]
+				}, -- [5]
 				{
 					["leftMoney"] = 0,
 					["group"] = {
@@ -275,7 +335,7 @@ NITdatabase = {
 					["classEnglish"] = "MAGE",
 					["mobCount"] = 0,
 					["enteredLevel"] = 60,
-				}, -- [4]
+				}, -- [6]
 				{
 					["leftMoney"] = 0,
 					["group"] = {
@@ -297,7 +357,7 @@ NITdatabase = {
 					["classEnglish"] = "MAGE",
 					["mobCount"] = 0,
 					["enteredLevel"] = 60,
-				}, -- [5]
+				}, -- [7]
 				{
 					["GUID"] = "Creature-0-5571-309-18011-11357-0009B2CEAA",
 					["leftMoney"] = 0,
@@ -344,7 +404,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 0,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 60,
-				}, -- [6]
+				}, -- [8]
 				{
 					["GUID"] = "Creature-0-4459-309-28252-15043-000032C2E8",
 					["leftMoney"] = 0,
@@ -393,7 +453,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4459-309-28252-15043-000032C2E8",
 					["GUIDSource"] = "mouseover",
 					["mergeSource"] = "mouseover",
-				}, -- [7]
+				}, -- [9]
 				{
 					["GUID"] = "Creature-0-4458-309-24862-15043-000132BCC7",
 					["leftMoney"] = 0,
@@ -437,7 +497,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4458-309-24862-15043-000232BCC7",
 					["GUIDSource"] = "mouseover",
 					["mergeSource"] = "mouseover",
-				}, -- [8]
+				}, -- [10]
 				{
 					["GUID"] = "Creature-0-5571-34-1745-1711-0000B16C22",
 					["leftMoney"] = 0,
@@ -464,7 +524,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-5571-34-1745-1706-0002316C24",
 					["mobCount"] = 0,
 					["enteredLevel"] = 60,
-				}, -- [9]
+				}, -- [11]
 				{
 					["GUID"] = "Creature-0-4479-34-32180-1706-0001316484",
 					["leftMoney"] = 0,
@@ -491,7 +551,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4479-34-32180-1706-0000316484",
 					["mobCount"] = 0,
 					["enteredLevel"] = 60,
-				}, -- [10]
+				}, -- [12]
 				{
 					["leftMoney"] = 0,
 					["group"] = {
@@ -513,7 +573,7 @@ NITdatabase = {
 					["classEnglish"] = "MAGE",
 					["mobCount"] = 0,
 					["enteredLevel"] = 60,
-				}, -- [11]
+				}, -- [13]
 				{
 					["GUID"] = "Creature-0-4479-34-32180-1706-0002B16485",
 					["leftMoney"] = 0,
@@ -540,7 +600,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4479-34-32180-1708-0001B16483",
 					["mobCount"] = 0,
 					["enteredLevel"] = 60,
-				}, -- [12]
+				}, -- [14]
 				{
 					["leftMoney"] = 0,
 					["group"] = {
@@ -562,7 +622,7 @@ NITdatabase = {
 					["classEnglish"] = "MAGE",
 					["mobCount"] = 0,
 					["enteredLevel"] = 60,
-				}, -- [13]
+				}, -- [15]
 				{
 					["GUID"] = "Creature-0-4479-34-32180-1706-0002B16485",
 					["leftMoney"] = 0,
@@ -589,7 +649,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4479-34-32180-1706-0002B16485",
 					["mobCount"] = 0,
 					["enteredLevel"] = 60,
-				}, -- [14]
+				}, -- [16]
 				{
 					["GUID"] = "Creature-0-4479-34-26876-1707-0000314221",
 					["leftMoney"] = 0,
@@ -616,7 +676,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4479-34-26876-1706-0004B1421F",
 					["mobCount"] = 0,
 					["enteredLevel"] = 60,
-				}, -- [15]
+				}, -- [17]
 				{
 					["GUID"] = "Creature-0-4479-34-23117-1707-0000B12B0E",
 					["leftMoney"] = 0,
@@ -641,7 +701,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 0,
 					["GUIDSource"] = "nameplate1",
 					["enteredLevel"] = 60,
-				}, -- [16]
+				}, -- [18]
 				{
 					["GUID"] = "Creature-0-5571-34-12107-1707-000130EDA3",
 					["leftMoney"] = 0,
@@ -668,7 +728,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-5571-34-12107-1707-000130EDA3",
 					["GUIDSource"] = "combatLog",
 					["enteredLevel"] = 60,
-				}, -- [17]
+				}, -- [19]
 				{
 					["GUID"] = "Creature-0-4459-34-7455-1711-0001B0DD46",
 					["leftMoney"] = 0,
@@ -693,7 +753,7 @@ NITdatabase = {
 					["classEnglish"] = "MAGE",
 					["mobCount"] = 0,
 					["enteredLevel"] = 60,
-				}, -- [18]
+				}, -- [20]
 				{
 					["leftMoney"] = 0,
 					["group"] = {
@@ -715,7 +775,7 @@ NITdatabase = {
 					["classEnglish"] = "MAGE",
 					["mobCount"] = 0,
 					["enteredLevel"] = 60,
-				}, -- [19]
+				}, -- [21]
 				{
 					["GUID"] = "Creature-0-4479-34-10058-1707-0001B0DBCE",
 					["leftMoney"] = 0,
@@ -740,7 +800,7 @@ NITdatabase = {
 					["classEnglish"] = "MAGE",
 					["mobCount"] = 0,
 					["enteredLevel"] = 60,
-				}, -- [20]
+				}, -- [22]
 				{
 					["leftMoney"] = 0,
 					["group"] = {
@@ -762,7 +822,7 @@ NITdatabase = {
 					["classEnglish"] = "MAGE",
 					["mobCount"] = 0,
 					["enteredLevel"] = 60,
-				}, -- [21]
+				}, -- [23]
 				{
 					["leftMoney"] = 0,
 					["group"] = {
@@ -784,7 +844,7 @@ NITdatabase = {
 					["classEnglish"] = "MAGE",
 					["mobCount"] = 0,
 					["enteredLevel"] = 60,
-				}, -- [22]
+				}, -- [24]
 				{
 					["GUID"] = "Creature-0-4457-34-7490-1696-000030D964",
 					["leftMoney"] = 0,
@@ -809,7 +869,7 @@ NITdatabase = {
 					["classEnglish"] = "MAGE",
 					["mobCount"] = 0,
 					["enteredLevel"] = 60,
-				}, -- [23]
+				}, -- [25]
 				{
 					["GUID"] = "Creature-0-4457-34-7351-1666-000030D6F8",
 					["leftMoney"] = 0,
@@ -834,7 +894,7 @@ NITdatabase = {
 					["classEnglish"] = "MAGE",
 					["mobCount"] = 0,
 					["enteredLevel"] = 60,
-				}, -- [24]
+				}, -- [26]
 				{
 					["GUID"] = "Creature-0-4457-34-7054-1715-0000B0D42B",
 					["leftMoney"] = 0,
@@ -859,16 +919,16 @@ NITdatabase = {
 					["classEnglish"] = "MAGE",
 					["mobCount"] = 0,
 					["enteredLevel"] = 60,
-				}, -- [25]
+				}, -- [27]
 				{
 					["GUID"] = "Creature-0-4458-34-1246-1715-0000B0C455",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Дублет"] = {
-							["level"] = 19,
 							["class"] = "Шаман",
-							["name"] = "Дублет",
 							["classEnglish"] = "SHAMAN",
+							["name"] = "Дублет",
+							["level"] = 19,
 						},
 						["Рэббит"] = {
 							["name"] = "Рэббит",
@@ -878,10 +938,10 @@ NITdatabase = {
 							["class"] = "Охотник",
 						},
 						["Мадина"] = {
-							["level"] = 60,
 							["class"] = "Маг",
-							["name"] = "Мадина",
 							["classEnglish"] = "MAGE",
+							["name"] = "Мадина",
+							["level"] = 60,
 						},
 					},
 					["class"] = "Маг",
@@ -906,7 +966,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4458-34-1246-1708-0002B0C455",
 					["GUIDSource"] = "mouseover",
 					["mergeSource"] = "nameplate",
-				}, -- [26]
+				}, -- [28]
 				{
 					["leftMoney"] = 0,
 					["group"] = {
@@ -928,22 +988,22 @@ NITdatabase = {
 					["classEnglish"] = "MAGE",
 					["mobCount"] = 0,
 					["enteredLevel"] = 60,
-				}, -- [27]
+				}, -- [29]
 				{
 					["GUID"] = "Creature-0-4479-309-5902-15043-000B30BDC2",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Мадина"] = {
-							["level"] = 60,
 							["class"] = "Маг",
-							["name"] = "Мадина",
 							["classEnglish"] = "MAGE",
+							["name"] = "Мадина",
+							["level"] = 60,
 						},
 						["Оод"] = {
-							["level"] = 57,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 57,
 						},
 					},
 					["class"] = "Маг",
@@ -966,28 +1026,28 @@ NITdatabase = {
 					["rawMoneyCount"] = 0,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 60,
-				}, -- [28]
+				}, -- [30]
 				{
 					["GUID"] = "Creature-0-4457-309-18298-15043-00082FAC72",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Еве"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Еве",
 							["level"] = 19,
+							["name"] = "Еве",
+							["class"] = "Друид",
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["level"] = 57,
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Мадина"] = {
-							["class"] = "Маг",
 							["classEnglish"] = "MAGE",
-							["name"] = "Мадина",
 							["level"] = 60,
+							["name"] = "Мадина",
+							["class"] = "Маг",
 						},
 					},
 					["class"] = "Маг",
@@ -1012,28 +1072,28 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4457-309-18298-11350-0005AFAC72",
 					["GUIDSource"] = "mouseover",
 					["mergeSource"] = "nameplate",
-				}, -- [29]
+				}, -- [31]
 				{
 					["GUID"] = "Creature-0-5571-309-31413-15043-000BAFA817",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Еве"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Еве",
 							["level"] = 19,
+							["name"] = "Еве",
+							["class"] = "Друид",
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["level"] = 57,
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Мадина"] = {
-							["class"] = "Маг",
 							["classEnglish"] = "MAGE",
-							["name"] = "Мадина",
 							["level"] = 60,
+							["name"] = "Мадина",
+							["class"] = "Маг",
 						},
 					},
 					["class"] = "Маг",
@@ -1056,28 +1116,28 @@ NITdatabase = {
 					["rawMoneyCount"] = 0,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 60,
-				}, -- [30]
+				}, -- [32]
 				{
 					["GUID"] = "Creature-0-4480-309-20936-15043-00022FA3AB",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Еве"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 19,
-							["name"] = "Еве",
 							["class"] = "Друид",
+							["name"] = "Еве",
+							["classEnglish"] = "DRUID",
 						},
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 57,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 						["Мадина"] = {
-							["classEnglish"] = "MAGE",
 							["level"] = 60,
-							["name"] = "Мадина",
 							["class"] = "Маг",
+							["name"] = "Мадина",
+							["classEnglish"] = "MAGE",
 						},
 					},
 					["class"] = "Маг",
@@ -1100,28 +1160,28 @@ NITdatabase = {
 					["rawMoneyCount"] = 0,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 60,
-				}, -- [31]
+				}, -- [33]
 				{
 					["GUID"] = "Creature-0-4460-309-20411-15043-00032F9088",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Еве"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Еве",
 							["level"] = 19,
+							["name"] = "Еве",
+							["class"] = "Друид",
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["level"] = 56,
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Мадина"] = {
-							["class"] = "Маг",
 							["classEnglish"] = "MAGE",
-							["name"] = "Мадина",
 							["level"] = 60,
+							["name"] = "Мадина",
+							["class"] = "Маг",
 						},
 					},
 					["class"] = "Маг",
@@ -1146,7 +1206,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4460-309-20411-11350-0005AF9087",
 					["GUIDSource"] = "mouseover",
 					["mergeSource"] = "nameplate",
-				}, -- [32]
+				}, -- [34]
 				{
 					["GUID"] = "Creature-0-4460-309-20070-15043-00052F8AF6",
 					["leftMoney"] = 0,
@@ -1173,22 +1233,22 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4460-309-20070-11350-00002F8AF6",
 					["GUIDSource"] = "mouseover",
 					["mergeSource"] = "nameplate",
-				}, -- [33]
+				}, -- [35]
 				{
 					["GUID"] = "Creature-0-4460-309-19261-15043-00002F7EEF",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["level"] = 56,
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Мадина"] = {
-							["class"] = "Маг",
 							["classEnglish"] = "MAGE",
-							["name"] = "Мадина",
 							["level"] = 60,
+							["name"] = "Мадина",
+							["class"] = "Маг",
 						},
 					},
 					["class"] = "Маг",
@@ -1213,34 +1273,34 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4460-309-19261-11350-0006AF7EEF",
 					["GUIDSource"] = "mouseover",
 					["mergeSource"] = "nameplate",
-				}, -- [34]
+				}, -- [36]
 				{
 					["GUID"] = "Creature-0-4460-309-1981-15043-00032E3488",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Еве"] = {
-							["classEnglish"] = "DRUID",
 							["class"] = "Друид",
-							["name"] = "Еве",
 							["level"] = 19,
+							["name"] = "Еве",
+							["classEnglish"] = "DRUID",
 						},
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["level"] = 56,
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 						["Каспиголд"] = {
-							["classEnglish"] = "WARRIOR",
 							["class"] = "Воин",
-							["name"] = "Каспиголд",
 							["level"] = 1,
+							["name"] = "Каспиголд",
+							["classEnglish"] = "WARRIOR",
 						},
 						["Мадина"] = {
-							["classEnglish"] = "MAGE",
 							["class"] = "Маг",
-							["name"] = "Мадина",
 							["level"] = 60,
+							["name"] = "Мадина",
+							["classEnglish"] = "MAGE",
 						},
 					},
 					["class"] = "Маг",
@@ -1263,34 +1323,34 @@ NITdatabase = {
 					["classEnglish"] = "MAGE",
 					["mobCount"] = 0,
 					["enteredLevel"] = 60,
-				}, -- [35]
+				}, -- [37]
 				{
 					["GUID"] = "Creature-0-4459-309-5779-15043-0004AE3090",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Еве"] = {
-							["classEnglish"] = "DRUID",
 							["class"] = "Друид",
-							["name"] = "Еве",
 							["level"] = 19,
+							["name"] = "Еве",
+							["classEnglish"] = "DRUID",
 						},
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["level"] = 56,
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 						["Каспиголд"] = {
-							["classEnglish"] = "WARRIOR",
 							["class"] = "Воин",
-							["name"] = "Каспиголд",
 							["level"] = 1,
+							["name"] = "Каспиголд",
+							["classEnglish"] = "WARRIOR",
 						},
 						["Мадина"] = {
-							["classEnglish"] = "MAGE",
 							["class"] = "Маг",
-							["name"] = "Мадина",
 							["level"] = 60,
+							["name"] = "Мадина",
+							["classEnglish"] = "MAGE",
 						},
 					},
 					["class"] = "Маг",
@@ -1313,33 +1373,33 @@ NITdatabase = {
 					["classEnglish"] = "MAGE",
 					["mobCount"] = 0,
 					["enteredLevel"] = 60,
-				}, -- [36]
+				}, -- [38]
 				{
 					["leftMoney"] = 0,
 					["group"] = {
 						["Каспиголд"] = {
-							["class"] = "Воин",
 							["classEnglish"] = "WARRIOR",
-							["name"] = "Каспиголд",
 							["level"] = 1,
+							["name"] = "Каспиголд",
+							["class"] = "Воин",
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["level"] = 56,
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Еве"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Еве",
 							["level"] = 19,
+							["name"] = "Еве",
+							["class"] = "Друид",
 						},
 						["Мадина"] = {
-							["class"] = "Маг",
 							["classEnglish"] = "MAGE",
-							["name"] = "Мадина",
 							["level"] = 60,
+							["name"] = "Мадина",
+							["class"] = "Маг",
 						},
 					},
 					["class"] = "Маг",
@@ -1360,7 +1420,7 @@ NITdatabase = {
 					["classEnglish"] = "MAGE",
 					["mobCount"] = 0,
 					["enteredLevel"] = 60,
-				}, -- [37]
+				}, -- [39]
 				{
 					["GUID"] = "Creature-0-5571-309-14023-15043-00032E2D66",
 					["leftMoney"] = 0,
@@ -1408,7 +1468,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-5571-309-14023-11350-00002E2D67",
 					["mobCount"] = 0,
 					["enteredLevel"] = 60,
-				}, -- [38]
+				}, -- [40]
 				{
 					["leftMoney"] = 0,
 					["group"] = {
@@ -1451,7 +1511,7 @@ NITdatabase = {
 					["classEnglish"] = "MAGE",
 					["mobCount"] = 0,
 					["enteredLevel"] = 60,
-				}, -- [39]
+				}, -- [41]
 				{
 					["GUID"] = "Creature-0-4480-309-6205-15043-00092E2990",
 					["leftMoney"] = 0,
@@ -1497,7 +1557,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 0,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 60,
-				}, -- [40]
+				}, -- [42]
 				{
 					["leftMoney"] = 0,
 					["group"] = {
@@ -1519,7 +1579,7 @@ NITdatabase = {
 					["classEnglish"] = "MAGE",
 					["mobCount"] = 0,
 					["enteredLevel"] = 60,
-				}, -- [41]
+				}, -- [43]
 				{
 					["GUID"] = "Creature-0-5571-309-12379-15043-00022E25C9",
 					["leftMoney"] = 0,
@@ -1560,7 +1620,7 @@ NITdatabase = {
 					["classEnglish"] = "MAGE",
 					["mobCount"] = 0,
 					["enteredLevel"] = 60,
-				}, -- [42]
+				}, -- [44]
 				{
 					["leftMoney"] = 0,
 					["group"] = {
@@ -1582,7 +1642,7 @@ NITdatabase = {
 					["classEnglish"] = "MAGE",
 					["mobCount"] = 0,
 					["enteredLevel"] = 60,
-				}, -- [43]
+				}, -- [45]
 				{
 					["GUID"] = "Creature-0-5571-309-11958-15043-0003AE2341",
 					["leftMoney"] = 0,
@@ -1623,22 +1683,22 @@ NITdatabase = {
 					["classEnglish"] = "MAGE",
 					["mobCount"] = 0,
 					["enteredLevel"] = 60,
-				}, -- [44]
+				}, -- [46]
 				{
 					["GUID"] = "Creature-0-4480-309-5201-11352-00012E219F",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["class"] = "Друид",
 							["level"] = 56,
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Мадина"] = {
-							["class"] = "Маг",
 							["level"] = 60,
-							["name"] = "Мадина",
 							["classEnglish"] = "MAGE",
+							["name"] = "Мадина",
+							["class"] = "Маг",
 						},
 					},
 					["class"] = "Маг",
@@ -1663,34 +1723,34 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4480-309-5201-15043-0001AE219E",
 					["mobCount"] = 0,
 					["enteredLevel"] = 60,
-				}, -- [45]
+				}, -- [47]
 				{
 					["GUID"] = "Creature-0-4479-309-406-11350-0000AD10E2",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Еве"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 19,
-							["name"] = "Еве",
 							["class"] = "Друид",
+							["name"] = "Еве",
+							["classEnglish"] = "DRUID",
 						},
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 56,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 						["Дизейм"] = {
-							["classEnglish"] = "SHAMAN",
 							["level"] = 52,
-							["name"] = "Дизейм",
 							["class"] = "Шаманка",
+							["name"] = "Дизейм",
+							["classEnglish"] = "SHAMAN",
 						},
 						["Мадина"] = {
-							["classEnglish"] = "MAGE",
 							["level"] = 60,
-							["name"] = "Мадина",
 							["class"] = "Маг",
+							["name"] = "Мадина",
+							["classEnglish"] = "MAGE",
 						},
 					},
 					["class"] = "Маг",
@@ -1713,7 +1773,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 0,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 60,
-				}, -- [46]
+				}, -- [48]
 				{
 					["GUID"] = "Creature-0-4460-309-18248-15043-0006AD0B60",
 					["leftMoney"] = 0,
@@ -1759,7 +1819,7 @@ NITdatabase = {
 					["classEnglish"] = "MAGE",
 					["mobCount"] = 0,
 					["enteredLevel"] = 60,
-				}, -- [47]
+				}, -- [49]
 				{
 					["GUID"] = "Creature-0-5571-309-30007-15043-0000ACF580",
 					["leftMoney"] = 0,
@@ -1786,7 +1846,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-5571-309-30007-11350-0002ACF580",
 					["mobCount"] = 0,
 					["enteredLevel"] = 60,
-				}, -- [48]
+				}, -- [50]
 				{
 					["leftMoney"] = 0,
 					["group"] = {
@@ -1808,22 +1868,22 @@ NITdatabase = {
 					["classEnglish"] = "MAGE",
 					["mobCount"] = 0,
 					["enteredLevel"] = 60,
-				}, -- [49]
+				}, -- [51]
 				{
 					["GUID"] = "Creature-0-5571-309-30007-11374-0004ACF580",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Еве"] = {
-							["level"] = 19,
 							["class"] = "Друид",
-							["name"] = "Еве",
 							["classEnglish"] = "DRUID",
+							["name"] = "Еве",
+							["level"] = 19,
 						},
 						["Оод"] = {
-							["level"] = 56,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 56,
 						},
 						["Дизейм"] = {
 							["name"] = "Дизейм",
@@ -1833,10 +1893,10 @@ NITdatabase = {
 							["class"] = "Шаманка",
 						},
 						["Мадина"] = {
-							["level"] = 60,
 							["class"] = "Маг",
-							["name"] = "Мадина",
 							["classEnglish"] = "MAGE",
+							["name"] = "Мадина",
+							["level"] = 60,
 						},
 					},
 					["class"] = "Маг",
@@ -1861,7 +1921,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-5571-309-30007-11350-0002ACF580",
 					["GUIDSource"] = "nameplate1",
 					["mergeSource"] = "nameplate",
-				}, -- [50]
+				}, -- [52]
 				{
 					["GUID"] = "Creature-0-4459-309-15611-15043-00022CF2A5",
 					["leftMoney"] = 0,
@@ -1888,22 +1948,22 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4459-309-15611-11350-00002CF2A5",
 					["GUIDSource"] = "mouseover",
 					["mergeSource"] = "nameplate",
-				}, -- [51]
+				}, -- [53]
 				{
 					["GUID"] = "Creature-0-4459-309-15203-15043-000EACF00B",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Еве"] = {
-							["level"] = 19,
 							["class"] = "Друид",
-							["name"] = "Еве",
 							["classEnglish"] = "DRUID",
+							["name"] = "Еве",
+							["level"] = 19,
 						},
 						["Оод"] = {
-							["level"] = 56,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 56,
 						},
 						["Дизейм"] = {
 							["name"] = "Дизейм",
@@ -1913,10 +1973,10 @@ NITdatabase = {
 							["class"] = "Шаманка",
 						},
 						["Мадина"] = {
-							["level"] = 60,
 							["class"] = "Маг",
-							["name"] = "Мадина",
 							["classEnglish"] = "MAGE",
+							["name"] = "Мадина",
+							["level"] = 60,
 						},
 					},
 					["class"] = "Маг",
@@ -1939,22 +1999,22 @@ NITdatabase = {
 					["rawMoneyCount"] = 0,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 60,
-				}, -- [52]
+				}, -- [54]
 				{
 					["GUID"] = "Creature-0-5571-309-27740-15043-0008ACE85E",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Еве"] = {
-							["level"] = 19,
 							["class"] = "Друид",
-							["name"] = "Еве",
 							["classEnglish"] = "DRUID",
+							["name"] = "Еве",
+							["level"] = 19,
 						},
 						["Оод"] = {
-							["level"] = 56,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 56,
 						},
 						["Дизейм"] = {
 							["name"] = "Дизейм",
@@ -1964,10 +2024,10 @@ NITdatabase = {
 							["class"] = "Шаманка",
 						},
 						["Мадина"] = {
-							["level"] = 60,
 							["class"] = "Маг",
-							["name"] = "Мадина",
 							["classEnglish"] = "MAGE",
+							["name"] = "Мадина",
+							["level"] = 60,
 						},
 					},
 					["class"] = "Маг",
@@ -1990,22 +2050,22 @@ NITdatabase = {
 					["rawMoneyCount"] = 0,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 60,
-				}, -- [53]
+				}, -- [55]
 				{
 					["GUID"] = "Creature-0-4458-309-12283-15043-000AACE64A",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Еве"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Еве",
 							["level"] = 19,
+							["name"] = "Еве",
+							["class"] = "Друид",
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["level"] = 56,
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Дизейм"] = {
 							["name"] = "Дизейм",
@@ -2015,10 +2075,10 @@ NITdatabase = {
 							["class"] = "Шаманка",
 						},
 						["Мадина"] = {
-							["class"] = "Маг",
 							["classEnglish"] = "MAGE",
-							["name"] = "Мадина",
 							["level"] = 60,
+							["name"] = "Мадина",
+							["class"] = "Маг",
 						},
 					},
 					["class"] = "Маг",
@@ -2041,22 +2101,22 @@ NITdatabase = {
 					["rawMoneyCount"] = 0,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 60,
-				}, -- [54]
+				}, -- [56]
 				{
 					["GUID"] = "Creature-0-4460-309-9174-15043-00112CE413",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Еве"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Еве",
 							["level"] = 19,
+							["name"] = "Еве",
+							["class"] = "Друид",
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["level"] = 56,
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Дизейм"] = {
 							["name"] = "Дизейм",
@@ -2066,10 +2126,10 @@ NITdatabase = {
 							["class"] = "Шаманка",
 						},
 						["Мадина"] = {
-							["class"] = "Маг",
 							["classEnglish"] = "MAGE",
-							["name"] = "Мадина",
 							["level"] = 60,
+							["name"] = "Мадина",
+							["class"] = "Маг",
 						},
 					},
 					["class"] = "Маг",
@@ -2092,22 +2152,22 @@ NITdatabase = {
 					["rawMoneyCount"] = 0,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 60,
-				}, -- [55]
+				}, -- [57]
 				{
 					["GUID"] = "Creature-0-5571-309-26683-15043-00082CE1E3",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Еве"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 19,
-							["name"] = "Еве",
 							["class"] = "Друид",
+							["name"] = "Еве",
+							["classEnglish"] = "DRUID",
 						},
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 56,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 						["Дизейм"] = {
 							["name"] = "Дизейм",
@@ -2117,10 +2177,10 @@ NITdatabase = {
 							["class"] = "Шаманка",
 						},
 						["Мадина"] = {
-							["classEnglish"] = "MAGE",
 							["level"] = 60,
-							["name"] = "Мадина",
 							["class"] = "Маг",
+							["name"] = "Мадина",
+							["classEnglish"] = "MAGE",
 						},
 					},
 					["class"] = "Маг",
@@ -2143,22 +2203,22 @@ NITdatabase = {
 					["rawMoneyCount"] = 0,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 60,
-				}, -- [56]
+				}, -- [58]
 				{
 					["GUID"] = "Creature-0-4459-309-11574-15043-0004ACD8A8",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Еве"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 19,
-							["name"] = "Еве",
 							["class"] = "Друид",
+							["name"] = "Еве",
+							["classEnglish"] = "DRUID",
 						},
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 56,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 						["Дизейм"] = {
 							["name"] = "Дизейм",
@@ -2168,10 +2228,10 @@ NITdatabase = {
 							["class"] = "Шаманка",
 						},
 						["Мадина"] = {
-							["classEnglish"] = "MAGE",
 							["level"] = 60,
-							["name"] = "Мадина",
 							["class"] = "Маг",
+							["name"] = "Мадина",
+							["classEnglish"] = "MAGE",
 						},
 					},
 					["class"] = "Маг",
@@ -2194,27 +2254,27 @@ NITdatabase = {
 					["rawMoneyCount"] = 0,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 60,
-				}, -- [57]
+				}, -- [59]
 				{
 					["leftMoney"] = 0,
 					["group"] = {
 						["Еве"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 19,
-							["name"] = "Еве",
 							["class"] = "Друид",
+							["name"] = "Еве",
+							["classEnglish"] = "DRUID",
 						},
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 55,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 						["Мадина"] = {
-							["classEnglish"] = "MAGE",
 							["level"] = 60,
-							["name"] = "Мадина",
 							["class"] = "Маг",
+							["name"] = "Мадина",
+							["classEnglish"] = "MAGE",
 						},
 					},
 					["class"] = "Маг",
@@ -2235,7 +2295,7 @@ NITdatabase = {
 					["classEnglish"] = "MAGE",
 					["mobCount"] = 0,
 					["enteredLevel"] = 60,
-				}, -- [58]
+				}, -- [60]
 				{
 					["leftMoney"] = 0,
 					["group"] = {
@@ -2257,28 +2317,28 @@ NITdatabase = {
 					["classEnglish"] = "MAGE",
 					["mobCount"] = 0,
 					["enteredLevel"] = 60,
-				}, -- [59]
+				}, -- [61]
 				{
 					["GUID"] = "Creature-0-4459-309-10482-15043-00062CD143",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Еве"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Еве",
 							["level"] = 19,
+							["name"] = "Еве",
+							["class"] = "Друид",
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["level"] = 55,
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Мадина"] = {
-							["class"] = "Маг",
 							["classEnglish"] = "MAGE",
-							["name"] = "Мадина",
 							["level"] = 60,
+							["name"] = "Мадина",
+							["class"] = "Маг",
 						},
 					},
 					["class"] = "Маг",
@@ -2303,28 +2363,28 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4459-309-10482-11372-0000ACD143",
 					["GUIDSource"] = "mouseover",
 					["mergeSource"] = "nameplate",
-				}, -- [60]
+				}, -- [62]
 				{
 					["GUID"] = "Creature-0-4459-309-10186-15043-00082CCF3A",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Еве"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 19,
-							["name"] = "Еве",
 							["class"] = "Друид",
+							["name"] = "Еве",
+							["classEnglish"] = "DRUID",
 						},
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 55,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 						["Мадина"] = {
-							["classEnglish"] = "MAGE",
 							["level"] = 60,
-							["name"] = "Мадина",
 							["class"] = "Маг",
+							["name"] = "Мадина",
+							["classEnglish"] = "MAGE",
 						},
 					},
 					["class"] = "Маг",
@@ -2347,28 +2407,28 @@ NITdatabase = {
 					["rawMoneyCount"] = 0,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 60,
-				}, -- [61]
+				}, -- [63]
 				{
 					["GUID"] = "Creature-0-4459-309-9574-15043-0005ACCB07",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Еве"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Еве",
 							["level"] = 19,
+							["name"] = "Еве",
+							["class"] = "Друид",
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["level"] = 55,
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Мадина"] = {
-							["class"] = "Маг",
 							["classEnglish"] = "MAGE",
-							["name"] = "Мадина",
 							["level"] = 60,
+							["name"] = "Мадина",
+							["class"] = "Маг",
 						},
 					},
 					["class"] = "Маг",
@@ -2393,28 +2453,28 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4459-309-9574-11350-00002CCB06",
 					["GUIDSource"] = "mouseover",
 					["mergeSource"] = "nameplate",
-				}, -- [62]
+				}, -- [64]
 				{
 					["GUID"] = "Creature-0-4460-309-3350-15043-0004ACC91B",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Еве"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 19,
-							["name"] = "Еве",
 							["class"] = "Друид",
+							["name"] = "Еве",
+							["classEnglish"] = "DRUID",
 						},
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 55,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 						["Мадина"] = {
-							["classEnglish"] = "MAGE",
 							["level"] = 60,
-							["name"] = "Мадина",
 							["class"] = "Маг",
+							["name"] = "Мадина",
+							["classEnglish"] = "MAGE",
 						},
 					},
 					["class"] = "Маг",
@@ -2437,7 +2497,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 0,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 60,
-				}, -- [63]
+				}, -- [65]
 				{
 					["GUID"] = "Creature-0-4459-309-9013-15043-00032CC717",
 					["leftMoney"] = 0,
@@ -2462,27 +2522,27 @@ NITdatabase = {
 					["rawMoneyCount"] = 0,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 60,
-				}, -- [64]
+				}, -- [66]
 				{
 					["leftMoney"] = 0,
 					["group"] = {
 						["Еве"] = {
-							["class"] = "Друид",
 							["level"] = 19,
-							["name"] = "Еве",
 							["classEnglish"] = "DRUID",
+							["name"] = "Еве",
+							["class"] = "Друид",
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["level"] = 55,
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Мадина"] = {
-							["class"] = "Маг",
 							["level"] = 60,
-							["name"] = "Мадина",
 							["classEnglish"] = "MAGE",
+							["name"] = "Мадина",
+							["class"] = "Маг",
 						},
 					},
 					["class"] = "Маг",
@@ -2503,28 +2563,28 @@ NITdatabase = {
 					["classEnglish"] = "MAGE",
 					["mobCount"] = 0,
 					["enteredLevel"] = 60,
-				}, -- [65]
+				}, -- [67]
 				{
 					["GUID"] = "Creature-0-5571-309-16226-15043-0003AC9440",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Еве"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 19,
-							["name"] = "Еве",
 							["class"] = "Друид",
+							["name"] = "Еве",
+							["classEnglish"] = "DRUID",
 						},
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 55,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 						["Мадина"] = {
-							["classEnglish"] = "MAGE",
 							["level"] = 60,
-							["name"] = "Мадина",
 							["class"] = "Маг",
+							["name"] = "Мадина",
+							["classEnglish"] = "MAGE",
 						},
 					},
 					["class"] = "Маг",
@@ -2547,28 +2607,28 @@ NITdatabase = {
 					["rawMoneyCount"] = 0,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 60,
-				}, -- [66]
+				}, -- [68]
 				{
 					["GUID"] = "Creature-0-4459-309-3452-15043-00002C9199",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Еве"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Еве",
 							["level"] = 19,
+							["name"] = "Еве",
+							["class"] = "Друид",
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["level"] = 55,
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Мадина"] = {
-							["class"] = "Маг",
 							["classEnglish"] = "MAGE",
-							["name"] = "Мадина",
 							["level"] = 60,
+							["name"] = "Мадина",
+							["class"] = "Маг",
 						},
 					},
 					["class"] = "Маг",
@@ -2591,28 +2651,28 @@ NITdatabase = {
 					["rawMoneyCount"] = 0,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 60,
-				}, -- [67]
+				}, -- [69]
 				{
 					["GUID"] = "Creature-0-4460-309-25892-15043-000B2C8EA7",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Еве"] = {
-							["level"] = 19,
 							["class"] = "Друид",
-							["name"] = "Еве",
 							["classEnglish"] = "DRUID",
+							["name"] = "Еве",
+							["level"] = 19,
 						},
 						["Оод"] = {
-							["level"] = 55,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 55,
 						},
 						["Мадина"] = {
-							["level"] = 60,
 							["class"] = "Маг",
-							["name"] = "Мадина",
 							["classEnglish"] = "MAGE",
+							["name"] = "Мадина",
+							["level"] = 60,
 						},
 					},
 					["class"] = "Маг",
@@ -2635,28 +2695,28 @@ NITdatabase = {
 					["rawMoneyCount"] = 0,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 60,
-				}, -- [68]
+				}, -- [70]
 				{
 					["GUID"] = "Creature-0-4460-309-25179-15043-00022C89E5",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Еве"] = {
-							["level"] = 19,
 							["class"] = "Друид",
-							["name"] = "Еве",
 							["classEnglish"] = "DRUID",
+							["name"] = "Еве",
+							["level"] = 19,
 						},
 						["Оод"] = {
-							["level"] = 55,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 55,
 						},
 						["Мадина"] = {
-							["level"] = 59,
 							["class"] = "Маг",
-							["name"] = "Мадина",
 							["classEnglish"] = "MAGE",
+							["name"] = "Мадина",
+							["level"] = 59,
 						},
 					},
 					["class"] = "Маг",
@@ -2681,22 +2741,22 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4460-309-25179-11830-00062C89E4",
 					["GUIDSource"] = "mouseover",
 					["mergeSource"] = "nameplate",
-				}, -- [69]
+				}, -- [71]
 				{
 					["GUID"] = "Creature-0-4460-309-24858-15043-00032C8763",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Мадина"] = {
-							["level"] = 59,
 							["class"] = "Маг",
-							["name"] = "Мадина",
 							["classEnglish"] = "MAGE",
+							["name"] = "Мадина",
+							["level"] = 59,
 						},
 						["Оод"] = {
-							["level"] = 55,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 55,
 						},
 					},
 					["class"] = "Маг",
@@ -2719,28 +2779,28 @@ NITdatabase = {
 					["rawMoneyCount"] = 0,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 59,
-				}, -- [70]
+				}, -- [72]
 				{
 					["GUID"] = "Creature-0-4458-309-24548-15043-0000ABCD4A",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Еве"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 19,
-							["name"] = "Еве",
 							["class"] = "Друид",
+							["name"] = "Еве",
+							["classEnglish"] = "DRUID",
 						},
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 55,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 						["Мадина"] = {
-							["classEnglish"] = "MAGE",
 							["level"] = 59,
-							["name"] = "Мадина",
 							["class"] = "Маг",
+							["name"] = "Мадина",
+							["classEnglish"] = "MAGE",
 						},
 					},
 					["class"] = "Маг",
@@ -2763,28 +2823,28 @@ NITdatabase = {
 					["classEnglish"] = "MAGE",
 					["mobCount"] = 14,
 					["enteredLevel"] = 59,
-				}, -- [71]
+				}, -- [73]
 				{
 					["GUID"] = "Creature-0-4460-309-20253-15043-000CABC8CF",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Еве"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 19,
-							["name"] = "Еве",
 							["class"] = "Друид",
+							["name"] = "Еве",
+							["classEnglish"] = "DRUID",
 						},
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["level"] = 55,
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 						["Мадина"] = {
-							["classEnglish"] = "MAGE",
 							["level"] = 59,
-							["name"] = "Мадина",
 							["class"] = "Маг",
+							["name"] = "Мадина",
+							["classEnglish"] = "MAGE",
 						},
 					},
 					["class"] = "Маг",
@@ -2809,28 +2869,28 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4460-309-20253-11830-00002BC8CF",
 					["mobCount"] = 14,
 					["enteredLevel"] = 59,
-				}, -- [72]
+				}, -- [74]
 				{
 					["GUID"] = "Creature-0-5571-309-19497-15043-0002ABC67B",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Еве"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Еве",
 							["level"] = 19,
+							["name"] = "Еве",
+							["class"] = "Друид",
 						},
 						["Оод"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["level"] = 54,
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Мадина"] = {
-							["class"] = "Маг",
 							["classEnglish"] = "MAGE",
-							["name"] = "Мадина",
 							["level"] = 59,
+							["name"] = "Мадина",
+							["class"] = "Маг",
 						},
 					},
 					["class"] = "Маг",
@@ -2853,21 +2913,21 @@ NITdatabase = {
 					["classEnglish"] = "MAGE",
 					["mobCount"] = 15,
 					["enteredLevel"] = 59,
-				}, -- [73]
+				}, -- [75]
 				{
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["level"] = 54,
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Мадина"] = {
-							["class"] = "Маг",
 							["classEnglish"] = "MAGE",
-							["name"] = "Мадина",
 							["level"] = 59,
+							["name"] = "Мадина",
+							["class"] = "Маг",
 						},
 					},
 					["class"] = "Маг",
@@ -2888,22 +2948,22 @@ NITdatabase = {
 					["classEnglish"] = "MAGE",
 					["mobCount"] = 0,
 					["enteredLevel"] = 59,
-				}, -- [74]
+				}, -- [76]
 				{
 					["GUID"] = "Creature-0-4479-309-14199-15043-0000ABC3B5",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["level"] = 54,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 54,
 						},
 						["Мадина"] = {
-							["level"] = 59,
 							["class"] = "Маг",
-							["name"] = "Мадина",
 							["classEnglish"] = "MAGE",
+							["name"] = "Мадина",
+							["level"] = 59,
 						},
 					},
 					["class"] = "Маг",
@@ -2926,22 +2986,22 @@ NITdatabase = {
 					["classEnglish"] = "MAGE",
 					["mobCount"] = 15,
 					["enteredLevel"] = 59,
-				}, -- [75]
+				}, -- [77]
 				{
 					["GUID"] = "Creature-0-4458-429-10867-11473-00012B706C",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["level"] = 54,
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["class"] = "Друид",
+							["name"] = "Оод",
+							["level"] = 54,
 						},
 						["Нгазаргаму"] = {
-							["level"] = 59,
 							["classEnglish"] = "PRIEST",
-							["name"] = "Нгазаргаму",
 							["class"] = "Жрица",
+							["name"] = "Нгазаргаму",
+							["level"] = 59,
 						},
 						["Элринз"] = {
 							["name"] = "Элринз",
@@ -2951,16 +3011,16 @@ NITdatabase = {
 							["class"] = "Паладин",
 						},
 						["Мадина"] = {
-							["level"] = 59,
 							["classEnglish"] = "MAGE",
-							["name"] = "Мадина",
 							["class"] = "Маг",
+							["name"] = "Мадина",
+							["level"] = 59,
 						},
 						["Бубкагоп"] = {
-							["level"] = 60,
 							["classEnglish"] = "HUNTER",
-							["name"] = "Бубкагоп",
 							["class"] = "Охотница",
+							["name"] = "Бубкагоп",
+							["level"] = 60,
 						},
 					},
 					["class"] = "Маг",
@@ -2983,7 +3043,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 719,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 59,
-				}, -- [76]
+				}, -- [78]
 				{
 					["GUID"] = "Creature-0-4459-309-24372-11374-000CAB448C",
 					["leftMoney"] = 0,
@@ -3010,7 +3070,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4459-309-24372-11350-00052B448C",
 					["mobCount"] = 0,
 					["enteredLevel"] = 59,
-				}, -- [77]
+				}, -- [79]
 				{
 					["leftMoney"] = 0,
 					["group"] = {
@@ -3032,7 +3092,7 @@ NITdatabase = {
 					["classEnglish"] = "MAGE",
 					["mobCount"] = 0,
 					["enteredLevel"] = 59,
-				}, -- [78]
+				}, -- [80]
 				{
 					["GUID"] = "Creature-0-4459-309-24372-15043-0004AB448C",
 					["leftMoney"] = 0,
@@ -3057,22 +3117,22 @@ NITdatabase = {
 					["classEnglish"] = "MAGE",
 					["mobCount"] = 0,
 					["enteredLevel"] = 59,
-				}, -- [79]
+				}, -- [81]
 				{
 					["GUID"] = "Creature-0-4460-309-24342-11374-00062B3A93",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["level"] = 54,
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Мадина"] = {
-							["class"] = "Маг",
 							["classEnglish"] = "MAGE",
-							["name"] = "Мадина",
 							["level"] = 59,
+							["name"] = "Мадина",
+							["class"] = "Маг",
 						},
 					},
 					["class"] = "Маг",
@@ -3097,22 +3157,22 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4460-309-24342-11350-00012B3A93",
 					["mobCount"] = 26,
 					["enteredLevel"] = 59,
-				}, -- [80]
+				}, -- [82]
 				{
 					["GUID"] = "Creature-0-4460-309-23588-15043-0000AB3484",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Оод"] = {
-							["class"] = "Друид",
 							["classEnglish"] = "DRUID",
-							["name"] = "Оод",
 							["level"] = 54,
+							["name"] = "Оод",
+							["class"] = "Друид",
 						},
 						["Мадина"] = {
-							["class"] = "Маг",
 							["classEnglish"] = "MAGE",
-							["name"] = "Мадина",
 							["level"] = 59,
+							["name"] = "Мадина",
+							["class"] = "Маг",
 						},
 					},
 					["class"] = "Маг",
@@ -3135,22 +3195,22 @@ NITdatabase = {
 					["classEnglish"] = "MAGE",
 					["mobCount"] = 29,
 					["enteredLevel"] = 59,
-				}, -- [81]
+				}, -- [83]
 				{
 					["GUID"] = "Creature-0-4458-309-6789-15043-00022A34D2",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Мадина"] = {
-							["classEnglish"] = "MAGE",
 							["class"] = "Маг",
-							["name"] = "Мадина",
 							["level"] = 59,
+							["name"] = "Мадина",
+							["classEnglish"] = "MAGE",
 						},
 						["Оод"] = {
-							["classEnglish"] = "DRUID",
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["level"] = 54,
+							["name"] = "Оод",
+							["classEnglish"] = "DRUID",
 						},
 					},
 					["class"] = "Маг",
@@ -3175,22 +3235,22 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4458-309-6789-11350-00082A34D2",
 					["GUIDSource"] = "mouseover",
 					["mergeSource"] = "nameplate",
-				}, -- [82]
+				}, -- [84]
 				{
 					["GUID"] = "Creature-0-5571-309-11206-15043-000A2A2CE8",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Мадина"] = {
-							["level"] = 59,
 							["class"] = "Маг",
-							["name"] = "Мадина",
 							["classEnglish"] = "MAGE",
+							["name"] = "Мадина",
+							["level"] = 59,
 						},
 						["Оод"] = {
-							["level"] = 54,
 							["class"] = "Друид",
-							["name"] = "Оод",
 							["classEnglish"] = "DRUID",
+							["name"] = "Оод",
+							["level"] = 54,
 						},
 					},
 					["class"] = "Маг",
@@ -3215,7 +3275,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-5571-309-11206-11350-0006AA2CE7",
 					["GUIDSource"] = "mouseover",
 					["mergeSource"] = "nameplate",
-				}, -- [83]
+				}, -- [85]
 				{
 					["leftMoney"] = 0,
 					["group"] = {
@@ -3237,7 +3297,7 @@ NITdatabase = {
 					["classEnglish"] = "MAGE",
 					["mobCount"] = 0,
 					["enteredLevel"] = 58,
-				}, -- [84]
+				}, -- [86]
 				{
 					["GUID"] = "Creature-0-4458-309-16549-11350-0001A73F7B",
 					["leftMoney"] = 0,
@@ -3264,7 +3324,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4458-309-16549-11350-0000A73F7B",
 					["mobCount"] = 0,
 					["enteredLevel"] = 58,
-				}, -- [85]
+				}, -- [87]
 				{
 					["leftMoney"] = 0,
 					["group"] = {
@@ -3286,7 +3346,7 @@ NITdatabase = {
 					["classEnglish"] = "MAGE",
 					["mobCount"] = 0,
 					["enteredLevel"] = 58,
-				}, -- [86]
+				}, -- [88]
 				{
 					["GUID"] = "Creature-0-4457-309-6057-11350-0001268EF9",
 					["leftMoney"] = 0,
@@ -3313,7 +3373,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4457-309-6057-11350-0002268EF9",
 					["GUIDSource"] = "combatLog",
 					["mergeSource"] = "nameplate",
-				}, -- [87]
+				}, -- [89]
 				{
 					["GUID"] = "Creature-0-5571-309-26072-11350-0000A678C5",
 					["leftMoney"] = 0,
@@ -3340,22 +3400,22 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-5571-309-26072-11350-0000A678C4",
 					["GUIDSource"] = "nameplate1",
 					["mergeSource"] = "nameplate",
-				}, -- [88]
+				}, -- [90]
 				{
 					["GUID"] = "Creature-0-4480-309-4417-15043-000A26682C",
 					["leftMoney"] = 0,
 					["group"] = {
 						["Мадина"] = {
-							["class"] = "Маг",
 							["classEnglish"] = "MAGE",
-							["name"] = "Мадина",
 							["level"] = 58,
+							["name"] = "Мадина",
+							["class"] = "Маг",
 						},
 						["Бокас"] = {
-							["class"] = "Воин",
 							["classEnglish"] = "WARRIOR",
-							["name"] = "Бокас",
 							["level"] = 21,
+							["name"] = "Бокас",
+							["class"] = "Воин",
 						},
 					},
 					["class"] = "Маг",
@@ -3380,21 +3440,21 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4480-309-4417-11350-000626682C",
 					["GUIDSource"] = "nameplate1",
 					["mergeSource"] = "nameplate",
-				}, -- [89]
+				}, -- [91]
 				{
 					["leftMoney"] = 0,
 					["group"] = {
 						["Мадина"] = {
-							["class"] = "Маг",
 							["classEnglish"] = "MAGE",
-							["name"] = "Мадина",
 							["level"] = 58,
+							["name"] = "Мадина",
+							["class"] = "Маг",
 						},
 						["Бокас"] = {
-							["class"] = "Воин",
 							["classEnglish"] = "WARRIOR",
-							["name"] = "Бокас",
 							["level"] = 21,
+							["name"] = "Бокас",
+							["class"] = "Воин",
 						},
 					},
 					["class"] = "Маг",
@@ -3415,7 +3475,7 @@ NITdatabase = {
 					["classEnglish"] = "MAGE",
 					["mobCount"] = 0,
 					["enteredLevel"] = 58,
-				}, -- [90]
+				}, -- [92]
 				{
 					["GUID"] = "Creature-0-4460-309-5834-15043-0003A655BF",
 					["leftMoney"] = 0,
@@ -3442,7 +3502,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4460-309-5834-11350-0002A655BE",
 					["mobCount"] = 0,
 					["mergeSource"] = "nameplate",
-				}, -- [91]
+				}, -- [93]
 				{
 					["leftMoney"] = 0,
 					["group"] = {
@@ -3464,7 +3524,7 @@ NITdatabase = {
 					["classEnglish"] = "MAGE",
 					["mobCount"] = 0,
 					["enteredLevel"] = 58,
-				}, -- [92]
+				}, -- [94]
 				{
 					["GUID"] = "Creature-0-4457-309-766-15043-0006A6380A",
 					["leftMoney"] = 0,
@@ -3491,7 +3551,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4457-309-766-11350-000AA63809",
 					["mobCount"] = 0,
 					["enteredLevel"] = 58,
-				}, -- [93]
+				}, -- [95]
 				{
 					["GUID"] = "Creature-0-5571-309-6782-11371-0005A600A1",
 					["leftMoney"] = 0,
@@ -3518,7 +3578,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-5571-309-6782-11350-0002A600A1",
 					["GUIDSource"] = "mouseover",
 					["mergeSource"] = "nameplate",
-				}, -- [94]
+				}, -- [96]
 				{
 					["GUID"] = "Creature-0-4479-34-1728-1707-0001A5E7C9",
 					["leftMoney"] = 0,
@@ -3543,7 +3603,7 @@ NITdatabase = {
 					["classEnglish"] = "MAGE",
 					["mobCount"] = 0,
 					["enteredLevel"] = 58,
-				}, -- [95]
+				}, -- [97]
 			},
 		},
 	},

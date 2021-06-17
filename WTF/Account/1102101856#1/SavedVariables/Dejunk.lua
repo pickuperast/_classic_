@@ -5,13 +5,13 @@ __DEJUNK_SAVED_VARIABLES__ = {
 		["version"] = 1,
 	},
 	["Profiles"] = {
-		["Patchaksha-Patchwerk"] = {
+		["Luciaksha-Lucifron"] = {
 			["version"] = 3,
 		},
 		["Venoxaksha-Venoxis"] = {
 			["version"] = 3,
 		},
-		["Luciaksha-Lucifron"] = {
+		["Patchaksha-Patchwerk"] = {
 			["version"] = 3,
 		},
 	},

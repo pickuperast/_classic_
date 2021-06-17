@@ -1,15 +1,1 @@
 Version: 1
-Frame: AtlasLoot_GUI-Frame
-FrameLevel: 1
-Anchor: TOPRIGHT
-X: 0
-Y: -2
-W: 920
-H: 600
-Frame: NITInstanceFrame
-FrameLevel: 1
-Anchor: CENTER
-X: -15
-Y: -7
-W: 620
-H: 501

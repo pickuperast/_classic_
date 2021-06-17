@@ -14,10 +14,12 @@ VER 3 0000000000000004 "4" "INV_MISC_QUESTIONMARK"
 /use Сырая скользкокожая скумбрия
 END
 VER 3 0000000000000003 "6" "135768"
+/cast Слиться с тенью
 /lie
 /logout
 END
 VER 3 0000000000000002 "7" "INV_MISC_QUESTIONMARK"
+/cast Слиться с тенью
 /lie
 /quit
 END

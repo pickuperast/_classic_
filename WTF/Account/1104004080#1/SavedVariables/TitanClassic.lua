@@ -1,13 +1,13 @@
 
 TitanAll = {
 	["TimerDualSpec"] = 2,
-	["Silenced"] = false,
-	["GlobalProfileUse"] = false,
 	["TimerLDB"] = 2,
+	["GlobalProfileUse"] = false,
+	["TimerAdjust"] = 1,
 	["GlobalProfileName"] = "<>",
 	["TimerVehicle"] = 1,
 	["TimerPEW"] = 4,
-	["TimerAdjust"] = 1,
+	["Silenced"] = false,
 }
 TitanSettings = {
 	["Players"] = {
@@ -1871,27 +1871,6 @@ TitanSettings = {
 					["DisplayOnRightSide"] = true,
 					["ShowLabelText"] = true,
 				},
-				["AtlasLoot"] = {
-					["ShowColoredText"] = false,
-					["ShowIcon"] = true,
-					["ShowRegularText"] = false,
-					["DisplayOnRightSide"] = true,
-					["ShowLabelText"] = true,
-				},
-				["Clock"] = {
-					["HideMapTime"] = false,
-					["ShowColoredText"] = false,
-					["DisplayOnRightSide"] = 1,
-					["OffsetHour"] = 0,
-					["HideGameTimeMinimap"] = false,
-					["Format"] = "12H",
-					["TimeMode"] = "Server",
-					["ShowLabelText"] = false,
-				},
-				["AutoHide_AuxBar"] = {
-					["DisplayOnRightSide"] = 1,
-					["ForceBar"] = "AuxBar",
-				},
 				["Gold"] = {
 					["Initialized"] = true,
 					["MergeServers"] = false,
@@ -1912,6 +1891,29 @@ TitanSettings = {
 					["ShowCoinNone"] = false,
 					["ViewAll"] = true,
 					["UseSeperatorComma"] = true,
+				},
+				["Clock"] = {
+					["HideMapTime"] = false,
+					["ShowColoredText"] = false,
+					["DisplayOnRightSide"] = 1,
+					["OffsetHour"] = 0,
+					["HideGameTimeMinimap"] = false,
+					["Format"] = "12H",
+					["TimeMode"] = "Server",
+					["ShowLabelText"] = false,
+				},
+				["AutoHide_AuxBar"] = {
+					["DisplayOnRightSide"] = 1,
+					["ForceBar"] = "AuxBar",
+				},
+				["Volume"] = {
+					["OverrideBlizzSettings"] = false,
+					["VolumeMaster"] = 1,
+					["VolumeSFX"] = 0.5,
+					["VolumeDialog"] = 0.5,
+					["DisplayOnRightSide"] = 1,
+					["VolumeMusic"] = 0.5,
+					["VolumeAmbience"] = 0.5,
 				},
 				["Performance"] = {
 					["ShowAddonMemory"] = false,
@@ -2043,14 +2045,12 @@ TitanSettings = {
 					["ShowCoordsOnMap"] = true,
 					["ShowLocOnMiniMap"] = 1,
 				},
-				["Volume"] = {
-					["OverrideBlizzSettings"] = false,
-					["VolumeMaster"] = 1,
-					["VolumeSFX"] = 0.5,
-					["VolumeDialog"] = 0.5,
-					["DisplayOnRightSide"] = 1,
-					["VolumeMusic"] = 0.5,
-					["VolumeAmbience"] = 0.5,
+				["AtlasLoot"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = true,
+					["ShowRegularText"] = false,
+					["DisplayOnRightSide"] = true,
+					["ShowLabelText"] = true,
 				},
 				["BagnonLauncher"] = {
 					["ShowColoredText"] = false,
@@ -2068,7 +2068,7 @@ TitanSettings = {
 				},
 			},
 			["Register"] = {
-				["ToBeNum"] = 22,
+				["ToBeNum"] = 23,
 				["TitanPlugins"] = {
 					["Repair"] = {
 						["tooltipTextFunction"] = "TitanPanelRepairButton_GetTooltipText",
@@ -2315,6 +2315,32 @@ TitanSettings = {
 							["label"] = "",
 						},
 					},
+					["Clock"] = {
+						["tooltipTextFunction"] = "TitanPanelClockButton_GetTooltipText",
+						["id"] = "Clock",
+						["menuText"] = "Часы",
+						["savedVariables"] = {
+							["OffsetHour"] = 0,
+							["ShowColoredText"] = false,
+							["DisplayOnRightSide"] = 1,
+							["HideMapTime"] = false,
+							["HideGameTimeMinimap"] = false,
+							["Format"] = "12H",
+							["TimeMode"] = "Server",
+							["ShowLabelText"] = false,
+						},
+						["controlVariables"] = {
+							["ShowColoredText"] = true,
+							["ShowIcon"] = false,
+							["ShowRegularText"] = false,
+							["DisplayOnRightSide"] = true,
+							["ShowLabelText"] = true,
+						},
+						["version"] = "1.2.8.11306",
+						["category"] = "Built-ins",
+						["buttonTextFunction"] = "TitanPanelClockButton_GetButtonText",
+						["tooltipTitle"] = "Часы",
+					},
 					["BigWigs"] = {
 						["notes"] = "",
 						["iconWidth"] = 16,
@@ -2378,7 +2404,7 @@ TitanSettings = {
 							["DisplayOnRightSide"] = true,
 							["ShowLabelText"] = true,
 						},
-						["version"] = "v4.10.40",
+						["version"] = "v4.10.42",
 						["buttonTextFunction"] = "TitanLDBShowText",
 						["ldb"] = "launcher",
 						["icon"] = "Interface\\Addons\\TradeSkillMaster\\Media\\TSM_Icon2",
@@ -2413,37 +2439,6 @@ TitanSettings = {
 						["buttonTextFunction"] = "TitanPanelRegenButton_GetButtonText",
 						["tooltipTitle"] = "Информация о регенерации",
 					},
-					["NIT"] = {
-						["notes"] = "",
-						["iconWidth"] = 16,
-						["id"] = "NIT",
-						["menuText"] = "NIT",
-						["savedVariables"] = {
-							["ShowColoredText"] = false,
-							["ShowIcon"] = true,
-							["ShowRegularText"] = false,
-							["DisplayOnRightSide"] = true,
-							["ShowLabelText"] = true,
-						},
-						["controlVariables"] = {
-							["ShowColoredText"] = false,
-							["ShowIcon"] = false,
-							["ShowRegularText"] = false,
-							["DisplayOnRightSide"] = true,
-							["ShowLabelText"] = true,
-						},
-						["buttonTextFunction"] = "TitanLDBShowText",
-						["ldb"] = "launcher",
-						["icon"] = "Interface\\AddOns\\NovaInstanceTracker\\Media\\portal",
-						["LDBVariables"] = {
-							["type"] = "launcher",
-							["name"] = "NIT",
-							["suffix"] = "",
-							["value"] = "",
-							["text"] = "NovaInstanceTracker",
-							["label"] = "NIT",
-						},
-					},
 					["Details"] = {
 						["notes"] = "",
 						["iconWidth"] = 16,
@@ -2473,6 +2468,37 @@ TitanSettings = {
 							["value"] = "",
 							["text"] = "",
 							["label"] = "",
+						},
+					},
+					["AtlasLoot"] = {
+						["notes"] = "\nThis is a LDB 'launcher' without .label using .text instead!!!!",
+						["iconWidth"] = 16,
+						["id"] = "AtlasLoot",
+						["menuText"] = "AtlasLoot",
+						["savedVariables"] = {
+							["ShowColoredText"] = false,
+							["ShowIcon"] = true,
+							["ShowRegularText"] = false,
+							["DisplayOnRightSide"] = true,
+							["ShowLabelText"] = true,
+						},
+						["controlVariables"] = {
+							["ShowColoredText"] = false,
+							["ShowIcon"] = false,
+							["ShowRegularText"] = false,
+							["DisplayOnRightSide"] = true,
+							["ShowLabelText"] = true,
+						},
+						["buttonTextFunction"] = "TitanLDBShowText",
+						["ldb"] = "launcher",
+						["icon"] = "Interface\\Icons\\INV_Box_01",
+						["LDBVariables"] = {
+							["type"] = "launcher",
+							["name"] = "AtlasLoot",
+							["suffix"] = "",
+							["value"] = "",
+							["text"] = "",
+							["label"] = "AtlasLoot",
 						},
 					},
 					["Dejunk"] = {
@@ -2507,11 +2533,11 @@ TitanSettings = {
 							["label"] = "",
 						},
 					},
-					["AtlasLoot"] = {
-						["notes"] = "\nThis is a LDB 'launcher' without .label using .text instead!!!!",
+					["NIT"] = {
+						["notes"] = "",
 						["iconWidth"] = 16,
-						["id"] = "AtlasLoot",
-						["menuText"] = "AtlasLoot",
+						["id"] = "NIT",
+						["menuText"] = "NIT",
 						["savedVariables"] = {
 							["ShowColoredText"] = false,
 							["ShowIcon"] = true,
@@ -2528,14 +2554,14 @@ TitanSettings = {
 						},
 						["buttonTextFunction"] = "TitanLDBShowText",
 						["ldb"] = "launcher",
-						["icon"] = "Interface\\Icons\\INV_Box_01",
+						["icon"] = "Interface\\AddOns\\NovaInstanceTracker\\Media\\portal",
 						["LDBVariables"] = {
 							["type"] = "launcher",
-							["name"] = "AtlasLoot",
+							["name"] = "NIT",
 							["suffix"] = "",
 							["value"] = "",
-							["text"] = "",
-							["label"] = "AtlasLoot",
+							["text"] = "NovaInstanceTracker",
+							["label"] = "NIT",
 						},
 					},
 					["AutoHide_AuxBar2"] = {
@@ -2626,31 +2652,37 @@ TitanSettings = {
 						["iconWidth"] = 32,
 						["tooltipTitle"] = "Контроль звука",
 					},
-					["Clock"] = {
-						["tooltipTextFunction"] = "TitanPanelClockButton_GetTooltipText",
-						["id"] = "Clock",
-						["menuText"] = "Часы",
+					["HealBot"] = {
+						["notes"] = "",
+						["iconWidth"] = 16,
+						["id"] = "HealBot",
+						["menuText"] = "HealBot",
 						["savedVariables"] = {
-							["OffsetHour"] = 0,
 							["ShowColoredText"] = false,
-							["DisplayOnRightSide"] = 1,
-							["HideMapTime"] = false,
-							["HideGameTimeMinimap"] = false,
-							["Format"] = "12H",
-							["TimeMode"] = "Server",
-							["ShowLabelText"] = false,
+							["ShowIcon"] = true,
+							["ShowRegularText"] = false,
+							["DisplayOnRightSide"] = true,
+							["ShowLabelText"] = true,
 						},
 						["controlVariables"] = {
-							["ShowColoredText"] = true,
+							["ShowColoredText"] = false,
 							["ShowIcon"] = false,
 							["ShowRegularText"] = false,
 							["DisplayOnRightSide"] = true,
 							["ShowLabelText"] = true,
 						},
-						["version"] = "1.2.8.11306",
-						["category"] = "Built-ins",
-						["buttonTextFunction"] = "TitanPanelClockButton_GetButtonText",
-						["tooltipTitle"] = "Часы",
+						["version"] = "2.5.1.7",
+						["buttonTextFunction"] = "TitanLDBShowText",
+						["ldb"] = "launcher",
+						["icon"] = "Interface\\AddOns\\HealBot\\Images\\HealBot",
+						["LDBVariables"] = {
+							["type"] = "launcher",
+							["name"] = "HealBot",
+							["suffix"] = "",
+							["value"] = "",
+							["text"] = "",
+							["label"] = "HealBot",
+						},
 					},
 				},
 				["ToBe"] = {
@@ -2668,7 +2700,6 @@ TitanSettings = {
 								["menuText"] = "AutoHide_Bar",
 								["tooltipTitle"] = "Авто-скрытие панели вкл/выкл",
 							},
-							["tooltipTitle"] = "Авто-скрытие панели вкл/выкл",
 						},
 						["notes"] = "",
 						["plugin_type"] = "TitanClassic",
@@ -2956,12 +2987,12 @@ TitanSettings = {
 								["icon"] = "Interface\\AddOns\\TitanClassicLocation\\TitanClassicLocation",
 								["tooltipTitle"] = "Информация о локации",
 							},
-							["subZoneText"] = "Зул'Гуруб",
-							["factionName"] = "",
-							["px"] = 0.5384175777435303,
-							["py"] = 0.1778006553649902,
-							["pvpType"] = "contested",
-							["zoneText"] = "Тернистая долина",
+							["subZoneText"] = "Торговый квартал",
+							["factionName"] = "Альянс",
+							["px"] = 0.5436745882034302,
+							["py"] = 0.6636027097702026,
+							["pvpType"] = "friendly",
+							["zoneText"] = "Штормград",
 						},
 						["notes"] = "",
 						["plugin_type"] = "TitanClassic",
@@ -3134,8 +3165,6 @@ TitanSettings = {
 								["icon"] = "Interface\\AddOns\\TitanClassicRepair\\TitanClassicRepair",
 								["tooltipTitle"] = "Информация о прочности амуниции",
 							},
-							["tooltipText"] = "|cffffd700Предметы|r|cffffffff\n|r|cffffffff16 / 45|r |cff1eff00Общинный клобук	|cffe6e6e611|r.|cffc8602c31|r\n|cffffffff18 / 45|r |cff1eff00Общинное оплечье	|cffe6e6e610|r.|cffc8602c53|r\n|cffffffff20 / 70|r |cff1eff00Общинный доспех	|cffe6e6e619|r.|cffc8602c50|r\n|cffffffff12 / 25|r |cff1eff00Общинный кушак	|cffe6e6e65|r.|cffc8602c07|r\n|cffffffff16 / 55|r |cff1eff00Общинные штаны	|cffe6e6e615|r.|cffc8602c21|r\n|cffffffff11 / 35|r |cff1eff00Сапоги советника со знаком орла	|cffe6e6e611|r.|cffc8602c28|r\n|cffffffff9 / 25|r |cff1eff00Общинные наручи	|cffe6e6e66|r.|cffc8602c24|r\n|cffffffff11 / 25|r |cff1eff00Общинные перчатки	|cffe6e6e65|r.|cffc8602c46|r\n|cffffffff37 / 85|r |cff1eff00Каменноцветный посох	|cffe6e6e643|r.|cffc8602c68|r\n|cffffffff29 / 65|r |cff1eff00Общинный жезл	|cffe6e6e611|r.|cffc8602c52|r\n\n|cffffd700Скидки|r|cffffffff|r\n|cffffffffСтоимость ремонта (Стандарт): |r	|cffffd1001|r.|cffe6e6e639|r.|cffc8602c80|r\n|cffffffffСтоимость ремонта (Уважение): |r	|cffffd1001|r.|cffe6e6e625|r.|cffc8602c82|r\n|cffffffffRepair Cost (PVP Rank 3): |r	|cffffd1001|r.|cffe6e6e625|r.|cffc8602c82|r\n|cffffffffRepair Cost (Combined): |r	|cffffd1001|r.|cffe6e6e611|r.|cffc8602c84|r\n\n|cffffd700Стоимость|r\n|cffffffffВсего|r	|cffffd1001|r.|cffe6e6e639|r.|cffc8602c80|r\n\n|cffffffffТого что на персонаже|r	|cffffd1001|r.|cffe6e6e639|r.|cffc8602c80|r\n|cffffffffТого что в сумках|r	|cffa0a0a0Нет|r\n\n",
-							["tooltipTitle"] = "Информация о прочности амуниции",
 						},
 						["notes"] = "",
 						["plugin_type"] = "TitanClassic",
@@ -3209,13 +3238,15 @@ TitanSettings = {
 								["buttonTextFunction"] = "TitanPanelXPButton_GetButtonText",
 								["tooltipTitle"] = "Информация о опыте",
 							},
-							["totalTime"] = 171092.6991679035,
-							["initXP"] = 84,
-							["startSessionTime"] = 1622389641,
+							["totalTime"] = 186420.2170154308,
+							["initXP"] = 7654,
+							["startSessionTime"] = 1623525542,
 							["accumXP"] = 0,
-							["levelTime"] = 84925.69916790351,
-							["sessionTime"] = 1622389641,
+							["levelTime"] = 100253.2170154308,
+							["tooltipText"] = "Всего времени сыграно: 	|cffffffff2д 3ч 42м 32с|r\nВремя игры на этом уровне: 	|cffffffff1д 3ч 46м 25с|r\nВремя сыграно за эту сессию: 	|cffffffff12с|r\n\nВсего Опыта на этот уровень: 	|cffffffff494,000|r\nОтдых: 	|cffffffff741,000|r\nОпыта получено на этом уровне: 	|cffffffff7,654 (1.5%)|r\nОпыта нужно для уровня: 	|cffffffff486,346 (98.5%)|r\nОпыта получено за эту сессию: 	|cffffffff0|r\nУбийств до уровня (0 опыта полученно): 	|cffffffffНеизвестно|r\nОпыта до уровня (0 опыта в последний раз): 	|cffffffffНеизвестно|r\n\nОпыт/ч на этом уровне: 	|cffffffff276|r\nОпыт/ч за эту сессию: 	|cffffffff0|r\nВремя до уровня (темп уровня): 	|cffffffff73д 12ч 47м 23с|r\nВремя до уровня (темп сессии): 	|cffffffff0с|r",
 							["sessionXP"] = 0,
+							["sessionTime"] = 1623525542,
+							["tooltipTitle"] = "Информация о опыте",
 						},
 						["notes"] = "",
 						["plugin_type"] = "TitanClassic",
@@ -3275,6 +3306,50 @@ TitanSettings = {
 						["self"] = {
 							[0] = nil --[[ skipped userdata ]],
 							["registry"] = {
+								["notes"] = "",
+								["iconWidth"] = 16,
+								["id"] = "NIT",
+								["menuText"] = "NIT",
+								["savedVariables"] = {
+									["ShowColoredText"] = false,
+									["ShowIcon"] = true,
+									["ShowRegularText"] = false,
+									["DisplayOnRightSide"] = true,
+									["ShowLabelText"] = true,
+								},
+								["controlVariables"] = {
+									["ShowColoredText"] = false,
+									["ShowIcon"] = false,
+									["ShowRegularText"] = false,
+									["DisplayOnRightSide"] = true,
+									["ShowLabelText"] = true,
+								},
+								["buttonTextFunction"] = "TitanLDBShowText",
+								["ldb"] = "launcher",
+								["icon"] = "Interface\\AddOns\\NovaInstanceTracker\\Media\\portal",
+								["LDBVariables"] = {
+									["type"] = "launcher",
+									["name"] = "NIT",
+									["suffix"] = "",
+									["value"] = "",
+									["text"] = "NovaInstanceTracker",
+									["label"] = "NIT",
+								},
+							},
+						},
+						["notes"] = "",
+						["plugin_type"] = "LDB: 'launcher'",
+						["name"] = "NIT",
+						["category"] = "General",
+						["button"] = "TitanPanelNITButton",
+						["issue"] = "",
+						["isChild"] = false,
+						["status"] = "|cff20ff20Registered|r",
+					}, -- [17]
+					{
+						["self"] = {
+							[0] = nil --[[ skipped userdata ]],
+							["registry"] = {
 								["notes"] = "\nThis is a LDB 'launcher' without .label using .text instead!!!!",
 								["iconWidth"] = 16,
 								["id"] = "AtlasLoot",
@@ -3314,7 +3389,7 @@ TitanSettings = {
 						["issue"] = "",
 						["isChild"] = false,
 						["status"] = "|cff20ff20Registered|r",
-					}, -- [17]
+					}, -- [18]
 					{
 						["self"] = {
 							[0] = nil --[[ skipped userdata ]],
@@ -3358,7 +3433,7 @@ TitanSettings = {
 						["issue"] = "",
 						["isChild"] = false,
 						["status"] = "|cff20ff20Registered|r",
-					}, -- [18]
+					}, -- [19]
 					{
 						["self"] = {
 							[0] = nil --[[ skipped userdata ]],
@@ -3381,7 +3456,7 @@ TitanSettings = {
 									["DisplayOnRightSide"] = true,
 									["ShowLabelText"] = true,
 								},
-								["version"] = "v4.10.40",
+								["version"] = "v4.10.42",
 								["buttonTextFunction"] = "TitanLDBShowText",
 								["ldb"] = "launcher",
 								["icon"] = "Interface\\Addons\\TradeSkillMaster\\Media\\TSM_Icon2",
@@ -3403,7 +3478,7 @@ TitanSettings = {
 						["issue"] = "",
 						["isChild"] = false,
 						["status"] = "|cff20ff20Registered|r",
-					}, -- [19]
+					}, -- [20]
 					{
 						["self"] = {
 							[0] = nil --[[ skipped userdata ]],
@@ -3449,15 +3524,15 @@ TitanSettings = {
 						["issue"] = "",
 						["isChild"] = false,
 						["status"] = "|cff20ff20Registered|r",
-					}, -- [20]
+					}, -- [21]
 					{
 						["self"] = {
 							[0] = nil --[[ skipped userdata ]],
 							["registry"] = {
 								["notes"] = "",
 								["iconWidth"] = 16,
-								["id"] = "NIT",
-								["menuText"] = "NIT",
+								["id"] = "HealBot",
+								["menuText"] = "HealBot",
 								["savedVariables"] = {
 									["ShowColoredText"] = false,
 									["ShowIcon"] = true,
@@ -3472,28 +3547,29 @@ TitanSettings = {
 									["DisplayOnRightSide"] = true,
 									["ShowLabelText"] = true,
 								},
+								["version"] = "2.5.1.7",
 								["buttonTextFunction"] = "TitanLDBShowText",
 								["ldb"] = "launcher",
-								["icon"] = "Interface\\AddOns\\NovaInstanceTracker\\Media\\portal",
+								["icon"] = "Interface\\AddOns\\HealBot\\Images\\HealBot",
 								["LDBVariables"] = {
 									["type"] = "launcher",
-									["name"] = "NIT",
+									["name"] = "HealBot",
 									["suffix"] = "",
 									["value"] = "",
-									["text"] = "NovaInstanceTracker",
-									["label"] = "NIT",
+									["text"] = "",
+									["label"] = "HealBot",
 								},
 							},
 						},
 						["notes"] = "",
 						["plugin_type"] = "LDB: 'launcher'",
-						["name"] = "NIT",
+						["name"] = "HealBot",
 						["category"] = "General",
-						["button"] = "TitanPanelNITButton",
+						["button"] = "TitanPanelHealBotButton",
 						["issue"] = "",
 						["isChild"] = false,
 						["status"] = "|cff20ff20Registered|r",
-					}, -- [21]
+					}, -- [22]
 					{
 						["self"] = {
 							[0] = nil --[[ skipped userdata ]],
@@ -3538,7 +3614,7 @@ TitanSettings = {
 						["issue"] = "",
 						["isChild"] = false,
 						["status"] = "|cff20ff20Registered|r",
-					}, -- [22]
+					}, -- [23]
 				},
 				["Extras"] = {
 					{
@@ -3569,10 +3645,6 @@ TitanSettings = {
 						["id"] = "BagnonLauncher",
 						["num"] = 7,
 					}, -- [7]
-					{
-						["id"] = "HealBot",
-						["num"] = 8,
-					}, -- [8]
 				},
 			},
 		},

@@ -123,7 +123,11 @@ _detalhes_database = {
 			},
 			["main_frame_strata"] = "LOW",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["use_spark"] = true,
 			["y"] = -3.0517578125e-05,
+			["x"] = 3.0517578125e-05,
+			["font_face"] = "Friz Quadrata TT",
+			["font_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -135,10 +139,6 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
 			},
-			["x"] = 3.0517578125e-05,
-			["font_face"] = "Friz Quadrata TT",
-			["use_spark"] = true,
-			["font_size"] = 10,
 			["author"] = "Details! Team",
 			["main_frame_locked"] = false,
 			["arrow_anchor_y"] = 0,
@@ -151,7 +151,7 @@ _detalhes_database = {
 		["channel"] = "SELF",
 		["reverse"] = false,
 	},
-	["last_day"] = "28",
+	["last_day"] = "02",
 	["benchmark_db"] = {
 		["frame"] = {
 		},
@@ -164,7 +164,7 @@ _detalhes_database = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["combat_counter"] = 724,
+	["combat_counter"] = 736,
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -328,7 +328,7 @@ _detalhes_database = {
 		}, -- [1]
 	},
 	["character_data"] = {
-		["logons"] = 361,
+		["logons"] = 367,
 	},
 	["announce_cooldowns"] = {
 		["enabled"] = false,

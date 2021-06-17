@@ -1,0 +1,8 @@
+VER 3 0000000001000002 "ARMOR" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] or [button:2] Доспех скверны; Демонический доспех
+END
+VER 3 0000000001000001 "Q" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] or [button:2] Похищение души(4-й уровень); Похищение души(1-й уровень)
+END

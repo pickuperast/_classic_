@@ -14,9 +14,9 @@ DiminishDB = {
 					["iconPadding"] = 7,
 					["watchFriendly"] = false,
 					["disabledCategories"] = {
+						["Замораживающая ловушка"] = true,
 						["Дезориентирующий выстрел"] = true,
 						["Лик смерти"] = true,
-						["Замораживающая ловушка"] = true,
 						["Random roots"] = true,
 					},
 					["growDirection"] = "RIGHT",
@@ -48,9 +48,9 @@ DiminishDB = {
 					["iconPadding"] = 7,
 					["watchFriendly"] = true,
 					["disabledCategories"] = {
+						["Замораживающая ловушка"] = true,
 						["Дезориентирующий выстрел"] = true,
 						["Лик смерти"] = true,
-						["Замораживающая ловушка"] = true,
 						["Random roots"] = true,
 					},
 					["timerTextSize"] = 12,
@@ -67,9 +67,9 @@ DiminishDB = {
 					["iconPadding"] = 7,
 					["watchFriendly"] = false,
 					["disabledCategories"] = {
+						["Лик смерти"] = true,
 						["Дезориентирующий выстрел"] = true,
 						["Замораживающая ловушка"] = true,
-						["Лик смерти"] = true,
 						["Random roots"] = true,
 					},
 					["zones"] = {
@@ -93,9 +93,9 @@ DiminishDB = {
 					["iconPadding"] = 7,
 					["watchFriendly"] = false,
 					["disabledCategories"] = {
+						["Лик смерти"] = true,
 						["Дезориентирующий выстрел"] = true,
 						["Замораживающая ловушка"] = true,
-						["Лик смерти"] = true,
 						["Random roots"] = true,
 					},
 					["zones"] = {
@@ -118,9 +118,9 @@ DiminishDB = {
 					["anchorUIParent"] = false,
 					["iconPadding"] = 7,
 					["disabledCategories"] = {
+						["Замораживающая ловушка"] = true,
 						["Дезориентирующий выстрел"] = true,
 						["Лик смерти"] = true,
-						["Замораживающая ловушка"] = true,
 						["Random roots"] = true,
 					},
 					["growDirection"] = "LEFT",
@@ -144,9 +144,9 @@ DiminishDB = {
 					["iconPadding"] = 6,
 					["watchFriendly"] = true,
 					["disabledCategories"] = {
+						["Замораживающая ловушка"] = true,
 						["Дезориентирующий выстрел"] = true,
 						["Лик смерти"] = true,
-						["Замораживающая ловушка"] = true,
 						["Random roots"] = true,
 					},
 					["growDirection"] = "RIGHT",

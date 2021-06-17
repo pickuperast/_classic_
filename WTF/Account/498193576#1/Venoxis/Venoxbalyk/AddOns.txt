@@ -32,3 +32,5 @@ TitanClassic: disabled
 BigWigs_Core: enabled
 BigWigs_Options: enabled
 BigWigs_Plugins: enabled
+TradeSkillMaster_AppHelper: disabled
+TradeSkillMaster: disabled
